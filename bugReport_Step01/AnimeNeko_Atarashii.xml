@@ -1,0 +1,1583 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Managers address="heu" author="heulaoyoutiao">
+    <Manager Number="0">
+        <labels>
+            <label>bug</label>
+        </labels>
+        <bugID>Issue #1</bugID>
+        <url>https://github.com/AnimeNeko/Atarashii/issues/1</url>
+        <description>
+		what the title says, happened to me with my empty &quot;on hold&quot; list fix it fix it fix it basically just leaving myself a note so I don't forget
+	</description>
+        <title>Empty list crash+data reload</title>
+    </Manager>
+    <Manager Number="1">
+        <labels>
+            <label>None yet</label>
+        </labels>
+        <bugID>Issue #4</bugID>
+        <url>https://github.com/AnimeNeko/Atarashii/issues/4</url>
+        <description>
+		I highly suggest renaming the application, at least externally. &quot;Dreadful&quot; isn't exactly a positive word in English, and &quot;DreadfulMAL&quot; seems, to me at least, to sound more like a really bad application for MAL than something that's actually pretty awesome. Maybe it could be shortened to &quot;DMAL.&quot;
+	</description>
+        <title>Rename Application</title>
+    </Manager>
+    <Manager Number="2">
+        <labels>
+            <label>bug</label>
+        </labels>
+        <bugID>Issue #5</bugID>
+        <url>https://github.com/AnimeNeko/Atarashii/issues/5</url>
+        <description>
+		What the title says. I pulled out my Xoom to see the grid scaling, which works great btw, and it looks like the number in the cover panels is not where it should be, and only shows max one digit instead of two. Not sure if this affects other tablets or if it's isolated to my Xoom. The Xoom is running 4.0.4 for reference. Will investigate.
+	</description>
+        <title>Cover Panel counter wonked on Xoom/Tablets</title>
+    </Manager>
+    <Manager Number="3">
+        <labels>
+            <label>bug</label>
+        </labels>
+        <bugID>Issue #6</bugID>
+        <url>https://github.com/AnimeNeko/Atarashii/issues/6</url>
+        <description>
+		I just had a report of the app crashing due to being out of memory. I have a pretty good idea how to fix this though. (reuse bitmaps instead of creating new ones) On another note, I never thought I'd actually have to use these issue report things. They're handy.
+	</description>
+        <title>Out of Memory on really long lists</title>
+    </Manager>
+    <Manager Number="4">
+        <labels>
+            <label>bug</label>
+        </labels>
+        <bugID>Issue #8</bugID>
+        <url>https://github.com/AnimeNeko/Atarashii/issues/8</url>
+        <description>
+		As noted by this comment and this other comment, the application is only displaying the first two digits of three digit episode counts. This should be adjusted to handle really epic long series in some manner. It might be worth reducing the size of the count on the tiles. The focus should be on the title of the series anyway, and using smaller text would allow for very large numbers if needed.
+	</description>
+        <title>Allow Episode Display to Handle More Than Two Digits</title>
+    </Manager>
+    <Manager Number="5">
+        <labels>
+            <label>enhancement</label>
+        </labels>
+        <bugID>Issue #9</bugID>
+        <url>https://github.com/AnimeNeko/Atarashii/issues/9</url>
+        <description>
+		Atarashii needs to build out manga support so as to become a good daily-driver application for updates at least. This issue comprises several tasks: Building out a MangaRecord class Making the display grid generic Making the detail view generic If impossible to make things full generic, look to use inheritance so as to share as much code as possible between the items
+	</description>
+        <title>Manga Support</title>
+    </Manager>
+    <Manager Number="6">
+        <labels>
+            <label>enhancement</label>
+        </labels>
+        <bugID>Issue #10</bugID>
+        <url>https://github.com/AnimeNeko/Atarashii/issues/10</url>
+        <description>
+		I'm really bad at writing summaries, so I'll keep it short. The gist of this would be:  -Possibly a search action view thing in the ActionBar, the expandable one
+ -New search results
+ -New menu xml with basically just a &quot;Add to List&quot; button to be used in the DetailView if the record isn't on a list
+ -And of course, the backing code to make this work.
+ Hopefully some of the existing net code in place can be reused to leverage MAL's search api.
+	</description>
+        <title>Search/Add Support</title>
+    </Manager>
+    <Manager Number="7">
+        <labels>
+            <label>None yet</label>
+        </labels>
+        <bugID>Issue #11</bugID>
+        <url>https://github.com/AnimeNeko/Atarashii/issues/11</url>
+        <description>
+		As mentioned at this comment, the list switch options should probably be radio buttons rather than checkboxes. Radio buttons clearly indicate a single selection possibility while checkboxes are common for multiple selections. Personally, I think this might be a good use for scrollable tabs as described here.
+	</description>
+        <title>Make List Selection Items use Radio Buttons instead of Checkboxes</title>
+    </Manager>
+    <Manager Number="8">
+        <labels>
+            <label>enhancement</label>
+        </labels>
+        <bugID>Issue #12</bugID>
+        <url>https://github.com/AnimeNeko/Atarashii/issues/12</url>
+        <description>
+		There should be a popup menu on the cover grid that allows quick actions to be done without going into the detail view.
+	</description>
+        <title>Quick-Action popup for cover grid</title>
+    </Manager>
+    <Manager Number="9">
+        <labels>
+            <label>enhancement</label>
+        </labels>
+        <bugID>Issue #13</bugID>
+        <url>https://github.com/AnimeNeko/Atarashii/issues/13</url>
+        <description>
+		Instead of squishing credits and about into into the settings area, there should be a nice &quot;About&quot; view.
+	</description>
+        <title>Proper &quot;About&quot; View</title>
+    </Manager>
+    <Manager Number="10">
+        <labels>
+            <label>enhancement</label>
+        </labels>
+        <bugID>Issue #14</bugID>
+        <url>https://github.com/AnimeNeko/Atarashii/issues/14</url>
+        <description>
+		Someone requested somewhere (I think it was in a direct email to me) that we add back the traditional list rather than the beautiful grid of covers that we have (why?). Honestly, I can see this being pretty easy. If the option for this is enabled, we can just set the columns of grid view to 1 (effectively list view), and load an alternate layout, which I think would just be kind of the bottom part of the covers, and use a kind of zoom crop fill on the image to fill the horizontal space behind the panel. Effectively the traditional list view, but retain our modern styling. May or may not have this ready for 1.1, so not assigning the milestone.
+	</description>
+        <title>List Style Setting</title>
+    </Manager>
+    <Manager Number="11">
+        <labels>
+            <label>bug</label>
+        </labels>
+        <bugID>Issue #15</bugID>
+        <url>https://github.com/AnimeNeko/Atarashii/issues/15</url>
+        <description>
+		When doing an initial load of the application with the new Manga support, the application crashes: E/AndroidRuntime( 2122): FATAL EXCEPTION: AsyncTask #1
+E/AndroidRuntime( 2122): java.lang.RuntimeException: An error occured while executing doInBackground()
+E/AndroidRuntime( 2122):        at android.os.AsyncTask$3.done(AsyncTask.java:278)
+E/AndroidRuntime( 2122):        at java.util.concurrent.FutureTask$Sync.innerSetException(FutureTask.java:273)
+E/AndroidRuntime( 2122):        at java.util.concurrent.FutureTask.setException(FutureTask.java:124)
+E/AndroidRuntime( 2122):        at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:307)
+E/AndroidRuntime( 2122):        at java.util.concurrent.FutureTask.run(FutureTask.java:137)
+E/AndroidRuntime( 2122):        at android.os.AsyncTask$SerialExecutor$1.run(AsyncTask.java:208)
+E/AndroidRuntime( 2122):        at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1076)
+E/AndroidRuntime( 2122):        at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:569)
+E/AndroidRuntime( 2122):        at java.lang.Thread.run(Thread.java:856)
+E/AndroidRuntime( 2122): Caused by: android.view.ViewRootImpl$CalledFromWrongThreadException: Only the original thread that created a view hierarchy can touch its views.
+E/AndroidRuntime( 2122):        at android.view.ViewRootImpl.checkThread(ViewRootImpl.java:4039)
+E/AndroidRuntime( 2122):        at android.view.ViewRootImpl.invalidateChild(ViewRootImpl.java:722)
+E/AndroidRuntime( 2122):        at android.view.ViewRootImpl.invalidateChildInParent(ViewRootImpl.java:771)
+E/AndroidRuntime( 2122):        at android.view.ViewGroup.invalidateChild(ViewGroup.java:4005)
+E/AndroidRuntime( 2122):        at android.view.View.invalidate(View.java:8576)
+E/AndroidRuntime( 2122):        at android.view.View.invalidate(View.java:8527)
+E/AndroidRuntime( 2122):        at android.widget.ImageView.setImageDrawable(ImageView.java:364)
+E/AndroidRuntime( 2122):        at net.somethingdreadful.MAL.ImageDownloader$DecodeFileTask.doInBackground(ImageDownloader.java:297)
+E/AndroidRuntime( 2122):        at net.somethingdreadful.MAL.ImageDownloader$DecodeFileTask.doInBackground(ImageDownloader.java:1)
+E/AndroidRuntime( 2122):        at android.os.AsyncTask$2.call(AsyncTask.java:264)
+E/AndroidRuntime( 2122):        at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:305)
+E/AndroidRuntime( 2122):        ... 5 more
+ Confirmed on both the mangasupport and working branch since the first merge.
+	</description>
+        <title>Crash on Initial Sync</title>
+    </Manager>
+    <Manager Number="12">
+        <labels>
+            <label>None yet</label>
+        </labels>
+        <bugID>Issue #16</bugID>
+        <url>https://github.com/AnimeNeko/Atarashii/issues/16</url>
+        <description>
+		With more people wanting to contribute, it is important to pick a license for the software. I'm fine with nearly anything, the key is how much control is desired over the code. The field is wide open from the &quot;must keep the source open&quot; of the GPL to the much more loose BSD and Apache licenses. Keep in mind that choosing a license also affects what third-party components can be used within the source as some licenses can conflict. I don't expect a lot of problems, but it is something to consider. Also keep in mind that without copyright assignment, changing the license to the software gets more difficult as the number of contributors climb as every contributor must agree to the change or you'll need to strip out their contributions to make the change. This issue is to discuss licensing and hopefully reach a conclusion on the best license for the project to use.
+	</description>
+        <title>Software License</title>
+    </Manager>
+    <Manager Number="13">
+        <labels>
+            <label>None yet</label>
+        </labels>
+        <bugID>Issue #17</bugID>
+        <url>https://github.com/AnimeNeko/Atarashii/issues/17</url>
+        <description>
+		As of 2089e25 there is now a more detailed contributor screen. Sure it's a stopgap for now, but we can reuse the summary blurb in a less temporary screen later. So: I tentatively filled in the contributor_name_Motokochan and contributor_summary_Motokochan strings for you, but feel free to change them to whatever you'd like, as I would like you to be credited in the app as you would like to be. Also the new setup of name/summary for each contributor means if more people contribute in the future (like the person that is working on search) it's easy to just add a new credit for them.
+	</description>
+        <title>Write a summary for yourself</title>
+    </Manager>
+    <Manager Number="14">
+        <labels>
+            <label>bug</label>
+        </labels>
+        <bugID>Issue #18</bugID>
+        <url>https://github.com/AnimeNeko/Atarashii/issues/18</url>
+        <description>
+		Log: java.lang.RuntimeException: Unable to start activity ComponentInfo{net.somethingdreadful.MAL.beta/net.somethingdreadful.MAL.Home}: java.lang.NullPointerException at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2182) at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2207) at android.app.ActivityThread.access$600(ActivityThread.java:139) at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1205) at android.os.Handler.dispatchMessage(Handler.java:99) at android.os.Looper.loop(Looper.java:137) at android.app.ActivityThread.main(ActivityThread.java:4899) at java.lang.reflect.Method.invokeNative(Native Method) at java.lang.reflect.Method.invoke(Method.java:511) at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:791) at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:558) at dalvik.system.NativeStart.main(Native Method) Caused by: java.lang.NullPointerException at net.somethingdreadful.MAL.Home.onCreate(Home.java:73) at android.app.Activity.performCreate(Activity.java:5008) at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1079) at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2136) ... 11 more Last I checked, it's pointing to something that shouldn't be able to throw an NPE, but I probably just missed something in my not so awake state last night.
+	</description>
+        <title>Crash on startup</title>
+    </Manager>
+    <Manager Number="15">
+        <labels>
+            <label>None yet</label>
+        </labels>
+        <bugID>Issue #19</bugID>
+        <url>https://github.com/AnimeNeko/Atarashii/issues/19</url>
+        <description>
+		According to a review that was left, deleting an entry on the MAL site will not reflect within the app, even after a sync. This behaviour does in fact make sense, as we don't currently check against the database to see if anything is missing, only if the entries don't exist or have been updated. Going to fix this for 1.2. Maybe I'll even push a hotfix for 1.1 with this fix.
+	</description>
+        <title>Deleting entry on MAL does not reflect within the app</title>
+    </Manager>
+    <Manager Number="16">
+        <labels>
+            <label>invalid</label>
+        </labels>
+        <bugID>Issue #20</bugID>
+        <url>https://github.com/AnimeNeko/Atarashii/issues/20</url>
+        <description>
+		Maybe I missed this, but it looks like the app doesn't set the &quot;completed&quot; date when completing a series, although it does set the status correctly. When marking the item as completed in the application by using the various progress update dialogs (+1 quick popup, edit progress dialog, mark completed), the application should also mark the item as completed on the current date.
+	</description>
+        <title>Set &quot;Completed&quot; date when completing an item</title>
+    </Manager>
+    <Manager Number="17">
+        <labels>
+            <label>enhancement</label>
+        </labels>
+        <bugID>Issue #21</bugID>
+        <url>https://github.com/AnimeNeko/Atarashii/issues/21</url>
+        <description>
+		Just something that's been on the back of my mind, but with the ActionBarSherlock extension to the support library, supporting older devices might actually be doable. I think the only feature that wouldn't carry over would be cover actions, due to Popup Menu not being introduced to the api until 3.x. A simple SDK version check at runtime though and we could just gracefully disable it if it isn't available. So yeah, I'll probably get around to doing this eventually, not setting a milestone yet.
+	</description>
+        <title>Support Android 2.x devices</title>
+    </Manager>
+    <Manager Number="18">
+        <labels>
+            <label>enhancement</label>
+        </labels>
+        <bugID>Issue #22</bugID>
+        <url>https://github.com/AnimeNeko/Atarashii/issues/22</url>
+        <description>
+		Atarashii! should sport the navigation drawer as a means of navigating around the app to new sections. For example, the current section of the app would be &quot;My List&quot;. We can then add sections such as &quot;Next Season&quot;, &quot;Popular&quot;, and so on. But this issue is for adding the navigation drawer itself and related framework we might need.
+	</description>
+        <title>Navigation Drawer Support</title>
+    </Manager>
+    <Manager Number="19">
+        <labels>
+            <label>bug</label>
+        </labels>
+        <bugID>Issue #23</bugID>
+        <url>https://github.com/AnimeNeko/Atarashii/issues/23</url>
+        <description>
+		The new cover height calculation code introduced in 9dfeabe appears to be broken on Android 2.3. My best guess is a miscalculation between dp and px units.
+	</description>
+        <title>Cover size broken on 2.3</title>
+    </Manager>
+    <Manager Number="20">
+        <labels>
+            <label>enhancement</label>
+        </labels>
+        <bugID>Issue #24</bugID>
+        <url>https://github.com/AnimeNeko/Atarashii/issues/24</url>
+        <description>
+		Instead of relying on a &quot;back&quot; operation to close the progress dialog and set to the value in the picker, it should have a proper set of Cancel/Set buttons. The default action on backing out of the dialog should be to ignore any change by the user.
+	</description>
+        <title>Progress Dialog Buttons</title>
+    </Manager>
+    <Manager Number="21">
+        <labels>
+            <label>None yet</label>
+        </labels>
+        <bugID>Issue #25</bugID>
+        <url>https://github.com/AnimeNeko/Atarashii/issues/25</url>
+        <description>
+		Though it's nearly done, dropping it here as a reminder to myself. Left to do as of opening: -Better layout for &quot;Progress&quot; -Rating bar for score, possibly as part of &quot;MAL Stats&quot; -Stylize the dialogs to look like the cards
+	</description>
+        <title>Details Card Layout</title>
+    </Manager>
+    <Manager Number="22">
+        <labels>
+            <label>enhancement</label>
+        </labels>
+        <bugID>Issue #26</bugID>
+        <url>https://github.com/AnimeNeko/Atarashii/issues/26</url>
+        <description>
+		We should get and display more info from the API, such as alternative names, etc. Basically: -Upgrade the database to take more information -Store and display more information as new cards
+	</description>
+        <title>Get/Display more Info</title>
+    </Manager>
+    <Manager Number="23">
+        <labels>
+            <label>enhancement</label>
+        </labels>
+        <bugID>Issue #27</bugID>
+        <url>https://github.com/AnimeNeko/Atarashii/issues/27</url>
+        <description>
+		As a future enhancement, we should look into better handling of connectivity issues. Namely, what do we do when there is an issue with getting a connection and what do we do when the unofficial API is having issues/returning bad data? My thought is to make all changes go into a &quot;queue&quot; before running the action against the API. This will allow us to break the network connection handling into its own area where we can do things like not updating if there is no data connection, or retaining changes until we get a good response back from the API. As a bonus, handling changes in this way would allow a better &quot;offline mode&quot; for the application. Of course, cover art wouldn't be downloaded in an offline mode, but it is what it is and we can always offer a selection in settings/preferences to force-download all missing cover art at once.
+	</description>
+        <title>Gracefully Handle Connectivity Issues</title>
+    </Manager>
+    <Manager Number="24">
+        <labels>
+            <label>enhancement</label>
+        </labels>
+        <bugID>Issue #28</bugID>
+        <url>https://github.com/AnimeNeko/Atarashii/issues/28</url>
+        <description>
+		Currently, the application only shows chapters in the overview for manga. It should also show the volume progress if the title has more than one volume.
+	</description>
+        <title>Show Volumes Read on Manga List</title>
+    </Manager>
+    <Manager Number="25">
+        <labels>
+            <label>enhancement</label>
+        </labels>
+        <bugID>Issue #30</bugID>
+        <url>https://github.com/AnimeNeko/Atarashii/issues/30</url>
+        <description>
+		To better handle being offline, either that being not connected or the API having issues, the application should move to a &quot;queue&quot; style system where changes can be stored and then run through once connectivity is restored.
+	</description>
+        <title>Migrate to &quot;Queue&quot; Style Update System</title>
+    </Manager>
+    <Manager Number="26">
+        <labels>
+            <label>bug</label>
+        </labels>
+        <bugID>Issue #31</bugID>
+        <url>https://github.com/AnimeNeko/Atarashii/issues/31</url>
+        <description>
+		On older Android devices, the text on alert dialogs is the same or similar color as the background color of the dialog, making it impossible to read. See the attached image for an example. This was taken from the emulator running 2.3. This should be checked on devices that skin Android with lighter colors, such as HTC Sense to see if it has similar issues.
+	</description>
+        <title>Text Color in Alert Dialogs on Older Android Devices</title>
+    </Manager>
+    <Manager Number="27">
+        <labels>
+            <label>enhancement</label>
+        </labels>
+        <bugID>Issue #32</bugID>
+        <url>https://github.com/AnimeNeko/Atarashii/issues/32</url>
+        <description>
+		According to Google, newer clients should be using HttpURLConnection instead of the older Apache HTTP Client, as the latter is not being actively developed. Ref: http://android-developers.blogspot.com/2011/09/androids-http-clients.html
+	</description>
+        <title>Migrate to HttpURLConnection</title>
+    </Manager>
+    <Manager Number="28">
+        <labels>
+            <label>None yet</label>
+        </labels>
+        <bugID>Issue #33</bugID>
+        <url>https://github.com/AnimeNeko/Atarashii/issues/33</url>
+        <description>
+		Adjusting the rating for the anime/manga item should trigger a save action. Consider making the rating adjustment a dialog, as it's way too easy to inadvertently change the rating when scrolling the details. (Implement as radio buttons or dropdown with descriptive text?)
+	</description>
+        <title>Save Item Rating</title>
+    </Manager>
+    <Manager Number="29">
+        <labels>
+            <label>enhancement</label>
+        </labels>
+        <bugID>Issue #34</bugID>
+        <url>https://github.com/AnimeNeko/Atarashii/issues/34</url>
+        <description>
+		In the details page, we should add the ability to delete an item from the MAL list. Ideally, it would be an item on the action bar. Also, it should have a confirmation dialog to confirm as it's a destructive operation.
+	</description>
+        <title>Add Delete Item Feature</title>
+    </Manager>
+    <Manager Number="30">
+        <labels>
+            <label>enhancement</label>
+        </labels>
+        <bugID>Issue #35</bugID>
+        <url>https://github.com/AnimeNeko/Atarashii/issues/35</url>
+        <description>
+		The application should allow you to &quot;log out&quot;, clearing the database and going back to the login screen. Potentially, this could be placed in the settings area, not the menu. If it will be in the menu, it should have a confirmation dialog to prevent accidental use.
+	</description>
+        <title>Logout Feature</title>
+    </Manager>
+    <Manager Number="31">
+        <labels>
+            <label>bug</label>
+        </labels>
+        <bugID>Issue #38</bugID>
+        <url>https://github.com/AnimeNeko/Atarashii/issues/38</url>
+        <description>
+		This error occurs occasionally on launching the application on Android 2.x. I'm currently not sure of the cause. E/AndroidRuntime(  365): FATAL EXCEPTION: AsyncTask #2
+E/AndroidRuntime(  365): java.lang.RuntimeException: An error occured while executing doInBackground()
+E/AndroidRuntime(  365):        at android.os.AsyncTask$3.done(AsyncTask.java:200)
+E/AndroidRuntime(  365):        at java.util.concurrent.FutureTask$Sync.innerSetException(FutureTask.java:273)
+E/AndroidRuntime(  365):        at java.util.concurrent.FutureTask.setException(FutureTask.java:124)
+E/AndroidRuntime(  365):        at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:307)
+E/AndroidRuntime(  365):        at java.util.concurrent.FutureTask.run(FutureTask.java:137)
+E/AndroidRuntime(  365):        at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1068)
+E/AndroidRuntime(  365):        at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:561)
+E/AndroidRuntime(  365):        at java.lang.Thread.run(Thread.java:1096)
+E/AndroidRuntime(  365): Caused by: java.lang.IllegalStateException: get field slot from row 0 col -1 failed
+E/AndroidRuntime(  365):        at android.database.CursorWindow.getLong_native(Native Method)
+E/AndroidRuntime(  365):        at android.database.CursorWindow.getInt(CursorWindow.java:434)
+E/AndroidRuntime(  365):        at android.database.AbstractWindowedCursor.getInt(AbstractWindowedCursor.java:93)
+E/AndroidRuntime(  365):        at net.somethingdreadful.MAL.MALManager.getAnimeRecordsFromDB(MALManager.java:450)
+E/AndroidRuntime(  365):        at net.somethingdreadful.MAL.ItemGridFragment$getAnimeRecordsTask.doInBackground(ItemGridFragment.java:210)
+E/AndroidRuntime(  365):        at net.somethingdreadful.MAL.ItemGridFragment$getAnimeRecordsTask.doInBackground(ItemGridFragment.java:1)
+E/AndroidRuntime(  365):        at android.os.AsyncTask$2.call(AsyncTask.java:185)
+E/AndroidRuntime(  365):        at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:305)
+E/AndroidRuntime(  365):        ... 4 more
+	</description>
+        <title>Crash in AsyncTask Database</title>
+    </Manager>
+    <Manager Number="32">
+        <labels>
+            <label>bug</label>
+        </labels>
+        <bugID>Issue #39</bugID>
+        <url>https://github.com/AnimeNeko/Atarashii/issues/39</url>
+        <description>
+		When running the application, if you go into the details page for an item which does not have a stored synopsis, the application will attempt to download the synopsis details. If you back out of the details view before the synopsis is loaded into the card, the application will crash. This can be reproduced consistently. The easiest solution might be to check if the card still exists, and only attempt a display update if it does. Relevant trace: E/AndroidRuntime(  320): FATAL EXCEPTION: main
+E/AndroidRuntime(  320): java.lang.NullPointerException
+E/AndroidRuntime(  320):        at net.somethingdreadful.MAL.DetailView$getDetailsTask.onPostExecute(DetailView.java:519)
+E/AndroidRuntime(  320):        at net.somethingdreadful.MAL.DetailView$getDetailsTask.onPostExecute(DetailView.java:1)
+E/AndroidRuntime(  320):        at android.os.AsyncTask.finish(AsyncTask.java:417)
+E/AndroidRuntime(  320):        at android.os.AsyncTask.access$300(AsyncTask.java:127)
+E/AndroidRuntime(  320):        at android.os.AsyncTask$InternalHandler.handleMessage(AsyncTask.java:429)
+E/AndroidRuntime(  320):        at android.os.Handler.dispatchMessage(Handler.java:99)
+E/AndroidRuntime(  320):        at android.os.Looper.loop(Looper.java:123)
+E/AndroidRuntime(  320):        at android.app.ActivityThread.main(ActivityThread.java:4627)
+E/AndroidRuntime(  320):        at java.lang.reflect.Method.invokeNative(Native Method)
+E/AndroidRuntime(  320):        at java.lang.reflect.Method.invoke(Method.java:521)
+E/AndroidRuntime(  320):        at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:868)
+E/AndroidRuntime(  320):        at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:626)
+E/AndroidRuntime(  320):        at dalvik.system.NativeStart.main(Native Method)
+W/ActivityManager(   59):   Force finishing activity net.somethingdreadful.MAL/.Home
+	</description>
+        <title>Crash in getDetailsTask.onPostExecute</title>
+    </Manager>
+    <Manager Number="33">
+        <labels>
+            <label>bug</label>
+        </labels>
+        <bugID>Issue #40</bugID>
+        <url>https://github.com/AnimeNeko/Atarashii/issues/40</url>
+        <description>
+		On first launch of application on Google TV (Logitech Revue in this case), the application crashes after login with an NPE. The application can be re-launched and a sync done to get the application running. This currently isn't a huge priority as GoogleTV isn't a major consumer of the application, plus the error can be worked around. I'll look into this as I get time. Relevant log: FATAL EXCEPTION: AsyncTask #3
+java.lang.RuntimeException: An error occured while executing doInBackground()
+       at android.os.AsyncTask$3.done(AsyncTask.java:266)
+       at java.util.concurrent.FutureTask$Sync.innerSetException(FutureTask.java:273)
+       at java.util.concurrent.FutureTask.setException(FutureTask.java:124)
+       at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:307)
+       at java.util.concurrent.FutureTask.run(FutureTask.java:137)
+       at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1081)
+       at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:574)
+       at java.lang.Thread.run(Thread.java:1020)
+Caused by: java.lang.NullPointerException
+       at net.somethingdreadful.MAL.ItemGridFragment$getMangaRecordsTask.doInBackground(ItemGridFragment.java:285)
+       at net.somethingdreadful.MAL.ItemGridFragment$getMangaRecordsTask.doInBackground(ItemGridFragment.java:1)
+       at android.os.AsyncTask$2.call(AsyncTask.java:252)
+       at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:305)
+       ... 4 more
+	</description>
+        <title>Crash on First Launch</title>
+    </Manager>
+    <Manager Number="34">
+        <labels>
+            <label>None yet</label>
+        </labels>
+        <bugID>Issue #42</bugID>
+        <url>https://github.com/AnimeNeko/Atarashii/issues/42</url>
+        <description>
+		Some activities, when called, such as the &quot;first time init&quot; are not being set as the root activity, even when called with flags that should allow this. Because of this situation, you can use the back action to return to the calling activity, which creates a NPE. This needs to be investigated, as there are some NPEs being reported that seem to be from users doing this exact thing. With the new logout feature, this could get to be more of an issue.
+	</description>
+        <title>Activities Not Setting as Root</title>
+    </Manager>
+    <Manager Number="35">
+        <labels>
+            <label>enhancement</label>
+        </labels>
+        <bugID>Issue #46</bugID>
+        <url>https://github.com/AnimeNeko/Atarashii/issues/46</url>
+        <description>
+		I think that there is a little too much stuff in the action bar on a Nexus 7. Isn't there a way to make the tabs appear under the action bar (like in the screenshots in the Play Store)? Attached is a screenshot so you can see what I mean.
+	</description>
+        <title>Too much stuff in the action bar</title>
+    </Manager>
+    <Manager Number="36">
+        <labels>
+            <label>None yet</label>
+        </labels>
+        <bugID>Issue #47</bugID>
+        <url>https://github.com/AnimeNeko/Atarashii/issues/47</url>
+        <description>
+		In the app there are different names for the same list. These lists are affected: Watching (sometimes called In Progress) Plan To Watch (mostly called Planned) On Hold (sometimes called On-Hold) I suggest you use the same names as on MyAnimelist (the ones I mentioned first), but do what you want :D At least use the same name everywhere.
+	</description>
+        <title>Wrong list names</title>
+    </Manager>
+    <Manager Number="37">
+        <labels>
+            <label>invalid</label>
+        </labels>
+        <bugID>Issue #48</bugID>
+        <url>https://github.com/AnimeNeko/Atarashii/issues/48</url>
+        <description>
+		I am rather tempted to say that when user adds an anime to his list using Atarashii the Start Date field in MAL should be automagically set to today. Same would apply for people marking series as Completed, the End Date should be also set to today by default. Any thoughts on viablity of this change?
+	</description>
+        <title>Better handling of adding and marking series as completed</title>
+    </Manager>
+    <Manager Number="38">
+        <labels>
+            <label>None yet</label>
+        </labels>
+        <bugID>Issue #49</bugID>
+        <url>https://github.com/AnimeNeko/Atarashii/issues/49</url>
+        <description>
+		Jake Wharton him self said that the Library is only for supporting older devices as this app outside of it's target zone anyway why keep it?
+	</description>
+        <title>Being an app for 4.0+ drop usage of ActionBarSherlock</title>
+    </Manager>
+    <Manager Number="39">
+        <labels>
+            <label>None yet</label>
+        </labels>
+        <bugID>Issue #52</bugID>
+        <url>https://github.com/AnimeNeko/Atarashii/issues/52</url>
+        <description>
+		There have been several updates to our third-party libraries since they were added into the project. Our software should be updated to use the newer versions and the submodules will need to be updated to import the newer code for the build.
+	</description>
+        <title>Update ActionBarSherlock and android-numberpicker</title>
+    </Manager>
+    <Manager Number="40">
+        <labels>
+            <label>bug</label>
+        </labels>
+        <bugID>Issue #53</bugID>
+        <url>https://github.com/AnimeNeko/Atarashii/issues/53</url>
+        <description>
+		During some earlier work, getDatabaseName() was removed from from MALSqlHelper. This causes a crash on logout, as the logout process uses this method to get the name of the database.
+	</description>
+        <title>Logout Error - No Such Method getDatabaseName</title>
+    </Manager>
+    <Manager Number="41">
+        <labels>
+            <label>enhancement</label>
+        </labels>
+        <bugID>Issue #55</bugID>
+        <url>https://github.com/AnimeNeko/Atarashii/issues/55</url>
+        <description>
+		Browsing around, I found a few Android applications using a library called Retrofit. It looks pretty neat and handles a lot of the parsing for us. This library might be worth using for the benefit it brings in cleaner code.
+	</description>
+        <title>Use Retrofit for API Communication</title>
+    </Manager>
+    <Manager Number="42">
+        <labels>
+            <label>enhancement</label>
+        </labels>
+        <bugID>Issue #56</bugID>
+        <url>https://github.com/AnimeNeko/Atarashii/issues/56</url>
+        <description>
+		Another cool library from Square, Picasso. It handles image downloading and a ton of other stuff like recycling of the adapter, placeholder and error images, image manipulation, and memory and disk caching of images. This might be a very good solution for the cover art downloading in our application.
+	</description>
+        <title>Use Picasso for Cover Image Handling</title>
+    </Manager>
+    <Manager Number="43">
+        <labels>
+            <label>enhancement</label>
+        </labels>
+        <bugID>Issue #57</bugID>
+        <url>https://github.com/AnimeNeko/Atarashii/issues/57</url>
+        <description>
+		Currently on older versions of Android, some of the icons in the action bar are using the old 2.3 icon style while some of the icons in the menu are using the flat Holo style. The former situation looks bad but the later causes the icons to blend into the menu background. The icons should be fixed so that the correct style is used in the correct place on all supported versions of Android.
+	</description>
+        <title>Make Icons Consistent</title>
+    </Manager>
+    <Manager Number="44">
+        <labels>
+            <label>enhancement</label>
+        </labels>
+        <bugID>Issue #58</bugID>
+        <url>https://github.com/AnimeNeko/Atarashii/issues/58</url>
+        <description>
+		Due to multiple reformatting passes of the strings file, the spacing is broken in the Acknowledgements section of the About screen. This should be fixed. Optionally, it might be worthwhile to adjust how this is displayed so that this issue is less likely to occur in the future.
+	</description>
+        <title>Cleanup Acknowledgements Text</title>
+    </Manager>
+    <Manager Number="45">
+        <labels>
+            <label>enhancement</label>
+        </labels>
+        <bugID>Issue #60</bugID>
+        <url>https://github.com/AnimeNeko/Atarashii/issues/60</url>
+        <description>
+		Starting an issue to prompt discussion on moving from ActionBarSherlock to the new ActionBarCompat which is part of the updated compatibility library. The major benefit is that we don't need to track ABS anymore and we can remove at least one sub-module. There are some downsides, though. It's new, so it hasn't been as heavily tested. There are likely bugs waiting to be found with it. Also, it's effort on our side to switch, but I don't see a huge benefit from the change aside from what was listed above. Also, it might be worth looking at the user distribution of the application via the store. If there aren't a lot of pre-4.0 users, it might be even better to lock 1.3 as the last &quot;compatible&quot; version and make 1.4+ work on Android 4.0+ (minSdkVersion=14) only. Thoughts?
+	</description>
+        <title>Switch to ActionBarCompat</title>
+    </Manager>
+    <Manager Number="46">
+        <labels>
+            <label>bug</label>
+        </labels>
+        <bugID>Issue #61</bugID>
+        <url>https://github.com/AnimeNeko/Atarashii/issues/61</url>
+        <description>
+		This was introduced by 151cd5e It appears resources are missing. This causes an application crash when a phone is turned sideways to horizontal or when the menu is called in vertical mode. Confirmed on HTC Dream on Android 2.2 and HTC Glacier on Android 2.3. FATAL EXCEPTION: main
+android.content.res.Resources$NotFoundException: Resource ID #0x7f020073
+       at android.content.res.Resources.getValue(Resources.java:911)
+       at android.content.res.Resources.getDrawable(Resources.java:599)
+       at com.actionbarsherlock.internal.view.menu.MenuItemImpl.getIcon(MenuItemImpl.java:384)
+       at com.actionbarsherlock.internal.view.menu.MenuBuilder.bindNativeOverflow(MenuBuilder.java:1323)
+       at com.actionbarsherlock.internal.ActionBarSherlockCompat.dispatchPrepareOptionsMenu(ActionBarSherlockCompat.java:343)
+       at com.actionbarsherlock.app.SherlockFragmentActivity.onPreparePanel(SherlockFragmentActivity.java:185)
+       at com.android.internal.policy.impl.PhoneWindow.preparePanel(PhoneWindow.java:341)
+       at com.android.internal.policy.impl.PhoneWindow.onKeyDownPanel(PhoneWindow.java:577)
+       at com.android.internal.policy.impl.PhoneWindow.onKeyDown(PhoneWindow.java:1233)
+       at com.android.internal.policy.impl.PhoneWindow$DecorView.dispatchKeyEvent(PhoneWindow.java:1712)
+       at android.view.ViewRoot.deliverKeyEventToViewHierarchy(ViewRoot.java:2702)
+       at android.view.ViewRoot.handleFinishedEvent(ViewRoot.java:2677)
+       at android.view.ViewRoot.handleMessage(ViewRoot.java:1965)
+       at android.os.Handler.dispatchMessage(Handler.java:99)
+       at android.os.Looper.loop(Looper.java:150)
+       at android.app.ActivityThread.main(ActivityThread.java:4369)
+       at java.lang.reflect.Method.invokeNative(Native Method)
+       at java.lang.reflect.Method.invoke(Method.java:507)
+       at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:846)
+       at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:604)
+       at dalvik.system.NativeStart.main(Native Method)
+	</description>
+        <title>Fatal Exception with Resources</title>
+    </Manager>
+    <Manager Number="47">
+        <labels>
+            <label>None yet</label>
+        </labels>
+        <bugID>Issue #64</bugID>
+        <url>https://github.com/AnimeNeko/Atarashii/issues/64</url>
+        <description>
+		I found this project kind of accidentally while looking for something anime/android related, but it would be a lot easier for people to know about this project and join it if we put it up on Google Code/other open source hosting pages. What do you guys think?
+	</description>
+        <title>Upload Project to Google Code</title>
+    </Manager>
+    <Manager Number="48">
+        <labels>
+            <label>None yet</label>
+        </labels>
+        <bugID>Issue #68</bugID>
+        <url>https://github.com/AnimeNeko/Atarashii/issues/68</url>
+        <description>
+		The DetailView is woefully sparse in 1.3 (and has been since versions immemorial). It's probably a long shot to include more info like reviews, rating stats, OP/ED lists and such in the app (but great if that's possible via API). But it would be very welcome if the action bar gained a button to open the MAL page using the browser.
+	</description>
+        <title>Need a way to open the item page on MAL from DetailView</title>
+    </Manager>
+    <Manager Number="49">
+        <labels>
+            <label>bug</label>
+        </labels>
+        <bugID>Issue #75</bugID>
+        <url>https://github.com/AnimeNeko/Atarashii/issues/75</url>
+        <description>
+		If the API returns a 500 error on a search operation, an error occurs when trying to parse the non-existent response. We should detect HTTP errors on this operation and cancel it.
+	</description>
+        <title>Crash in search on 500 Error</title>
+    </Manager>
+    <Manager Number="50">
+        <labels>
+            <label>enhancement</label>
+        </labels>
+        <bugID>Issue #80</bugID>
+        <url>https://github.com/AnimeNeko/Atarashii/issues/80</url>
+        <description>
+		MAL is silly about how it handles &quot;rewatching&quot; a series—it took me way longer than it should have to discover that a series only has that checkbox if it's marked &quot;Completed&quot; and not &quot;Currently Watching&quot;—but it's probably worth supporting them properly. I'm going through a few old series with friends, and I marked them as &quot;Rewatching&quot;. It's all well and good if I'm marking stuff on my computer, but from my phone/tablet I can't update progress through these shows. Best case would be to support them identically to the MAL site: Show &quot;Rewatching&quot; items under the &quot;Watching&quot; category, and allow incrementing the episode progress just like a &quot;standard&quot; in-progress show. And of course, if I'm doing something wrong, and these are staring me right in the face, that's entirely possible. Feel free to tell me I'm a バカ. ;-)
+	</description>
+        <title>&quot;Rewatching&quot; items not handled properly</title>
+    </Manager>
+    <Manager Number="51">
+        <labels>
+            <label>bug</label>
+        </labels>
+        <bugID>Issue #82</bugID>
+        <url>https://github.com/AnimeNeko/Atarashii/issues/82</url>
+        <description>
+		Probably just an issue when jumping around in development versions, but we need to make sure that this isn't an issue for a release: The table &quot;friends&quot; isn't created if the user already has an older version. We need to make sure the DB version is checked and code is run to create the table on upgrade. The E/AndroidRuntime( 1764): FATAL EXCEPTION: AsyncTask #1
+E/AndroidRuntime( 1764): java.lang.RuntimeException: An error occured while executing doInBackground()
+E/AndroidRuntime( 1764):    at android.os.AsyncTask$3.done(AsyncTask.java:299)
+E/AndroidRuntime( 1764):    at java.util.concurrent.FutureTask.finishCompletion(FutureTask.java:352)
+E/AndroidRuntime( 1764):    at java.util.concurrent.FutureTask.setException(FutureTask.java:219)
+E/AndroidRuntime( 1764):    at java.util.concurrent.FutureTask.run(FutureTask.java:239)
+E/AndroidRuntime( 1764):    at android.os.AsyncTask$SerialExecutor$1.run(AsyncTask.java:230)
+E/AndroidRuntime( 1764):    at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1080)
+E/AndroidRuntime( 1764):    at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:573)
+E/AndroidRuntime( 1764):    at java.lang.Thread.run(Thread.java:841)
+E/AndroidRuntime( 1764): Caused by: android.database.sqlite.SQLiteException: no such table: friends (code 1): , while compiling: create table temp_table as select * from friends
+	</description>
+        <title>Friends database table doesn't exist.</title>
+    </Manager>
+    <Manager Number="52">
+        <labels>
+            <label>None yet</label>
+        </labels>
+        <bugID>Issue #128</bugID>
+        <url>https://github.com/AnimeNeko/Atarashii/issues/128</url>
+        <description>
+		I'm working on letting users select the app theme. I've got the idea shaped up in my head but it looks like I'll have some questions and things to talk out. First off, would it be planned to have more than just two themes? (dark and light)
+	</description>
+        <title>App theming</title>
+    </Manager>
+    <Manager Number="53">
+        <labels>
+            <label>None yet</label>
+        </labels>
+        <bugID>Issue #134</bugID>
+        <url>https://github.com/AnimeNeko/Atarashii/issues/134</url>
+        <description>
+		The second level settings screens don't have an Up button in the Action Bar. Compare the images:
+	</description>
+        <title>No Up button in settings</title>
+    </Manager>
+    <Manager Number="54">
+        <labels>
+            <label>None yet</label>
+        </labels>
+        <bugID>Issue #147</bugID>
+        <url>https://github.com/AnimeNeko/Atarashii/issues/147</url>
+        <description>
+		Is there a reason why we are using a crouton message and the notification message? I don't see a point in it... If the sync starts/completed we are showing the users a crouton message. So what's the point of using the notification in the statusbar?
+	</description>
+        <title>Notification on sync?</title>
+    </Manager>
+    <Manager Number="55">
+        <labels>
+            <label>Feature Request</label>
+            <label>enhancement</label>
+        </labels>
+        <bugID>Issue #149</bugID>
+        <url>https://github.com/AnimeNeko/Atarashii/issues/149</url>
+        <description>
+		I read this improvement on Play store : adding an option to set a start and finish date for an anime Thanks
+	</description>
+        <title>Add an option to set a start and finish date</title>
+    </Manager>
+    <Manager Number="56">
+        <labels>
+            <label>None yet</label>
+        </labels>
+        <bugID>Issue #153</bugID>
+        <url>https://github.com/AnimeNeko/Atarashii/issues/153</url>
+        <description>
+		Orientation change resets scroll while browsing animelist and breaks top/popular/upcoming/just added lists. It happens on stable and beta versions from google play. Video: http://www.youtube.com/watch?v=LCPtDS3Qjkk Device: Nexus 7(2012). Selected runtime is Dalvik. btw, I didn't notice any problems with orientation change in &quot;My Profile&quot; and &quot;My Friends&quot; functions.(beta from google play)
+	</description>
+        <title>Orientation change issues</title>
+    </Manager>
+    <Manager Number="57">
+        <labels>
+            <label>bug</label>
+        </labels>
+        <bugID>Issue #155</bugID>
+        <url>https://github.com/AnimeNeko/Atarashii/issues/155</url>
+        <description>
+		When changing the orientation of the device, the &quot;Switch List&quot; Menu/Actionbar item appears for lists that aren't personal ones (top, just added, popular). There was a fix in 47c2d66, but it caused crashes with Android 2. We need to figure out a compatible way to fix the issue.
+	</description>
+        <title>Switch List Menu Item Appears on Orientation Change</title>
+    </Manager>
+    <Manager Number="58">
+        <labels>
+            <label>invalid</label>
+        </labels>
+        <bugID>Issue #159</bugID>
+        <url>https://github.com/AnimeNeko/Atarashii/issues/159</url>
+        <description>
+		I have an MAL account (aphirst), and I know my password. However, if I put in my credentials, I get the &quot;Whoops&quot; message, implying I mis-typed them. I'm 100% sure that I am not making a typographical error, as the problem persists even if I change my MAL password to something else. I'm running a build of CM 10.2 on my Samsung i917 Captivate Glide, and I get this behaviour with Atarashii! v 1.3.2 and 1.3.1, both installed from F-Droid.
+	</description>
+        <title>Unable to Login</title>
+    </Manager>
+    <Manager Number="59">
+        <labels>
+            <label>None yet</label>
+        </labels>
+        <bugID>Issue #160</bugID>
+        <url>https://github.com/AnimeNeko/Atarashii/issues/160</url>
+        <description>
+		The username in the friendlist overlaps the other details when the text size is set on extra large. This is probably because the textviews are based on the parent and not the other textviews. Note: bug only applies on the friendlist.
+	</description>
+        <title>Friendlist username overlaps time when the textsize is on extra large.</title>
+    </Manager>
+    <Manager Number="60">
+        <labels>
+            <label>None yet</label>
+        </labels>
+        <bugID>Issue #161</bugID>
+        <url>https://github.com/AnimeNeko/Atarashii/issues/161</url>
+        <description>
+		I don't really know how it appends, but I just see an anime, and it adds it on my list as nothing. Here a screenshot : https://i.imgur.com/e7eS67n.jpg, the anime Saint Seya is in my list, but has no status, and I don't add it. It seems that @ratan12 has the same bug. A log out/log in correct it.
+	</description>
+        <title>Unknown anime added in all lists</title>
+    </Manager>
+    <Manager Number="61">
+        <labels>
+            <label>bug</label>
+        </labels>
+        <bugID>Issue #168</bugID>
+        <url>https://github.com/AnimeNeko/Atarashii/issues/168</url>
+        <description>
+		When going back from friends or profile, the previous drawer entry isn't set correctly. This is a problem as it messes up the action bar and in some cases makes it impossible to do an action until you explicitly select the section in the drawer.
+	</description>
+        <title>Going Back From Activity Doesn't Set Menu</title>
+    </Manager>
+    <Manager Number="62">
+        <labels>
+            <label>None yet</label>
+        </labels>
+        <bugID>Issue #171</bugID>
+        <url>https://github.com/AnimeNeko/Atarashii/issues/171</url>
+        <description>
+		In some cases when the website url is too long the url will be written over the website text. (messing up the UI.) I tried to fix (by using a scrolling method but It didn't worked great) but it was a dirty fix that worked only one some devices.
+	</description>
+        <title>Overflow when the website is too long (Profile)</title>
+    </Manager>
+    <Manager Number="63">
+        <labels>
+            <label>None yet</label>
+        </labels>
+        <bugID>Issue #179</bugID>
+        <url>https://github.com/AnimeNeko/Atarashii/issues/179</url>
+        <description>
+		Since we will do many UI changes the next version I thought: why not redesign the app icon. I know someone who would love to do this. What do you guys think?
+	</description>
+        <title>Icon redesign</title>
+    </Manager>
+    <Manager Number="64">
+        <labels>
+            <label>bug</label>
+        </labels>
+        <bugID>Issue #182</bugID>
+        <url>https://github.com/AnimeNeko/Atarashii/issues/182</url>
+        <description>
+		With the move to the Support library, the UI got an overhaul on how it's styled. On Android 2.2 and 2.3, the anime/manga detail view doesn't change the title of the action bar. This works properly on Android 4.
+	</description>
+        <title>Action Bar Title on Android 2</title>
+    </Manager>
+    <Manager Number="65">
+        <labels>
+            <label>bug</label>
+        </labels>
+        <bugID>Issue #183</bugID>
+        <url>https://github.com/AnimeNeko/Atarashii/issues/183</url>
+        <description>
+		The new number picker for anime episodes has horizontal rules that extend all the way to the edge of the dialog instead of being the width of the numbers. This is present on all Android versions.
+	</description>
+        <title>Number Picker Horizontal Rules</title>
+    </Manager>
+    <Manager Number="66">
+        <labels>
+            <label>Feature Request</label>
+        </labels>
+        <bugID>Issue #189</bugID>
+        <url>https://github.com/AnimeNeko/Atarashii/issues/189</url>
+        <description>
+		It is not very important, but I think it would be good to add Widgets(with anime/manga stats and history, if it is possible with your current api).
+	</description>
+        <title>Widgets</title>
+    </Manager>
+    <Manager Number="67">
+        <labels>
+            <label>bug</label>
+        </labels>
+        <bugID>Issue #190</bugID>
+        <url>https://github.com/AnimeNeko/Atarashii/issues/190</url>
+        <description>
+		If you select a list (or do force sync) and select an other list before the list is loaded, you will get a list that contains entries from both selections. Steps to reproduce: open App do force sync change to e. g. most popular before force sync is done you'll get a list with the entries from your own list (whatever filter was selected, e. g. watching) and the most popular list I'm currently working on further NetworkTask improvements which will also fix this issue.
+	</description>
+        <title>Bug: changing list while current list is still loading results in list with entries from both selections</title>
+    </Manager>
+    <Manager Number="68">
+        <labels>
+            <label>None yet</label>
+        </labels>
+        <bugID>Issue #195</bugID>
+        <url>https://github.com/AnimeNeko/Atarashii/issues/195</url>
+        <description>
+		I am quite annoyed by the error messages I get. http://api.atarashiiapp.com/1/mangalist/ratan12 I don't read manga so my list is always empty, due the recent changes I get every time &quot;error could not download Mangalist&quot; when I start the app or when I sync.
+	</description>
+        <title>Bug error messages</title>
+    </Manager>
+    <Manager Number="69">
+        <labels>
+            <label>bug</label>
+        </labels>
+        <bugID>Issue #198</bugID>
+        <url>https://github.com/AnimeNeko/Atarashii/issues/198</url>
+        <description>
+		If a user changes their username or password for some reason, the application has issues where it cannot sync and will sometimes crash due to the errors now sent back from the API with a (now) invalid login. There should be a better way to handle an account error so we don't have crashes and similar when the details change out from under us.
+	</description>
+        <title>Changed Username or Password Causes Errors</title>
+    </Manager>
+    <Manager Number="70">
+        <labels>
+            <label>None yet</label>
+        </labels>
+        <bugID>Issue #202</bugID>
+        <url>https://github.com/AnimeNeko/Atarashii/issues/202</url>
+        <description>
+		The app is crashing when you open it without network connection. It is caused by &quot;list&quot; that still null is. 07-31 00:48:27.215 E/AndroidRuntime(10502): FATAL EXCEPTION: main
+07-31 00:48:27.215 E/AndroidRuntime(10502): Process: net.somethingdreadful.MAL, PID: 10502
+07-31 00:48:27.215 E/AndroidRuntime(10502): java.lang.RuntimeException: Unable to resume activity {net.somethingdreadful.MAL/net.somethingdreadful.MAL.Home}: java.lang.NullPointerException: Attempt to read from field 'int net.somethingdreadful.MAL.IGF.list' on a null object reference
+07-31 00:48:27.215 E/AndroidRuntime(10502):     at android.app.ActivityThread.performResumeActivity(ActivityThread.java:2777)
+07-31 00:48:27.215 E/AndroidRuntime(10502):     at android.app.ActivityThread.handleResumeActivity(ActivityThread.java:2806)
+07-31 00:48:27.215 E/AndroidRuntime(10502):     at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2241)
+07-31 00:48:27.215 E/AndroidRuntime(10502):     at android.app.ActivityThread.access$800(ActivityThread.java:138)
+07-31 00:48:27.215 E/AndroidRuntime(10502):     at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1199)
+07-31 00:48:27.215 E/AndroidRuntime(10502):     at android.os.Handler.dispatchMessage(Handler.java:102)
+07-31 00:48:27.215 E/AndroidRuntime(10502):     at android.os.Looper.loop(Looper.java:136)
+07-31 00:48:27.215 E/AndroidRuntime(10502):     at android.app.ActivityThread.main(ActivityThread.java:5034)
+07-31 00:48:27.215 E/AndroidRuntime(10502):     at java.lang.reflect.Method.invoke(Native Method)
+07-31 00:48:27.215 E/AndroidRuntime(10502):     at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:795)
+07-31 00:48:27.215 E/AndroidRuntime(10502):     at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:611)
+07-31 00:48:27.215 E/AndroidRuntime(10502): Caused by: java.lang.NullPointerException: Attempt to read from field 'int net.somethingdreadful.MAL.IGF.list' on a null object reference
+07-31 00:48:27.215 E/AndroidRuntime(10502):     at net.somethingdreadful.MAL.Home.checkNetworkAndDisplayCrouton(Home.java:384)
+07-31 00:48:27.215 E/AndroidRuntime(10502):     at net.somethingdreadful.MAL.Home.onResume(Home.java:256)
+07-31 00:48:27.215 E/AndroidRuntime(10502):     at android.app.Instrumentation.callActivityOnResume(Instrumentation.java:1192)
+07-31 00:48:27.215 E/AndroidRuntime(10502):     at android.app.Activity.performResume(Activity.java:5320)
+07-31 00:48:27.215 E/AndroidRuntime(10502):     at android.app.ActivityThread.performResumeActivity(ActivityThread.java:2767)
+07-31 00:48:27.215 E/AndroidRuntime(10502):     ... 10 more
+07-31 00:48:28.696 I/Process (10502): Sending signal. PID: 10502 SIG: 9
+	</description>
+        <title>Crash on startup (no network connection)</title>
+    </Manager>
+    <Manager Number="71">
+        <labels>
+            <label>bug</label>
+        </labels>
+        <bugID>Issue #207</bugID>
+        <url>https://github.com/AnimeNeko/Atarashii/issues/207</url>
+        <description>
+		Since all the rework, now if a title doesn't have a listed total of volumes/chapters or episodes, the application displays 0. This is a problem if you don't have an existing count on your list as the number pickers won't let you set the right total. Correct behavior was previous where the details display indicated an unknown total (the ?) and the number picker allowed a range of values.
+	</description>
+        <title>Unknown Item Totals Lead to 0</title>
+    </Manager>
+    <Manager Number="72">
+        <labels>
+            <label>None yet</label>
+        </labels>
+        <bugID>Issue #209</bugID>
+        <url>https://github.com/AnimeNeko/Atarashii/issues/209</url>
+        <description>
+		I am kinda thinking why we actually use horizontalscrollviews in landshape. It isn't android behavior, I actually never saw an app using this way of displaying info in landscape. Why don't we use a gridview like the Google + app? That would've make a bit more sense.
+	</description>
+        <title>Horizontalscrollview on layouts?</title>
+    </Manager>
+    <Manager Number="73">
+        <labels>
+            <label>bug</label>
+        </labels>
+        <bugID>Issue #210</bugID>
+        <url>https://github.com/AnimeNeko/Atarashii/issues/210</url>
+        <description>
+		Since all the major changes to the UI, the grid covers are now too short on many devices. The display aspect ratio should be 0.7, but often the cells are too short. It looks like the code dealing with setting the proper height was removed, but an equivalent was not provided. As such, it's using the fallback height defined in the layout file. Correct behavior should be to get the width of the cell and then determine height by dividing that width by 0.7. As some of the methods aren't present in API 8, I believe the old behavior got the screen width in dp, calculated how many columns would fit, then determined the correct height to assign to the cell. I'll poke around when I get time, but if anyone can get a proper solution in place before then, please do so.
+	</description>
+        <title>Grid Too Short</title>
+    </Manager>
+    <Manager Number="74">
+        <labels>
+            <label>bug</label>
+        </labels>
+        <bugID>Issue #215</bugID>
+        <url>https://github.com/AnimeNeko/Atarashii/issues/215</url>
+        <description>
+		With all the changes, the beam support is now broken on receipt. Trying to launch the application on receipt of the beam causes an NPE. FATAL EXCEPTION: main
+Process: net.somethingdreadful.MAL, PID: 21481
+java.lang.RuntimeException: Unable to start activity ComponentInfo{net.somethingdreadful.MAL/net.somethingdreadful.MAL.DetailView}: java.lang.NullPointerException
+    at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2184)
+    at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2233)
+    at android.app.ActivityThread.access$800(ActivityThread.java:135)
+    at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1196)
+    at android.os.Handler.dispatchMessage(Handler.java:102)
+    at android.os.Looper.loop(Looper.java:136)
+    at android.app.ActivityThread.main(ActivityThread.java:5001)
+    at java.lang.reflect.Method.invokeNative(Native Method)
+    at java.lang.reflect.Method.invoke(Method.java:515)
+    at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:785)
+    at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:601)
+    at de.robv.android.xposed.XposedBridge.main(XposedBridge.java:132)
+    at dalvik.system.NativeStart.main(Native Method)
+Caused by: java.lang.NullPointerException
+    at net.somethingdreadful.MAL.DetailView.setCard(DetailView.java:170)
+    at net.somethingdreadful.MAL.DetailView.onCreate(DetailView.java:87)
+    at android.app.Activity.performCreate(Activity.java:5231)
+    at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1087)
+    at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2148)
+    ... 12 more
+	</description>
+        <title>Beam Receipt NPE</title>
+    </Manager>
+    <Manager Number="75">
+        <labels>
+            <label>bug</label>
+        </labels>
+        <bugID>Issue #219</bugID>
+        <url>https://github.com/AnimeNeko/Atarashii/issues/219</url>
+        <description>
+		There was a report in a play store review that sometimes the displayed stars are inaccurate with ratings. For example, there might be a 9.5 rating but it's displayed as 4 full stars instead of 4.5 stars. This seems to be specifically with assigning a rating to a title, but logic for both global and personal should probably be reviewed.
+	</description>
+        <title>Ratings Conversion Inaccurate</title>
+    </Manager>
+    <Manager Number="76">
+        <labels>
+            <label>None yet</label>
+        </labels>
+        <bugID>Issue #242</bugID>
+        <url>https://github.com/AnimeNeko/Atarashii/issues/242</url>
+        <description>
+		In the current code we are using account manager which is fine. The only thing that we should do in my opinion is removing the credentials in perfManager. I don't like the feeling that my password is floating in the preference manager for no reason. The best solution would be getting the password and username and create an account in the account manager, after this we should remove it from the preference manager.
+	</description>
+        <title>Remove credentials in prefManager before 1.5 Beta</title>
+    </Manager>
+    <Manager Number="77">
+        <labels>
+            <label>None yet</label>
+        </labels>
+        <bugID>Issue #253</bugID>
+        <url>https://github.com/AnimeNeko/Atarashii/issues/253</url>
+        <description>
+		In PR #252 we will send some user information to Crashlytics like usernames. We should create a policy document because of that and link it from inside the application about page once it's ready.
+	</description>
+        <title>Crashlytics policy document</title>
+    </Manager>
+    <Manager Number="78">
+        <labels>
+            <label>bug</label>
+        </labels>
+        <bugID>Issue #296</bugID>
+        <url>https://github.com/AnimeNeko/Atarashii/issues/296</url>
+        <description>
+		For 2.0 beta 1, search doesn't seem to work. Putting terms in the dialog and pressing the search button on the keyboard does not cause any visible reaction. I haven't tried grabbing a log of the process yet.
+	</description>
+        <title>Search Not Executed</title>
+    </Manager>
+    <Manager Number="79">
+        <labels>
+            <label>None yet</label>
+        </labels>
+        <bugID>Issue #303</bugID>
+        <url>https://github.com/AnimeNeko/Atarashii/issues/303</url>
+        <description>
+		Available in atarashi 2.0 beta 1 What it does : When we see a planned anime description, the anime will change into the status &quot;watching&quot; What it must do : nothing Way to test this bug : 1. Open the detail of a planned anime (and wait the loading) 2. Sync from atarashii 3. See your anime list on MAL ; your anime you have seen is now on watching This bug always occur when I do that.
+	</description>
+        <title>Database bugs</title>
+    </Manager>
+    <Manager Number="80">
+        <labels>
+            <label>enhancement</label>
+        </labels>
+        <bugID>Issue #304</bugID>
+        <url>https://github.com/AnimeNeko/Atarashii/issues/304</url>
+        <description>
+		On the details page of anime, airing dates and producers informations are missing.
+	</description>
+        <title>Airing dates and producers are missing</title>
+    </Manager>
+    <Manager Number="81">
+        <labels>
+            <label>bug</label>
+        </labels>
+        <bugID>Issue #305</bugID>
+        <url>https://github.com/AnimeNeko/Atarashii/issues/305</url>
+        <description>
+		On the anime page, when we want to change the number of episodes watched we should scroll to the number we want. I would like to be able to manually enter the number with the virtual numeric keyboard. It's actually possible but for an unknown reason when we proceed this way, the number of episodes watched is not save. The screenshot is showing what I mean by manually enter the number of episodes.
+	</description>
+        <title>Can't manually enter number of episodes watched</title>
+    </Manager>
+    <Manager Number="82">
+        <labels>
+            <label>bug</label>
+        </labels>
+        <bugID>Issue #308</bugID>
+        <url>https://github.com/AnimeNeko/Atarashii/issues/308</url>
+        <description>
+		According to @ratan12, the personnal section should help you to update the anime status and the anime episode (and manga too, of course). On my phone, this section isn't available : I only see it but I can do nothing. I don't know if it's a particular problem for me. My Android is a Android 4.2.2 Jelly Bean, kernel 3.4.5. It's a stock ROM (original Android based from the vendor) If you want more informations, don't hesitate.
+	</description>
+        <title>&quot;Personnal&quot; Section do nothing</title>
+    </Manager>
+    <Manager Number="83">
+        <labels>
+            <label>bug</label>
+        </labels>
+        <bugID>Issue #311</bugID>
+        <url>https://github.com/AnimeNeko/Atarashii/issues/311</url>
+        <description>
+		Apparently the add button with the application is not working. It won't sync the change to MAL and doesn't update it in the app so I assume that it is probably at the app side.
+	</description>
+        <title>Add button not working</title>
+    </Manager>
+    <Manager Number="84">
+        <labels>
+            <label>invalid</label>
+        </labels>
+        <bugID>Issue #322</bugID>
+        <url>https://github.com/AnimeNeko/Atarashii/issues/322</url>
+        <description>
+		Hi.Recently your API started to behave strange. http://www.youtube.com/watch?v=RamfcJAIKho (latest stable Atarashii from google play, Android 5.0.2 stock)
+	</description>
+        <title>It looks like your API is broken</title>
+    </Manager>
+    <Manager Number="85">
+        <labels>
+            <label>AniList</label>
+            <label>bug</label>
+        </labels>
+        <bugID>Issue #369</bugID>
+        <url>https://github.com/AnimeNeko/Atarashii/issues/369</url>
+        <description>
+		Right now, it seems global ratings on AniList are set to 10 for all titles. Probably a glitch in the handling.
+	</description>
+        <title>Rating on AniList</title>
+    </Manager>
+    <Manager Number="86">
+        <labels>
+            <label>Feature Request</label>
+        </labels>
+        <bugID>Issue #371</bugID>
+        <url>https://github.com/AnimeNeko/Atarashii/issues/371</url>
+        <description>
+		When displaying the details for a title on the application using MAL, would it be possible to add a link to the forum for that title? It seems they use the same forum logic as the main series, using the format: hxxp://myanimelist.net/forum/?animeid=[id] Not sure, but this may also require some changes in the API to handle.
+	</description>
+        <title>Title Forum Link on MAL</title>
+    </Manager>
+    <Manager Number="87">
+        <labels>
+            <label>bug</label>
+        </labels>
+        <bugID>Issue #372</bugID>
+        <url>https://github.com/AnimeNeko/Atarashii/issues/372</url>
+        <description>
+		From a store review, it seems that some ratings are displaying incorrectly. For example, a personal rating will be set at 7 (3.5 stars) but will display at 8 (4 stars). I have not tried to reproduce the issue yet.
+	</description>
+        <title>Rating Display Issues</title>
+    </Manager>
+    <Manager Number="88">
+        <labels>
+            <label>AniList</label>
+            <label>bug</label>
+        </labels>
+        <bugID>Issue #373</bugID>
+        <url>https://github.com/AnimeNeko/Atarashii/issues/373</url>
+        <description>
+		The site determination apparently doesn't works rarely on some devices. As far I noticed it is not Android version related. This was reported by &quot;Mimi&quot; on AniList. She was using a Galaxy Tab Pro (4.4.2).
+	</description>
+        <title>Site determination not working rarely</title>
+    </Manager>
+    <Manager Number="89">
+        <labels>
+            <label>bug</label>
+        </labels>
+        <bugID>Issue #374</bugID>
+        <url>https://github.com/AnimeNeko/Atarashii/issues/374</url>
+        <description>
+		Example from High School DxD Born. Its prequel is High School DxD New: Oppai, Tsutsumimasu! This error may occur on a few animes. At present, I've only seen this on DxD Born.
+	</description>
+        <title>&quot;Prequel&quot; is missing</title>
+    </Manager>
+    <Manager Number="90">
+        <labels>
+            <label>bug</label>
+        </labels>
+        <bugID>Issue #377</bugID>
+        <url>https://github.com/AnimeNeko/Atarashii/issues/377</url>
+        <description>
+		When tapping on an existing date entry to edit it, the date picker always selects the current date. It does not load with the existing date selected. The desired behavior is to load with current date selected if there is no existing date, or with the entry's existing date if it is defined.
+	</description>
+        <title>Date Picker Not Reflecting Existing Date</title>
+    </Manager>
+    <Manager Number="91">
+        <labels>
+            <label>bug</label>
+        </labels>
+        <bugID>Issue #382</bugID>
+        <url>https://github.com/AnimeNeko/Atarashii/issues/382</url>
+        <description>
+		Occasionally when opening the application, it will open on the manga list, but show anime titles. Sliding back to anime and then to manga will not fix it. The only solution is to use the system back button to exit the application and then re-enter it. I cannot currently find a reliable way to reproduce the behavior, but have experienced it multiple times.
+	</description>
+        <title>Manga View Sometimes Shows Anime</title>
+    </Manager>
+    <Manager Number="92">
+        <labels>
+            <label>AniList</label>
+            <label>enhancement</label>
+        </labels>
+        <bugID>Issue #383</bugID>
+        <url>https://github.com/AnimeNeko/Atarashii/issues/383</url>
+        <description>
+		Reminder to use the raw score value (modified to fit the display preferences of the user) for AniList once the API is modified. Keep in mind that the Smile and 5 point scales are not evenly calculable. Use the breakpoints mentioned in Josh-Star/AniList-API-Docs#30 for those scales.
+	</description>
+        <title>AniList Ratings</title>
+    </Manager>
+    <Manager Number="93">
+        <labels>
+            <label>None yet</label>
+        </labels>
+        <bugID>Issue #390</bugID>
+        <url>https://github.com/AnimeNeko/Atarashii/issues/390</url>
+        <description>
+		The menu picker in Home is sometimes not working. It is probably because IGF is sometimes null which the menu than ignores.
+	</description>
+        <title>Menu sometimes not working</title>
+    </Manager>
+    <Manager Number="94">
+        <labels>
+            <label>enhancement</label>
+        </labels>
+        <bugID>Issue #393</bugID>
+        <url>https://github.com/AnimeNeko/Atarashii/issues/393</url>
+        <description>
+		Automatically backup every day or week Max length of backup Max storage space
+	</description>
+        <title>Extend Backup abilities</title>
+    </Manager>
+    <Manager Number="95">
+        <labels>
+            <label>bug</label>
+        </labels>
+        <bugID>Issue #397</bugID>
+        <url>https://github.com/AnimeNeko/Atarashii/issues/397</url>
+        <description>
+		When using the dark theme, there is a white border on the bottom and right of the card containing the title and cover image in the detail view.
+	</description>
+        <title>White Border on Cover using Dark Theme</title>
+    </Manager>
+    <Manager Number="96">
+        <labels>
+            <label>Feature Request</label>
+        </labels>
+        <bugID>Issue #398</bugID>
+        <url>https://github.com/AnimeNeko/Atarashii/issues/398</url>
+        <description>
+		It would be nice to offer users a way to override the system language and pick one of the other languages we have translated.
+	</description>
+        <title>Language Selection</title>
+    </Manager>
+    <Manager Number="97">
+        <labels>
+            <label>bug</label>
+        </labels>
+        <bugID>Issue #399</bugID>
+        <url>https://github.com/AnimeNeko/Atarashii/issues/399</url>
+        <description>
+		On phone devices, titles with large numbers of tags will overlap the &quot;My Tags&quot; label.
+	</description>
+        <title>Long Tag Lists Overflow</title>
+    </Manager>
+    <Manager Number="98">
+        <labels>
+            <label>AniList</label>
+            <label>enhancement</label>
+        </labels>
+        <bugID>Issue #403</bugID>
+        <url>https://github.com/AnimeNeko/Atarashii/issues/403</url>
+        <description>
+		I found a new cool library which we should try out! https://android-arsenal.com/details/1/1731 It would've be great for AniList
+	</description>
+        <title>Viewpager update</title>
+    </Manager>
+    <Manager Number="99">
+        <labels>
+            <label>bug</label>
+        </labels>
+        <bugID>Issue #404</bugID>
+        <url>https://github.com/AnimeNeko/Atarashii/issues/404</url>
+        <description>
+		The numberpicker text colors are white while the dialog is also white. Android 5.x
+	</description>
+        <title>Number pickers text color</title>
+    </Manager>
+    <Manager Number="100">
+        <labels>
+            <label>Feature Request</label>
+        </labels>
+        <bugID>Issue #405</bugID>
+        <url>https://github.com/AnimeNeko/Atarashii/issues/405</url>
+        <description>
+		Feature request for Automatically filling in the start and end dates.
+	</description>
+        <title>Automatically filling in the start and end dates.</title>
+    </Manager>
+    <Manager Number="101">
+        <labels>
+            <label>enhancement</label>
+        </labels>
+        <bugID>Issue #408</bugID>
+        <url>https://github.com/AnimeNeko/Atarashii/issues/408</url>
+        <description>
+		We should change the progress to 1 if we are updating the status from planned to watching.
+	</description>
+        <title>Changing from planned to watching change progress to 1</title>
+    </Manager>
+    <Manager Number="102">
+        <labels>
+            <label>Feature Request</label>
+        </labels>
+        <bugID>Issue #409</bugID>
+        <url>https://github.com/AnimeNeko/Atarashii/issues/409</url>
+        <description>
+		A setting that would enable the user to chose on which list the anime goes after its added. For now, it goes to the &quot;watching&quot; list, but i would prefer for it to go to the &quot;plan to watch&quot;. That would be great.
+	</description>
+        <title>Choose which list an anime/manga will placed after adding</title>
+    </Manager>
+    <Manager Number="103">
+        <labels>
+            <label>enhancement</label>
+        </labels>
+        <bugID>Issue #418</bugID>
+        <url>https://github.com/AnimeNeko/Atarashii/issues/418</url>
+        <description>
+		Add a setting to change the amount of columns
+	</description>
+        <title>Change amount of colums IGF</title>
+    </Manager>
+    <Manager Number="104">
+        <labels>
+            <label>enhancement</label>
+        </labels>
+        <bugID>Issue #431</bugID>
+        <url>https://github.com/AnimeNeko/Atarashii/issues/431</url>
+        <description>
+		Improve support on network error
+	</description>
+        <title>Improve support on network error</title>
+    </Manager>
+    <Manager Number="105">
+        <labels>
+            <label>Feature Request</label>
+            <label>Won't Fix</label>
+        </labels>
+        <bugID>Issue #438</bugID>
+        <url>https://github.com/AnimeNeko/Atarashii/issues/438</url>
+        <description>
+		My friend succeed to connect only after he enter a password by the &quot;lost password&quot;. I think the connection work with a cookie from facebook and doesn't use a password. Can we fixed the the logging will handle facebook and so? I believe the same problem exists with twitter and google+ connections too.
+	</description>
+        <title>Can't logging when user signed up with facebook</title>
+    </Manager>
+    <Manager Number="106">
+        <labels>
+            <label>Feature Request</label>
+        </labels>
+        <bugID>Issue #439</bugID>
+        <url>https://github.com/AnimeNeko/Atarashii/issues/439</url>
+        <description>
+		A friend complained that he can't see his friends' lists. I think this is a really good feature, so I ask for him.
+	</description>
+        <title>Friends list</title>
+    </Manager>
+    <Manager Number="107">
+        <labels>
+            <label>invalid</label>
+        </labels>
+        <bugID>Issue #441</bugID>
+        <url>https://github.com/AnimeNeko/Atarashii/issues/441</url>
+        <description>
+		When watching a list, i would be happy if i could see my score in &quot;completed&quot;, &quot;in progress&quot; and &quot;on hold&quot; lists but in &quot;planned&quot; to see the general score.
+	</description>
+        <title>More data in lists</title>
+    </Manager>
+    <Manager Number="108">
+        <labels>
+            <label>bug</label>
+        </labels>
+        <bugID>Issue #443</bugID>
+        <url>https://github.com/AnimeNeko/Atarashii/issues/443</url>
+        <description>
+		I'm using the 2.1.1 release available here from GitHub, on a CM 12.1 (nightly) device without GApps. I am experiencing a problem, by which the Info/Description pages for some anime/manga in MAL fail to load, with the following error message on the bottom of the screen: Atarashii can't load the details This seems to be deterministic - if I clear the App's cache and Local Data, reboot the device, and try again - the same entries fail to load. Also reproducible across a few different WiFi networks I have access to, and the Mobile Internet. When I have a bit more time, I'll try to compile a short list of some entries which always do load, and respectively some which always don't. But otherwise, I'm not sure what other information I should provide - nonetheless I'm keen to if someone lets me know what I should share/do. 😄
+	</description>
+        <title>Info pages for some MAL entries (consistently) fail to load</title>
+    </Manager>
+    <Manager Number="109">
+        <labels>
+            <label>AniList</label>
+            <label>invalid</label>
+        </labels>
+        <bugID>Issue #444</bugID>
+        <url>https://github.com/AnimeNeko/Atarashii/issues/444</url>
+        <description>
+		Using AniList as provider, you can get the application to crash by going to the &quot;Airing&quot; section, then tapping on a title. Crash log follows: E/AndroidRuntime(15701): FATAL EXCEPTION: main
+E/AndroidRuntime(15701): Process: net.somethingdreadful.MAL, PID: 15701
+E/AndroidRuntime(15701): java.lang.RuntimeException: Parcelable encountered IOException writing serializable object (name = net.somethingdreadful.MAL.api.response.Anime)
+E/AndroidRuntime(15701):    at android.os.Parcel.writeSerializable(Parcel.java:1394)
+E/AndroidRuntime(15701):    at android.os.Parcel.writeValue(Parcel.java:1341)
+E/AndroidRuntime(15701):    at android.os.Parcel.writeList(Parcel.java:717)
+E/AndroidRuntime(15701):    at android.os.Parcel.writeValue(Parcel.java:1290)
+E/AndroidRuntime(15701):    at android.os.Parcel.writeArrayMapInternal(Parcel.java:644)
+E/AndroidRuntime(15701):    at android.os.BaseBundle.writeToParcelInner(BaseBundle.java:1313)
+E/AndroidRuntime(15701):    at android.os.Bundle.writeToParcel(Bundle.java:1034)
+E/AndroidRuntime(15701):    at android.os.Parcel.writeBundle(Parcel.java:669)
+E/AndroidRuntime(15701):    at android.app.FragmentState.writeToParcel(Fragment.java:139)
+E/AndroidRuntime(15701):    at android.os.Parcel.writeTypedArray(Parcel.java:1197)
+E/AndroidRuntime(15701):    at android.app.FragmentManagerState.writeToParcel(FragmentManager.java:376)
+E/AndroidRuntime(15701):    at android.os.Parcel.writeParcelable(Parcel.java:1363)
+E/AndroidRuntime(15701):    at android.os.Parcel.writeValue(Parcel.java:1268)
+E/AndroidRuntime(15701):    at android.os.Parcel.writeArrayMapInternal(Parcel.java:644)
+E/AndroidRuntime(15701):    at android.os.BaseBundle.writeToParcelInner(BaseBundle.java:1313)
+E/AndroidRuntime(15701):    at android.os.Bundle.writeToParcel(Bundle.java:1034)
+E/AndroidRuntime(15701):    at android.os.Parcel.writeBundle(Parcel.java:669)
+E/AndroidRuntime(15701):    at android.app.ActivityManagerProxy.activityStopped(ActivityManagerNative.java:2925)
+E/AndroidRuntime(15701):    at android.app.ActivityThread$StopInfo.run(ActivityThread.java:3299)
+E/AndroidRuntime(15701):    at android.os.Handler.handleCallback(Handler.java:739)
+E/AndroidRuntime(15701):    at android.os.Handler.dispatchMessage(Handler.java:95)
+E/AndroidRuntime(15701):    at android.os.Looper.loop(Looper.java:135)
+E/AndroidRuntime(15701):    at android.app.ActivityThread.main(ActivityThread.java:5257)
+E/AndroidRuntime(15701):    at java.lang.reflect.Method.invoke(Native Method)
+E/AndroidRuntime(15701):    at java.lang.reflect.Method.invoke(Method.java:372)
+E/AndroidRuntime(15701):    at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:903)
+E/AndroidRuntime(15701):    at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:698)
+E/AndroidRuntime(15701): Caused by: java.io.NotSerializableException: net.somethingdreadful.MAL.api.response.Anime$Airing
+E/AndroidRuntime(15701):    at java.io.ObjectOutputStream.writeNewObject(ObjectOutputStream.java:1344)
+E/AndroidRuntime(15701):    at java.io.ObjectOutputStream.writeObjectInternal(ObjectOutputStream.java:1651)
+E/AndroidRuntime(15701):    at java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:1497)
+E/AndroidRuntime(15701):    at java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:1461)
+E/AndroidRuntime(15701):    at java.io.ObjectOutputStream.writeFieldValues(ObjectOutputStream.java:959)
+E/AndroidRuntime(15701):    at java.io.ObjectOutputStream.defaultWriteObject(ObjectOutputStream.java:360)
+E/AndroidRuntime(15701):    at java.io.ObjectOutputStream.writeHierarchy(ObjectOutputStream.java:1054)
+E/AndroidRuntime(15701):    at java.io.ObjectOutputStream.writeNewObject(ObjectOutputStream.java:1384)
+E/AndroidRuntime(15701):    at java.io.ObjectOutputStream.writeObjectInternal(ObjectOutputStream.java:1651)
+E/AndroidRuntime(15701):    at java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:1497)
+E/AndroidRuntime(15701):    at java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:1461)
+E/AndroidRuntime(15701):    at android.os.Parcel.writeSerializable(Parcel.java:1389)
+E/AndroidRuntime(15701):    ... 26 more
+	</description>
+        <title>Crash in Airing Title Detail</title>
+    </Manager>
+    <Manager Number="110">
+        <labels>
+            <label>bug</label>
+        </labels>
+        <bugID>Issue #445</bugID>
+        <url>https://github.com/AnimeNeko/Atarashii/issues/445</url>
+        <description>
+		The &quot;Add Comment&quot; title on the overlay dialog for adding a comment on a forum topic is overlapping the &quot;X&quot; to close the overlay, making it impossible to tap. See screenshots. Perhaps we should use native Cancel/OK controls for this rather than a custom item in the dialog?
+	</description>
+        <title>Overlap of Title and Close link in Forum Comment Dialog</title>
+    </Manager>
+    <Manager Number="111">
+        <labels>
+            <label>enhancement</label>
+        </labels>
+        <bugID>Issue #447</bugID>
+        <url>https://github.com/AnimeNeko/Atarashii/issues/447</url>
+        <description>
+		I thought it could really help to find new things if I could you it. Added a print screen of MAL: I thing it required to pass arguments to the search url so we need to understands the parameters.
+	</description>
+        <title>Advance search</title>
+    </Manager>
+    <Manager Number="112">
+        <labels>
+            <label>AniList</label>
+            <label>bug</label>
+        </labels>
+        <bugID>Issue #466</bugID>
+        <url>https://github.com/AnimeNeko/Atarashii/issues/466</url>
+        <description>
+		The aniList profile keeps crashing due the followers. switch (post.getActivityType()) { in line 199 in HTMLutil is emtpy
+	</description>
+        <title>AniList profile crash</title>
+    </Manager>
+    <Manager Number="113">
+        <labels>
+            <label>enhancement</label>
+        </labels>
+        <bugID>Issue #469</bugID>
+        <url>https://github.com/AnimeNeko/Atarashii/issues/469</url>
+        <description>
+		Due the DB changes I apparently forgot to add the DB support for it...
+	</description>
+        <title>Add other title support again</title>
+    </Manager>
+    <Manager Number="114">
+        <labels>
+            <label>None yet</label>
+        </labels>
+        <bugID>Issue #475</bugID>
+        <url>https://github.com/AnimeNeko/Atarashii/issues/475</url>
+        <description>
+		the mangalist is not sorting in the databasemanager
+	</description>
+        <title>manga list not sorting</title>
+    </Manager>
+    <Manager Number="115">
+        <labels>
+            <label>Feature Request</label>
+            <label>enhancement</label>
+        </labels>
+        <bugID>Issue #477</bugID>
+        <url>https://github.com/AnimeNeko/Atarashii/issues/477</url>
+        <description>
+		Display broadcast information in the detailview - Add schedue in Atarashii Freshdesk issue 26
+	</description>
+        <title>Display broadcast on in anime detailview</title>
+    </Manager>
+    <Manager Number="116">
+        <labels>
+            <label>enhancement</label>
+        </labels>
+        <bugID>Issue #478</bugID>
+        <url>https://github.com/AnimeNeko/Atarashii/issues/478</url>
+        <description>
+		Replace navigationdrawer with the support library Run overdraw and fix issues souces: http://developer.android.com/tools/performance/index.html Freshdesk issue 24
+	</description>
+        <title>Side menu lag and performance issues</title>
+    </Manager>
+    <Manager Number="117">
+        <labels>
+            <label>Won't Fix</label>
+            <label>invalid</label>
+        </labels>
+        <bugID>Issue #483</bugID>
+        <url>https://github.com/AnimeNeko/Atarashii/issues/483</url>
+        <description>
+		I have a custom rom in my phone and atarashii doesn't like my build version &quot;◄║JellySNAP ROM|Ξ|JSRAK47|Ξ|v7.0║►&quot;. I could change my build name for the time being but it could be good if you filter some of the characters out that cause problems like this character ◄. Here's the line that was causing problems from MALApi.java. private static final String USER_AGENT = &quot;Atarashii! (Linux; Android &quot; + Build.VERSION.RELEASE + &quot;; &quot; + Build.MODEL + &quot; Build/&quot; + Build.DISPLAY + &quot;) &quot; + okUa;
+	</description>
+        <title>Minor problem with weird build numbers</title>
+    </Manager>
+    <Manager Number="118">
+        <labels>
+            <label>bug</label>
+        </labels>
+        <bugID>Issue #484</bugID>
+        <url>https://github.com/AnimeNeko/Atarashii/issues/484</url>
+        <description>
+		Hi! I've found that the app crashes while scrolling in the settings app after the Auto Sync option (Auto Sincronização, in portuguese). It happens both in the Beta and regular android app. I'm using Android 5.0.2 / MIUI 7. Here's the error report: java.lang.ArrayIndexOutOfBoundsException: length=7; index=11 at android.preference.ListPreference.getEntry(ListPreference.java:219) at android.preference.ListPreference.getSummary(ListPreference.java:164) at android.preference.Preference.onBindView(Preference.java:565) at android.preference.Preference.getView(Preference.java:504) at android.preference.PreferenceGroupAdapter.getView(PreferenceGroupAdapter.java:256) at android.widget.AbsListView.obtainView(AbsListView.java:2464) at android.widget.ListView.makeAndAddView(ListView.java:1894) at android.widget.ListView.fillDown(ListView.java:710) at android.widget.ListView.fillGap(ListView.java:674) at android.widget.AbsListView.trackMotionScroll(AbsListView.java:5509) at android.widget.AbsListView$FlingRunnable.run(AbsListView.java:5004) at android.view.Choreographer$CallbackRecord.run(Choreographer.java:800) at android.view.Choreographer.doCallbacks(Choreographer.java:603) at android.view.Choreographer.doFrame(Choreographer.java:571) at android.view.Choreographer$FrameDisplayEventReceiver.run(Choreographer.java:786) at android.os.Handler.handleCallback(Handler.java:815) at android.os.Handler.dispatchMessage(Handler.java:104) at android.os.Looper.loop(Looper.java:194) at android.app.ActivityThread.main(ActivityThread.java:5549) at java.lang.reflect.Method.invoke(Native Method) at java.lang.reflect.Method.invoke(Method.java:372) at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:964) at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:759)
+	</description>
+        <title>Crash on Settings Scroll when language is &quot;Portuguese Portugal&quot;</title>
+    </Manager>
+    <Manager Number="119">
+        <labels>
+            <label>bug</label>
+        </labels>
+        <bugID>Issue #485</bugID>
+        <url>https://github.com/AnimeNeko/Atarashii/issues/485</url>
+        <description>
+		Some removed records are still in the DB because we only make the remove record to the API
+	</description>
+        <title>Removed records are saved in the DB</title>
+    </Manager>
+    <Manager Number="120">
+        <labels>
+            <label>None yet</label>
+        </labels>
+        <bugID>Issue #486</bugID>
+        <url>https://github.com/AnimeNeko/Atarashii/issues/486</url>
+        <description>
+		GenericRecord.java always rewrites cover image URL to user large versions. Sometimes (≈ 2% of my list) a large version isn't available, like with Azumanga Daioh, Bokurano, Hidamari Sketch and Sailor Moon. When it happens cover_error.png is shown, instead of fallbacking to the normal, non-large, version.
+	</description>
+        <title>Cover image don't load when large version isn't available</title>
+    </Manager>
+    <Manager Number="121">
+        <labels>
+            <label>None yet</label>
+        </labels>
+        <bugID>Issue #487</bugID>
+        <url>https://github.com/AnimeNeko/Atarashii/issues/487</url>
+        <description>
+		BRIEF: There are two &quot;Auto-synchronisation&quot; options in Settings. The difference between them is unclear(I guess the second option means something like &quot;Sync before backup&quot;, but I'm not sure). STEPS_TO_REPRODUCE: Open app. Login (MAL). Open settings. Look at &quot;Sync&quot; and &quot;Backup&quot; sections.
+	</description>
+        <title>Settings: Auto-synchronisation misunderstanding</title>
+    </Manager>
+    <Manager Number="122">
+        <labels>
+            <label>enhancement</label>
+        </labels>
+        <bugID>Issue #488</bugID>
+        <url>https://github.com/AnimeNeko/Atarashii/issues/488</url>
+        <description>
+		BRIEF: I guess there are people who track only one type of content(for example, I do not use mangalist on MAL at all). Now on the main page I always see tabs for switching between anime and manga lists. As far as I do not have manga list, these tabs are useless and the only thing they do is consume space. STEPS_TO_REPRODUCE: Open app. Login using MAL account which has only one list. ACTUAL_RESULT: There is a useless switcher between two lists. EXPECTED_RESULT: Screen space is not used for displaying stuff which is definitely useless.
+	</description>
+        <title>[MAL] Display Anime/Manga tabs only if user has both lists.</title>
+    </Manager>
+    <Manager Number="123">
+        <labels>
+            <label>Feature Request</label>
+        </labels>
+        <bugID>Issue #490</bugID>
+        <url>https://github.com/AnimeNeko/Atarashii/issues/490</url>
+        <description>
+		It would be nice to add this in the app. Once you press on it you will go to google or YouTube where you can listen it :)
+	</description>
+        <title>Opening and ending songs</title>
+    </Manager>
+    <Manager Number="124">
+        <labels>
+            <label>bug</label>
+        </labels>
+        <bugID>Issue #492</bugID>
+        <url>https://github.com/AnimeNeko/Atarashii/issues/492</url>
+        <description>
+		Tags appear in interface but aren't supported. How to reproduce: Select anime with tags, go to personal, tags is empty. or Select anime, go to personal, add tags, return, reselect same anime, tags is empty.
+	</description>
+        <title>Tags not supported</title>
+    </Manager>
+</Managers>
