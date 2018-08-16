@@ -1,0 +1,543 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<reports>
+		<report Number="0">
+			<summary>Inflexible themes</summary>
+			<url>https://github.com/talklittle/reddit-is-fun/issues/1</url>
+			<bugID>Issue #1</bugID>
+			<label>feature request</label>
+			<description>
+		Right now the current theme is checked in many places in the code, which assume there are only a &quot;light&quot; and &quot;dark&quot; theme. I'd prefer if it supported a variable number of themes. And maybe themes should be addable (downloadable?) and removable.
+	</description>
+		</report>
+		<report Number="1">
+			<summary>Search</summary>
+			<url>https://github.com/talklittle/reddit-is-fun/issues/2</url>
+			<bugID>Issue #2</bugID>
+			<label>feature request</label>
+			<description>
+		Search is not yet implemented.
+	</description>
+		</report>
+		<report Number="2">
+			<summary>Find on page</summary>
+			<url>https://github.com/talklittle/reddit-is-fun/issues/3</url>
+			<bugID>Issue #3</bugID>
+			<label>feature request</label>
+			<description>
+		You should be able to do a find on the current comments list and jump to the next comment containing that character string.
+	</description>
+		</report>
+		<report Number="3">
+			<summary>Markdown links</summary>
+			<url>https://github.com/talklittle/reddit-is-fun/issues/4</url>
+			<bugID>Issue #4</bugID>
+			<label>feature request</label>
+			<description>
+		Markdown needs to be at least partially implemented. For hyperlinks, bold, italics at least. (Not quite sure how hyperlinks would be done, since if they don't appear in the string, we might need to change behavior away from Android built-in &quot;autoLink&quot; feature.) I'm not sure if using SpannableStringBuilder on every comment would be too slow. From comments on the Internet it looks like using WebViews for comments would definitely be too slow. So leave as TextViews for sure. EDIT: Yes, markdown is SLOW for long comments (during JSON parse phase) EDIT2: It's now acceptable speed using dk.brics.automaton
+	</description>
+		</report>
+		<report Number="4">
+			<summary>Labeling OP</summary>
+			<url>https://github.com/talklittle/reddit-is-fun/issues/6</url>
+			<bugID>Issue #6</bugID>
+			<label>feature request</label>
+			<description>
+		I do not currently label the OP, mods, admins in comments list. I don't know if the info for mods/admins is in JSON. Of course the OP can be found by looking at the OP ThreadInfo. I wasn't sure about this though, since I know some subreddits can disable it (and maybe for good reason). Related: /r/TRUST blacks out everyone's name by default. How to handle stuff like that?
+	</description>
+		</report>
+		<report Number="5">
+			<summary>User history page</summary>
+			<url>https://github.com/talklittle/reddit-is-fun/issues/7</url>
+			<bugID>Issue #7</bugID>
+			<label>feature request</label>
+			<description>
+		Need to show user history which can consist of both threads and comments.
+	</description>
+		</report>
+		<report Number="6">
+			<summary>Intercepting HTTP URIs to www.reddit.com</summary>
+			<url>https://github.com/talklittle/reddit-is-fun/issues/9</url>
+			<bugID>Issue #9</bugID>
+			<label>feature request</label>
+			<description>
+		It's possible to have an intent-filter for HTTP URIs based on domain. All that is needed would be some pattern matching to direct the parsed URL to the correct Activity. (RedditIsFun for link to subreddit, RedditCommentsListActivity for link to thread, MoreChildrenActivity for link to a comment)
+	</description>
+		</report>
+		<report Number="7">
+			<summary>edit/delete post</summary>
+			<url>https://github.com/talklittle/reddit-is-fun/issues/10</url>
+			<bugID>Issue #10</bugID>
+			<label>feature request</label>
+			<description>
+		It would be nice to be able to edit and delete posts and comments from within the app.
+	</description>
+		</report>
+		<report Number="8">
+			<summary>Ability to edit subreddit list from app</summary>
+			<url>https://github.com/talklittle/reddit-is-fun/issues/12</url>
+			<bugID>Issue #12</bugID>
+			<label>feature request</label>
+			<description>
+		Currently it is only possible to edit your subreddit list using the browser by editing your &quot;my reddits&quot; list. It would be convenient to be able to modify the list directly in the app. This requires an activity (either existing PickSubredditActivity or a new one) to use JSON instead of current HTML scraping, so that we can determine the subreddit id36 to pass to API via POST. Alternatively, there could be a separate offline data store, and the list that the user sees is the union of both lists.
+	</description>
+		</report>
+		<report Number="9">
+			<summary>Sort by &quot;best&quot;</summary>
+			<url>https://github.com/talklittle/reddit-is-fun/issues/15</url>
+			<bugID>Issue #15</bugID>
+			<label>feature request</label>
+			<description>
+		Reddit added a new sort-by option called &quot;best&quot; For this app, would need to modify menu xmls, and corresponding code.
+	</description>
+		</report>
+		<report Number="10">
+			<summary>Saving posts</summary>
+			<url>https://github.com/talklittle/reddit-is-fun/issues/18</url>
+			<bugID>Issue #18</bugID>
+			<label>feature request</label>
+			<description>
+		Ability to create/access saved posts
+	</description>
+		</report>
+		<report Number="11">
+			<summary>Open links in app instead of browser</summary>
+			<url>https://github.com/talklittle/reddit-is-fun/issues/19</url>
+			<bugID>Issue #19</bugID>
+			<label>feature request</label>
+			<description>
+		I think this will make things more responsive and reduce problems caused by task switching. Also may reduce Browser CPU problems (see &quot;Browser CPU usage&quot; bug: http://github.com/talklittle/reddit-is-fun/issues/#issue/14)
+	</description>
+		</report>
+		<report Number="12">
+			<summary>Sending PMs</summary>
+			<url>https://github.com/talklittle/reddit-is-fun/issues/20</url>
+			<bugID>Issue #20</bugID>
+			<label>feature request</label>
+			<description>
+		Need ability to send PMs not just replying
+	</description>
+		</report>
+		<report Number="13">
+			<summary>Disable rotation</summary>
+			<url>https://github.com/talklittle/reddit-is-fun/issues/25</url>
+			<bugID>Issue #25</bugID>
+			<label>feature request</label>
+			<description>
+		This should be an easy addition. Ability to disable rotation via a preference setting. http://www.anddev.org/viewtopic.php?p=23174#23174 setRequestedOrientation(1); // sets orientation to portrait List of other settings: http://developer.android.com/reference/android/R.attr.html#screenOrientation
+	</description>
+		</report>
+		<report Number="14">
+			<summary>Move Inbox to Main Menu.</summary>
+			<url>https://github.com/talklittle/reddit-is-fun/issues/28</url>
+			<bugID>Issue #28</bugID>
+			<label>feature request</label>
+			<description>
+		Currently the six options on the menu include &quot;sort by.&quot; I could be mistaken, but I can't imagine anyone re-sorting more often than they check their inbox. It seems a good design choice to move the sort button to the &quot;more&quot; menu, so that the more commonly used inbox can be a top-level choice.
+	</description>
+		</report>
+		<report Number="15">
+			<summary>Adjustable font size</summary>
+			<url>https://github.com/talklittle/reddit-is-fun/issues/29</url>
+			<bugID>Issue #29</bugID>
+			<label>feature request</label>
+			<description>
+		Need a way to specify font size in Settings
+	</description>
+		</report>
+		<report Number="16">
+			<summary>Ability to skip the popup for thread lists</summary>
+			<url>https://github.com/talklittle/reddit-is-fun/issues/33</url>
+			<bugID>Issue #33</bugID>
+			<label>feature request</label>
+			<description>
+		Some people have asked for the option to skip the popup and have option to always do one of: goto link goto comments toggle vote
+	</description>
+		</report>
+		<report Number="17">
+			<summary>Hide Threads</summary>
+			<url>https://github.com/talklittle/reddit-is-fun/issues/35</url>
+			<bugID>Issue #35</bugID>
+			<label>feature request</label>
+			<description>
+		Need the ability to hide an article, by pressing a button and/or swiping the article in the article list. Should integrate with the reddit 'hide' feature Additionally, it would be nice to have the option to automatically hide read articles and show hidden posts.
+	</description>
+		</report>
+		<report Number="18">
+			<summary>Including the anchor text in the list of links in comment</summary>
+			<url>https://github.com/talklittle/reddit-is-fun/issues/38</url>
+			<bugID>Issue #38</bugID>
+			<label>feature request</label>
+			<description>
+		http://www.reddit.com/r/Android/comments/bmxxr/a_few_reddit_is_fun_thoughts/
+	</description>
+		</report>
+		<report Number="19">
+			<summary>Reporting comments and threads</summary>
+			<url>https://github.com/talklittle/reddit-is-fun/issues/42</url>
+			<bugID>Issue #42</bugID>
+			<label>feature request</label>
+			<description>
+		I've implemented the ability to report comments into my fork of this app but someone still needs to implement the ability to report an entire thread.
+	</description>
+		</report>
+		<report Number="20">
+			<summary>post thumbnails</summary>
+			<url>https://github.com/talklittle/reddit-is-fun/issues/47</url>
+			<bugID>Issue #47</bugID>
+			<label>feature request</label>
+			<description>
+		Can we get thumbnails for posts in the post list?
+	</description>
+		</report>
+		<report Number="21">
+			<summary>NSFW Marker on threads</summary>
+			<url>https://github.com/talklittle/reddit-is-fun/issues/53</url>
+			<bugID>Issue #53</bugID>
+			<label>feature request</label>
+			<description>
+		Include a NSWF indicator on threads that have NSFW in the title: Screenshots: http://imgur.com/mb6TN.png http://imgur.com/mfAQX.png Patch here: http://github.com/faux/reddit-is-fun/commit/672cf833e16ca384a1d3ad30cc480258a090617d
+	</description>
+		</report>
+		<report Number="22">
+			<summary>Show thumbnails only on WiFi</summary>
+			<url>https://github.com/talklittle/reddit-is-fun/issues/58</url>
+			<bugID>Issue #58</bugID>
+			<label>feature request</label>
+			<description>
+		to save bandwidth $$
+	</description>
+		</report>
+		<report Number="23">
+			<summary>Remember Sort by setting</summary>
+			<url>https://github.com/talklittle/reddit-is-fun/issues/61</url>
+			<bugID>Issue #61</bugID>
+			<label>feature request</label>
+			<description>
+		No description provided.
+	</description>
+		</report>
+		<report Number="24">
+			<summary>Profile View Activity</summary>
+			<url>https://github.com/talklittle/reddit-is-fun/issues/63</url>
+			<bugID>Issue #63</bugID>
+			<label>feature request</label>
+			<description>
+		Implement a profile view activity to view karma, trophies, and posts. I need to add a trophy api into the reddit source before this gets started to make it cleaner.
+	</description>
+		</report>
+		<report Number="25">
+			<summary>Backup agent</summary>
+			<url>https://github.com/talklittle/reddit-is-fun/issues/68</url>
+			<bugID>Issue #68</bugID>
+			<label>feature request</label>
+			<description>
+		Use BackupAgent http://developer.android.com/guide/topics/data/backup.html to save settings between updates, reinstalls, etc.
+	</description>
+		</report>
+		<report Number="26">
+			<summary>Enable Apps2SD</summary>
+			<url>https://github.com/talklittle/reddit-is-fun/issues/69</url>
+			<bugID>Issue #69</bugID>
+			<label>feature request</label>
+			<description>
+		Enable apps2sd in AndroidManifest.xml requires building against API level 8 I tried it briefly but had some crashes due to Android API 8. Need to debug further
+	</description>
+		</report>
+		<report Number="27">
+			<summary>Context item - goto subreddit</summary>
+			<url>https://github.com/talklittle/reddit-is-fun/issues/70</url>
+			<bugID>Issue #70</bugID>
+			<label>feature request</label>
+			<description>
+		&quot;I would like to see an item in the long-hold options of stories to take you to its subreddit.&quot;
+	</description>
+		</report>
+		<report Number="28">
+			<summary>Jump to a thread's subreddit</summary>
+			<url>https://github.com/talklittle/reddit-is-fun/issues/82</url>
+			<bugID>Issue #82</bugID>
+			<label>feature request</label>
+			<description>
+		In ThreadsListActivity would be convenient to have a way to jump to post's subreddit, probably by long-clicking if it doesn't fit in the popup dialog. Should be a very easy implementation
+	</description>
+		</report>
+		<report Number="29">
+			<summary>Access comments from inside article</summary>
+			<url>https://github.com/talklittle/reddit-is-fun/issues/84</url>
+			<bugID>Issue #84</bugID>
+			<label>feature request</label>
+			<description>
+		The options menu on an article nees an addition to &quot;View Comments.&quot; Having to hit back and click through to the comments is a bit tedious.
+	</description>
+		</report>
+		<report Number="30">
+			<summary>View reddit toolbar when linked to article from app</summary>
+			<url>https://github.com/talklittle/reddit-is-fun/issues/94</url>
+			<bugID>Issue #94</bugID>
+			<label>feature request</label>
+			<description>
+		When following an article from the list on the app it takes me directly to the url of the article in question but the toolbar does not show up on this new page. However, if I open the app, then click on the menu to view in browser, then follow an article from there it will show the toolbar on the new page. If possible could you make an option available in the menu settings of the reddit is fun app to show the toolbar when following a link. This would fix a fair number of issues, such as commenting on a followed story without having to back-track.
+	</description>
+		</report>
+		<report Number="31">
+			<summary>option to not refresh on open</summary>
+			<url>https://github.com/talklittle/reddit-is-fun/issues/101</url>
+			<bugID>Issue #101</bugID>
+			<label>feature request</label>
+			<description>
+		really sucks when you are like 8 pages in, go to a page that redirects to mobile, have to spam back button to get to back to reddit is fun but then you go to far and it goes to desktop, and when you open it, bam, refreshes, losing where you were. i don't blame reddit is fun, i blame the crappy website, but still it is INCREDIBLY frustrating.
+	</description>
+		</report>
+		<report Number="32">
+			<summary>Add +/- Frontpage</summary>
+			<url>https://github.com/talklittle/reddit-is-fun/issues/102</url>
+			<bugID>Issue #102</bugID>
+			<label>feature request</label>
+			<description>
+		Would be good if I could add or remove subreddits from my front page (as a menu item on the subreddit page).
+	</description>
+		</report>
+		<report Number="33">
+			<summary>Moderator mail</summary>
+			<url>https://github.com/talklittle/reddit-is-fun/issues/110</url>
+			<bugID>Issue #110</bugID>
+			<label>feature request</label>
+			<description>
+		Want a way to get moderator mail
+	</description>
+		</report>
+		<report Number="34">
+			<summary>Handle shortened reddit URLs</summary>
+			<url>https://github.com/talklittle/reddit-is-fun/issues/112</url>
+			<bugID>Issue #112</bugID>
+			<label>feature request</label>
+			<description>
+		I have a feature request to allow the app to handle shortened URL from Reddit's Twitter feeds. Normally for URLs in Reddit's tweets, they are in http://reddit.com/xxxxx format. My Twitter client then hands over the link to my web browser, which will access the URL and expand the URL to http://reddit.com/tb/xxxxx format, which is a lightweight page for mobile browsers. It would be nice if the http://reddit.com/tb/xxxxx can be handled by the app as well.
+	</description>
+		</report>
+		<report Number="35">
+			<summary>Dark Theme loading screen should be completely black</summary>
+			<url>https://github.com/talklittle/reddit-is-fun/issues/114</url>
+			<bugID>Issue #114</bugID>
+			<label>feature request</label>
+			<description>
+		I love the dark theme of Reddit is Fun on my Galaxy-S which uses an AMOLED display because it really cuts down on the battery usage. However the loading screen of RiF, instead of being completely black (like the background of the main reddit screen in RiF's Dark Theme) is a shade of grey, which still needs to power on the LEDs and therefore consumes power. And unfortunately usually I'm stuck on the loading screen more than I'm be reading the articles. So can you please make it so that the loading screen background in the Dark Theme is completely black? Thanks
+	</description>
+		</report>
+		<report Number="36">
+			<summary>&quot;Huge&quot; font size setting</summary>
+			<url>https://github.com/talklittle/reddit-is-fun/issues/115</url>
+			<bugID>Issue #115</bugID>
+			<label>feature request</label>
+			<description>
+		want a setting even bigger than Larger
+	</description>
+		</report>
+		<report Number="37">
+			<summary>Add r/all to the list of subreddits</summary>
+			<url>https://github.com/talklittle/reddit-is-fun/issues/116</url>
+			<bugID>Issue #116</bugID>
+			<label>feature request</label>
+			<description>
+		I'd love to see r/all show up in the list of subreddits rather than having to type it out every time. It's certainly a low priority item, but would be a nice bit of time-saving/streamlining.
+	</description>
+		</report>
+		<report Number="38">
+			<summary>Exit confirmation dialog</summary>
+			<url>https://github.com/talklittle/reddit-is-fun/issues/117</url>
+			<bugID>Issue #117</bugID>
+			<label>feature request</label>
+			<description>
+		When pressing Back button many times, should ask for confirmation before backing out all the way (which forces a reload next time you open the app)
+	</description>
+		</report>
+		<report Number="39">
+			<summary>Battery drain secondary to quit verification</summary>
+			<url>https://github.com/talklittle/reddit-is-fun/issues/120</url>
+			<bugID>Issue #120</bugID>
+			<label>feature request</label>
+			<description>
+		I don't know if anyone else has had this issue, but it's irksome enough that i signed up for an account here to comment. Accept my apologies if my presentation of issues is against etiquette. Please eliminate this from the future version of the software, or at least offer a toggle in the settings menu. I drained an entire battery today leaving reddit is fun open today because i simply hit the back button by habit and it didn't close the program, preventing my phone from going into sleep mode.
+	</description>
+		</report>
+		<report Number="40">
+			<summary>Increase size of thumbnail area for easier clicking.</summary>
+			<url>https://github.com/talklittle/reddit-is-fun/issues/139</url>
+			<bugID>Issue #139</bugID>
+			<label>feature request</label>
+			<description>
+		This issue is apparent on my tablet (Nook color rooted). I haven't really tested it out on smaller screens yet. The thumbnail/arrow on the right is easy to miss when clicking, thus prompting the Link/Comments dialog. Proposed solution: Increse the height to 100% of the box and right-align it flush with the parent to ensure striking the icon when clicking on the right side of the title box.
+	</description>
+		</report>
+		<report Number="41">
+			<summary>Switch menu items</summary>
+			<url>https://github.com/talklittle/reddit-is-fun/issues/145</url>
+			<bugID>Issue #145</bugID>
+			<label>feature request</label>
+			<description>
+		I'd rather see &quot;jk3us's profile&quot; on the main menu and the logout option under more. Maybe we could just switch those two options?
+	</description>
+		</report>
+		<report Number="42">
+			<summary>Log out confirmation</summary>
+			<url>https://github.com/talklittle/reddit-is-fun/issues/147</url>
+			<bugID>Issue #147</bugID>
+			<label>feature request</label>
+			<description>
+		I find it hard to believe that I'm not the only one who occasionally when trying to hit &quot;refresh&quot; or &quot;pick subreddit&quot; instead hit the &quot;logout&quot;-button. Can we add at least a confirmation for logging out (i.e &quot;Are you sure you want to log out?&quot;) to prevent accidental logouts. This is mainly irritating for us who use more complicated passwords as input takes quite a while.
+	</description>
+		</report>
+		<report Number="43">
+			<summary>android.market.com links should fire Intent</summary>
+			<url>https://github.com/talklittle/reddit-is-fun/issues/157</url>
+			<bugID>Issue #157</bugID>
+			<label>feature request</label>
+			<description>
+		should fire intent that is openable in Market app, instead of opening in the reddit is fun browser.
+	</description>
+		</report>
+		<report Number="44">
+			<summary>Clickable area around thumbnails</summary>
+			<url>https://github.com/talklittle/reddit-is-fun/issues/163</url>
+			<bugID>Issue #163</bugID>
+			<label>feature request</label>
+			<description>
+		&quot;Hello! I'm a big fan of reddit is fun, however I do have one feature request. Could you please make the white space around the thumbnails act as though you are clicking the thumbnail? Like when a picture is horizontal and there is a little white above and below it, I find myself accidentally clicking that part quite often.&quot;
+	</description>
+		</report>
+		<report Number="45">
+			<summary>Close Browser menu option</summary>
+			<url>https://github.com/talklittle/reddit-is-fun/issues/165</url>
+			<bugID>Issue #165</bugID>
+			<label>feature request</label>
+			<description>
+		Button to close the browser (returning to reddit or comments). useful for mobile site redirections. &quot;As a fairly heavy user of reddit is fun can I make a singular feature request which would make it basically perfect? You see the problem is when clicking on links I am often redirected to the mobile version of a site - for example clicking on a link to twitter first loads twitter.com before pinging me to mobile.twitter.com - I have no problem with this but the difficulty arises when I want to go back to reddit, pushing the back button simply takes me to the page that redirected me and I end up back at the mobile version of the site again. The work around is of course quickly tapping the back button many times but I believe a far more elegant solution would be to have a 'Back to reddit' option when menu is pushed.&quot;
+	</description>
+		</report>
+		<report Number="46">
+			<summary>Move around +/- Frontpage menu entry</summary>
+			<url>https://github.com/talklittle/reddit-is-fun/issues/176</url>
+			<bugID>Issue #176</bugID>
+			<label>feature request</label>
+			<description>
+		&quot;A friendly suggestion from a fan: move the &quot;-Frontpage&quot; button to another tab and add a &quot;+Frontpage&quot;. I keep unsubscribing by mistake sometimes when I try to access my settings, and I can't subscribe again until I access a PC. I can't be the only one with fat fingers. Just an idea, thanks for everything!&quot;
+	</description>
+		</report>
+		<report Number="47">
+			<summary>Back Confirmation when replying to comment</summary>
+			<url>https://github.com/talklittle/reddit-is-fun/issues/177</url>
+			<bugID>Issue #177</bugID>
+			<label>feature request</label>
+			<description>
+		&quot;Please add a back confirmation to any reply pop-up that has text typed in it. I just lost a huge reply because I brushed my back button twice by accident.&quot;
+	</description>
+		</report>
+		<report Number="48">
+			<summary>Higher resolution &quot;go to link&quot; arrow</summary>
+			<url>https://github.com/talklittle/reddit-is-fun/issues/209</url>
+			<bugID>Issue #209</bugID>
+			<label>feature request</label>
+			<description>
+		From Monkey Man: &quot;The right arrow icon (which appears for links without thumbnails) is low-res and not modern. May I suggest this instead?[1] I also darkened the title gradient.&quot; [1] http://i.imgur.com/pwScx.png
+	</description>
+		</report>
+		<report Number="49">
+			<summary>Better comment vote arrow UI</summary>
+			<url>https://github.com/talklittle/reddit-is-fun/issues/210</url>
+			<bugID>Issue #210</bugID>
+			<label>feature request</label>
+			<description>
+		From Monkey Man: &quot;Voting arrows take up quite a bit of space in comments. I think this is a better solution[1]. Exact same information, but cleaner. It's also easier to follow comment lines.&quot; [1] http://i.imgur.com/MaOXn.png
+	</description>
+		</report>
+		<report Number="50">
+			<summary>Disallow spaces for subreddit text input fields</summary>
+			<url>https://github.com/talklittle/reddit-is-fun/issues/211</url>
+			<bugID>Issue #211</bugID>
+			<label>feature request</label>
+			<description>
+		Since subreddits cannot have spaces, should disallow whitespace in subreddit input fields.
+	</description>
+		</report>
+		<report Number="51">
+			<summary>Clickable thumbnails in Comments</summary>
+			<url>https://github.com/talklittle/reddit-is-fun/issues/219</url>
+			<bugID>Issue #219</bugID>
+			<label>feature request</label>
+			<description>
+		No description provided.
+	</description>
+		</report>
+		<report Number="52">
+			<summary>Integrate with Browser History</summary>
+			<url>https://github.com/talklittle/reddit-is-fun/issues/221</url>
+			<bugID>Issue #221</bugID>
+			<label>feature request</label>
+			<description>
+		Should be possible http://stackoverflow.com/questions/2577084/android-read-browser-history
+	</description>
+		</report>
+		<report Number="53">
+			<summary>Preference to disable saving history</summary>
+			<url>https://github.com/talklittle/reddit-is-fun/issues/225</url>
+			<bugID>Issue #225</bugID>
+			<label>feature request</label>
+			<description>
+		Should add a preference to disable saving the clicked link history.
+	</description>
+		</report>
+		<report Number="54">
+			<summary>Will Reddit is Fun do something to show solidarity with Reddit's blackout on January 18th?</summary>
+			<url>https://github.com/talklittle/reddit-is-fun/issues/233</url>
+			<bugID>Issue #233</bugID>
+			<label>feature request</label>
+			<description>
+		As you've probably heard Reddit will be blacked out this Wednesday. Maybe Reddit is Fun could do something to show solidarity: I assume the API will be down too, so if you do nothing, it will just look like reddit is down. Users who don't try to visit the site through a browser will just assume their servers are overloaded. So instead, maybe you could push out an update in the next couple days, that makes it so when you try to load the app on Wednesday during the blackout, it just shows you an anti-SOPA message and points you to the reddit homepage, which I guess will have links to more anti-SOPA information. Just an idea, let me know what you think...
+	</description>
+		</report>
+		<report Number="55">
+			<summary>Enable gradient backgrounds for Holo</summary>
+			<url>https://github.com/talklittle/reddit-is-fun/issues/234</url>
+			<bugID>Issue #234</bugID>
+			<label>feature request</label>
+			<description>
+		&quot;Hardware Accleration flag so you get the nice gradient background on the main views, I had to set the manually set background color to transparent to be able to enjoy it though.&quot;
+	</description>
+		</report>
+		<report Number="56">
+			<summary>Setting to auto-hide Action Bar on scroll</summary>
+			<url>https://github.com/talklittle/reddit-is-fun/issues/235</url>
+			<bugID>Issue #235</bugID>
+			<label>feature request</label>
+			<description>
+		No description provided.
+	</description>
+		</report>
+		<report Number="57">
+			<summary>Add Search to comments ActionBar</summary>
+			<url>https://github.com/talklittle/reddit-is-fun/issues/239</url>
+			<bugID>Issue #239</bugID>
+			<label>feature request</label>
+			<description>
+		it is a shortcut for Find Comment
+	</description>
+		</report>
+		<report Number="58">
+			<summary>View Parent/Context/All from direct comment link</summary>
+			<url>https://github.com/talklittle/reddit-is-fun/issues/250</url>
+			<bugID>Issue #250</bugID>
+			<label>feature request</label>
+			<description>
+		In the new version, following a direct link to a comment will display that comment with its children (like it does on reddit), but I don't see a way to view the parent all comments from there. Context might be nice too (like context=3 or something).
+	</description>
+		</report>
+		<report Number="59">
+			<summary>Feature request: Toggle to hide non-subscribed subreddits</summary>
+			<url>https://github.com/talklittle/reddit-is-fun/issues/269</url>
+			<bugID>Issue #269</bugID>
+			<label>feature request</label>
+			<description>
+		I get the fact that it displays subreddits you've recently viewed, but I don't see the point in having all the subreddits there, most of which I have never heard of.
+	</description>
+		</report>
+	</reports>

@@ -1,0 +1,750 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<reports>
+		<report Number="0">
+			<summary>Multi-selection for messages</summary>
+			<url>https://github.com/moezbhatti/qksms/issues/42</url>
+			<bugID>Issue #42</bugID>
+			<label>Feature</label>
+			<description>
+		There's no way to select multiple messages under a conversation to either copy, export or delete them (or any other action that I can't think of). The same is true for conversations. I've seen other apps handle this by either adding a option of &quot;Select&quot; under the long press menu, or the 3-dot menu. This option selects the message (or conversation) and lets you click on others to keep selecting. The 3-dot menu would have all the actions you can perform to those messages (or conversations). 👍 5
+	</description>
+		</report>
+		<report Number="1">
+			<summary>MMS notification if data is disabled</summary>
+			<url>https://github.com/moezbhatti/qksms/issues/118</url>
+			<bugID>Issue #118</bugID>
+			<label>Feature</label>
+			<description>
+		If data is disabled, it would be a nice feature to have a notification (if possible from the contact sending the MMS) that a new MMS is ready to download. Once data is enabled, you could touch this message to download the MMS.
+	</description>
+		</report>
+		<report Number="2">
+			<summary>Dual Sim support</summary>
+			<url>https://github.com/moezbhatti/qksms/issues/207</url>
+			<bugID>Issue #207</bugID>
+			<label>Feature</label>
+			<description>
+		Is it possible to add Dual sim support? when sending sms asks us to send with which sim or have 2 buttons for sending via sim 1 or sim 2 👍 16
+	</description>
+		</report>
+		<report Number="3">
+			<summary>[Feature request] Add the ability to change the &quot;wallpaper&quot; with photos</summary>
+			<url>https://github.com/moezbhatti/qksms/issues/267</url>
+			<bugID>Issue #267</bugID>
+			<label>Feature</label>
+			<description>
+		Like the https://play.google.com/store/apps/details?id=com.jb.zerosms It's an absolutely needed Feature for personnalisation, with this each human can create his design :) Thanks for making opensource software, your app is awesome.
+	</description>
+		</report>
+		<report Number="4">
+			<summary>GIFs are not being properly sent in MMS.</summary>
+			<url>https://github.com/moezbhatti/qksms/issues/274</url>
+			<bugID>Issue #274</bugID>
+			<label>Feature</label>
+			<description>
+		When i try to send an animated gif it will only send the first still frame of the gif, not the whole thing; The file size of the image is also reduced. However, when i tested the same gif on another sms app (Textra), it sent perfectly and was animated on the receiving side (as well as on senders side). Thanks for your time.
+	</description>
+		</report>
+		<report Number="5">
+			<summary>[Feature Request] Option to change received/sent message bubble colour</summary>
+			<url>https://github.com/moezbhatti/qksms/issues/275</url>
+			<bugID>Issue #275</bugID>
+			<label>Feature</label>
+			<description>
+		I'm using Amoled screen so I'm always using dark mode to save battery, but the received message bubble colour is grey in the dark mode so sometime it's not comfortable to read. I wish you can add an option to change received/sent message bubble colour. I used to use Textra and my received bubble is blue and sent bubble is green, it's really easy to read in the dark mode.
+	</description>
+		</report>
+		<report Number="6">
+			<summary>[Feature Request] Categories</summary>
+			<url>https://github.com/moezbhatti/qksms/issues/277</url>
+			<bugID>Issue #277</bugID>
+			<label>Feature</label>
+			<description>
+		Hi, I love your app but it miss a feature that prevents me to use your app. I use the default messaging app on the ASUS Zenfone 2, ASUS Messaging. Normally SMS are listed in the Main category. Then, there are two other categories: VIP: shows all messages of VIP contacts, set in the ASUS Contacts app. Those message are shown also in the main section and the profile pic has a VIP badge Private: all messages sent in the Private category are protected by a numeric password. Those messages are not shown in the main category I don't use VIP category but I use Private category and by now, QKSMS doesn't show any private messages, as they have been deleted. Is it possible to implement categories? Instead of just VIP category, you should implement a category for every group in the contacts.
+	</description>
+		</report>
+		<report Number="7">
+			<summary>[IMPROVMENT] Go back to main screen after display switched off for 5(?) minutes</summary>
+			<url>https://github.com/moezbhatti/qksms/issues/410</url>
+			<bugID>Issue #410</bugID>
+			<label>Feature</label>
+			<description>
+		Scenario: after working with qksms (composing, sending...) and you changed the app or switched off the display and go back to qksms: Current behaviour: qksms is exactly continued at the screen where you left it (despite a real &quot;kill app&quot; was performed) This behaviour is OK for a couple of minutes, if you want directly jump into the old conversation again. Desired behaviour: If qksms is inactive for, let's say 5 min, it should start again in the main message screen to have a better overview. Could be opt-in in settings (with desired minutes, or disabled). In the past it happended very often for me, that I don't want to see the old conversation again while there no new messages have been received. But I want to check the other conversations or start a new one --&gt; main screen is neccassary.
+	</description>
+		</report>
+		<report Number="8">
+			<summary>[Feature Request] Merge conversations</summary>
+			<url>https://github.com/moezbhatti/qksms/issues/433</url>
+			<bugID>Issue #433</bugID>
+			<label>Feature</label>
+			<description>
+		DESCRIPTION It would be extremely helpful in certain situations if 2 or more conversations could be merged into a single conversation. Example in case of a person having 2 different mobiles numbers and using whichever depending on which has the best reception at his location. A conversation with him will be split over 2 unless both can be merged. Also commercial SMS say from a bank arrive from different headers such as VM-SBI, VX-SBI, TV-SBI etc. Merging them into a common SBI or a user selected option could make life much easier. This feature is present in another application called Disa.
+	</description>
+		</report>
+		<report Number="9">
+			<summary>Mark blocked messages as read, so they don't add to the badge count</summary>
+			<url>https://github.com/moezbhatti/qksms/issues/435</url>
+			<bugID>Issue #435</bugID>
+			<label>Feature</label>
+			<description>
+		No description provided.
+	</description>
+		</report>
+		<report Number="10">
+			<summary>Samsung multi-window support</summary>
+			<url>https://github.com/moezbhatti/qksms/issues/436</url>
+			<bugID>Issue #436</bugID>
+			<label>Feature</label>
+			<description>
+		No description provided.
+	</description>
+		</report>
+		<report Number="11">
+			<summary>[Enhancement request] &quot;Add message as favorite&quot; feature</summary>
+			<url>https://github.com/moezbhatti/qksms/issues/447</url>
+			<bugID>Issue #447</bugID>
+			<label>Feature</label>
+			<description>
+		It would be really nice to add the option to starred / add as favorite some SMS/MMS in order to recover them easily through a &quot;Favorites&quot; or &quot;Starred&quot; section.
+	</description>
+		</report>
+		<report Number="12">
+			<summary>Sliding actions (e.g. call or delete)</summary>
+			<url>https://github.com/moezbhatti/qksms/issues/451</url>
+			<bugID>Issue #451</bugID>
+			<label>Feature</label>
+			<description>
+		It'd be nice if we could be able to swipe left or right on conversations in the conversation list to call contacts or delete the thread (like in Textra).
+	</description>
+		</report>
+		<report Number="13">
+			<summary>[request] add ability to archive threads</summary>
+			<url>https://github.com/moezbhatti/qksms/issues/461</url>
+			<bugID>Issue #461</bugID>
+			<label>Feature</label>
+			<description>
+		Most SMS apps have an archive function for message threads. It's a feature that I miss, as it allows the user to hide old threads that they don't necessarily want to delete, or keep sensitive/private messages hidden. 👍 4
+	</description>
+		</report>
+		<report Number="14">
+			<summary>[request] Set download location</summary>
+			<url>https://github.com/moezbhatti/qksms/issues/477</url>
+			<bugID>Issue #477</bugID>
+			<label>Feature</label>
+			<description>
+		Many SMS apps save MMS attachments into their own folder rather than just Downloads. For those of use who like to stay organized, I'm suggesting this feature.
+	</description>
+		</report>
+		<report Number="15">
+			<summary>[Enhancement] Ability to switch view from conversation to inbox/outbox/all</summary>
+			<url>https://github.com/moezbhatti/qksms/issues/481</url>
+			<bugID>Issue #481</bugID>
+			<label>Feature</label>
+			<description>
+		At some situations (after an import of messages are some conversations broken, or if I can view all messages received in a few last days) is more effective to view list of received / sent / all messages sorted only by their timestamps. Can you add these views as an alternative to the conversation view? There are almost no applications with this feature.
+	</description>
+		</report>
+		<report Number="16">
+			<summary>Multiple image MMS not shown</summary>
+			<url>https://github.com/moezbhatti/qksms/issues/498</url>
+			<bugID>Issue #498</bugID>
+			<label>Feature</label>
+			<description>
+		When receiving an MMS with, for example, multiple images attached (rather than individual MMS messages), only the first image in the message is shown. The MMS should contain thumbnails with all images similar to the stock Messaging app. When selected, one should be able to scroll through all images.
+	</description>
+		</report>
+		<report Number="17">
+			<summary>Make conversation options accessible from conversation list long press menu</summary>
+			<url>https://github.com/moezbhatti/qksms/issues/502</url>
+			<bugID>Issue #502</bugID>
+			<label>Feature</label>
+			<description>
+		No description provided.
+	</description>
+		</report>
+		<report Number="18">
+			<summary>Runtime permission support</summary>
+			<url>https://github.com/moezbhatti/qksms/issues/508</url>
+			<bugID>Issue #508</bugID>
+			<label>Feature</label>
+			<description>
+		No description provided.
+	</description>
+		</report>
+		<report Number="19">
+			<summary>Sort drafts first in conversation list</summary>
+			<url>https://github.com/moezbhatti/qksms/issues/530</url>
+			<bugID>Issue #530</bugID>
+			<label>Feature</label>
+			<description>
+		No description provided.
+	</description>
+		</report>
+		<report Number="20">
+			<summary>Set up HeadlessSmsSendService</summary>
+			<url>https://github.com/moezbhatti/qksms/issues/531</url>
+			<bugID>Issue #531</bugID>
+			<label>Feature</label>
+			<description>
+		Should provide options for &quot;Reject call with message&quot; for incoming phone calls
+	</description>
+		</report>
+		<report Number="21">
+			<summary>Cannot answer a call with an SMS if QKSMS is the default app</summary>
+			<url>https://github.com/moezbhatti/qksms/issues/534</url>
+			<bugID>Issue #534</bugID>
+			<label>Feature</label>
+			<description>
+		DESCRIPTION Most recent android dialer offers the capability of rejecting an incoming call using predefined text messages (something like: I'm busy, I'll call you back). When using QKSMS, we lose this feature. STEPS Set QKSMS as default app on a Phone A From a phone B, call A Reject the incoming call on A with a message using the dialer feature EXPECTED Phone B receives a message OBSERVATIONS Phone B does NOT receive the message Checked against Samsung default messaging app, Google Messenger and hangouts, Textra, etc. and all worked. Tested both on Samsung and Nexus devices.
+	</description>
+		</report>
+		<report Number="22">
+			<summary>Feature Request: Overlay Textures</summary>
+			<url>https://github.com/moezbhatti/qksms/issues/544</url>
+			<bugID>Issue #544</bugID>
+			<label>Feature</label>
+			<description>
+		Have an option to overlay textures over the accent areas (title bar, status bar, navigation bar, etc) and/or background area. In the newer versions of Microsoft Office, the user can choose a light geometric pattern to lay over the menu bar. I'll add pictures when I'm not on mobile.
+	</description>
+		</report>
+		<report Number="23">
+			<summary>SMS written while in flight mode are not automatically sent once we exit it</summary>
+			<url>https://github.com/moezbhatti/qksms/issues/545</url>
+			<bugID>Issue #545</bugID>
+			<label>Feature</label>
+			<description>
+		DESCRIPTION SMS written while in flight mode are not sent once we exit it. STEPS Switch phone to flight mode Select contact and type SMS Press send. The sending will fail which is normal. Exit flight mode. The SMS are not sent automatically. EXPECTED Send pending SMS once we exit the flight mode. OBSERVATIONS In the native application (in my case, Samsung default messaging app), during flight mode, an attempt to send the SMS will mark it as pending and send it automatically when the network is back (exiting the flight mode).
+	</description>
+		</report>
+		<report Number="24">
+			<summary>Search option in the conversations list does not include contacts names</summary>
+			<url>https://github.com/moezbhatti/qksms/issues/546</url>
+			<bugID>Issue #546</bugID>
+			<label>Feature</label>
+			<description>
+		DESCRIPTION The search option looks only inside the texts and not the contact name, which is pretty useful. STEPS Have some threads (multiple conversations) Go to conversations list, press the search button The app looks only inside the sms content and not the contacts names EXPECTED Search for contacts names as well in the conversations list.
+	</description>
+		</report>
+		<report Number="25">
+			<summary>Disable MMS auto-retrieve</summary>
+			<url>https://github.com/moezbhatti/qksms/issues/550</url>
+			<bugID>Issue #550</bugID>
+			<label>Feature</label>
+			<description>
+		Is there any way to add an option to disable MMS auto-retrieval just like Messenger? That way, when your data is off, you get a notification with a download button. 👍 1
+	</description>
+		</report>
+		<report Number="26">
+			<summary>Notification sounds</summary>
+			<url>https://github.com/moezbhatti/qksms/issues/634</url>
+			<bugID>Issue #634</bugID>
+			<label>Feature</label>
+			<description>
+		More of a feature request than an issue, but I can never find messaging apps that either use the phones contacts individual text tones, or allows for each contact to have their own tone even in a group message. I hate having to set each person's tone, and then it not even matter when they are in a group.
+	</description>
+		</report>
+		<report Number="27">
+			<summary>Search functionality on contact names</summary>
+			<url>https://github.com/moezbhatti/qksms/issues/650</url>
+			<bugID>Issue #650</bugID>
+			<label>Feature</label>
+			<description>
+		It doesn't search contact names. Like I have hundreds of threads, and I want to send a message to my mom(contact name saved as 'mom'), now instead of scrolling and looking for thread named on my mom, it is more convenient if I can search word 'mom' and the thread appears. Sorry, if I have written a long post.
+	</description>
+		</report>
+		<report Number="28">
+			<summary>[Enhancement] Group messaging</summary>
+			<url>https://github.com/moezbhatti/qksms/issues/674</url>
+			<bugID>Issue #674</bugID>
+			<label>Feature</label>
+			<description>
+		Hello everybody ! I'm new here on github, and i'm beginning in the beautiful world of the open source world :) I have a proposition for this great app (well done moezbhatti, i love it !). I didn't find a feature that i often use on the stock messaging app : to create a group of contacts to send it some sms. You can already send several people an sms but you cannot save this group of people (with a name, for example &quot;Family&quot; or &quot;Teamwork&quot;) to use it other times. Thank you ! 👍 2
+	</description>
+		</report>
+		<report Number="29">
+			<summary>Allow sending message to multiple recipients individually</summary>
+			<url>https://github.com/moezbhatti/qksms/issues/678</url>
+			<bugID>Issue #678</bugID>
+			<label>Feature</label>
+			<description>
+		DESCRIPTION When a message is sent to more than one recipient, it is automatically turned into MMS without notification or confirmation. STEPS Write SMS add at least one more recipient to the list of persons to send the message to send the message EXPECTED The same sms is sent to the designated persons. OBSERVATIONS Message is converted into a MMS without notification or confirmation. Annoying when you want to save data or you don't expect the recipients to spend data. POSSIBLE WORKAROUND If the option that breaks long messages into many SMS instead is checked, make the message long enough to be broke into at least two bits. For example add a lot of spaces followed by a dot. Doesn't seem to work with short messages though. Doesn't work with forwarding or copied MMS either, but likely because of encoding.
+	</description>
+		</report>
+		<report Number="30">
+			<summary>Searching contact history sms</summary>
+			<url>https://github.com/moezbhatti/qksms/issues/707</url>
+			<bugID>Issue #707</bugID>
+			<label>Feature</label>
+			<description>
+		DESCRIPTION If i search to start a conersation for a contact, I select it, but I dont see the previous messages. STEPS Steps to reproduce the issue. EXPECTED Once I select a contact, I should see my lrevious messeges. OBSERVATIONS I get an empty new message screen
+	</description>
+		</report>
+		<report Number="31">
+			<summary>Request: Chat Heads</summary>
+			<url>https://github.com/moezbhatti/qksms/issues/708</url>
+			<bugID>Issue #708</bugID>
+			<label>Feature</label>
+			<description>
+		Hi, Thank you for app. Can you add chat heads like facebook messenger?
+	</description>
+		</report>
+		<report Number="32">
+			<summary>Feature proposal: option to block links</summary>
+			<url>https://github.com/moezbhatti/qksms/issues/714</url>
+			<bugID>Issue #714</bugID>
+			<label>Feature</label>
+			<description>
+		Given the recent exploitation of SMS to send harmful links, it would be a good idea to add a security feature: an option to block any link in SMS (ie: make it not clickable).
+	</description>
+		</report>
+		<report Number="33">
+			<summary>Send/Attach Video from gallery</summary>
+			<url>https://github.com/moezbhatti/qksms/issues/729</url>
+			<bugID>Issue #729</bugID>
+			<label>Feature</label>
+			<description>
+		Hello, This is a Great library. I want to send Video as MMS just like Image is working, Can we send/attach a video? Thanks.
+	</description>
+		</report>
+		<report Number="34">
+			<summary>When Will a Schedule to Send Messages be Added?</summary>
+			<url>https://github.com/moezbhatti/qksms/issues/730</url>
+			<bugID>Issue #730</bugID>
+			<label>Feature</label>
+			<description>
+		Why isnt there a schedule feature to schedule sending messages? Its badly needed. When will it be added? 👍 2
+	</description>
+		</report>
+		<report Number="35">
+			<summary>Support for &quot;Google Voice&quot; text (SMS/MMS) messaging</summary>
+			<url>https://github.com/moezbhatti/qksms/issues/737</url>
+			<bugID>Issue #737</bugID>
+			<label>Feature</label>
+			<description>
+		Feature request Support for &quot;Google Voice&quot; text (SMS/MMS) messaging functionality. Description I (like other people I know) use my &quot;Google Voice&quot; phone number as my primary contact number for calls and text messages. Up until recently, I have been using Google Hangouts as my texting app (SMS/MMS) because it allowed me to send and receive messages BOTH through the text messaging features provided by my carrier (Sprint) AND through the TCP/IP based Google Voice service. (Note: I have my Google Voice number set as the default to send messages from, but the Google Hangouts app allows me to select standard SMS when a new conversation is created.) I really liked having both messaging features in one app! UNFORTUNATELY, Google has decided to remove SMS/MMS functionality from Google Hangouts. To make matters worse, there don't seem to be any other apps that support both SMS/MMS and Google Voice messaging.
+	</description>
+		</report>
+		<report Number="36">
+			<summary>Feature Request: Block all SMS from contacts not in addressbook</summary>
+			<url>https://github.com/moezbhatti/qksms/issues/745</url>
+			<bugID>Issue #745</bugID>
+			<label>Feature</label>
+			<description>
+		DESCRIPTION Add an option to block all SMS by default, unless they are from someone in address book. OBSERVATIONS SMS spam is a big issue here. Currently there is an option to block numbers, but that still means getting few spam messages in inbox everyday. An ability to block all unknown numbers (combined with the already existing ability to block numbers) would make a completely spam-proof SMS app.
+	</description>
+		</report>
+		<report Number="37">
+			<summary>GIF keyboard support</summary>
+			<url>https://github.com/moezbhatti/qksms/issues/751</url>
+			<bugID>Issue #751</bugID>
+			<label>Feature</label>
+			<description>
+		This text field does not support GIF insertion from the keyboard. toast message. Reproduce by starting message, pressing emoji key, GIF Button has line through. Please add GIF insertion so that we can fully text and me specifically get away from stock and Google apps. Option seems to be there, just not implemented or supported on my device: Blu Vivo XL2, Android Version 6.0, SDK Version 23, Kernel 3.18.19. 👍 2
+	</description>
+		</report>
+		<report Number="38">
+			<summary>vCard not supported</summary>
+			<url>https://github.com/moezbhatti/qksms/issues/763</url>
+			<bugID>Issue #763</bugID>
+			<label>Feature</label>
+			<description>
+		When someone sends me contact details as vCard I am unable to open. With AOSP Messaging app it's OK. 👍 1
+	</description>
+		</report>
+		<report Number="39">
+			<summary>Customize vibration</summary>
+			<url>https://github.com/moezbhatti/qksms/issues/797</url>
+			<bugID>Issue #797</bugID>
+			<label>Feature</label>
+			<description>
+		Would it be possible to set the type of vibration for the entire app, or per conversation? As an example, AwSMS implements this per-conversation, allowing you to choose between multiple sequences of short and long vibrations for notifications. I can't really find any open source app that does something similar sadly. I'll also take the opportunity to thank you guys for this rather neat app. 👍 2
+	</description>
+		</report>
+		<report Number="40">
+			<summary>Unable to create conversation with unregistered contact</summary>
+			<url>https://github.com/moezbhatti/qksms/issues/803</url>
+			<bugID>Issue #803</bugID>
+			<label>Feature</label>
+			<description>
+		Issue Unable to use unregistered number to send SMS without using already existing conversation Steps to reproduce Install any version of QKSMS 3 Launch the app and configure Press the + button in the conversation list (bottom right) Try any number not registered in your contacts Expected behavior If no contact match, propose to open/create a conversation with the phone number inserted
+	</description>
+		</report>
+		<report Number="41">
+			<summary>QKSMS 3.0 MMS Progress</summary>
+			<url>https://github.com/moezbhatti/qksms/issues/812</url>
+			<bugID>Issue #812</bugID>
+			<label>Feature</label>
+			<description>
+		Display group messages Display photo messages Display multiple photos if available Finalize UI for photo messages Display Subject if available Send group message Send photo messages Receive MMS messages Notifications for new MMS Image preview in notification Preference for MMS auto-retrieval Preference for MMS max size
+	</description>
+		</report>
+		<report Number="42">
+			<summary>Strip unicode</summary>
+			<url>https://github.com/moezbhatti/qksms/issues/815</url>
+			<bugID>Issue #815</bugID>
+			<label>Feature</label>
+			<description>
+		Add preference to strip accents to prevent SMS size limits from being reduced
+	</description>
+		</report>
+		<report Number="43">
+			<summary>Notify when message fails to send</summary>
+			<url>https://github.com/moezbhatti/qksms/issues/816</url>
+			<bugID>Issue #816</bugID>
+			<label>Feature</label>
+			<description>
+		When a message fails to send, the user has no way of knowing unless they're looking at the conversation
+	</description>
+		</report>
+		<report Number="44">
+			<summary>Automatic night mode</summary>
+			<url>https://github.com/moezbhatti/qksms/issues/817</url>
+			<bugID>Issue #817</bugID>
+			<label>Feature</label>
+			<description>
+		No description provided.
+	</description>
+		</report>
+		<report Number="45">
+			<summary>Blocked contacts</summary>
+			<url>https://github.com/moezbhatti/qksms/issues/820</url>
+			<bugID>Issue #820</bugID>
+			<label>Feature</label>
+			<description>
+		Add ability to block contacts, resulting in their messages not being seen or notified for 👍 2
+	</description>
+		</report>
+		<report Number="46">
+			<summary>Implement EmojiCompat support library</summary>
+			<url>https://github.com/moezbhatti/qksms/issues/821</url>
+			<bugID>Issue #821</bugID>
+			<label>Feature</label>
+			<description>
+		https://developer.android.com/guide/topics/ui/look-and-feel/emoji-compat.html
+	</description>
+		</report>
+		<report Number="47">
+			<summary>Tap message to show timestamp</summary>
+			<url>https://github.com/moezbhatti/qksms/issues/823</url>
+			<bugID>Issue #823</bugID>
+			<label>Feature</label>
+			<description>
+		No description provided.
+	</description>
+		</report>
+		<report Number="48">
+			<summary>Homescreen widget</summary>
+			<url>https://github.com/moezbhatti/qksms/issues/827</url>
+			<bugID>Issue #827</bugID>
+			<label>Feature</label>
+			<description>
+		QKSMS 3.0 does not currently have a homescreen widget
+	</description>
+		</report>
+		<report Number="49">
+			<summary>Send photo MMS</summary>
+			<url>https://github.com/moezbhatti/qksms/issues/831</url>
+			<bugID>Issue #831</bugID>
+			<label>Feature</label>
+			<description>
+		No description provided.
+	</description>
+		</report>
+		<report Number="50">
+			<summary>Send group messages</summary>
+			<url>https://github.com/moezbhatti/qksms/issues/834</url>
+			<bugID>Issue #834</bugID>
+			<label>Feature</label>
+			<description>
+		No description provided.
+	</description>
+		</report>
+		<report Number="51">
+			<summary>Select specific phone number from contact when composing message</summary>
+			<url>https://github.com/moezbhatti/qksms/issues/836</url>
+			<bugID>Issue #836</bugID>
+			<label>Feature</label>
+			<description>
+		No description provided.
+	</description>
+		</report>
+		<report Number="52">
+			<summary>New message from wearable</summary>
+			<url>https://github.com/moezbhatti/qksms/issues/846</url>
+			<bugID>Issue #846</bugID>
+			<label>Feature</label>
+			<description>
+		DESCRIPTION When using a wearable, give the ability to send a predefined text to a contact. STEPS Go to defining set of Quick Responses screen Open the wearable app on the device (currently NONE for QKSMS) Select contact (maybe importing favorites ones from the phone) Select predefined text to be sent. EXPECTED Predefined text gets sent to the desired contact. OBSERVATIONS Maybe closing the wear app right after the message gets sent.
+	</description>
+		</report>
+		<report Number="53">
+			<summary>Color settings per conversation</summary>
+			<url>https://github.com/moezbhatti/qksms/issues/847</url>
+			<bugID>Issue #847</bugID>
+			<label>Feature</label>
+			<description>
+		It would be nice if we can set a color for each conversation/contact.
+	</description>
+		</report>
+		<report Number="54">
+			<summary>Enable sending of GIFs or other media inserted from the keyboard</summary>
+			<url>https://github.com/moezbhatti/qksms/issues/850</url>
+			<bugID>Issue #850</bugID>
+			<label>Feature</label>
+			<description>
+		I noticed when using Preview 6, when using Gboard to select a GIF to send from within a conversation thread already started, QKSMS would open a new message dialog, requiring us to reselect the recipient. Even upon doing so, the GIF is not added to the message (i.e. there is no preview as there is after selecting a photo from system storage.) 👍 1
+	</description>
+		</report>
+		<report Number="55">
+			<summary>Configurable photo compression</summary>
+			<url>https://github.com/moezbhatti/qksms/issues/858</url>
+			<bugID>Issue #858</bugID>
+			<label>Feature</label>
+			<description>
+		No description provided.
+	</description>
+		</report>
+		<report Number="56">
+			<summary>filter messages containing keywords</summary>
+			<url>https://github.com/moezbhatti/qksms/issues/866</url>
+			<bugID>Issue #866</bugID>
+			<label>Feature</label>
+			<description>
+		I receive sms's from an online casino, Everytime from a different number. I find it useful to block/disable notifications for messages that contain a customizable set of keywords
+	</description>
+		</report>
+		<report Number="57">
+			<summary>Display character count while typing new message</summary>
+			<url>https://github.com/moezbhatti/qksms/issues/867</url>
+			<bugID>Issue #867</bugID>
+			<label>Feature</label>
+			<description>
+		Feature request for QKSMS 3: While typing a new message I'd like to see a character count. In addition I'd like the color of that number turn red if the message contains more characters than fitting in a single SMS (or some other method to indicate that more than one single SMS is required).
+	</description>
+		</report>
+		<report Number="58">
+			<summary>Tap to resend failed SMS</summary>
+			<url>https://github.com/moezbhatti/qksms/issues/870</url>
+			<bugID>Issue #870</bugID>
+			<label>Feature</label>
+			<description>
+		No description provided.
+	</description>
+		</report>
+		<report Number="59">
+			<summary>Gallery view for attachments</summary>
+			<url>https://github.com/moezbhatti/qksms/issues/873</url>
+			<bugID>Issue #873</bugID>
+			<label>Feature</label>
+			<description>
+		Need to add a full-screen viewer for MMS attachments
+	</description>
+		</report>
+		<report Number="60">
+			<summary>Multi selection for conversations</summary>
+			<url>https://github.com/moezbhatti/qksms/issues/874</url>
+			<bugID>Issue #874</bugID>
+			<label>Feature</label>
+			<description>
+		No description provided. 👍 4
+	</description>
+		</report>
+		<report Number="61">
+			<summary>Draft messages are not saved when returning to the conversation list</summary>
+			<url>https://github.com/moezbhatti/qksms/issues/876</url>
+			<bugID>Issue #876</bugID>
+			<label>Feature</label>
+			<description>
+		When halfway through typing a message, and I click the back arrow to return to the conversation list, the message I typed is entirely deleted when returning. Assuming this behaviour is due to the 3.0 rewrite and should be fixed soon, but wanted to bring it to your attention. If I could suggest my view on how it should work: When clicking back, text of draft message is saved and remains in box when returning to specific conversation. Conversation in question moves to the top of the list (or to the point in time when the draft message was last edited, so if a newer message arrives, its conversation goes above the draft's). Text of conversation becomes italicized, or some other method of being able to tell at a glance that this message is a draft. Apologies if this is already known, I'm otherwise loving the update!
+	</description>
+		</report>
+		<report Number="62">
+			<summary>Option to save MMS to phone</summary>
+			<url>https://github.com/moezbhatti/qksms/issues/896</url>
+			<bugID>Issue #896</bugID>
+			<label>Feature</label>
+			<description>
+		No description provided.
+	</description>
+		</report>
+		<report Number="63">
+			<summary>Per-contact notifications</summary>
+			<url>https://github.com/moezbhatti/qksms/issues/904</url>
+			<bugID>Issue #904</bugID>
+			<label>Feature</label>
+			<description>
+		No description provided.
+	</description>
+		</report>
+		<report Number="64">
+			<summary>Per contact notifications pre-oreo</summary>
+			<url>https://github.com/moezbhatti/qksms/issues/908</url>
+			<bugID>Issue #908</bugID>
+			<label>Feature</label>
+			<description>
+		It's currently implemented using notification channels, but a legacy implementation needs to be made
+	</description>
+		</report>
+		<report Number="65">
+			<summary>Gallery view for MMS in conversation info</summary>
+			<url>https://github.com/moezbhatti/qksms/issues/914</url>
+			<bugID>Issue #914</bugID>
+			<label>Feature</label>
+			<description>
+		No description provided.
+	</description>
+		</report>
+		<report Number="66">
+			<summary>Direct SMS to contact</summary>
+			<url>https://github.com/moezbhatti/qksms/issues/919</url>
+			<bugID>Issue #919</bugID>
+			<label>Feature</label>
+			<description>
+		DESCRIPTION When wanted, to be able to select a contact and a message and have a shortcut/widget on the screen. STEPS Select contact(s) Define a message Define a title - displayed bellow when contact image / inside when simple background Additional: Custom image Simple background with defined color Set text color for title EXPECTED Predefined text set for contact(s) to be sent. Sent notification to be displayed. Message to appear in related conversations. OBSERVATIONS Maybe offer widget edit for change message request
+	</description>
+		</report>
+		<report Number="67">
+			<summary>Archiving messages instead of deleting them</summary>
+			<url>https://github.com/moezbhatti/qksms/issues/927</url>
+			<bugID>Issue #927</bugID>
+			<label>Feature</label>
+			<description>
+		I'm very much of a pack rat and NEED to be able to keep a record of all past messages but this gets very cluttered obviously. The ability to hide conversations without deleting it's contents is important to me and something this app lacks the ability to do. This is a pretty big QOL improvement and I honestly can't use the app until then. The default Google client allows this with a swipe and I would honestly like to have the same for this app.
+	</description>
+		</report>
+		<report Number="68">
+			<summary>[Request] Floating reply window/QK Reply, like in 2.0 version</summary>
+			<url>https://github.com/moezbhatti/qksms/issues/929</url>
+			<bugID>Issue #929</bugID>
+			<label>Feature</label>
+			<description>
+		I feel like this is a crucial feature which makes QKSMS stand out among other alternative SMS apps. Not only was this a unique feature that worked slightly differently from other SMS apps that claim to have floating reply windows, but it worked much better and much smoother. Is there any chance you can implement this in QKSMS 3.0? 👍 5
+	</description>
+		</report>
+		<report Number="69">
+			<summary>More colours for QKSMS+</summary>
+			<url>https://github.com/moezbhatti/qksms/issues/947</url>
+			<bugID>Issue #947</bugID>
+			<label>Feature</label>
+			<description>
+		No description provided.
+	</description>
+		</report>
+		<report Number="70">
+			<summary>Integration with Should I Answer</summary>
+			<url>https://github.com/moezbhatti/qksms/issues/976</url>
+			<bugID>Issue #976</bugID>
+			<label>Feature</label>
+			<description>
+		This existed in the previous version, 3.0 should be updated to support this
+	</description>
+		</report>
+		<report Number="71">
+			<summary>Delayed messaging</summary>
+			<url>https://github.com/moezbhatti/qksms/issues/979</url>
+			<bugID>Issue #979</bugID>
+			<label>Feature</label>
+			<description>
+		QKSMS 3.0 currently doesn't support delayed messages 👍 3
+	</description>
+		</report>
+		<report Number="72">
+			<summary>Font size options</summary>
+			<url>https://github.com/moezbhatti/qksms/issues/988</url>
+			<bugID>Issue #988</bugID>
+			<label>Feature</label>
+			<description>
+		Branching off from #953 Size options from 2.x Style Small Normal Large Largest Primary 14sp 16sp 18sp 22sp Secondary 12sp 14sp 16sp 18sp Tertiary 10sp 12sp 14sp 16sp Toolbar 18sp 20sp 22sp 26sp
+	</description>
+		</report>
+		<report Number="73">
+			<summary>Search text within conversation</summary>
+			<url>https://github.com/moezbhatti/qksms/issues/1010</url>
+			<bugID>Issue #1010</bugID>
+			<label>Feature</label>
+			<description>
+		No description provided. 👍 5 🎉 1
+	</description>
+		</report>
+		<report Number="74">
+			<summary>Display video attachments</summary>
+			<url>https://github.com/moezbhatti/qksms/issues/1012</url>
+			<bugID>Issue #1012</bugID>
+			<label>Feature</label>
+			<description>
+		Incoming video MMS just show up as a blank message currently, and users are forced to view it from other apps Relevant: https://stackoverflow.com/questions/44109057/get-video-thumbnail-from-uri 👍 1
+	</description>
+		</report>
+		<report Number="75">
+			<summary>Use system font</summary>
+			<url>https://github.com/moezbhatti/qksms/issues/1013</url>
+			<bugID>Issue #1013</bugID>
+			<label>Feature</label>
+			<description>
+		I feel Roboto is a clearer and more readable font for QKSMS than Lato, even though the former is slightly bigger. There could be an option in settings for switching between the two fonts. Would it also be possible to use Product Sans in the app? 👍 2
+	</description>
+		</report>
+		<report Number="76">
+			<summary>Add ability to block conversation from inbox</summary>
+			<url>https://github.com/moezbhatti/qksms/issues/1043</url>
+			<bugID>Issue #1043</bugID>
+			<label>Feature</label>
+			<description>
+		This should be in the conversation long-click menu
+	</description>
+		</report>
+		<report Number="77">
+			<summary>Capture photo from app</summary>
+			<url>https://github.com/moezbhatti/qksms/issues/1069</url>
+			<bugID>Issue #1069</bugID>
+			<label>Feature</label>
+			<description>
+		Currently the user can only attach photos from the gallery, which have already been captured 👍 2
+	</description>
+		</report>
+		<report Number="78">
+			<summary>Videos can't play</summary>
+			<url>https://github.com/moezbhatti/qksms/issues/1076</url>
+			<bugID>Issue #1076</bugID>
+			<label>Feature</label>
+			<description>
+		Seems to be a permission issue with most gallery apps, as they have no reason to reasonably request permission to view MMS content. I'll have to implement a video player within QKSMS to get around this. Will put it on the roadmap
+	</description>
+		</report>
+		<report Number="79">
+			<summary>Mark conversation read/unread</summary>
+			<url>https://github.com/moezbhatti/qksms/issues/1112</url>
+			<bugID>Issue #1112</bugID>
+			<label>Feature</label>
+			<description>
+		This existed in 2.7.3 and was very useful! 👍 4
+	</description>
+		</report>
+		<report Number="80">
+			<summary>Compose message to multiple individual contacts</summary>
+			<url>https://github.com/moezbhatti/qksms/issues/1114</url>
+			<bugID>Issue #1114</bugID>
+			<label>Feature</label>
+			<description>
+		Currently, the app will automatically try to send the message as a group message, rather than allowing you to send it individually as an SMS to each recipient. This will require quite a bit of design work/thinking, as the current design doesn't accommodate for this behavior.
+	</description>
+		</report>
+		<report Number="81">
+			<summary>View message info</summary>
+			<url>https://github.com/moezbhatti/qksms/issues/1123</url>
+			<bugID>Issue #1123</bugID>
+			<label>Feature</label>
+			<description>
+		When you long-press a message, you should see an option to view the message info. This should include some basic stuff like sent time, received time, delivery status, etc 👍 3
+	</description>
+		</report>
+		<report Number="82">
+			<summary>Support quick-reply for phonecalls</summary>
+			<url>https://github.com/moezbhatti/qksms/issues/1134</url>
+			<bugID>Issue #1134</bugID>
+			<label>Feature</label>
+			<description>
+		No description provided. 🎉 1
+	</description>
+		</report>
+	</reports>

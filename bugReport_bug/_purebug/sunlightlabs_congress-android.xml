@@ -1,0 +1,1076 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<reports>
+		<report Number="0">
+			<summary>On emulator, search results crashes when there's one result</summary>
+			<url>https://github.com/konklone/congress-android/issues/54</url>
+			<bugID>Issue #54</bugID>
+			<label>Bug</label>
+			<description>
+		On either landscape, or portrait, due to a NullPointerException somewhere inside TabWidget. Works fine on devices.
+	</description>
+		</report>
+		<report Number="1">
+			<summary>Shortcut can be lost on screen flip</summary>
+			<url>https://github.com/konklone/congress-android/issues/71</url>
+			<bugID>Issue #71</bugID>
+			<label>Bug</label>
+			<description>
+		On some versions, if you flip the screen during the &quot;Creating Shortcut...&quot; phase of the shortcut creation process, the shortcut doesn't get made. Small screen - 2.0 Regular screen - 1.5 This can be demonstrated reliably on a Samsung Moment running 1.5.
+	</description>
+		</report>
+		<report Number="2">
+			<summary>Move the first-time screen to the tab activity</summary>
+			<url>https://github.com/konklone/congress-android/issues/127</url>
+			<bugID>Issue #127</bugID>
+			<label>Bug</label>
+			<description>
+		Instead of the people activity.
+	</description>
+		</report>
+		<report Number="3">
+			<summary>Don't show website item on profile if there is no URL</summary>
+			<url>https://github.com/konklone/congress-android/issues/129</url>
+			<bugID>Issue #129</bugID>
+			<label>Bug</label>
+			<description>
+		As it stands right now, you'll try to touch it and then it'll crash.
+	</description>
+		</report>
+		<report Number="4">
+			<summary>Large image getting selected when medium is asked for</summary>
+			<url>https://github.com/konklone/congress-android/issues/184</url>
+			<bugID>Issue #184</bugID>
+			<label>Bug</label>
+			<description>
+		Al Franken's medium image has no white border: http://assets.sunlightfoundation.com/moc/100x125/F000457.jpg His large image does: http://assets.sunlightfoundation.com/moc/200x250/F000457.jpg When you first ask for his image on the list, for the medium image, it has no border. Loading his profile loads the large image, with a border. Future requests for his medium image (sponsorship, listing) loads the large one, with a border. Why?
+	</description>
+		</report>
+		<report Number="5">
+			<summary>Handling out of office legislators</summary>
+			<url>https://github.com/konklone/congress-android/issues/220</url>
+			<bugID>Issue #220</bugID>
+			<label>Bug</label>
+			<description>
+		Specify all_legislators=true on the call in LegislatorService.
+	</description>
+		</report>
+		<report Number="6">
+			<summary>Sponsored Bills screen doesn't say when there are none</summary>
+			<url>https://github.com/konklone/congress-android/issues/221</url>
+			<bugID>Issue #221</bugID>
+			<label>Bug</label>
+			<description>
+		It just spins forever. Example (as of right now): Scott Brown has sponsored no bills.
+	</description>
+		</report>
+		<report Number="7">
+			<summary>Bug on RollInfo regarding databases</summary>
+			<url>https://github.com/konklone/congress-android/issues/236</url>
+			<bugID>Issue #236</bugID>
+			<label>Bug</label>
+			<description>
+		I must have done something wrong, this report rolled in from a Droid running v2.6 of the app: java.lang.IllegalStateException: attempt to acquire a reference on a close SQLiteClosable at android.database.sqlite.SQLiteClosable.acquireReference(SQLiteClosable.java:31) at android.database.sqlite.SQLiteQuery.fillWindow(SQLiteQuery.java:69) at android.database.sqlite.SQLiteCursor.fillWindow(SQLiteCursor.java:288) at android.database.sqlite.SQLiteCursor.getCount(SQLiteCursor.java:269) at com.sunlightlabs.android.congress.RollInfo.displayVoters(RollInfo.java:170) at com.sunlightlabs.android.congress.RollInfo.onLoadRoll(RollInfo.java:118) at com.sunlightlabs.android.congress.RollInfo$LoadRollTask.onPostExecute(RollInfo.java:295) at com.sunlightlabs.android.congress.RollInfo$LoadRollTask.onPostExecute(RollInfo.java:1) at android.os.AsyncTask.finish(AsyncTask.java:417) at android.os.AsyncTask.access$300(AsyncTask.java:127) at android.os.AsyncTask$InternalHandler.handleMessage(AsyncTask.java:429) at android.os.Handler.dispatchMessage(Handler.java:99) at android.os.Looper.loop(Looper.java:123) at android.app.ActivityThread.main(ActivityThread.java:4363) at java.lang.reflect.Method.invokeNative(Method.java:-2) at java.lang.reflect.Method.invoke(Method.java:521) at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:860) at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:618) at dalvik.system.NativeStart.main(NativeStart.java:-2)
+	</description>
+		</report>
+		<report Number="8">
+			<summary>NullPointerException from within JTwitter</summary>
+			<url>https://github.com/konklone/congress-android/issues/238</url>
+			<bugID>Issue #238</bugID>
+			<label>Bug</label>
+			<description>
+		As reported through the Market: java.lang.RuntimeException: An error occured while executing doInBackground() at android.os.AsyncTask$3.done(AsyncTask.java:200) at java.util.concurrent.FutureTask$Sync.innerSetException(FutureTask.java:273) at java.util.concurrent.FutureTask.setException(FutureTask.java:124) at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:307) at java.util.concurrent.FutureTask.run(FutureTask.java:137) at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1068) at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:561) at java.lang.Thread.run(Thread.java:1096) Caused by: java.lang.NullPointerException: at winterwell.jtwitter.URLConnectionHttpClient.processError(URLConnectionHttpClient.java:126) at winterwell.jtwitter.URLConnectionHttpClient.getPage(URLConnectionHttpClient.java:84) at winterwell.jtwitter.Twitter.getUserTimeline(Twitter.java:1337) at com.sunlightlabs.android.congress.LegislatorTwitter$LoadTweetsTask.doInBackground(LegislatorTwitter.java:182) at com.sunlightlabs.android.congress.LegislatorTwitter$LoadTweetsTask.doInBackground(LegislatorTwitter.java:1) at android.os.AsyncTask$2.call(AsyncTask.java:185) at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:305) at java.util.concurrent.FutureTask.run(FutureTask.java:137) at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1068) at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:561) at java.lang.Thread.run(Thread.java:1096)
+	</description>
+		</report>
+		<report Number="9">
+			<summary>Cancel all AsyncTasks in onDestroy</summary>
+			<url>https://github.com/konklone/congress-android/issues/241</url>
+			<bugID>Issue #241</bugID>
+			<label>Bug</label>
+			<description>
+		Two problems should be fixed: User taps a bill name, is brought to BillLoader, user hits back, a few seconds later they are taken to the bill anyway. User taps a vote name in the Votes tab for a bill, immediately hits back, a Force Close error appears.
+	</description>
+		</report>
+		<report Number="10">
+			<summary>Fix Thomas permalinks</summary>
+			<url>https://github.com/konklone/congress-android/issues/257</url>
+			<bugID>Issue #257</bugID>
+			<label>Bug</label>
+			<description>
+		Use THOMAS' handle specification: http://thomas.loc.gov/home/handles/help.html
+	</description>
+		</report>
+		<report Number="11">
+			<summary>Handle RejectedExecutionException in activities where you can expect to generate many AsyncTasks</summary>
+			<url>https://github.com/konklone/congress-android/issues/261</url>
+			<bugID>Issue #261</bugID>
+			<label>Bug</label>
+			<description>
+		Basically, anything with photos, so probably just LegislatorList and RollInfo. Recent stack trace: java.util.concurrent.RejectedExecutionException: at java.util.concurrent.ThreadPoolExecutor$AbortPolicy.rejectedExecution(ThreadPoolExecutor.java:1876) at java.util.concurrent.ThreadPoolExecutor.reject(ThreadPoolExecutor.java:774) at java.util.concurrent.ThreadPoolExecutor.execute(ThreadPoolExecutor.java:1295) at android.os.AsyncTask.execute(AsyncTask.java:394) at com.sunlightlabs.android.congress.LegislatorList.loadPhoto(LegislatorList.java:182) at com.sunlightlabs.android.congress.LegislatorList$LegislatorAdapter.getView(LegislatorList.java:303) at android.widget.AbsListView.obtainView(AbsListView.java:1256) at android.widget.ListView.makeAndAddView(ListView.java:1668) at android.widget.ListView.fillDown(ListView.java:637) at android.widget.ListView.fillGap(ListView.java:608) at android.widget.AbsListView.trackMotionScroll(AbsListView.java:2531) at android.widget.AbsListView$FlingRunnable.run(AbsListView.java:2353) at android.os.Handler.handleCallback(Handler.java:587) at android.os.Handler.dispatchMessage(Handler.java:92) at android.os.Looper.loop(Looper.java:123) at android.app.ActivityThread.main(ActivityThread.java:4363) at java.lang.reflect.Method.invokeNative(Method.java:-2) at java.lang.reflect.Method.invoke(Method.java:521) at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:860) at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:618) at dalvik.system.NativeStart.main(NativeStart.java:-2)
+	</description>
+		</report>
+		<report Number="12">
+			<summary>NullPointerException in MainMenu</summary>
+			<url>https://github.com/konklone/congress-android/issues/262</url>
+			<bugID>Issue #262</bugID>
+			<label>Bug</label>
+			<description>
+		From the current version, 2.7.1: java.lang.RuntimeException: Unable to start activity ComponentInfo{com.sunlightlabs.android.congress/com.sunlightlabs.android.congress.MainMenu}: java.lang.NullPointerException at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2663) at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2679) at android.app.ActivityThread.access$2300(ActivityThread.java:125) at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2033) at android.os.Handler.dispatchMessage(Handler.java:99) at android.os.Looper.loop(Looper.java:123) at android.app.ActivityThread.main(ActivityThread.java:4627) at java.lang.reflect.Method.invokeNative(Native Method) at java.lang.reflect.Method.invoke(Method.java:521) at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:868) at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:626) at dalvik.system.NativeStart.main(Native Method) Caused by: java.lang.NullPointerException at android.widget.BaseAdapter.registerDataSetObserver(BaseAdapter.java:38) at android.widget.ListView.setAdapter(ListView.java:440) at android.app.ListActivity.setListAdapter(ListActivity.java:267) at com.sunlightlabs.android.congress.MainMenu.setupControls(MainMenu.java:290) at com.sunlightlabs.android.congress.MainMenu.onCreate(MainMenu.java:138) at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1047) at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2627)
+	</description>
+		</report>
+		<report Number="13">
+			<summary>Mistake on congress_office regexp</summary>
+			<url>https://github.com/konklone/congress-android/issues/272</url>
+			<bugID>Issue #272</bugID>
+			<label>Bug</label>
+			<description>
+		Some of them still have an &quot;Office&quot; or &quot;Building&quot; trailing.
+	</description>
+		</report>
+		<report Number="14">
+			<summary>Notifications were being checked every minute for some reason</summary>
+			<url>https://github.com/konklone/congress-android/issues/276</url>
+			<bugID>Issue #276</bugID>
+			<label>Bug</label>
+			<description>
+		This was a severe battery drain, and it's not at all clear why it was happening. I'll try to replicate. Two possibilities: the recurring alarm was set to happen every minute, or, the recurring alarm got set multiple times and the offset between them was a minute.
+	</description>
+		</report>
+		<report Number="15">
+			<summary>Stop the phone from turning on Wifi</summary>
+			<url>https://github.com/konklone/congress-android/issues/277</url>
+			<bugID>Issue #277</bugID>
+			<label>Bug</label>
+			<description>
+		Running the notification service sometimes causes my phone to turn on Wifi even when I have it explicitly disabled. This shouldn't happen.
+	</description>
+		</report>
+		<report Number="16">
+			<summary>RollList and BillList aren't handling pagination correctly</summary>
+			<url>https://github.com/konklone/congress-android/issues/288</url>
+			<bugID>Issue #288</bugID>
+			<label>Bug</label>
+			<description>
+		Both depend on there being some content for their source, which is not always going to be correct. Refactor it so that it separates a not-yet-fetched array (null) from an empty array. Take advantage of Real Time Congress' superior pagination metadata.
+	</description>
+		</report>
+		<report Number="17">
+			<summary>Handle case where database can't be opened on main menu</summary>
+			<url>https://github.com/konklone/congress-android/issues/302</url>
+			<bugID>Issue #302</bugID>
+			<label>Bug</label>
+			<description>
+		Coming from a Nexus One, presumably rare, but handle it anyway with a toast message and a main menu without favorites: java.lang.RuntimeException: Unable to start activity ComponentInfo{com.sunlightlabs.android.congress/com.sunlightlabs.android.congress.MainMenu}: android.database.sqlite.SQLiteException: unable to open database file at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2663) at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2679) at android.app.ActivityThread.access$2300(ActivityThread.java:125) at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2033) at android.os.Handler.dispatchMessage(Handler.java:99) at android.os.Looper.loop(Looper.java:123) at android.app.ActivityThread.main(ActivityThread.java:4627) at java.lang.reflect.Method.invokeNative(Native Method) at java.lang.reflect.Method.invoke(Method.java:521) at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:868) at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:626) at dalvik.system.NativeStart.main(Native Method) Caused by: android.database.sqlite.SQLiteException: unable to open database file at android.database.sqlite.SQLiteDatabase.dbopen(Native Method) at android.database.sqlite.SQLiteDatabase.(SQLiteDatabase.java:1812) at android.database.sqlite.SQLiteDatabase.openDatabase(SQLiteDatabase.java:817) at android.database.sqlite.SQLiteDatabase.openOrCreateDatabase(SQLiteDatabase.java:851) at android.database.sqlite.SQLiteDatabase.openOrCreateDatabase(SQLiteDatabase.java:844) at android.app.ContextImpl.openOrCreateDatabase(ContextImpl.java:540) at android.content.ContextWrapper.openOrCreateDatabase(ContextWrapper.java:203) at android.database.sqlite.SQLiteOpenHelper.getWritableDatabase(SQLiteOpenHelper.java:98) at com.sunlightlabs.android.congress.Database.open(Database.java:148) at com.sunlightlabs.android.congress.MainMenu.onCreate(MainMenu.java:113) at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1047) at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2627) ... 11 more
+	</description>
+		</report>
+		<report Number="18">
+			<summary>Change inner AsyncTask classes to be static</summary>
+			<url>https://github.com/konklone/congress-android/issues/303</url>
+			<bugID>Issue #303</bugID>
+			<label>Bug</label>
+			<description>
+		So that they don't keep an implicit reference to their original enclosing Activity instance upon screen flip. This may be moot now that we handle screen flips by storing data in fragments.
+	</description>
+		</report>
+		<report Number="19">
+			<summary>Parsing exception when lat/long or zip not valid</summary>
+			<url>https://github.com/konklone/congress-android/issues/305</url>
+			<bugID>Issue #305</bugID>
+			<label>Bug</label>
+			<description>
+		Make sure that if the Sunlight API does throw an exception and return a string message (like if the lat/long or zip code isn't in America), that it fails gracefully and not with a JSON parsing exception. java.lang.RuntimeException: An error occured while executing doInBackground() at android.os.AsyncTask$3.done(AsyncTask.java:200) at java.util.concurrent.FutureTask$Sync.innerSetException(FutureTask.java:273) at java.util.concurrent.FutureTask.setException(FutureTask.java:124) at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:307) at java.util.concurrent.FutureTask.run(FutureTask.java:137) at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1068) at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:561) at java.lang.Thread.run(Thread.java:1096) Caused by: java.lang.RuntimeException: org.json.JSONException: A JSONObject text must begin with '{' at character 1 of </description>
+		</report>
+		<report Number="20">
+			<summary>New Laws notification duplicates</summary>
+			<url>https://github.com/konklone/congress-android/issues/306</url>
+			<bugID>Issue #306</bugID>
+			<label>Bug</label>
+			<description>
+		I get notified over and over about &quot;6 new bills signed into law&quot;. I haven't yet managed to scoop the logcat in time where it shows what the lastSeenId is, but I need to figure out why this notification in particular is notifying me over and over. It's not notifying me on every cycle - just more than it should, and when I get taken to the list, there aren't any new items. Very troublesome.
+	</description>
+		</report>
+		<report Number="21">
+			<summary>Wifi Lock exception rolled in</summary>
+			<url>https://github.com/konklone/congress-android/issues/312</url>
+			<bugID>Issue #312</bugID>
+			<label>Bug</label>
+			<description>
+		From 2.9.2: java.lang.RuntimeException: Unable to start receiver com.sunlightlabs.android.congress.notifications.OnAlarmReceiver: java.lang.UnsupportedOperationException: Exceeded maximum number of wifi locks at android.app.ActivityThread.handleReceiver(ActivityThread.java:2821) at android.app.ActivityThread.access$3200(ActivityThread.java:125) at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2083) at android.os.Handler.dispatchMessage(Handler.java:99) at android.os.Looper.loop(Looper.java:123) at android.app.ActivityThread.main(ActivityThread.java:4627) at java.lang.reflect.Method.invokeNative(Native Method) at java.lang.reflect.Method.invoke(Method.java:521) at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:868) at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:626) at dalvik.system.NativeStart.main(Native Method) Caused by: java.lang.UnsupportedOperationException: Exceeded maximum number of wifi locks at android.net.wifi.WifiManager$WifiLock.acquire(WifiManager.java:879) at com.commonsware.cwac.wakeful.WakefulIntentService.acquireStaticLock(WakefulIntentService.java:32) at com.commonsware.cwac.wakeful.WakefulIntentService.sendWakefulWork(WakefulIntentService.java:60) at com.commonsware.cwac.wakeful.WakefulIntentService.sendWakefulWork(WakefulIntentService.java:65) at com.sunlightlabs.android.congress.notifications.OnAlarmReceiver.onReceive(OnAlarmReceiver.java:15) at android.app.ActivityThread.handleReceiver(ActivityThread.java:2810)
+	</description>
+		</report>
+		<report Number="22">
+			<summary>Add &quot;daily&quot; option to notification intervals</summary>
+			<url>https://github.com/konklone/congress-android/issues/318</url>
+			<bugID>Issue #318</bugID>
+			<label>Bug</label>
+			<description>
+		By request, and it makes a lot of sense.
+	</description>
+		</report>
+		<report Number="23">
+			<summary>IllegalStateException rolled in in updateLastSeenId</summary>
+			<url>https://github.com/konklone/congress-android/issues/319</url>
+			<bugID>Issue #319</bugID>
+			<label>Bug</label>
+			<description>
+		Check it out: java.lang.IllegalStateException: database not open at android.database.sqlite.SQLiteDatabase.updateWithOnConflict(SQLiteDatabase.java:1667) at android.database.sqlite.SQLiteDatabase.update(SQLiteDatabase.java:1622) at com.sunlightlabs.android.congress.Database.updateLastSeenId(Database.java:305) at com.sunlightlabs.android.congress.notifications.NotificationService.doWakefulWork(NotificationService.java:87) at com.commonsware.cwac.wakeful.WakefulIntentService.onHandleIntent(WakefulIntentService.java:94) at android.app.IntentService$ServiceHandler.handleMessage(IntentService.java:59) at android.os.Handler.dispatchMessage(Handler.java:99) at android.os.Looper.loop(Looper.java:123) at android.os.HandlerThread.run(HandlerThread.java:60)
+	</description>
+		</report>
+		<report Number="24">
+			<summary>NullPointerException in NewsList#launchNews</summary>
+			<url>https://github.com/konklone/congress-android/issues/333</url>
+			<bugID>Issue #333</bugID>
+			<label>Bug</label>
+			<description>
+		From 2.9.7.1: java.lang.NullPointerException at com.sunlightlabs.android.congress.NewsList.launchNews(NewsList.java:152) at com.sunlightlabs.android.congress.NewsList.onListItemClick(NewsList.java:124) at android.app.ListActivity$2.onItemClick(ListActivity.java:345) at android.widget.AdapterView.performItemClick(AdapterView.java:284) at android.widget.ListView.performItemClick(ListView.java:3382) at android.widget.AbsListView$PerformClick.run(AbsListView.java:1696) at android.os.Handler.handleCallback(Handler.java:587) at android.os.Handler.dispatchMessage(Handler.java:92) at android.os.Looper.loop(Looper.java:144) at android.app.ActivityThread.main(ActivityThread.java:4937) at java.lang.reflect.Method.invokeNative(Native Method) at java.lang.reflect.Method.invoke(Method.java:521) at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:868) at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:626) at dalvik.system.NativeStart.main(Native Method)
+	</description>
+		</report>
+		<report Number="25">
+			<summary>In &quot;News&quot; tab for bills, distinguish between &quot;No news&quot; and &quot;Error while getting news&quot;</summary>
+			<url>https://github.com/konklone/congress-android/issues/340</url>
+			<bugID>Issue #340</bugID>
+			<label>Bug</label>
+			<description>
+		I'm trying to work on issue 335, but it's difficult because I'm not getting any news results for any bills. LogCat shows that there is some error fetching the data from the Google News API*, but to a user, it would just look like there wasn't any news (which is reasonable for most bills, really). I think there's already an alert function in Utils, we just need to make sure it gets called. * It turns out this is because I hadn't put in a Google News API key. The documentation said the API key wasn't absolutely necessary, but it didn't seem to be happy about giving me results if I didn't have one.
+	</description>
+		</report>
+		<report Number="26">
+			<summary>GPS error of some sort</summary>
+			<url>https://github.com/konklone/congress-android/issues/342</url>
+			<bugID>Issue #342</bugID>
+			<label>Bug</label>
+			<description>
+		Error rolled in, not sure what's causing it: java.lang.RuntimeException: Unable to start activity ComponentInfo{com.sunlightlabs.android.congress/com.sunlightlabs.android.congress.MainMenu}: java.lang.IllegalArgumentException: provider=gps at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2663) at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2679) at android.app.ActivityThread.access$2300(ActivityThread.java:125) at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2033) at android.os.Handler.dispatchMessage(Handler.java:99) at android.os.Looper.loop(Looper.java:123) at android.app.ActivityThread.main(ActivityThread.java:4627) at java.lang.reflect.Method.invokeNative(Native Method) at java.lang.reflect.Method.invoke(Method.java:521) at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:868) at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:626) at dalvik.system.NativeStart.main(Native Method) Caused by: java.lang.IllegalArgumentException: provider=gps at android.os.Parcel.readException(Parcel.java:1264) at android.os.Parcel.readException(Parcel.java:1248) at android.location.ILocationManager$Stub$Proxy.isProviderEnabled(ILocationManager.java:740) at android.location.LocationManager.isProviderEnabled(LocationManager.java:929) at com.sunlightlabs.android.congress.utils.LocationUtils.getLastKnownLocation(LocationUtils.java:94) at com.sunlightlabs.android.congress.MainMenu.setupLocation(MainMenu.java:664) at com.sunlightlabs.android.congress.MainMenu.onStart(MainMenu.java:184) at android.app.Instrumentation.callActivityOnStart(Instrumentation.java:1129) at android.app.Activity.performStart(Activity.java:3781) at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2636) ... 11 more
+	</description>
+		</report>
+		<report Number="27">
+			<summary>Crash on the 112th Congress' Speaker vote</summary>
+			<url>https://github.com/konklone/congress-android/issues/346</url>
+			<bugID>Issue #346</bugID>
+			<label>Bug</label>
+			<description>
+		There were a lot of people who received votes: the app crashes when trying to render the RollInfo page for it. java.lang.NullPointerException at com.sunlightlabs.android.congress.RollInfo.displayVoters(RollInfo.java:326) at com.sunlightlabs.android.congress.RollInfo.onLoadRoll(RollInfo.java:165) at com.sunlightlabs.android.congress.RollInfo$LoadRollTask.onPostExecute(RollInfo.java:490) at com.sunlightlabs.android.congress.RollInfo$LoadRollTask.onPostExecute(RollInfo.java:1) at android.os.AsyncTask.finish(AsyncTask.java:417) at android.os.AsyncTask.access$300(AsyncTask.java:127) at android.os.AsyncTask$InternalHandler.handleMessage(AsyncTask.java:429) at android.os.Handler.dispatchMessage(Handler.java:99) at android.os.Looper.loop(Looper.java:144) at android.app.ActivityThread.main(ActivityThread.java:4937) at java.lang.reflect.Method.invokeNative(Native Method) at java.lang.reflect.Method.invoke(Method.java:521) at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:868) at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:626) at dalvik.system.NativeStart.main(Native Method)
+	</description>
+		</report>
+		<report Number="28">
+			<summary>Some sort of bad website URI</summary>
+			<url>https://github.com/konklone/congress-android/issues/348</url>
+			<bugID>Issue #348</bugID>
+			<label>Bug</label>
+			<description>
+		android.content.ActivityNotFoundException: No Activity found to handle Intent { act=android.intent.action.VIEW dat= } at android.app.Instrumentation.checkStartActivityResult(Instrumentation.java:1567) at android.app.Instrumentation.execStartActivity(Instrumentation.java:1537) at android.app.Activity.startActivityFromChild(Activity.java:3098) at android.app.Activity.startActivityForResult(Activity.java:2878) at android.app.Activity.startActivity(Activity.java:2964) at com.sunlightlabs.android.congress.LegislatorProfile.visitWebsite(LegislatorProfile.java:183) at com.sunlightlabs.android.congress.LegislatorProfile$1.onClick(LegislatorProfile.java:230) at android.view.View.performClick(View.java:2408) at android.view.View$PerformClick.run(View.java:8817) at android.os.Handler.handleCallback(Handler.java:587) at android.os.Handler.dispatchMessage(Handler.java:92) at android.os.Looper.loop(Looper.java:144) at android.app.ActivityThread.main(ActivityThread.java:4937) at java.lang.reflect.Method.invokeNative(Native Method) at java.lang.reflect.Method.invoke(Method.java:521) at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:868) at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:626) at dalvik.system.NativeStart.main(Native Method)
+	</description>
+		</report>
+		<report Number="29">
+			<summary>IllegalStateException rolled in</summary>
+			<url>https://github.com/konklone/congress-android/issues/349</url>
+			<bugID>Issue #349</bugID>
+			<label>Bug</label>
+			<description>
+		Doesn't say which class it's from, could be hard to diagnose. Feel free to give up on it, as it's only rolled in once, and from version 2.9.5.1, so this might have been fixed since. java.lang.IllegalStateException: The content of the adapter has changed but ListView did not receive a notification. Make sure the content of your adapter is not modified from a background thread, but only from the UI thread. [in ListView(16908298, class android.widget.ListView) with Adapter(class com.commonsware.cwac.merge.MergeAdapter)] at android.widget.ListView.layoutChildren(ListView.java:1550) at android.widget.AbsListView$CheckForTap.run(AbsListView.java:1925) at android.os.Handler.handleCallback(Handler.java:587) at android.os.Handler.dispatchMessage(Handler.java:92) at android.os.Looper.loop(Looper.java:143) at android.app.ActivityThread.main(ActivityThread.java:4701) at java.lang.reflect.Method.invokeNative(Native Method) at java.lang.reflect.Method.invoke(Method.java:521) at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:868) at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:626) at dalvik.system.NativeStart.main(Native Method)
+	</description>
+		</report>
+		<report Number="30">
+			<summary>Proper pagination</summary>
+			<url>https://github.com/konklone/congress-android/issues/350</url>
+			<bugID>Issue #350</bugID>
+			<label>Bug</label>
+			<description>
+		Make use of a ListView's footer view slot for the &quot;Loading...&quot; item in a paginated list. To spawn off requests for the next page, use the logic of whether the item showing is the last position in the list.
+	</description>
+		</report>
+		<report Number="31">
+			<summary>Possibly renamed some receivers</summary>
+			<url>https://github.com/konklone/congress-android/issues/356</url>
+			<bugID>Issue #356</bugID>
+			<label>Bug</label>
+			<description>
+		Did I rename some receivers without thinking? java.lang.RuntimeException: Unable to instantiate receiver com.sunlightlabs.android.congress.notifications.OnBootReceiver: java.lang.InstantiationException: com.sunlightlabs.android.congress.notifications.OnBootReceiver at android.app.ActivityThread.handleReceiver(ActivityThread.java:2913) at android.app.ActivityThread.access$3200(ActivityThread.java:135) at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2198) at android.os.Handler.dispatchMessage(Handler.java:99) at android.os.Looper.loop(Looper.java:144) at android.app.ActivityThread.main(ActivityThread.java:4937) at java.lang.reflect.Method.invokeNative(Native Method) at java.lang.reflect.Method.invoke(Method.java:521) at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:868) at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:626) at dalvik.system.NativeStart.main(Native Method) Caused by: java.lang.InstantiationException: com.sunlightlabs.android.congress.notifications.OnBootReceiver at java.lang.Class.newInstanceImpl(Native Method) at java.lang.Class.newInstance(Class.java:1429) at android.app.ActivityThread.handleReceiver(ActivityThread.java:2904) ... 10 more
+	</description>
+		</report>
+		<report Number="32">
+			<summary>Handle a locked DB in the footer gracefully</summary>
+			<url>https://github.com/konklone/congress-android/issues/378</url>
+			<bugID>Issue #378</bugID>
+			<label>Bug</label>
+			<description>
+		Before trying to update a user's subscription, check to see if the DB is locked. If it is, toast the user with a message like &quot;Currently processing other subscriptions. Try again in a few seconds.&quot;, and don't change the message or state of the footer (or change it back to what it was). In setWorking(), store a lastState variable with the state the footer was in, and add a method to the footer that handles exceptions by reverting back to the lastState, and does the toast.
+	</description>
+		</report>
+		<report Number="33">
+			<summary>YouTube video dates are wrong</summary>
+			<url>https://github.com/konklone/congress-android/issues/382</url>
+			<bugID>Issue #382</bugID>
+			<label>Bug</label>
+			<description>
+		It displays dates out of order on the list, and sometimes when videos are updated they cause notifications.
+	</description>
+		</report>
+		<report Number="34">
+			<summary>Ensure legislator list for location search automatically scans for location upon load</summary>
+			<url>https://github.com/konklone/congress-android/issues/383</url>
+			<bugID>Issue #383</bugID>
+			<label>Bug</label>
+			<description>
+		Now that we scrapped the location code from the menus.
+	</description>
+		</report>
+		<report Number="35">
+			<summary>Paginated lists will crash when less than a full page of results comes down</summary>
+			<url>https://github.com/konklone/congress-android/issues/398</url>
+			<bugID>Issue #398</bugID>
+			<label>Bug</label>
+			<description>
+		Test out with Rep. Aderholt's sponsored bills.
+	</description>
+		</report>
+		<report Number="36">
+			<summary>Check for database locking</summary>
+			<url>https://github.com/konklone/congress-android/issues/404</url>
+			<bugID>Issue #404</bugID>
+			<label>Bug</label>
+			<description>
+		At least on bill favorites, but use this as an example for other DB operations: android.database.sqlite.SQLiteException: error code 5: database is locked at android.database.sqlite.SQLiteStatement.native_execute(Native Method) at android.database.sqlite.SQLiteStatement.execute(SQLiteStatement.java:55) at android.database.sqlite.SQLiteDatabase.delete(SQLiteDatabase.java:1598) at com.sunlightlabs.android.congress.Database.removeBill(Database.java:112) at com.sunlightlabs.android.congress.BillTabs.toggleDatabaseFavorite(BillTabs.java:98) at com.sunlightlabs.android.congress.BillTabs.access$0(BillTabs.java:93) at com.sunlightlabs.android.congress.BillTabs$1.onClick(BillTabs.java:59) at android.view.View.performClick(View.java:2408) at android.view.View$PerformClick.run(View.java:8816) at android.os.Handler.handleCallback(Handler.java:587) at android.os.Handler.dispatchMessage(Handler.java:92) at android.os.Looper.loop(Looper.java:123) at android.app.ActivityThread.main(ActivityThread.java:4627) at java.lang.reflect.Method.invokeNative(Native Method) at java.lang.reflect.Method.invoke(Method.java:521) at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:858) at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:616) at dalvik.system.NativeStart.main(Native Method)
+	</description>
+		</report>
+		<report Number="37">
+			<summary>NullPointerException in Bill.thomasType</summary>
+			<url>https://github.com/konklone/congress-android/issues/406</url>
+			<bugID>Issue #406</bugID>
+			<label>Bug</label>
+			<description>
+		Just rolled in, potentially disturbing if the bill_type is missing or invalid: java.lang.NullPointerException at com.sunlightlabs.congress.models.Bill.thomasType(Bill.java:158) at com.sunlightlabs.congress.models.Bill.thomasUrl(Bill.java:169) at com.sunlightlabs.android.congress.BillInfo.displaySummary(BillInfo.java:172) at com.sunlightlabs.android.congress.BillInfo.onLoadBill(BillInfo.java:217) at com.sunlightlabs.android.congress.tasks.LoadBillTask.onPostExecute(LoadBillTask.java:43) at com.sunlightlabs.android.congress.tasks.LoadBillTask.onPostExecute(LoadBillTask.java:1) at android.os.AsyncTask.finish(AsyncTask.java:417) at android.os.AsyncTask.access$300(AsyncTask.java:127) at android.os.AsyncTask$InternalHandler.handleMessage(AsyncTask.java:429) at android.os.Handler.dispatchMessage(Handler.java:99) at android.os.Looper.loop(Looper.java:144) at android.app.ActivityThread.main(ActivityThread.java:4937) at java.lang.reflect.Method.invokeNative(Native Method) at java.lang.reflect.Method.invoke(Method.java:521) at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:868) at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:626) at dalvik.system.NativeStart.main(Native Method)
+	</description>
+		</report>
+		<report Number="38">
+			<summary>On migration, fix duplicate subscription rows</summary>
+			<url>https://github.com/konklone/congress-android/issues/411</url>
+			<bugID>Issue #411</bugID>
+			<label>Bug</label>
+			<description>
+		Basically, on migration: Add a method Database.removeSubscription(subscription, true) which is like removeSubscription(subscription), but only removes rows where seen_id is null for each seen_id-less subscription -- Database.getSubscriptions() remove just the seen_id-less rows -- Database.removeSubscription(subscription, true) add 1 seen_id-less row back for it -- Database.addSubscription(subscription) This is only needed to a fix a bug where the notification checker has been filling up people's database with useless seen_id-less rows for their subscriptions. Besides being needed for a new feature, this will also lessen the data footprint the app takes up on people's phones.
+	</description>
+		</report>
+		<report Number="39">
+			<summary>CommitteeList breaks on screen flip</summary>
+			<url>https://github.com/konklone/congress-android/issues/415</url>
+			<bugID>Issue #415</bugID>
+			<label>Bug</label>
+			<description>
+		It reloads from the net after each flip, and then doesn't update with the new results.
+	</description>
+		</report>
+		<report Number="40">
+			<summary>Notification screen FCing on Droids, myTouch 3Gs</summary>
+			<url>https://github.com/konklone/congress-android/issues/418</url>
+			<bugID>Issue #418</bugID>
+			<label>Bug</label>
+			<description>
+		It's in the ringtone summary update method, a NullPointerException. Possibly something device specific? java.lang.RuntimeException: Unable to start activity ComponentInfo{com.sunlightlabs.android.congress/com.sunlightlabs.android.congress.NotificationTabs}: java.lang.RuntimeException: Unable to start activity ComponentInfo{com.sunlightlabs.android.congress/com.sunlightlabs.android.congress.NotificationSettings}: java.lang.NullPointerException at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2663) at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2679) at android.app.ActivityThread.access$2300(ActivityThread.java:125) at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2033) at android.os.Handler.dispatchMessage(Handler.java:99) at android.os.Looper.loop(Looper.java:123) at android.app.ActivityThread.main(ActivityThread.java:4627) at java.lang.reflect.Method.invokeNative(Native Method) at java.lang.reflect.Method.invoke(Method.java:521) at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:858) at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:616) at dalvik.system.NativeStart.main(Native Method) Caused by: java.lang.RuntimeException: Unable to start activity ComponentInfo{com.sunlightlabs.android.congress/com.sunlightlabs.android.congress.NotificationSettings}: java.lang.NullPointerException at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2663) at android.app.ActivityThread.startActivityNow(ActivityThread.java:2503) at android.app.LocalActivityManager.moveToState(LocalActivityManager.java:127) at android.app.LocalActivityManager.startActivity(LocalActivityManager.java:339) at android.widget.TabHost$IntentContentStrategy.getContentView(TabHost.java:651) at android.widget.TabHost.setCurrentTab(TabHost.java:323) at android.widget.TabHost.addTab(TabHost.java:213) at com.sunlightlabs.android.congress.utils.Utils.addTab(Utils.java:381) at com.sunlightlabs.android.congress.NotificationTabs.setupTabs(NotificationTabs.java:30) at com.sunlightlabs.android.congress.NotificationTabs.onCreate(NotificationTabs.java:19) at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1047) at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2627) ... 11 more Caused by: java.lang.NullPointerException at com.sunlightlabs.android.congress.NotificationSettings.updateRingtoneSummary(NotificationSettings.java:126) at com.sunlightlabs.android.congress.NotificationSettings.setupControls(NotificationSettings.java:77) at com.sunlightlabs.android.congress.NotificationSettings.onCreate(NotificationSettings.java:67) at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1047) at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2627) ... 22 more
+	</description>
+		</report>
+		<report Number="41">
+			<summary>&quot;Room null&quot; showing on Committee Hearings</summary>
+			<url>https://github.com/konklone/congress-android/issues/423</url>
+			<bugID>Issue #423</bugID>
+			<label>Bug</label>
+			<description>
+		Omit the room altogether if it's not known. (But why is it not known?)
+	</description>
+		</report>
+		<report Number="42">
+			<summary>Another IllegalState Exception</summary>
+			<url>https://github.com/konklone/congress-android/issues/427</url>
+			<bugID>Issue #427</bugID>
+			<label>Bug</label>
+			<description>
+		User message: &quot;I tried to &quot;end session&quot; to Logout&quot; But Foreclose or Report Option!★★&quot; java.lang.IllegalStateException: database not open at android.database.sqlite.SQLiteDatabase.queryWithFactory(SQLiteDatabase.java:1224) at android.database.sqlite.SQLiteDatabase.query(SQLiteDatabase.java:1184) at android.database.sqlite.SQLiteDatabase.query(SQLiteDatabase.java:1264) at com.sunlightlabs.android.congress.utils.Database.hasSubscriptionItem(Database.java:209) at com.sunlightlabs.android.congress.notifications.NotificationService.doWakefulWork(NotificationService.java:98) at com.commonsware.cwac.wakeful.WakefulIntentService.onHandleIntent(WakefulIntentService.java:94) at android.app.IntentService$ServiceHandler.handleMessage(IntentService.java:59) at android.os.Handler.dispatchMessage(Handler.java:99) at android.os.Looper.loop(Looper.java:123) at android.os.HandlerThread.run(HandlerThread.java:60)
+	</description>
+		</report>
+		<report Number="43">
+			<summary>Try to fix Facebook integration</summary>
+			<url>https://github.com/konklone/congress-android/issues/428</url>
+			<bugID>Issue #428</bugID>
+			<label>Bug</label>
+			<description>
+		msnbc.com's app manages it. Maybe it just needs a link, and Facebook will infer the rest from there.
+	</description>
+		</report>
+		<report Number="44">
+			<summary>NoSuchMethodException rolled in</summary>
+			<url>https://github.com/konklone/congress-android/issues/431</url>
+			<bugID>Issue #431</bugID>
+			<label>Bug</label>
+			<description>
+		This is pretty strange, just rolled in. java.lang.NoSuchMethodError:
+at com.sunlightlabs.android.congress.notifications.Footer.setupControls(Footer.java:96)
+at com.sunlightlabs.android.congress.notifications.Footer.init(Footer.java:72)
+at com.sunlightlabs.android.congress.BillList.setupSubscription(BillList.java:177)
+at com.sunlightlabs.android.congress.BillList.onLoadBills(BillList.java:224)
+at com.sunlightlabs.android.congress.BillList$LoadBillsTask.onPostExecute(BillList.java:293)
+at com.sunlightlabs.android.congress.BillList$LoadBillsTask.onPostExecute(BillList.java:1)
+at android.os.AsyncTask.finish(AsyncTask.java:417)
+at android.os.AsyncTask.access$300(AsyncTask.java:127)
+at android.os.AsyncTask$InternalHandler.handleMessage(AsyncTask.java:429)
+at android.os.Handler.dispatchMessage(Handler.java:99)
+at android.os.Looper.loop(Looper.java:144)
+at android.app.ActivityThread.main(ActivityThread.java:4937)
+at java.lang.reflect.Method.invokeNative(Native Method)
+at java.lang.reflect.Method.invoke(Method.java:521)
+at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:868)
+at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:626)
+at dalvik.system.NativeStart.main(Native Method)
+	</description>
+		</report>
+		<report Number="45">
+			<summary>NullPointerException in a BroadcastReceiver</summary>
+			<url>https://github.com/konklone/congress-android/issues/434</url>
+			<bugID>Issue #434</bugID>
+			<label>Bug</label>
+			<description>
+		NullPointerException in a broadcastreceiver, just rolled in: java.lang.RuntimeException: Unable to start receiver com.sunlightlabs.android.congress.notifications.OnAlarmReceiver: java.lang.NullPointerException
+at android.app.ActivityThread.handleReceiver(ActivityThread.java:2957)
+at android.app.ActivityThread.access$3200(ActivityThread.java:135)
+at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2198)
+at android.os.Handler.dispatchMessage(Handler.java:99)
+at android.os.Looper.loop(Looper.java:144)
+at android.app.ActivityThread.main(ActivityThread.java:4937)
+at java.lang.reflect.Method.invokeNative(Native Method)
+at java.lang.reflect.Method.invoke(Method.java:521)
+at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:868)
+at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:626)
+at dalvik.system.NativeStart.main(Native Method)
+Caused by: java.lang.NullPointerException
+at com.commonsware.cwac.wakeful.WakefulIntentService.getWifiLock(WakefulIntentService.java:59)
+at com.commonsware.cwac.wakeful.WakefulIntentService.acquireStaticLock(WakefulIntentService.java:39)
+at com.commonsware.cwac.wakeful.WakefulIntentService.sendWakefulWork(WakefulIntentService.java:67)
+at com.commonsware.cwac.wakeful.WakefulIntentService.sendWakefulWork(WakefulIntentService.java)
+at com.sunlightlabs.android.congress.notifications.OnAlarmReceiver.onReceive(OnAlarmReceiver.java:15)
+at android.app.ActivityThread.handleReceiver(ActivityThread.java:2941)
+... 10 more
+	</description>
+		</report>
+		<report Number="46">
+			<summary>NullPointerException in OnAlarmReceiver</summary>
+			<url>https://github.com/konklone/congress-android/issues/435</url>
+			<bugID>Issue #435</bugID>
+			<label>Bug</label>
+			<description>
+		Maybe the same as a similar issue, but this rolled in separately: java.lang.RuntimeException: Unable to start receiver com.sunlightlabs.android.congress.notifications.OnAlarmReceiver: java.lang.NullPointerException
+at android.app.ActivityThread.handleReceiver(ActivityThread.java:2957)
+at android.app.ActivityThread.access$3200(ActivityThread.java:135)
+at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2198)
+at android.os.Handler.dispatchMessage(Handler.java:99)
+at android.os.Looper.loop(Looper.java:144)
+at android.app.ActivityThread.main(ActivityThread.java:4937)
+at java.lang.reflect.Method.invokeNative(Native Method)
+at java.lang.reflect.Method.invoke(Method.java:521)
+at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:868)
+at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:626)
+at dalvik.system.NativeStart.main(Native Method)
+Caused by: java.lang.NullPointerException
+at com.commonsware.cwac.wakeful.WakefulIntentService.getWifiLock(WakefulIntentService.java:59)
+at com.commonsware.cwac.wakeful.WakefulIntentService.acquireStaticLock(WakefulIntentService.java:39)
+at com.commonsware.cwac.wakeful.WakefulIntentService.sendWakefulWork(WakefulIntentService.java:67)
+at com.commonsware.cwac.wakeful.WakefulIntentService.sendWakefulWork(WakefulIntentService.java)
+at com.sunlightlabs.android.congress.notifications.OnAlarmReceiver.onReceive(OnAlarmReceiver.java:15)
+at android.app.ActivityThread.handleReceiver(ActivityThread.java:2941)
+... 10 more
+	</description>
+		</report>
+		<report Number="47">
+			<summary>NullPointerException in BillList</summary>
+			<url>https://github.com/konklone/congress-android/issues/439</url>
+			<bugID>Issue #439</bugID>
+			<label>Bug</label>
+			<description>
+		Just rolled in: java.lang.NullPointerException
+at com.sunlightlabs.android.congress.BillList.onLoadBills(BillList.java:230)
+at com.sunlightlabs.android.congress.BillList$LoadBillsTask.onPostExecute(BillList.java:291)
+at com.sunlightlabs.android.congress.BillList$LoadBillsTask.onPostExecute(BillList.java:1)
+at android.os.AsyncTask.finish(AsyncTask.java:417)
+at android.os.AsyncTask.access$300(AsyncTask.java:127)
+at android.os.AsyncTask$InternalHandler.handleMessage(AsyncTask.java:429)
+at android.os.Handler.dispatchMessage(Handler.java:99)
+at android.os.Looper.loop(Looper.java:123)
+at android.app.ActivityThread.main(ActivityThread.java:4627)
+at java.lang.reflect.Method.invokeNative(Native Method)
+at java.lang.reflect.Method.invoke(Method.java:521)
+at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:858)
+at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:616)
+at dalvik.system.NativeStart.main(Native Method)
+	</description>
+		</report>
+		<report Number="48">
+			<summary>SuperNotCalled in LegislatorList</summary>
+			<url>https://github.com/konklone/congress-android/issues/441</url>
+			<bugID>Issue #441</bugID>
+			<label>Bug</label>
+			<description>
+		In onStop or onDestroy I guess... android.app.SuperNotCalledException: Activity {com.sunlightlabs.android.congress/com.sunlightlabs.android.congress.LegislatorList} did not call through to super.onStop() at android.app.Activity.performStop(Activity.java:3863) at android.app.ActivityThread.performDestroyActivity(ActivityThread.java:3602) at android.app.ActivityThread.handleDestroyActivity(ActivityThread.java:3673) at android.app.ActivityThread.access$2900(ActivityThread.java:125) at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2066) at android.os.Handler.dispatchMessage(Handler.java:99) at android.os.Looper.loop(Looper.java:123) at android.app.ActivityThread.main(ActivityThread.java:4627) at java.lang.reflect.Method.invokeNative(Native Method) at java.lang.reflect.Method.invoke(Method.java:521) at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:860) at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:618) at dalvik.system.NativeStart.main(Native Method)
+	</description>
+		</report>
+		<report Number="49">
+			<summary>NullPointerException in WakefulIntentService</summary>
+			<url>https://github.com/konklone/congress-android/issues/451</url>
+			<bugID>Issue #451</bugID>
+			<label>Bug</label>
+			<description>
+		NullPointerException in a parcel. It's in v3.0 of the app, but I don't think anything changed in the WakefulIntentService in 3.1. java.lang.NullPointerException at android.os.Parcel.readException(Parcel.java:1328) at android.os.Parcel.readException(Parcel.java:1276) at android.net.wifi.IWifiManager$Stub$Proxy.releaseWifiLock(IWifiManager.java:1159) at android.net.wifi.WifiManager$WifiLock.release(WifiManager.java:1026) at com.commonsware.cwac.wakeful.WakefulIntentService.onHandleIntent(WakefulIntentService.java:97) at android.app.IntentService$ServiceHandler.handleMessage(IntentService.java:59) at android.os.Handler.dispatchMessage(Handler.java:99) at android.os.Looper.loop(Looper.java:143) at android.os.HandlerThread.run(HandlerThread.java:60)
+	</description>
+		</report>
+		<report Number="50">
+			<summary>Wakelock &quot;under-locked&quot;</summary>
+			<url>https://github.com/konklone/congress-android/issues/452</url>
+			<bugID>Issue #452</bugID>
+			<label>Bug</label>
+			<description>
+		This rolled in from v3.1 of the app, also entirely contained in WakefulIntentService. I don't want to deprecate 1.6 just so I can update WakefulIntentService, though. java.lang.RuntimeException: WakeLock under-locked com.commonsware.cwac.wakeful.WakefulIntentService at android.os.PowerManager$WakeLock.release(PowerManager.java:325) at android.os.PowerManager$WakeLock.release(PowerManager.java:291) at com.commonsware.cwac.wakeful.WakefulIntentService.onHandleIntent(WakefulIntentService.java:110) at android.app.IntentService$ServiceHandler.handleMessage(IntentService.java:59) at android.os.Handler.dispatchMessage(Handler.java:99) at android.os.Looper.loop(Looper.java:143) at android.os.HandlerThread.run(HandlerThread.java:60)
+	</description>
+		</report>
+		<report Number="51">
+			<summary>Tracker won't mark main menu if changelog appears</summary>
+			<url>https://github.com/konklone/congress-android/issues/457</url>
+			<bugID>Issue #457</bugID>
+			<label>Bug</label>
+			<description>
+		It'll call track(activity, null) first, to generate the fragment, then not mark the page on the next call to track(). Not sure how best to fix this, or if it needs fixing (as we'll only lose the first open after update), but it's worth addressing if we can.
+	</description>
+		</report>
+		<report Number="52">
+			<summary>NullPointerException in the photo loading for a legislator</summary>
+			<url>https://github.com/konklone/congress-android/issues/459</url>
+			<bugID>Issue #459</bugID>
+			<label>Bug</label>
+			<description>
+		java.lang.NullPointerException at com.sunlightlabs.android.congress.LegislatorProfile$LegislatorFragment.onLoadPhoto(LegislatorProfile.java:104) at com.sunlightlabs.android.congress.tasks.LoadPhotoTask.onPostExecute(LoadPhotoTask.java:38) at com.sunlightlabs.android.congress.tasks.LoadPhotoTask.onPostExecute(LoadPhotoTask.java:1) at android.os.AsyncTask.finish(AsyncTask.java:417) at android.os.AsyncTask.access$300(AsyncTask.java:127) at android.os.AsyncTask$InternalHandler.handleMessage(AsyncTask.java:429) at android.os.Handler.dispatchMessage(Handler.java:99) at android.os.Looper.loop(Looper.java:123) at android.app.ActivityThread.main(ActivityThread.java:3683) at java.lang.reflect.Method.invokeNative(Native Method) at java.lang.reflect.Method.invoke(Method.java:507) at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:841) at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:599) at dalvik.system.NativeStart.main(Native Method)
+	</description>
+		</report>
+		<report Number="53">
+			<summary>Legislator photos need a reload to appear</summary>
+			<url>https://github.com/konklone/congress-android/issues/464</url>
+			<bugID>Issue #464</bugID>
+			<label>Bug</label>
+			<description>
+		It's been happening for a long time, not sure when it got introduced.
+	</description>
+		</report>
+		<report Number="54">
+			<summary>Aggregate floor updates under timestamps</summary>
+			<url>https://github.com/konklone/congress-android/issues/465</url>
+			<bugID>Issue #465</bugID>
+			<label>Bug</label>
+			<description>
+		Only show a timestamp when it's new, like dates.
+	</description>
+		</report>
+		<report Number="55">
+			<summary>Notification for floor updates goes to wrong activity</summary>
+			<url>https://github.com/konklone/congress-android/issues/466</url>
+			<bugID>Issue #466</bugID>
+			<label>Bug</label>
+			<description>
+		Goes to the list, not the tabs.
+	</description>
+		</report>
+		<report Number="56">
+			<summary>Reorder news items client-side after fetching</summary>
+			<url>https://github.com/konklone/congress-android/issues/468</url>
+			<bugID>Issue #468</bugID>
+			<label>Bug</label>
+			<description>
+		It's a little disorienting in its current state. Further, if coming in from a notification: Highlight new items Float to the top (disobey ordering)
+	</description>
+		</report>
+		<report Number="57">
+			<summary>String exception when comparing votes</summary>
+			<url>https://github.com/konklone/congress-android/issues/469</url>
+			<bugID>Issue #469</bugID>
+			<label>Bug</label>
+			<description>
+		Rolled in: java.lang.StringIndexOutOfBoundsException at java.lang.String.charAt(String.java:643) at org.json.JSONObject.accumulate(JSONObject.java:290) at com.sunlightlabs.congress.models.Roll$Vote.compareTo(Roll.java:62) at com.sunlightlabs.congress.models.Roll$Vote.compareTo(Roll.java:1)
+	</description>
+		</report>
+		<report Number="58">
+			<summary>Bill searches should go right to only result</summary>
+			<url>https://github.com/konklone/congress-android/issues/470</url>
+			<bugID>Issue #470</bugID>
+			<label>Bug</label>
+			<description>
+		Not sure why it doesn't right now.
+	</description>
+		</report>
+		<report Number="59">
+			<summary>Update FragmentUtils to use fragment's view, not activity's</summary>
+			<url>https://github.com/konklone/congress-android/issues/475</url>
+			<bugID>Issue #475</bugID>
+			<label>Bug</label>
+			<description>
+		It should always just work.
+	</description>
+		</report>
+		<report Number="60">
+			<summary>Update Calendar integration to use ICS' proper tools</summary>
+			<url>https://github.com/konklone/congress-android/issues/476</url>
+			<bugID>Issue #476</bugID>
+			<label>Bug</label>
+			<description>
+		http://developer.android.com/reference/android/provider/CalendarContract.html The current way appears to work fine on ICS on my Galaxy Nexus, but it remains an undocumented API. The above method is a documented API, but only works in ICS and up.
+	</description>
+		</report>
+		<report Number="61">
+			<summary>Footer doesn't update when returning from enabling notifications</summary>
+			<url>https://github.com/konklone/congress-android/issues/488</url>
+			<bugID>Issue #488</bugID>
+			<label>Bug</label>
+			<description>
+		This used to work before all the fragmentization refactoring from last version.
+	</description>
+		</report>
+		<report Number="62">
+			<summary>Obscure TextView bug on date of sticky header on FloorUpdateFragment</summary>
+			<url>https://github.com/konklone/congress-android/issues/497</url>
+			<bugID>Issue #497</bugID>
+			<label>Bug</label>
+			<description>
+		Scroll immediately down to loading view, then scroll back up - the meridian will disappear for all AM times on the header from then on. Incredibly weird.
+	</description>
+		</report>
+		<report Number="63">
+			<summary>Move context menu into touch menu in action bar</summary>
+			<url>https://github.com/konklone/congress-android/issues/501</url>
+			<bugID>Issue #501</bugID>
+			<label>Bug</label>
+			<description>
+		Go towards a more dynamic action bar, removing context menu and rolling my own touch menu. Not yet willing to use that 3rd party action bar replacement.
+	</description>
+		</report>
+		<report Number="64">
+			<summary>Make sure new styling and rules work on Honeycomb</summary>
+			<url>https://github.com/konklone/congress-android/issues/503</url>
+			<bugID>Issue #503</bugID>
+			<label>Bug</label>
+			<description>
+		I think some of the values in values-11 may need to move to a values-14.
+	</description>
+		</report>
+		<report Number="65">
+			<summary>Try out on Nexus S with ICS</summary>
+			<url>https://github.com/konklone/congress-android/issues/504</url>
+			<bugID>Issue #504</bugID>
+			<label>Bug</label>
+			<description>
+		To make sure.
+	</description>
+		</report>
+		<report Number="66">
+			<summary>First time, Changelog, Notification dialogs on ICS</summary>
+			<url>https://github.com/konklone/congress-android/issues/507</url>
+			<bugID>Issue #507</bugID>
+			<label>Bug</label>
+			<description>
+		These should all get a visual inspection to make sure they don't look janky on ICS.
+	</description>
+		</report>
+		<report Number="67">
+			<summary>Remove query string values from all analytics URLs</summary>
+			<url>https://github.com/konklone/congress-android/issues/508</url>
+			<bugID>Issue #508</bugID>
+			<label>Bug</label>
+			<description>
+		If you feel you must send in the bill ID, or the person ID, send an additional custom event.
+	</description>
+		</report>
+		<report Number="68">
+			<summary>Move the 'entry' custom variable to an event</summary>
+			<url>https://github.com/konklone/congress-android/issues/509</url>
+			<bugID>Issue #509</bugID>
+			<label>Bug</label>
+			<description>
+		This may give me a more accurate idea of how often this is occurring.
+	</description>
+		</report>
+		<report Number="69">
+			<summary>Have Up button go just one level up</summary>
+			<url>https://github.com/konklone/congress-android/issues/518</url>
+			<bugID>Issue #518</bugID>
+			<label>Bug</label>
+			<description>
+		Not always to the root.
+	</description>
+		</report>
+		<report Number="70">
+			<summary>Display favorite bills in a consistent manner to BillList</summary>
+			<url>https://github.com/konklone/congress-android/issues/519</url>
+			<bugID>Issue #519</bugID>
+			<label>Bug</label>
+			<description>
+		Shouldn't look so different.
+	</description>
+		</report>
+		<report Number="71">
+			<summary>Turn the top simple header color to the date color</summary>
+			<url>https://github.com/konklone/congress-android/issues/523</url>
+			<bugID>Issue #523</bugID>
+			<label>Bug</label>
+			<description>
+		A slightly lighter grey, so it doesn't blend in with the title bar.
+	</description>
+		</report>
+		<report Number="72">
+			<summary>Tweets are not loading</summary>
+			<url>https://github.com/konklone/congress-android/issues/525</url>
+			<bugID>Issue #525</bugID>
+			<label>Bug</label>
+			<description>
+		That's a dealbreaker!
+	</description>
+		</report>
+		<report Number="73">
+			<summary>Labels for global search</summary>
+			<url>https://github.com/konklone/congress-android/issues/528</url>
+			<bugID>Issue #528</bugID>
+			<label>Bug</label>
+			<description>
+		People actually use that, apparently. Label them appropriately in the settings list.
+	</description>
+		</report>
+		<report Number="74">
+			<summary>Put bill shortcuts back in</summary>
+			<url>https://github.com/konklone/congress-android/issues/529</url>
+			<bugID>Issue #529</bugID>
+			<label>Bug</label>
+			<description>
+		Unlike legislator shortcuts, this is trivial, and being asked for.
+	</description>
+		</report>
+		<report Number="75">
+			<summary>Make gingerbread-specific notification icon</summary>
+			<url>https://github.com/konklone/congress-android/issues/530</url>
+			<bugID>Issue #530</bugID>
+			<label>Bug</label>
+			<description>
+		Especially now that 2/3 of my app's visits are from Gingerbread users, having a notification icon specifically for 2.3.x (res/drawable-X-v9) makes sense.
+	</description>
+		</report>
+		<report Number="76">
+			<summary>Remove session scoping on bill relevance results</summary>
+			<url>https://github.com/konklone/congress-android/issues/532</url>
+			<bugID>Issue #532</bugID>
+			<label>Bug</label>
+			<description>
+		That is ridiculous, why did I do that?
+	</description>
+		</report>
+		<report Number="77">
+			<summary>Update Google Analytics SDK for Android</summary>
+			<url>https://github.com/konklone/congress-android/issues/534</url>
+			<bugID>Issue #534</bugID>
+			<label>Bug</label>
+			<description>
+		We're on 1.1 - several releases have occurred since then. The current version is 1.4.2. Use setAnonymizeIP() to anonymize IPs. Figure out whether we should set a sample rate: http://code.google.com/apis/analytics/docs/mobile/android.html#sampleRate http://code.google.com/apis/analytics/docs/concepts/gaConceptsSampling.html
+	</description>
+		</report>
+		<report Number="78">
+			<summary>Check for whether alarm is still set when app is opened</summary>
+			<url>https://github.com/konklone/congress-android/issues/536</url>
+			<bugID>Issue #536</bugID>
+			<label>Bug</label>
+			<description>
+		Just in case, there've been multiple reports over the last year or so of people losing their notifications, fixed by disabling and re-enabling. This is only worth it if there's a way to check for the alarm being actually set, not just looking at some shared pref. For all I know, the alarm is being killed with no warning or callback to disable such a shared pref flag.
+	</description>
+		</report>
+		<report Number="79">
+			<summary>Test out large fonts for accessibility</summary>
+			<url>https://github.com/konklone/congress-android/issues/537</url>
+			<bugID>Issue #537</bugID>
+			<label>Bug</label>
+			<description>
+		Not sure how best to test this out, but I got a user report, and it makes sense.
+	</description>
+		</report>
+		<report Number="80">
+			<summary>Move RTC endpoint back into config file</summary>
+			<url>https://github.com/konklone/congress-android/issues/541</url>
+			<bugID>Issue #541</bugID>
+			<label>Bug</label>
+			<description>
+		To minimize chances of the staging URL accidentally getting committed.
+	</description>
+		</report>
+		<report Number="81">
+			<summary>Census of Market errors</summary>
+			<url>https://github.com/konklone/congress-android/issues/543</url>
+			<bugID>Issue #543</bugID>
+			<label>Bug</label>
+			<description>
+		There are 5, as of right now, small one-off errors that have not been repeated - but take a look anyway.
+	</description>
+		</report>
+		<report Number="82">
+			<summary>Up button should do Back where appropriate</summary>
+			<url>https://github.com/konklone/congress-android/issues/548</url>
+			<bugID>Issue #548</bugID>
+			<label>Bug</label>
+			<description>
+		If the user's coming in from a search or something, the Up button should just go back. There are ways to do this.
+	</description>
+		</report>
+		<report Number="83">
+			<summary>Update KML map URLs with cache-buster</summary>
+			<url>https://github.com/konklone/congress-android/issues/557</url>
+			<bugID>Issue #557</bugID>
+			<label>Bug</label>
+			<description>
+		By the day, so that it can be cached for at least a day. Add the date to the end of the URL.
+	</description>
+		</report>
+		<report Number="84">
+			<summary>hcres/scres should work in code detector</summary>
+			<url>https://github.com/konklone/congress-android/issues/565</url>
+			<bugID>Issue #565</bugID>
+			<label>Bug</label>
+			<description>
+		And be translated to hconres and sconres.
+	</description>
+		</report>
+		<report Number="85">
+			<summary>UTF-8 problem with accented names</summary>
+			<url>https://github.com/konklone/congress-android/issues/566</url>
+			<bugID>Issue #566</bugID>
+			<label>Bug</label>
+			<description>
+		Jose Serrano's name is messed up. Appears to be coming off the API fine.
+	</description>
+		</report>
+		<report Number="86">
+			<summary>Don't show youtube tab for out-of-office people</summary>
+			<url>https://github.com/konklone/congress-android/issues/567</url>
+			<bugID>Issue #567</bugID>
+			<label>Bug</label>
+			<description>
+		They're done.
+	</description>
+		</report>
+		<report Number="87">
+			<summary>Restore cosponsors number and button</summary>
+			<url>https://github.com/konklone/congress-android/issues/569</url>
+			<bugID>Issue #569</bugID>
+			<label>Bug</label>
+			<description>
+		Geez. It's missing now - this means restoring cosponsors_count too, I think.
+	</description>
+		</report>
+		<report Number="88">
+			<summary>Fix cosponsors count and missing button</summary>
+			<url>https://github.com/konklone/congress-android/issues/570</url>
+			<bugID>Issue #570</bugID>
+			<label>Bug</label>
+			<description>
+		We dropped the cosponsors button! This needs to come back.
+	</description>
+		</report>
+		<report Number="89">
+			<summary>Explicitly order floor updates</summary>
+			<url>https://github.com/konklone/congress-android/issues/577</url>
+			<bugID>Issue #577</bugID>
+			<label>Bug</label>
+			<description>
+		Apparently it's depending on insertion order, which is bad news.
+	</description>
+		</report>
+		<report Number="90">
+			<summary>Fetching a bill's votes throws an error</summary>
+			<url>https://github.com/konklone/congress-android/issues/581</url>
+			<bugID>Issue #581</bugID>
+			<label>Bug</label>
+			<description>
+		No notifications for them.
+	</description>
+		</report>
+		<report Number="91">
+			<summary>Upcoming display bug on mdpi devices</summary>
+			<url>https://github.com/konklone/congress-android/issues/583</url>
+			<bugID>Issue #583</bugID>
+			<label>Bug</label>
+			<description>
+		Probably just a fixed height? Seems rare enough.
+	</description>
+		</report>
+		<report Number="92">
+			<summary>Order upcoming bills secondarily on range</summary>
+			<url>https://github.com/konklone/congress-android/issues/584</url>
+			<bugID>Issue #584</bugID>
+			<label>Bug</label>
+			<description>
+		To prevent situations like this:
+	</description>
+		</report>
+		<report Number="93">
+			<summary>Do another pass on improving news searches</summary>
+			<url>https://github.com/konklone/congress-android/issues/585</url>
+			<bugID>Issue #585</bugID>
+			<label>Bug</label>
+			<description>
+		S. 114 is, for some reason, particularly afflicted by only football results - the bill has nothing to do with that.
+	</description>
+		</report>
+		<report Number="94">
+			<summary>Crash bug afflicting some users</summary>
+			<url>https://github.com/konklone/congress-android/issues/586</url>
+			<bugID>Issue #586</bugID>
+			<label>Bug</label>
+			<description>
+		apparently I failed to fix this crash in 4.1.1. Even on 4.1.1: java.lang.RuntimeException: Unable to start activity ComponentInfo{com.sunlightlabs.android.congress/com.sunlightlabs.android.congress.BillPager}: java.lang.NullPointerException
+at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:1970)
+at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:1995)
+at android.app.ActivityThread.access$600(ActivityThread.java:128)
+at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1161)
+at android.os.Handler.dispatchMessage(Handler.java:99)
+at android.os.Looper.loop(Looper.java:137)
+at android.app.ActivityThread.main(ActivityThread.java:4517)
+at java.lang.reflect.Method.invokeNative(Native Method)
+at java.lang.reflect.Method.invoke(Method.java:511)
+at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:980)
+at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:747)
+at dalvik.system.NativeStart.main(Native Method)
+Caused by: java.lang.NullPointerException
+at com.sunlightlabs.android.congress.BillPager.access$0(BillPager.java:33)
+at com.sunlightlabs.android.congress.BillPager$BillLoaderFragment.run(BillPager.java:259)
+at com.sunlightlabs.android.congress.BillPager$BillLoaderFragment.onCreate(BillPager.java:255)
+at android.support.v4.app.FragmentManagerImpl.moveToState(FragmentManager.java:808)
+at android.support.v4.app.FragmentManagerImpl.moveToState(FragmentManager.java:1053)
+at android.support.v4.app.FragmentManagerImpl.moveToState(FragmentManager.java:1036)
+at android.support.v4.app.FragmentManagerImpl.dispatchCreate(FragmentManager.java:1741)
+at android.support.v4.app.FragmentActivity.onCreate(FragmentActivity.java:194)
+at com.sunlightlabs.android.congress.BillPager.onCreate(BillPager.java:44)
+at android.app.Activity.performCreate(Activity.java:4470)
+at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1053)
+at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:1934)
+... 11 more
+	</description>
+		</report>
+		<report Number="95">
+			<summary>Database crash bug afflicting a few users</summary>
+			<url>https://github.com/konklone/congress-android/issues/587</url>
+			<bugID>Issue #587</bugID>
+			<label>Bug</label>
+			<description>
+		Damn: java.lang.NullPointerException
+at com.sunlightlabs.android.congress.LegislatorPager.setupDatabase(LegislatorPager.java:105)
+at com.sunlightlabs.android.congress.LegislatorPager.onLoadLegislator(LegislatorPager.java:64)
+at com.sunlightlabs.android.congress.LegislatorPager$LegislatorLoaderFragment.onLoadLegislator(LegislatorPager.java:257)
+at com.sunlightlabs.android.congress.tasks.LoadLegislatorTask.onPostExecute(LoadLegislatorTask.java:45)
+at com.sunlightlabs.android.congress.tasks.LoadLegislatorTask.onPostExecute(LoadLegislatorTask.java:1)
+at android.os.AsyncTask.finish(AsyncTask.java:631)
+at android.os.AsyncTask.access$600(AsyncTask.java:177)
+at android.os.AsyncTask$InternalHandler.handleMessage(AsyncTask.java:644)
+at android.os.Handler.dispatchMessage(Handler.java:99)
+at android.os.Looper.loop(Looper.java:137)
+at android.app.ActivityThread.main(ActivityThread.java:5021)
+at java.lang.reflect.Method.invokeNative(Native Method)
+at java.lang.reflect.Method.invoke(Method.java:511)
+at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:789)
+at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:556)
+at dalvik.system.NativeStart.main(Native Method)
+	</description>
+		</report>
+		<report Number="96">
+			<summary>Handle missing office numbers more gracefully</summary>
+			<url>https://github.com/konklone/congress-android/issues/590</url>
+			<bugID>Issue #590</bugID>
+			<label>Bug</label>
+			<description>
+		Don't crash if it's missing. Got a NullPointerException when one was for a bit.
+	</description>
+		</report>
+		<report Number="97">
+			<summary>Search query, highlight bugs</summary>
+			<url>https://github.com/konklone/congress-android/issues/598</url>
+			<bugID>Issue #598</bugID>
+			<label>Bug</label>
+			<description>
+		It says &quot;null&quot; matches the field. Also, when I searched for &quot;border security&quot;, the highlighted word was only &quot;security&quot;, leading me to believe the request being made is incorrect. I suspect that I need to quote the search term - this is a new requirement as of the Congress API, and I probably didn't adjust it when switching from RTC.
+	</description>
+		</report>
+		<report Number="98">
+			<summary>Error message for missing vote should acknowledge that vote may not be posted yet</summary>
+			<url>https://github.com/konklone/congress-android/issues/601</url>
+			<bugID>Issue #601</bugID>
+			<label>Bug</label>
+			<description>
+		Especially when linking from floor updates, which auto-link to votes more quickly than they are posted.
+	</description>
+		</report>
+		<report Number="99">
+			<summary>Improve locating process</summary>
+			<url>https://github.com/konklone/congress-android/issues/611</url>
+			<bugID>Issue #611</bugID>
+			<label>Bug</label>
+			<description>
+		Display message during locating process Fall back to network location after not very long Currently, if the app struggles to locate someone through GPS, it just runs the spinner with no message, indefinitely.
+	</description>
+		</report>
+		<report Number="100">
+			<summary>Jackson parser doesn't work in Android 2.2</summary>
+			<url>https://github.com/konklone/congress-android/issues/612</url>
+			<bugID>Issue #612</bugID>
+			<label>Bug</label>
+			<description>
+		This is used to parse GeoJSON for district maps. The normal JSON parser is obviously fine, but the GeoJSON object mapper requires Jackson. 2.2 isn't a very large % of our users, just a few %. But instead of ditching Android 2.2 just yet, I'm inclined to just disable maps for Android 2.2, with a message. It is still an improvement on the broken, ugly situation they were in previously, and the alternative is to do my own native GeoJSON parsing, or to drop 2.2 altogether.
+	</description>
+		</report>
+		<report Number="101">
+			<summary>Voting and bills per-legislator subscriptions still point to removed activities</summary>
+			<url>https://github.com/konklone/congress-android/issues/613</url>
+			<bugID>Issue #613</bugID>
+			<label>Bug</label>
+			<description>
+		They are written as strings, and so didn't get flagged by Eclipse during the delete. Any existing notifications for new bills or votes by one's member of Congress will cause a crash. Change this so that the notifications now point to the LegislatorPager and get defaulted to the correct tab. The BillPager already does an identical thing for some per-bill notifications.
+	</description>
+		</report>
+		<report Number="102">
+			<summary>Expand hearing window so ongoing hearings appear</summary>
+			<url>https://github.com/konklone/congress-android/issues/616</url>
+			<bugID>Issue #616</bugID>
+			<label>Bug</label>
+			<description>
+		By 2 or 3 hours, so people in hearings don't lose the hearing's data at the stroke of whenever the hearing starts. Easy, ship this in the next version.
+	</description>
+		</report>
+		<report Number="103">
+			<summary>Upcoming should explicitly filter on bill times</summary>
+			<url>https://github.com/konklone/congress-android/issues/625</url>
+			<bugID>Issue #625</bugID>
+			<label>Bug</label>
+			<description>
+		So that we can remove the special case for upcoming bills in the API.
+	</description>
+		</report>
+		<report Number="104">
+			<summary>&quot;Coming Up&quot; bill detail can show very long list of activity</summary>
+			<url>https://github.com/konklone/congress-android/issues/643</url>
+			<bugID>Issue #643</bugID>
+			<label>Bug</label>
+			<description>
+		Per feedback from a user, this list can be long and annoying. Consider adding a way to limit the number of items that show up on a summary page.
+	</description>
+		</report>
+		<report Number="105">
+			<summary>Fix URLs to Sunlight/GovTrack/OC/Bioguide</summary>
+			<url>https://github.com/konklone/congress-android/issues/678</url>
+			<bugID>Issue #678</bugID>
+			<label>Bug</label>
+			<description>
+		They're out of date and use plain HTTP.
+	</description>
+		</report>
+		<report Number="106">
+			<summary>Showing bill votes as failing when they are pasing</summary>
+			<url>https://github.com/konklone/congress-android/issues/708</url>
+			<bugID>Issue #708</bugID>
+			<label>Bug</label>
+			<description>
+		[H.R. 3364 passed both houses](https://www.congress.gov/bill/115th-congress/house-bill/3364, but a user sent this in: Should fix this post-haste.
+	</description>
+		</report>
+	</reports>

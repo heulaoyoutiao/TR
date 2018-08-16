@@ -1,0 +1,1199 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<reports>
+		<report Number="0">
+			<summary>More error-proof parsing of the air time field</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/28</url>
+			<bugID>Issue #28</bugID>
+			<label>bug</label>
+			<description>
+		As this field is not formatted in any way it may read: 8 pm 8:00PM instead of: 8:00 PM SeriesGuide should at least handle those two (add additional formats and try to parse with them). edit: This makes me think if SeriesGuide should switch to trakt.tv as a data source completely...
+	</description>
+		</report>
+		<report Number="1">
+			<summary>Figure out why FLAG_ACTIVITY_CLEAR_TOP is not working from widget</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/29</url>
+			<bugID>Issue #29</bugID>
+			<label>bug</label>
+			<description>
+		Title says it all. Clearing to top does not seem to work when used with a PendingIntent from the appwidget. HELP!
+	</description>
+		</report>
+		<report Number="2">
+			<summary>Episode background is broken in ViewPager</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/30</url>
+			<bugID>Issue #30</bugID>
+			<label>bug</label>
+			<description>
+		Only appears on original episode and if you swipe to the left. Enlighten me, why oh why?
+	</description>
+		</report>
+		<report Number="3">
+			<summary>Repeated Update notifications on Honeycomb+</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/36</url>
+			<bugID>Issue #36</bugID>
+			<label>bug</label>
+			<description>
+		Android 4.0+ uses a new notification manager, try to use that on those devices instead of the legacy one.
+	</description>
+		</report>
+		<report Number="4">
+			<summary>Work around crash when navigating away after checking in fails</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/38</url>
+			<bugID>Issue #38</bugID>
+			<label>bug</label>
+			<description>
+		If the cancel dialog wants to appear, we fail. Apparently someones onSaveInstanceState got already called (we use the fragment manager of the share dialog, that's a starting point).
+	</description>
+		</report>
+		<report Number="5">
+			<summary>[trakt-java] Investigate deserialization crash for user/friends</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/40</url>
+			<bugID>Issue #40</bugID>
+			<label>bug</label>
+			<description>
+		It only happens with a watching entry. 10-30 03:49:57.048: E/AndroidRuntime(2023): Caused by: com.google.myjson.JsonParseException: The JsonDeserializer com.jakewharton.trakt.TraktApiService$5@44ebbfd8 failed to deserialize json object { &quot;type&quot;:&quot;episode&quot;,&quot;action&quot;:&quot;checkin&quot;, &quot;show&quot;:{ &quot;title&quot;:&quot;Fringe&quot;, &quot;year&quot;:2008, &quot;url&quot;:&quot;http://trakt.tv/show/fringe&quot;, &quot;imdb_id&quot;:&quot;tt1119644&quot;,&quot;tvdb_id&quot;:&quot;82066&quot;, &quot;tvrage_id&quot;:&quot;18388&quot;, &quot;first_aired&quot;:1219734000, &quot;country&quot;:&quot;United States&quot;, &quot;overview&quot;:&quot;The series follows a Federal Bureau of Investigation &quot;Fringe Division&quot; team based in Boston. The team uses unorthodox &quot;fringe&quot; science and FBI investigative techniques to investigate a series of unexplained, often ghastly occurrences, some of which are related to mysteries surrounding a parallel universe.&quot;, &quot;runtime&quot;:60, &quot;network&quot;:&quot;FOX&quot;, &quot;air_day&quot;:&quot;Friday&quot;, &quot;air_time&quot;:&quot;9:00pm&quot;, &quot;certification&quot;:&quot;TV-MA&quot;, &quot;images&quot;:{&quot;poster&quot;:&quot;http://vicmackey.trakt.tv/images/posters/87.jpg&quot;,&quot;fanart&quot;:&quot;http://vicmackey.trakt.tv/images/fanart/87.jpg&quot;,&quot;banner&quot;:&quot;http://vicmackey.trakt.tv/images/banners/87.jpg&quot;}}, &quot;episode&quot;:{&quot;season&quot;:1,&quot;number&quot;:1,&quot;title&quot;:&quot;Pilot&quot;,&quot;overview&quot;:&quot;When all the passengers on a plane die, FBI agent Olivia Dunham investigates the events and her partner almost dies. A desperate Olivia looks for help from Dr. Walter Bishop who has been institutionalized. Olivia, Dr. Bishop and his son Peter begin to discover what really happened on Flight 627 and begin to uncover a larger truth.&quot;,&quot;first_aired&quot;:1220943600,&quot;url&quot;:&quot;http://trakt.tv/show/fringe/season/1/episode/1&quot;,&quot;images&quot;:{&quot;screen&quot;:&quot;http://vicmackey.trakt.tv/images/episodes/87-1-1.jpg&quot;}} } given the type class com.jakewharton.trakt.entities.WatchedMediaEntity
+	</description>
+		</report>
+		<report Number="6">
+			<summary>Option menu items duplicate on orientation change</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/53</url>
+			<bugID>Issue #53</bugID>
+			<label>bug</label>
+			<description>
+		Only when switching from multi-pane to single-pane layout.
+	</description>
+		</report>
+		<report Number="7">
+			<summary>[TVDb] International search duplicates</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/54</url>
+			<bugID>Issue #54</bugID>
+			<label>bug</label>
+			<description>
+		Would require some processing, no idea if the additional waiting time is worth it. (We would have to look if there are two versions and then only choose the translated one). We'll see.
+	</description>
+		</report>
+		<report Number="8">
+			<summary>Crash when enabling 'Favorites only' filter</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/55</url>
+			<bugID>Issue #55</bugID>
+			<label>bug</label>
+			<description>
+		No description provided.
+	</description>
+		</report>
+		<report Number="9">
+			<summary>add MenuItem shown in ActionBar while showAsAction=never</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/59</url>
+			<bugID>Issue #59</bugID>
+			<label>bug</label>
+			<description>
+		the menu_addevent is shown in the ActionBar with text &quot;Action&quot; on Android 2.2 while in the XML is standing android:showAsAction=&quot;never&quot; May its an Problem of a external library. https://github.com/UweTrottmann/SeriesGuide/blob/beta/SeriesGuide/res/menu/overview_menu.xml line 45
+	</description>
+		</report>
+		<report Number="10">
+			<summary>Investigate The Daily Show not showing up with Unseen filter</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/61</url>
+			<bugID>Issue #61</bugID>
+			<label>bug</label>
+			<description>
+		After marking up until to the current season it reappears if the Unseen/Upcoming filter is selected. Have a look at what is causing this.
+	</description>
+		</report>
+		<report Number="11">
+			<summary>Sort upcoming episodes by time then by number</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/62</url>
+			<bugID>Issue #62</bugID>
+			<label>bug</label>
+			<description>
+		It may happen that two episodes air the same day so SeriesGuide assumes they air the same time, too. SeriesGuide should sort them additionally by number to avoid the second episode showing up as next episode or first in Upcoming.
+	</description>
+		</report>
+		<report Number="12">
+			<summary>Wrong error message when trying to delete show while updating</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/63</url>
+			<bugID>Issue #63</bugID>
+			<label>bug</label>
+			<description>
+		Fix that!
+	</description>
+		</report>
+		<report Number="13">
+			<summary>Progress dialog sticks when not entering trakt credentials</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/65</url>
+			<bugID>Issue #65</bugID>
+			<label>bug</label>
+			<description>
+		Checking in the first time, not saving trakt credentials: progress dialog stays around. Confirmed on: Google TV
+	</description>
+		</report>
+		<report Number="14">
+			<summary>[Google TV] TVDb button in Upcoming unreachable via DPAD</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/66</url>
+			<bugID>Issue #66</bugID>
+			<label>bug</label>
+			<description>
+		Same for the show link button.
+	</description>
+		</report>
+		<report Number="15">
+			<summary>[TVDb] Prevent episode (and season) duplicates</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/67</url>
+			<bugID>Issue #67</bugID>
+			<label>bug</label>
+			<description>
+		If TVDb gets screwed up duplicate episodes and seasons can happen easily on updating because SeriesGuide doesn't delete old entries to preserve the watched status. Figure something out!
+	</description>
+		</report>
+		<report Number="16">
+			<summary>Investigate fetching trakt activity not working anymore</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/69</url>
+			<bugID>Issue #69</bugID>
+			<label>bug</label>
+			<description>
+		This has likely to do with the introduction of caching for the user/library methods on trakts side. Have a look at it.
+	</description>
+		</report>
+		<report Number="17">
+			<summary>Changing episode sorting not reflected in episode pager</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/72</url>
+			<bugID>Issue #72</bugID>
+			<label>bug</label>
+			<description>
+		Especially a problem as we now highlight the selected episode in the list. It is done by position and changing the sorting screws this up greatly.
+	</description>
+		</report>
+		<report Number="18">
+			<summary>[trakt] Going back from credentials dialog displays uncancelable progress</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/77</url>
+			<bugID>Issue #77</bugID>
+			<label>bug</label>
+			<description>
+		Sigh Solution: Listen for the dialog getting canceled and try to dismiss the progress dialog fragment. Or don't put the progress dialog on the back stack (which I thought I already do...).
+	</description>
+		</report>
+		<report Number="19">
+			<summary>[GetGlue] Infinite loop between PrepareRequestTokenActivity and Browser</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/78</url>
+			<bugID>Issue #78</bugID>
+			<label>bug</label>
+			<description>
+		Not that critical because you have to choose 'Allow' in the browser each time. You can always go back to the app. Investigate if this can really happen (I guess if no valid code is sent back, the task will just try to authenticate with GetGlue again, and again, you get the idea).
+	</description>
+		</report>
+		<report Number="20">
+			<summary>Fix PendingIntent conflict between notifications and Widget</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/79</url>
+			<bugID>Issue #79</bugID>
+			<label>bug</label>
+			<description>
+		Likely because I clear all pending intents when creating a notification widget PIs don't work anymore.
+	</description>
+		</report>
+		<report Number="21">
+			<summary>Investigate trakt-java failure for empty shows</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/80</url>
+			<bugID>Issue #80</bugID>
+			<label>bug</label>
+			<description>
+		Example profile: jllafond Results in exceptions when firing. Suspicion that this is caused by item {&quot;title&quot;:null,&quot;year&quot;:0,&quot;imdb_id&quot;:null,&quot;tvdb_id&quot;:null,&quot;tvrage_id&quot;:null,&quot;seasons&quot;:[{&quot;season&quot;:1,&quot;episodes&quot;:[1,2,3]}]}. Do some testing and look at the stack traces.
+	</description>
+		</report>
+		<report Number="22">
+			<summary>App crash</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/81</url>
+			<bugID>Issue #81</bugID>
+			<label>bug</label>
+			<description>
+		Hello everyone, I'm trying to figure out why the SeriesGuide app keeps crashing everytime I run it. I tried installing the app via google play and downloading the apk from github. I tried all the available apk and the result is always the same. Conditions: Samsung Spica running a custom 2.2.3 20 Mb available on the phone memory. App is installed and running from the phone memory No network available. What happens The app starts, and for a few seconds it works but then it crashes. The logcat says it died with the Signal 11 (SIGSEGV) I can see the Get started Screen. If I don't do anything it will keep crashing with the signal 11. If I click the dismiss button on the Get started Screen I can play around with the app for a few seconds (2 or 3). After a couple of relaunches I start seeing SQLite errors (could't open seriesdatabase for writing) Any thoughts?
+	</description>
+		</report>
+		<report Number="23">
+			<summary>Trakt and art task seem to block overview loading</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/84</url>
+			<bugID>Issue #84</bugID>
+			<label>bug</label>
+			<description>
+		Especially noticable if trakt is unresponsive. Shouldn't canceling the tasks in onDestroy handle this?
+	</description>
+		</report>
+		<report Number="24">
+			<summary>[Search] Filter suggestions when searching within show</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/86</url>
+			<bugID>Issue #86</bugID>
+			<label>bug</label>
+			<description>
+		With how the suggestion system is currently designed in Android it is as far as I researched impossible to add per-activity filters like one can do by overriding onSearchRequested() for regular search. An alternative would be to turn off suggestions for search inside OverviewFragment, but guess what, AFAIK not possible. If anyone has viable solutions, I'm listening. E.g. you could create another SearchActivity which handles just searches from OverviewFragment. This way you could specify a different selection. However I still have only the user query as dynamic parameter, no?
+	</description>
+		</report>
+		<report Number="25">
+			<summary>Autocorrect time for ALL US time zones</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/88</url>
+			<bugID>Issue #88</bugID>
+			<label>bug</label>
+			<description>
+		If anyone wants to help, please install the Debugger.apk from the Downloads section and send in the displayed time zone code. sigh Android seems to have multiple time zone IDs per big time zone. GPS or phone network detection is out of question (no support for Google TV or devices which don't have GPS or cellular). Already supported: Eastern: America/Detroit America/New_York Central: America/Chicago Mountain: America/Denver Pacific: America/Phoenix (no summer time) America/Los_Angeles Full list of all Android time zone IDs: https://gist.github.com/1035596
+	</description>
+		</report>
+		<report Number="26">
+			<summary>Text cut off for 'Recommended' tab</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/92</url>
+			<bugID>Issue #92</bugID>
+			<label>bug</label>
+			<description>
+		Seems to happen on non HD screen devices in portrait. See viewpagerindicator issues (not looking that up right now). Small devices affected.
+	</description>
+		</report>
+		<report Number="27">
+			<summary>Crash when selecting notification after deleting show</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/101</url>
+			<bugID>Issue #101</bugID>
+			<label>bug</label>
+			<description>
+		For an unknown reason the cursor check here fails (EpisodeDetailsActivity), it seems to return something albeit the episode has been deleted. Debug!
+	</description>
+		</report>
+		<report Number="28">
+			<summary>Hide hidden shows from new check in screen</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/105</url>
+			<bugID>Issue #105</bugID>
+			<label>bug</label>
+			<description>
+		And look for other things I overlooked...
+	</description>
+		</report>
+		<report Number="29">
+			<summary>Hide non-aired episodes from checkin screen</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/113</url>
+			<bugID>Issue #113</bugID>
+			<label>bug</label>
+			<description>
+		Better this way, there might be some people in the future, but those should be the exception.
+	</description>
+		</report>
+		<report Number="30">
+			<summary>[trakt] Using mail address as username unsupported</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/121</url>
+			<bugID>Issue #121</bugID>
+			<label>bug</label>
+			<description>
+		Signing in is possible now, but it seems like all API calls fail. Investigate!
+	</description>
+		</report>
+		<report Number="31">
+			<summary>Expanded notification displays too many shows</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/122</url>
+			<bugID>Issue #122</bugID>
+			<label>bug</label>
+			<description>
+		No description provided.
+	</description>
+		</report>
+		<report Number="32">
+			<summary>Up action in activity screen may exit app</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/126</url>
+			<bugID>Issue #126</bugID>
+			<label>bug</label>
+			<description>
+		If the app was not previously launched and you access the activity screen via the list widget pressing the up button takes you back to the home screen. Looks like there is a bug with the support libraries up navigation support.
+	</description>
+		</report>
+		<report Number="33">
+			<summary>[Google TV] Test new add screen with D-PAD</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/127</url>
+			<bugID>Issue #127</bugID>
+			<label>bug</label>
+			<description>
+		Never, ever leave your Google TV fishtank 200 km away from you.
+	</description>
+		</report>
+		<report Number="34">
+			<summary>Keyboard not shown automatically anymore</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/130</url>
+			<bugID>Issue #130</bugID>
+			<label>bug</label>
+			<description>
+		Investigate... (Check In screen, add screen)
+	</description>
+		</report>
+		<report Number="35">
+			<summary>New update mechanism renders language selector useless</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/132</url>
+			<bugID>Issue #132</bugID>
+			<label>bug</label>
+			<description>
+		Somehow override last edit times selection?
+	</description>
+		</report>
+		<report Number="36">
+			<summary>Do not notify about specials if user set to hide them</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/133</url>
+			<bugID>Issue #133</bugID>
+			<label>bug</label>
+			<description>
+		No description provided.
+	</description>
+		</report>
+		<report Number="37">
+			<summary>Show list filter text cut off</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/136</url>
+			<bugID>Issue #136</bugID>
+			<label>bug</label>
+			<description>
+		Devices affected so far: Nook color (also using large tablet layouts instead of phone layouts)
+	</description>
+		</report>
+		<report Number="38">
+			<summary>[Google TV] GetGlue won't authenticate.</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/137</url>
+			<bugID>Issue #137</bugID>
+			<label>bug</label>
+			<description>
+		I'm running SGX on a Sony NSZ-GS7, when I go to authenticate in GG I get the Allow (etc.) buttons, however when I click the Allow button, nothing further happens (other than a quick flash of an URL in the lower status bar).
+	</description>
+		</report>
+		<report Number="39">
+			<summary>Collected flag in overview not representing actual state</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/139</url>
+			<bugID>Issue #139</bugID>
+			<label>bug</label>
+			<description>
+		No description provided.
+	</description>
+		</report>
+		<report Number="40">
+			<summary>MultiChoice ListView not working in DialogFragment</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/140</url>
+			<bugID>Issue #140</bugID>
+			<label>bug</label>
+			<description>
+		On Jelly Bean everything is fine, but boy does this not work in any other version. Why? See ListsDialogFragment.
+	</description>
+		</report>
+		<report Number="41">
+			<summary>Nexus 7: Long show names result in overlaps</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/142</url>
+			<bugID>Issue #142</bugID>
+			<label>bug</label>
+			<description>
+		No description provided.
+	</description>
+		</report>
+		<report Number="42">
+			<summary>'No shows here.' not centered correctly.</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/150</url>
+			<bugID>Issue #150</bugID>
+			<label>bug</label>
+			<description>
+		No description provided.
+	</description>
+		</report>
+		<report Number="43">
+			<summary>Empty view in add screen is a progress indicator.</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/157</url>
+			<bugID>Issue #157</bugID>
+			<label>bug</label>
+			<description>
+		Fix that!
+	</description>
+		</report>
+		<report Number="44">
+			<summary>Shouts activity looks scary inverted on GB.</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/158</url>
+			<bugID>Issue #158</bugID>
+			<label>bug</label>
+			<description>
+		No description provided.
+	</description>
+		</report>
+		<report Number="45">
+			<summary>Add show through dialog, + button not disappearing</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/159</url>
+			<bugID>Issue #159</bugID>
+			<label>bug</label>
+			<description>
+		No description provided.
+	</description>
+		</report>
+		<report Number="46">
+			<summary>Image loading in add show uses too many AsyncTasks on scrolling fast</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/160</url>
+			<bugID>Issue #160</bugID>
+			<label>bug</label>
+			<description>
+		Results in crashes on slower devices, because they can't keep up with finishing the tasks. Try to fail gracefully or Limit concurrent image downloader tasks, sequential execution or one task using a queue.
+	</description>
+		</report>
+		<report Number="47">
+			<summary>First list name 'Favorites' confusing</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/161</url>
+			<bugID>Issue #161</bugID>
+			<label>bug</label>
+			<description>
+		Kind of did not change that, or did I want to rename favoriting to starring? Anyhow, fix it, so it is not confused with the existing 'Favorites' mechanism.
+	</description>
+		</report>
+		<report Number="48">
+			<summary>[report] Add Fragment crashes if selected row is invisible?</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/178</url>
+			<bugID>Issue #178</bugID>
+			<label>bug</label>
+			<description>
+		Exception class: java.lang.NullPointerException Source method: AdapterView.getPositionForView() &quot;Tried to add a few popular shows immediately after another&quot; java.lang.NullPointerException
+at android.widget.AdapterView.getPositionForView(AdapterView.java:591)
+at com.battlelancer.seriesguide.ui.AddFragment$1.onClick(AddFragment.java:93)
+at android.view.View.performClick(View.java:3627)
+at android.view.View$PerformClick.run(View.java:14329)
+at android.os.Handler.handleCallback(Handler.java:605)
+at android.os.Handler.dispatchMessage(Handler.java:92)
+at android.os.Looper.loop(Looper.java:137)
+at android.app.ActivityThread.main(ActivityThread.java:4511)
+at java.lang.reflect.Method.invokeNative(Native Method)
+at java.lang.reflect.Method.invoke(Method.java:511)
+at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:986)
+at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:753)
+at dalvik.system.NativeStart.main(Native Method)
+	</description>
+		</report>
+		<report Number="49">
+			<summary>Trakt sync errors with android 4.2</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/182</url>
+			<bugID>Issue #182</bugID>
+			<label>bug</label>
+			<description>
+		Looks to have something to do with decrypting the stored trakt password. To reproduce: create a new virtual device with API level 17. start SG go to the trakt credentials dialog enter your trakt username and password error message about 'something went wrong.....'
+	</description>
+		</report>
+		<report Number="50">
+			<summary>Content Providers Now Private By Default with API 17</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/183</url>
+			<bugID>Issue #183</bugID>
+			<label>bug</label>
+			<description>
+		Which causes a lot of crashes like this: E/AndroidRuntime(26208): FATAL EXCEPTION: Binder_1
+E/AndroidRuntime(26208): java.lang.SecurityException: Permission Denial: reading com.battlelancer.seriesguide.provider.SeriesGuideProvider uri content://com.battlelancer.seriesguide.beta.provider/episodes/withshow from pid=703, uid=10029 requires the provider be exported, or grantUriPermission()
+E/AndroidRuntime(26208):    at android.content.ContentProvider$Transport.enforceReadPermission(ContentProvider.java:332)
+E/AndroidRuntime(26208):    at android.content.ContentProvider$Transport.query(ContentProvider.java:188)
+E/AndroidRuntime(26208):    at android.content.ContentResolver.query(ContentResolver.java:372)
+E/AndroidRuntime(26208):    at android.content.ContentResolver.query(ContentResolver.java:315)
+E/AndroidRuntime(26208):    at com.battlelancer.seriesguide.util.DBUtils.getUpcomingEpisodes(DBUtils.java:175)
+E/AndroidRuntime(26208):    at com.battlelancer.seriesguide.appwidget.ListWidgetService$ListRemoteViewsFactory.queryForData(ListWidgetService.java:93)
+E/AndroidRuntime(26208):    at com.battlelancer.seriesguide.appwidget.ListWidgetService$ListRemoteViewsFactory.onDataSetChanged(ListWidgetService.java:196)
+E/AndroidRuntime(26208):    at android.widget.RemoteViewsService$RemoteViewsFactoryAdapter.onDataSetChanged(RemoteViewsService.java:142)
+E/AndroidRuntime(26208):    at com.android.internal.widget.IRemoteViewsFactory$Stub.onTransact(IRemoteViewsFactory.java:49)
+E/AndroidRuntime(26208):    at android.os.Binder.execTransact(Binder.java:351)
+E/AndroidRuntime(26208):    at dalvik.system.NativeStart.run(Native Method)
+ Needs android:exported=&quot;true&quot; in the AndroidManifest.xml.
+	</description>
+		</report>
+		<report Number="51">
+			<summary>Shouts don't respect selected theme.</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/184</url>
+			<bugID>Issue #184</bugID>
+			<label>bug</label>
+			<description>
+		Try using Android Dark theme. I believe this was by design, but look into it anyhow.
+	</description>
+		</report>
+		<report Number="52">
+			<summary>Disconnect trakt, activity screen crashes if friends does not exist anymore</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/187</url>
+			<bugID>Issue #187</bugID>
+			<label>bug</label>
+			<description>
+		No description provided.
+	</description>
+		</report>
+		<report Number="53">
+			<summary>[TVDb] Shows not found by search</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/192</url>
+			<bugID>Issue #192</bugID>
+			<label>bug</label>
+			<description>
+		The TVDb search API exposed to third-party applications is much worse than what is offered through their website. Shows are not found for partial title Shows are not found where only a non-English title exists, except if the search language is expressly changed to that language (e.g. SG 'Content language' setting) No autocomplete Examples: PSYCHO PASS C Money Control Hopefully the promised new API will solve these problems. Update: trakt is planning v2.0 for mid-2014 with potential international support and better search. Hopes are up!
+	</description>
+		</report>
+		<report Number="54">
+			<summary>Next episode in lists does not update live</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/193</url>
+			<bugID>Issue #193</bugID>
+			<label>bug</label>
+			<description>
+		No description provided.
+	</description>
+		</report>
+		<report Number="55">
+			<summary>Checkbox state of &quot;Include unwatched flags&quot; not stored</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/195</url>
+			<bugID>Issue #195</bugID>
+			<label>bug</label>
+			<description>
+		In the trakt.tv Settings menu the state of the &quot;Include unwatched flags&quot; will not stored and reset from SharedPreferences unlike to all other preferences in the settings menu.
+	</description>
+		</report>
+		<report Number="56">
+			<summary>[trakt] Auto-add shows only once</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/197</url>
+			<bugID>Issue #197</bugID>
+			<label>bug</label>
+			<description>
+		If shows are multiple times inside the activity stream, they get added multiple times. Avoid that.
+	</description>
+		</report>
+		<report Number="57">
+			<summary>If only show is in a list it is wrongly allowed to be removed</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/200</url>
+			<bugID>Issue #200</bugID>
+			<label>bug</label>
+			<description>
+		No description provided.
+	</description>
+		</report>
+		<report Number="58">
+			<summary>Check-in Toast Doesn't Honor Season/Episode Display Format</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/202</url>
+			<bugID>Issue #202</bugID>
+			<label>bug</label>
+			<description>
+		Shows 1x01 when I have it set to S01E01.
+	</description>
+		</report>
+		<report Number="59">
+			<summary>BB doesn't seem to play nice with OverviewActivity</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/207</url>
+			<bugID>Issue #207</bugID>
+			<label>bug</label>
+			<description>
+		Figure out why... We won't be able to release a more recent version for BB10 if this is not fixed. java.lang.NoClassDefFoundError: com.battlelancer.seriesguide.ui.OverviewActivity
+	</description>
+		</report>
+		<report Number="60">
+			<summary>Analyze update task behavior if device goes sleeping</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/215</url>
+			<bugID>Issue #215</bugID>
+			<label>bug</label>
+			<description>
+		A user has reported the task is sticking around once the device goes to sleep. Maybe the timeouts don't work as expected.
+	</description>
+		</report>
+		<report Number="61">
+			<summary>Shouts dialog is too small on Nexus 7</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/216</url>
+			<bugID>Issue #216</bugID>
+			<label>bug</label>
+			<description>
+		&quot;The Shouts box on old episodes appears too small to be useful on my Nexus 7.&quot; I guess always using a full screen activity should solve that problem.
+	</description>
+		</report>
+		<report Number="62">
+			<summary>Time is off 1 hour between show list and activity screen</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/218</url>
+			<bugID>Issue #218</bugID>
+			<label>bug</label>
+			<description>
+		Android version: 4.0.4 Device: HTC One X Language: English (United States) Time Zone: Set on phone to automatic time zone; I am in the Central time zone; on the app, I have it set to offset by 0 hours More information: When I go to the app, on the main page, the times are correct. However, when I go to the activity page, the time is off by +1 hour. The widget seems to be pulling it's information off of this screen, and thus the wrong information is on the widget.
+	</description>
+		</report>
+		<report Number="63">
+			<summary>Widget/Launcher Backstack Problems</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/221</url>
+			<bugID>Issue #221</bugID>
+			<label>bug</label>
+			<description>
+		Launch from &quot;Upcoming&quot; title on widget. Press home. Launch from icon in app drawer. Press back. Observe you are back at upcoming (and can press back again to show list). Looks like a singleTop/singleTask thing.
+	</description>
+		</report>
+		<report Number="64">
+			<summary>Tablet show list network and time text does not wrap properly</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/222</url>
+			<bugID>Issue #222</bugID>
+			<label>bug</label>
+			<description>
+		Because we use seperate TextViews instead of one and string-building the text it does not wrap. So change that and make sure the text properly wraps then!
+	</description>
+		</report>
+		<report Number="65">
+			<summary>Overview does not refresh on provider changes</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/223</url>
+			<bugID>Issue #223</bugID>
+			<label>bug</label>
+			<description>
+		E.g. if a new image url or a description is stored by the update task the content does not refresh. Make sure the update task notifies the correct/all relevant URIs.
+	</description>
+		</report>
+		<report Number="66">
+			<summary>Auto-Backup not created</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/228</url>
+			<bugID>Issue #228</bugID>
+			<label>bug</label>
+			<description>
+		Check where SeriesGuide is trying to store the backup. However odly enough b4upgr backups do work...
+	</description>
+		</report>
+		<report Number="67">
+			<summary>List names with some special chars are reset</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/235</url>
+			<bugID>Issue #235</bugID>
+			<label>bug</label>
+			<description>
+		Quoting Tom: I tried to create a list name with a dash (&quot;-&quot;), as soon as I typed the dash, the already entered text would disappear. I found if I tried to first type some other symbol (say &quot;=&quot;), it wouldn't display, but the text also didn't disappear, and now typing a dash also didn't cause the text to disappear. Fix the filter. I had a look at the filter for the text field, but couldn't find anything wrong so far. So far it resets to &quot; &quot; when entering a dash or an uptick. Allow dashes (check if the create id algorithm will not fail and still produce uniques).
+	</description>
+		</report>
+		<report Number="68">
+			<summary>Navigating up from the Backup/Restore pane, post-backup, triggers a crash message</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/238</url>
+			<bugID>Issue #238</bugID>
+			<label>bug</label>
+			<description>
+		In the current SeriesGuide Beta v5beta3, after executing a (JSON) Backup operation from the Settings, tapping the Up icon from the SeriesGuide action bar results in the following error message. This appears to occur whether the backup is still in progress, or has already completed.
+	</description>
+		</report>
+		<report Number="69">
+			<summary>In single pane layout seasons do not update on overview changes</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/241</url>
+			<bugID>Issue #241</bugID>
+			<label>bug</label>
+			<description>
+		No description provided.
+	</description>
+		</report>
+		<report Number="70">
+			<summary>Gingerbread: flag watched applied only after back press</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/249</url>
+			<bugID>Issue #249</bugID>
+			<label>bug</label>
+			<description>
+		Go into a shows overview, try to flag the episode shown as watched. Nothing happens until you press back to return to the show list. Not yet confirmed with trakt disconnected. Likely won't fix this legacy platform bug as it works fine on consecutive actions, this seems to happen only the first time.
+	</description>
+		</report>
+		<report Number="71">
+			<summary>Can enable Restore button while Backup is running</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/261</url>
+			<bugID>Issue #261</bugID>
+			<label>bug</label>
+			<description>
+		No description provided.
+	</description>
+		</report>
+		<report Number="72">
+			<summary>'Updated to latest version' shown on first launch</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/265</url>
+			<bugID>Issue #265</bugID>
+			<label>bug</label>
+			<description>
+		No description provided.
+	</description>
+		</report>
+		<report Number="73">
+			<summary>Investigate minimum JSON import not triggering update</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/269</url>
+			<bugID>Issue #269</bugID>
+			<label>bug</label>
+			<description>
+		After importing a mini-JSON export it should automatically update and download missing information, something is going wrong here... Original report: https://plus.google.com/102419319386272714662/posts/57bn7xf6D5g
+	</description>
+		</report>
+		<report Number="74">
+			<summary>Last notification time is not set when tapping a new episode notification</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/270</url>
+			<bugID>Issue #270</bugID>
+			<label>bug</label>
+			<description>
+		Should result in the same behavior as if clearing a notification (delete intent).
+	</description>
+		</report>
+		<report Number="75">
+			<summary>Crash on Logitech Revue</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/280</url>
+			<bugID>Issue #280</bugID>
+			<label>bug</label>
+			<description>
+		http://pastebin.com/mu93DDYb# Looks like an issue with NotificationCompatBuilder, though very unlikely... Test again on emulator, otherwise this seems to be an issue with Logitechs build of Android.
+	</description>
+		</report>
+		<report Number="76">
+			<summary>SecurityException: caller uid XXXX is different than the authenticator's uid</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/288</url>
+			<bugID>Issue #288</bugID>
+			<label>bug</label>
+			<description>
+		See http://stackoverflow.com/questions/3774282/securityexception-caller-uid-xxxx-is-different-than-the-authenticators-uid. The XML files declare them directly, however, in the SgAutheticator I get the package name. But that should always be the correct one, no?
+	</description>
+		</report>
+		<report Number="77">
+			<summary>Handle fragment ops after onSaveInstanceState</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/289</url>
+			<bugID>Issue #289</bugID>
+			<label>bug</label>
+			<description>
+		At various points (dismissing trakt check-in progress dialog, moving to next fragment after connecting to trakt) it is required to perform fragment operations only after a background task is completed. However, the user might have left the app in the meanwhile. So a fragment operation in the background will fail with a java.lang.IllegalStateException: Can not perform this action after onSaveInstanceState exception.
+	</description>
+		</report>
+		<report Number="78">
+			<summary>Bring back search inside a show</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/294</url>
+			<bugID>Issue #294</bugID>
+			<label>bug</label>
+			<description>
+		I kind of accidentially removed that by always forwarding the user to the search activity. Fix!
+	</description>
+		</report>
+		<report Number="79">
+			<summary>Manage Lists dialog items note respecting theme</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/307</url>
+			<bugID>Issue #307</bugID>
+			<label>bug</label>
+			<description>
+		Originally this worked fine, looks like moving the text color attribute down into the text styles broke it? Anyhow, workaround in d8a594d setting a static color, check boxes are still incorrect though.
+	</description>
+		</report>
+		<report Number="80">
+			<summary>Action bar and tab strip blacked out until touch event</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/309</url>
+			<bugID>Issue #309</bugID>
+			<label>bug</label>
+			<description>
+		User reports that action bar and touch screen are blacked out and become visible only after touching the screen. Original report: https://plus.google.com/b/112462818579768957964/113316031717684687021/posts/agJij8R3xKq?cfem=1
+	</description>
+		</report>
+		<report Number="81">
+			<summary>Tab strip episode number changes when returning after check-in</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/310</url>
+			<bugID>Issue #310</bugID>
+			<label>bug</label>
+			<description>
+		If you apparently check into an episode in the episode details view, then leave the app, then come back (make sure SeriesGuide was pushed out of memory) the episode number in the tab strips are moved by one. Video: http://www.youtube.com/watch?v=imMXdQEltWc
+	</description>
+		</report>
+		<report Number="82">
+			<summary>Going back after forward to billing activity does not go back, but up.</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/313</url>
+			<bugID>Issue #313</bugID>
+			<label>bug</label>
+			<description>
+		E.g. try to add a home screen shortcut without active X subscription. You are forwarded to the billing activity. If you go back, you are going up instead until the top setting screen (afterwards the app quits).
+	</description>
+		</report>
+		<report Number="83">
+			<summary>Strange behavior when I unwatch the last episode seen.</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/320</url>
+			<bugID>Issue #320</bugID>
+			<label>bug</label>
+			<description>
+		When I unwatch the last episode seen in a show, the next episode SeriesGuide tells me to watch is not the good one. (SeriesGuide version 7.2-beta1) Steps to reproduce the bug: Add a show (I'll take Family Guy for example as it has a lot of episodes). Let's say I have seen the whole season 1 and the first episode of season 2, so I flag them all as seen. Next episode SeriesGuide tells me to watch is now 2x02, as expected. I accidentally flag episode 2x02 as watched. I then flag episode 2x02 as not watched yet in the seasons section. Go back to the main screen (when you see all your shows), SeriesGuide now tells me that the next episode of Family Guy I have to see is : 11x04 (???) To go back to normal, go to the seasons section of the show, find season 11 and, with the action button on the right, flag all the episodes as &quot;watched none&quot;. You can reproduce once again that bug by flagging the next episode to see as seen and flag that episode as not watched yet. SeriesGuide will always tell you that, with my example, the next episode to see is 11x04. Why 11x04? I don't know... Looks like that bug happens to the shows with multiple seasons (I can reproduce this problem with Simpsons show, Futurama or The Wire). I don't know if I was very clear with that bug, I'll provide a video if needed.
+	</description>
+		</report>
+		<report Number="84">
+			<summary>RTL support for tab strip and view pager</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/339</url>
+			<bugID>Issue #339</bugID>
+			<label>bug</label>
+			<description>
+		ViewPager and tab strip are not RTL aware. Make them or find workarounds. Issues Page order is reversed. Indicator issues in tablet layout (TextViews are offset to the left). Possible workarounds Attach pages/tabs in reverse order. Not feasable as tab strip also would reverse tab order, which is correctly mirrored.
+	</description>
+		</report>
+		<report Number="85">
+			<summary>Galaxy tablets crash because of paddingStart</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/340</url>
+			<bugID>Issue #340</bugID>
+			<label>bug</label>
+			<description>
+		java.lang.NumberFormatException in java.lang.Integer.invalidInt See also: https://code.google.com/p/chromium/issues/detail?id=235118 https://code.google.com/p/chromium/issues/detail?id=243794 https://code.google.com/p/android/issues/detail?id=60055 Looks like Samsung devices pre 4.2 did have custom RTL code which has issues when 4.2 start and end properties are used.
+	</description>
+		</report>
+		<report Number="86">
+			<summary>Can't validate certificate chain on GetGlue endpoints</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/341</url>
+			<bugID>Issue #341</bugID>
+			<label>bug</label>
+			<description>
+		No description provided.
+	</description>
+		</report>
+		<report Number="87">
+			<summary>Ratings cache does not time out</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/345</url>
+			<bugID>Issue #345</bugID>
+			<label>bug</label>
+			<description>
+		Currently up to the last 10 ratings are cached for episodes in TraktSummaryTask, using a LRU strategy to evict old entries. Meaning, even if some time has passed, the cached value will still be returned instead of refreshed. Potential solutions: Clear the cache after a timeout. Or: add timestamps to its entries and throw them away once over a certain threshold (minutes)
+	</description>
+		</report>
+		<report Number="88">
+			<summary>Some 4.1 tablets incorrectly using v17 (4.2) layouts</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/346</url>
+			<bugID>Issue #346</bugID>
+			<label>bug</label>
+			<description>
+		Related to #340. Identified devices Prestigio 5580C PRO DUO, 8&quot;, Android 4.1 Nextboook 8 HD nx008hd8g, 8&quot;, Android 4.1.1 Sources https://plus.google.com/b/112462818579768957964/111426884411114266467/posts/NXKWNR4MgtQ https://plus.google.com/b/112462818579768957964/104891481008472832405/posts/WaM7SpwVcyV
+	</description>
+		</report>
+		<report Number="89">
+			<summary>Widget configuration change not reflected immediately</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/353</url>
+			<bugID>Issue #353</bugID>
+			<label>bug</label>
+			<description>
+		When changing the widget type or any widget settings those changes only show when the widget updates again, not immediately after saving the changes. This is restricted to the items, the static content updates fine. Possible solutions: Have a look at the DashClock source code how it handles instant widget updates.
+	</description>
+		</report>
+		<report Number="90">
+			<summary>Some 4.1 tablets incorrectly handle layout qualifiers</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/359</url>
+			<bugID>Issue #359</bugID>
+			<label>bug</label>
+			<description>
+		First we had #346. Now with v11, which introduced GridView mirroring in RTL layouts (style in layout-ldrtl-v17 folder) those are again incorrectly used by some 4.1.x tablets. This leads me to believe that those tablets will use any folder that has the highest version qualifier (in this case v17, which is Android 4.2.x), ignoring if it is higher than their API level. Screenshot from user:
+	</description>
+		</report>
+		<report Number="91">
+			<summary>Full trakt sync does not reset collected or watched flags</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/364</url>
+			<bugID>Issue #364</bugID>
+			<label>bug</label>
+			<description>
+		Full trakt sync does not re-set flags for shows not included in either trakt library or collection anymore.
+	</description>
+		</report>
+		<report Number="92">
+			<summary>NPE for EventBus.getDefault() in AsyncTask.onPostExecute</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/371</url>
+			<bugID>Issue #371</bugID>
+			<label>bug</label>
+			<description>
+		Getting reports for a weird NPE in https://github.com/UweTrottmann/SeriesGuide/blob/v12/SeriesGuide/src/main/java/com/battlelancer/seriesguide/util/MovieTools.java#L354. Guarded it for now, but still unsure what is going on (maybe GC snags it away?)
+	</description>
+		</report>
+		<report Number="93">
+			<summary>Ensure UI updates after sync</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/375</url>
+			<bugID>Issue #375</bugID>
+			<label>bug</label>
+			<description>
+		E.g. next episodes in the show list, check marks in upcoming/recent, ... Potential solution: run next episode updater after updating (I thought we already did that, but let's check again) notify some more content provider URIs in some more places Source: User reported that show list does not update after scrobbling to trakt form another device.
+	</description>
+		</report>
+		<report Number="94">
+			<summary>notifications still vibrating when vibration unchecked</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/377</url>
+			<bugID>Issue #377</bugID>
+			<label>bug</label>
+			<description>
+		Hi! For some reason, notifications are still vibrating even if it's unchecked in my options. Also please at least consider a setting to tone down the vibrating as it's extremely high, at least on my device (Samsung Galaxy Note II) Thanks for the great app :)
+	</description>
+		</report>
+		<report Number="95">
+			<summary>Scrolling between episodes details sometimes cuts off episodes</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/381</url>
+			<bugID>Issue #381</bugID>
+			<label>bug</label>
+			<description>
+		When you fast scroll between episodes,this bug sometimes occurs. For example, swipe right then swipe left rapidly to switch between 2 episodes. I can do a screen record if you want. My device: Nexus 5, Android 4.4.2, with SeriesGuide 13.1. In the enclosed screenshot, I swiped to the second episode and then quickly went back to the first one.
+	</description>
+		</report>
+		<report Number="96">
+			<summary>Show list: episode not updated after watching next via context menu</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/383</url>
+			<bugID>Issue #383</bugID>
+			<label>bug</label>
+			<description>
+		Not confirmed, yet. Could be a side-effect of the next episode updater now running as an IntentService. Devices: Galaxy S3 with Imperium ROM
+	</description>
+		</report>
+		<report Number="97">
+			<summary>Show list with Unwatched filter is stale</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/384</url>
+			<bugID>Issue #384</bugID>
+			<label>bug</label>
+			<description>
+		After changing the filters, it triggers an update. This should NOT happen, as this is handled completely by the loader framework and this code has remained untouched a while. Misinterpreted bug report. Show list cutoff for unwatched episodes is not refreshed on activity re-recreation as old loader is apparently re-used, ergo the cut-off is not updated to the current time, ergo shows with just released episodes do not show up. Original report
+	</description>
+		</report>
+		<report Number="98">
+			<summary>[tvtag] Duplicate check-ins</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/392</url>
+			<bugID>Issue #392</bugID>
+			<label>bug</label>
+			<description>
+		User reports check-ins duplicate (e.g. one check-in with SG leads to 2 check-ins displaying on tvtag.com) tvtag as well as trakt enabled when checking in Next step: Reproducing
+	</description>
+		</report>
+		<report Number="99">
+			<summary>Notification settings not disabled if notifications are disabled</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/393</url>
+			<bugID>Issue #393</bugID>
+			<label>bug</label>
+			<description>
+		https://plus.google.com/b/112462818579768957964/112031979119612536593/posts/QSaW6Dvf7gc
+	</description>
+		</report>
+		<report Number="100">
+			<summary>Movies removed from trakt watchlist are re-added when syncing</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/394</url>
+			<bugID>Issue #394</bugID>
+			<label>bug</label>
+			<description>
+		Removing a movie from the watchlist works as expected, it is also properly removed on trakt. However, on the next sync the movie is added to the watchlist (locally + trakt) again. Find out why!
+	</description>
+		</report>
+		<report Number="101">
+			<summary>[trakt] Movie should be removed from watchlist after flagging watched</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/398</url>
+			<bugID>Issue #398</bugID>
+			<label>bug</label>
+			<description>
+		User reported If flagged as watched, movie should be removed from watchlist (as it e.g. is after checking into it). Next step: Reproduce
+	</description>
+		</report>
+		<report Number="102">
+			<summary>Flagging episode watched from show list reverts to previous episode</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/401</url>
+			<bugID>Issue #401</bugID>
+			<label>bug</label>
+			<description>
+		User reported Using the context menu action &quot;Watched next episode&quot; the episode briefly updates to the next, then reverts back to the original episode. The user is also connected to trakt. Next step: reproduce
+	</description>
+		</report>
+		<report Number="103">
+			<summary>Launch via app icon may not resume where expected</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/403</url>
+			<bugID>Issue #403</bugID>
+			<label>bug</label>
+			<description>
+		Launch into the app via the list widget (assuming from a notification is the same) Go to home screen. Launch app via launcher icon. Expected: app resumes where left off. Actual: app builds new stack on top of existing activities (e.g. shows show list, but back returns to previous task stack)
+	</description>
+		</report>
+		<report Number="104">
+			<summary>Update to getglue-java 1.4.0</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/405</url>
+			<bugID>Issue #405</bugID>
+			<label>bug</label>
+			<description>
+		Fix crash bug because of non-compatiblity with okhttp 2.x.
+	</description>
+		</report>
+		<report Number="105">
+			<summary>External picasso not loading images from cache if offline</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/406</url>
+			<bugID>Issue #406</bugID>
+			<label>bug</label>
+			<description>
+		No description provided.
+	</description>
+		</report>
+		<report Number="106">
+			<summary>Trakt tabs do not appear in shows after signing in</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/407</url>
+			<bugID>Issue #407</bugID>
+			<label>bug</label>
+			<description>
+		Ensure trakt 'Friends' and 'You' tab are shown immediately after signing in, hidden after signing out from trakt. Currently have to force recreation of main activity (e.g. back out of the app).
+	</description>
+		</report>
+		<report Number="107">
+			<summary>Toolbar height in landscape mode</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/413</url>
+			<bugID>Issue #413</bugID>
+			<label>bug</label>
+			<description>
+		The Toolbar height in landscape mode it too large. Just set layout_height to ?attr/actionBarSize instead of using minHeight. minHeight may be removed. Sorry for not sending PR, I am unable to build the app and check if everything is correct. But the fix is really easy so you will fix it in a few seconds.
+	</description>
+		</report>
+		<report Number="108">
+			<summary>Divider in Drawer is selectable</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/414</url>
+			<bugID>Issue #414</bugID>
+			<label>bug</label>
+			<description>
+		the dividers in the drawermenu are selectable. Just implement this in the BaseNavDrawerActivity.DrawerAdapter public boolean areAllItemsEnabled() {
+    return false;
+}
+
+public boolean isEnabled(int position) {
+    return getItemViewType(position) != VIEW_TYPE_DIVIDER;
+} regards, David
+	</description>
+		</report>
+		<report Number="109">
+			<summary>Movie ListView re-use image downloading problem.</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/415</url>
+			<bugID>Issue #415</bugID>
+			<label>bug</label>
+			<description>
+		Notice &quot;Yoga Hosers&quot; and &quot;Clerks III&quot; (maybe it's only Kevin Smith movies that have this problem!). This only happens when scrolling fast and the image for the original movie to which the poster belongs is not in the memory cache.
+	</description>
+		</report>
+		<report Number="110">
+			<summary>Movies without release dates are sorted first, not last.</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/416</url>
+			<bugID>Issue #416</bugID>
+			<label>bug</label>
+			<description>
+		I think they should be sorted last since as far as I can tell they're all movies in the future.
+	</description>
+		</report>
+		<report Number="111">
+			<summary>Skips get reset after trakt sync</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/419</url>
+			<bugID>Issue #419</bugID>
+			<label>bug</label>
+			<description>
+		Reported on G+ Code seems fine, so is my library. Looks like a more intricate issue. Keep investigating.
+	</description>
+		</report>
+		<report Number="112">
+			<summary>No error message if set watched/collected/etc. fails</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/422</url>
+			<bugID>Issue #422</bugID>
+			<label>bug</label>
+			<description>
+		Reported on G+. Actually there should be. Guess parsing the failure response is somehow broken (trakt returns an array of what worked, failed, etc.). Handle responses in FlagTapedTask and throw an error toast if response not_found has elements.
+	</description>
+		</report>
+		<report Number="113">
+			<summary>When adding a show, watched/collected episodes not always loaded</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/427</url>
+			<bugID>Issue #427</bugID>
+			<label>bug</label>
+			<description>
+		Reported on G+ When adding a show, AddShowTask does not abort if loading watched/collected episodes fails. It probably shouldn't. Old train of though: sync will add watched/collected episodes. However, with the new v2 syncing algorithm this might not be true any longer all the time.
+	</description>
+		</report>
+		<report Number="114">
+			<summary>Unable to rate some movies</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/428</url>
+			<bugID>Issue #428</bugID>
+			<label>bug</label>
+			<description>
+		I'm not getting the trakt rate section on some movies such as Whiplash (2014).
+	</description>
+		</report>
+		<report Number="115">
+			<summary>In &quot;Manage lists&quot; items get unselected when scrolling out of view</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/431</url>
+			<bugID>Issue #431</bugID>
+			<label>bug</label>
+			<description>
+		Reported via email. Feels like a view recycling bug.
+	</description>
+		</report>
+		<report Number="116">
+			<summary>Misleading error for check-in to non-existent (on trakt) episode</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/436</url>
+			<bugID>Issue #436</bugID>
+			<label>bug</label>
+			<description>
+		Reported on G+ The API might return a 404 if it can't find an episode. Then it would be easy to intercept the RetrofitError and show a different error message. Also look at movies.
+	</description>
+		</report>
+		<report Number="117">
+			<summary>When searching, added shows can be added again</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/438</url>
+			<bugID>Issue #438</bugID>
+			<label>bug</label>
+			<description>
+		Searching for show in &quot;Add tab&quot; that is in the show list. Should display that show is already in show list. Maybe also change trakt lists to display already added shows, but with an added indicator (e.g. show check mark instead of add button).
+	</description>
+		</report>
+		<report Number="118">
+			<summary>Some shows that are classified as ended don't say that in the show list</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/442</url>
+			<bugID>Issue #442</bugID>
+			<label>bug</label>
+			<description>
+		Reported on G+
+	</description>
+		</report>
+		<report Number="119">
+			<summary>Next episode in Shows tab not updated on data changes</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/443</url>
+			<bugID>Issue #443</bugID>
+			<label>bug</label>
+			<description>
+		Reported on G+ and via email It's likely we don't correctly trigger an update to the next episodes upon finishing a trakt sync or toggling watched state in the Upcoming/Recent tabs.
+	</description>
+		</report>
+		<report Number="120">
+			<summary>Transparent tabs indicator is wrong color on dark theme</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/452</url>
+			<bugID>Issue #452</bugID>
+			<label>bug</label>
+			<description>
+		Reported on Twitter
+	</description>
+		</report>
+		<report Number="121">
+			<summary>SwipeRefreshLayout with RecyclerView causes drawing delays in Now tab</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/455</url>
+			<bugID>Issue #455</bugID>
+			<label>bug</label>
+			<description>
+		When loading data any view inside SwipeRefreshLayout is not drawn (including the progress indicator). Only once data loading is complete drawing resumes. Removing the SwipeRefreshLayout completely fixes the issue. Investigating... Notes: https://code.google.com/p/android/issues/detail?id=78191 nope, has no effect. seems related to how SRL draws, making test project for bug report. Not related to high CPU activity of one or more AsyncTaskLoader (tested using loaders which do Patter.compile() iterations before passing dummy data). Next: possible related to network activity
+	</description>
+		</report>
+		<report Number="122">
+			<summary>Incorrect episode set watched on trakt</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/468</url>
+			<bugID>Issue #468</bugID>
+			<label>bug</label>
+			<description>
+		Reported via email For Naruto, set episode x of season 1 watched &gt;&gt; sets episode x of season 2 on trakt set episode x of season 2 watched &gt;&gt; error https://trakt.tv/shows/naruto
+	</description>
+		</report>
+		<report Number="123">
+			<summary>FAB displayed on wrong tab</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/476</url>
+			<bugID>Issue #476</bugID>
+			<label>bug</label>
+			<description>
+		It's possible for the FAB to be displayed on the &quot;now&quot; tab as a result of the FabAbsListViewScrollDetector getting confused about which Fragment is currently being shown. Personally, I don't like hiding the FAB, but I'm not sure how you'd like to handle it. An easy fix would be just to check to see if the grid has focus or not:     if (!view.hasFocus() || totalItemCount == 0) {
+        return;
+    }
+ Also, what are you thoughts on switching to an actual Snackbar instead of your custom one? Is there a reason for using it?
+	</description>
+		</report>
+		<report Number="124">
+			<summary>Infinite calendar: episodes briefly reappear when setting watched</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/487</url>
+			<bugID>Issue #487</bugID>
+			<label>bug</label>
+			<description>
+		Reported via email. recents set to: favorites, unwatched, infinite and hide special. When I mark an episode as watched directly from the list, watched episodes from a seemingly random show pop back into the list. trakt is connected does not occur with &quot;Infinite calendar&quot; OFF turning off &quot;Hide special episodes&quot; helps This is likely caused by trakt sync which deletes all watched flags, then applies the downloaded ones.
+	</description>
+		</report>
+		<report Number="125">
+			<summary>Infinite calendar omits episodes aired before 1.1.1970</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/501</url>
+			<bugID>Issue #501</bugID>
+			<label>bug</label>
+			<description>
+		Episodes aired before the 1.1.1970 (start of the Unix timestamp) do not show up in the recent tab with the 'infinite calendar' option activated.
+	</description>
+		</report>
+		<report Number="126">
+			<summary>Estimated runtime resets when you lock the screen</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/503</url>
+			<bugID>Issue #503</bugID>
+			<label>bug</label>
+			<description>
+		Like outlined in this issue here the calculation of the estimated runtime is slow. The problem is you have to keep the device screen on while calculating else it will reset and start over. Which is kinda bad if it takes 15 seconds or more to calculate. Same thing if it calculated and you switch of the screen.
+	</description>
+		</report>
+		<report Number="127">
+			<summary>API 2.0.2 breaks backwards compatibility</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/528</url>
+			<bugID>Issue #528</bugID>
+			<label>bug</label>
+			<description>
+		As actions are now published as broadcasts previous versions of SeriesGuide no longer work. Update SeriesGuideExtension to handle both cases, probably by checking the component that is sent which should receive the action. If it's a receiver, send a broadcast, if it's a service, start the service (only pre-O of course). Better idea: send API version through extra. Use that to decide.
+	</description>
+		</report>
+		<report Number="128">
+			<summary>Details pane not updating if setting watched and sorting by unwatched first</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/532</url>
+			<bugID>Issue #532</bugID>
+			<label>bug</label>
+			<description>
+		Sort season by unwatched first. Set episode watched. Expected: details pane updates episode order. Actual: details pane keeps order, displayed details do no longer match selection. https://www.youtube.com/watch?v=eLubiaFS4tc https://plus.google.com/u/0/b/112462818579768957964/+PatrikSelin/posts/W11UnFrsA5M
+	</description>
+		</report>
+	</reports>

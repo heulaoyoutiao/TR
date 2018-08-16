@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<reports>
+		<report Number="0">
+			<summary>Make errors more specific, in particular around network connectivity</summary>
+			<url>https://github.com/OneBusAway/onebusaway-android/issues/7</url>
+			<bugID>Issue #7</bugID>
+			<label>None yet</label>
+			<description>
+		I think a lot of people get errors about getting stops or arrivals when they don't realize they don't have network connectivity, either due to a dead zone or some temporary lapse. Rather than a generic &quot;problem getting stops&quot; toast or &quot;communication error&quot;, try to make it clear that this is because you actually don't have any internet connectivity.
+	</description>
+		</report>
+		<report Number="1">
+			<summary>Use different icon for notifications in arrivals screen</summary>
+			<url>https://github.com/OneBusAway/onebusaway-android/issues/9</url>
+			<bugID>Issue #9</bugID>
+			<label>None yet</label>
+			<description>
+		In newest SDKs, the lighter icon is used so it's basically a white-on-white icon.
+	</description>
+		</report>
+		<report Number="2">
+			<summary>Use transit-specific icon in the notification tray</summary>
+			<url>https://github.com/OneBusAway/onebusaway-android/issues/10</url>
+			<bugID>Issue #10</bugID>
+			<label>None yet</label>
+			<description>
+		I use the &quot;reminder/notification&quot; icon which looks like a generic &quot;notification&quot; icon. We should use something that more specifically calls out as OneBusAway, like the old bus icon.
+	</description>
+		</report>
+		<report Number="3">
+			<summary>Search route hint has wrong background</summary>
+			<url>https://github.com/OneBusAway/onebusaway-android/issues/11</url>
+			<bugID>Issue #11</bugID>
+			<label>None yet</label>
+			<description>
+		This is the hint text on the &quot;Search&quot; tab of the &quot;My Routes&quot; activity. I never noticed when the default background was white, but on ICS/JB it's off white it has this strange white-on-off white.
+	</description>
+		</report>
+		<report Number="4">
+			<summary>Add location provider status to bug report email</summary>
+			<url>https://github.com/OneBusAway/onebusaway-android/issues/12</url>
+			<bugID>Issue #12</bugID>
+			<label>None yet</label>
+			<description>
+		This will be helpful in diagnosing when people email me about GPS problems. I may be able to add a lat/lon/accuracy as well.
+	</description>
+		</report>
+		<report Number="5">
+			<summary>Polylines appear and disappear at different zoom levels</summary>
+			<url>https://github.com/OneBusAway/onebusaway-android/issues/13</url>
+			<bugID>Issue #13</bugID>
+			<label>None yet</label>
+			<description>
+		This didn't seem to happen on Gingerbread, perhaps it's ICS/JB only?
+	</description>
+		</report>
+		<report Number="6">
+			<summary>Please don't make me enter a title for reminders</summary>
+			<url>https://github.com/OneBusAway/onebusaway-android/issues/20</url>
+			<bugID>Issue #20</bugID>
+			<label>None yet</label>
+			<description>
+		Reported by eric.hanchrow, May 1, 2010 What steps will reproduce the problem? Start the app Somehow get to a page that shows the arrival times for a particular stop Tap the line corresponding to any arrival. You'll see &quot;Bus options&quot;; one of those options is &quot;Set a reminder&quot;; tap it. What is the expected output? What do you see instead? What I'd prefer is for the dumb soft keyboard to NOT pop up, thus hiding half the screen. But in fact, it does pop up, which is annoying: I have zero interest in giving this reminder a name; I just want to be alerted when the bus is going to arrive. I have to hit the &quot;back&quot; button to get the keyboard out of the way. I realize this is just one keystroke, but it irks me every time. (Also, I use a non-standard soft keyboard, which is larger than the built-in one, so it's even more annoying.) What version of the product are you using? On what operating system? Android app, version 13. Comment 1 by project member paulcwatts, May 6, 2010 Hmm, the keyboard doesn't pop up on my phones (G1 and Droid). But yeah, I've been annoyed at starting on the 'name' field when all I want is a one-shot reminder. Status: Accepted Owner: paulcwatts Comment 2 by project member paulcwatts, May 7, 2010 This does happen on a myTouch 3G, so it just have something to do with physical/virtual keyboards. Comment 5 by eric.hanchrow, Oct 28, 2010 Let me amend this a little (perhaps this should become a separate issue): setting reminders takes way too many steps. I realize some of these are outside of your control, but in the interest of being a whiner, let me enumerate the steps I go through every morning before leaving home: Push the phone's lock button to wake it up Tap the OneBusAway icon for my stop Tap the particular line that corresponds to the arrival time I want tap &quot;Set a reminder&quot; tap the &quot;Reminder Time&quot; dropdown tap &quot;5 minutes&quot; (because I don't like the default of 10 minutes) tap the back button to move the onscreen keyboard out of the way tap &quot;Save&quot; raise the phone's volume to ensure I actually hear the alarm when it goes off That's nine separate actions, each of which is crucial. It'd be ideal if there were some way to boil this down to one action (after unlocking the phone, which of course you have no control over) -- perhaps by having an icon that means &quot;set an alert, for my favorite time interval, on my favorite stop, and oh by the way make sure the sound isn't muted&quot; Comment 6 by devin@twuni.org, Jun 13, 2011 I think that this problem could be solved by moving the 'Name' field down further in the form. The Android OS probably anticipates that that field is the first thing you want to enter because of its position in the form. If it is moved further down, it will naturally no longer be selected by default.
+	</description>
+		</report>
+		<report Number="7">
+			<summary>Include links to OneBusAway project in the readme</summary>
+			<url>https://github.com/OneBusAway/onebusaway-android/issues/34</url>
+			<bugID>Issue #34</bugID>
+			<label>None yet</label>
+			<description>
+		The wiki/developer page, as well as the mobile app design considerations page: https://github.com/OneBusAway/onebusaway-application-modules/wiki/Mobile-App-Design-Considerations
+	</description>
+		</report>
+		<report Number="8">
+			<summary>White on white text in dialogs</summary>
+			<url>https://github.com/OneBusAway/onebusaway-android/issues/35</url>
+			<bugID>Issue #35</bugID>
+			<label>None yet</label>
+			<description>
+		Repro: Go out of range of OneBusAway so the Out of range dialog pops up. Look at the header of the dialog Expected: 3. You should be able to read the text 4. The text is white-on-white, it makes it really difficult to read.
+	</description>
+		</report>
+		<report Number="9">
+			<summary>Update Jackson libraries</summary>
+			<url>https://github.com/OneBusAway/onebusaway-android/issues/36</url>
+			<bugID>Issue #36</bugID>
+			<label>None yet</label>
+			<description>
+		We're on 1.8.5, they're on 2.0.6.
+	</description>
+		</report>
+		<report Number="10">
+			<summary>Sounder route popup on map obscures the entire map</summary>
+			<url>https://github.com/OneBusAway/onebusaway-android/issues/43</url>
+			<bugID>Issue #43</bugID>
+			<label>None yet</label>
+			<description>
+		The length of the route name &quot;Sounder / South ...&quot; pushes the long description far to the right.
+	</description>
+		</report>
+		<report Number="11">
+			<summary>Crash when sending problem reports</summary>
+			<url>https://github.com/OneBusAway/onebusaway-android/issues/44</url>
+			<bugID>Issue #44</bugID>
+			<label>None yet</label>
+			<description>
+		java.lang.NullPointerException at com.joulespersecond.seattlebusbot.ReportProblemFragmentBase.onLoadFinished(ReportProblemFragmentBase.java:89) at com.joulespersecond.seattlebusbot.ReportProblemFragmentBase.onLoadFinished(ReportProblemFragmentBase.java:38) at android.support.v4.app.LoaderManagerImpl$LoaderInfo.callOnLoadFinished(LoaderManager.java:424) at android.support.v4.app.LoaderManagerImpl$LoaderInfo.onLoadComplete(LoaderManager.java:392) at android.support.v4.content.Loader.deliverResult(Loader.java:103) at android.support.v4.content.AsyncTaskLoader.dispatchOnLoadComplete(AsyncTaskLoader.java:221) at android.support.v4.content.AsyncTaskLoader$LoadTask.onPostExecute(AsyncTaskLoader.java:61) at android.support.v4.content.ModernAsyncTask.finish(ModernAsyncTask.java:461) at android.support.v4.content.ModernAsyncTask.access$500(ModernAsyncTask.java:47) at android.support.v4.content.ModernAsyncTask$InternalHandler.handleMessage(ModernAsyncTask.java:474) at android.os.Handler.dispatchMessage(Handler.java:99) at android.os.Looper.loop(Looper.java:154) at android.app.ActivityThread.main(ActivityThread.java:4945) at java.lang.reflect.Method.invokeNative(Native Method) at java.lang.reflect.Method.invoke(Method.java:511) at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:784) at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:551) at dalvik.system.NativeStart.main(Native Method)
+	</description>
+		</report>
+		<report Number="12">
+			<summary>Refresh old arrival data on resume, discard if it is too old</summary>
+			<url>https://github.com/OneBusAway/onebusaway-android/issues/45</url>
+			<bugID>Issue #45</bugID>
+			<label>None yet</label>
+			<description>
+		It occurred to me the way we persist the old arrival information might end up being more of a problem that a solution. In particular this case: Have OneBusAway active on the arrivals screen; Have your phone go to sleep A few minutes later, bring your phone back from sleep In onResume, we show the old data and immediately start fetching new data. However, the old data is still on the screen just as we had left it. At some point in the future, the app gets the new data and replaces the old data -- the times appear to jump. Could this be the reason why people sometimes complain the data is jumpy? Two solutions: onResume, refresh the displayed data to accurately reflect the current time. If the data is too old, discard it completely and show the large &quot;loading&quot; data. How old is too old? 10 minutes? This may be a problem for people who want to keep the app open in areas with no service (the tunnel), but that may be a power user feature.
+	</description>
+		</report>
+		<report Number="13">
+			<summary>Shortcuts not always showing the shortcut stop</summary>
+			<url>https://github.com/OneBusAway/onebusaway-android/issues/46</url>
+			<bugID>Issue #46</bugID>
+			<label>None yet</label>
+			<description>
+		When using shortcuts to stops, the app might not display the shortcut that was actually activated. Repro: Open OneBusAway using the App icon in the app drawer Press the phone back button (bottom left) multiple time, until the app quit completely, back to the phone home screen Open shortcut to stop A. Schedule of stop A is showing Press phone Home button Open shortcut to stop B. Schedule of stop B is showing Press phone Home button Open shortcut to stop A. Schedule of stop B is showing Workaround: After step 7 above, press the back button on the phone. This correctly display the first stop schedule. Notes: once the bug is triggered, clicking the back button of the app (one bus away logo at the top left) bring you to the map. From that point, going back to the home screen and clicking the first shortcut brings you to the map instead of the schedule of the stop.
+	</description>
+		</report>
+		<report Number="14">
+			<summary>Consider improvements in app icon navigation: Up vs Home</summary>
+			<url>https://github.com/OneBusAway/onebusaway-android/issues/47</url>
+			<bugID>Issue #47</bugID>
+			<label>None yet</label>
+			<description>
+		See this conversation on Twitter: https://twitter.com/leggett/status/279304677294747648 The idea would be to have the App Icon go to My Stops from a Stop, then to the Map. I know a lot of people, including me, like the ability to go directly to the map from stop, but this may have the added benefit of prioritizing the My Stops screen (which isn't very discoverable as it is). This could also be done for Routes, where the App Icon on the Route screen goes to My Routes, then to the Map. Getting back to the map would then require two taps on the same target.
+	</description>
+		</report>
+		<report Number="15">
+			<summary>Only warn that Airplane Mode is on when we can't connect</summary>
+			<url>https://github.com/OneBusAway/onebusaway-android/issues/48</url>
+			<bugID>Issue #48</bugID>
+			<label>None yet</label>
+			<description>
+		Right now we'll warn the user that you can't use it in Airplane Mode right as you start the app. Since I added this warning, I've added much better error reporting, so there's no sense in pre-warning the user. In particular, this error is totally useless if you want to use the app with Airplane Mode enabled but Wifi turned on (which I didn't realize was possible, at least it probably wasn't when I added the feature). I just need to move the airplane mode check into the places where I already check for connectivity: https://github.com/paulcwatts/onebusaway-android/blob/develop/src/com/joulespersecond/seattlebusbot/UIHelp.java#L254 We can reword the Toast as well to say we don't need it, but it's probably preventing you from accessing the Internet.
+	</description>
+		</report>
+		<report Number="16">
+			<summary>&quot;Out of range&quot; warning appeared in a funny place</summary>
+			<url>https://github.com/OneBusAway/onebusaway-android/issues/50</url>
+			<bugID>Issue #50</bugID>
+			<label>None yet</label>
+			<description>
+		I just built from my fork -- offby1/onebusaway-android@6e5bcb6 -- and saw this: Note how the entry for route 16 says &quot;You are out of OneBusAway's service area. Go there now?&quot; That seems out of place.
+	</description>
+		</report>
+		<report Number="17">
+			<summary>Add debug statements to track regions logic</summary>
+			<url>https://github.com/OneBusAway/onebusaway-android/issues/52</url>
+			<bugID>Issue #52</bugID>
+			<label>None yet</label>
+			<description>
+		Adding debug statements to track regions logic will help developers that aren't as familiar with the source code follow the current state of the application at runtime and make improvements. Debug statements should be added so they are only visible in the debug configuration (i.e., not in release): if (BuildConfig.DEBUG) { Log.d(TAG, &quot;debug message goes here&quot;); }
+	</description>
+		</report>
+		<report Number="18">
+			<summary>super.onCreate() isn't called in Application.onCreate()</summary>
+			<url>https://github.com/OneBusAway/onebusaway-android/issues/54</url>
+			<bugID>Issue #54</bugID>
+			<label>None yet</label>
+			<description>
+		Android docs explicitly say that super.onCreate() should be called in Application.onCreate(): http://developer.android.com/reference/android/app/Application.html#onCreate() ...and this isn't currently being done in com.joulespersecond.seattlebusbot.Application: https://github.com/OneBusAway/onebusaway-android/blob/develop/src/com/joulespersecond/seattlebusbot/Application.java#L35 There should be some discussion surrounding this, as we don't want to break anything if its working and I don't know if there are other reasons for not doing this.
+	</description>
+		</report>
+		<report Number="19">
+			<summary>Build failed with ant</summary>
+			<url>https://github.com/OneBusAway/onebusaway-android/issues/59</url>
+			<bugID>Issue #59</bugID>
+			<label>None yet</label>
+			<description>
+		I'm using ant to build the project as per the README, but get the following error: BUILD FAILED
+/home/joshua/projects/onebusaway-android/build.xml:7: Source resource does not exist: /home/joshua/projects/onebusaway-android/local.properties
+ I see there is a local.properties file in the tests subdirectory which has a comment saying it should not be commited to the repo. What are the steps for building the project with ant? Thanks!
+	</description>
+		</report>
+		<report Number="20">
+			<summary>Enhancement: distribute app via f-droid or some other method besides Google Play</summary>
+			<url>https://github.com/OneBusAway/onebusaway-android/issues/60</url>
+			<bugID>Issue #60</bugID>
+			<label>None yet</label>
+			<description>
+		I would like to see if it would be possible to have this app be made available outside of Google Play? This is an important app on my phone, and having it available to install outside of Google Play would go far towards not having gapps on my device. Thanks!
+	</description>
+		</report>
+		<report Number="21">
+			<summary>reduce permission requests</summary>
+			<url>https://github.com/OneBusAway/onebusaway-android/issues/61</url>
+			<bugID>Issue #61</bugID>
+			<label>None yet</label>
+			<description>
+		i don't see any reason why the play store version needs a number of these testing permissions: mock location sources for testing phone status and identity run at startup - why? test access to protected storage view network connections prevent tablet from sleeping
+	</description>
+		</report>
+		<report Number="22">
+			<summary>zoom to current location on startup</summary>
+			<url>https://github.com/OneBusAway/onebusaway-android/issues/62</url>
+			<bugID>Issue #62</bugID>
+			<label>None yet</label>
+			<description>
+		would like to see the app zoom to the current location on startup.
+	</description>
+		</report>
+		<report Number="23">
+			<summary>Submit to Amazon App Store.</summary>
+			<url>https://github.com/OneBusAway/onebusaway-android/issues/85</url>
+			<bugID>Issue #85</bugID>
+			<label>None yet</label>
+			<description>
+		Interesting request from a Twitter user to upload this application to the Amazon App Store.
+	</description>
+		</report>
+		<report Number="24">
+			<summary>Add &quot;Android&quot; to &quot;Contact Us&quot; email subject</summary>
+			<url>https://github.com/OneBusAway/onebusaway-android/issues/107</url>
+			<bugID>Issue #107</bugID>
+			<label>None yet</label>
+			<description>
+		Now that OBA iOS is including info footer in feedback emails, we should add the word &quot;Android&quot; to the subject line of OBA Android feedback email to allow clear distinction between the two sources.
+	</description>
+		</report>
+		<report Number="25">
+			<summary>Crash on bookmark editing</summary>
+			<url>https://github.com/OneBusAway/onebusaway-android/issues/179</url>
+			<bugID>Issue #179</bugID>
+			<label>None yet</label>
+			<description>
+		Was going through the Testflight crash logs, and found one that appears to have been occurring while the users edit bookmarks. Here's the log: @wizecoder, can you take a look? Fortunately it isn't occurring too often, and as far as I know we haven't had any reports, but there have still been enough crashes that we should look into it.
+	</description>
+		</report>
+		<report Number="26">
+			<summary>Dev branch build error: Can't find Amazon Maps?</summary>
+			<url>https://github.com/OneBusAway/onebusaway-android/issues/268</url>
+			<bugID>Issue #268</bugID>
+			<label>None yet</label>
+			<description>
+		Trying to run the latest dev build, commit 0e8ad83. Got this immediately on compiling. Error:A problem occurred configuring project ':onebusaway-android'.
+&gt; Could not resolve all dependencies for configuration ':onebusaway-android:_amazonDebugCompile'.
+   &gt; Could not find com.amazon.android:amazon-maps-api:2.0.
+     Searched in the following locations:
+         https://jcenter.bintray.com/com/amazon/android/amazon-maps-api/2.0/amazon-maps-api-2.0.pom
+         https://jcenter.bintray.com/com/amazon/android/amazon-maps-api/2.0/amazon-maps-api-2.0.jar
+         file:/C:/Users/Shreyas/.m2/repository/com/amazon/android/amazon-maps-api/2.0/amazon-maps-api-2.0.pom
+         file:/C:/Users/Shreyas/.m2/repository/com/amazon/android/amazon-maps-api/2.0/amazon-maps-api-2.0.jar
+         http://nexus.onebusaway.org/nexus/content/repositories/releases/com/amazon/android/amazon-maps-api/2.0/amazon-maps-api-2.0.pom
+         http://nexus.onebusaway.org/nexus/content/repositories/releases/com/amazon/android/amazon-maps-api/2.0/amazon-maps-api-2.0.jar
+         file:/C:/Android SDK/adt-bundle-windows-x86_64-20140321/sdk/extras/android/m2repository/com/amazon/android/amazon-maps-api/2.0/amazon-maps-api-2.0.pom
+         file:/C:/Android SDK/adt-bundle-windows-x86_64-20140321/sdk/extras/android/m2repository/com/amazon/android/amazon-maps-api/2.0/amazon-maps-api-2.0.jar
+         file:/C:/Android SDK/adt-bundle-windows-x86_64-20140321/sdk/extras/google/m2repository/com/amazon/android/amazon-maps-api/2.0/amazon-maps-api-2.0.pom
+         file:/C:/Android SDK/adt-bundle-windows-x86_64-20140321/sdk/extras/google/m2repository/com/amazon/android/amazon-maps-api/2.0/amazon-maps-api-2.0.jar
+     Required by:
+         onebusaway-android:onebusaway-android:unspecified
+ I honestly have no idea what's going on in the gradle scripts.
+	</description>
+		</report>
+		<report Number="27">
+			<summary>Show Cancelled or Re-Routed Buses</summary>
+			<url>https://github.com/OneBusAway/onebusaway-android/issues/331</url>
+			<bugID>Issue #331</bugID>
+			<label>None yet</label>
+			<description>
+		All too often, I am left waiting at a stop due to either: a bus' scheduled run being cancelled without any indication other than it indicating late and then simply disappearing with me left waiting another 20-30 minutes for the next bus.... ...OR... a bus being re-routed due to an event, protest or weather without any indication in the app. Can this be addressed with Metro?
+	</description>
+		</report>
+		<report Number="28">
+			<summary>Errors while importing Android Project</summary>
+			<url>https://github.com/OneBusAway/onebusaway-android/issues/407</url>
+			<bugID>Issue #407</bugID>
+			<label>None yet</label>
+			<description>
+		Fixed!
+	</description>
+		</report>
+		<report Number="29">
+			<summary>Trip headsign disappears on orientation change</summary>
+			<url>https://github.com/OneBusAway/onebusaway-android/issues/486</url>
+			<bugID>Issue #486</bugID>
+			<label>None yet</label>
+			<description>
+		Summary: In Problem reporting view, trip headsign text disappears when orientation change. Steps to reproduce: Open any stop Tap on any arrival Select &quot;Report arrival time problem&quot; Rotate the screen Expected behavior: It should keep the headsign text. Observed behavior: Headsign text disappears. Device and Android version: Motorola Nexus 6 w/ 6.0.1 Screenshots:
+	</description>
+		</report>
+	</reports>

@@ -1,0 +1,1253 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<reports>
+		<report Number="0">
+			<summary>Instructions to get going</summary>
+			<url>https://github.com/the-blue-alliance/the-blue-alliance-android/issues/2</url>
+			<bugID>Issue #2</bugID>
+			<label>None yet</label>
+			<description>
+		Add instructions to get going to the readme Should walk someone through: how to set up an Android dev environment what to do to get going with this app
+	</description>
+		</report>
+		<report Number="1">
+			<summary>Set Last-Modified header for API returns and comply with Last-Modified-Since header in requests</summary>
+			<url>https://github.com/the-blue-alliance/the-blue-alliance-android/issues/6</url>
+			<bugID>Issue #6</bugID>
+			<label>None yet</label>
+			<description>
+		No description provided.
+	</description>
+		</report>
+		<report Number="2">
+			<summary>astuetz's Page Slider Library Gradle Refresh Error</summary>
+			<url>https://github.com/the-blue-alliance/the-blue-alliance-android/issues/9</url>
+			<bugID>Issue #9</bugID>
+			<label>None yet</label>
+			<description>
+		Gradle is giving me a error when refreshing the project. &quot;No cached version of com.astuetz:pagerslidingtabstrip:1.0.1 available for offline mode.&quot; There seems to be an issue with the Pager Sliding Tab Library that you are using to display team numbers and week events.
+	</description>
+		</report>
+		<report Number="3">
+			<summary>Project doesn't have source</summary>
+			<url>https://github.com/the-blue-alliance/the-blue-alliance-android/issues/17</url>
+			<bugID>Issue #17</bugID>
+			<label>None yet</label>
+			<description>
+		When @plnyyanks removed the iml files and such. When you open the project all you have is the gradle files.
+	</description>
+		</report>
+		<report Number="4">
+			<summary>Settings up button on action bar</summary>
+			<url>https://github.com/the-blue-alliance/the-blue-alliance-android/issues/27</url>
+			<bugID>Issue #27</bugID>
+			<label>None yet</label>
+			<description>
+		In the settings activity there is no up button on the action bar. This is something that I can do. I was showing the app to people. One of the things that they complained about.
+	</description>
+		</report>
+		<report Number="5">
+			<summary>Replace SettingsActivity with a PreferenceFragment</summary>
+			<url>https://github.com/the-blue-alliance/the-blue-alliance-android/issues/36</url>
+			<bugID>Issue #36</bugID>
+			<label>None yet</label>
+			<description>
+		As per the Settings documentation: Note: If you're developing your application for Android 3.0 and higher, you should instead use PreferenceFragment. Go to the next section about Using Preference Fragments. Nearly all of the methods in PreferenceActivity are deprecated, and using a PreferenceFragment is the clear recommendation. This would also eliminate the need for Build.VERSION_CODES.HONEYCOMB checks and related annotations.
+	</description>
+		</report>
+		<report Number="6">
+			<summary>Error:(3, 0) CreateProcess error=2, The system cannot find the file specified</summary>
+			<url>https://github.com/the-blue-alliance/the-blue-alliance-android/issues/38</url>
+			<bugID>Issue #38</bugID>
+			<label>None yet</label>
+			<description>
+		C:\Users\Bryce Matsuda\Documents\GitHub\the-blue-alliance-android\android\build.gradle Error:(3, 0) CreateProcess error=2, The system cannot find the file specified In idea.log: 2014-05-08 08:19:42,182 [ 44043] WARN - .project.GradleProjectImporter - 2014-05-08 08:19:42,182 [ 44043] INFO - .project.GradleProjectImporter - CreateProcess error=2, The system cannot find the file specified Consult IDE log for more details (Help | Show Log) Seem to get this every time I load up Android Studio and try to sync the project with the gradle files after pushing the latest commits., yet the build.gradle is still in there.
+	</description>
+		</report>
+		<report Number="7">
+			<summary>Switching between weeks too quickly crashes the program</summary>
+			<url>https://github.com/the-blue-alliance/the-blue-alliance-android/issues/42</url>
+			<bugID>Issue #42</bugID>
+			<label>None yet</label>
+			<description>
+		Steps to reproduce: Open the app like usual Quickly switch between weeks by tapping the tabs erratically Program throws NPE and crashes. I've gotten it to crash with just 2 weeks, but if that doesn't work then I tap more weeks. Logcat: http://pastebin.com/tFC1FXFS
+	</description>
+		</report>
+		<report Number="8">
+			<summary>Allow navigation drawer to be accessed from anywhere</summary>
+			<url>https://github.com/the-blue-alliance/the-blue-alliance-android/issues/44</url>
+			<bugID>Issue #44</bugID>
+			<label>None yet</label>
+			<description>
+		Right now, the navigation drawer can only be accessed at the top level -- not when viewing team or event details. Google's Keep and Music are able to handle this nicely.
+	</description>
+		</report>
+		<report Number="9">
+			<summary>Events fail to open at all after viewing some in Events tab.</summary>
+			<url>https://github.com/the-blue-alliance/the-blue-alliance-android/issues/58</url>
+			<bugID>Issue #58</bugID>
+			<label>None yet</label>
+			<description>
+		The easiest way to reproduce this is to open and close an event in one week, switch to another week, open and close another event, then switch once more to a different week, and find that tapping other events does nothing. Sometimes an event will open as seen in the YT video, but switching again to another week brings back its odd behavior. Can be fixed by rotating screen, loading an event from a team info page, or reloading the app. Video: https://www.youtube.com/watch?v=D3bZMgyvwTI
+	</description>
+		</report>
+		<report Number="10">
+			<summary>EventWeekHeader cannot be cast to ListElement</summary>
+			<url>https://github.com/the-blue-alliance/the-blue-alliance-android/issues/66</url>
+			<bugID>Issue #66</bugID>
+			<label>None yet</label>
+			<description>
+		Not sure on the exact criteria to reproduce it. Just did a lot of spammage on the Events page. Video: https://www.youtube.com/watch?v=WYFx2sHUGsA Logcat: http://pastie.org/private/v4zwqiepywdfv0fsajmq
+	</description>
+		</report>
+		<report Number="11">
+			<summary>Accessing events not in Events tab</summary>
+			<url>https://github.com/the-blue-alliance/the-blue-alliance-android/issues/67</url>
+			<bugID>Issue #67</bugID>
+			<label>None yet</label>
+			<description>
+		http://pastie.org/private/u4oo8fhui7py3fshcczrrq Notably happens when trying to view Results and Rankings on any of the FRC World Championship Divisions. I thought it was only because the Championship field events can't be accessed from the Events page yet, but the district championships seem to work fine.
+	</description>
+		</report>
+		<report Number="12">
+			<summary>Blank 'Week 0' in 2012</summary>
+			<url>https://github.com/the-blue-alliance/the-blue-alliance-android/issues/78</url>
+			<bugID>Issue #78</bugID>
+			<label>None yet</label>
+			<description>
+		I originally thought it came from stress tests, but I cleared the app data and it still came up when I loaded it normally.
+	</description>
+		</report>
+		<report Number="13">
+			<summary>Alliances in Team @ Event Suggestions</summary>
+			<url>https://github.com/the-blue-alliance/the-blue-alliance-android/issues/97</url>
+			<bugID>Issue #97</bugID>
+			<label>None yet</label>
+			<description>
+		I noticed when viewing various Team @ Event pages is that the alliances for that event are always shown, even if that team wasn't picked by an alliance for elims which, to me, feels a bit pointless. Would it be possible to hide the alliances tab if say, there isn't any data on that team for elims? Or display a text like &quot;This team did not advance to eliminations&quot;? For a team that did advance to elims, displaying all 8 alliances with the current format might make it hard for users to find their team. I was thinking either bolding the team, or just displaying the alliance that team is on.
+	</description>
+		</report>
+		<report Number="14">
+			<summary>Should match videos be displayed in app?</summary>
+			<url>https://github.com/the-blue-alliance/the-blue-alliance-android/issues/104</url>
+			<bugID>Issue #104</bugID>
+			<label>None yet</label>
+			<description>
+		Checking out version 0.3, it seems that videos of matches are just links, which open in the native browser. Would it be better to display the videos inline in the app? I remember that I prototyped this on iOS, and it was really quite easy to implement, and worked well. Any specific reason to link to the native browser?
+	</description>
+		</report>
+		<report Number="15">
+			<summary>Awards section in Team @ Event not showing Dean's List winners properly</summary>
+			<url>https://github.com/the-blue-alliance/the-blue-alliance-android/issues/128</url>
+			<bugID>Issue #128</bugID>
+			<label>None yet</label>
+			<description>
+		Mainly applies to the winners' Team @ Event pages for Einstein. The award name doesn't show up at all, and there's gigantic margins/spacing around the winners. Is it possible just to display the member from that team?
+	</description>
+		</report>
+		<report Number="16">
+			<summary>IllegalStateException when trying to load team events list</summary>
+			<url>https://github.com/the-blue-alliance/the-blue-alliance-android/issues/139</url>
+			<bugID>Issue #139</bugID>
+			<label>None yet</label>
+			<description>
+		Applies to both current and past years. Info and media seem to be still working okay. Pastie: http://pastie.org/private/zgwm1uxtujwxra2bdb267q
+	</description>
+		</report>
+		<report Number="17">
+			<summary>Team past events loads out of order if team has gap in years participating</summary>
+			<url>https://github.com/the-blue-alliance/the-blue-alliance-android/issues/142</url>
+			<bugID>Issue #142</bugID>
+			<label>None yet</label>
+			<description>
+		YouTube: https://www.youtube.com/watch?v=zqHryS3iV0I Logcat proof: http://pastie.org/private/ejmho27s9axkakcapzjpow The activity is still grabbing the years from the old array that contains all the years from 1992-now. As a result, the first dropdown item is always 2014 events/media, second dropdown item is always 2013 events/media, third is always 2012 events/media..., etc so teams with gaps in years participating or that didn't participate in 2014 have participating years display no events or wrong events. Gut instinct wants to grab the years array from MakeActionBarDropdownForTeam somehow...
+	</description>
+		</report>
+		<report Number="18">
+			<summary>add lock-screen/home-screen widgets</summary>
+			<url>https://github.com/the-blue-alliance/the-blue-alliance-android/issues/163</url>
+			<bugID>Issue #163</bugID>
+			<label>None yet</label>
+			<description>
+		It'd be great to be able to place app widgets on the Android lock screen and home screen to see the top glanceable info.
+	</description>
+		</report>
+		<report Number="19">
+			<summary>New Data Storage Round 2</summary>
+			<url>https://github.com/the-blue-alliance/the-blue-alliance-android/issues/176</url>
+			<bugID>Issue #176</bugID>
+			<label>None yet</label>
+			<description>
+		My lack of experience with Android is really slowing down the development process on this. Let me outline how I believe the refreshing scheme should work. A refresh will consist of three steps: render, update, and render. Refreshes are triggered when starting an Activity or when the user manually refreshes. To support this, each Fragment needs to implement render() an update(). render() makes the appropriate SQL queries locally to fetch all the models needed to render a page, and then populates the Fragment with that info. It must be able to handle cases where not all data is in the local DB and display as much as possible. If feasible, each unique query should hold a lock with the result temporarily cached within the scope of the Activity, so multiple concurrent Fragments making the same queries can reuse the result. update() makes the fewest number of API calls needed to populate the local DB with everything the Fragment needs to render. Upon receiving an API response, we need to drop all table rows associated with that response (this should always be possible due to the way API endpoints are setup). For example, after receiving a response from /api/v2/team/frc254/event/2014casj/awards, award table rows satisfying the query eventKey = 2014casj AND winners LIKE %254% must be dropped (this isn't the most efficient, but will do for now) and new rows constructed from the response must be inserted. Also, the cached value of the SQL query made in render() must also be dropped. One key implementation detail of the update() method is that locks must be held for each unique API endpoint. This way, concurrent updates from multiple fragments that hit the same API endpoint don't make multiple requests to the same endpoint at once, and after one returns, we can rely on the API rate limit to prevent hitting the endpoint again. We should start by implementing everything without any of the caching and locks (but keeping them in mind) and adding them after.
+	</description>
+		</report>
+		<report Number="20">
+			<summary>Android Back Button Doesn't Properly Close the Search Interface</summary>
+			<url>https://github.com/the-blue-alliance/the-blue-alliance-android/issues/221</url>
+			<bugID>Issue #221</bugID>
+			<label>None yet</label>
+			<description>
+		When I hit the Android built-in back button at the search interface, it just removes focus from the search text field. Then if I hit it again, it actually goes back. I'm not sure if this is intentional, but it seems very awkward.
+	</description>
+		</report>
+		<report Number="21">
+			<summary>Switching orientation during the initial setup removes the text on current progress</summary>
+			<url>https://github.com/the-blue-alliance/the-blue-alliance-android/issues/234</url>
+			<bugID>Issue #234</bugID>
+			<label>None yet</label>
+			<description>
+		Note: This is a minor bug
+	</description>
+		</report>
+		<report Number="22">
+			<summary>Gradle Build With No Debug Resources</summary>
+			<url>https://github.com/the-blue-alliance/the-blue-alliance-android/issues/261</url>
+			<bugID>Issue #261</bugID>
+			<label>None yet</label>
+			<description>
+		Create a gradle build type that builds a debug signed apk, but doesn't use the debug specific resources
+	</description>
+		</report>
+		<report Number="23">
+			<summary>Add Link to App's Notification Settings</summary>
+			<url>https://github.com/the-blue-alliance/the-blue-alliance-android/issues/263</url>
+			<bugID>Issue #263</bugID>
+			<label>None yet</label>
+			<description>
+		https://plus.google.com/u/0/app/basic/stream/z13ly535yqn5fvlhw04cfjor4qj4vhp4liw
+	</description>
+		</report>
+		<report Number="24">
+			<summary>Disable myTBA/subscriptions/favs in master</summary>
+			<url>https://github.com/the-blue-alliance/the-blue-alliance-android/issues/270</url>
+			<bugID>Issue #270</bugID>
+			<label>None yet</label>
+			<description>
+		So we can push out a bugfix release to the Play Store. The plan is to push out myTBA with the L redesign.
+	</description>
+		</report>
+		<report Number="25">
+			<summary>Tapping a match-result notification should display that match result page in TBA</summary>
+			<url>https://github.com/the-blue-alliance/the-blue-alliance-android/issues/273</url>
+			<bugID>Issue #273</bugID>
+			<label>None yet</label>
+			<description>
+		After receiving many match-result notifications (cf #272 ), tapping on any of them opens the page displaying Quals 1 match results.
+	</description>
+		</report>
+		<report Number="26">
+			<summary>help the user access the webcast</summary>
+			<url>https://github.com/the-blue-alliance/the-blue-alliance-android/issues/274</url>
+			<bugID>Issue #274</bugID>
+			<label>None yet</label>
+			<description>
+		Doing a web search on the phone for madtown throwdown webcast, the second result is for The Blue Alliance. Tapping that offers to open Chrome or TBA app. So pick the app. (It's great that Google provides a TBA search result but unfortunately the link is just to TBA home page, not the event page.) Picking TBA app shows the 2014 Events screen, &quot;Week 1&quot; tab. The URL didn't have the info to get directly to the relevant event, but the app could use today's date to pick the most relevant tab (&quot;Offseason events&quot;). After navigating to the event screen, I don't see how to get the webcast. There is a YouTube link that searches for videos mastching 2014mttd, none of them relevant. The desktop version of TBA home page links to the the Gameday page embedding the YouTube webcast. So if I Back up to step (1) and pick Chrome [1], the TBA mobile home page also has a Gameday page link. Tapping that again asks if I want to open it in Chrome or TBA app. Picking TBA app opens the right info screen for this Event, but no webcast. Picking Chrome gets a similar mobile page, also with webcast aid. It'll issue a different YouTube query #frcmttd OR &quot;MadTown ThrowDown&quot;, which also doesn't work. [1] TBA app crashed at that point. Android sent a crash report. This is from a Nexus 5 running KitKat.
+	</description>
+		</report>
+		<report Number="27">
+			<summary>Fix potential bug with myTBA</summary>
+			<url>https://github.com/the-blue-alliance/the-blue-alliance-android/issues/282</url>
+			<bugID>Issue #282</bugID>
+			<label>None yet</label>
+			<description>
+		This bug hasn't actually occurred, but I spotted the potential for it while looking for the source. I'll outline the potential scenario: A new event is added to the FIRST database. This get's pulled in by TBA. A user opens the event list on his/her device; the new event loads. That user favorites a event on one devices. The server sends a GCM message to another device that downloads the new list of favorites. The user opens myTBA on the second device without downloading the new event list. It attempts to load the list of favorites, but the new event is not in the local database. The app crashes. The user is sad. I guess the best way to fix this is simply to hide any entities that don't exist locally when loading the favorites list. That's probably an easy fix. However, I'm too tired to fix this now, so I'm just making note of it here.
+	</description>
+		</report>
+		<report Number="28">
+			<summary>the weeks for 2015 are messed up</summary>
+			<url>https://github.com/the-blue-alliance/the-blue-alliance-android/issues/284</url>
+			<bugID>Issue #284</bugID>
+			<label>None yet</label>
+			<description>
+		They are a weak in advance the events are correct in the way of the respectful weeks in the way they would go on during the season but it goes week 2 up to week 8
+	</description>
+		</report>
+		<report Number="29">
+			<summary>&quot;FATAL EXCEPTION&quot; caused by SecurityException: caller uid 10103 lacks any of android.permission.GET_ACCOUNTS</summary>
+			<url>https://github.com/the-blue-alliance/the-blue-alliance-android/issues/287</url>
+			<bugID>Issue #287</bugID>
+			<label>None yet</label>
+			<description>
+		With TBA 1.4 installed from the Play store, every launch immediately exits. Logcat says: 11-20 14:50:22.980     752-2908/? E/qcom_sensors_hal﹕ hal_process_report_ind: Bad item quality: 11
+11-20 14:50:23.640    752-29418/? W/AccountManagerService﹕ caller uid 10103 lacks any of android.permission.GET_ACCOUNTS
+11-20 14:50:23.640  12623-12646/? W/dalvikvm﹕ threadid=10: thread exiting with uncaught exception (group=0x415b4ba8)
+11-20 14:50:23.650  12623-12646/? E/AndroidRuntime﹕ FATAL EXCEPTION: AsyncTask #1
+    Process: com.thebluealliance.androidclient, PID: 12623
+    java.lang.RuntimeException: An error occured while executing doInBackground()
+            at android.os.AsyncTask$3.done(AsyncTask.java:300)
+            at java.util.concurrent.FutureTask.finishCompletion(FutureTask.java:355)
+            at java.util.concurrent.FutureTask.setException(FutureTask.java:222)
+            at java.util.concurrent.FutureTask.run(FutureTask.java:242)
+            at android.os.AsyncTask$SerialExecutor$1.run(AsyncTask.java:231)
+            at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1112)
+            at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:587)
+            at java.lang.Thread.run(Thread.java:841)
+     Caused by: java.lang.SecurityException: caller uid 10103 lacks any of android.permission.GET_ACCOUNTS
+            at android.os.Parcel.readException(Parcel.java:1465)
+            at android.os.Parcel.readException(Parcel.java:1419)
+            at android.accounts.IAccountManager$Stub$Proxy.getAccountsAsUser(IAccountManager.java:647)
+            at android.accounts.AccountManager.getAccountsByTypeAsUser(AccountManager.java:447)
+            at android.accounts.AccountManager.getAccountsByType(AccountManager.java:441)
+            at com.google.api.client.googleapis.extensions.android.accounts.GoogleAccountManager.getAccountByName(GoogleAccountManager.java:80)
+            at com.google.api.client.googleapis.extensions.android.gms.auth.GoogleAccountCredential.setSelectedAccountName(GoogleAccountCredential.java:137)
+            at com.thebluealliance.androidclient.accounts.AccountHelper.getSelectedAccountCredential(AccountHelper.java:139)
+            at com.thebluealliance.androidclient.accounts.AccountHelper.getAuthedTbaMobile(AccountHelper.java:151)
+            at com.thebluealliance.androidclient.background.UpdateMyTBA.doInBackground(UpdateMyTBA.java:65)
+            at com.thebluealliance.androidclient.background.UpdateMyTBA.doInBackground(UpdateMyTBA.java:29)
+            at android.os.AsyncTask$2.call(AsyncTask.java:288)
+            at java.util.concurrent.FutureTask.run(FutureTask.java:237)
+            at android.os.AsyncTask$SerialExecutor$1.run(AsyncTask.java:231)
+            at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1112)
+            at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:587)
+            at java.lang.Thread.run(Thread.java:841)
+11-20 14:50:23.650     752-1114/? W/ActivityManager﹕ Force finishing activity com.thebluealliance.androidclient/.activities.HomeActivity
+11-20 14:50:23.930    752-24718/? W/AccountManagerService﹕ caller uid 10103 lacks any of android.permission.GET_ACCOUNTS
+11-20 14:50:23.940  12623-12666/? W/dalvikvm﹕ threadid=12: thread exiting with uncaught exception (group=0x415b4ba8)
+11-20 14:50:23.950    1095-1095/? W/HandlerScheduledExecuto﹕ Task does not implement UiTask. Consider using NamedUiRunnable for eww@42ddfa50
+11-20 14:50:23.990     752-1597/? W/InputMethodManagerService﹕ Got RemoteException sending setActive(false) notification to pid 12623 uid 10103
+11-20 14:50:24.000    1042-1053/? W/Binder﹕ Caught a RuntimeException from the binder stub implementation.
+    java.lang.NullPointerException
+            at android.inputmethodservice.IInputMethodWrapper.setSessionEnabled(IInputMethodWrapper.java:280)
+            at com.android.internal.view.IInputMethod$Stub.onTransact(IInputMethod.java:129)
+            at android.os.Binder.execTransact(Binder.java:404)
+            at dalvik.system.NativeStart.run(Native Method)
+11-20 14:50:24.010      186-186/? W/SurfaceFlinger﹕ couldn't log to binary event log: overflow.
+11-20 14:50:24.120     752-2908/? E/qcom_sensors_hal﹕ hal_process_report_ind: Bad item quality: 11
+11-20 14:50:31.230     752-2908/? E/qcom_sensors_hal﹕ hal_process_report_ind: Bad item quality: 11
+11-20 14:50:32.370     752-2908/? E/qcom_sensors_hal﹕ hal_process_report_ind: Bad item quality: 11
+11-20 14:50:35.470     752-2908/? E/qcom_sensors_hal﹕ hal_process_report_ind: Bad item quality: 11
+11-20 14:50:36.610     752-2908/? E/qcom_sensors_hal﹕ hal_process_report_ind: Bad item quality: 11
+11-20 14:50:55.250     752-2908/? E/qcom_sensors_hal﹕ hal_process_report_ind: Bad item quality: 11
+11-20 14:50:58.820     752-2908/? E/qcom_sensors_hal﹕ hal_process_report_ind: Bad item quality: 11
+	</description>
+		</report>
+		<report Number="30">
+			<summary>Unresponsive Favorite Screen</summary>
+			<url>https://github.com/the-blue-alliance/the-blue-alliance-android/issues/342</url>
+			<bugID>Issue #342</bugID>
+			<label>None yet</label>
+			<description>
+		Hey fellas. Having some issues with the favorites screen. I went to an event (Kettering, but I don't think specifics matter), went to Teams, clicked 2337, clicked &quot;Show Team&quot;, click the star, and got the favorites page. After checking a few boxes, I tried to hit the check mark, but nothing happened. After going back and trying to click the Star again to get back in to the interface, I was stuck on the Team screen After going back (which didn't bring me back to the list of Kettering teams - it brought me to the list of all the teams 😓) I went back to 2337 and clicked the star and got an empty interface Just having a lot of issues with navigation and data loading and whatnot with that favorite screen.
+	</description>
+		</report>
+		<report Number="31">
+			<summary>Target Android 5.1</summary>
+			<url>https://github.com/the-blue-alliance/the-blue-alliance-android/issues/368</url>
+			<bugID>Issue #368</bugID>
+			<label>None yet</label>
+			<description>
+		SDK v22 Check other libraries for updates, as well
+	</description>
+		</report>
+		<report Number="32">
+			<summary>Some Repo Cleanup</summary>
+			<url>https://github.com/the-blue-alliance/the-blue-alliance-android/issues/370</url>
+			<bugID>Issue #370</bugID>
+			<label>None yet</label>
+			<description>
+		Remove tbaMobile-v9-1.19.0-SNAPSHOT-debug.jar from android/libs and add it to .gitignore Force add blank tba.properties file (make sure to keep it in .gitignore)
+	</description>
+		</report>
+		<report Number="33">
+			<summary>Getting notifications for non subscribed activity</summary>
+			<url>https://github.com/the-blue-alliance/the-blue-alliance-android/issues/374</url>
+			<bugID>Issue #374</bugID>
+			<label>None yet</label>
+			<description>
+		I just noticed that I am getting notifications for upcoming matches of my team: but I did not subscribe for that kind of notification: So why do I get both upcoming match notifications AND score notifications? I did remove the app and reinstall it to clean up any issues related to getting data to early in the season. Could it be that any notifications I set then are in effect even though my client thinks differently? I saw nothing subscribed when I reran the app after the reinstall so I resubscribed to just match scores. I wonder if the server has a different view of what I want.
+	</description>
+		</report>
+		<report Number="34">
+			<summary>Handle ef matches</summary>
+			<url>https://github.com/the-blue-alliance/the-blue-alliance-android/issues/383</url>
+			<bugID>Issue #383</bugID>
+			<label>None yet</label>
+			<description>
+		Make sure the app won't have issues with ef matches from MSC
+	</description>
+		</report>
+		<report Number="35">
+			<summary>Gameday live ticker causing crash</summary>
+			<url>https://github.com/the-blue-alliance/the-blue-alliance-android/issues/404</url>
+			<bugID>Issue #404</bugID>
+			<label>None yet</label>
+			<description>
+		Device: Oneplus One On selecting the Gameday tab, the Live Ticker will try to load, and crash. So, I cannot go to the live streams section to watch a stream, once those have been made live.
+	</description>
+		</report>
+		<report Number="36">
+			<summary>Use Material Dialogs library</summary>
+			<url>https://github.com/the-blue-alliance/the-blue-alliance-android/issues/419</url>
+			<bugID>Issue #419</bugID>
+			<label>None yet</label>
+			<description>
+		Might as well take this easy step to achieving #materialyolo everywhere: https://github.com/afollestad/material-dialogs
+	</description>
+		</report>
+		<report Number="37">
+			<summary>Team view shows &quot;No events found&quot; while events are loading</summary>
+			<url>https://github.com/the-blue-alliance/the-blue-alliance-android/issues/423</url>
+			<bugID>Issue #423</bugID>
+			<label>None yet</label>
+			<description>
+		Steps to reproduce: Open a team details view for a team you haven't viewed before Switch quickly to the &quot;events&quot; tab While the events are loading, the list displays &quot;no events found&quot;; the list populates once the events are loaded. Not totally sure how to fix this one. Our data stack is so deep that it's going to be fun to track down why this happens :) will investigate.
+	</description>
+		</report>
+		<report Number="38">
+			<summary>Remove tabs from &quot;Team&quot; view</summary>
+			<url>https://github.com/the-blue-alliance/the-blue-alliance-android/issues/424</url>
+			<bugID>Issue #424</bugID>
+			<label>None yet</label>
+			<description>
+		I don't think the tabs really do a whole lot; if a user is looking for a specific team, they'll probably just search for it instead of swiping through some tabs and then scrolling through a list of 1000 teams. The tabs don't really do any harm by being there, but they don't really do much for the user, either. Commence debate.
+	</description>
+		</report>
+		<report Number="39">
+			<summary>Follow &quot;empty states&quot; guidelines</summary>
+			<url>https://github.com/the-blue-alliance/the-blue-alliance-android/issues/426</url>
+			<bugID>Issue #426</bugID>
+			<label>None yet</label>
+			<description>
+		Moar guidelines! Adding &quot;no items&quot; messages like these would make the app a little more friendly. Something like a simple grey icon and short, to-the-point text centered on every empty page would look better than the &quot;No found for this .&quot; messages we currently have.
+	</description>
+		</report>
+		<report Number="40">
+			<summary>[App v3] Move Network Requests to Retrofit</summary>
+			<url>https://github.com/the-blue-alliance/the-blue-alliance-android/issues/427</url>
+			<bugID>Issue #427</bugID>
+			<label>None yet</label>
+			<description>
+		Add Retrofit library and define an API interface with a single endpoint (use hose tba.com/api/v2) with the endpoint as a single paramter. This way, we can use Retrofit's capability to return an Observable with the network result. We need to migrate our network stack to work with Observables and have something consume them. We will need to refactor RefreshableHost a bit. I'm thinking it consumes all incoming network Observables for the Activity. The child Fragments can report which endpoints they require (some public static final variable, maybe) and be notified when each endpoint comes in, and when all requests are loaded. The RefreshableHost will hold all the content, which the children can query and process. This allows us to eliminate all the Populate* tasks
+	</description>
+		</report>
+		<report Number="41">
+			<summary>[App v3] Data Binding</summary>
+			<url>https://github.com/the-blue-alliance/the-blue-alliance-android/issues/428</url>
+			<bugID>Issue #428</bugID>
+			<label>None yet</label>
+			<description>
+		In conjunction with #427, the network requests should return a (collection of) models which we can bind to views. We'll need to update the view to use the new framework, but it should allow us lots more flexibility https://developer.android.com/tools/data-binding/guide.html#viewstubs
+	</description>
+		</report>
+		<report Number="42">
+			<summary>Proper Eighth Final Support</summary>
+			<url>https://github.com/the-blue-alliance/the-blue-alliance-android/issues/430</url>
+			<bugID>Issue #430</bugID>
+			<label>None yet</label>
+			<description>
+		Need to add a new match type for EIGHTHs. Can display them as their own category (instead of as quarters). Make sure to update calculating team@event summaries
+	</description>
+		</report>
+		<report Number="43">
+			<summary>Remove Matias DuARTe dummy data</summary>
+			<url>https://github.com/the-blue-alliance/the-blue-alliance-android/issues/439</url>
+			<bugID>Issue #439</bugID>
+			<label>None yet</label>
+			<description>
+		When I was first building the user info view (header, photo, name) in the nav drawer, I used our Lord Duarte's picture and name as placeholder data to test out how everything displayed. That stuff seems to still be there, although I've only seen it in debug builds, nothing that would be visible in production builds. However, it should still really be removed from our codebase. Part 2 of this (probably should be a separate issue) is that we really need a proper header in the nav drawer for users that aren't signed into myTBA. Perhaps something blue with the TBA logo? We need an art team...
+	</description>
+		</report>
+		<report Number="44">
+			<summary>ClassCastException when parsing data for event stats list</summary>
+			<url>https://github.com/the-blue-alliance/the-blue-alliance-android/issues/442</url>
+			<bugID>Issue #442</bugID>
+			<label>None yet</label>
+			<description>
+		08-09 18:31:16.402  16208-16208/com.thebluealliance.androidclient.development E/tba-android﹕ java.lang.ClassCastException: com.google.gson.JsonNull cannot be cast to com.google.gson.JsonObject
+        at com.thebluealliance.androidclient.subscribers.StatsListSubscriber.parseData(StatsListSubscriber.java:44)
+        at com.thebluealliance.androidclient.subscribers.BaseAPISubscriber.onNext(BaseAPISubscriber.java:53)
+        at rx.observers.SafeSubscriber.onNext(SafeSubscriber.java:130)
+        at rx.internal.operators.NotificationLite.accept(NotificationLite.java:150)
+        at rx.internal.operators.OperatorObserveOn$ObserveOnSubscriber.pollQueue(OperatorObserveOn.java:189)
+        at rx.internal.operators.OperatorObserveOn$ObserveOnSubscriber.access$000(OperatorObserveOn.java:65)
+        at rx.internal.operators.OperatorObserveOn$ObserveOnSubscriber$2.call(OperatorObserveOn.java:153)
+        at rx.internal.schedulers.ScheduledAction.run(ScheduledAction.java:47)
+        at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:422)
+        at java.util.concurrent.FutureTask.run(FutureTask.java:237)
+        at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:152)
+        at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:265)
+        at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1112)
+        at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:587)
+        at java.lang.Thread.run(Thread.java:818)
+	</description>
+		</report>
+		<report Number="45">
+			<summary>java.lang.ArrayIndexOutOfBoundsException</summary>
+			<url>https://github.com/the-blue-alliance/the-blue-alliance-android/issues/444</url>
+			<bugID>Issue #444</bugID>
+			<label>None yet</label>
+			<description>
+		Occurs when I try to view a team. java.lang.ArrayIndexOutOfBoundsException: length=0; index=0
+        at com.thebluealliance.androidclient.activities.ViewTeamActivity.updateTeamYearSelector(ViewTeamActivity.java:223)
+        at com.thebluealliance.androidclient.activities.ViewTeamActivity.setupActionBar(ViewTeamActivity.java:202)
+        at com.thebluealliance.androidclient.activities.ViewTeamActivity.onPrepareOptionsMenu(ViewTeamActivity.java:168)
+        at android.app.Activity.onPreparePanel(Activity.java:2841)
+        at android.support.v4.app.FragmentActivity.onPrepareOptionsPanel(FragmentActivity.java:472)
+        at android.support.v4.app.FragmentActivity.onPreparePanel(FragmentActivity.java:461)
+        at android.support.v7.internal.view.WindowCallbackWrapper.onPreparePanel(WindowCallbackWrapper.java:89)
+        at android.support.v7.app.AppCompatDelegateImplBase$AppCompatWindowCallbackBase.onPreparePanel(AppCompatDelegateImplBase.java:296)
+        at android.support.v7.internal.view.WindowCallbackWrapper.onPreparePanel(WindowCallbackWrapper.java:89)
+        at android.support.v7.internal.app.ToolbarActionBar$ToolbarCallbackWrapper.onPreparePanel(ToolbarActionBar.java:543)
+        at android.support.v7.internal.app.ToolbarActionBar.populateOptionsMenu(ToolbarActionBar.java:445)
+        at android.support.v7.internal.app.ToolbarActionBar$1.run(ToolbarActionBar.java:64)
+        at android.os.Handler.handleCallback(Handler.java:739)
+        at android.os.Handler.dispatchMessage(Handler.java:95)
+        at android.os.Looper.loop(Looper.java:135)
+        at android.app.ActivityThread.main(ActivityThread.java:5254)
+        at java.lang.reflect.Method.invoke(Native Method)
+        at java.lang.reflect.Method.invoke(Method.java:372)
+        at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:903)
+        at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:698)
+	</description>
+		</report>
+		<report Number="46">
+			<summary>.SQLiteException: no such table: tempevents</summary>
+			<url>https://github.com/the-blue-alliance/the-blue-alliance-android/issues/453</url>
+			<bugID>Issue #453</bugID>
+			<label>None yet</label>
+			<description>
+		Reported via Google Play App version: 2.2.4 java.lang.RuntimeException: An error occured while executing doInBackground() at android.support.v4.content.ModernAsyncTask$3.done(ModernAsyncTask.java:137) at java.util.concurrent.FutureTask.finishCompletion(FutureTask.java:355) at java.util.concurrent.FutureTask.setException(FutureTask.java:222) at java.util.concurrent.FutureTask.run(FutureTask.java:242) at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1112) at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:587) at java.lang.Thread.run(Thread.java:818) Caused by: android.database.sqlite.SQLiteException: no such table: tempevents (code 1): , while compiling: SELECT events.rowid as '_id',key,name,shortName,eventType,eventDistrict,startDate,endDate,location,venue,official,districtString FROM events JOIN tempevents ON tempevents.tempkey = events.key ORDER BY ? DESC at android.database.sqlite.SQLiteConnection.nativePrepareStatement(Native Method) at android.database.sqlite.SQLiteConnection.acquirePreparedStatement(SQLiteConnection.java:1093) at android.database.sqlite.SQLiteConnection.prepare(SQLiteConnection.java:670) at android.database.sqlite.SQLiteSession.prepare(SQLiteSession.java:588) at android.database.sqlite.SQLiteProgram.(SQLiteProgram.java:59) at android.database.sqlite.SQLiteQuery.(SQLiteQuery.java:37) at android.database.sqlite.SQLiteDirectCursorDriver.query(SQLiteDirectCursorDriver.java:44) at android.database.sqlite.SQLiteDatabase.rawQueryWithFactory(SQLiteDatabase.java:1437) at android.database.sqlite.SQLiteDatabase.rawQuery(SQLiteDatabase.java:1376) at com.thebluealliance.androidclient.activities.MoreSearchResultsActivity$3.loadInBackground(MoreSearchResultsActivity.java:149) at com.thebluealliance.androidclient.activities.MoreSearchResultsActivity$3.loadInBackground(MoreSearchResultsActivity.java:146) at android.support.v4.content.AsyncTaskLoader$LoadTask.doInBackground(AsyncTaskLoader.java:40) at android.support.v4.content.ModernAsyncTask$2.call(ModernAsyncTask.java:123) at java.util.concurrent.FutureTask.run(FutureTask.java:237) ... 3 more
+	</description>
+		</report>
+		<report Number="47">
+			<summary>java.lang.RuntimeException: Unable to start activity</summary>
+			<url>https://github.com/the-blue-alliance/the-blue-alliance-android/issues/454</url>
+			<bugID>Issue #454</bugID>
+			<label>None yet</label>
+			<description>
+		Reported on Google Play java.lang.RuntimeException: Unable to start activity ComponentInfo{com.thebluealliance.androidclient/com.thebluealliance.androidclient.activities.ViewTeamActivity}: java.lang.NullPointerException: Attempt to invoke virtual method 'void android.view.ViewGroup.removeAllViews()' on a null object reference at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2661) at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2726) at android.app.ActivityThread.access$900(ActivityThread.java:172) at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1421) at android.os.Handler.dispatchMessage(Handler.java:102) at android.os.Looper.loop(Looper.java:145) at android.app.ActivityThread.main(ActivityThread.java:5835) at java.lang.reflect.Method.invoke(Native Method) at java.lang.reflect.Method.invoke(Method.java:372) at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:1399) at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1194) Caused by: java.lang.NullPointerException: Attempt to invoke virtual method 'void android.view.ViewGroup.removeAllViews()' on a null object reference at com.thebluealliance.androidclient.fragments.team.TeamMediaFragment.onRefreshStart(TeamMediaFragment.java:90) at com.thebluealliance.androidclient.activities.RefreshableHostActivity.startRefresh(RefreshableHostActivity.java:184) at com.thebluealliance.androidclient.activities.RefreshableHostActivity.onCreate(RefreshableHostActivity.java:42) at com.thebluealliance.androidclient.activities.FABNotificationSettingsActivity.onCreate(FABNotificationSettingsActivity.java:77) at com.thebluealliance.androidclient.activities.ViewTeamActivity.onCreate(ViewTeamActivity.java:80) at android.app.Activity.performCreate(Activity.java:6221) at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1119) at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2614) ... 10 more
+	</description>
+		</report>
+		<report Number="48">
+			<summary>Bring consistency to &quot;No data&quot; messages</summary>
+			<url>https://github.com/the-blue-alliance/the-blue-alliance-android/issues/455</url>
+			<bugID>Issue #455</bugID>
+			<label>None yet</label>
+			<description>
+		I originally posted this in the general TBA repo, it really belongs here. There seems to be several different versions of the &quot;No internet&quot;/&quot;No connection&quot;/&quot;Couldn't load data&quot;/&quot;Data could be out of date&quot; messages that are displayed when there's no network connection. As far as I can tell, they all mean exactly the same thing and should be triggered in the same situations. We should pick a single message and switch to using that everywhere where it is required.
+	</description>
+		</report>
+		<report Number="49">
+			<summary>Invert ordering of team years participated</summary>
+			<url>https://github.com/the-blue-alliance/the-blue-alliance-android/issues/459</url>
+			<bugID>Issue #459</bugID>
+			<label>None yet</label>
+			<description>
+		In appv3-datafeed, the &quot;Select Year&quot; dialog in the teams activity shows years in ascending order. Recent years are probably more relevant to most people, so I think the list should go in reverse chronological order.
+	</description>
+		</report>
+		<report Number="50">
+			<summary>Week Listing for 2016 Events</summary>
+			<url>https://github.com/the-blue-alliance/the-blue-alliance-android/issues/462</url>
+			<bugID>Issue #462</bugID>
+			<label>None yet</label>
+			<description>
+		On the app, under 2016 events, the Palmetto Regional is listed under Week 1 rather than Week 0.5, offsetting the rest of the weeks by 1.
+	</description>
+		</report>
+		<report Number="51">
+			<summary>Redownload data causes errors with event list rendering</summary>
+			<url>https://github.com/the-blue-alliance/the-blue-alliance-android/issues/486</url>
+			<bugID>Issue #486</bugID>
+			<label>None yet</label>
+			<description>
+		While trying to fix #471, I ran into a rather weird issue. It seems as though that process throws the app into some sort of invalid state that causes the rendering of the main event lists to fail. Failure occurs across all years and is isolated to the top-level event lists; event lists within team views and event views themselves still function normally. Here is the offending stacktrace: E/tba-android: UNABLE TO RENDER
+W/System.err: java.lang.NullPointerException: Attempt to invoke virtual method 'java.lang.Object java.lang.ref.WeakReference.get()' on a null object reference
+W/System.err:     at com.thebluealliance.androidclient.adapters.BindableFragmentPagerAdapter.setAutoBindOnceAtPosition(BindableFragmentPagerAdapter.java:38)
+ W/System.err:     at com.thebluealliance.androidclient.fragments.EventsByWeekFragment.updateLabels(EventsByWeekFragment.java:130)
+ W/System.err:     at com.thebluealliance.androidclient.binders.EventTabBinder.updateData(EventTabBinder.java:23)
+ W/System.err:     at com.thebluealliance.androidclient.binders.EventTabBinder.updateData(EventTabBinder.java:10)
+ W/System.err:     at com.thebluealliance.androidclient.subscribers.BaseAPISubscriber.lambda$bindData$33(BaseAPISubscriber.java:132)
+ W/System.err:     at com.thebluealliance.androidclient.subscribers.BaseAPISubscriber.access$lambda$2(BaseAPISubscriber.java)
+ W/System.err:     at com.thebluealliance.androidclient.subscribers.BaseAPISubscriber$$Lambda$3.call(Unknown Source)
+ W/System.err:     at rx.internal.schedulers.ScheduledAction.run(ScheduledAction.java:55)
+ W/System.err:     at android.os.Handler.handleCallback(Handler.java:739)
+ W/System.err:     at android.os.Handler.dispatchMessage(Handler.java:95)
+ W/System.err:     at android.os.Looper.loop(Looper.java:148)
+ W/System.err:     at android.app.ActivityThread.main(ActivityThread.java:5417)
+ W/System.err:     at java.lang.reflect.Method.invoke(Native Method)
+ W/System.err:     at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:726)
+ W/System.err:     at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:616)
+ I tested the redownload process when I was first implementing it, so either I suck at testing, this is some weird edge case, or there's been a regression somewhere.
+	</description>
+		</report>
+		<report Number="52">
+			<summary>Don't hardcode max number of team pages</summary>
+			<url>https://github.com/the-blue-alliance/the-blue-alliance-android/issues/490</url>
+			<bugID>Issue #490</bugID>
+			<label>None yet</label>
+			<description>
+		https://github.com/the-blue-alliance/the-blue-alliance-android/blob/master/android/src/main/java/com/thebluealliance/androidclient/adapters/TeamListFragmentPagerAdapter.java#L14 This is actually relevant now that we've run over the current max team number of 5999. Handling this properly will be interesting, because the number of teams we have in the database could change if we load in additional teams while the team lists are showing. Observable magic to the rescue? Or fire something on the EventBus when new teams are loaded and then check if we have to recompute the tabs? Open to ideas on the best way to handle this.
+	</description>
+		</report>
+		<report Number="53">
+			<summary>Crashes when event/team list is manually refreshed while in airplane mode</summary>
+			<url>https://github.com/the-blue-alliance/the-blue-alliance-android/issues/510</url>
+			<bugID>Issue #510</bugID>
+			<label>None yet</label>
+			<description>
+		Steps to reproduce: Force stop application Put device in airplane mode Start application Click the refresh button on the top level teams or events lists Observe weird crash I'm seeing this behavior on the latest beta from the Play Store. It looks like the reactive internals are either causing this problem or eating the error. 12-17 17:49:20.270 29448-29490/? E/AndroidRuntime: FATAL EXCEPTION: RxComputationThreadPool-2
+                                                   Process: com.thebluealliance.androidclient, PID: 29448
+	</description>
+		</report>
+		<report Number="54">
+			<summary>Display Admin Message</summary>
+			<url>https://github.com/the-blue-alliance/the-blue-alliance-android/issues/520</url>
+			<bugID>Issue #520</bugID>
+			<label>None yet</label>
+			<description>
+		Accessible from #515 need to show a dialog now somehow
+	</description>
+		</report>
+		<report Number="55">
+			<summary>Blue bar for no data/FIRST down showing up where it shouldn't</summary>
+			<url>https://github.com/the-blue-alliance/the-blue-alliance-android/issues/523</url>
+			<bugID>Issue #523</bugID>
+			<label>None yet</label>
+			<description>
+		Including but not limited to:
+	</description>
+		</report>
+		<report Number="56">
+			<summary>Issue with myTBA Favorite districts</summary>
+			<url>https://github.com/the-blue-alliance/the-blue-alliance-android/issues/524</url>
+			<bugID>Issue #524</bugID>
+			<label>None yet</label>
+			<description>
+		Some districts render as only the key name. Others render properly but show 0 events. Not sure what the cause is.
+	</description>
+		</report>
+		<report Number="57">
+			<summary>Event rankings can't handle &quot;###B&quot; team numbers</summary>
+			<url>https://github.com/the-blue-alliance/the-blue-alliance-android/issues/530</url>
+			<bugID>Issue #530</bugID>
+			<label>None yet</label>
+			<description>
+		Reported on the Play Dev Console: java.lang.RuntimeException: An error occured while executing doInBackground()
+    at android.os.AsyncTask$3.done(AsyncTask.java:304)
+    at java.util.concurrent.FutureTask.finishCompletion(FutureTask.java:355)
+    at java.util.concurrent.FutureTask.setException(FutureTask.java:222)
+    at java.util.concurrent.FutureTask.run(FutureTask.java:242)
+    at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1112)
+    at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:587)
+    at java.lang.Thread.run(Thread.java:818)
+Caused by: java.lang.NumberFormatException: Invalid int: &quot;3324B&quot;
+    at java.lang.Integer.invalidInt(Integer.java:138)
+    at java.lang.Integer.parse(Integer.java:410)
+    at java.lang.Integer.parseInt(Integer.java:367)
+    at java.lang.Integer.parseInt(Integer.java:334)
+    at com.google.gson.JsonPrimitive.getAsInt(JsonPrimitive.java:260)
+    at com.thebluealliance.androidclient.background.event.PopulateEventRankings.doInBackground(PopulateEventRankings.java:109)
+    at com.thebluealliance.androidclient.background.event.PopulateEventRankings.doInBackground(PopulateEventRankings.java:38)
+    at android.os.AsyncTask$2.call(AsyncTask.java:292)
+    at java.util.concurrent.FutureTask.run(FutureTask.java:237)
+    ... 3 more
+ From the user: Everytime I go to watch the CORI offseason event and click on it, it says TBA has stopped working
+	</description>
+		</report>
+		<report Number="58">
+			<summary>Installation failure, error -505</summary>
+			<url>https://github.com/the-blue-alliance/the-blue-alliance-android/issues/532</url>
+			<bugID>Issue #532</bugID>
+			<label>None yet</label>
+			<description>
+		From a (1 star) Play Store review:  Getting error code (-505) Google's troubleshooting steps all failed. Uninstalled the app to reinstall and now I still can't install it and I don't have the old version either. Unrooted SGS 4
+ This doesn't appear to be an issue on our side, it's most likely an issue with 5.0 itself: http://android.stackexchange.com/questions/88214/how-do-i-deal-with-unknown-installation-error-code-505 We're going to try to get the reviewer to communicate with us via this issue so we can try to do further troubleshooting.
+	</description>
+		</report>
+		<report Number="59">
+			<summary>Severe delay when filtering Firebase ticker</summary>
+			<url>https://github.com/the-blue-alliance/the-blue-alliance-android/issues/539</url>
+			<bugID>Issue #539</bugID>
+			<label>None yet</label>
+			<description>
+		From LogCat: 02-14 19:11:49.816 28771-28771/com.thebluealliance.androidclient.development W/tba-android: Required field for match render: Database.Matches.VIDEOS. Defaulting to none.
+02-14 19:11:49.874 28771-28771/com.thebluealliance.androidclient.development W/tba-android: Required field for match render: Database.Matches.VIDEOS. Defaulting to none.
+02-14 19:11:49.935 28771-28771/com.thebluealliance.androidclient.development W/tba-android: Required field for match render: Database.Matches.VIDEOS. Defaulting to none.
+02-14 19:11:49.989 28771-28771/com.thebluealliance.androidclient.development W/tba-android: Required field for match render: Database.Matches.VIDEOS. Defaulting to none.
+02-14 19:11:50.042 28771-28771/com.thebluealliance.androidclient.development W/tba-android: Required field for match render: Database.Matches.VIDEOS. Defaulting to none.
+02-14 19:11:50.095 28771-28771/com.thebluealliance.androidclient.development W/tba-android: Required field for match render: Database.Matches.VIDEOS. Defaulting to none.
+02-14 19:11:50.147 28771-28771/com.thebluealliance.androidclient.development W/tba-android: Required field for match render: Database.Matches.VIDEOS. Defaulting to none.
+02-14 19:11:50.197 28771-28771/com.thebluealliance.androidclient.development W/tba-android: Required field for match render: Database.Matches.VIDEOS. Defaulting to none.
+02-14 19:11:50.248 28771-28771/com.thebluealliance.androidclient.development W/tba-android: Required field for match render: Database.Matches.VIDEOS. Defaulting to none.
+02-14 19:11:50.292 28771-28771/com.thebluealliance.androidclient.development W/tba-android: Required field for match render: Database.Matches.VIDEOS. Defaulting to none.
+02-14 19:11:50.336 28771-28771/com.thebluealliance.androidclient.development W/tba-android: Required field for match render: Database.Matches.VIDEOS. Defaulting to none.
+02-14 19:11:50.386 28771-28771/com.thebluealliance.androidclient.development W/tba-android: Required field for match render: Database.Matches.VIDEOS. Defaulting to none.
+02-14 19:11:50.432 28771-28771/com.thebluealliance.androidclient.development W/tba-android: Required field for match render: Database.Matches.VIDEOS. Defaulting to none.
+02-14 19:11:50.479 28771-28771/com.thebluealliance.androidclient.development W/tba-android: Required field for match render: Database.Matches.VIDEOS. Defaulting to none.
+02-14 19:11:50.524 28771-28771/com.thebluealliance.androidclient.development W/tba-android: Required field for match render: Database.Matches.VIDEOS. Defaulting to none.
+02-14 19:11:50.573 28771-28771/com.thebluealliance.androidclient.development W/tba-android: Required field for match render: Database.Matches.VIDEOS. Defaulting to none.
+02-14 19:11:50.627 28771-28771/com.thebluealliance.androidclient.development W/tba-android: Required field for match render: Database.Matches.VIDEOS. Defaulting to none.
+02-14 19:11:50.690 28771-28771/com.thebluealliance.androidclient.development W/tba-android: Required field for match render: Database.Matches.VIDEOS. Defaulting to none.
+02-14 19:11:50.741 28771-28771/com.thebluealliance.androidclient.development W/tba-android: Required field for match render: Database.Matches.VIDEOS. Defaulting to none.
+02-14 19:11:50.797 28771-28771/com.thebluealliance.androidclient.development W/tba-android: Required field for match render: Database.Matches.VIDEOS. Defaulting to none.
+02-14 19:11:50.859 28771-28771/com.thebluealliance.androidclient.development W/tba-android: Required field for match render: Database.Matches.VIDEOS. Defaulting to none.
+02-14 19:11:50.927 28771-28771/com.thebluealliance.androidclient.development W/tba-android: Required field for match render: Database.Matches.VIDEOS. Defaulting to none.
+02-14 19:11:50.984 28771-28771/com.thebluealliance.androidclient.development W/tba-android: Required field for match render: Database.Matches.VIDEOS. Defaulting to none.
+02-14 19:11:51.036 28771-28771/com.thebluealliance.androidclient.development W/tba-android: Required field for match render: Database.Matches.VIDEOS. Defaulting to none.
+02-14 19:11:51.088 28771-28771/com.thebluealliance.androidclient.development W/tba-android: Required field for match render: Database.Matches.VIDEOS. Defaulting to none.
+02-14 19:11:51.133 28771-28771/com.thebluealliance.androidclient.development W/tba-android: Required field for match render: Database.Matches.VIDEOS. Defaulting to none.
+02-14 19:11:51.178 28771-28771/com.thebluealliance.androidclient.development W/tba-android: Required field for match render: Database.Matches.VIDEOS. Defaulting to none.
+02-14 19:11:51.223 28771-28771/com.thebluealliance.androidclient.development W/tba-android: Required field for match render: Database.Matches.VIDEOS. Defaulting to none.
+02-14 19:11:51.269 28771-28771/com.thebluealliance.androidclient.development W/tba-android: Required field for match render: Database.Matches.VIDEOS. Defaulting to none.
+02-14 19:11:51.321 28771-28771/com.thebluealliance.androidclient.development W/tba-android: Required field for match render: Database.Matches.VIDEOS. Defaulting to none.
+02-14 19:11:51.369 28771-28771/com.thebluealliance.androidclient.development W/tba-android: Required field for match render: Database.Matches.VIDEOS. Defaulting to none.
+02-14 19:11:51.415 28771-28771/com.thebluealliance.androidclient.development W/tba-android: Required field for match render: Database.Matches.VIDEOS. Defaulting to none.
+02-14 19:11:51.448 28771-28771/com.thebluealliance.androidclient.development W/tba-android: Required field for match render: Database.Matches.VIDEOS. Defaulting to none.
+02-14 19:11:51.455 28771-28771/com.thebluealliance.androidclient.development W/tba-android: Required field for match render: Database.Matches.VIDEOS. Defaulting to none.
+02-14 19:11:51.469 28771-28771/com.thebluealliance.androidclient.development I/Choreographer: Skipped 101 frames!  The application may be doing too much work on its main thread.
+ This process takes several seconds and results in 101 frames being dropped. This should be investigated in the future,
+	</description>
+		</report>
+		<report Number="60">
+			<summary>Team Media Suggestion Flow</summary>
+			<url>https://github.com/the-blue-alliance/the-blue-alliance-android/issues/541</url>
+			<bugID>Issue #541</bugID>
+			<label>None yet</label>
+			<description>
+		App side component to the-blue-alliance/the-blue-alliance#1362 Backend Tasks Update Cloud Endpoints to have a media suggestion url1. This will require some server side changes Integrate Imgur API into app2 Make a background thread thing (probably IntentService?) to take image on device, upload to imgur3, and suggest to TBA. Use persistent notification for status updates. Be sure to handle lots of cases: TCP Timeout, imgur error, rate limit hit Frontend Tasks Make a button to take a picture on Team or Team@Event page (do we want to be able to choose+upload existing picture?) Prompt user for image title and description. Provide sane defaults. Fire off above task 1 Cloud Endpoints Suggestion Needs to have: User (done via oauth). Will need to have account signed in/myTBA enabled Team Key Year Suggestion &quot;kind&quot; (media in this case) Imgur url Metadata (in this case, we want to pass deletehash up to the server so we can modify the image in the future, even though it was upload anonymously. And maybe some other stuff?) 2Imgur API Things Docs: https://api.imgur.com/ Other Considerations: Need to register app and get tokens Note rate limiting (1,250 uploads per day or approximately 12,500 requests per day), remaining quota in X-RateLimit-UserLimit response header. Image Upload Endpoint. Returns basic response. Here is what the response looks like: {
+  &quot;data&quot;: {
+    &quot;id&quot;: &quot;rdwAFcH&quot;,
+    &quot;title&quot;: null,
+    &quot;description&quot;: null,
+    &quot;datetime&quot;: 1455648595,
+    &quot;type&quot;: &quot;image\/jpeg&quot;,
+    &quot;animated&quot;: false,
+    &quot;width&quot;: 1200,
+    &quot;height&quot;: 675,
+    &quot;size&quot;: 784683,
+    &quot;views&quot;: 0,
+    &quot;bandwidth&quot;: 0,
+    &quot;vote&quot;: null,
+    &quot;favorite&quot;: false,
+    &quot;nsfw&quot;: null,
+    &quot;section&quot;: null,
+    &quot;account_url&quot;: null,
+    &quot;account_id&quot;: 0,
+    &quot;comment_preview&quot;: null,
+    &quot;deletehash&quot;: &quot;BV0r1n6UoQayKlm&quot;,
+    &quot;name&quot;: &quot;&quot;,
+    &quot;link&quot;: &quot;http:\/\/i.imgur.com\/rdwAFcH.jpg&quot;
+  },
+  &quot;success&quot;: true,
+  &quot;status&quot;: 200
+}
+ 3File Uploads With Retrofit https://github.com/square/retrofit/wiki/%5B1063%5D-How-to-upload-file---Retrofit---2.0
+	</description>
+		</report>
+		<report Number="61">
+			<summary>&quot;Upcoming match&quot; notification text should be revised</summary>
+			<url>https://github.com/the-blue-alliance/the-blue-alliance-android/issues/583</url>
+			<bugID>Issue #583</bugID>
+			<label>None yet</label>
+			<description>
+		Currently reads something like &quot;Match SCMB Q7&quot;, should really be &quot;SCMB Match Q7&quot;. While we're at it, we should check all the notification text to make sure it looks good.
+	</description>
+		</report>
+		<report Number="62">
+			<summary>Integrate GameDay mode with main activity</summary>
+			<url>https://github.com/the-blue-alliance/the-blue-alliance-android/issues/601</url>
+			<bugID>Issue #601</bugID>
+			<label>None yet</label>
+			<description>
+		Currently, GameDay is the only nav drawer option that kicks off a separate activity; the rest just swap the appropriate fragment into the main activity. GameDay should behave this way too.
+	</description>
+		</report>
+		<report Number="63">
+			<summary>Fix webcast list styling</summary>
+			<url>https://github.com/the-blue-alliance/the-blue-alliance-android/issues/602</url>
+			<bugID>Issue #602</bugID>
+			<label>None yet</label>
+			<description>
+		The webcast list should either be restyled to match the Awards list (no dividers, padding at top), or replaced with a standard non-carded list. The latter may make more sense, as the content is homogenous like a team/event/etc list. We should look into grouping all an event's webcasts into a single card or list item for the case where an event has 2+ webcasts.
+	</description>
+		</report>
+		<report Number="64">
+			<summary>Hide &quot;media upload awareness&quot; snackbar after user clicks upload FAB</summary>
+			<url>https://github.com/the-blue-alliance/the-blue-alliance-android/issues/618</url>
+			<bugID>Issue #618</bugID>
+			<label>None yet</label>
+			<description>
+		Once the user clicks the FAB, it's obvious they know the upload feature exists; no need to keep reminding them!
+	</description>
+		</report>
+		<report Number="65">
+			<summary>NullPointerException in RefreshController</summary>
+			<url>https://github.com/the-blue-alliance/the-blue-alliance-android/issues/624</url>
+			<bugID>Issue #624</bugID>
+			<label>None yet</label>
+			<description>
+		From the Play Dev Console java.lang.NullPointerException: Attempt to invoke interface method 'int android.view.MenuItem.getItemId()' on a null object reference
+    at com.thebluealliance.androidclient.datafeed.refresh.RefreshController.onOptionsItemSelected(RefreshController.java:102)
+    at com.thebluealliance.androidclient.activities.DatafeedActivity.onOptionsItemSelected(DatafeedActivity.java:69)
+    at com.thebluealliance.androidclient.activities.HomeActivity.onOptionsItemSelected(HomeActivity.java:280)
+    at android.app.Activity.onMenuItemSelected(Activity.java:3102)
+    at android.support.v4.app.FragmentActivity.onMenuItemSelected(FragmentActivity.java:404)
+    at android.support.v7.app.AppCompatActivity.onMenuItemSelected(AppCompatActivity.java:167)
+    at android.support.v7.view.WindowCallbackWrapper.onMenuItemSelected(WindowCallbackWrapper.java:100)
+    at android.support.v7.view.WindowCallbackWrapper.onMenuItemSelected(WindowCallbackWrapper.java:100)
+    at android.support.v7.widget.ToolbarWidgetWrapper$1.onClick(ToolbarWidgetWrapper.java:192)
+    at android.view.View.performClick(View.java:5254)
+    at android.view.View$PerformClick.run(View.java:21179)
+    at android.os.Handler.handleCallback(Handler.java:739)
+    at android.os.Handler.dispatchMessage(Handler.java:95)
+    at android.os.Looper.loop(Looper.java:145)
+    at android.app.ActivityThread.main(ActivityThread.java:6895)
+    at java.lang.reflect.Method.invoke(Native Method)
+    at java.lang.reflect.Method.invoke(Method.java:372)
+    at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:1404)
+    at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1199)
+	</description>
+		</report>
+		<report Number="66">
+			<summary>Bolded teams in notifications should be based on Favorites, not Subs</summary>
+			<url>https://github.com/the-blue-alliance/the-blue-alliance-android/issues/630</url>
+			<bugID>Issue #630</bugID>
+			<label>None yet</label>
+			<description>
+		No description provided.
+	</description>
+		</report>
+		<report Number="67">
+			<summary>I checked the Central Illinois Competition page in the app...</summary>
+			<url>https://github.com/the-blue-alliance/the-blue-alliance-android/issues/633</url>
+			<bugID>Issue #633</bugID>
+			<label>None yet</label>
+			<description>
+		See title. How come the website has updates with no live stream from UStream channel but the app has no data from the competition?
+	</description>
+		</report>
+		<report Number="68">
+			<summary>Run Proguard for Traivs Builts</summary>
+			<url>https://github.com/the-blue-alliance/the-blue-alliance-android/issues/657</url>
+			<bugID>Issue #657</bugID>
+			<label>None yet</label>
+			<description>
+		So we can catch changes that break the proguard config at PR time. Probably involves creating a new buildType and setting testProguardFile http://stackoverflow.com/questions/26482119/android-unit-tests-with-proguard-enabled
+	</description>
+		</report>
+		<report Number="69">
+			<summary>Updates for API 23</summary>
+			<url>https://github.com/the-blue-alliance/the-blue-alliance-android/issues/678</url>
+			<bugID>Issue #678</bugID>
+			<label>None yet</label>
+			<description>
+		We're still targeting API 22 this season for stability reasons (cans of worms and whatnot), but after champs, we'll bump it. 6.0 changes: http://developer.android.com/about/versions/marshmallow/android-6.0-changes.html Doze. We currently don't set priorities on our GCM message, but I think it's okay to leave them at normal. Runtime Permissions. We currently request GET_ACCOUNTS and WRITE_EXTERNAL_STORAGE, which are considered Dangerous Permissions, so we'll have to implement requesting them at runtime. GET_ACCOUNTS is used at install time, I believe, to set up the device account when you sign into myTBA. WRITE_EXTERNAL_STORAGE is used to store suggested images taken before they're uploaded. I don't think any of the other changes should affect us. This library seems awesome for making runtime permissions easier
+	</description>
+		</report>
+		<report Number="70">
+			<summary>Add Awards to Team@Event breakdown</summary>
+			<url>https://github.com/the-blue-alliance/the-blue-alliance-android/issues/687</url>
+			<bugID>Issue #687</bugID>
+			<label>None yet</label>
+			<description>
+		Suggested on Twitter https://twitter.com/AnthonyGalea87/status/719222548551086080
+	</description>
+		</report>
+		<report Number="71">
+			<summary>Share TBA Links</summary>
+			<url>https://github.com/the-blue-alliance/the-blue-alliance-android/issues/689</url>
+			<bugID>Issue #689</bugID>
+			<label>None yet</label>
+			<description>
+		From @tytremblay: Feature request: enable sharing of TBA links via the TBA Android app. https://www.facebook.com/groups/moardata/permalink/1099497873403840/
+	</description>
+		</report>
+		<report Number="72">
+			<summary>Not displaying team media when changing years</summary>
+			<url>https://github.com/the-blue-alliance/the-blue-alliance-android/issues/690</url>
+			<bugID>Issue #690</bugID>
+			<label>None yet</label>
+			<description>
+		From a report on Facebook: in the Android app, if you navigate to a teams media page for a year where they have pictures, then to a year without any pictures, then back to any year that should have pictures there are none any more. I can reproduce on both the latest prod and latest master.
+	</description>
+		</report>
+		<report Number="73">
+			<summary>Long-press on team for navigation options</summary>
+			<url>https://github.com/the-blue-alliance/the-blue-alliance-android/issues/694</url>
+			<bugID>Issue #694</bugID>
+			<label>None yet</label>
+			<description>
+		In the context of an event or match, you should be able to long-press on a team to be able to navigate either to team@event or the main team page, instead of having to always go to team@event first.
+	</description>
+		</report>
+		<report Number="74">
+			<summary>Add Breach/Capture Dots</summary>
+			<url>https://github.com/the-blue-alliance/the-blue-alliance-android/issues/700</url>
+			<bugID>Issue #700</bugID>
+			<label>None yet</label>
+			<description>
+		Not sure if they'll look good on a match list (not enough space?). But it's worth a look to see if we can fit them in somewhere.
+	</description>
+		</report>
+		<report Number="75">
+			<summary>Make All GCE Use Retrofit</summary>
+			<url>https://github.com/the-blue-alliance/the-blue-alliance-android/issues/716</url>
+			<bugID>Issue #716</bugID>
+			<label>None yet</label>
+			<description>
+		Currently, it still uses the old Google libraries for myTBA stuff for stability reasons during the season. Time to move it all to Retrofit... (Also, I need to update the gce2retrofit jar to use okhttp3 and stuff, I think it generates with the wrong package names)
+	</description>
+		</report>
+		<report Number="76">
+			<summary>Suggestion: Show Ranking Points/Match</summary>
+			<url>https://github.com/the-blue-alliance/the-blue-alliance-android/issues/728</url>
+			<bugID>Issue #728</bugID>
+			<label>None yet</label>
+			<description>
+		Like TBA Web # 1465 so you can tell how your team is really stacking up in seeding. If it doesn't claim to be a &quot;ranking&quot; then it won't confuse people about the difference vs. official rankings. How to convey what this value is for? It's a derived value, not an official FIRST value, so would it bother people on the Rankings screen?
+	</description>
+		</report>
+		<report Number="77">
+			<summary>Clarify the different W-L-T totals</summary>
+			<url>https://github.com/the-blue-alliance/the-blue-alliance-android/issues/729</url>
+			<bugID>Issue #729</bugID>
+			<label>None yet</label>
+			<description>
+		[See TBA Web # 1464.] For 2016 Silicon Valley regional, the app's Team 254 Summary screen shows Record 15 - 0 - 0 while the Rankings screen shows &quot;(8-0-0)&quot;. This looks like a discrepancy. The app could clarify the former as &quot;Total Record&quot; or &quot;All matches&quot; or something, since it includes surrogate matches and playoffs.
+	</description>
+		</report>
+		<report Number="78">
+			<summary>indicate surrogate matches on each match list</summary>
+			<url>https://github.com/the-blue-alliance/the-blue-alliance-android/issues/730</url>
+			<bugID>Issue #730</bugID>
+			<label>None yet</label>
+			<description>
+		Like TBA Web # 1500.
+	</description>
+		</report>
+		<report Number="79">
+			<summary>Show Alliance Names</summary>
+			<url>https://github.com/the-blue-alliance/the-blue-alliance-android/issues/738</url>
+			<bugID>Issue #738</bugID>
+			<label>None yet</label>
+			<description>
+		Added to API in the-blue-alliance/the-blue-alliance#1520
+	</description>
+		</report>
+		<report Number="80">
+			<summary>Add GitHub Pull Request Templates</summary>
+			<url>https://github.com/the-blue-alliance/the-blue-alliance-android/issues/739</url>
+			<bugID>Issue #739</bugID>
+			<label>None yet</label>
+			<description>
+		Mimic phabricator diff templates. Includes: title, summary, reviewers, test plan, issue reference
+	</description>
+		</report>
+		<report Number="81">
+			<summary>Add more off season events like Minnesota State FRC Championship</summary>
+			<url>https://github.com/the-blue-alliance/the-blue-alliance-android/issues/741</url>
+			<bugID>Issue #741</bugID>
+			<label>None yet</label>
+			<description>
+		Minnesota State Robotics Championship is usually around few weeks after world's, like today. I'm sure there are other off season events that happens between the week 6 and next year's kick off. So, why not those competitions are added yet?
+	</description>
+		</report>
+		<report Number="82">
+			<summary>Migrate to EventDetails model, similar to https://github.com/the-blue-alliance/the-blue-alliance/pull/1513</summary>
+			<url>https://github.com/the-blue-alliance/the-blue-alliance-android/issues/773</url>
+			<bugID>Issue #773</bugID>
+			<label>None yet</label>
+			<description>
+		Similar to the-blue-alliance/the-blue-alliance#1513
+	</description>
+		</report>
+		<report Number="83">
+			<summary>Read EventWeek from APIv2</summary>
+			<url>https://github.com/the-blue-alliance/the-blue-alliance-android/issues/775</url>
+			<bugID>Issue #775</bugID>
+			<label>None yet</label>
+			<description>
+		As implemented here: the-blue-alliance/the-blue-alliance@8e8c34e
+	</description>
+		</report>
+		<report Number="84">
+			<summary>Use Swagger Datafeed and Models</summary>
+			<url>https://github.com/the-blue-alliance/the-blue-alliance-android/issues/776</url>
+			<bugID>Issue #776</bugID>
+			<label>None yet</label>
+			<description>
+		No description provided.
+	</description>
+		</report>
+		<report Number="85">
+			<summary>Kill BasicModel Class</summary>
+			<url>https://github.com/the-blue-alliance/the-blue-alliance-android/issues/777</url>
+			<bugID>Issue #777</bugID>
+			<label>None yet</label>
+			<description>
+		No description provided.
+	</description>
+		</report>
+		<report Number="86">
+			<summary>`INSERT INTO awards(name,enum,winners,year)` needs a key</summary>
+			<url>https://github.com/the-blue-alliance/the-blue-alliance-android/issues/779</url>
+			<bugID>Issue #779</bugID>
+			<label>None yet</label>
+			<description>
+		While running a debug build, run the script scripts/test_notification.py awards-posted
+ It sends a GCM to the client over adb. The client displays a notification but also logs a stack trace because a SQL constraint rejects an attempt to add the row to the DB without a key. E/SQLiteLog: (1299) abort at 8 in [INSERT INTO awards(name,enum,winners,year) VALUES (?,?,?,?)]: NOT NULL constraint failed: awards.key
+E/SQLiteDatabase: Error inserting name=Regional Chairman's Award enum=0 winners=[{&quot;awardee&quot;:null,&quot;team_number&quot;:2067},{&quot;awardee&quot;:null,&quot;team_number&quot;:78},{&quot;awardee&quot;:null,&quot;team_number&quot;:811},{&quot;awardee&quot;:null,&quot;team_number&quot;:2648}] year=2014
+                  android.database.sqlite.SQLiteConstraintException: NOT NULL constraint failed: awards.key (code 1299)
+                      at android.database.sqlite.SQLiteConnection.nativeExecuteForLastInsertedRowId(Native Method)
+                      at android.database.sqlite.SQLiteConnection.executeForLastInsertedRowId(SQLiteConnection.java:782)
+                      at android.database.sqlite.SQLiteSession.executeForLastInsertedRowId(SQLiteSession.java:788)
+                      at android.database.sqlite.SQLiteStatement.executeInsert(SQLiteStatement.java:86)
+                      at android.database.sqlite.SQLiteDatabase.insertWithOnConflict(SQLiteDatabase.java:1471)
+                      at android.database.sqlite.SQLiteDatabase.insert(SQLiteDatabase.java:1341)
+                      at com.thebluealliance.androidclient.database.ModelTable.add(ModelTable.java:44)
+                      at com.thebluealliance.androidclient.database.ModelTable.add(ModelTable.java:69)
+                      at com.thebluealliance.androidclient.database.writers.AwardListWriter.write(AwardListWriter.java:23)
+                      at com.thebluealliance.androidclient.gcm.notifications.AwardsPostedNotification.updateDataLocally(AwardsPostedNotification.java:120)
+                      at com.thebluealliance.androidclient.gcm.GCMMessageHandler.handleMessage(GCMMessageHandler.java:199)
+                      at com.thebluealliance.androidclient.gcm.GCMMessageHandler.onHandleIntent(GCMMessageHandler.java:127)
+                      at android.app.IntentService$ServiceHandler.handleMessage(IntentService.java:65)
+                      at android.os.Handler.dispatchMessage(Handler.java:102)
+                      at android.os.Looper.loop(Looper.java:135)
+                      at android.os.HandlerThread.run(HandlerThread.java:61)
+
+ The script's JSON data differs from what the doc page says in that the &quot;event_key&quot;: &quot;2014necmp&quot;, property is at a different level of the data structure, but moving that field to match the doc causes com.google.gson.JsonParseException: Notification data does not contain 'event_key'
+ It seems the code is failing to include a DB key in the SQL INSERT.
+	</description>
+		</report>
+		<report Number="87">
+			<summary>Tap a summary notification -&gt; &quot;The Blue Alliance Debug has stopped&quot;</summary>
+			<url>https://github.com/the-blue-alliance/the-blue-alliance-android/issues/780</url>
+			<bugID>Issue #780</bugID>
+			<label>None yet</label>
+			<description>
+		Tapping a summary notification sometimes makes the app exit summarily. The OS displays a dialog &quot;The Blue Alliance Debug has stopped&quot; over the home screen. There's no acknowledgement of the crash in logcat (!) even with filters turned off but Android Studio's Run view displays a stack traceback. The stack has no TBA code but it does have third party library code io.nlopez.smartadapters. This occurs in the current master branch and also in the branch issue_774 where I'm testing a fix for #774. W/GAv4: Discarding hit. Missing tracking id parameter: a=1869011076,an=The Blue Alliance Debug,exd=NullPointerException (@DefaultBindableLayoutBuilder:viewType:38) {main},t=exception,sf=100.0,tid=,exf=1,aid=3.4.8-master.2+gd52ffe5,av=3.4.8-master.2+gd52ffe5
+W/GAv4: syncDispatchLocalHits timed out: java.util.concurrent.TimeoutException
+E/AndroidRuntime: FATAL EXCEPTION: main
+                  Process: com.thebluealliance.androidclient.development, PID: 3720
+                  java.lang.NullPointerException: Attempt to invoke virtual method 'java.lang.Class java.lang.Object.getClass()' on a null object reference
+                      at io.nlopez.smartadapters.builders.DefaultBindableLayoutBuilder.viewType(DefaultBindableLayoutBuilder.java:38)
+                      at io.nlopez.smartadapters.adapters.RecyclerMultiAdapter.getItemViewType(RecyclerMultiAdapter.java:134)
+                      at android.support.v7.widget.RecyclerView$Recycler.getViewForPosition(RecyclerView.java:4664)
+                      at android.support.v7.widget.RecyclerView$Recycler.getViewForPosition(RecyclerView.java:4617)
+                      at android.support.v7.widget.LinearLayoutManager$LayoutState.next(LinearLayoutManager.java:1994)
+                      at android.support.v7.widget.LinearLayoutManager.layoutChunk(LinearLayoutManager.java:1390)
+                      at android.support.v7.widget.LinearLayoutManager.fill(LinearLayoutManager.java:1353)
+                      at android.support.v7.widget.LinearLayoutManager.onLayoutChildren(LinearLayoutManager.java:574)
+                      at android.support.v7.widget.RecyclerView.dispatchLayoutStep2(RecyclerView.java:3028)
+                      at android.support.v7.widget.RecyclerView.dispatchLayout(RecyclerView.java:2906)
+                      at android.support.v7.widget.RecyclerView.onLayout(RecyclerView.java:3283)
+                      at android.view.View.layout(View.java:15671)
+                      at android.view.ViewGroup.layout(ViewGroup.java:5038)
+                      at android.widget.RelativeLayout.onLayout(RelativeLayout.java:1076)
+                      at android.view.View.layout(View.java:15671)
+                      at android.view.ViewGroup.layout(ViewGroup.java:5038)
+                      at android.widget.RelativeLayout.onLayout(RelativeLayout.java:1076)
+                      at android.view.View.layout(View.java:15671)
+                      at android.view.ViewGroup.layout(ViewGroup.java:5038)
+                      at android.widget.FrameLayout.layoutChildren(FrameLayout.java:579)
+                      at android.widget.FrameLayout.onLayout(FrameLayout.java:514)
+                      at android.view.View.layout(View.java:15671)
+                      at android.view.ViewGroup.layout(ViewGroup.java:5038)
+                      at android.widget.RelativeLayout.onLayout(RelativeLayout.java:1076)
+                      at android.view.View.layout(View.java:15671)
+                      at android.view.ViewGroup.layout(ViewGroup.java:5038)
+                      at android.widget.FrameLayout.layoutChildren(FrameLayout.java:579)
+                      at android.widget.FrameLayout.onLayout(FrameLayout.java:514)
+                      at android.view.View.layout(View.java:15671)
+                      at android.view.ViewGroup.layout(ViewGroup.java:5038)
+                      at android.widget.RelativeLayout.onLayout(RelativeLayout.java:1076)
+                      at android.view.View.layout(View.java:15671)
+                      at android.view.ViewGroup.layout(ViewGroup.java:5038)
+                      at android.support.v4.widget.DrawerLayout.onLayout(DrawerLayout.java:1187)
+                      at android.view.View.layout(View.java:15671)
+                      at android.view.ViewGroup.layout(ViewGroup.java:5038)
+                      at android.widget.FrameLayout.layoutChildren(FrameLayout.java:579)
+                      at android.widget.FrameLayout.onLayout(FrameLayout.java:514)
+                      at android.view.View.layout(View.java:15671)
+                      at android.view.ViewGroup.layout(ViewGroup.java:5038)
+                      at android.widget.LinearLayout.setChildFrame(LinearLayout.java:1703)
+                      at android.widget.LinearLayout.layoutVertical(LinearLayout.java:1557)
+                      at android.widget.LinearLayout.onLayout(LinearLayout.java:1466)
+                      at android.view.View.layout(View.java:15671)
+                      at android.view.ViewGroup.layout(ViewGroup.java:5038)
+                      at android.widget.FrameLayout.layoutChildren(FrameLayout.java:579)
+                      at android.widget.FrameLayout.onLayout(FrameLayout.java:514)
+                      at android.view.View.layout(View.java:15671)
+                      at android.view.ViewGroup.layout(ViewGroup.java:5038)
+                      at android.widget.LinearLayout.setChildFrame(LinearLayout.java:1703)
+                      at android.widget.LinearLayout.layoutVertical(LinearLayout.java:1557)
+                      at android.widget.LinearLayout.onLayout(LinearLayout.java:1466)
+                      at android.view.View.layout(View.java:15671)
+                      at android.view.ViewGroup.layout(ViewGroup.java:5038)
+                      at android.widget.FrameLayout.layoutChildren(FrameLayout.java:579)
+                      at android.widget.FrameLayout.onLayout(FrameLayout.java:514)
+                      at android.view.View.layout(View.java:15671)
+                      at android.view.ViewGroup.layout(ViewGroup.java:5038)
+                      at android.view.ViewRootImpl.performLayout(ViewRootImpl.java:2086)
+                    at android
+E/GAv4: Successfully bound to service but never got onServiceConnected callback
+Application terminated.
+ Steps to (sometimes) reproduce: Start an Android API level 21 or later emulator. Launch the app. Tap the Back button to return to the home screen. From a terminal window in the the-blue-alliance-android/ directory, run scripts/test_notification.py upcoming-match. This should open a heads-up notification shade. Wait for the notification shade to roll up. (This step might not be needed.) Run scripts/test_notification.py match-score. This should open another heads-up notification shade. Pull down the heads-up notification shade. This should reveal TBA's summary notification, &quot;2 new notifications&quot;. Tap on the summary notification's content area.
+	</description>
+		</report>
+		<report Number="88">
+			<summary>Clicking an item in the Event live ticker should switch to appropriate tab</summary>
+			<url>https://github.com/the-blue-alliance/the-blue-alliance-android/issues/786</url>
+			<bugID>Issue #786</bugID>
+			<label>None yet</label>
+			<description>
+		If I click on, for instance, a &quot;Awards updated&quot; notification in the live ticker for an event, I should be taken to the Awards tab. Same for &quot;schedule updated&quot;, etc.
+	</description>
+		</report>
+		<report Number="89">
+			<summary>Support 2 Champs</summary>
+			<url>https://github.com/the-blue-alliance/the-blue-alliance-android/issues/787</url>
+			<bugID>Issue #787</bugID>
+			<label>None yet</label>
+			<description>
+		It should render nice and pretty
+	</description>
+		</report>
+		<report Number="90">
+			<summary>Add Israel District Constants</summary>
+			<url>https://github.com/the-blue-alliance/the-blue-alliance-android/issues/790</url>
+			<bugID>Issue #790</bugID>
+			<label>None yet</label>
+			<description>
+		See the-blue-alliance/the-blue-alliance@2c42640
+	</description>
+		</report>
+		<report Number="91">
+			<summary>Android 7 group summary notifications aren't working</summary>
+			<url>https://github.com/the-blue-alliance/the-blue-alliance-android/issues/793</url>
+			<bugID>Issue #793</bugID>
+			<label>None yet</label>
+			<description>
+		When a second or later notification arrives during MadTown ThrowDown this weekend, the notification shade chimes and re-displays the oldest notification that wasn't dismissed instead of accumulating a group summary notification. (I'll try to debug it when I get a chance.)
+	</description>
+		</report>
+		<report Number="92">
+			<summary>Add &quot;Watch&quot; Button to Upcoming Match Notifications</summary>
+			<url>https://github.com/the-blue-alliance/the-blue-alliance-android/issues/819</url>
+			<bugID>Issue #819</bugID>
+			<label>None yet</label>
+			<description>
+		Here's where we handle clicks for the &quot;Watch Now&quot; button on event pages, for reference: https://github.com/the-blue-alliance/the-blue-alliance-android/blob/master/android/src/main/java/com/thebluealliance/androidclient/listeners/WebcastClickListener.java
+	</description>
+		</report>
+		<report Number="93">
+			<summary>Alliances show incorrect QF/SF/F/W status</summary>
+			<url>https://github.com/the-blue-alliance/the-blue-alliance-android/issues/823</url>
+			<bugID>Issue #823</bugID>
+			<label>None yet</label>
+			<description>
+		
+	</description>
+		</report>
+		<report Number="94">
+			<summary>Database Locked Exceptions</summary>
+			<url>https://github.com/the-blue-alliance/the-blue-alliance-android/issues/824</url>
+			<bugID>Issue #824</bugID>
+			<label>None yet</label>
+			<description>
+		Version: 4.0.4 Stacktrace: android.database.sqlite.SQLiteDatabaseLockedException: database is locked (code 5)
+at android.database.sqlite.SQLiteConnection.nativeExecuteForChangedRowCount(Native Method)
+at android.database.sqlite.SQLiteConnection.executeForChangedRowCount(SQLiteConnection.java:738)
+at android.database.sqlite.SQLiteSession.executeForChangedRowCount(SQLiteSession.java:754)
+at android.database.sqlite.SQLiteStatement.executeUpdateDelete(SQLiteStatement.java:64)
+at android.database.sqlite.SQLiteDatabase.executeSql(SQLiteDatabase.java:1699)
+at android.database.sqlite.SQLiteDatabase.execSQL(SQLiteDatabase.java:1628)
+at com.thebluealliance.androidclient.database.ModelTable.deleteAllRows(ModelTable.java:290)
+at com.thebluealliance.androidclient.background.firstlaunch.LoadTBAData.doInBackground(LoadTBAData.java:111)
+at com.thebluealliance.androidclient.background.firstlaunch.LoadTBAData.doInBackground(LoadTBAData.java:39)
+at android.os.AsyncTask$2.call(AsyncTask.java:288)
+at java.util.concurrent.FutureTask.run(FutureTask.java:237)
+at android.os.AsyncTask$SerialExecutor$1.run(AsyncTask.java:231)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1112)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:587)
+at java.lang.Thread.run(Thread.java:848)
+	</description>
+		</report>
+		<report Number="95">
+			<summary>fatal error in leakcanary in debug build because FirebaseApp is not initialized</summary>
+			<url>https://github.com/the-blue-alliance/the-blue-alliance-android/issues/829</url>
+			<bugID>Issue #829</bugID>
+			<label>None yet</label>
+			<description>
+		This crash only happens in debug builds, right? 03-15 00:37:46.608 15802-15802/? E/AndroidRuntime: FATAL EXCEPTION: main
+                                                   Process: com.thebluealliance.androidclient.development:leakcanary, PID: 15802
+                                                   java.lang.RuntimeException: Unable to create application com.thebluealliance.androidclient.TBAAndroid: java.lang.IllegalStateException: Default FirebaseApp is not initialized in this process com.thebluealliance.androidclient.development:leakcanary. Make sure to call FirebaseApp.initializeApp(Context) first.
+                                                       at android.app.ActivityThread.handleBindApplication(ActivityThread.java:5406)
+                                                       at android.app.ActivityThread.-wrap2(ActivityThread.java)
+                                                       at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1545)
+                                                       at android.os.Handler.dispatchMessage(Handler.java:102)
+                                                       at android.os.Looper.loop(Looper.java:154)
+                                                       at android.app.ActivityThread.main(ActivityThread.java:6119)
+                                                       at java.lang.reflect.Method.invoke(Native Method)
+                                                       at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:886)
+                                                       at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:776)
+                                                    Caused by: java.lang.IllegalStateException: Default FirebaseApp is not initialized in this process com.thebluealliance.androidclient.development:leakcanary. Make sure to call FirebaseApp.initializeApp(Context) first.
+                                                       at com.google.firebase.FirebaseApp.getInstance(Unknown Source)
+                                                       at com.google.firebase.crash.FirebaseCrash.zzcqj(Unknown Source)
+                                                       at com.google.firebase.crash.FirebaseCrash.log(Unknown Source)
+                                                       at com.thebluealliance.androidclient.TbaLogger.i(TbaLogger.java:46)
+                                                       at com.thebluealliance.androidclient.TBAAndroid.onCreate(TBAAndroid.java:62)
+                                                       at android.app.Instrumentation.callApplicationOnCreate(Instrumentation.java:1024)
+                                                       at android.app.ActivityThread.handleBindApplication(ActivityThread.java:5403)
+                                                       at android.app.ActivityThread.-wrap2(ActivityThread.java) 
+                                                       at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1545) 
+                                                       at android.os.Handler.dispatchMessage(Handler.java:102) 
+                                                       at android.os.Looper.loop(Looper.java:154) 
+                                                       at android.app.ActivityThread.main(ActivityThread.java:6119) 
+                                                       at java.lang.reflect.Method.invoke(Native Method) 
+                                                       at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:886) 
+                                                       at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:776) 
+	</description>
+		</report>
+		<report Number="96">
+			<summary>Support District Championship Divisions</summary>
+			<url>https://github.com/the-blue-alliance/the-blue-alliance-android/issues/834</url>
+			<bugID>Issue #834</bugID>
+			<label>None yet</label>
+			<description>
+		MSC currently looks like this
+	</description>
+		</report>
+		<report Number="97">
+			<summary>NPE when a team has no name</summary>
+			<url>https://github.com/the-blue-alliance/the-blue-alliance-android/issues/842</url>
+			<bugID>Issue #842</bugID>
+			<label>None yet</label>
+			<description>
+		The 9000 series teams at MadTown Throwdown today lack team names. This causes at least one crash: 11-10 23:17:24.816  6133  6133 E AndroidRuntime: Process: com.thebluealliance.androidclient, PID: 6133
+11-10 23:17:24.816  6133  6133 E AndroidRuntime: java.lang.NullPointerException: Attempt to invoke virtual method 'boolean java.lang.String.isEmpty()' on a null object reference
+11-10 23:17:24.816  6133  6133 E AndroidRuntime:    at com.thebluealliance.androidclient.listitems.StatsListElement.getView(StatsListElement.java:45)
+11-10 23:17:24.816  6133  6133 E AndroidRuntime:    at com.thebluealliance.androidclient.adapters.ListViewAdapter.getView(ListViewAdapter.java:29)
+11-10 23:17:24.816  6133  6133 E AndroidRuntime:    at android.widget.AbsListView.obtainView(AbsListView.java:2372)
+...
+ I'll send a PR.
+	</description>
+		</report>
+		<report Number="98">
+			<summary>Add 2018 Match Breakdown Table</summary>
+			<url>https://github.com/the-blue-alliance/the-blue-alliance-android/issues/846</url>
+			<bugID>Issue #846</bugID>
+			<label>None yet</label>
+			<description>
+		Can use this for inspiration. the-blue-alliance/the-blue-alliance#2091
+	</description>
+		</report>
+		<report Number="99">
+			<summary>Remove Team motto</summary>
+			<url>https://github.com/the-blue-alliance/the-blue-alliance-android/issues/855</url>
+			<bugID>Issue #855</bugID>
+			<label>None yet</label>
+			<description>
+		No longer on the site, should be removed here as well.
+	</description>
+		</report>
+		<report Number="100">
+			<summary>2018 Match Breakdown Vault numbers incorrect</summary>
+			<url>https://github.com/the-blue-alliance/the-blue-alliance-android/issues/856</url>
+			<bugID>Issue #856</bugID>
+			<label>None yet</label>
+			<description>
+		Vault is showing Red's numbers instead of Blue's.
+	</description>
+		</report>
+	</reports>

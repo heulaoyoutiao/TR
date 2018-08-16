@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<reports>
+		<report Number="0">
+			<summary>View parent comment</summary>
+			<url>https://github.com/talklittle/reddit-is-fun/issues/41</url>
+			<bugID>Issue #41</bugID>
+			<label>None yet</label>
+			<description>
+		Long threads can get hard to follow, in a browser one can click the &quot;Parent&quot; button on a comment to see the initial comment that it was a reply to. A similar ability in this app would be extremely handy.
+	</description>
+		</report>
+		<report Number="1">
+			<summary>Not Showing in AppDrawer</summary>
+			<url>https://github.com/talklittle/reddit-is-fun/issues/167</url>
+			<bugID>Issue #167</bugID>
+			<label>None yet</label>
+			<description>
+		Installed new update and is no longer showing in the app drawer. Uninstalled and reinstalled still not showing.
+	</description>
+		</report>
+		<report Number="2">
+			<summary>comments won't load</summary>
+			<url>https://github.com/talklittle/reddit-is-fun/issues/182</url>
+			<bugID>Issue #182</bugID>
+			<label>None yet</label>
+			<description>
+		dear friends, i have a problem which is that comments do not appear. please see my screenshot: http://imgur.com/vXbdy maybe you can help me... thank you
+	</description>
+		</report>
+		<report Number="3">
+			<summary>Thumbnail cache never clears, causing system slowdown</summary>
+			<url>https://github.com/talklittle/reddit-is-fun/issues/264</url>
+			<bugID>Issue #264</bugID>
+			<label>None yet</label>
+			<description>
+		I'm not sure if it's by design or bug, but the downloaded thumbnails are never erased during normal use - neither clearing the app cache in the system settings nor clearing the history in the in-app settings will erase them. Only fully erasing the app's data or deleting them manually gets rid of them. Though the files are tiny, the sheer number of them after several days of use causes my system to grind to a halt when performing drive space calculations (like in Settings &gt; Apps or Settings &gt; Storage). When I first figured out what was causing it and went to delete the thumbnails, there were so many that my file manager would freeze before it could open the folder. I've now set up a Tasker task that clears out the folder once a day, solving the problem for me. But it ought to do that automatically in the app, or at least provide an on-demand method for emptying the folder.
+	</description>
+		</report>
+		<report Number="4">
+			<summary>I fail to understand some of your code</summary>
+			<url>https://github.com/talklittle/reddit-is-fun/issues/265</url>
+			<bugID>Issue #265</bugID>
+			<label>None yet</label>
+			<description>
+		I tried to send you an email and got en error from Google. Hi, I need some help understanding some of your code in the Login dialog. I don't really understand your abstraction as you don't extend that task in any later class. Here's the SO question, if you care to answer. http://stackoverflow.com/questions/11866016/public-abstract-notable-examples Thanks P.S Sorry if this is the wrong place to answer.
+	</description>
+		</report>
+		<report Number="5">
+			<summary>Menu is not showing up</summary>
+			<url>https://github.com/talklittle/reddit-is-fun/issues/272</url>
+			<bugID>Issue #272</bugID>
+			<label>None yet</label>
+			<description>
+		Issue resolved
+	</description>
+		</report>
+	</reports>

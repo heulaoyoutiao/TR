@@ -1,0 +1,435 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<reports>
+		<report Number="0">
+			<summary>[Feature request] Favourited/retweeted notifications</summary>
+			<url>https://github.com/TwidereProject/Twidere-Android/issues/8</url>
+			<bugID>Issue #8</bugID>
+			<label>Feature request</label>
+			<description>
+		Hello, twitter official client replaced the mentions tab with a notifications tab which also lets the user know if one of their tweets have been favourited, or someone has retweeted a tweet in which they are mentioned etc... is it possible to bring this functionality to twidere? 👍 2
+	</description>
+		</report>
+		<report Number="1">
+			<summary>Feature request: push notifications for starred users' tweets</summary>
+			<url>https://github.com/TwidereProject/Twidere-Android/issues/27</url>
+			<bugID>Issue #27</bugID>
+			<label>Feature request</label>
+			<description>
+		In the official Twitter app there is a way to star users such that you get push notifications every time they post a new tweet. Would it be possible to add this to Twidere?
+	</description>
+		</report>
+		<report Number="2">
+			<summary>Support animated GIFs</summary>
+			<url>https://github.com/TwidereProject/Twidere-Android/issues/72</url>
+			<bugID>Issue #72</bugID>
+			<label>Feature request</label>
+			<description>
+		The current image view only shows the first frame for an animated GIF.
+	</description>
+		</report>
+		<report Number="3">
+			<summary>Embed streaming directly into the app</summary>
+			<url>https://github.com/TwidereProject/Twidere-Android/issues/81</url>
+			<bugID>Issue #81</bugID>
+			<label>Feature request</label>
+			<description>
+		This could be nice, because the extension is not working sometimes, and it is boring to download it.
+	</description>
+		</report>
+		<report Number="4">
+			<summary>Option to change save path for images [Feature Request]</summary>
+			<url>https://github.com/TwidereProject/Twidere-Android/issues/129</url>
+			<bugID>Issue #129</bugID>
+			<label>Feature request</label>
+			<description>
+		Unless there was something I missed in Settings, there's no way to change where images get saved. I think this would be a nice feature for people who prefer to use external storage.
+	</description>
+		</report>
+		<report Number="5">
+			<summary>Feature Request - Split tweet</summary>
+			<url>https://github.com/TwidereProject/Twidere-Android/issues/190</url>
+			<bugID>Issue #190</bugID>
+			<label>Feature request</label>
+			<description>
+		This is a bit silly When writing longer tweets, the option already exists to use the twitlonger add-on, but another solution is to break the contents into multiple tweets. It'd be convenient for the app to do that automagically. 👍 1
+	</description>
+		</report>
+		<report Number="6">
+			<summary>Feature Request: user picture tab</summary>
+			<url>https://github.com/TwidereProject/Twidere-Android/issues/214</url>
+			<bugID>Issue #214</bugID>
+			<label>Feature request</label>
+			<description>
+		A useful feature would be having a tab on user's profiles to only view their picture tweets, similar to the official app.
+	</description>
+		</report>
+		<report Number="7">
+			<summary>Feature request: disable retweets per tab</summary>
+			<url>https://github.com/TwidereProject/Twidere-Android/issues/227</url>
+			<bugID>Issue #227</bugID>
+			<label>Feature request</label>
+			<description>
+		In TweetDeck we can set many filter options per column. One of these options is to disable retweets. Would be great if Twidere support this option too, per tab. 👍 1
+	</description>
+		</report>
+		<report Number="8">
+			<summary>[Feature request] trends from several locations</summary>
+			<url>https://github.com/TwidereProject/Twidere-Android/issues/229</url>
+			<bugID>Issue #229</bugID>
+			<label>Feature request</label>
+			<description>
+		It would be nice if we could add several trends tab, and specify a different location for each tab. Thanks a lot for this great app!
+	</description>
+		</report>
+		<report Number="9">
+			<summary>[Feature Request] - Auto-detect account to tweet from based on active tab</summary>
+			<url>https://github.com/TwidereProject/Twidere-Android/issues/258</url>
+			<bugID>Issue #258</bugID>
+			<label>Feature request</label>
+			<description>
+		When composing a tweet, the account(s) to tweet from are preserved from the last time the window was opened. In the case of tabs that are for specific accounts, I think it would be incredibly convenient option to have where the account set to that of the current tab. Also, I think it might be worth while to add an option to disable the ability to tweet from multiple accounts at any given time.
+	</description>
+		</report>
+		<report Number="10">
+			<summary>[Feature request] In-app browser</summary>
+			<url>https://github.com/TwidereProject/Twidere-Android/issues/263</url>
+			<bugID>Issue #263</bugID>
+			<label>Feature request</label>
+			<description>
+		No description provided.
+	</description>
+		</report>
+		<report Number="11">
+			<summary>Single column for Likes by your followings</summary>
+			<url>https://github.com/TwidereProject/Twidere-Android/issues/265</url>
+			<bugID>Issue #265</bugID>
+			<label>Feature request</label>
+			<description>
+		I see you can add columns with likes by a single user but I wonder if it's possible to have a single column with the likes from all the users I want or at least with likes by all my followings. Something like the &quot;Activity&quot; column in Tweetdeck.
+	</description>
+		</report>
+		<report Number="12">
+			<summary>Mentions only notifications timeline</summary>
+			<url>https://github.com/TwidereProject/Twidere-Android/issues/306</url>
+			<bugID>Issue #306</bugID>
+			<label>Feature request</label>
+			<description>
+		https://quitter.se/notice/4494999
+	</description>
+		</report>
+		<report Number="13">
+			<summary>Save, refresh and share features in media viewer</summary>
+			<url>https://github.com/TwidereProject/Twidere-Android/issues/310</url>
+			<bugID>Issue #310</bugID>
+			<label>Feature request</label>
+			<description>
+		No description provided.
+	</description>
+		</report>
+		<report Number="14">
+			<summary>Implement activities by friends tab</summary>
+			<url>https://github.com/TwidereProject/Twidere-Android/issues/368</url>
+			<bugID>Issue #368</bugID>
+			<label>Feature request</label>
+			<description>
+		No description provided.
+	</description>
+		</report>
+		<report Number="15">
+			<summary>Option to attach coarse location for new tweet (display_coordinates = false)</summary>
+			<url>https://github.com/TwidereProject/Twidere-Android/issues/388</url>
+			<bugID>Issue #388</bugID>
+			<label>Feature request</label>
+			<description>
+		No description provided.
+	</description>
+		</report>
+		<report Number="16">
+			<summary>More twitter intent support</summary>
+			<url>https://github.com/TwidereProject/Twidere-Android/issues/413</url>
+			<bugID>Issue #413</bugID>
+			<label>Feature request</label>
+			<description>
+		Retweet: https://twitter.com/intent/retweet?tweet_id=701671694126051330 Favorite: https://twitter.com/intent/favorite?tweet_id=701671694126051330
+	</description>
+		</report>
+		<report Number="17">
+			<summary>feature request: long press to reveal card actions</summary>
+			<url>https://github.com/TwidereProject/Twidere-Android/issues/427</url>
+			<bugID>Issue #427</bugID>
+			<label>Feature request</label>
+			<description>
+		No description provided.
+	</description>
+		</report>
+		<report Number="18">
+			<summary>feature request: support for groups in GNU social</summary>
+			<url>https://github.com/TwidereProject/Twidere-Android/issues/444</url>
+			<bugID>Issue #444</bugID>
+			<label>Feature request</label>
+			<description>
+		In GNU social there are groups which are written with a bangtag, for example there is a Twidere group which would be written (and displayed) like !twidere. At the moment these bangtags are not highlighted in any way. Since I think this could be a bit more work it is up to you to decide if you want to implement it. Maybe it is possible to at least detect the groups and figure out their URL to open it in the browser? #296
+	</description>
+		</report>
+		<report Number="19">
+			<summary>Add a media tab in search result</summary>
+			<url>https://github.com/TwidereProject/Twidere-Android/issues/612</url>
+			<bugID>Issue #612</bugID>
+			<label>Feature request</label>
+			<description>
+		Hi, is it possible to add a tab between tweet and user displaying tweets with média in it ? Thanks in advance !
+	</description>
+		</report>
+		<report Number="20">
+			<summary>Copy ONLY the Tweet's URL?</summary>
+			<url>https://github.com/TwidereProject/Twidere-Android/issues/627</url>
+			<bugID>Issue #627</bugID>
+			<label>Feature request</label>
+			<description>
+		Twidere seems to allow you to copy the text of a tweet, but not just the URL by itself. If I go to the Share option, it will share the URL but it will copy the text of the tweet along with the URL. I want a way to copy ONLY the URL. In Twitter's official mobile app you can simply select &quot;Copy link to tweet&quot; and it does that just fine. Is there no way to do that in Twidere, or am I simply overlooking it? I love Twidere, but this is an option I've really been missing.
+	</description>
+		</report>
+		<report Number="21">
+			<summary>Use Android's built-in account sync</summary>
+			<url>https://github.com/TwidereProject/Twidere-Android/issues/634</url>
+			<bugID>Issue #634</bugID>
+			<label>Feature request</label>
+			<description>
+		As the title says, I'd like to suggest switching to Android's built-in account sync instead of a constant background process. My device is a low-end phone w/ 1GB RAM, so even a few background tasks tends to make it slow down pretty quickly. AndStatus uses Android's built-in sync, but Twidere has so many more features (plus I like Twidere's UI better).
+	</description>
+		</report>
+		<report Number="22">
+			<summary>Feature request: Edit keyword filters</summary>
+			<url>https://github.com/TwidereProject/Twidere-Android/issues/688</url>
+			<bugID>Issue #688</bugID>
+			<label>Feature request</label>
+			<description>
+		I learned from https://twitter.com/twidereproject/status/310245269738504192 that Twidere's keyword filter can use wildcards. That being said, it would be great if Twidere would support editing keyword filters that have already been saved. This would be a great opportunity to tweak older filters.
+	</description>
+		</report>
+		<report Number="23">
+			<summary>Feature request: Send tweets and retweets to Buffer</summary>
+			<url>https://github.com/TwidereProject/Twidere-Android/issues/689</url>
+			<bugID>Issue #689</bugID>
+			<label>Feature request</label>
+			<description>
+		As a user of Buffer I'd like Twidere to be able to send tweets and retweets to my buffer schedule rather than posting them instantly.
+	</description>
+		</report>
+		<report Number="24">
+			<summary>Feature request: Add Mute user / Block Retweets by user to tweet options</summary>
+			<url>https://github.com/TwidereProject/Twidere-Android/issues/690</url>
+			<bugID>Issue #690</bugID>
+			<label>Feature request</label>
+			<description>
+		Klicking on the three dots opens options for every tweet. You can add filters right there, which is great. But this could be even better: It would help if you could also mute someone right there without having to open their profile (this would save 2-3 clicks). Same goes with disallowing the person's retweets.
+	</description>
+		</report>
+		<report Number="25">
+			<summary>Improve video player</summary>
+			<url>https://github.com/TwidereProject/Twidere-Android/issues/691</url>
+			<bugID>Issue #691</bugID>
+			<label>Feature request</label>
+			<description>
+		Currently is not possible to: play videos with audio enabled by default move the position pointer to go forward or back I think it would be nice
+	</description>
+		</report>
+		<report Number="26">
+			<summary>Save failed Favs/RTs to drafts</summary>
+			<url>https://github.com/TwidereProject/Twidere-Android/issues/693</url>
+			<bugID>Issue #693</bugID>
+			<label>Feature request</label>
+			<description>
+		No description provided. 👍 1
+	</description>
+		</report>
+		<report Number="27">
+			<summary>GIPHY integration</summary>
+			<url>https://github.com/TwidereProject/Twidere-Android/issues/697</url>
+			<bugID>Issue #697</bugID>
+			<label>Feature request</label>
+			<description>
+		No description provided.
+	</description>
+		</report>
+		<report Number="28">
+			<summary>Temporary mute filter</summary>
+			<url>https://github.com/TwidereProject/Twidere-Android/issues/699</url>
+			<bugID>Issue #699</bugID>
+			<label>Feature request</label>
+			<description>
+		No description provided.
+	</description>
+		</report>
+		<report Number="29">
+			<summary>&quot;Real aspect ratio&quot; media scale type</summary>
+			<url>https://github.com/TwidereProject/Twidere-Android/issues/700</url>
+			<bugID>Issue #700</bugID>
+			<label>Feature request</label>
+			<description>
+		No description provided.
+	</description>
+		</report>
+		<report Number="30">
+			<summary>Rewrite direct messages</summary>
+			<url>https://github.com/TwidereProject/Twidere-Android/issues/709</url>
+			<bugID>Issue #709</bugID>
+			<label>Feature request</label>
+			<description>
+		Send Refresh Load more Create new conversation Delete single message Delete whole conversation (For Twitter DM) Destroy conversation Delete all messages Manage conversation info Enable/Disable notifications Add recipients Quit conversation Change name Change icon
+	</description>
+		</report>
+		<report Number="31">
+			<summary>[Feature Request] Support Mastodon</summary>
+			<url>https://github.com/TwidereProject/Twidere-Android/issues/712</url>
+			<bugID>Issue #712</bugID>
+			<label>Feature request</label>
+			<description>
+		Mastodon is a new server for interacting with StatusNet networks, but it doesn't seem to use a client connection method that is compatible with existing StatusNet clients. Support for this will have to be added. https://github.com/tootsuite/mastodon/blob/master/docs/Using-Mastodon/FAQ.md 👍 9
+	</description>
+		</report>
+		<report Number="32">
+			<summary>Could I proxy video?</summary>
+			<url>https://github.com/TwidereProject/Twidere-Android/issues/725</url>
+			<bugID>Issue #725</bugID>
+			<label>Feature request</label>
+			<description>
+		Thumbor is useful to proxy pictures. And what about videos? How could I proxy video as simple as using thumbor? I don't want to turn my shadowsocks on again. Thanks.
+	</description>
+		</report>
+		<report Number="33">
+			<summary>Swipe down doesn't work</summary>
+			<url>https://github.com/TwidereProject/Twidere-Android/issues/726</url>
+			<bugID>Issue #726</bugID>
+			<label>Feature request</label>
+			<description>
+		Expected behavior Go to my profile and see tweets, likes and media. Actual behavior See swipe down to refresh, do it, and nothing happens. Not even the refreshing animation. Steps to reproduce Go to my profile, refresh swiping down, nothing happens. Extra info Android version: 5.02 Network type: Cellular Wi-Fi App version: Up to date on the store (3.4.22) Build variant: Google F-Droid Micro-blogging service: Twitter Fanfou GNU Social / StatusNet App settings: Custom API Custom consumer key/secrets Official keys Using Thumbor Connected through proxy Media preview enabled PS: sorry, I send it before completing it by mistake. Now it's done.
+	</description>
+		</report>
+		<report Number="34">
+			<summary>Make search query in search screen editable</summary>
+			<url>https://github.com/TwidereProject/Twidere-Android/issues/740</url>
+			<bugID>Issue #740</bugID>
+			<label>Feature request</label>
+			<description>
+		No description provided.
+	</description>
+		</report>
+		<report Number="35">
+			<summary>GNU social: Add support for public and network timeline</summary>
+			<url>https://github.com/TwidereProject/Twidere-Android/issues/758</url>
+			<bugID>Issue #758</bugID>
+			<label>Feature request</label>
+			<description>
+		I would like to add a tab with the public timeline of a GNU social instance (/main/public) and maybe even the network one (/main/all). This doesn't seem to be possible with the current version.
+	</description>
+		</report>
+		<report Number="36">
+			<summary>emoji expansion not working all the time</summary>
+			<url>https://github.com/TwidereProject/Twidere-Android/issues/793</url>
+			<bugID>Issue #793</bugID>
+			<label>Feature request</label>
+			<description>
+		Check before submitting issue -- Thank you! You can ignore this form if this issue is a feature request. Expected behavior emoji (represented by :xxx: should be expanded when displaying ID nicknames. Actual behavior 🔞 and :underage: doesn't get expanded in different IDs. ✅ (:white_check_mark:) doesn't get expanded sometimes. Steps to reproduce Extra info Android version: (version code here) Network type: Cellular Wi-Fi App version: (version code here) Build variant: Google F-Droid Micro-blogging service: Twitter Fanfou GNU Social / StatusNet Mastodon App settings: Custom API Custom consumer key/secrets Official keys Using Thumbor Connected through proxy Media preview enabled screenshot
+	</description>
+		</report>
+		<report Number="37">
+			<summary>[Feature Request] Display photos from Facebook</summary>
+			<url>https://github.com/TwidereProject/Twidere-Android/issues/794</url>
+			<bugID>Issue #794</bugID>
+			<label>Feature request</label>
+			<description>
+		Is it possible to make photos from Facebook display in the media preview like Instagram does? Thanks.
+	</description>
+		</report>
+		<report Number="38">
+			<summary>Remember compose visibility for mastodon</summary>
+			<url>https://github.com/TwidereProject/Twidere-Android/issues/801</url>
+			<bugID>Issue #801</bugID>
+			<label>Feature request</label>
+			<description>
+		No description provided.
+	</description>
+		</report>
+		<report Number="39">
+			<summary>[Feature Request] Add Support for Twitter's Pinned Tweets</summary>
+			<url>https://github.com/TwidereProject/Twidere-Android/issues/807</url>
+			<bugID>Issue #807</bugID>
+			<label>Feature request</label>
+			<description>
+		Title pretty much says it. The ability to pin a tweet isn't available on Twitter's mobile website. (I can't speak for their official app because I don't use it. It's as slow as their mobile site but worse, since it's an app, it slows my device down due to how Android works internally and my device's 1GB RAM constraints.) I have to switch to their monstrously-slow desktop site in order to pin a tweet to my profile. This functionality would be greatly appreciated here.
+	</description>
+		</report>
+		<report Number="40">
+			<summary>Sent picture or file with direct message [feature-request]</summary>
+			<url>https://github.com/TwidereProject/Twidere-Android/issues/831</url>
+			<bugID>Issue #831</bugID>
+			<label>Feature request</label>
+			<description>
+		hello, thank you for this good tool ( sorry for my bad english ) i use frequenly use direct message, my interlocutor can send me a picture or other media format but me i dont because i dont see option that allow me do this. can you add this like feature-request please ?
+	</description>
+		</report>
+		<report Number="41">
+			<summary>Transparent navigator bar ?</summary>
+			<url>https://github.com/TwidereProject/Twidere-Android/issues/868</url>
+			<bugID>Issue #868</bugID>
+			<label>Feature request</label>
+			<description>
+		Hello, Can you add option to active transparent navigator bar ? Extra info Android version: 4.4 App version: 3.6.16 Build variant: Google F-Droid
+	</description>
+		</report>
+		<report Number="42">
+			<summary>widget</summary>
+			<url>https://github.com/TwidereProject/Twidere-Android/issues/929</url>
+			<bugID>Issue #929</bugID>
+			<label>Feature request</label>
+			<description>
+		Add a widget that allows you to see tweets (including pictures in the widget) to see seen on the homescreen. Transparent would be nice. . Allowing pictures to be seen would be a plus. Most widgets don't have that feature. Just not the link but actually show the image or link preview.
+	</description>
+		</report>
+		<report Number="43">
+			<summary>Customize 'scopes' for filters</summary>
+			<url>https://github.com/TwidereProject/Twidere-Android/issues/947</url>
+			<bugID>Issue #947</bugID>
+			<label>Feature request</label>
+			<description>
+		Make one filter rule only applied to home, interactions etc.
+	</description>
+		</report>
+		<report Number="44">
+			<summary>filters</summary>
+			<url>https://github.com/TwidereProject/Twidere-Android/issues/957</url>
+			<bugID>Issue #957</bugID>
+			<label>Feature request</label>
+			<description>
+		Hi i filter spam tweets by its source but i still see that source tweets in every hashtag or search can u add &quot;multiple selection option&quot; for many tweets so i can retweet it by one click or follow their users , spam them .....
+	</description>
+		</report>
+		<report Number="45">
+			<summary>[Mastodon] Character Limit Issue</summary>
+			<url>https://github.com/TwidereProject/Twidere-Android/issues/966</url>
+			<bugID>Issue #966</bugID>
+			<label>Feature request</label>
+			<description>
+		Some Mastodon instances have 1024 character limit but Twidere only allows users to publish 500-characters toots. The GNUsocial instance, Load Average, has no limit and Twidere respects that. Please make Twidere do the same for Mastodon instances. Android 5.1. Twidere version 3.6.29 (F-Droid). Thanks.
+	</description>
+		</report>
+		<report Number="46">
+			<summary>[Feature request] Support for media alt text on Mastodon accounts</summary>
+			<url>https://github.com/TwidereProject/Twidere-Android/issues/1007</url>
+			<bugID>Issue #1007</bugID>
+			<label>Feature request</label>
+			<description>
+		v.2.0.0 introduced the ability to add alt text to media on Mastodon. Even though there is already a way to do this on Twitter accounts with Twidere, it doesn't seem to be compatible with Mastodon. This is an important feature regarding accessibility. v2.0.0 was published 9 days ago and the last update for Twidere was released on October 11, my guess it isn't implemented yet since I posted this toot from Twidere for Android and the alt text is lacking.
+	</description>
+		</report>
+		<report Number="47">
+			<summary>Make filter rule can be applied to users not followed only</summary>
+			<url>https://github.com/TwidereProject/Twidere-Android/issues/1020</url>
+			<bugID>Issue #1020</bugID>
+			<label>Feature request</label>
+			<description>
+		No description provided.
+	</description>
+		</report>
+	</reports>

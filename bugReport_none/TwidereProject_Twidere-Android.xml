@@ -1,0 +1,2550 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<reports>
+		<report Number="0">
+			<summary>Multiple images upload does not work</summary>
+			<url>https://github.com/TwidereProject/Twidere-Android/issues/1</url>
+			<bugID>Issue #1</bugID>
+			<label>None yet</label>
+			<description>
+		If you choose multiple images to upload, onlx the first one will be uploaded
+	</description>
+		</report>
+		<report Number="1">
+			<summary>Plixi and Lockerz image preview does not work</summary>
+			<url>https://github.com/TwidereProject/Twidere-Android/issues/2</url>
+			<bugID>Issue #2</bugID>
+			<label>None yet</label>
+			<description>
+		No description provided.
+	</description>
+		</report>
+		<report Number="2">
+			<summary>Twitgoo image preview does not work</summary>
+			<url>https://github.com/TwidereProject/Twidere-Android/issues/3</url>
+			<bugID>Issue #3</bugID>
+			<label>None yet</label>
+			<description>
+		No description provided.
+	</description>
+		</report>
+		<report Number="3">
+			<summary>Twidere for Android 2.3.7</summary>
+			<url>https://github.com/TwidereProject/Twidere-Android/issues/5</url>
+			<bugID>Issue #5</bugID>
+			<label>None yet</label>
+			<description>
+		Hi and great work !! I used Twidere since January (I think) and after re-mod ing my phone I can not install it again. Market says &quot;This app is incompatible with your device&quot;. But in your README file it says &quot;Twidere is a powerful twitter client for Android 1.6+&quot; and &quot;There're two versions, one for Android 4.0+, another for Android 1.6 to Android 3.2&quot;. How can I install the proper version to my android phone ? I have Android 2.3.7 (CyanogeMod-7.2.0) and Kernel 2.6.35.7 (as my phone's info says) regards
+	</description>
+		</report>
+		<report Number="4">
+			<summary>Status view and 'Refresh on start'</summary>
+			<url>https://github.com/TwidereProject/Twidere-Android/issues/7</url>
+			<bugID>Issue #7</bugID>
+			<label>None yet</label>
+			<description>
+		The status view breaks if you have Refresh on start enabled. You can not show the conversation and the 'loading icon' is hanging. If you disable Refresh on start, it instantly works again.
+	</description>
+		</report>
+		<report Number="5">
+			<summary>Out of memory while opening embeded image</summary>
+			<url>https://github.com/TwidereProject/Twidere-Android/issues/9</url>
+			<bugID>Issue #9</bugID>
+			<label>None yet</label>
+			<description>
+		The image viewer activity crashes sometimes (Not the whole Twidere. Only image viewer). Here is the call stack. Report date: Sun Aug 10 23:19:08 GMT+09:00 2014 Android version: 4.4.2 API version: 19 App version name: 0.2.9.12 App version code: 94 Configuration: {0.78 450mcc5mnc ko_KR ldltr sw360dp w360dp h615dp 480dpi nrml long port finger -keyb/v/h -nav/h s.7fontTypeIndex2} Stack trace: java.lang.RuntimeException: An error occured while executing doInBackground() at android.support.v4.content.ModernAsyncTask$3.done(ModernAsyncTask.java:137) at java.util.concurrent.FutureTask.finishCompletion(FutureTask.java:355) at java.util.concurrent.FutureTask.setException(FutureTask.java:222) at java.util.concurrent.FutureTask.run(FutureTask.java:242) at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1112) at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:587) at java.lang.Thread.run(Thread.java:841) Caused by: java.lang.OutOfMemoryError at android.graphics.BitmapRegionDecoder.nativeDecodeRegion(Native Method) at android.graphics.BitmapRegionDecoder.decodeRegion(BitmapRegionDecoder.java:188) at org.mariotaku.gallery3d.GLImageLoader.decodeImage(GLImageLoader.java:155) at org.mariotaku.gallery3d.GLImageLoader.decodeImageInternal(GLImageLoader.java:168) at org.mariotaku.gallery3d.GLImageLoader.loadInBackground(GLImageLoader.java:116) at org.mariotaku.gallery3d.GLImageLoader.loadInBackground(GLImageLoader.java:51) at android.support.v4.content.AsyncTaskLoader.onLoadInBackground(AsyncTaskLoader.java:242) at android.support.v4.content.AsyncTaskLoader$LoadTask.doInBackground(AsyncTaskLoader.java:51) at android.support.v4.content.AsyncTaskLoader$LoadTask.doInBackground(AsyncTaskLoader.java:40) at android.support.v4.content.ModernAsyncTask$2.call(ModernAsyncTask.java:123) at java.util.concurrent.FutureTask.run(FutureTask.java:237) ... 3 more java.lang.OutOfMemoryError at android.graphics.BitmapRegionDecoder.nativeDecodeRegion(Native Method) at android.graphics.BitmapRegionDecoder.decodeRegion(BitmapRegionDecoder.java:188) at org.mariotaku.gallery3d.GLImageLoader.decodeImage(GLImageLoader.java:155) at org.mariotaku.gallery3d.GLImageLoader.decodeImageInternal(GLImageLoader.java:168) at org.mariotaku.gallery3d.GLImageLoader.loadInBackground(GLImageLoader.java:116) at org.mariotaku.gallery3d.GLImageLoader.loadInBackground(GLImageLoader.java:51) at android.support.v4.content.AsyncTaskLoader.onLoadInBackground(AsyncTaskLoader.java:242) at android.support.v4.content.AsyncTaskLoader$LoadTask.doInBackground(AsyncTaskLoader.java:51) at android.support.v4.content.AsyncTaskLoader$LoadTask.doInBackground(AsyncTaskLoader.java:40) at android.support.v4.content.ModernAsyncTask$2.call(ModernAsyncTask.java:123) at java.util.concurrent.FutureTask.run(FutureTask.java:237) at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1112) at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:587) at java.lang.Thread.run(Thread.java:841)
+	</description>
+		</report>
+		<report Number="6">
+			<summary>Position lost after exiting with &quot;back&quot;-button</summary>
+			<url>https://github.com/TwidereProject/Twidere-Android/issues/14</url>
+			<bugID>Issue #14</bugID>
+			<label>None yet</label>
+			<description>
+		After exiting Twidere with the physical &quot;back&quot;-button it loses the position (jumps to newest) and discards older tweets, which can be quite annoying, when I have not read them yet.
+	</description>
+		</report>
+		<report Number="7">
+			<summary>User retweet not removed when this user gets unfollowed</summary>
+			<url>https://github.com/TwidereProject/Twidere-Android/issues/16</url>
+			<bugID>Issue #16</bugID>
+			<label>None yet</label>
+			<description>
+		When you unfollow some accounts and go back to your home timeline, their tweets get removed but not their retweet messages. Always reproducable.
+	</description>
+		</report>
+		<report Number="8">
+			<summary>Option menu in compose dialog is too short</summary>
+			<url>https://github.com/TwidereProject/Twidere-Android/issues/20</url>
+			<bugID>Issue #20</bugID>
+			<label>None yet</label>
+			<description>
+		Please find the picture above: In portrait mode the option menu is too short, when sending tweets containing pictures, a menu item will appear saying Mark as se..., this option is too short to even guess its meaning.
+	</description>
+		</report>
+		<report Number="9">
+			<summary>Has https://github.com/mariotaku/twidere been abandoned ?</summary>
+			<url>https://github.com/TwidereProject/Twidere-Android/issues/23</url>
+			<bugID>Issue #23</bugID>
+			<label>None yet</label>
+			<description>
+		Hello, I found this Twidere repository while searching on GitHub, has the other repository https://github.com/mariotaku/twidere been abandoned for the sake of this one ?
+	</description>
+		</report>
+		<report Number="10">
+			<summary>Wishlist: Please add a Changelog/NEWS file</summary>
+			<url>https://github.com/TwidereProject/Twidere-Android/issues/25</url>
+			<bugID>Issue #25</bugID>
+			<label>None yet</label>
+			<description>
+		I hope that in that new project you would add a changelog or NEWS file that summarizes the changes between releases. Please note that not all users use Google Play to get Twidere. Thanks.
+	</description>
+		</report>
+		<report Number="11">
+			<summary>Some pictures on supported sites not loading,</summary>
+			<url>https://github.com/TwidereProject/Twidere-Android/issues/28</url>
+			<bugID>Issue #28</bugID>
+			<label>None yet</label>
+			<description>
+		See. Subject Also, the said links do not offer to serve up a web page The SPORT Bible (@tsbible), at 5:06PM, 22 Oct - Carlo Ancelotti had this to say on Liverpool before their big game tonight. Not many managers would admit this! http://t.co/hOo4mEGPph This user is in my tl , can't fave if I fave tweets but can retweet
+	</description>
+		</report>
+		<report Number="12">
+			<summary>Threading is broken?</summary>
+			<url>https://github.com/TwidereProject/Twidere-Android/issues/32</url>
+			<bugID>Issue #32</bugID>
+			<label>None yet</label>
+			<description>
+		Since the update to 0.3.0-dev I've noticed that Twidere no longer shows the &quot;in reply to&quot; threads. There are several complaints on Google Play about this. The threaded messages appear to load very briefly but flicker quickly and disappear. The spinner in the top right freezes when reading a status which is part of a thread.
+	</description>
+		</report>
+		<report Number="13">
+			<summary>Very slow image loading</summary>
+			<url>https://github.com/TwidereProject/Twidere-Android/issues/33</url>
+			<bugID>Issue #33</bugID>
+			<label>None yet</label>
+			<description>
+		I see the image previews in the TL, but when I click on them to see full size, it takes very long time loading. Is it normal? Or I have a problem?
+	</description>
+		</report>
+		<report Number="14">
+			<summary>Crash on Android 5.0</summary>
+			<url>https://github.com/TwidereProject/Twidere-Android/issues/34</url>
+			<bugID>Issue #34</bugID>
+			<label>None yet</label>
+			<description>
+		Phone: Nexus 5 When launch Twidere, it crash immediately.
+	</description>
+		</report>
+		<report Number="15">
+			<summary>Unread count font issue</summary>
+			<url>https://github.com/TwidereProject/Twidere-Android/issues/35</url>
+			<bugID>Issue #35</bugID>
+			<label>None yet</label>
+			<description>
+		Just updated to version 0.3.0-dev-google and saw this -
+	</description>
+		</report>
+		<report Number="16">
+			<summary>Sources for JsonSerializer?</summary>
+			<url>https://github.com/TwidereProject/Twidere-Android/issues/37</url>
+			<bugID>Issue #37</bugID>
+			<label>None yet</label>
+			<description>
+		Could you point me to the sourcecode/revision used for the JsonSerializer? I tried to replace the jar files, but using JsonSerializer from @mariotaku didn't work, maybe It's me or an update didn't get pushed. The error message: org.mariotaku.twidere/twidere/src/main/java/org/mariotaku/twidere/util/Utils.java:396: error: cannot find symbol
+                intent.putExtra(parelableJSONKey, JSONSerializer.toJSONObjectString(parcelable));
+                                                                ^
+  symbol:   method toJSONObjectString(TwidereParcelable)
+  location: class JSONSerializer
+	</description>
+		</report>
+		<report Number="17">
+			<summary>Tweets are sort neither by time or by ID in timeline</summary>
+			<url>https://github.com/TwidereProject/Twidere-Android/issues/41</url>
+			<bugID>Issue #41</bugID>
+			<label>None yet</label>
+			<description>
+		I don't understand why my timeline is messed up : tweets are randomly sort. I have tried to check/unckeck sort by ID in settings but it doesn't change anyhting. I would like to have the newest at the top and sort it by time but it doesn't work. (I've seen that you make it possible non long ago but..)
+	</description>
+		</report>
+		<report Number="18">
+			<summary>Swipe to fav/RT</summary>
+			<url>https://github.com/TwidereProject/Twidere-Android/issues/44</url>
+			<bugID>Issue #44</bugID>
+			<label>None yet</label>
+			<description>
+		I would love to have the option to swipe tweets out of the timeline to the left/right to fav/RT them(sort of like archiving/deleting emails in gmail).
+	</description>
+		</report>
+		<report Number="19">
+			<summary>Crash during automatic refresh after posting</summary>
+			<url>https://github.com/TwidereProject/Twidere-Android/issues/52</url>
+			<bugID>Issue #52</bugID>
+			<label>None yet</label>
+			<description>
+		As I mentioned on twitter a few days back, if I have automatic refresh after posting turned on, there's a high (but not 100%) chance that Twidere will crash. Unfortunately I don't know under what circumstances it survives. Turning off auto refresh and refreshing manually works without trouble anytime.
+	</description>
+		</report>
+		<report Number="20">
+			<summary>Create release tag (used for f-droid auto-update)</summary>
+			<url>https://github.com/TwidereProject/Twidere-Android/issues/62</url>
+			<bugID>Issue #62</bugID>
+			<label>None yet</label>
+			<description>
+		Hello, F-droid build is old, really old. Would be great if it could be at least updated manually (I can do some merge request if you want) or, better, if you could create version tags so that we can activate the auto-update mode… Cheers, C.
+	</description>
+		</report>
+		<report Number="21">
+			<summary>Link highlight option is not working in the timeline (Tabs)</summary>
+			<url>https://github.com/TwidereProject/Twidere-Android/issues/63</url>
+			<bugID>Issue #63</bugID>
+			<label>None yet</label>
+			<description>
+		Link Highlighting is not working in the timeline (tab), but it seems to be working when you select a tweet and go to the &quot;tweet&quot; screen.
+	</description>
+		</report>
+		<report Number="22">
+			<summary>Instant (Accelerated) Back to Top</summary>
+			<url>https://github.com/TwidereProject/Twidere-Android/issues/74</url>
+			<bugID>Issue #74</bugID>
+			<label>None yet</label>
+			<description>
+		If you go far enough down a list, it takes several seconds to slowly scroll back to the latest tweet after pressing the tab icon. Don't see why this is not instantaneous. Animation is fun to have but this feels unnecessary.
+	</description>
+		</report>
+		<report Number="23">
+			<summary>Loading More Mentions Generates Notification</summary>
+			<url>https://github.com/TwidereProject/Twidere-Android/issues/75</url>
+			<bugID>Issue #75</bugID>
+			<label>None yet</label>
+			<description>
+		Presumably it should not give me a notification for every 20 (old) mentions retrieved.
+	</description>
+		</report>
+		<report Number="24">
+			<summary>Crash on &quot;Other settings&quot; and the profile picture</summary>
+			<url>https://github.com/TwidereProject/Twidere-Android/issues/79</url>
+			<bugID>Issue #79</bugID>
+			<label>None yet</label>
+			<description>
+		Hi. I am currently under Twidere Version 0.3.0-dev150319 on a 4.1.1 Android device. When i want to open &quot;Other settings&quot; and I try to see a profil picture, the app is crashing instantly.
+	</description>
+		</report>
+		<report Number="25">
+			<summary>Messages in DMs displayed twice</summary>
+			<url>https://github.com/TwidereProject/Twidere-Android/issues/83</url>
+			<bugID>Issue #83</bugID>
+			<label>None yet</label>
+			<description>
+		Using latest commit 72aaf3a - Nexus 5 android 5.1 When I'm opening a conversation, I see my messages twice, like this:
+	</description>
+		</report>
+		<report Number="26">
+			<summary>Image upload with alternative Consumer Key results in 404.</summary>
+			<url>https://github.com/TwidereProject/Twidere-Android/issues/87</url>
+			<bugID>Issue #87</bugID>
+			<label>None yet</label>
+			<description>
+		Working: After deleting the complete app data and app cache and logging in, image upload via Twitter Image Service (default service) works. Not working: After deleting the complete app data and app cache again, then changing the Consumer Key and Consumer Secret, and logging in, image upload via Twitter Image Service (default service) results in an Error 404 and saving the tweet to draft. Using Twidere 0.3.0-dev150322 fdroid-release.
+	</description>
+		</report>
+		<report Number="27">
+			<summary>Can't directly open image; Pinch to zoom not working?</summary>
+			<url>https://github.com/TwidereProject/Twidere-Android/issues/89</url>
+			<bugID>Issue #89</bugID>
+			<label>None yet</label>
+			<description>
+		Nexus 5 Android 5.1 - Commit 4f34fb4 From the timeline or on a user profile, tapping the picture doesn't open it in fullscreen. I need to open the tweet first ( + tap &quot;Load media&quot; because I'm not using Wifi) and finally I can tap on the picture to see it in fullscreen. Also, the pinch to zoom doesn't work. Screencast here
+	</description>
+		</report>
+		<report Number="28">
+			<summary>open user profiles from links like twitter.com/username</summary>
+			<url>https://github.com/TwidereProject/Twidere-Android/issues/95</url>
+			<bugID>Issue #95</bugID>
+			<label>None yet</label>
+			<description>
+		if user is referred via link like twitter.com/username (used to avoid notifications instead of @username) twidere at first suggests to open it in external browser (and twidere by self) but if selected again suggests to open in browser.
+	</description>
+		</report>
+		<report Number="29">
+			<summary>Trend tab stays empty</summary>
+			<url>https://github.com/TwidereProject/Twidere-Android/issues/99</url>
+			<bugID>Issue #99</bugID>
+			<label>None yet</label>
+			<description>
+		The trend tap is always empty and also can't be loaded or updated by dragging down. I tried multiple trend locations and languages. Twidere 0.3.0 dev 2015-03-29 / Android 4.3
+	</description>
+		</report>
+		<report Number="30">
+			<summary>No menu button: Opening menu with a swipe and swiping tabs sometimes collides</summary>
+			<url>https://github.com/TwidereProject/Twidere-Android/issues/100</url>
+			<bugID>Issue #100</bugID>
+			<label>None yet</label>
+			<description>
+		As the phone's menu button does not open the menu anymore and there's also no menu button in the GUI, the only way to open it is by swiping from the left border of the phone's display. Often enough it happens, that I accidentally swipe tabs when I really want to open up the menu. So there should be a menu button in the GUI and maybe also the phone's menu button (if the phone has one) should open the menu. Twidere 0.3.0 dev 2015-03-29 / Android 4.3 / Samsung Galaxy S3
+	</description>
+		</report>
+		<report Number="31">
+			<summary>Sent DMs are displayed as unread in the DMs tab</summary>
+			<url>https://github.com/TwidereProject/Twidere-Android/issues/101</url>
+			<bugID>Issue #101</bugID>
+			<label>None yet</label>
+			<description>
+		After sending a new DM and going back to the tab, the conversation will be shown as &quot;unread&quot; in the DMs tab (it is displayed in bold font) unless you re-enter the chat. Twidere 0.3.0 dev 2015-03-29 / Android 4.3
+	</description>
+		</report>
+		<report Number="32">
+			<summary>Fav status does not update when faved from a list tab</summary>
+			<url>https://github.com/TwidereProject/Twidere-Android/issues/102</url>
+			<bugID>Issue #102</bugID>
+			<label>None yet</label>
+			<description>
+		When I open a tweet's detail view from a list tab, I can fav the tweet, but the fav button is not updated. Also, when going back to the tab view and even when going back again to the tweet detail view, the fav button remains grey. In the main timeline tab and also in the view of the user who wrote the tweet, the fav button is displayed correctly as yellow. Twidere 0.3.0 dev 2015-03-29 / Android 4.3
+	</description>
+		</report>
+		<report Number="33">
+			<summary>Loading animation is constantly shown in DM tab</summary>
+			<url>https://github.com/TwidereProject/Twidere-Android/issues/103</url>
+			<bugID>Issue #103</bugID>
+			<label>None yet</label>
+			<description>
+		The DM tab constantly shows a &quot;loading circle&quot; animation at the bottom.
+	</description>
+		</report>
+		<report Number="34">
+			<summary>Option to REMOVE Compose Button entirely</summary>
+			<url>https://github.com/TwidereProject/Twidere-Android/issues/104</url>
+			<bugID>Issue #104</bugID>
+			<label>None yet</label>
+			<description>
+		I'm not well-versed in Java so I can't attempt this myself, hence this enhancement suggestion. I appreciate the new option to move this button to the right, but it still takes up precious real estate and only scrolls off when moving the timeline the wrong way. (I read from where I left off towards the present.) A simple fix would be to add a second toggle option, which would remove this button entirely. It's redundant with the &quot;Compose&quot; item in the left-hand drawer menu anyway. :)
+	</description>
+		</report>
+		<report Number="35">
+			<summary>DM notification does not disappear after opening DM from the tab</summary>
+			<url>https://github.com/TwidereProject/Twidere-Android/issues/105</url>
+			<bugID>Issue #105</bugID>
+			<label>None yet</label>
+			<description>
+		A DM notification in the status bar has to be deleted manually, as it does not disappear, when opening the DM from the DM tab (and not from the notification). Twidere 0.3.0 dev 2015-03-29 / Android 4.3
+	</description>
+		</report>
+		<report Number="36">
+			<summary>Touching DM notification: App does not open</summary>
+			<url>https://github.com/TwidereProject/Twidere-Android/issues/110</url>
+			<bugID>Issue #110</bugID>
+			<label>None yet</label>
+			<description>
+		When having received a DM notification and touching it, the app does not open anymore. With mention notifications, it still works. Twidere 0.3.0 dev 2015-04-04 / Android 4.3 / Samsung S3 i9305
+	</description>
+		</report>
+		<report Number="37">
+			<summary>Twidere crashes when opening a tweet</summary>
+			<url>https://github.com/TwidereProject/Twidere-Android/issues/137</url>
+			<bugID>Issue #137</bugID>
+			<label>None yet</label>
+			<description>
+		device is nexus 7 2012 runing cyanogenmod 10.1. This appear un the last version installed yesterday via google play store (0.3.0)
+	</description>
+		</report>
+		<report Number="38">
+			<summary>Menu key on the android phone doesn't open up the &quot;sidebar&quot; (0.3.0 dev 2015-04-26)</summary>
+			<url>https://github.com/TwidereProject/Twidere-Android/issues/138</url>
+			<bugID>Issue #138</bugID>
+			<label>None yet</label>
+			<description>
+		When viewing the twitter timeline and pressing the menu key doesn't open the &quot;Sidebar&quot;. It doesn't seem to do anything? Swiping from left to right on the screen opens the sidebar. (profile, settings, etc..)
+	</description>
+		</report>
+		<report Number="39">
+			<summary>Deleting a draft makes app hang in endless loop</summary>
+			<url>https://github.com/TwidereProject/Twidere-Android/issues/139</url>
+			<bugID>Issue #139</bugID>
+			<label>None yet</label>
+			<description>
+		When selecting a draft tweet by long-tapping and then deleting it, it will be deleted, but the app hangs in an endless loop of the &quot;please wait&quot; popup. Then you have to kill the app process and restart it. Version 0.3.0 dev 2015-04-27
+	</description>
+		</report>
+		<report Number="40">
+			<summary>Favorite icon doesn't update when pressed on the tweet detail page. (Using latest version)</summary>
+			<url>https://github.com/TwidereProject/Twidere-Android/issues/142</url>
+			<bugID>Issue #142</bugID>
+			<label>None yet</label>
+			<description>
+		If I click on a tweet i am taken to the &quot;detail&quot; page. If I press the favorite/star button then the tweet is added as a favorite, but the icon doesn't refresh until i click back and click on that tweet again.
+	</description>
+		</report>
+		<report Number="41">
+			<summary>&quot;Display name first&quot; on cards doesn't work</summary>
+			<url>https://github.com/TwidereProject/Twidere-Android/issues/145</url>
+			<bugID>Issue #145</bugID>
+			<label>None yet</label>
+			<description>
+		On cards user name is always first. Turn off option &quot;Display name first&quot; does not nickname first
+	</description>
+		</report>
+		<report Number="42">
+			<summary>Gesture slide right to left opens empty space</summary>
+			<url>https://github.com/TwidereProject/Twidere-Android/issues/146</url>
+			<bugID>Issue #146</bugID>
+			<label>None yet</label>
+			<description>
+		Slide from right screen edge to the left opens empty space. Screenshot: https://www.dropbox.com/s/n8hfvu8nth8cbmw/Screenshot_2015-05-19-15-40-01.png Video example: https://www.dropbox.com/s/95nlq6eruzxher0/19.05.15-15-29.mp4
+	</description>
+		</report>
+		<report Number="43">
+			<summary>Security: Media should use media_url_https</summary>
+			<url>https://github.com/TwidereProject/Twidere-Android/issues/149</url>
+			<bugID>Issue #149</bugID>
+			<label>None yet</label>
+			<description>
+		Currently, all the profile images, background images, and media images are loaded over HTTP. Would it be possible to switch this to HTTPS in order to increase the security and privacy of the user? For example, replacing media_url with media_url_https?
+	</description>
+		</report>
+		<report Number="44">
+			<summary>[Feature Request] Show same tweet from multiple accounts only once</summary>
+			<url>https://github.com/TwidereProject/Twidere-Android/issues/151</url>
+			<bugID>Issue #151</bugID>
+			<label>None yet</label>
+			<description>
+		I was wondering if it'd be possible to do this. For example, if I'm following The Guardian on two accounts, their tweets show up twice, once per account. Could it be possible to show it just once, and have the colour line (to identify which account it is from) be broken into pieces (in this case 2), with the colours chosen for each account? Does that make sense?
+	</description>
+		</report>
+		<report Number="45">
+			<summary>Comment Retweets</summary>
+			<url>https://github.com/TwidereProject/Twidere-Android/issues/153</url>
+			<bugID>Issue #153</bugID>
+			<label>None yet</label>
+			<description>
+		It would be nice to be able to use twitters new feature to add a commentary to a retweet. (Not sure the api permits 3rd party clients to do this)
+	</description>
+		</report>
+		<report Number="46">
+			<summary>Wrong scroll position when opening new DM</summary>
+			<url>https://github.com/TwidereProject/Twidere-Android/issues/155</url>
+			<bugID>Issue #155</bugID>
+			<label>None yet</label>
+			<description>
+		When opening a conversation after receiving a new DM, the scroll position is not at the end of the conversation, but somewhere above. 0.3.0 dev 2015-05-01
+	</description>
+		</report>
+		<report Number="47">
+			<summary>tweet links not opening in twidere</summary>
+			<url>https://github.com/TwidereProject/Twidere-Android/issues/157</url>
+			<bugID>Issue #157</bugID>
+			<label>None yet</label>
+			<description>
+		twidere registers for url intents for direct-link-to-tweet, but when I click a link to a tweet, and choose &quot;open with twidere&quot;, the link opens in browser anyway. instead, twidere should load the tweet by itself and show it with controls
+	</description>
+		</report>
+		<report Number="48">
+			<summary>Can't retweet from multiple accounts?</summary>
+			<url>https://github.com/TwidereProject/Twidere-Android/issues/158</url>
+			<bugID>Issue #158</bugID>
+			<label>None yet</label>
+			<description>
+		It appears that I can't retweet a single tweet from multiple Twitter accounts. If I retweet from my business account, then attempt to retweet from my personal account, I'm only given the option to cancel the retweet from my business account.
+	</description>
+		</report>
+		<report Number="49">
+			<summary>Preparing API calls and UI for longer DMs (Twitter feature change in July)</summary>
+			<url>https://github.com/TwidereProject/Twidere-Android/issues/160</url>
+			<bugID>Issue #160</bugID>
+			<label>None yet</label>
+			<description>
+		Twitter gave a heads-up that they will allow DirectMessages up to 10k characters in length in July. This would mean some UI changes for sending a DM, as well as a minor API call modification when receiving DMs via REST. https://twittercommunity.com/t/removing-the-140-character-limit-from-direct-messages/41348 REST API DM read endpoints (GET direct_messages, GET direct_messages/sent and GET direct_messages/show) Send “full_text=true” as a query parameter to receive long DM text. If this parameter is not provided, you will get a truncated version of the DM. There will be no structural changes to the response returned by these endpoints. DM write endpoint (POST direct_messages/new) The “text” parameter will start accepting text longer than 140 characters. The new limit for DMs will be 10k characters. Streaming API User Streams (GET user) and Site Streams (GET site) will automatically start receiving DMs that have text longer than 140 characters. Unlike the REST API, no additional parameter is needed. There will be no structural changes to the objects returned by these endpoints.
+	</description>
+		</report>
+		<report Number="50">
+			<summary>0 Replies is always there when clicking on a tweet.</summary>
+			<url>https://github.com/TwidereProject/Twidere-Android/issues/162</url>
+			<bugID>Issue #162</bugID>
+			<label>None yet</label>
+			<description>
+		It seems that 0 Replies is showing incorrect information as sometimes there's actually replies present, but the count is not updated?
+	</description>
+		</report>
+		<report Number="51">
+			<summary>Faving embedded tweet</summary>
+			<url>https://github.com/TwidereProject/Twidere-Android/issues/172</url>
+			<bugID>Issue #172</bugID>
+			<label>None yet</label>
+			<description>
+		When faving a tweet including an enbedded tweet from the timeline, it is unclear whether the tweet or the embedded tweet will be faved.
+	</description>
+		</report>
+		<report Number="52">
+			<summary>Unread counter on mention tab is wrong</summary>
+			<url>https://github.com/TwidereProject/Twidere-Android/issues/173</url>
+			<bugID>Issue #173</bugID>
+			<label>None yet</label>
+			<description>
+		Although all mentions have been read, a counter badge is shown to me on the tab (currently showing 46 unread mentions)
+	</description>
+		</report>
+		<report Number="53">
+			<summary>Embedded tweet display: Tweet text after link gets cut</summary>
+			<url>https://github.com/TwidereProject/Twidere-Android/issues/175</url>
+			<bugID>Issue #175</bugID>
+			<label>None yet</label>
+			<description>
+		When a tweet has a tweet link embedded in the middle of the tweet, everything after the tweet link is cut and not displayed. For example, &quot;Bla bla bla (see foo foo)&quot; would be rendered to &quot;Bla bla bla (see &quot;
+	</description>
+		</report>
+		<report Number="54">
+			<summary>limit image cache</summary>
+			<url>https://github.com/TwidereProject/Twidere-Android/issues/184</url>
+			<bugID>Issue #184</bugID>
+			<label>None yet</label>
+			<description>
+		image cache grows infinitely , till filling all available memory it would be great to have some automatic &quot;garbage collector&quot; that deletes old images and limits image cache to 100-200mb
+	</description>
+		</report>
+		<report Number="55">
+			<summary>Crash on clicking the &quot;attach picture&quot; button for DMs</summary>
+			<url>https://github.com/TwidereProject/Twidere-Android/issues/188</url>
+			<bugID>Issue #188</bugID>
+			<label>None yet</label>
+			<description>
+		Twidere crashes on clicking the &quot;attach picture&quot; button when creating a new DM in replying to a thread. Happens every time. Doesn't get as far as any &quot;choose picture&quot; dialog box. 0.3.0-dev-115 / F-Droid build / CM11
+	</description>
+		</report>
+		<report Number="56">
+			<summary>Profile image has wrong aspect ratio in composing dialog</summary>
+			<url>https://github.com/TwidereProject/Twidere-Android/issues/191</url>
+			<bugID>Issue #191</bugID>
+			<label>None yet</label>
+			<description>
+		是叫输入框？
+	</description>
+		</report>
+		<report Number="57">
+			<summary>Feature request: timeline scroll via volume buttons</summary>
+			<url>https://github.com/TwidereProject/Twidere-Android/issues/192</url>
+			<bugID>Issue #192</bugID>
+			<label>None yet</label>
+			<description>
+		A few other Twitter clients (Plume, Tweet Lanes, Twicca) have the option to scroll the timeline using the volume buttons (volume up: scroll one tweet up, volume down: scroll one tweet down). It would be super cool to have this feature in Twidere – once you try it you get used to it very much. :)
+	</description>
+		</report>
+		<report Number="58">
+			<summary>Navbar and read from bottom</summary>
+			<url>https://github.com/TwidereProject/Twidere-Android/issues/193</url>
+			<bugID>Issue #193</bugID>
+			<label>None yet</label>
+			<description>
+		When I use &quot;read from bottom&quot; I want hide top navbar when I scrolling to top, not to bottom.
+	</description>
+		</report>
+		<report Number="59">
+			<summary>Can't remove tweet from favorites</summary>
+			<url>https://github.com/TwidereProject/Twidere-Android/issues/195</url>
+			<bugID>Issue #195</bugID>
+			<label>None yet</label>
+			<description>
+		Hi! When I try to unfavorite a tweet (by pressing the yellow star), &quot;tweet unfavorited&quot; is displayed but the tweet doesn't disappear from my favorites, even after refresh. When I try again to unfavorite the same tweet, I get the following error message: Error while unfavoriting: Error 144: No status found with that ID.
+	</description>
+		</report>
+		<report Number="60">
+			<summary>Direct messages not sent when containing an image</summary>
+			<url>https://github.com/TwidereProject/Twidere-Android/issues/197</url>
+			<bugID>Issue #197</bugID>
+			<label>None yet</label>
+			<description>
+		When I compose a DM with and attach a pic, messages are not send, and Error 403 shows up!. If you can fix this I'll gladly be a donator. Everything else works lovely, I really think this is the best twitter client out there.
+	</description>
+		</report>
+		<report Number="61">
+			<summary>Use without twitter account</summary>
+			<url>https://github.com/TwidereProject/Twidere-Android/issues/198</url>
+			<bugID>Issue #198</bugID>
+			<label>None yet</label>
+			<description>
+		Would it be possible to use this as a twitter client without having to sign up to twitter? I don't need to post or receive messages or anything, just follow some public accounts.
+	</description>
+		</report>
+		<report Number="62">
+			<summary>users retweeted this and users favorited this does not work</summary>
+			<url>https://github.com/TwidereProject/Twidere-Android/issues/199</url>
+			<bugID>Issue #199</bugID>
+			<label>None yet</label>
+			<description>
+		When pressing the retweets and it shows a form &quot;users retweeted this&quot; it shows nothing. The button for favorites, does nothing.
+	</description>
+		</report>
+		<report Number="63">
+			<summary>Switching off automatic bug report</summary>
+			<url>https://github.com/TwidereProject/Twidere-Android/issues/201</url>
+			<bugID>Issue #201</bugID>
+			<label>None yet</label>
+			<description>
+		Thanks to Xprivacy, I became aware of a twidere attempt to connect to some cloudant.com account. By looking at your code, I discovered that it was supposed to be an automatic bug report (commit d247f19). I did look into the preferences, but obviously not well enough to find how to disable these automatic bug reports. Could you point out the relevant place in the preferences in order to disable this &quot;feature&quot; ? If no such switch exists, could you implement it ? Such an automatic bug report without any user approval should be considered as a privacy issue. Thanks
+	</description>
+		</report>
+		<report Number="64">
+			<summary>Cannot remove user from list</summary>
+			<url>https://github.com/TwidereProject/Twidere-Android/issues/202</url>
+			<bugID>Issue #202</bugID>
+			<label>None yet</label>
+			<description>
+		Can add people to lists but cannot remove them, as far as I can see.
+	</description>
+		</report>
+		<report Number="65">
+			<summary>Emoji can be added to tweet via copy paste, can we have it on keyboard?</summary>
+			<url>https://github.com/TwidereProject/Twidere-Android/issues/203</url>
+			<bugID>Issue #203</bugID>
+			<label>None yet</label>
+			<description>
+		I managed to copy+paste emoji from Hangout to Twidere, all that is missing in Twidere is the keyboard option.
+	</description>
+		</report>
+		<report Number="66">
+			<summary>Feed sometimes jumps to top</summary>
+			<url>https://github.com/TwidereProject/Twidere-Android/issues/204</url>
+			<bugID>Issue #204</bugID>
+			<label>None yet</label>
+			<description>
+		As the title says, the feed sometimes jumps to the top. Sometimes it happens when I rotate the screen, but not always. And sometimes it happens quite randomly, but I think it happens when I tilt the screen slightly in a certain manner. Needless to say, this is confusing and irritating, as it's not something I intend to do, and it makes me lose the position I was at.
+	</description>
+		</report>
+		<report Number="67">
+			<summary>Application Crashing Switching to List Timeline Tabs</summary>
+			<url>https://github.com/TwidereProject/Twidere-Android/issues/206</url>
+			<bugID>Issue #206</bugID>
+			<label>None yet</label>
+			<description>
+		After today's update, the application is crashing when trying to view my tabs containing list timelines. I tried removing all tabs and readding and that did not solve the issue. Twidere Version: 0.3.0 (dev 2015-09-01) Android Version: 5.1 Device: Moto X 2014 (Verizon XT0196)
+	</description>
+		</report>
+		<report Number="68">
+			<summary>Direct messages not shown since the 2015-06-29 release</summary>
+			<url>https://github.com/TwidereProject/Twidere-Android/issues/208</url>
+			<bugID>Issue #208</bugID>
+			<label>None yet</label>
+			<description>
+		I can only ever see my own sent DMs, not any of the received ones, and after clearing database I can see nothing (until I send a DM again).
+	</description>
+		</report>
+		<report Number="69">
+			<summary>被推文网址引用的推文中所附带的图片网址无法正确的预览和点击</summary>
+			<url>https://github.com/TwidereProject/Twidere-Android/issues/210</url>
+			<bugID>Issue #210</bugID>
+			<label>None yet</label>
+			<description>
+		版本：0.3.0 (dev 2015-09-03) 现象：当一条推文中附带了另一条推文，而另一条推文中附带图片的情况下，无法正确的预览和点击。点击网址后，变成了复制。该问题应该和 #200 类似，但是不完全一样。 样本： https://twitter.com/chenshaoju/status/639670600403849217 截图：
+	</description>
+		</report>
+		<report Number="70">
+			<summary>multi line direct mesaage (new line in DM)</summary>
+			<url>https://github.com/TwidereProject/Twidere-Android/issues/219</url>
+			<bugID>Issue #219</bugID>
+			<label>None yet</label>
+			<description>
+		I want to write multi line direct message. Official Android Twitter client can do that. And I think it's very useful. So please implement it if you can.
+	</description>
+		</report>
+		<report Number="71">
+			<summary>Opening images full-screen fails since 0.3.0 (dev 2015-09-20)</summary>
+			<url>https://github.com/TwidereProject/Twidere-Android/issues/222</url>
+			<bugID>Issue #222</bugID>
+			<label>None yet</label>
+			<description>
+		The preview works, but when trying to open an image full-screen, I get this Toast: &quot;Error: Unknown error, this is probably a bug.&quot; and a black screen. I can't find anything suspicious in logcat: I/ActivityManager(  550): START u0 {act=org.mariotaku.twidere.VIEW_MEDIA cmp=org.mariotaku.twidere/.activity.support.MediaViewerActivity (has extras)} from uid 10090 on display 0
+	</description>
+		</report>
+		<report Number="72">
+			<summary>ITimelineSyncHelper isn't hooked up</summary>
+			<url>https://github.com/TwidereProject/Twidere-Android/issues/224</url>
+			<bugID>Issue #224</bugID>
+			<label>None yet</label>
+			<description>
+		The ITimelineSyncHelper interface doesn't appear to be hooked up to anything, so no extensions for sync services such as Tweet Marker can be developed.
+	</description>
+		</report>
+		<report Number="73">
+			<summary>[Feature Request] View/list new/unread tweets</summary>
+			<url>https://github.com/TwidereProject/Twidere-Android/issues/225</url>
+			<bugID>Issue #225</bugID>
+			<label>None yet</label>
+			<description>
+		A feature I miss from Twidere client is to view new tweets in a easy way, like on the https://play.google.com/store/apps/details?id=com.jv.materialfalcon (which now I can't stop using because of this feature) where a number of &quot;unread&quot; tweets appears on the top of the screen, and the scrollbar change his colors conforming it (like on this screenshot attached, where it shows &quot;11 tweets&quot;: ).
+	</description>
+		</report>
+		<report Number="74">
+			<summary>Streaming extension doesn't work anymore</summary>
+			<url>https://github.com/TwidereProject/Twidere-Android/issues/228</url>
+			<bugID>Issue #228</bugID>
+			<label>None yet</label>
+			<description>
+		After updating to 0.3.0, the streaming extension still does not seem to work as it did before with 0.2.9. Any new tweets don't show up until manually refreshing in Twidere and logcat shows error messages about missing columns. Manually adding these to the database seemed to work, but there are quite a lot of missing ones. I've seen these before giving up: descendent_reply_count in tables statuses and mentions mentions_list in table statuses media_list in table statuses Log: http://pastebin.com/EJ51vC7G Twidere 0.3.0 (dev 2015-10-19) Twidere Streaming Extension 1.12 (0.3.0-dev)
+	</description>
+		</report>
+		<report Number="75">
+			<summary>Can't add favorites tab</summary>
+			<url>https://github.com/TwidereProject/Twidere-Android/issues/234</url>
+			<bugID>Issue #234</bugID>
+			<label>None yet</label>
+			<description>
+		Trying to add it, an error message &quot;Usuários not set&quot; shows up: it can be translation related: &quot;Usuários&quot; is &quot;Users&quot; in pt_BR
+	</description>
+		</report>
+		<report Number="76">
+			<summary>Favourites are now Hearts</summary>
+			<url>https://github.com/TwidereProject/Twidere-Android/issues/237</url>
+			<bugID>Issue #237</bugID>
+			<label>None yet</label>
+			<description>
+		As per this announcement: https://blog.twitter.com/2015/hearts-on-twitter The ☆ should be replaced with ♡.
+	</description>
+		</report>
+		<report Number="77">
+			<summary>Error 403 when saving search</summary>
+			<url>https://github.com/TwidereProject/Twidere-Android/issues/244</url>
+			<bugID>Issue #244</bugID>
+			<label>None yet</label>
+			<description>
+		I can't save search terms. When the floppy disk symbol is pressed I get &quot;Error 403&quot;. Using 0.3.0-dev-130 from F-Droid.
+	</description>
+		</report>
+		<report Number="78">
+			<summary>&quot;I want my stars back&quot; doesn't have effect on the activity tab</summary>
+			<url>https://github.com/TwidereProject/Twidere-Android/issues/253</url>
+			<bugID>Issue #253</bugID>
+			<label>None yet</label>
+			<description>
+		Version 0.3.0-dev-135 from F-Droid.
+	</description>
+		</report>
+		<report Number="79">
+			<summary>Incorrect text color in dark mode</summary>
+			<url>https://github.com/TwidereProject/Twidere-Android/issues/270</url>
+			<bugID>Issue #270</bugID>
+			<label>None yet</label>
+			<description>
+		
+	</description>
+		</report>
+		<report Number="80">
+			<summary>Resizing/scrolling in the filters setting</summary>
+			<url>https://github.com/TwidereProject/Twidere-Android/issues/271</url>
+			<bugID>Issue #271</bugID>
+			<label>None yet</label>
+			<description>
+		The tags should either shrink to fit in the screen, or scroll to show the current tag fully. Just as timelines do.
+	</description>
+		</report>
+		<report Number="81">
+			<summary>Make items in activities by friends clickable</summary>
+			<url>https://github.com/TwidereProject/Twidere-Android/issues/273</url>
+			<bugID>Issue #273</bugID>
+			<label>None yet</label>
+			<description>
+		New following should link to the user profile, liked tweets should link to the tweet itself, etc.
+	</description>
+		</report>
+		<report Number="82">
+			<summary>change of phone aspect causes position to reset</summary>
+			<url>https://github.com/TwidereProject/Twidere-Android/issues/277</url>
+			<bugID>Issue #277</bugID>
+			<label>None yet</label>
+			<description>
+		Android (CM11). I have Twidere set to refresh from bottom and remember my position. If I rotate the phone to landscape and back, it refreshes the feed and I end up at the latest tweet… which kinda breaks POLS/POLA given the above settings.
+	</description>
+		</report>
+		<report Number="83">
+			<summary>Deleted tweets aren't removed</summary>
+			<url>https://github.com/TwidereProject/Twidere-Android/issues/278</url>
+			<bugID>Issue #278</bugID>
+			<label>None yet</label>
+			<description>
+		I follow my own Tweets using the &quot;User's Tweets&quot; tab. I made a Tweet, then deleted it using the Twitter website. When I refresh the tab in Twidere, the deleted tweets do not disappear. I can select the card and it opens the tweet in Twidere. Selecting &quot;favorite&quot; or &quot;delete&quot; gives the error Error 144: No status found with that ID. I expected that the tweet that I deleted would be removed. Thanks!
+	</description>
+		</report>
+		<report Number="84">
+			<summary>F-droid seems to have a version number problem</summary>
+			<url>https://github.com/TwidereProject/Twidere-Android/issues/286</url>
+			<bugID>Issue #286</bugID>
+			<label>None yet</label>
+			<description>
+		https://gitlab.com/fdroid/fdroiddata/issues/384 says that the version number on the nightlies is not incrementing, so F-Droid cannot host the newer versions. I'm not sure if this is intentional, given that some of the recent releases are bug-fixes.
+	</description>
+		</report>
+		<report Number="85">
+			<summary>Can't do favorite with GNU Social 1.2.0-beta3</summary>
+			<url>https://github.com/TwidereProject/Twidere-Android/issues/290</url>
+			<bugID>Issue #290</bugID>
+			<label>None yet</label>
+			<description>
+		#73 (comment)
+	</description>
+		</report>
+		<report Number="86">
+			<summary>Crash while signing in to quitter.se</summary>
+			<url>https://github.com/TwidereProject/Twidere-Android/issues/295</url>
+			<bugID>Issue #295</bugID>
+			<label>None yet</label>
+			<description>
+		No description provided.
+	</description>
+		</report>
+		<report Number="87">
+			<summary>GNU social support</summary>
+			<url>https://github.com/TwidereProject/Twidere-Android/issues/296</url>
+			<bugID>Issue #296</bugID>
+			<label>None yet</label>
+			<description>
+		Let's talk about GNU social. Twidere was not designed for GNU social in the beggining, but I think now it's time to do so. Do you have any suggestions about GNU social support?
+	</description>
+		</report>
+		<report Number="88">
+			<summary>Compose account selector not clickable</summary>
+			<url>https://github.com/TwidereProject/Twidere-Android/issues/297</url>
+			<bugID>Issue #297</bugID>
+			<label>None yet</label>
+			<description>
+		No description provided.
+	</description>
+		</report>
+		<report Number="89">
+			<summary>Crash while opening some GNU social user's profile</summary>
+			<url>https://github.com/TwidereProject/Twidere-Android/issues/298</url>
+			<bugID>Issue #298</bugID>
+			<label>None yet</label>
+			<description>
+		No description provided.
+	</description>
+		</report>
+		<report Number="90">
+			<summary>New tweet account selector usability issues</summary>
+			<url>https://github.com/TwidereProject/Twidere-Android/issues/301</url>
+			<bugID>Issue #301</bugID>
+			<label>None yet</label>
+			<description>
+		This is release 2015-11-22. If you have more than 3 accounts, the list is cropped by the new tweet window and has to be scrolled around to see more than just the 3 accounts that more or less fit in there. It might be a good idea to make the account list pop up above the new tweet window, seeing as how it cannot be dismissed by tapping &quot;outside&quot; of the list anyway. The list is kinda hard to see, especially when the base GUI is set to dark transparent. It might be better if the list comes up in a &quot;window&quot; in its own right.
+	</description>
+		</report>
+		<report Number="91">
+			<summary>New tweet window too easy to dismiss</summary>
+			<url>https://github.com/TwidereProject/Twidere-Android/issues/302</url>
+			<bugID>Issue #302</bugID>
+			<label>None yet</label>
+			<description>
+		This is release 2015-11-22 Due to the new tweet window being smaller than the screen and the tap event outside of it being handled, it is too easy to accidentally close the new tweet (and trigger the draft save event). I think it is enough that the window can be dismissed with the Back button.
+	</description>
+		</report>
+		<report Number="92">
+			<summary>DNS pollution may crash Twidere</summary>
+			<url>https://github.com/TwidereProject/Twidere-Android/issues/303</url>
+			<bugID>Issue #303</bugID>
+			<label>None yet</label>
+			<description>
+		Android版本：5.1.1 Twidere版本：0.3.0-dev160126 现象： 　　刷新时Twidere偶尔会崩溃，通过logcat分析，怀疑是由于DNS污染导致无法获取图片，返回了空URI后崩溃。具体情况详见Logcat： Logcat： logcat.txt
+	</description>
+		</report>
+		<report Number="93">
+			<summary>Fabric Integration Test</summary>
+			<url>https://github.com/TwidereProject/Twidere-Android/issues/309</url>
+			<bugID>Issue #309</bugID>
+			<label>None yet</label>
+			<description>
+		in some_crashed_method Number of crashes: 0 Impacted devices: 0 There's a lot more information about this crash on crashlytics.com: http://example.com/path/to/fabric/issue
+	</description>
+		</report>
+		<report Number="94">
+			<summary>Daemons.java line 294</summary>
+			<url>https://github.com/TwidereProject/Twidere-Android/issues/315</url>
+			<bugID>Issue #315</bugID>
+			<label>None yet</label>
+			<description>
+		in java.lang.Daemons$FinalizerWatchdogDaemon.finalizerTimedOut Number of crashes: 1 Impacted devices: 1 There's a lot more information about this crash on crashlytics.com: https://fabric.io/mariotaku-lees-projects/android/apps/org.mariotaku.twidere/issues/56b4308bf5d3a7f76b981518
+	</description>
+		</report>
+		<report Number="95">
+			<summary>java.lang.OutOfMemoryError</summary>
+			<url>https://github.com/TwidereProject/Twidere-Android/issues/321</url>
+			<bugID>Issue #321</bugID>
+			<label>None yet</label>
+			<description>
+		in OutOfMemoryError thrown while trying to throw OutOfMemoryError; no stack available Number of crashes: 1 Impacted devices: 1 There's a lot more information about this crash on crashlytics.com: https://fabric.io/mariotaku-lees-projects/android/apps/org.mariotaku.twidere/issues/56b5e471f5d3a7f76ba066eb
+	</description>
+		</report>
+		<report Number="96">
+			<summary>ViewOverlay.java line 164</summary>
+			<url>https://github.com/TwidereProject/Twidere-Android/issues/336</url>
+			<bugID>Issue #336</bugID>
+			<label>None yet</label>
+			<description>
+		in android.view.ViewOverlay$OverlayViewGroup.add Number of crashes: 1 Impacted devices: 1 There's a lot more information about this crash on crashlytics.com: https://fabric.io/mariotaku-lees-projects/android/apps/org.mariotaku.twidere/issues/56b81efdf5d3a7f76baa05ef
+	</description>
+		</report>
+		<report Number="97">
+			<summary>TwidereDns.java line 254</summary>
+			<url>https://github.com/TwidereProject/Twidere-Android/issues/337</url>
+			<bugID>Issue #337</bugID>
+			<label>None yet</label>
+			<description>
+		in org.mariotaku.twidere.util.net.TwidereDns.fromAddressString Number of crashes: 1 Impacted devices: 1 There's a lot more information about this crash on crashlytics.com: https://fabric.io/mariotaku-lees-projects/android/apps/org.mariotaku.twidere/issues/56b82efff5d3a7f76baa3f7d
+	</description>
+		</report>
+		<report Number="98">
+			<summary>Clicking media links in card opens browser</summary>
+			<url>https://github.com/TwidereProject/Twidere-Android/issues/343</url>
+			<bugID>Issue #343</bugID>
+			<label>None yet</label>
+			<description>
+		No description provided.
+	</description>
+		</report>
+		<report Number="99">
+			<summary>Images open in Browser</summary>
+			<url>https://github.com/TwidereProject/Twidere-Android/issues/344</url>
+			<bugID>Issue #344</bugID>
+			<label>None yet</label>
+			<description>
+		Before v0.3.0, when clicking on an image link inside a tweet (e.g. to pic.twitter.com), the image was opened in Twidere directly. Since v0.3.0 (didn't change with today's 0.3.0.1(?)), a new tab in the default browser opens instead. Is this the desired/expected behaviour or a bug? Loading an image in the detail view of a single tweet still works.
+	</description>
+		</report>
+		<report Number="100">
+			<summary>ImageView.java line 1126</summary>
+			<url>https://github.com/TwidereProject/Twidere-Android/issues/349</url>
+			<bugID>Issue #349</bugID>
+			<label>None yet</label>
+			<description>
+		in android.widget.ImageView.animateTransform Number of crashes: 42 Impacted devices: 24 There's a lot more information about this crash on crashlytics.com: https://fabric.io/mariotaku-lees-projects/android/apps/org.mariotaku.twidere/issues/56b94487f5d3a7f76baf631d
+	</description>
+		</report>
+		<report Number="101">
+			<summary>ImageView.java line 1147</summary>
+			<url>https://github.com/TwidereProject/Twidere-Android/issues/350</url>
+			<bugID>Issue #350</bugID>
+			<label>None yet</label>
+			<description>
+		in android.widget.ImageView.animateTransform Number of crashes: 46 Impacted devices: 18 There's a lot more information about this crash on crashlytics.com: https://fabric.io/mariotaku-lees-projects/android/apps/org.mariotaku.twidere/issues/56b91297f5d3a7f76bae943c
+	</description>
+		</report>
+		<report Number="102">
+			<summary>Indefinitely timeline loading on 0.3.0</summary>
+			<url>https://github.com/TwidereProject/Twidere-Android/issues/351</url>
+			<bugID>Issue #351</bugID>
+			<label>None yet</label>
+			<description>
+		Frequently it happens: it is this way for more than 15 minutes, Now I've also noted other behavior when it's happening: new tweets sent was never sent or putted in to 'drafts'
+	</description>
+		</report>
+		<report Number="103">
+			<summary>Support for search on GNU social</summary>
+			<url>https://github.com/TwidereProject/Twidere-Android/issues/356</url>
+			<bugID>Issue #356</bugID>
+			<label>None yet</label>
+			<description>
+		What the title says. Right now Twidere cannot search on a GNU social instance. The result is just a blank page.
+	</description>
+		</report>
+		<report Number="104">
+			<summary>Auto loading feed</summary>
+			<url>https://github.com/TwidereProject/Twidere-Android/issues/358</url>
+			<bugID>Issue #358</bugID>
+			<label>None yet</label>
+			<description>
+		When I scroll down to the end of the tweets feed, new tweets are auto load only one time. If I scroll down again at the bottom of the feed I see indicator of loading and tweets are not load. Other feeds (like notifications) are ok. v. 3.0.4 P.S. Some requests are freeze. Can you add killing feature them by timer?
+	</description>
+		</report>
+		<report Number="105">
+			<summary>Grab replies to a post on GNU social</summary>
+			<url>https://github.com/TwidereProject/Twidere-Android/issues/360</url>
+			<bugID>Issue #360</bugID>
+			<label>None yet</label>
+			<description>
+		In the app it says Twitter's API does not let you grab replies to a post. However, GNU social allows you to do this. It would be good if Twidere could support grabbing replies.
+	</description>
+		</report>
+		<report Number="106">
+			<summary>Getting to the end of a list does not load in more tweets</summary>
+			<url>https://github.com/TwidereProject/Twidere-Android/issues/369</url>
+			<bugID>Issue #369</bugID>
+			<label>None yet</label>
+			<description>
+		I find often that when reading through tweets in any of my lists I reach the 'end' and I have to back out of the list and re-enter it before more are loaded in.
+	</description>
+		</report>
+		<report Number="107">
+			<summary>Remove Transition animation on opening user profile Activity with FLAG_ACTIVITY_NEW_DOCUMENT</summary>
+			<url>https://github.com/TwidereProject/Twidere-Android/issues/390</url>
+			<bugID>Issue #390</bugID>
+			<label>None yet</label>
+			<description>
+		The system transition animation here makes it slow(in feeling) Try add overridePendingTransition(0,0) in onResume() or get some other cooool stuff here?
+	</description>
+		</report>
+		<report Number="108">
+			<summary>LoganSquareMapperFinder.java line 44</summary>
+			<url>https://github.com/TwidereProject/Twidere-Android/issues/392</url>
+			<bugID>Issue #392</bugID>
+			<label>None yet</label>
+			<description>
+		in org.mariotaku.twidere.util.LoganSquareMapperFinder.mapperFor Number of crashes: 49 Impacted devices: 27 There's a lot more information about this crash on crashlytics.com: https://fabric.io/mariotaku-lees-projects/android/apps/org.mariotaku.twidere/issues/56c8adfdf5d3a7f76bfa6ff2
+	</description>
+		</report>
+		<report Number="109">
+			<summary>Set windowNoTitle attribute on NoDisplay theme</summary>
+			<url>https://github.com/TwidereProject/Twidere-Android/issues/419</url>
+			<bugID>Issue #419</bugID>
+			<label>None yet</label>
+			<description>
+		No description provided.
+	</description>
+		</report>
+		<report Number="110">
+			<summary>Clickinh</summary>
+			<url>https://github.com/TwidereProject/Twidere-Android/issues/424</url>
+			<bugID>Issue #424</bugID>
+			<label>None yet</label>
+			<description>
+		No description provided.
+	</description>
+		</report>
+		<report Number="111">
+			<summary>Click on url link opens image in image viewer</summary>
+			<url>https://github.com/TwidereProject/Twidere-Android/issues/425</url>
+			<bugID>Issue #425</bugID>
+			<label>None yet</label>
+			<description>
+		in some cases clicking on url link in a tweet doesn't open the link in the browser but it loads the image from that tweet in image viewer. this is one of such links: https://mobile.twitter.com/SasaLubej/status/704606404536082432 Sony Xperia Z3c Android 5.1.1
+	</description>
+		</report>
+		<report Number="112">
+			<summary>SSL override option missing?</summary>
+			<url>https://github.com/TwidereProject/Twidere-Android/issues/430</url>
+			<bugID>Issue #430</bugID>
+			<label>None yet</label>
+			<description>
+		Hello, I'm currently using Twidere 3.0.6.1 from Google Play and it seems that the option &quot;Override SSL error&quot; is gone from Network? I have enabled &quot;Force using private APIs&quot; from secret settings, but when I use my twip API to login, logcat says there is a SSL handshake error, so I guess my certificate is probably not trusted in Android.
+	</description>
+		</report>
+		<report Number="113">
+			<summary>No sound when play video second time</summary>
+			<url>https://github.com/TwidereProject/Twidere-Android/issues/432</url>
+			<bugID>Issue #432</bugID>
+			<label>None yet</label>
+			<description>
+		There is no sound when play video again after the first time. The first time is fine.
+	</description>
+		</report>
+		<report Number="114">
+			<summary>Media viewer hangs</summary>
+			<url>https://github.com/TwidereProject/Twidere-Android/issues/441</url>
+			<bugID>Issue #441</bugID>
+			<label>None yet</label>
+			<description>
+		Attempting to open an image causes it to load but does not display once load finished, causes the media viewer to instantly hang when loaded Small image preview works, but loading the large image causes the hang Running 3.0.6.4 - tried clearing cache but issue keeps happening
+	</description>
+		</report>
+		<report Number="115">
+			<summary>Wrong background color for dialog when large activity</summary>
+			<url>https://github.com/TwidereProject/Twidere-Android/issues/443</url>
+			<bugID>Issue #443</bugID>
+			<label>None yet</label>
+			<description>
+		No description provided.
+	</description>
+		</report>
+		<report Number="116">
+			<summary>Load More button not showing</summary>
+			<url>https://github.com/TwidereProject/Twidere-Android/issues/446</url>
+			<bugID>Issue #446</bugID>
+			<label>None yet</label>
+			<description>
+		When there are more new tweets than the Load item limit, there used to be a Load more button in the timeline, where there would be missing tweets. That is currently not shown in version 3.0.6.1. This can be observed on Android 4.3 and 6.0. This was a very useful feature, because I only irregularly get to check on twitter on my phone.
+	</description>
+		</report>
+		<report Number="117">
+			<summary>question: make it possible to have &quot;stable&quot; and latest release installed simultaneously</summary>
+			<url>https://github.com/TwidereProject/Twidere-Android/issues/447</url>
+			<bugID>Issue #447</bugID>
+			<label>None yet</label>
+			<description>
+		Do you think there is a way to make it possible to have the &quot;stable&quot; release from F-Droid and a pre-release from Github installed simultaneously? Unless I'm not mistaken it should work if you additionally publish an APK with a different ID like &quot;org.mariotaku.twidere.beta&quot;. For example Owncloud has done this: there's com.owncloud.android and com.owncloud.android.beta.
+	</description>
+		</report>
+		<report Number="118">
+			<summary>Displayname is not updated in notifications</summary>
+			<url>https://github.com/TwidereProject/Twidere-Android/issues/450</url>
+			<bugID>Issue #450</bugID>
+			<label>None yet</label>
+			<description>
+		I change displayname often. After I load my own profile the displayname is changed everywhere in the UI except in the drawer notifications.
+	</description>
+		</report>
+		<report Number="119">
+			<summary>AbsStatusesFragment.java line 521</summary>
+			<url>https://github.com/TwidereProject/Twidere-Android/issues/451</url>
+			<bugID>Issue #451</bugID>
+			<label>None yet</label>
+			<description>
+		in org.mariotaku.twidere.fragment.support.AbsStatusesFragment.onCreateContextMenu Number of crashes: 49 Impacted devices: 8 There's a lot more information about this crash on crashlytics.com: https://fabric.io/mariotaku-lees-projects/android/apps/org.mariotaku.twidere/issues/56d186f2f5d3a7f76b25b4f8
+	</description>
+		</report>
+		<report Number="120">
+			<summary>ObjectCursorLoader.java line 247</summary>
+			<url>https://github.com/TwidereProject/Twidere-Android/issues/453</url>
+			<bugID>Issue #453</bugID>
+			<label>None yet</label>
+			<description>
+		in org.mariotaku.twidere.loader.support.ObjectCursorLoader.dump Number of crashes: 51 Impacted devices: 2 There's a lot more information about this crash on crashlytics.com: https://fabric.io/mariotaku-lees-projects/android/apps/org.mariotaku.twidere/issues/56bca50ef5d3a7f76bbfcdee
+	</description>
+		</report>
+		<report Number="121">
+			<summary>AbsStatusesFragment.java line 546</summary>
+			<url>https://github.com/TwidereProject/Twidere-Android/issues/454</url>
+			<bugID>Issue #454</bugID>
+			<label>None yet</label>
+			<description>
+		in org.mariotaku.twidere.fragment.support.AbsStatusesFragment.onCreateContextMenu Number of crashes: 49 Impacted devices: 5 There's a lot more information about this crash on crashlytics.com: https://fabric.io/mariotaku-lees-projects/android/apps/org.mariotaku.twidere/issues/56dbf62affcdc04250965392
+	</description>
+		</report>
+		<report Number="122">
+			<summary>Utils.java line 2244</summary>
+			<url>https://github.com/TwidereProject/Twidere-Android/issues/456</url>
+			<bugID>Issue #456</bugID>
+			<label>None yet</label>
+			<description>
+		in org.mariotaku.twidere.util.Utils.setMenuForStatus Number of crashes: 49 Impacted devices: 43 There's a lot more information about this crash on crashlytics.com: https://fabric.io/mariotaku-lees-projects/android/apps/org.mariotaku.twidere/issues/56cf18d4f5d3a7f76b196e0f
+	</description>
+		</report>
+		<report Number="123">
+			<summary>java.lang.OutOfMemoryError</summary>
+			<url>https://github.com/TwidereProject/Twidere-Android/issues/458</url>
+			<bugID>Issue #458</bugID>
+			<label>None yet</label>
+			<description>
+		in OutOfMemoryError thrown while trying to throw OutOfMemoryError; no stack available Number of crashes: 48 Impacted devices: 25 There's a lot more information about this crash on crashlytics.com: https://fabric.io/mariotaku-lees-projects/android/apps/org.mariotaku.twidere/issues/56b5e471f5d3a7f76ba066eb
+	</description>
+		</report>
+		<report Number="124">
+			<summary>Gradle build fails for F-droid flavor</summary>
+			<url>https://github.com/TwidereProject/Twidere-Android/issues/460</url>
+			<bugID>Issue #460</bugID>
+			<label>None yet</label>
+			<description>
+		I get errors when trying to build the F-droid flavor. Google Flavor works fine. Happens on db764f9 $ ./gradlew assembleFdroidRelease
+:twidere:svgToDrawable UP-TO-DATE
+:twidere:svgToMipmap UP-TO-DATE
+:twidere:preBuild UP-TO-DATE
+:twidere:preFdroidReleaseBuild UP-TO-DATE
+:twidere:checkFdroidReleaseManifest
+:twidere:preFdroidDebugBuild UP-TO-DATE
+:twidere:preGoogleDebugBuild UP-TO-DATE
+:twidere:preGoogleReleaseBuild UP-TO-DATE
+:twidere.component.common:preBuild UP-TO-DATE
+:twidere.component.common:preReleaseBuild UP-TO-DATE
+:twidere.component.common:compileReleaseNdk UP-TO-DATE
+:twidere.component.common:compileLint
+:twidere.component.common:copyReleaseLint UP-TO-DATE
+:twidere.component.common:checkReleaseManifest
+:twidere.component.common:prepareReleaseDependencies
+:twidere.component.common:compileReleaseAidl UP-TO-DATE
+:twidere.component.common:compileReleaseRenderscript UP-TO-DATE
+:twidere.component.common:generateReleaseBuildConfig UP-TO-DATE
+:twidere.component.common:generateReleaseAssets UP-TO-DATE
+:twidere.component.common:mergeReleaseAssets UP-TO-DATE
+:twidere.component.common:generateReleaseResValues UP-TO-DATE
+:twidere.component.common:generateReleaseResources UP-TO-DATE
+:twidere.component.common:packageReleaseResources UP-TO-DATE
+:twidere.component.common:processReleaseManifest UP-TO-DATE
+:twidere.component.common:processReleaseResources UP-TO-DATE
+:twidere.component.common:generateReleaseSources UP-TO-DATE
+:twidere.component.common:compileReleaseJavaWithJavac UP-TO-DATE
+:twidere.component.common:extractReleaseAnnotations UP-TO-DATE
+:twidere.component.common:mergeReleaseProguardFiles UP-TO-DATE
+:twidere.component.common:packageReleaseRenderscript UP-TO-DATE
+:twidere.component.common:processReleaseJavaRes UP-TO-DATE
+:twidere.component.common:transformResourcesWithMergeJavaResForRelease UP-TO-DATE
+:twidere.component.common:transformClassesAndResourcesWithSyncLibJarsForRelease UP-TO-DATE
+:twidere.component.common:mergeReleaseJniLibFolders UP-TO-DATE
+:twidere.component.common:transformNative_libsWithMergeJniLibsForRelease UP-TO-DATE
+:twidere.component.common:transformNative_libsWithSyncJniLibsForRelease UP-TO-DATE
+:twidere.component.common:bundleRelease UP-TO-DATE
+:twidere.component.nyan:preBuild UP-TO-DATE
+:twidere.component.nyan:preReleaseBuild UP-TO-DATE
+:twidere.component.nyan:compileReleaseNdk UP-TO-DATE
+:twidere.component.nyan:compileLint
+:twidere.component.nyan:copyReleaseLint UP-TO-DATE
+:twidere.component.nyan:mergeReleaseProguardFiles UP-TO-DATE
+:twidere.component.nyan:packageReleaseRenderscript UP-TO-DATE
+:twidere.component.nyan:checkReleaseManifest
+:twidere.component.nyan:prepareReleaseDependencies
+:twidere.component.nyan:compileReleaseRenderscript UP-TO-DATE
+:twidere.component.nyan:generateReleaseResValues UP-TO-DATE
+:twidere.component.nyan:generateReleaseResources UP-TO-DATE
+:twidere.component.nyan:packageReleaseResources UP-TO-DATE
+:twidere.component.nyan:compileReleaseAidl UP-TO-DATE
+:twidere.component.nyan:generateReleaseBuildConfig UP-TO-DATE
+:twidere.component.nyan:generateReleaseAssets UP-TO-DATE
+:twidere.component.nyan:mergeReleaseAssets UP-TO-DATE
+:twidere.component.nyan:processReleaseManifest UP-TO-DATE
+:twidere.component.nyan:processReleaseResources UP-TO-DATE
+:twidere.component.nyan:generateReleaseSources UP-TO-DATE
+:twidere.component.nyan:compileReleaseJavaWithJavac UP-TO-DATE
+:twidere.component.nyan:processReleaseJavaRes UP-TO-DATE
+:twidere.component.nyan:transformResourcesWithMergeJavaResForRelease UP-TO-DATE
+:twidere.component.nyan:transformClassesAndResourcesWithSyncLibJarsForRelease UP-TO-DATE
+:twidere.component.nyan:mergeReleaseJniLibFolders UP-TO-DATE
+:twidere.component.nyan:transformNative_libsWithMergeJniLibsForRelease UP-TO-DATE
+:twidere.component.nyan:transformNative_libsWithSyncJniLibsForRelease UP-TO-DATE
+:twidere.component.nyan:bundleRelease UP-TO-DATE
+:twidere:prepareComAndroidSupportAnimatedVectorDrawable2321Library UP-TO-DATE
+:twidere:prepareComAndroidSupportAppcompatV72321Library UP-TO-DATE
+:twidere:prepareComAndroidSupportCardviewV72321Library UP-TO-DATE
+:twidere:prepareComAndroidSupportDesign2311Library UP-TO-DATE
+:twidere:prepareComAndroidSupportMultidex101Library UP-TO-DATE
+:twidere:prepareComAndroidSupportPreferenceV142321Library UP-TO-DATE
+:twidere:prepareComAndroidSupportPreferenceV72321Library UP-TO-DATE
+:twidere:prepareComAndroidSupportRecyclerviewV72321Library UP-TO-DATE
+:twidere:prepareComAndroidSupportSupportV132321Library UP-TO-DATE
+:twidere:prepareComAndroidSupportSupportV42321Library UP-TO-DATE
+:twidere:prepareComAndroidSupportSupportVectorDrawable2321Library UP-TO-DATE
+:twidere:prepareComCommonswareCwacLayouts042Library UP-TO-DATE
+:twidere:prepareComCommonswareCwacMerge111Library UP-TO-DATE
+:twidere:prepareComCommonswareCwacSacklist102Library UP-TO-DATE
+:twidere:prepareComDavemorrisseyLabsSubsamplingScaleImageView341Library UP-TO-DATE
+:twidere:prepareComGithubAfollestadAppThemeEngine101Library UP-TO-DATE
+:twidere:prepareComGithubAfollestadMaterialDialogsCommons0857Library UP-TO-DATE
+:twidere:prepareComGithubAfollestadMaterialDialogsCore0857Library UP-TO-DATE
+:twidere:prepareComGithubJohnpersanoSupertoasts1341Library UP-TO-DATE
+:twidere:prepareComGithubMariotakuDragSortListView061Library UP-TO-DATE
+:twidere:prepareComGithubMariotakuMediaViewerLibraryBase0913Library UP-TO-DATE
+:twidere:prepareComGithubMariotakuMediaViewerLibrarySubsampleImageView0913Library UP-TO-DATE
+:twidere:prepareComGithubMariotakuMessageBubbleView12Library UP-TO-DATE
+:twidere:prepareComGithubMariotakuPickNCrop093Library UP-TO-DATE
+:twidere:prepareComGithubUuckyColorPickerAndroid097Library UP-TO-DATE
+:twidere:prepareComLnikkilaExtendedtouchview010Library UP-TO-DATE
+:twidere:prepareComMakeramenRoundedimageview211Library UP-TO-DATE
+:twidere:prepareComPnikosisMaterialishProgress17Library UP-TO-DATE
+:twidere:prepareComRengwuxianMaterialedittextLibrary214Library UP-TO-DATE
+:twidere:prepareComSoundcloudAndroidAndroidCrop101Library UP-TO-DATE
+:twidere:prepareMeZhanghaiAndroidMaterialprogressbarLibrary115Library UP-TO-DATE
+:twidere:prepareOrgOsmdroidOsmdroidAndroid51Library UP-TO-DATE
+:twidere:prepareTwidereAndroidTwidereComponentCommonUnspecifiedLibrary UP-TO-DATE
+:twidere:prepareTwidereAndroidTwidereComponentNyanUnspecifiedLibrary UP-TO-DATE
+:twidere:prepareFdroidReleaseDependencies
+:twidere:compileFdroidReleaseAidl UP-TO-DATE
+:twidere:compileFdroidReleaseRenderscript UP-TO-DATE
+:twidere:generateFdroidReleaseBuildConfig UP-TO-DATE
+:twidere:generateFdroidReleaseAssets UP-TO-DATE
+:twidere:mergeFdroidReleaseAssets UP-TO-DATE
+:twidere:processFdroidReleaseManifest UP-TO-DATE
+:twidere:fabricGenerateResourcesFdroidRelease
+:twidere:generateFdroidReleaseResValues UP-TO-DATE
+:twidere:generateFdroidReleaseResources
+:twidere:mergeFdroidReleaseResources
+:twidere:processFdroidReleaseResources
+:twidere:generateFdroidReleaseSources
+:twidere:compileFdroidReleaseJavaWithJavac
+/home/xxxx/Twidere-Android/twidere/src/fdroid/java/org/mariotaku/twidere/fragment/support/OpenStreetMapViewerFragment.java:87: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+/home/xxxx/Twidere-Android/twidere/src/fdroid/java/org/mariotaku/twidere/fragment/support/OpenStreetMapViewerFragment.java:89: error: cannot find symbol
+        super.onBaseViewCreated(view, savedInstanceState);
+             ^
+  symbol: method onBaseViewCreated(View,Bundle)
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+2 errors
+:twidere:compileFdroidReleaseJavaWithJavac FAILED
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':twidere:compileFdroidReleaseJavaWithJavac'.
+&gt; Compilation failed; see the compiler error output for details.
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output.
+
+BUILD FAILED
+	</description>
+		</report>
+		<report Number="125">
+			<summary>Adjust character limit for GNU Social nodes that support &gt;140 characters</summary>
+			<url>https://github.com/TwidereProject/Twidere-Android/issues/463</url>
+			<bugID>Issue #463</bugID>
+			<label>None yet</label>
+			<description>
+		Some nodes, such as quitter.no, allow for more than 140 characters per post (quitter.no's limit is 1000 chars), but Twidere has the 140 limit hardcoded. There probably is a way to get the character limit through the API.
+	</description>
+		</report>
+		<report Number="126">
+			<summary>Thread completion in GNU Social/Friendica?</summary>
+			<url>https://github.com/TwidereProject/Twidere-Android/issues/464</url>
+			<bugID>Issue #464</bugID>
+			<label>None yet</label>
+			<description>
+		Older versions used the unofficial Twitter API call to fetch all items of a thread. This setting seems to have vanished now. Has it moved elsewhere or is it replaced by another call? If you use (or want to use) another call, please give me a hint so that I can test Friendica for compatibility.
+	</description>
+		</report>
+		<report Number="127">
+			<summary>Can't copy selected text in tweets</summary>
+			<url>https://github.com/TwidereProject/Twidere-Android/issues/470</url>
+			<bugID>Issue #470</bugID>
+			<label>None yet</label>
+			<description>
+		No description provided.
+	</description>
+		</report>
+		<report Number="128">
+			<summary>ActionIconView.java line 25</summary>
+			<url>https://github.com/TwidereProject/Twidere-Android/issues/471</url>
+			<bugID>Issue #471</bugID>
+			<label>None yet</label>
+			<description>
+		in org.mariotaku.twidere.view.ActionIconView. Number of crashes: 49 Impacted devices: 28 There's a lot more information about this crash on crashlytics.com: https://fabric.io/mariotaku-lees-projects/android/apps/org.mariotaku.twidere/issues/56be65b7f5d3a7f76bc8b53d
+	</description>
+		</report>
+		<report Number="129">
+			<summary>3.1.0.8.-3.1.1.2 Twidere list timeline always starts at the same position, even after timeline update</summary>
+			<url>https://github.com/TwidereProject/Twidere-Android/issues/472</url>
+			<bugID>Issue #472</bugID>
+			<label>None yet</label>
+			<description>
+		I have Twidere list timeline set so that it always open at the position where i left it. But after the latest upgrade it always starts at the same point - at the position just after the upgrade. If i rafresh the timeline and scroll to the top, the next time i open Twidere all of this is forgotten. After i deleted app cache and restarted Twidere the starting point only moved to that time.
+	</description>
+		</report>
+		<report Number="130">
+			<summary>&quot;No account selected&quot; in Home / Activated accounts</summary>
+			<url>https://github.com/TwidereProject/Twidere-Android/issues/475</url>
+			<bugID>Issue #475</bugID>
+			<label>None yet</label>
+			<description>
+		Hi! Anybody else noticed this issue? My home tab for all activated accounts doesn't display any tweets. Instead I get the following message: &quot;No account selected&quot;. I have a Twitter and a GNU Social account. I also have a home tab for each account, which are working fine. I am on 3.1.0.8.
+	</description>
+		</report>
+		<report Number="131">
+			<summary>Build error: UserProfileEditorFragment.java:280</summary>
+			<url>https://github.com/TwidereProject/Twidere-Android/issues/476</url>
+			<bugID>Issue #476</bugID>
+			<label>None yet</label>
+			<description>
+		$ ./gradlew assembleGoogleRelease
+Incremental java compilation is an incubating feature.
+:twidere:svgToDrawable UP-TO-DATE
+:twidere:svgToMipmap UP-TO-DATE
+:twidere:preBuild UP-TO-DATE
+:twidere:preGoogleReleaseBuild UP-TO-DATE
+:twidere:checkGoogleReleaseManifest
+:twidere:preFdroidDebugBuild UP-TO-DATE
+:twidere:preFdroidReleaseBuild UP-TO-DATE
+:twidere:preGoogleDebugBuild UP-TO-DATE
+:twidere.component.common:preBuild UP-TO-DATE
+:twidere.component.common:preReleaseBuild UP-TO-DATE
+:twidere.component.common:compileReleaseNdk UP-TO-DATE
+:twidere.component.common:compileLint
+:twidere.component.common:copyReleaseLint UP-TO-DATE
+:twidere.component.common:checkReleaseManifest
+:twidere.component.common:prepareReleaseDependencies
+:twidere.component.common:compileReleaseAidl UP-TO-DATE
+:twidere.component.common:compileReleaseRenderscript UP-TO-DATE
+:twidere.component.common:generateReleaseBuildConfig UP-TO-DATE
+:twidere.component.common:generateReleaseAssets UP-TO-DATE
+:twidere.component.common:mergeReleaseAssets UP-TO-DATE
+:twidere.component.common:generateReleaseResValues UP-TO-DATE
+:twidere.component.common:generateReleaseResources UP-TO-DATE
+:twidere.component.common:packageReleaseResources UP-TO-DATE
+:twidere.component.common:processReleaseManifest UP-TO-DATE
+:twidere.component.common:processReleaseResources UP-TO-DATE
+:twidere.component.common:generateReleaseSources UP-TO-DATE
+:twidere.component.common:compileReleaseJavaWithJavac
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+:twidere.component.common:extractReleaseAnnotations
+Warning: /home/fabi/github/Twidere-Android/twidere.component.common/src/main/java/org/mariotaku/twidere/api/twitter/model/ScheduledStatus.java: The typedef annotation org.mariotaku.twidere.api.twitter.model.ScheduledStatus.State should have @Retention(RetentionPolicy.SOURCE)
+Warning: /home/fabi/github/Twidere-Android/twidere.component.common/src/main/java/org/mariotaku/twidere/api/twitter/model/Activity.java: The typedef annotation org.mariotaku.twidere.api.twitter.model.Activity.Action should have @Retention(RetentionPolicy.SOURCE)
+Warning: /home/fabi/github/Twidere-Android/twidere.component.common/src/main/java/org/mariotaku/twidere/api/twitter/model/DMResponse.java: The typedef annotation org.mariotaku.twidere.api.twitter.model.DMResponse.Status should have @Retention(RetentionPolicy.SOURCE)
+Warning: /home/fabi/github/Twidere-Android/twidere.component.common/src/main/java/org/mariotaku/twidere/annotation/PreferenceType.java: The typedef annotation org.mariotaku.twidere.annotation.PreferenceType should have @Retention(RetentionPolicy.SOURCE)
+Warning: /home/fabi/github/Twidere-Android/twidere.component.common/src/main/java/org/mariotaku/twidere/api/twitter/model/ExtendedProfile.java: The typedef annotation org.mariotaku.twidere.api.twitter.model.ExtendedProfile.Birthdate.Visibility should have @Retention(RetentionPolicy.SOURCE)
+Warning: /home/fabi/github/Twidere-Android/twidere.component.common/src/main/java/org/mariotaku/twidere/api/twitter/model/TwitterResponse.java: The typedef annotation org.mariotaku.twidere.api.twitter.model.TwitterResponse.AccessLevel should have @Retention(RetentionPolicy.SOURCE)
+Warning: /home/fabi/github/Twidere-Android/twidere.component.common/src/main/java/org/mariotaku/twidere/api/twitter/model/UserList.java: The typedef annotation org.mariotaku.twidere.api.twitter.model.UserList.Mode should have @Retention(RetentionPolicy.SOURCE)
+Warning: /home/fabi/github/Twidere-Android/twidere.component.common/src/main/java/org/mariotaku/twidere/model/Draft.java: The typedef annotation org.mariotaku.twidere.model.Draft.Action should have @Retention(RetentionPolicy.SOURCE)
+Warning: /home/fabi/github/Twidere-Android/twidere.component.common/src/main/java/org/mariotaku/twidere/model/ParcelableAccount.java: The typedef annotation org.mariotaku.twidere.model.ParcelableAccount.Type should have @Retention(RetentionPolicy.SOURCE)
+:twidere.component.common:mergeReleaseProguardFiles UP-TO-DATE
+:twidere.component.common:packageReleaseRenderscript UP-TO-DATE
+:twidere.component.common:processReleaseJavaRes UP-TO-DATE
+:twidere.component.common:transformResourcesWithMergeJavaResForRelease UP-TO-DATE
+:twidere.component.common:transformClassesAndResourcesWithSyncLibJarsForRelease
+:twidere.component.common:mergeReleaseJniLibFolders UP-TO-DATE
+:twidere.component.common:transformNative_libsWithMergeJniLibsForRelease UP-TO-DATE
+:twidere.component.common:transformNative_libsWithSyncJniLibsForRelease UP-TO-DATE
+:twidere.component.common:bundleRelease
+:twidere.component.nyan:preBuild UP-TO-DATE
+:twidere.component.nyan:preReleaseBuild UP-TO-DATE
+:twidere.component.nyan:compileReleaseNdk UP-TO-DATE
+:twidere.component.nyan:compileLint
+:twidere.component.nyan:copyReleaseLint UP-TO-DATE
+:twidere.component.nyan:mergeReleaseProguardFiles UP-TO-DATE
+:twidere.component.nyan:packageReleaseRenderscript UP-TO-DATE
+:twidere.component.nyan:checkReleaseManifest
+:twidere.component.nyan:prepareReleaseDependencies
+:twidere.component.nyan:compileReleaseRenderscript UP-TO-DATE
+:twidere.component.nyan:generateReleaseResValues UP-TO-DATE
+:twidere.component.nyan:generateReleaseResources UP-TO-DATE
+:twidere.component.nyan:packageReleaseResources UP-TO-DATE
+:twidere.component.nyan:compileReleaseAidl UP-TO-DATE
+:twidere.component.nyan:generateReleaseBuildConfig UP-TO-DATE
+:twidere.component.nyan:generateReleaseAssets UP-TO-DATE
+:twidere.component.nyan:mergeReleaseAssets UP-TO-DATE
+:twidere.component.nyan:processReleaseManifest UP-TO-DATE
+:twidere.component.nyan:processReleaseResources UP-TO-DATE
+:twidere.component.nyan:generateReleaseSources UP-TO-DATE
+:twidere.component.nyan:compileReleaseJavaWithJavac UP-TO-DATE
+:twidere.component.nyan:processReleaseJavaRes UP-TO-DATE
+:twidere.component.nyan:transformResourcesWithMergeJavaResForRelease UP-TO-DATE
+:twidere.component.nyan:transformClassesAndResourcesWithSyncLibJarsForRelease UP-TO-DATE
+:twidere.component.nyan:mergeReleaseJniLibFolders UP-TO-DATE
+:twidere.component.nyan:transformNative_libsWithMergeJniLibsForRelease UP-TO-DATE
+:twidere.component.nyan:transformNative_libsWithSyncJniLibsForRelease UP-TO-DATE
+:twidere.component.nyan:bundleRelease UP-TO-DATE
+:twidere:prepareComAndroidSupportAnimatedVectorDrawable2321Library UP-TO-DATE
+:twidere:prepareComAndroidSupportAppcompatV72321Library UP-TO-DATE
+:twidere:prepareComAndroidSupportCardviewV72321Library UP-TO-DATE
+:twidere:prepareComAndroidSupportDesign2311Library UP-TO-DATE
+:twidere:prepareComAndroidSupportMultidex101Library UP-TO-DATE
+:twidere:prepareComAndroidSupportPreferenceV142321Library UP-TO-DATE
+:twidere:prepareComAndroidSupportPreferenceV72321Library UP-TO-DATE
+:twidere:prepareComAndroidSupportRecyclerviewV72321Library UP-TO-DATE
+:twidere:prepareComAndroidSupportSupportV132321Library UP-TO-DATE
+:twidere:prepareComAndroidSupportSupportV42321Library UP-TO-DATE
+:twidere:prepareComAndroidSupportSupportVectorDrawable2321Library UP-TO-DATE
+:twidere:prepareComCommonswareCwacLayouts042Library UP-TO-DATE
+:twidere:prepareComCommonswareCwacMerge111Library UP-TO-DATE
+:twidere:prepareComCommonswareCwacSacklist102Library UP-TO-DATE
+:twidere:prepareComCrashlyticsSdkAndroidAnswers136Library UP-TO-DATE
+:twidere:prepareComCrashlyticsSdkAndroidBeta114Library UP-TO-DATE
+:twidere:prepareComCrashlyticsSdkAndroidCrashlytics255Library UP-TO-DATE
+:twidere:prepareComCrashlyticsSdkAndroidCrashlyticsCore238Library UP-TO-DATE
+:twidere:prepareComDavemorrisseyLabsSubsamplingScaleImageView341Library UP-TO-DATE
+:twidere:prepareComGithubJohnpersanoSupertoasts1341Library UP-TO-DATE
+:twidere:prepareComGithubMariotakuAppThemeEngine1efc6237e1Library UP-TO-DATE
+:twidere:prepareComGithubMariotakuDragSortListView061Library UP-TO-DATE
+:twidere:prepareComGithubMariotakuMaterialDialogsCommonsBf2f2c5c57Library UP-TO-DATE
+:twidere:prepareComGithubMariotakuMaterialDialogsCoreBf2f2c5c57Library UP-TO-DATE
+:twidere:prepareComGithubMariotakuMediaViewerLibraryBase0913Library UP-TO-DATE
+:twidere:prepareComGithubMariotakuMediaViewerLibrarySubsampleImageView0913Library UP-TO-DATE
+:twidere:prepareComGithubMariotakuMessageBubbleView12Library UP-TO-DATE
+:twidere:prepareComGithubMariotakuPickNCrop093Library UP-TO-DATE
+:twidere:prepareComGithubUuckyColorPickerAndroid097Library UP-TO-DATE
+:twidere:prepareComGoogleAndroidGmsPlayServicesBase840Library UP-TO-DATE
+:twidere:prepareComGoogleAndroidGmsPlayServicesBasement840Library UP-TO-DATE
+:twidere:prepareComGoogleAndroidGmsPlayServicesMaps840Library UP-TO-DATE
+:twidere:prepareComGoogleMapsAndroidAndroidMapsUtils043Library UP-TO-DATE
+:twidere:prepareComLnikkilaExtendedtouchview010Library UP-TO-DATE
+:twidere:prepareComPnikosisMaterialishProgress17Library UP-TO-DATE
+:twidere:prepareComRengwuxianMaterialedittextLibrary214Library UP-TO-DATE
+:twidere:prepareComSoundcloudAndroidAndroidCrop101Library UP-TO-DATE
+:twidere:prepareIoFabricSdkAndroidFabric1310Library UP-TO-DATE
+:twidere:prepareMeZhanghaiAndroidMaterialprogressbarLibrary115Library UP-TO-DATE
+:twidere:preparePlDroidsonroidsGifAndroidGifDrawable1114Library UP-TO-DATE
+:twidere:prepareTwidereAndroidTwidereComponentCommonUnspecifiedLibrary
+:twidere:prepareTwidereAndroidTwidereComponentNyanUnspecifiedLibrary UP-TO-DATE
+:twidere:prepareGoogleReleaseDependencies
+:twidere:compileGoogleReleaseAidl UP-TO-DATE
+:twidere:compileGoogleReleaseRenderscript UP-TO-DATE
+:twidere:generateGoogleReleaseBuildConfig
+:twidere:generateGoogleReleaseAssets UP-TO-DATE
+:twidere:mergeGoogleReleaseAssets UP-TO-DATE
+:twidere:processGoogleReleaseManifest
+/home/fabi/github/Twidere-Android/twidere/src/google/AndroidManifest.xml:42:5-44:30 Warning:
+    uses-permission#android.permission.READ_PHONE_STATE was tagged at AndroidManifest.xml:42 to remove other declarations but no other declaration present
+:twidere:fabricGenerateResourcesGoogleRelease
+:twidere:generateGoogleReleaseResValues UP-TO-DATE
+:twidere:generateGoogleReleaseResources
+:twidere:mergeGoogleReleaseResources
+:twidere:processGoogleReleaseResources
+:twidere:generateGoogleReleaseSources
+:twidere:compileGoogleReleaseJavaWithJavac
+Note: Generating a MembersInjector for org.mariotaku.twidere.activity.BaseActivity. Prefer to run the dagger processor over that class instead.
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+:twidere:compileGoogleReleaseNdk UP-TO-DATE
+:twidere:compileGoogleReleaseSources
+:twidere:lintVitalGoogleRelease
+/home/fabi/github/Twidere-Android/twidere/src/main/java/org/mariotaku/twidere/fragment/UserProfileEditorFragment.java:280: Error: Unexpected cast to MaterialEditText: layout tag was TextView [WrongViewCast]
+        mEditScreenName = (MaterialEditText) view.findViewById(R.id.screen_name);
+                          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+   Explanation for issues of type &quot;WrongViewCast&quot;:
+   Keeps track of the view types associated with ids and if it finds a usage
+   of the id in the Java code it ensures that it is treated as the same type.
+
+1 errors, 0 warnings
+:twidere:prePackageMarkerForGoogleRelease
+:twidere:transformClassesWithJarMergingForGoogleRelease FAILED
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':twidere:transformClassesWithJarMergingForGoogleRelease'.
+&gt; com.android.build.api.transform.TransformException: java.util.zip.ZipException: duplicate entry: org/mariotaku/twidere/api/twitter/util/TwitterConverterFactory$UnsupportedTypeException.class
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output.
+
+BUILD FAILED
+	</description>
+		</report>
+		<report Number="132">
+			<summary>TextView.java line 5826</summary>
+			<url>https://github.com/TwidereProject/Twidere-Android/issues/479</url>
+			<bugID>Issue #479</bugID>
+			<label>None yet</label>
+			<description>
+		in android.widget.TextView.getBaseline Number of crashes: 49 Impacted devices: 8 There's a lot more information about this crash on crashlytics.com: https://fabric.io/mariotaku-lees-projects/android/apps/org.mariotaku.twidere/issues/56c77ccdf5d3a7f76bf4e464
+	</description>
+		</report>
+		<report Number="133">
+			<summary>unread count is missing in new builds</summary>
+			<url>https://github.com/TwidereProject/Twidere-Android/issues/483</url>
+			<bugID>Issue #483</bugID>
+			<label>None yet</label>
+			<description>
+		It seems that the unread count is missing in the new builds. Was nice to see how many unread tweets i have left.
+	</description>
+		</report>
+		<report Number="134">
+			<summary>Crash when refreshing GNU Social timeline on 3.1.1</summary>
+			<url>https://github.com/TwidereProject/Twidere-Android/issues/486</url>
+			<bugID>Issue #486</bugID>
+			<label>None yet</label>
+			<description>
+		Hi! Twidere 3.1.1 keeps on crashing when I refresh my GNU Social (quitter.se) timeline. This doesn't happen with my Twitter account. It wasn't happening on 3.1.0.10. Is there any way I can provide logs or anything? Thanks,
+	</description>
+		</report>
+		<report Number="135">
+			<summary>No way to open settings</summary>
+			<url>https://github.com/TwidereProject/Twidere-Android/issues/487</url>
+			<bugID>Issue #487</bugID>
+			<label>None yet</label>
+			<description>
+		I see no way to open the settings after the setup on a Nexus 5
+	</description>
+		</report>
+		<report Number="136">
+			<summary>Some crashes since 3.1</summary>
+			<url>https://github.com/TwidereProject/Twidere-Android/issues/497</url>
+			<bugID>Issue #497</bugID>
+			<label>None yet</label>
+			<description>
+		Since Twidere 3.1 there is some crashes which are followed by a force stop: While viewing a profile page of an account, on loading pictures (header and big avatar) On notification alert about new replies Tested on Cyanogenmod 11 (based on Android 4.4.4) and Android 5
+	</description>
+		</report>
+		<report Number="137">
+			<summary>no transparency anymore</summary>
+			<url>https://github.com/TwidereProject/Twidere-Android/issues/499</url>
+			<bugID>Issue #499</bugID>
+			<label>None yet</label>
+			<description>
+		Hello Transparency is not working anymore, how do I get it back to work? thanks, twidere Version: 3.1.1.5 System Version: 5.1.1 / 01.01.2016 Gerät: Huawei Y560-L01
+	</description>
+		</report>
+		<report Number="138">
+			<summary>German translations</summary>
+			<url>https://github.com/TwidereProject/Twidere-Android/issues/500</url>
+			<bugID>Issue #500</bugID>
+			<label>None yet</label>
+			<description>
+		@mariotaku Could you please check if the latest translations from Crowdin are imported into the repository? I have completed the German translation there some days ago.
+	</description>
+		</report>
+		<report Number="139">
+			<summary>craah on new tweet gnu social</summary>
+			<url>https://github.com/TwidereProject/Twidere-Android/issues/502</url>
+			<bugID>Issue #502</bugID>
+			<label>None yet</label>
+			<description>
+		after las 2 updates i'm getting the app to crash every time i hit the new tweet button. First i had the app installed through FDroid but after several updates of the app to versions 3.1.3 and so on, the app stopped working, so i installed the one from GPlay which was a bit oldr than these. Today GPlay app updated to 3.4 and the same happens. I'm using Cyanogenmod 12 lollipop 5.1 on galaxy s4 mini. After hitting new tweet i get app stopped working, pkease fix this awesome app!!
+	</description>
+		</report>
+		<report Number="140">
+			<summary>Crash while adding user in list details</summary>
+			<url>https://github.com/TwidereProject/Twidere-Android/issues/527</url>
+			<bugID>Issue #527</bugID>
+			<label>None yet</label>
+			<description>
+		No description provided.
+	</description>
+		</report>
+		<report Number="141">
+			<summary>&quot;tweet too long&quot; on gnusocial server</summary>
+			<url>https://github.com/TwidereProject/Twidere-Android/issues/531</url>
+			<bugID>Issue #531</bugID>
+			<label>None yet</label>
+			<description>
+		on my server https://gorf.club/ there is no text limit. maybe this is causing the error on twidere? even trying to post a single character results in &quot;tweet too long&quot;
+	</description>
+		</report>
+		<report Number="142">
+			<summary>BUG in 3.1.5: Clicking link DOESN'T open browser selector!</summary>
+			<url>https://github.com/TwidereProject/Twidere-Android/issues/533</url>
+			<bugID>Issue #533</bugID>
+			<label>None yet</label>
+			<description>
+		opens directly system browser (e.g. ASUS Browser on my ASUS ZenFone2) worked correctly on previous versions!
+	</description>
+		</report>
+		<report Number="143">
+			<summary>Feature request: &quot;My likes&quot; analogue to &quot;My retweets&quot;</summary>
+			<url>https://github.com/TwidereProject/Twidere-Android/issues/541</url>
+			<bugID>Issue #541</bugID>
+			<label>None yet</label>
+			<description>
+		I love the feature &quot;My retweets&quot; for setting up a new row for retweets of one of my tweets. It would be nice to have such a features for likes of one of my tweets.
+	</description>
+		</report>
+		<report Number="144">
+			<summary>Tweet are not refreshing</summary>
+			<url>https://github.com/TwidereProject/Twidere-Android/issues/545</url>
+			<bugID>Issue #545</bugID>
+			<label>None yet</label>
+			<description>
+		Hi, Suppose the app is open and I am surfing. When I change the source of the internet (such as WI-FI network, or WI-FI to Mobile Data), tweets are not refreshing when I &quot;swipe down to refresh&quot;. And it does not refresh after killing the app and restarting. I manage to refresh it after 3 days, and then I uninstall the app. The suspect something is blocking background services. (I did not read the code yet I really don't know how this app works inside) Phone is LG G3 and OS version is Android 6. But this was an issue, while i was Android 5. But on Anroid 5, killing the app and then starting it was solving the problem. I am going to provide more detail when I am able to download, compile and look at the Log.
+	</description>
+		</report>
+		<report Number="145">
+			<summary>New Follower notification</summary>
+			<url>https://github.com/TwidereProject/Twidere-Android/issues/547</url>
+			<bugID>Issue #547</bugID>
+			<label>None yet</label>
+			<description>
+		Hi, There are no notification when we get new follower. Can you add this feature ? :)
+	</description>
+		</report>
+		<report Number="146">
+			<summary>xAuth not working for Fanfou</summary>
+			<url>https://github.com/TwidereProject/Twidere-Android/issues/554</url>
+			<bugID>Issue #554</bugID>
+			<label>None yet</label>
+			<description>
+		No description provided.
+	</description>
+		</report>
+		<report Number="147">
+			<summary>Display &quot;Empty&quot; text on media only tweets</summary>
+			<url>https://github.com/TwidereProject/Twidere-Android/issues/559</url>
+			<bugID>Issue #559</bugID>
+			<label>None yet</label>
+			<description>
+		No description provided.
+	</description>
+		</report>
+		<report Number="148">
+			<summary>Fav count not updated in user timeline</summary>
+			<url>https://github.com/TwidereProject/Twidere-Android/issues/560</url>
+			<bugID>Issue #560</bugID>
+			<label>None yet</label>
+			<description>
+		No description provided. 👍 1
+	</description>
+		</report>
+		<report Number="149">
+			<summary>Clicking on favourites/likes in a card does not bring up list of accounts who favourited/liked</summary>
+			<url>https://github.com/TwidereProject/Twidere-Android/issues/563</url>
+			<bugID>Issue #563</bugID>
+			<label>None yet</label>
+			<description>
+		If you see a tweet, press on it, so that you're in the screen that shows you more detail about that tweet. Press on 'Retweets' and it brings up a list of accounts that have retweeted that tweet. Back out of that and press on 'Favourites'/'Likes' and you don't get a list of accounts that have favourited/liked that tweet. 👍 1
+	</description>
+		</report>
+		<report Number="150">
+			<summary>Changing email address</summary>
+			<url>https://github.com/TwidereProject/Twidere-Android/issues/564</url>
+			<bugID>Issue #564</bugID>
+			<label>None yet</label>
+			<description>
+		Hello, i'm already checking for possible solutions for over an hour but i couldn't find anything. First of all, thank you for a great twitter app. Now i'd like to change my email address in the settings but i can't find it anywhere. Is that even possible with twidere? Kind regards aeMKei1
+	</description>
+		</report>
+		<report Number="151">
+			<summary>Request: See favourited and retweeted notifications</summary>
+			<url>https://github.com/TwidereProject/Twidere-Android/issues/566</url>
+			<bugID>Issue #566</bugID>
+			<label>None yet</label>
+			<description>
+		#8 I was looking to add this feature and supposedly it must work using an official key but the nofications are only the replies and mentions. 👍 2
+	</description>
+		</report>
+		<report Number="152">
+			<summary>Request : more content &gt; lot more content and animation</summary>
+			<url>https://github.com/TwidereProject/Twidere-Android/issues/567</url>
+			<bugID>Issue #567</bugID>
+			<label>None yet</label>
+			<description>
+		Hi, When you re enter Twidere from a long time (more than one hour) you can see &quot;More content&quot; button in middle of the timeline. Is it possible to get animation (eg waiting clock) to show something is happening because for now, you click and sometime loaded content appeared, sometimes not. Furthermore, it will be useful to allow full loading of timeline since last opening for people with wifi or large broadband. Thanks a lot for this useful app, keep going with this extraordinary work.
+	</description>
+		</report>
+		<report Number="153">
+			<summary>Trim redundant hashtags while composing in search screen</summary>
+			<url>https://github.com/TwidereProject/Twidere-Android/issues/571</url>
+			<bugID>Issue #571</bugID>
+			<label>None yet</label>
+			<description>
+		No description provided.
+	</description>
+		</report>
+		<report Number="154">
+			<summary>Scrollable View changes position on Device Rotation</summary>
+			<url>https://github.com/TwidereProject/Twidere-Android/issues/572</url>
+			<bugID>Issue #572</bugID>
+			<label>None yet</label>
+			<description>
+		When I perform these sequences of events, the scroll view on screen goes back to the top: Sequence 1: Click on Edit API Scroll Down Orientation Change
+	</description>
+		</report>
+		<report Number="155">
+			<summary>Remove cached retweets after disable user's retweets</summary>
+			<url>https://github.com/TwidereProject/Twidere-Android/issues/576</url>
+			<bugID>Issue #576</bugID>
+			<label>None yet</label>
+			<description>
+		No description provided. 👍 1
+	</description>
+		</report>
+		<report Number="156">
+			<summary>White compose dialog background in dark theme</summary>
+			<url>https://github.com/TwidereProject/Twidere-Android/issues/579</url>
+			<bugID>Issue #579</bugID>
+			<label>None yet</label>
+			<description>
+		No description provided.
+	</description>
+		</report>
+		<report Number="157">
+			<summary>home room tweets in random order</summary>
+			<url>https://github.com/TwidereProject/Twidere-Android/issues/582</url>
+			<bugID>Issue #582</bugID>
+			<label>None yet</label>
+			<description>
+		i have tried everything all settings closing accounts reinstalling
+	</description>
+		</report>
+		<report Number="158">
+			<summary>Sending Tweet with image fails with 'Tweet not sent'</summary>
+			<url>https://github.com/TwidereProject/Twidere-Android/issues/584</url>
+			<bugID>Issue #584</bugID>
+			<label>None yet</label>
+			<description>
+		This message seems to only appear if sending a tweet with an image. Using 3.1.12
+	</description>
+		</report>
+		<report Number="159">
+			<summary>Timeline doesn't appear for GNUSocial in 3.1.12</summary>
+			<url>https://github.com/TwidereProject/Twidere-Android/issues/586</url>
+			<bugID>Issue #586</bugID>
+			<label>None yet</label>
+			<description>
+		Hello, I have searched a lot in the web before thinking this is an issue so, sorry if this problem have been addressed or I'm doing something wrong. I've used Twidere with a Twitter account, never had a problem. Today I tried setting up GNUSocial accounts and I can't get the timeline displayed, any tweet. I've used two different accounts in two different nodes: quitter.es and quitter.se, always using Basic Auth and API URL like https://domain/api/ without suffix version, in this last step, I've tried /api, and /api/ Nevertheless, I can do all of the following stuff in the Twidere client. Publish tweet Publish tweet with picture See likes Search tweets Search users View groups I've also tried doing (which didn't work): Disabling the twitter account and setting up only the GNUSocial one In the &quot;Home&quot; tab, selecting only the GNUSocial account instead of &quot;all actives&quot; Stopping the app and empty the cache Any of these steps results in the timeline being displayed. I always have the &quot;Slide down to update&quot; message. My device: Motorola Moto G XT1032 (first gen), rooted, with CM12.1-20151017-NIGHTLY (Android 5.1.1)
+	</description>
+		</report>
+		<report Number="160">
+			<summary>[UI] confusing setting window</summary>
+			<url>https://github.com/TwidereProject/Twidere-Android/issues/588</url>
+			<bugID>Issue #588</bugID>
+			<label>None yet</label>
+			<description>
+		I don't know what to do in this popup window, pressing OK again and again until I finally found this window is scrollable... Possible solutions: Make the window slightly larger. Place the OK button within the bottom of the scroll area.
+	</description>
+		</report>
+		<report Number="161">
+			<summary>cannot upload image</summary>
+			<url>https://github.com/TwidereProject/Twidere-Android/issues/589</url>
+			<bugID>Issue #589</bugID>
+			<label>None yet</label>
+			<description>
+		https://jabber.undernet.uy:5281/upload/1e968045-f2d8-4b6d-9ce6-2c524aa86b79/6653a55c-e8d3-49b0-a4f8-d004da17084c.jpg
+	</description>
+		</report>
+		<report Number="162">
+			<summary>Users favorited this not working</summary>
+			<url>https://github.com/TwidereProject/Twidere-Android/issues/591</url>
+			<bugID>Issue #591</bugID>
+			<label>None yet</label>
+			<description>
+		After pressing on a card for a tweet that has been favorited (or &quot;liked&quot;), there is a counter showing the number of users favorited the tweet. Pressing on the counter does not show which users have favorited the tweet. Pressing on the counter for retweets however does show the users that have retweeted that tweet. Not sure if this relates to #199.
+	</description>
+		</report>
+		<report Number="163">
+			<summary>Conversation order on GNU Social</summary>
+			<url>https://github.com/TwidereProject/Twidere-Android/issues/592</url>
+			<bugID>Issue #592</bugID>
+			<label>None yet</label>
+			<description>
+		Comparing conversation view order against web view or other clients suggests there's an issue with Twidere's handling of message order in a conversation.
+	</description>
+		</report>
+		<report Number="164">
+			<summary>[Feature Request] Jump to the top</summary>
+			<url>https://github.com/TwidereProject/Twidere-Android/issues/593</url>
+			<bugID>Issue #593</bugID>
+			<label>None yet</label>
+			<description>
+		A simple jump to the top would be a great feature.
+	</description>
+		</report>
+		<report Number="165">
+			<summary>No way to check current version</summary>
+			<url>https://github.com/TwidereProject/Twidere-Android/issues/595</url>
+			<bugID>Issue #595</bugID>
+			<label>None yet</label>
+			<description>
+		I don't see any way to check which version of Twidere I'm currently using from within the app. (Sorry if this is already reported. Github seems to be missing a search function on mobile...)
+	</description>
+		</report>
+		<report Number="166">
+			<summary>[Feature Request] Update card preview when card settings change</summary>
+			<url>https://github.com/TwidereProject/Twidere-Android/issues/614</url>
+			<bugID>Issue #614</bugID>
+			<label>None yet</label>
+			<description>
+		Under Settings - Appearance - Cards, the card preview does not automatically update when user changes the setting. It will be nice to update the card preview automatically without having to leave and come back this fragment.
+	</description>
+		</report>
+		<report Number="167">
+			<summary>Remember position setting doesn't work on lists tabs</summary>
+			<url>https://github.com/TwidereProject/Twidere-Android/issues/619</url>
+			<bugID>Issue #619</bugID>
+			<label>None yet</label>
+			<description>
+		I've downloaded Twidere for the first time, and &quot;remember position&quot; does not work on lists tabs (it does in the timeline tab). v 3.2.7 Android 6.0.1 OnePlus 3
+	</description>
+		</report>
+		<report Number="168">
+			<summary>Can't open links in email notifications</summary>
+			<url>https://github.com/TwidereProject/Twidere-Android/issues/620</url>
+			<bugID>Issue #620</bugID>
+			<label>None yet</label>
+			<description>
+		Bear with me, it is probably a Twidere integration issue :) So when Twitter sends you an email about people favouriting and following or whatever, the email has a link in it. So I open the Gmail app to read the mail and occasionally want to go to the user profile for example. Even if I ask my Android 5 to open such a link with Twidere, it will open my default browser (which happens to be Opera), and the URL will change from https://mobile.twitter.com/… to something starting with twitter:// which in turn can, I guess, only be understood by the official Twitter app. So multiple issues/questions here: why doesn't or cannot Twidere get associated with the link in the first place? can Twidere learn to hook onto twitter:// &quot;protocol&quot; and do the right thing? (why on Earth is Twitter such an a-hole about third party clients?)
+	</description>
+		</report>
+		<report Number="169">
+			<summary>Generic Search tab</summary>
+			<url>https://github.com/TwidereProject/Twidere-Android/issues/621</url>
+			<bugID>Issue #621</bugID>
+			<label>None yet</label>
+			<description>
+		How do you add a generic search tab? I can't seem to find a way to add a search option which would allow you to click on it, type in what you want to search for i.e. users, hashtags etc and be displayed with a list of results. To me being able to search Twitter is vital in order to fully utilise it. I would find it strange that something so generic wouldn't be included in this app. 👍 1
+	</description>
+		</report>
+		<report Number="170">
+			<summary>Unicode smiley user names are shown wrong</summary>
+			<url>https://github.com/TwidereProject/Twidere-Android/issues/623</url>
+			<bugID>Issue #623</bugID>
+			<label>None yet</label>
+			<description>
+		This user is shown like this in Twidere (Android 6.0):
+	</description>
+		</report>
+		<report Number="171">
+			<summary>Translation doesn't seem to work</summary>
+			<url>https://github.com/TwidereProject/Twidere-Android/issues/624</url>
+			<bugID>Issue #624</bugID>
+			<label>None yet</label>
+			<description>
+		Hi there! Sorry if it's the wrong place to ask. I've installed Twidere 3.2.7 on CyanogenMod 13 and I cannot see translation for non-English tweets anywhere. I picked English as the 'Translation Destination' in the settings. Am I missing something?
+	</description>
+		</report>
+		<report Number="172">
+			<summary>[Feature Request] Configuring to include a prefix/suffix to every tweet</summary>
+			<url>https://github.com/TwidereProject/Twidere-Android/issues/631</url>
+			<bugID>Issue #631</bugID>
+			<label>None yet</label>
+			<description>
+		I'm using Twidere with a friend which is not really experienced using Twitter. So I'm helping him to organize his Twitter experience with some tweets written by me. But we want to ensure that all tweets are identifiable which are written from him. So it would be a nice feature to configure Twidere with a function to add a suffix/prefix to every written tweet like &quot;This is a tweet from User XY! /xy&quot; (the suffix is &quot;/xy&quot; here).
+	</description>
+		</report>
+		<report Number="173">
+			<summary>Can't view profile of RT'd user in a &quot;tweets of user&quot; tab</summary>
+			<url>https://github.com/TwidereProject/Twidere-Android/issues/637</url>
+			<bugID>Issue #637</bugID>
+			<label>None yet</label>
+			<description>
+		I've got a tab showing all tweets of a specific user. Whenever I want to visit the profile of any other user who's been retweeted into this timeline by tapping on that other user's avatar, I get this screen, loading forever: This problem does persist even when navigating through the thread of the retweeted tweet, tapping tweets and then the avatar... it persists through the whole possible action tree starting at the tab showing the tweets of a specific user (as far as I tested). Steps to reproduce: Add a tab &quot;tweets of specific user&quot; (e.g. &quot;@kiforbiter&quot;, which is a retweet bot) Pick any retweet in that tab and try to visit the retweeted user's profile. Actual behavior: I see the screen above. Expected behaviour: I see the retweeted user's profile. In tabs of a different type, everything's working fine. Using Twidere 3.2.9 on Nexus 5/Android 5.1.1.
+	</description>
+		</report>
+		<report Number="174">
+			<summary>[Feature Request] Hide FAB button</summary>
+			<url>https://github.com/TwidereProject/Twidere-Android/issues/652</url>
+			<bugID>Issue #652</bugID>
+			<label>None yet</label>
+			<description>
+		I'd like an option in settings to hide the floating &quot;new tweet&quot; button. It can be annoying for me and I can easily reach the same function from the drawer.
+	</description>
+		</report>
+		<report Number="175">
+			<summary>&quot;Remember position* setting broken</summary>
+			<url>https://github.com/TwidereProject/Twidere-Android/issues/655</url>
+			<bugID>Issue #655</bugID>
+			<label>None yet</label>
+			<description>
+		i think remember position setting has been broken for some time in Twidere. if i click back and close Twidere this way when i come back to my default list tab it goes straight to the top. thanks! xperia z3c andoid 6.1
+	</description>
+		</report>
+		<report Number="176">
+			<summary>App isn't fully working anymore</summary>
+			<url>https://github.com/TwidereProject/Twidere-Android/issues/660</url>
+			<bugID>Issue #660</bugID>
+			<label>None yet</label>
+			<description>
+		I had the previous version from f-droid 3.2 and something if I remember correctly but since I change to 3.3.16 the app isn't woking correctly anymore. Changing to 3.3.20 didn't change anything. I'm using the app with a tweeter account on a samsung galaxy j1 (2016) with android 5.1.1 The normal feed still work but I can't see any user feed (when I go on their page or if I set up a tab), I can see the user info but the feed doesn't load. The search function doesn't load tweet either (by manually searching or with a search tab).
+	</description>
+		</report>
+		<report Number="177">
+			<summary>Tweets not sent</summary>
+			<url>https://github.com/TwidereProject/Twidere-Android/issues/663</url>
+			<bugID>Issue #663</bugID>
+			<label>None yet</label>
+			<description>
+		After upgrading to 3.3.29, I noticed tweets aren't sent at all. A notification toast appears and disappears almost immediately, without any text I would say, and that's all. Tweets are then stored in drafts, but still can't get sent.
+	</description>
+		</report>
+		<report Number="178">
+			<summary>Stopped Working</summary>
+			<url>https://github.com/TwidereProject/Twidere-Android/issues/669</url>
+			<bugID>Issue #669</bugID>
+			<label>None yet</label>
+			<description>
+		Twidere 3.3.29 Android 4.4.2 Samsung GT-7100 java.lang.RuntimeException: Unable to start activity ComponentInfo{org.mariotaku.twidere/org.mariotaku.twidere.activity.LinkHandlerActivity}: android.view.InflateException: Binary XML file line #51: Error inflating class at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2413) at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2471) at android.app.ActivityThread.handleRelaunchActivity(ActivityThread.java:4054) at android.app.ActivityThread.access$1000(ActivityThread.java:175) at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1314) at android.os.Handler.dispatchMessage(Handler.java:102) at android.os.Looper.loop(Looper.java:146) at android.app.ActivityThread.main(ActivityThread.java:5602) at java.lang.reflect.Method.invokeNative(Native Method) at java.lang.reflect.Method.invoke(Method.java:515) at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:1283) at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1099) at de.robv.android.xposed.XposedBridge.main(XposedBridge.java:132) at dalvik.system.NativeStart.main(Native Method) Caused by: android.view.InflateException: Binary XML file line #51: Error inflating class at android.view.LayoutInflater.createView(LayoutInflater.java:626) at android.view.LayoutInflater.createViewFromTag(LayoutInflater.java:702) at android.view.LayoutInflater.rInflate(LayoutInflater.java:761) at android.view.LayoutInflater.rInflate(LayoutInflater.java:769) at android.view.LayoutInflater.rInflate(LayoutInflater.java:769) at android.view.LayoutInflater.inflate(LayoutInflater.java:498) at de.robv.android.xposed.XposedBridge.invokeOriginalMethodNative(Native Method) at de.robv.android.xposed.XposedBridge.handleHookedMethod(XposedBridge.java:631) at android.view.LayoutInflater.inflate(Native Method) at android.view.LayoutInflater.inflate(LayoutInflater.java:398) at org.mariotaku.twidere.fragment.UserFragment.onCreateView(UserFragment.kt:632) at android.support.v4.app.Fragment.performCreateView(Fragment.java:2184) at android.support.v4.app.FragmentManagerImpl.moveToState(FragmentManager.java:1298) at android.support.v4.app.FragmentManagerImpl.moveFragmentToExpectedState(FragmentManager.java:1523) at android.support.v4.app.FragmentManagerImpl.moveToState(FragmentManager.java:1585) at android.support.v4.app.FragmentManagerImpl.dispatchActivityCreated(FragmentManager.java:2832) at android.support.v4.app.FragmentController.dispatchActivityCreated(FragmentController.java:201) at android.support.v4.app.FragmentActivity.onStart(FragmentActivity.java:603) at android.support.v7.app.AppCompatActivity.onStart(AppCompatActivity.java:181) at com.afollestad.appthemeengine.ATEActivity.onStart(ATEActivity.java:29) at org.mariotaku.twidere.activity.LinkHandlerActivity.onStart(LinkHandlerActivity.kt:192) at android.app.Instrumentation.callActivityOnStart(Instrumentation.java:1177) at android.app.Activity.performStart(Activity.java:5461) at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2386) ... 13 more Caused by: java.lang.reflect.InvocationTargetException at java.lang.reflect.Constructor.constructNative(Native Method) at java.lang.reflect.Constructor.newInstance(Constructor.java:423) at android.view.LayoutInflater.createView(LayoutInflater.java:600) ... 36 more Caused by: java.lang.OutOfMemoryError at android.graphics.BitmapFactory.nativeDecodeAsset(Native Method) at android.graphics.BitmapFactory.decodeStream(BitmapFactory.java:683) at android.graphics.BitmapFactory.decodeResourceStream(BitmapFactory.java:513) at android.graphics.BitmapFactory.decodeResource(BitmapFactory.java:541) at android.graphics.BitmapFactory.decodeResource(BitmapFactory.java:571) at org.mariotaku.sprite.library.AnimatedBitmapLayer.(AnimatedBitmapLayer.java:51) at org.mariotaku.twidere.view.BirthdayView.init(BirthdayView.java:56) at org.mariotaku.twidere.view.BirthdayView.(BirthdayView.java:46) ... 39 more
+	</description>
+		</report>
+		<report Number="179">
+			<summary>Tweet Time</summary>
+			<url>https://github.com/TwidereProject/Twidere-Android/issues/680</url>
+			<bugID>Issue #680</bugID>
+			<label>None yet</label>
+			<description>
+		Where can you change the settings for displayed tweet time in the home feed, so it is either relative (10 min ago) or absolute (10:30pm)? I'm sure this feature existed in a previous version.
+	</description>
+		</report>
+		<report Number="180">
+			<summary>Feature request: list as tab</summary>
+			<url>https://github.com/TwidereProject/Twidere-Android/issues/686</url>
+			<bugID>Issue #686</bugID>
+			<label>None yet</label>
+			<description>
+		It would be helpful, if there were a possibility to add a list to the tabs. Right now it is a bit to complicated to navigate to often used lists.
+	</description>
+		</report>
+		<report Number="181">
+			<summary>Open status links in an external browser</summary>
+			<url>https://github.com/TwidereProject/Twidere-Android/issues/687</url>
+			<bugID>Issue #687</bugID>
+			<label>None yet</label>
+			<description>
+		Hello! How could I make Twidere open links (of statuses etc) in an in-app browser? I have been searching for this but couldn't really find anything. Thanks!
+	</description>
+		</report>
+		<report Number="182">
+			<summary>Crash when scrolling to bottom of tweet with many replies</summary>
+			<url>https://github.com/TwidereProject/Twidere-Android/issues/719</url>
+			<bugID>Issue #719</bugID>
+			<label>None yet</label>
+			<description>
+		It's a sort of crash, but the app does not close. Expected behavior When viewing a tweet with more replies than fit on the screen, you swipe down to read the replies. When you reach the last reply, you can not swipe down further. To return to your timeline, you can use the Android Back button. Actual behavior When viewing a tweet met more replies than fit on the screen and you swipe down to the last reply, the screen flashes white and you are returned to the timeline. It's virtually impossible to read the last reply, because the moment you arrive at the last reply, the screen flashes white and you are returned to the timeline. Steps to reproduce Find a tweet with a good number of replies in your timeline. Tap the tweet. Swipe down to the last reply. Extra info n/a Android version: (version code here) Android 7.0 (OxygenOS 4.0.3 on OnePlus 3T) Network type: Cellular Wi-Fi App version: (version code here) Twidere V 3.4.31 Build variant: Google F-Droid Micro-blogging service: Twitter Fanfou GNU Social / StatusNet App settings: Custom API Custom consumer key/secrets Official keys Using Thumbor Connected through proxy Media preview enabled
+	</description>
+		</report>
+		<report Number="183">
+			<summary>[Bug/Regression] Notifications No Longer Work</summary>
+			<url>https://github.com/TwidereProject/Twidere-Android/issues/722</url>
+			<bugID>Issue #722</bugID>
+			<label>None yet</label>
+			<description>
+		The notifications revamp has essentially made it so that none of the notifications are working now. Whether the app is in the foreground and I trigger a manual sync or it's just doing a background sync, no notifications for any of the 3 categories appear whatsoever. Extra info Android version: 5.1.1 App version: 3.4.31 Build variant: Google Micro-blogging service: Twitter App settings: Custom API Custom consumer key/secrets Official keys Using [Thumbor] Connected through proxy Media preview enabled
+	</description>
+		</report>
+		<report Number="184">
+			<summary>[Feature request] Show account when retweeting/quoting/faving, change account in same tab</summary>
+			<url>https://github.com/TwidereProject/Twidere-Android/issues/734</url>
+			<bugID>Issue #734</bugID>
+			<label>None yet</label>
+			<description>
+		When I open a tweet to retweethe, quote or fav it, I have to make sure with which account I'm doing this. This depends on the tab I'm in, what I forget sometimes. This results in RTs by the wrong account. I've seen a twitter client that does shows a solution: Falcon Pro not only display the account used when opening a tweet. It also allows to change the account to use for RTs/Quotes/Favs in the same tab. I'd like to see this in Twidere as well.
+	</description>
+		</report>
+		<report Number="185">
+			<summary>Crash when selecting different account to open tweet</summary>
+			<url>https://github.com/TwidereProject/Twidere-Android/issues/738</url>
+			<bugID>Issue #738</bugID>
+			<label>None yet</label>
+			<description>
+		Expected behavior Tweet opens with selected account Actual behavior Twidere crashes Steps to reproduce Longpress retweet icon underneath tweet, select account Extra info Android version: 6.0.1 Network type: Cellular Wi-Fi App version: 3.4.44 Build variant: Google F-Droid Micro-blogging service: Twitter Fanfou GNU Social / StatusNet App settings: Custom API Custom consumer key/secrets Official keys Using Thumbor Connected through proxy Media preview enabled
+	</description>
+		</report>
+		<report Number="186">
+			<summary>Fix memory leaks</summary>
+			<url>https://github.com/TwidereProject/Twidere-Android/issues/744</url>
+			<bugID>Issue #744</bugID>
+			<label>None yet</label>
+			<description>
+		Just a reminder, I found some memory leaks and these needs to be fixed in order to make 3.5 release.
+	</description>
+		</report>
+		<report Number="187">
+			<summary>[FEATURE REQUEST] Support for the GNU-Social compatible Mastodon social served</summary>
+			<url>https://github.com/TwidereProject/Twidere-Android/issues/748</url>
+			<bugID>Issue #748</bugID>
+			<label>None yet</label>
+			<description>
+		No description provided.
+	</description>
+		</report>
+		<report Number="188">
+			<summary>Mastodon search needs to be implemented.</summary>
+			<url>https://github.com/TwidereProject/Twidere-Android/issues/775</url>
+			<bugID>Issue #775</bugID>
+			<label>None yet</label>
+			<description>
+		No description provided.
+	</description>
+		</report>
+		<report Number="189">
+			<summary>Split tweets when longer than 140 xters</summary>
+			<url>https://github.com/TwidereProject/Twidere-Android/issues/790</url>
+			<bugID>Issue #790</bugID>
+			<label>None yet</label>
+			<description>
+		Hi Thank you for all your work. This is a great app I would like to request an option to split a tweet longer than 140 xters into several tweets that are then tweeted in a thread. Entries in the thread are then designated with a (1/n) suffix, where n is the final number of entries in the thread Thank you again. You can ignore this form if this issue is a feature request. Expected behavior Actual behavior Steps to reproduce Extra info Android version: (version code here) Network type: Cellular Wi-Fi App version: (version code here) Build variant: Google F-Droid Micro-blogging service: Twitter Fanfou GNU Social / StatusNet App settings: Custom API Custom consumer key/secrets Official keys Using Thumbor Connected through proxy Media preview enabled
+	</description>
+		</report>
+		<report Number="190">
+			<summary>'My account' app icon shortcut on 7.1.1</summary>
+			<url>https://github.com/TwidereProject/Twidere-Android/issues/791</url>
+			<bugID>Issue #791</bugID>
+			<label>None yet</label>
+			<description>
+		Hi, thank you again for your work. If it's not too much to ask, I would like to request the addition of a 'my account' app icon shortcut to the existing ones ( compose tweet, and take a picture) that immediately takes one to one's profile page. Thank you again.
+	</description>
+		</report>
+		<report Number="191">
+			<summary>Improve clear notification to make sure unread position updated</summary>
+			<url>https://github.com/TwidereProject/Twidere-Android/issues/803</url>
+			<bugID>Issue #803</bugID>
+			<label>None yet</label>
+			<description>
+		No description provided.
+	</description>
+		</report>
+		<report Number="192">
+			<summary>Make &quot;sync position&quot; disabled when &quot;remember position disabled&quot;</summary>
+			<url>https://github.com/TwidereProject/Twidere-Android/issues/805</url>
+			<bugID>Issue #805</bugID>
+			<label>None yet</label>
+			<description>
+		No description provided.
+	</description>
+		</report>
+		<report Number="193">
+			<summary>Display a summary for &quot;sync position&quot; option</summary>
+			<url>https://github.com/TwidereProject/Twidere-Android/issues/806</url>
+			<bugID>Issue #806</bugID>
+			<label>None yet</label>
+			<description>
+		No description provided.
+	</description>
+		</report>
+		<report Number="194">
+			<summary>No Mastodon's toots in home</summary>
+			<url>https://github.com/TwidereProject/Twidere-Android/issues/808</url>
+			<bugID>Issue #808</bugID>
+			<label>None yet</label>
+			<description>
+		Hello, I'm using Twidere for my Twitter account and my Mastodon account, but I can't see the toots in the Home view. Expected behavior When adding my Mastodon account I was expecting one of those behaviours: Have the tweets and the toots mixed together in the home column Have a home view for tweets when my Twitter account is selected on the left, and have a home view for toots when my Mastodon account is selected on the left. Actual behavior I only see tweets in the Home view. Even when I switch accounts in the sidebar, it has no effect on the column view. I can't see toots of the Home column. Steps to reproduce Start Twidere with the Twitter account already opened (after the first start of the phone) to only be able to see tweets in the home column. Start Twidere with the Mastodon account already opened (after the first start of the phone) to only be able to see toots in the home column. Extra info I know the Mastodon account works because I can see the local toots in the Public Timeline and the Network Timeline. Okay, I just tried again and it seems I can see toots in the Home view when I open Twidere with the Mastodon account already selected (at the phone's first start). In this case it's this time the tweets which don't display in the Home view. My Twitter and Mastodon accounts are exactly the same name (@KillianKemps), maybe is it there a conflict. Android version: 5.1 Network type: Cellular Wi-Fi App version: 3.5.25 Build variant: Google F-Droid Micro-blogging service: Twitter Mastodon
+	</description>
+		</report>
+		<report Number="195">
+			<summary>Can't add more account on Android 4.0.3</summary>
+			<url>https://github.com/TwidereProject/Twidere-Android/issues/810</url>
+			<bugID>Issue #810</bugID>
+			<label>None yet</label>
+			<description>
+		原来已经有一个推特账户，再点击添加新账户时，直接跳出设置界面，回到主界面。也就是说，不能添加。
+	</description>
+		</report>
+		<report Number="196">
+			<summary>Missing newlines in toots</summary>
+			<url>https://github.com/TwidereProject/Twidere-Android/issues/814</url>
+			<bugID>Issue #814</bugID>
+			<label>None yet</label>
+			<description>
+		Check before submitting issue -- Thank you! You can ignore this form if this issue is a feature request. Expected behavior See newlines in toots by @mastodonusercount@social.lou.lt Actual behavior No newlines in toots by @mastodonusercount@social.lou.lt Steps to reproduce Follow @mastodonusercount@social.lou.lt Wait until they toot the user count Refresh your timeline in Twidere Look at toot Extra info Android version: 6.0 Network type: Cellular Wi-Fi App version: 3.5.33 Build variant: Google F-Droid Micro-blogging service: Twitter Fanfou GNU Social / StatusNet Mastodon App settings: Custom API Custom consumer key/secrets Official keys Using Thumbor Connected through proxy Media preview enabled
+	</description>
+		</report>
+		<report Number="197">
+			<summary>Blocked/Muted Users still fisplayed</summary>
+			<url>https://github.com/TwidereProject/Twidere-Android/issues/816</url>
+			<bugID>Issue #816</bugID>
+			<label>None yet</label>
+			<description>
+		Check before submitting issue -- Thank you! You can ignore this form if this issue is a feature request. Expected behavior Actual behavior Steps to reproduce Extra info Android version: (version code here) Network type: Cellular Wi-Fi App version: (version code here) Build variant: Google F-Droid Micro-blogging service: Twitter Fanfou GNU Social / StatusNet App settings: Custom API Custom consumer key/secrets Official keys Using Thumbor Connected through proxy Media preview enabled
+	</description>
+		</report>
+		<report Number="198">
+			<summary>Blocked/Muted Users still displayed</summary>
+			<url>https://github.com/TwidereProject/Twidere-Android/issues/817</url>
+			<bugID>Issue #817</bugID>
+			<label>None yet</label>
+			<description>
+		Expected behavior Twidere does not display tweets of users I have blocked, muted or filtered. Actual behavior Even when I applied all three options to get rid if certain users I see them when opening tweets they have replied to. Steps to reproduce Block/mute/Filter user. See thread they have replied to. Extra info Android version: 7.0 Network type: Cellular Wi-Fi App version: 3.5.33 Build variant: Google F-Droid Micro-blogging service: Twitter Fanfou GNU Social / StatusNet App settings: Custom API Custom consumer key/secrets Official keys Using Thumbor Connected through proxy Media preview enabled
+	</description>
+		</report>
+		<report Number="199">
+			<summary>The new Beta version (3.5.37) can not use API consumer Key</summary>
+			<url>https://github.com/TwidereProject/Twidere-Android/issues/818</url>
+			<bugID>Issue #818</bugID>
+			<label>None yet</label>
+			<description>
+		问题 Twidere 在 Google Play Beta 测试组推送的新版 (3.5.37) 在 OAuth 模式下不能使用官推的 consumer key，但 xAuth 下在应用内登录后 (不经过浏览器授权) 可以使用官推 API 操作步骤 在应用内先设置好自己的 API consumer key 和 secret 删除账号再登录 (选择 Twitter) 在点选应用的 Login 的按钮后打开的浏览器授权页面还是显示授权的是 Twidere for Twitter #5 而不是 Twitter for Android，登录后也是使用的 Twidere 的 API。 当我选择 xAuth 的模式后，删除账号重新登录 (弹出账号选择，不选择任何东西) 然后直接在应用内登录则使用的是 Twitter for Android 的 API 相关信息 系统: Android 5.0.2 (Sony sol26 ROM) Twidere 版本: 3.5.37 (Google Play Beta Version)
+	</description>
+		</report>
+		<report Number="200">
+			<summary>request - Allows only media timeline browsing and can be used in a separate Tab</summary>
+			<url>https://github.com/TwidereProject/Twidere-Android/issues/827</url>
+			<bugID>Issue #827</bugID>
+			<label>None yet</label>
+			<description>
+		是否能添加一个功能，允许开始「仅媒体」时间线浏览模式，并可以在一个单独的 Tab 使用？
+	</description>
+		</report>
+		<report Number="201">
+			<summary>request - Allows only media timeline mode and can be used in a separate Tab</summary>
+			<url>https://github.com/TwidereProject/Twidere-Android/issues/828</url>
+			<bugID>Issue #828</bugID>
+			<label>None yet</label>
+			<description>
+		是否能添加一个功能，允许开始「仅媒体」时间线浏览模式，并可以在一个单独的 Tab 使用？
+	</description>
+		</report>
+		<report Number="202">
+			<summary>request - Allows only media timeline mode and can be used in a separate Tab</summary>
+			<url>https://github.com/TwidereProject/Twidere-Android/issues/829</url>
+			<bugID>Issue #829</bugID>
+			<label>None yet</label>
+			<description>
+		是否能添加一个功能，允许开启「仅媒体」时间线浏览模式，并可以在一个单独的 Tab 使用？ 👍 1
+	</description>
+		</report>
+		<report Number="203">
+			<summary>Bundle Twemoji</summary>
+			<url>https://github.com/TwidereProject/Twidere-Android/issues/833</url>
+			<bugID>Issue #833</bugID>
+			<label>None yet</label>
+			<description>
+		Twitter develops their own set of Creative Commons-licensed emoji graphics: https://github.com/twitter/twemoji Unlike Android, where users are dependent on OEMs to ship updates for new Unicode versions, Twemoji is constantly being updated. They are also used by Twitter for their hashflags feature. For details see http://emojipedia.org/twitter/ Bundling Twemoji would give users a consistent Twitter experience across formfactors. It would also ensure that users don't get to see a placeholder, just because their phone is one year old.
+	</description>
+		</report>
+		<report Number="204">
+			<summary>Number of new tweets</summary>
+			<url>https://github.com/TwidereProject/Twidere-Android/issues/836</url>
+			<bugID>Issue #836</bugID>
+			<label>None yet</label>
+			<description>
+		Check before submitting issue -- Thank you! You can ignore this form if this issue is a feature request. Expected behavior Showing the correct number of new tweets. Actual behavior Showing always maximum 20. Steps to reproduce -Wait a couple hours -Load all tweets -Press &quot;Load More&quot; -Max. 20 is showing in the red dot Extra info Android version: (7.1.2) Network type: [ x ] Cellular [ x ] Wi-Fi App version: (3.5.40) Build variant: Google [ x ] F-Droid Micro-blogging service: [ x ] Twitter Fanfou GNU Social / StatusNet Mastodon App settings: Custom API Custom consumer key/secrets Official keys Using Thumbor Connected through proxy Media preview enabled
+	</description>
+		</report>
+		<report Number="205">
+			<summary>Real size sometimes scales up wrongly</summary>
+			<url>https://github.com/TwidereProject/Twidere-Android/issues/838</url>
+			<bugID>Issue #838</bugID>
+			<label>None yet</label>
+			<description>
+		Expected behavior The images of &quot;Real size&quot; are always scaled up to fit the square. Actual behavior Sometimes, images are scaled up too far: (https://twitter.com/andreandkarl/status/863871280285704196) Steps to reproduce Open Twidere Hit search Search for @andreandkarl Scroll down a bit until you see a picture that is scaled up too far If you now switch away from Twidere and back, the image will be rescaled properly. Extra info Android version: 7.1.2 (LineageOS 14.1) Network type: Cellular Wi-Fi App version: 3.6.10 Build variant: Google F-Droid Micro-blogging service: Twitter Fanfou GNU Social / StatusNet Mastodon App settings: Custom API Custom consumer key/secrets Official keys (I think so? I did not change anything aside from the appearance settings and streaming) Using Thumbor Connected through proxy Media preview enabled
+	</description>
+		</report>
+		<report Number="206">
+			<summary>Unable to select text in tweet screen</summary>
+			<url>https://github.com/TwidereProject/Twidere-Android/issues/842</url>
+			<bugID>Issue #842</bugID>
+			<label>None yet</label>
+			<description>
+		问题 在 Twidere 中，点开一条推的详细页面，选中任意文字，「选中状态」会跳到最开头 相关 Sony Z3 Android 6.0 (D6653 ROM) Twidere Version: 3.6.14 (Google Play)
+	</description>
+		</report>
+		<report Number="207">
+			<summary>Feature Request: Display expanded content warnings inline [MASTODON]</summary>
+			<url>https://github.com/TwidereProject/Twidere-Android/issues/843</url>
+			<bugID>Issue #843</bugID>
+			<label>None yet</label>
+			<description>
+		The application should display content-warning expansions INLINE. How it is set up right now requires a million pages to be opened to read a whole conversation that has content warnings. Check how Tusky does it and you'll see what I mean. [X ] Google F-Droid Micro-blogging service: Twitter Fanfou GNU Social / StatusNet [ X] Mastodon
+	</description>
+		</report>
+		<report Number="208">
+			<summary>Detect the allowed file size for attachments in GNU social</summary>
+			<url>https://github.com/TwidereProject/Twidere-Android/issues/848</url>
+			<bugID>Issue #848</bugID>
+			<label>None yet</label>
+			<description>
+		In the API for the settings of the node (located at /api/statusnet/config.xml on every GNU social or Statusnet instance) there is an entry called file_quota. You can find it in the XML tree under config &gt; attachments &gt; file_quota
+ and it shows the allowed file size in Bytes. I think it'd be nice if Twidere could read this value and warn the user if he is about to send a bigger attachment as allowed. The current behavior is that the post is submitted as normal, but the attachment is missing and the user notices this only afterwards. And I sometimes wondered why the image is missing although I intended to (and did) add one… 😉 Edit: Of course there is also JSON, e.g.: curl https://gnusocial.de/api/statusnet/config.json | jq .attachments.file_quota
+	</description>
+		</report>
+		<report Number="209">
+			<summary>mastodon hashtag open in browser not in twidere</summary>
+			<url>https://github.com/TwidereProject/Twidere-Android/issues/850</url>
+			<bugID>Issue #850</bugID>
+			<label>None yet</label>
+			<description>
+		Expected behavior I would like the hastag to open on twidere directly as with twitter. Actual behavior On twidere by clicking on a hashtag, I am redirected to the browser Steps to reproduce Go to twidere and click on the hashtag of a toot Extra info Android version: 4.4 App version: 3.6.15 Build variant: F-Droid Micro-blogging service: Mastodon
+	</description>
+		</report>
+		<report Number="210">
+			<summary>Feature Request: Tweet Link to mastodon post</summary>
+			<url>https://github.com/TwidereProject/Twidere-Android/issues/853</url>
+			<bugID>Issue #853</bugID>
+			<label>None yet</label>
+			<description>
+		Instead of posting the same content to both Twitter and Mastodon, I'd prefer to just tweet a HTML link to the post that's been created on Mastodon. Thanks!
+	</description>
+		</report>
+		<report Number="211">
+			<summary>Feature request: Federated and Twitter timelines in the same tab (sorted)</summary>
+			<url>https://github.com/TwidereProject/Twidere-Android/issues/856</url>
+			<bugID>Issue #856</bugID>
+			<label>None yet</label>
+			<description>
+		No description provided.
+	</description>
+		</report>
+		<report Number="212">
+			<summary>Mastodon: no notification for direct messages</summary>
+			<url>https://github.com/TwidereProject/Twidere-Android/issues/857</url>
+			<bugID>Issue #857</bugID>
+			<label>None yet</label>
+			<description>
+		Expected behavior Messages with visibility &quot;direct&quot; should appear in the direct messages tab (with Mastodon account enabled) and show notifications Actual behavior Direct messages only show up in home timeline for Mastodon and seem to be completely ignored when it comes to notifications Extra info App version: 3.6.15 Build variant: Google F-Droid Micro-blogging service: Twitter Fanfou GNU Social / StatusNet Mastodon App settings: Custom API Custom consumer key/secrets Official keys Using Thumbor Connected through proxy Media preview enabled
+	</description>
+		</report>
+		<report Number="213">
+			<summary>Tweet text is no longer selectable on single tweet activity</summary>
+			<url>https://github.com/TwidereProject/Twidere-Android/issues/864</url>
+			<bugID>Issue #864</bugID>
+			<label>None yet</label>
+			<description>
+		Expected behavior Tweet text is selectable on single tweet activity. Actual behavior Tweet text is not selectable on single tweet activity. Steps to reproduce Open a tweet; Long-press on tweet text; Squint. Extra info Android version: 7.1.2 Network type: Cellular Wi-Fi App version: 3.6.18 Build variant: Google F-Droid Micro-blogging service: Twitter Fanfou GNU Social / StatusNet Mastodon App settings: Custom API Custom consumer key/secrets Official keys Using Thumbor Connected through proxy Media preview enabled
+	</description>
+		</report>
+		<report Number="214">
+			<summary>Shortened links aren't parsed for media preview</summary>
+			<url>https://github.com/TwidereProject/Twidere-Android/issues/866</url>
+			<bugID>Issue #866</bugID>
+			<label>None yet</label>
+			<description>
+		Shortened links like youtu.be or bit.ly aren't showing previews within the tweet.
+	</description>
+		</report>
+		<report Number="215">
+			<summary>[crash] click on a tweet frm JK Rolling</summary>
+			<url>https://github.com/TwidereProject/Twidere-Android/issues/869</url>
+			<bugID>Issue #869</bugID>
+			<label>None yet</label>
+			<description>
+		Expected behavior Display tweet threads Actual behavior Crash Steps to reproduce Click on https://twitter.com/jk_rowling/status/873207949564497920 Extra info Android version: 6.0.1 Network type: Cellular Wi-Fi App version: 3.6.19 Build variant: Google F-Droid Micro-blogging service: Twitter Fanfou GNU Social / StatusNet Mastodon App settings: Custom API Custom consumer key/secrets Official keys Using Thumbor Connected through proxy Media preview enabled
+	</description>
+		</report>
+		<report Number="216">
+			<summary>3.6.21 doesn't display DM groups anymore</summary>
+			<url>https://github.com/TwidereProject/Twidere-Android/issues/872</url>
+			<bugID>Issue #872</bugID>
+			<label>None yet</label>
+			<description>
+		Expected behavior DM groups, conversations with more than 1 other person, are shown. Messages are received and can be sende. Actual behavior DM groups don't show. Steps to reproduce Take part in DM groups Extra info Android version: 7.0 Network type: Cellular Wi-Fi App version: ( 3.6.21 Build variant: Google F-Droid Micro-blogging service: Twitter Fanfou GNU Social / StatusNet Mastodon App settings: Custom API Custom consumer key/secrets Official keys Using Thumbor Connected through proxy Media preview enabled
+	</description>
+		</report>
+		<report Number="217">
+			<summary>Crashes on certain threads</summary>
+			<url>https://github.com/TwidereProject/Twidere-Android/issues/873</url>
+			<bugID>Issue #873</bugID>
+			<label>None yet</label>
+			<description>
+		Check before submitting issue -- Thank you! You can ignore this form if this issue is a feature request. Expected behavior Open thread, thread screen opens Actual behavior Crashes instantly Steps to reproduce Open certain threads Extra info Occurs with https://twitter.com/GotSomeHaps/status/875071269611425792 Android version: 7.1.2 Network type: Cellular [*] Wi-Fi App version: (version code here) Build variant: Google [*] F-Droid Micro-blogging service: [*] Twitter Fanfou GNU Social / StatusNet Mastodon App settings: Custom API Custom consumer key/secrets Official keys Using Thumbor Connected through proxy Media preview enabled
+	</description>
+		</report>
+		<report Number="218">
+			<summary>Request for visually distinguishing services</summary>
+			<url>https://github.com/TwidereProject/Twidere-Android/issues/876</url>
+			<bugID>Issue #876</bugID>
+			<label>None yet</label>
+			<description>
+		With support for new services like Twitter ,Fanfou ,GNU Social / StatusNet , Mastodon it would be great if there is some visual distinction (say color) among these services .
+	</description>
+		</report>
+		<report Number="219">
+			<summary>Mastodon - Bug when clicking on a non-followed user's toot</summary>
+			<url>https://github.com/TwidereProject/Twidere-Android/issues/881</url>
+			<bugID>Issue #881</bugID>
+			<label>None yet</label>
+			<description>
+		Hi and thank you for your hard work on integrating MASTODON. Here a small behaviour that we are several users to experience when we try to &quot;click&quot; on a toot from a user we don't follow ... Expected behavior Opening the toot to have more details Actual behavior CRASH of Twidere Steps to reproduce At this time, by clicking on any message from a user you don't follow Extra info Android version: 7.1.2 Network type: Cellular Wi-Fi App version: 3.6.19 Build variant: Google F-Droid Micro-blogging service: Twitter Fanfou GNU Social / StatusNet Mastodon App settings: Custom API Custom consumer key/secrets Official keys Using Thumbor Connected through proxy Media preview enabled
+	</description>
+		</report>
+		<report Number="220">
+			<summary>Running &quot;Clear databases&quot; doesn't clear &quot;list timeline&quot; tabs</summary>
+			<url>https://github.com/TwidereProject/Twidere-Android/issues/886</url>
+			<bugID>Issue #886</bugID>
+			<label>None yet</label>
+			<description>
+		Expected behavior Running &quot;Clear databases&quot; removes all tweets, including those in the &quot;list timeline&quot; tabs Actual behavior Running &quot;Clear databases&quot; removes all tweets in all tabs except for the &quot;list timeline&quot; tab where all the tweets are still present Android version: 6.0.1 Network type: Cellular Wi-Fi App version: 3.6.21 Build variant: Google F-Droid Micro-blogging service: Twitter Fanfou GNU Social / StatusNet Mastodon App settings: Custom API Custom consumer key/secrets Official keys Using Thumbor Connected through proxy Media preview enabled
+	</description>
+		</report>
+		<report Number="221">
+			<summary>Region locked on Google Play</summary>
+			<url>https://github.com/TwidereProject/Twidere-Android/issues/899</url>
+			<bugID>Issue #899</bugID>
+			<label>None yet</label>
+			<description>
+		Currently Twidere is unavailable in my country (Australia) according to Google Play. Is this just an oversight, or is there an actual issue here?
+	</description>
+		</report>
+		<report Number="222">
+			<summary>Retweet/Like account selection doesn't work on single tweet view</summary>
+			<url>https://github.com/TwidereProject/Twidere-Android/issues/902</url>
+			<bugID>Issue #902</bugID>
+			<label>None yet</label>
+			<description>
+		Expected behavior When viewing a single tweet long press on retweet/like button should display an account selection to do action from, like in the timeline Actual behavior Long press causes a &quot;Retweet&quot;/&quot;Like&quot; toast to pop right below button and nothing else happens Steps to reproduce Press tweet in timeline to view only it Long press the retweet or like button Extra info Android version: 7.1.2 Network type: Cellular Wi-Fi App version: 3.6.21 Build variant: Google F-Droid Micro-blogging service: Twitter Fanfou GNU Social / StatusNet Mastodon App settings: Custom API Custom consumer key/secrets Official keys Using Thumbor Connected through proxy Media preview enabled
+	</description>
+		</report>
+		<report Number="223">
+			<summary>Trouble Customizing Column</summary>
+			<url>https://github.com/TwidereProject/Twidere-Android/issues/904</url>
+			<bugID>Issue #904</bugID>
+			<label>None yet</label>
+			<description>
+		I had to reinstall Twidere recently on my Android phone. I know I had an activity column that just showed likes and retweets and not mentions but I can't for the life of me remember how I got it set up that way orginally. If anyone would be kind enough to assist me, I'd greatly appreciate it!
+	</description>
+		</report>
+		<report Number="224">
+			<summary>Favoriting a Notice Favorites the Wrong Notice</summary>
+			<url>https://github.com/TwidereProject/Twidere-Android/issues/905</url>
+			<bugID>Issue #905</bugID>
+			<label>None yet</label>
+			<description>
+		This weird phenomenon only occurs, to my knowledge, with one user in particular. I went through the profile of @donniethedumbass@quitter.im and favorited a few notices of his. Then I look at my own profile @gooz@shitposter.club to see that I've favorited notices I've never even seen before, some of which were in German or other languages I don't speak. But looking at my profile, there was no trace of the notes that I ACTUALLY favorited. I tried favoriting the same notes in AndStatus and through the web interface, both of which did the correct thing—favorited the right notices instead of these seemingly random ones. I don't know where to begin troubleshooting this. If there's any info you need me to gather, just ask. Expected behavior Favorite the note when I press the favorite button. Actual behavior In most cases, it behaves as expected, but for notes posted by @donniethedumbass@quitter.im and perhaps some others, rather than favoriting THAT note, a seemingly random otder note gets favorited. Steps to reproduce Be a GNUu Social user on shitposter.club (maybe not necessary) Find @donniethedumbass@shitposter.club Favorite one of his notes. Extra info Android version: (version code here) 7.1.2 NZH54B Network type: Cellular Wi-Fi App version: (version code here) 3.6.21 Build variant: Google F-Droid Micro-blogging service: Twitter Fanfou GNU Social / StatusNet Mastodon App settings: Custom API Custom consumer key/secrets Official keys Using Thumbor Connected through proxy Media preview enabled
+	</description>
+		</report>
+		<report Number="225">
+			<summary>Group DM's not showing</summary>
+			<url>https://github.com/TwidereProject/Twidere-Android/issues/908</url>
+			<bugID>Issue #908</bugID>
+			<label>None yet</label>
+			<description>
+		Expected behavior Group DM's are shown in the 'Messages' tab. Actual behavior Only DM conversations between two users are displayed, not the ones between multiple users. Steps to reproduce Nothing special, tried reinstalling and refreshing, did not help. Extra info Might be related to #730? No notifications for group messages are shown. Android version: 6.0 Network type: Cellular Wi-Fi App version: 3.6.21 Build variant: Google F-Droid Micro-blogging service: Twitter Fanfou GNU Social / StatusNet Mastodon App settings: Custom API Custom consumer key/secrets Official keys Using Thumbor Connected through proxy Media preview enabled
+	</description>
+		</report>
+		<report Number="226">
+			<summary>[Feature Request] Show avatar of retweeter</summary>
+			<url>https://github.com/TwidereProject/Twidere-Android/issues/911</url>
+			<bugID>Issue #911</bugID>
+			<label>None yet</label>
+			<description>
+		Inspired by TweetCaster, it would be cool to have a similar feature where the profile picture of the person retweeting something would also be shown in addition to the tweet author. In my opinion this greatly helps identifying retweets and their origin.
+	</description>
+		</report>
+		<report Number="227">
+			<summary>Scanners fail to read generated QR</summary>
+			<url>https://github.com/TwidereProject/Twidere-Android/issues/914</url>
+			<bugID>Issue #914</bugID>
+			<label>None yet</label>
+			<description>
+		QR was generated for twitter account by latest (3.6.21) Twidere from Google Play. I've attached the screenshot. My profile image: https://pbs.twimg.com/profile_images/477895826476240897/lygx3xR9_400x400.jpeg
+	</description>
+		</report>
+		<report Number="228">
+			<summary>[Feature Request] RTs from one platform to another (Attachments)</summary>
+			<url>https://github.com/TwidereProject/Twidere-Android/issues/921</url>
+			<bugID>Issue #921</bugID>
+			<label>None yet</label>
+			<description>
+		When RTing from one platform to another (eg. from Twitter to GNU Social), Twidere will grab a link to the attachment where it is on the original platform. At least for some kinds of attachments, like images most importantly, I think it would be a good idea for Twidere to download the image(s) and upload them as attachments when tweeting to the destination platform, rather than just linking to the first one. Off the top of my head, this gives us two benefits. If the original tweet gets deleted or censored, the RT on GNU Social will still be intact. Users on GNU Social can view the attachments without sending traffic back to Twitter and perhaps being tracked when they don't want to be.
+	</description>
+		</report>
+		<report Number="229">
+			<summary>Merge develop into master for fdroids updatecheck to work</summary>
+			<url>https://github.com/TwidereProject/Twidere-Android/issues/938</url>
+			<bugID>Issue #938</bugID>
+			<label>None yet</label>
+			<description>
+		I noticed that the last release, 3.6.24, is only available in the develop branch, it's not yet included in master. This is a problem because F-Droid's notion of current version depends on the latest available manifest versioncode in the master branch. This means even after the build was manually added for 3.6.24 the current version was reset by the build-bot to 3.6.23 on the next run. Can you merge develop into master before you make a new release? Or is 3.6.24 actually dev release (But I see no other indication of that)? (Normally fdroid checks for available tags in the git repo, but this doesn't work for twidere for reasons I've not completely understood. It always picks the wrong subfolder and ends up with some version 1.0)
+	</description>
+		</report>
+		<report Number="230">
+			<summary>open project error</summary>
+			<url>https://github.com/TwidereProject/Twidere-Android/issues/948</url>
+			<bugID>Issue #948</bugID>
+			<label>None yet</label>
+			<description>
+		
+	</description>
+		</report>
+		<report Number="231">
+			<summary>Should content warning hide media?</summary>
+			<url>https://github.com/TwidereProject/Twidere-Android/issues/952</url>
+			<bugID>Issue #952</bugID>
+			<label>None yet</label>
+			<description>
+		https://twitter.com/stlman/status/906595784245874688
+	</description>
+		</report>
+		<report Number="232">
+			<summary>Poll indicator isn't showing</summary>
+			<url>https://github.com/TwidereProject/Twidere-Android/issues/953</url>
+			<bugID>Issue #953</bugID>
+			<label>None yet</label>
+			<description>
+		https://twitter.com/benito_steve/status/906952598237974534
+	</description>
+		</report>
+		<report Number="233">
+			<summary>UI bug in Likes section when you swipe down to refresh</summary>
+			<url>https://github.com/TwidereProject/Twidere-Android/issues/954</url>
+			<bugID>Issue #954</bugID>
+			<label>None yet</label>
+			<description>
+		When swiping down to refresh Likes section, the refresh graphic is hidden behind Action bar: While swiping: Refresh icon hidden, you can just see the edge: Small UI annoyance, that is all.
+	</description>
+		</report>
+		<report Number="234">
+			<summary>Android keyboard not displayed for text entry into Twitter Filters dialogues</summary>
+			<url>https://github.com/TwidereProject/Twidere-Android/issues/979</url>
+			<bugID>Issue #979</bugID>
+			<label>None yet</label>
+			<description>
+		Expected behavior Upon tapping the + symbol on the Users, Keywords, Sources and Links tabs of the Twitter Filters window, the user's keyboard should be presented for text entry into the resultant dialogue. Actual behavior Upon touching the + symbol on the Users, Keywords, Sources and Links tabs of the Twitter Filters window, the user's keyboard is not presented for text entry into the resultant dialogue. Tapping in the empty text field does not trigger the keyboard being presented, but clipboard text can be pasted into the field with a tap-an-hold gesture. Steps to reproduce Open the app, and attempt to add any Twitter filter. Extra info Android version: 7.0 (Samsung S7 Build NRD90M.G935FXXS1DQHF) Network type: [ x ] Cellular [ x ] Wi-Fi App version: 3.6.33 Build variant: [ x ] Google F-Droid Micro-blogging service: [ x ] Twitter Fanfou GNU Social / StatusNet Mastodon App settings: Custom API Custom consumer key/secrets Official keys Using Thumbor Connected through proxy Media preview enabled
+	</description>
+		</report>
+		<report Number="235">
+			<summary>Android Twitter Filters no longer being applied to `List timeline' and `User's tweets' views</summary>
+			<url>https://github.com/TwidereProject/Twidere-Android/issues/980</url>
+			<bugID>Issue #980</bugID>
+			<label>None yet</label>
+			<description>
+		Expected behavior Users, Keywords, Sources and Links filters should be applied to tweets contained within the List timeline and User's Tweets views. Actual behavior Since Android version 3.6.33, Twitter List timeline and User's Tweets are unfiltered. Steps to reproduce Open the app, and add any Twitter filter that should exclude a tweet under either a List timeline or User's Tweets view. The tweet will remain. Extra info Android version: 7.0 (Samsung S7 Build NRD90M.G935FXXS1DQHF) Network type: [ x ] Cellular [ x ] Wi-Fi App version: 3.6.33 Build variant: [ x ] Google F-Droid Micro-blogging service: [ x ] Twitter Fanfou GNU Social / StatusNet Mastodon App settings: Custom API Custom consumer key/secrets Official keys Using Thumbor Connected through proxy Media preview enabled
+	</description>
+		</report>
+		<report Number="236">
+			<summary>Crashing when clicking preview in settings &gt; cards</summary>
+			<url>https://github.com/TwidereProject/Twidere-Android/issues/981</url>
+			<bugID>Issue #981</bugID>
+			<label>None yet</label>
+			<description>
+		Expected behavior Not crashing... Actual behavior Crashed... Steps to reproduce Go to &quot;Settings&quot; &gt; &quot;Appearance/Cards&quot; Click the preview area (empty area between the link and the buttons) Extra info Android version: 5.1.1 Network type: Cellular Wi-Fi App version: 3.6.29 Build variant: Google F-Droid Micro-blogging service: Twitter Fanfou GNU Social / StatusNet Mastodon App settings: Custom API Custom consumer key/secrets Official keys Using Thumbor Connected through proxy Media preview enabled
+	</description>
+		</report>
+		<report Number="237">
+			<summary>Filter retweets by specific user</summary>
+			<url>https://github.com/TwidereProject/Twidere-Android/issues/988</url>
+			<bugID>Issue #988</bugID>
+			<label>None yet</label>
+			<description>
+		A feature request - I'd like to be able to mute / filter tweets that are retweeted by specific users. That is, I want to see their normal tweets, but not see their retweets (regardless of the source of the retweet).
+	</description>
+		</report>
+		<report Number="238">
+			<summary>Feature Request: Being able to mention anyone unseen of Mastodon with @user@example.com</summary>
+			<url>https://github.com/TwidereProject/Twidere-Android/issues/992</url>
+			<bugID>Issue #992</bugID>
+			<label>None yet</label>
+			<description>
+		Twidere gives droplists when mentioning seen people, but it fails to recognize it when mentioning a user which is not seen before. Here is a test in Twidere 3.6.29. It is hoped that Twidere can recognize @user@example.com and does the mention. Thank for your great Application!
+	</description>
+		</report>
+		<report Number="239">
+			<summary>Cannot post to Mastodon</summary>
+			<url>https://github.com/TwidereProject/Twidere-Android/issues/997</url>
+			<bugID>Issue #997</bugID>
+			<label>None yet</label>
+			<description>
+		Expected behavior Posting to Mastodon sends the post to Mastodon Actual behavior A &quot;Network error: timeout&quot; toast appears and the post is not sent Steps to reproduce Setup a mastodon.host account in Twidere Open the &quot;Compose&quot; dialog, and enter some text Click &quot;send&quot; Notice the error message Extra info Android version: 7.1.2 Network type: Cellular Wi-Fi App version: 3.7.1 Build variant: Google F-Droid Micro-blogging service: Twitter Fanfou GNU Social / StatusNet Mastodon App settings: Custom API Custom consumer key/secrets Official keys Using Thumbor Connected through proxy Media preview enabled
+	</description>
+		</report>
+		<report Number="240">
+			<summary>Add which account the Tweet's follower comes from</summary>
+			<url>https://github.com/TwidereProject/Twidere-Android/issues/1011</url>
+			<bugID>Issue #1011</bugID>
+			<label>None yet</label>
+			<description>
+		I have a scenario where I have two accounts. There are some cases where there is still an overlap in who I follow. There are some cases where I don't want to remove this overlap. I am perfectly fine with seeing the same tweet/retweet twice, but currently there is no way of knowing which account the tweet is associated with. This causes an issue if I want to reply, like, or retweet. The current setup says that the first account that is logged in will come first, so I can partially get around this, but there is absolutely no distinction between a tweet that has no overlap (One of my accounts doesn't follow the tweeter). An example: Account Foo and Bar are my accounts. Foo and Bar have some overlapping accounts that they both follow. Foo follows these accounts: Ayy Bee See Bar follows these accounts: Dee Bee See Account &quot;Ayy&quot; submits a tweet. Account &quot;Bee&quot; submits a tweet. I want to retweet the tweet from Bee to my Bar account. My timeline now looks like this: ---
+Bee:
+This is a picture of my cat
+(Media)
+Reply, Retweet, Like
+---
+---
+Bee:
+This is a picture of my cat
+(Media)
+Reply, Retweet, Like
+---
+---
+Ayy:
+I like cats
+Reply, Retweet, Like
+---
+ There is no distinction in any of these tweets which account of mine it originates from. The only reason I know Ayy's tweet is from Foo is because Bar does not follow Ayy. It is entirely up to guessing and checking to figure out which of the tweets from Bee corresponds to account Bar. This makes it difficult to like, retweet, or reply.
+	</description>
+		</report>
+		<report Number="241">
+			<summary>Icon for Navigation Drawer is missing</summary>
+			<url>https://github.com/TwidereProject/Twidere-Android/issues/1019</url>
+			<bugID>Issue #1019</bugID>
+			<label>None yet</label>
+			<description>
+		The icon for Navigation Drawer is missing (the hamburger menu icon), therefore there is no visual indicator that there is a Navigation Drawer. https://material.io/guidelines/patterns/navigation-drawer.html#navigation-drawer-behavior
+	</description>
+		</report>
+		<report Number="242">
+			<summary>No option visit list's creator profile</summary>
+			<url>https://github.com/TwidereProject/Twidere-Android/issues/1027</url>
+			<bugID>Issue #1027</bugID>
+			<label>None yet</label>
+			<description>
+		When browsing a lists's page, for example, in the &quot;BELONGS TO&quot; page, we can not click on the list's creator profile picture to access his profile. De facto, there is no easy way to go to the list creator's profile, we have to look up for his name in the Search view. Expected behavior Clicking on the list creator's profile picture should take me to their profile AND / OR an option when displaying a list to go to the creator's profile (maybe under &quot;Open with account&quot; option ?) Actual behavior Clicking on the list creator's profile picture opens the list. I can not access rob's profile from here. An option &quot;Go to list owner's profile&quot; or something would be nice here under &quot;Open with account&quot; Steps to reproduce Go to the &quot;Lists&quot; page in the menu. Extra info App version: 3.7.3 Build variant: Google F-Droid Micro-blogging service: Twitter Fanfou GNU Social / StatusNet Mastodon App settings: Custom API Custom consumer key/secrets Official keys Using Thumbor Connected through proxy Media preview enabled
+	</description>
+		</report>
+		<report Number="243">
+			<summary>List of &quot;statusnet&quot; instances is incomplete</summary>
+			<url>https://github.com/TwidereProject/Twidere-Android/issues/1035</url>
+			<bugID>Issue #1035</bugID>
+			<label>None yet</label>
+			<description>
+		When attempting to add an account for a gnusocial node, I am presented with a very incomplete list of nodes. This should be a text entry box similar to picking a mastodon instance if at all possible. (The node not listed is quitter.es but there are a lot of others missing as well. A list is not the best approach for this.)
+	</description>
+		</report>
+		<report Number="244">
+			<summary>[Feature request] Return gesture</summary>
+			<url>https://github.com/TwidereProject/Twidere-Android/issues/1050</url>
+			<bugID>Issue #1050</bugID>
+			<label>None yet</label>
+			<description>
+		No description provided.
+	</description>
+		</report>
+		<report Number="245">
+			<summary>Friendica account has more menu items when disabled</summary>
+			<url>https://github.com/TwidereProject/Twidere-Android/issues/1052</url>
+			<bugID>Issue #1052</bugID>
+			<label>None yet</label>
+			<description>
+		I'm using a Friendica (StatusNet) account. Expected behavior The account has the same menu items every time. Actual behavior When the account is disabled: When the account is enabled: Steps to reproduce Had a Friendica account. Disable it in the Accounts menu. Extra info Android version: 6.0.1 Network type: Cellular Wi-Fi App version: 3.7.3 Build variant: Google F-Droid Micro-blogging service: Twitter Fanfou GNU Social / StatusNet Mastodon App settings: Custom API Custom consumer key/secrets Official keys Using Thumbor Connected through proxy Media preview enabled
+	</description>
+		</report>
+		<report Number="246">
+			<summary>Infinite load when trying to change background color for Twitter profile.</summary>
+			<url>https://github.com/TwidereProject/Twidere-Android/issues/1055</url>
+			<bugID>Issue #1055</bugID>
+			<label>None yet</label>
+			<description>
+		No description provided.
+	</description>
+		</report>
+	</reports>

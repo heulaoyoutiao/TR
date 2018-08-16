@@ -1,0 +1,1146 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<reports>
+		<report Number="0">
+			<summary>Support for embedded images in MP4 Enhanced Podcast files</summary>
+			<url>https://github.com/AntennaPod/AntennaPod/issues/9</url>
+			<bugID>Issue #9</bugID>
+			<label>feature request</label>
+			<description>
+		It would be great if AntennaPod could show pictures embedded in &quot;enhanced podcast&quot; m4a files like the iPhone does. Example feed: http://www.schoene-ecken.de/feed/podcast/
+	</description>
+		</report>
+		<report Number="1">
+			<summary>Dark Skin</summary>
+			<url>https://github.com/AntennaPod/AntennaPod/issues/10</url>
+			<bugID>Issue #10</bugID>
+			<label>feature request</label>
+			<description>
+		Hey, I'd would be create if Settings could include an option to change the background color to black. Most if not all my apps have that. Thanks!
+	</description>
+		</report>
+		<report Number="2">
+			<summary>Feature Request - Headset Controls</summary>
+			<url>https://github.com/AntennaPod/AntennaPod/issues/16</url>
+			<bugID>Issue #16</bugID>
+			<label>feature request</label>
+			<description>
+		First of all, I want to thank you for making the best free podcatcher I have found to date. I think headset controls would make this app even better. Even as basic as just play/pause would be great. Also would there be a way to automatically clear the refresh/download notification or an option to not show them at all? Thanks
+	</description>
+		</report>
+		<report Number="3">
+			<summary>Variable speed playback</summary>
+			<url>https://github.com/AntennaPod/AntennaPod/issues/22</url>
+			<bugID>Issue #22</bugID>
+			<label>feature request</label>
+			<description>
+		A lot of times, speakers speak too slowly or too fast. It would be great to have a way to adjust playback speed, especially without a $5 third party library like all other podcatchers do.
+	</description>
+		</report>
+		<report Number="4">
+			<summary>Feature Requests</summary>
+			<url>https://github.com/AntennaPod/AntennaPod/issues/35</url>
+			<bugID>Issue #35</bugID>
+			<label>feature request</label>
+			<description>
+		Notification controls Ability to reorder queue Automatically mark as read if podcast is downloaded Automatically remove from queue if podcast is deleted Just some ideas that could be implemented in the future. Thank you
+	</description>
+		</report>
+		<report Number="5">
+			<summary>Enhancement: view number of downloaded episodes in list view</summary>
+			<url>https://github.com/AntennaPod/AntennaPod/issues/43</url>
+			<bugID>Issue #43</bugID>
+			<label>feature request</label>
+			<description>
+		In Feed list view, there is a number for every podcast which tells the user how many podcast episodes this podcast has in total. But it would be great to see in this list view, how many episodes where downloaded, too.
+	</description>
+		</report>
+		<report Number="6">
+			<summary>Support feeds which uses HTTP Basic Authentication</summary>
+			<url>https://github.com/AntennaPod/AntennaPod/issues/45</url>
+			<bugID>Issue #45</bugID>
+			<label>feature request</label>
+			<description>
+		Hi, I tried to use a feed which requires HTTP Basic Authentication: https://couch.fernsehkritik.tv/feed/ But it seems that AntennaPod don't support feeds with authentication. Would be nice to add this feature :-) Regards Bernd
+	</description>
+		</report>
+		<report Number="7">
+			<summary>Make data directory configurable</summary>
+			<url>https://github.com/AntennaPod/AntennaPod/issues/49</url>
+			<bugID>Issue #49</bugID>
+			<label>feature request</label>
+			<description>
+		It would be nice if there was a way to specify the directory where AntennaPod saves the Podcasts, for example /mnt/sdcard/Podcasts instead of the current location. This would be particularly useful for phones with both internal memory (/mnt/sdcard) and an external sdcard (/mnt/extSdCard).
+	</description>
+		</report>
+		<report Number="8">
+			<summary>Multiselect</summary>
+			<url>https://github.com/AntennaPod/AntennaPod/issues/50</url>
+			<bugID>Issue #50</bugID>
+			<label>feature request</label>
+			<description>
+		Would it be possible to support multi selection in the episode list-view for example by using long press.
+	</description>
+		</report>
+		<report Number="9">
+			<summary>Ability to view downloaded (not queued) items.</summary>
+			<url>https://github.com/AntennaPod/AntennaPod/issues/58</url>
+			<bugID>Issue #58</bugID>
+			<label>feature request</label>
+			<description>
+		One possible solution for this cold be to unify the &quot;downloaded&quot; and the &quot;in queue&quot; state.
+	</description>
+		</report>
+		<report Number="10">
+			<summary>Auto-Download option</summary>
+			<url>https://github.com/AntennaPod/AntennaPod/issues/59</url>
+			<bugID>Issue #59</bugID>
+			<label>feature request</label>
+			<description>
+		I'd like AntennaPod to automatically enqueue and download new episodes
+	</description>
+		</report>
+		<report Number="11">
+			<summary>Favorite List</summary>
+			<url>https://github.com/AntennaPod/AntennaPod/issues/60</url>
+			<bugID>Issue #60</bugID>
+			<label>feature request</label>
+			<description>
+		Please add an option to star (add favorite) episodes. So the users can easily create a list of interesting episodes. If they want to hear that episode the open the favorite list and can download the episode again.
+	</description>
+		</report>
+		<report Number="12">
+			<summary>Merge &quot;New&quot; and &quot;Queue&quot; tabs for easier use</summary>
+			<url>https://github.com/AntennaPod/AntennaPod/issues/79</url>
+			<bugID>Issue #79</bugID>
+			<label>feature request</label>
+			<description>
+		As a user, I don't really think of &quot;new&quot; episodes as opposed to &quot;queued&quot; ones. I just want to know what new stuff there is to hear, and operate the app while giving it as little thought as possible. I would AntennaPod's interface to reflect this. I made a quick mockup that you can see here: As you see there's still a &quot;Feeds&quot; tab, but the &quot;New&quot; and &quot;Queued&quot; tabs are replaced by a single &quot;Episodes&quot; one. The episode being played is at the top of it, with some control buttons. Right below it are the episodes that have been downloaded and are ready to be listened. When the current episode ends, it goes to the History and is replaced by the first item in the list. Old, listened items are removed automatically and make room for new ones to be downloaded (also automatically) and added to the list. This way, supposing I have already subscribed to a selection of feeds that I like, I can keep listening to new episodes without ever worrying to check for new episodes, or having to download newer ones or reorder the list, or even ever leaving the &quot;Episodes&quot; screen. As a user, I would only have to press &quot;Play&quot; to start listening and &quot;Pause&quot; to stop, and no further action would ever be required from me.
+	</description>
+		</report>
+		<report Number="13">
+			<summary>add Audio output button</summary>
+			<url>https://github.com/AntennaPod/AntennaPod/issues/81</url>
+			<bugID>Issue #81</bugID>
+			<label>feature request</label>
+			<description>
+		I don't know how to call this but both the Google Music and the youtube app have this handy little button which lets you chose the output device for audio: on tap, it opens a context menu containing all available output devices:
+	</description>
+		</report>
+		<report Number="14">
+			<summary>add intents</summary>
+			<url>https://github.com/AntennaPod/AntennaPod/issues/83</url>
+			<bugID>Issue #83</bugID>
+			<label>feature request</label>
+			<description>
+		Hya finally a great working floss app on android (1st one since my beloved gpodder on the n900 :)) can i ask an option to support android intents IE i want to be able to use tasker to auto play the current podcast in the playlist/queue when i plug in my headphones. i use that in other podapps that support intnets IE: http://beyondpod.com/support/index.php?/Knowledgebase/Article/View/31/5/beyondpod-public-apis thx alot Zeltak
+	</description>
+		</report>
+		<report Number="15">
+			<summary>auto flattr</summary>
+			<url>https://github.com/AntennaPod/AntennaPod/issues/87</url>
+			<bugID>Issue #87</bugID>
+			<label>feature request</label>
+			<description>
+		it would be nice to automaticly flattr a podcast episode when you listen like 80% of it. it should drop a notification then.
+	</description>
+		</report>
+		<report Number="16">
+			<summary>Google Reader Integration</summary>
+			<url>https://github.com/AntennaPod/AntennaPod/issues/91</url>
+			<bugID>Issue #91</bugID>
+			<label>feature request</label>
+			<description>
+		Let me start off by saying thank you for producing high quality open source software and sharing it with everyone. I have been wanting to mess with android app development for a while, and I have started hacking at your code to understand how things work. Anyways, I've been playing around with the Google Reader API in the hopes of adding (some level of) google reader functionality to AntennaPod. At the very least it would be trivial to get an OAuth2 token from Android and then access the OMPL for a particular label directly from google reader as an import option (I've already gotten this level of functionality working in a dummy app). This would be way easier than the current OMPL import functionality and would only require one extra permission (USE_CREDENTIALS or something). Taking the idea further, one could imagine using google reader as a full on sync target for all feeds and read/unread statuses. This isn't so much a feature request as a request to gauge interest. If there is interest in such a feature (I know that Issue #21 is sort of a request in this direction) and no one is working on it, I'd like to contribute. If not, I can just try to develop the changes in a fork that I'll use myself and won't submit to Google Play.
+	</description>
+		</report>
+		<report Number="17">
+			<summary>Split delete option</summary>
+			<url>https://github.com/AntennaPod/AntennaPod/issues/92</url>
+			<bugID>Issue #92</bugID>
+			<label>feature request</label>
+			<description>
+		please split the delete option never when removing from queue after listened both because i want an episode to be deleted when i completed it and not when its manually removed from the queue
+	</description>
+		</report>
+		<report Number="18">
+			<summary>let videos play in background</summary>
+			<url>https://github.com/AntennaPod/AntennaPod/issues/99</url>
+			<bugID>Issue #99</bugID>
+			<label>feature request</label>
+			<description>
+		I subscribed video podcasts that i don't necessarily need to watch . I'd be totally fine with the audio. so it would ne nice to be able to switch to other activities or turn the screen off without loosing the audio track.
+	</description>
+		</report>
+		<report Number="19">
+			<summary>Feature Request: Start playback when headphones are connected</summary>
+			<url>https://github.com/AntennaPod/AntennaPod/issues/103</url>
+			<bugID>Issue #103</bugID>
+			<label>feature request</label>
+			<description>
+		Playback can already be paused when the headphones are disconnected. It would be great if playback could be resumed when the headphones are plugged in again. I loved this feature on ACast: when somebody starts to talk, I just disconnect the headphones directly in my jacket's pocket, and when they're done, I just push the jack back in, and playback resumes. With AntennaPod I can do the disconnecting to stop, but to restart the podcast I need to get my phone out, unlock it, and click on the play button. Even less handy when I'm on my bike ;)
+	</description>
+		</report>
+		<report Number="20">
+			<summary>Feature request: Auto download new episodes when connected to charging.</summary>
+			<url>https://github.com/AntennaPod/AntennaPod/issues/104</url>
+			<bugID>Issue #104</bugID>
+			<label>feature request</label>
+			<description>
+		It would be great if the new episodes auto downloads when connected to charger.
+	</description>
+		</report>
+		<report Number="21">
+			<summary>A2DP</summary>
+			<url>https://github.com/AntennaPod/AntennaPod/issues/109</url>
+			<bugID>Issue #109</bugID>
+			<label>feature request</label>
+			<description>
+		Hi, first of all, thank you for that impressive app, I am really enjoying it. Here my feature request: I have a bt headset with display and it would be nice, if I could get meta informations of the podcasts displayed there. I am not sure if this is part of the a2dp specs, but here are the specs: https://www.bluetooth.org/Technical/Specifications/adopted.htm Thanks and keep on working on this nice piece of software!
+	</description>
+		</report>
+		<report Number="22">
+			<summary>Streaming to VLC</summary>
+			<url>https://github.com/AntennaPod/AntennaPod/issues/112</url>
+			<bugID>Issue #112</bugID>
+			<label>feature request</label>
+			<description>
+		When I get back home I usually finish to listen to my podcast with my phone but it would be a lot better to be able to stream audio via VLC to PC. It could be outside of AntennaPod scope but it would be nice to have this option.
+	</description>
+		</report>
+		<report Number="23">
+			<summary>Swipe episodes away</summary>
+			<url>https://github.com/AntennaPod/AntennaPod/issues/126</url>
+			<bugID>Issue #126</bugID>
+			<label>feature request</label>
+			<description>
+		This suggestion is included in a couple other issues (e.g. #125) but I think it's worth having its own issue. Now that episodes are added to the waiting list and the playing queue automatically, we need an easy way to dismiss the ones that don't interest us. Swiping away is the quickest and handiest way, and the one many Google apps (e.g. Gmail) are favouring: The user would just have to flick their finger to the left or right, and the episode is dismissed. Unlistened episodes (that is, those the user never even started listening) would be deleted and forgotten, and listened ones (even partially listened ones) would be skipped and go to the History. It could even be used at the top of the queue (that is, on the current episode) to skip the current episode and start listening to the next one, which would be an easy way to implement Skip without having to use extra buttons or UI elements.
+	</description>
+		</report>
+		<report Number="24">
+			<summary>Show a progress bar for all downloaded items</summary>
+			<url>https://github.com/AntennaPod/AntennaPod/issues/128</url>
+			<bugID>Issue #128</bugID>
+			<label>feature request</label>
+			<description>
+		In the new test version of AntennaPod all enqueued items are downloaded automatically, but they don't show a progress bar until you start listening to them: They also show the word &quot;Length&quot; before they play time, but the ones you have started listening don't. I'm not sure whether or not this is intentional, but it looks like a UI inconsistency to me.
+	</description>
+		</report>
+		<report Number="25">
+			<summary>Merge the Download and Enqueue buttons</summary>
+			<url>https://github.com/AntennaPod/AntennaPod/issues/135</url>
+			<bugID>Issue #135</bugID>
+			<label>feature request</label>
+			<description>
+		If you visit an unqueued, undownloaded episode and click Stream, the episode starts playing and is moved to the top of the queue. But this doesn't happen with the Download and Enqueue actions. If you click Download, the app downloads it but it doesn't add it to the bottom of the queue. If you click Enqueue, the app is added to the bottom of the queue but it isn't downloaded. Downloading an episode should always mean its getting added to the queue (and vice versa if you're on a WiFi) so these two buttons should be merge into a single Enqueue button.
+	</description>
+		</report>
+		<report Number="26">
+			<summary>Option to disable lockscreen widget</summary>
+			<url>https://github.com/AntennaPod/AntennaPod/issues/141</url>
+			<bugID>Issue #141</bugID>
+			<label>feature request</label>
+			<description>
+		It would be nice to have an option to disable/enable the lockscreen widget, especially as right now it seems to stay on after the sleep timer gets down to 0. Will try and post a screenshot the next time it happens.
+	</description>
+		</report>
+		<report Number="27">
+			<summary>Set sleep timer to end playback after n chapters</summary>
+			<url>https://github.com/AntennaPod/AntennaPod/issues/143</url>
+			<bugID>Issue #143</bugID>
+			<label>feature request</label>
+			<description>
+		For mp3s with chapter information, the sleep timer may support setting the playback to end after n chapters instead of absolute time.
+	</description>
+		</report>
+		<report Number="28">
+			<summary>Configuration per podcast</summary>
+			<url>https://github.com/AntennaPod/AntennaPod/issues/148</url>
+			<bugID>Issue #148</bugID>
+			<label>feature request</label>
+			<description>
+		As a user I would like to define different settings for some podcasts. For example, I don't want to auto-download some of the podcasts I have subscribed to.
+	</description>
+		</report>
+		<report Number="29">
+			<summary>Auto-download and auto-enqueue should be separated</summary>
+			<url>https://github.com/AntennaPod/AntennaPod/issues/150</url>
+			<bugID>Issue #150</bugID>
+			<label>feature request</label>
+			<description>
+		I love having the new auto-download feature, but I find that the auto-enqueuing of auto-downloaded podcasts is a bit too aggressive. I like being able to create a playlist from the available podcasts. While I might be interested in a podcast in general, certain episodes may not strike my fancy, and I like being able to leave them out of the playlist. But with the new auto-downloading, I don't seem to have that ability. I had only used AntennaPod for a few days before this update, but I remember there being a setting to enqueue podcasts when they were downloaded. This allowed me to see a list of available podcasts in the &quot;Waiting List&quot; section, and then add specific ones of them to the &quot;Queue&quot; section as they interested me. I like auto-downloading, though, so what seems ideal to me is for podcasts to be auto-downloaded into the &quot;Waiting List,&quot; but allow for manual enqueuing -- possibly by returning the option to enable/disable enqueuing downloaded podcasts. I hope that makes sense. I really think AntennaPod is great! Thanks for all your hard work.
+	</description>
+		</report>
+		<report Number="30">
+			<summary>Cleanup/Auto-Delete missing</summary>
+			<url>https://github.com/AntennaPod/AntennaPod/issues/159</url>
+			<bugID>Issue #159</bugID>
+			<label>feature request</label>
+			<description>
+		HI, I find there is one feature missing, that would make AntennaPod perfect and I believe it would be very easy to implement. An option to either globally or on a per feed level to set: to keep only the last X episodes (e.g. keep only last 3 episodes and auto-delete older ones) to delete episodes older than X days (e.g. clean out old ones after 7 days, 30 days, etc) to keep all episodes (as it does now) BeyondPod has this feature implemented, so have all PC-based podcatchers I have ever used (e.g. gpodder). With that implemented, one could run AntennaPod in fire-and-forget mode, without having to take care of deleting old content manually.
+	</description>
+		</report>
+		<report Number="31">
+			<summary>Reorder the Network settings</summary>
+			<url>https://github.com/AntennaPod/AntennaPod/issues/165</url>
+			<bugID>Issue #165</bugID>
+			<label>feature request</label>
+			<description>
+		This issue is related to #135. A small reordering of the Network settings could make them clearer and avoid unwanted 3G usage. I think the Network settings should be as follows: AUTOMATIC UPDATE Both on WiFi and 3G. Only on WiFi. Never update automatically (selected by default). UPDATE INTERVAL (greyed out if automatic update is enabled) 1 hour / 2 hours / 4 hours / 8 hours / 12 hours / 24 hours. AUTOMATIC DOWNLOADING OF ENQUEUED EPISODES Both on WiFi and 3G. Only on WiFi (selected by default). Never download enqueued episodes automatically. AUTOMATIC STREAMING OF ENQUEUED EPISODES Checkbox: stream on 3G if it's their turn to play (unchecked by default). EPISODE CACHE 10 episodes / 20 episodes / 40 episodes / 60 episodes / 80 episodes / 100 episodes. WiFi FILTER Checkbox: treat unselected networks as if they were 3G. Checkboxes: list of known networks. There are several advantages to this: Data usage can be set more easily because you can set what the app can or cannot do while on 3G (and on WiFi) in a single field, without the need for an extra checkbox (as opposed to the &quot;mobile updates&quot; checkbox in the current version). All related options are together, and unrelated ones are separate: the automatic update setting is next to the update interval, but far from the WiFi filter (because the latter affects several other things). Last but not least, the &quot;Automatic streaming of enqueued episodes&quot; checkbox allows us to have a single action instead of the highly overlapping &quot;Download&quot; and &quot;Enqueue&quot;, which is covered in #135.
+	</description>
+		</report>
+		<report Number="32">
+			<summary>Queue reordering according to specific criteria</summary>
+			<url>https://github.com/AntennaPod/AntennaPod/issues/166</url>
+			<bugID>Issue #166</bugID>
+			<label>feature request</label>
+			<description>
+		Certain users (e.g. those in issues #132 and #158) are reporting that they like to listen to shorter episodes first, or those from specific podcasts, or to newer ones. It could be useful to have an option in the queue menu to reorder the queue according to any of these criteria, either automatically or on demand.
+	</description>
+		</report>
+		<report Number="33">
+			<summary>More powerful waiting list</summary>
+			<url>https://github.com/AntennaPod/AntennaPod/issues/170</url>
+			<bugID>Issue #170</bugID>
+			<label>feature request</label>
+			<description>
+		I currently have 352 episodes in waiting list, which i must decide individually to discard or to enqueue. I usually enter full description of the episode, then decide what to do, then go back. This process could be enhanced with some ideas: Have an optional expanded waiting list view, in which each episode includes its full description. When you are on the waiting episode view, have a gesture (eg: swipe left/right) to quick switch to next/prev element in the wating list, so you don't have to go back and select the next candidate. Have &quot;add to queue&quot; and &quot;mark as listened&quot; buttons embedded instead of through a menu. Allow to perform those operations (add to queue/mark as listened) with gestures.
+	</description>
+		</report>
+		<report Number="34">
+			<summary>External memory not available</summary>
+			<url>https://github.com/AntennaPod/AntennaPod/issues/171</url>
+			<bugID>Issue #171</bugID>
+			<label>feature request</label>
+			<description>
+		Pleas make the change folder available even when SD Card is not found
+	</description>
+		</report>
+		<report Number="35">
+			<summary>Easy selection + batch processing in podcast's episode list</summary>
+			<url>https://github.com/AntennaPod/AntennaPod/issues/175</url>
+			<bugID>Issue #175</bugID>
+			<label>feature request</label>
+			<description>
+		I recently migrated from PodKicker to AntennaPod and imported via OPML my subscriptions. Sadly all episodes were marked as old. I have audio books from librivox.org which haven't listened to yet, or listened only to a few chapters, so marking them as new is really difficult. I think, as proposed in another issue, marking as new and queuing should be directly accessible, instead of through a menu. Also a select all/deselect all would be useful, coupled with 'mark selected as new' or 'queue selected'.
+	</description>
+		</report>
+		<report Number="36">
+			<summary>Allow setting app language differente than the one used by system</summary>
+			<url>https://github.com/AntennaPod/AntennaPod/issues/181</url>
+			<bugID>Issue #181</bugID>
+			<label>feature request</label>
+			<description>
+		The title says everything. This request is because I use English language in my system cause Portuguese translation of cyanogenmod is bad. But as I am the Portuguese translator of this app I would like to use it.
+	</description>
+		</report>
+		<report Number="37">
+			<summary>Feature request : permits to view PDF files</summary>
+			<url>https://github.com/AntennaPod/AntennaPod/issues/204</url>
+			<bugID>Issue #204</bugID>
+			<label>feature request</label>
+			<description>
+		It would be great to let AntennaPOD display PDF files. Either internally or externally... I already parsed the source code and it seems easy to introduce a new media type, but I'm actually unable to introduce some external viewer to the app. I am an experienced iOS dev. but very new to Android dev. Could someone help me find the trick ? Or if it is easy to implement it ? Much better, why not let the user decide what app to launch on unknown media type ?
+	</description>
+		</report>
+		<report Number="38">
+			<summary>Episode Image not shown on lockscreen control</summary>
+			<url>https://github.com/AntennaPod/AntennaPod/issues/218</url>
+			<bugID>Issue #218</bugID>
+			<label>feature request</label>
+			<description>
+		The lockscreen control is completely black and only the controls and the title is displayed.
+	</description>
+		</report>
+		<report Number="39">
+			<summary>Feature request: Enhanced Sleep-Timer</summary>
+			<url>https://github.com/AntennaPod/AntennaPod/issues/228</url>
+			<bugID>Issue #228</bugID>
+			<label>feature request</label>
+			<description>
+		I think it would be great, if the sleep-timer wouldn't just stop playing, it should fade out. And it happens, that the sleep-timer stops the podcast but I'm not sleeping yet. Therefor there should be something like the Snooze-function from alarm-clocks just inverted. I'm thinking of this: The sleep-timer starts fading out and I'm pressing a button (the hardware volume buttons would be predestined) and the volume is faded in to the former level and the sleep timer is set for 15 minutes (e.g.).
+	</description>
+		</report>
+		<report Number="40">
+			<summary>Support for paged-feeds</summary>
+			<url>https://github.com/AntennaPod/AntennaPod/issues/245</url>
+			<bugID>Issue #245</bugID>
+			<label>feature request</label>
+			<description>
+		Support for paged-feeds (RFC 5005) would help a lot ! please see http://podlove.org/paged-feeds/ The podcast http://cre.fm/feed/m4a/ uses it for example. Currently I can only see the first page, the last 30 episodes. I don´t find any other android app that supports it.
+	</description>
+		</report>
+		<report Number="41">
+			<summary>FR: remember sleep timer setting</summary>
+			<url>https://github.com/AntennaPod/AntennaPod/issues/247</url>
+			<bugID>Issue #247</bugID>
+			<label>feature request</label>
+			<description>
+		IMHO, there is a high probability that people want to use the same sleep timer settings. Currently, it has to be set anew each time. Please make AntennaPod remember the set sleep time. Thanks and greetings!
+	</description>
+		</report>
+		<report Number="42">
+			<summary>Export to OPML in a public directory</summary>
+			<url>https://github.com/AntennaPod/AntennaPod/issues/260</url>
+			<bugID>Issue #260</bugID>
+			<label>feature request</label>
+			<description>
+		I went to export to OPML in order to migrate from the fdroid version to the Play version and didn't pay attention to where it saved the file. When I went to reinstall, the file was gone, as it was cleared with the app uninstall. It would be wonderful if it could be stored in a public place so fat fingers can't so easily wipe the backup. Maybe just on the root of the SD card or in the Downloads folder.
+	</description>
+		</report>
+		<report Number="43">
+			<summary>FR: click on widget should load episode list if no media is playing</summary>
+			<url>https://github.com/AntennaPod/AntennaPod/issues/261</url>
+			<bugID>Issue #261</bugID>
+			<label>feature request</label>
+			<description>
+		Currently, when no podcast is playing, the widget shows a generic &quot;No media playing&quot; message. Clicking it, brings up the empty &quot;player page&quot;. If one wants to select a new episode to play, one has to click the app logo to get back to the podcast list and once more on &quot;EPISODES&quot;. Please make it possible to skip this procedure by making the widget load the episode list directly, when none is playing.
+	</description>
+		</report>
+		<report Number="44">
+			<summary>Feature Request: Read/Unread marker</summary>
+			<url>https://github.com/AntennaPod/AntennaPod/issues/269</url>
+			<bugID>Issue #269</bugID>
+			<label>feature request</label>
+			<description>
+		A cool feature would be the ability to mark episodes as played in the podcast's list of episodes. You could turn the title text grey to signify that the episode has been listened to. I follow a lot of podcasts and it would be nice to see which I've finished listening to and which ones I haven't. I know that this functionality is sort of provided by having a queue, but just a suggestion. I used to use a Zune for podcasts and really liked how it managed them.
+	</description>
+		</report>
+		<report Number="45">
+			<summary>Streaming to extern player</summary>
+			<url>https://github.com/AntennaPod/AntennaPod/issues/280</url>
+			<bugID>Issue #280</bugID>
+			<label>feature request</label>
+			<description>
+		i would love to see a ability to stream a episode to a extern player. like bubbleupnp or the yatse xbmc remote. its something i use alot to play podcasts on my xmbc machine. i dont know how difficult this is... but it would be a nice feature.
+	</description>
+		</report>
+		<report Number="46">
+			<summary>Feature Request: Per-feed option to not add episodes to new list</summary>
+			<url>https://github.com/AntennaPod/AntennaPod/issues/286</url>
+			<bugID>Issue #286</bugID>
+			<label>feature request</label>
+			<description>
+		I am subscribed to 2 high-frequency podcasts (daily 07:00 and 19:00 radio news), which I only infrequently listen to: maybe once a week I'll manually download the latest episode. But those 2 feeds show up with 2 new episodes per day in the list of recent episodes, which to me only represent noise. I would appreciate a way to &quot;hide&quot; the episodes from these feeds in the list of new episodes. This would be a per-feed option, &quot;do not show new episodes in list&quot;. With such a feature, i could go to the Feed and download the latest episode, only when I want to listen to an episode. The rest of the time, those episodes don't fill up the newest episodes, and that list has more meaningful items in it ;)
+	</description>
+		</report>
+		<report Number="47">
+			<summary>Feature Request: allow installing/moving application to SD card</summary>
+			<url>https://github.com/AntennaPod/AntennaPod/issues/287</url>
+			<bugID>Issue #287</bugID>
+			<label>feature request</label>
+			<description>
+		I've got a very memory-challenged phone, and am always trying to skim a few MB on the internal memory to be able to install new apps, but unfortunately AntennaPod can't be moved to the SD card. I believe this is done adding android:installLocation to the manifest file. I'd suggest using &quot;preferExternal&quot;, although &quot;auto&quot; (install by default on internal memory, on external if internal is already full)
+	</description>
+		</report>
+		<report Number="48">
+			<summary>Feature request: optionally mark episodes as unread when adding a new feed</summary>
+			<url>https://github.com/AntennaPod/AntennaPod/issues/289</url>
+			<bugID>Issue #289</bugID>
+			<label>feature request</label>
+			<description>
+		I understand the rationale for not offering the ability to mark episodes as unread (although I don't agree with it...). But I don't think this rationale applies when you've added a new feed - in some cases, you'd probably need to start from episode 1 but you wouldn't necessarily want top add 200+ episodes to the queue. For example, many educational podcasts will need to be listened to in order, as later episodes will use concepts introduced earlier ones. In my case, I have a beginners Spanish podcast that I've started listening to with a few hundred episodes already recorded and tracking where I'm up to is already a bit of a pain. With this in mind, could we have an option when adding the feed to mark the entire feed unread?
+	</description>
+		</report>
+		<report Number="49">
+			<summary>Feature request: bottom play bar different color</summary>
+			<url>https://github.com/AntennaPod/AntennaPod/issues/296</url>
+			<bugID>Issue #296</bugID>
+			<label>feature request</label>
+			<description>
+		I suggest making bottom bar in different color Reason: to make it different from episodes list
+	</description>
+		</report>
+		<report Number="50">
+			<summary>Importing episodes</summary>
+			<url>https://github.com/AntennaPod/AntennaPod/issues/306</url>
+			<bugID>Issue #306</bugID>
+			<label>feature request</label>
+			<description>
+		AP should be able to import already downloaded episodes. Some feeds offer only the last episodes. But most times you can manually download episodes from archives
+	</description>
+		</report>
+		<report Number="51">
+			<summary>Feature Request: Tapping icon should play episode</summary>
+			<url>https://github.com/AntennaPod/AntennaPod/issues/308</url>
+			<bugID>Issue #308</bugID>
+			<label>feature request</label>
+			<description>
+		It would be useful if tapping an episode's icon in the episode view would cause that episode to immediately start playing. I know that you can click the play icon from the top of the episode details screen but being able to do this from the episode list would be quicker and safer (for example when in a car).
+	</description>
+		</report>
+		<report Number="52">
+			<summary>Feature request - auto delete already listened podcasts</summary>
+			<url>https://github.com/AntennaPod/AntennaPod/issues/317</url>
+			<bugID>Issue #317</bugID>
+			<label>feature request</label>
+			<description>
+		Congrats for your job in this app, its so amazing and for me almost perfect, I don't know if its hard to do or not, but if you could add the auto delete of the podcast when we finish it will be good. Thanks!
+	</description>
+		</report>
+		<report Number="53">
+			<summary>AutoQueue instead of AutoDownload</summary>
+			<url>https://github.com/AntennaPod/AntennaPod/issues/318</url>
+			<bugID>Issue #318</bugID>
+			<label>feature request</label>
+			<description>
+		I don't understand autodownload. The N topmost queued podcast should always be downloaded. Instead, i'd like to choose certain feeds auto-queued whenever a new item appears.
+	</description>
+		</report>
+		<report Number="54">
+			<summary>Organization</summary>
+			<url>https://github.com/AntennaPod/AntennaPod/issues/323</url>
+			<bugID>Issue #323</bugID>
+			<label>feature request</label>
+			<description>
+		Needs a way to organize downloaded podcasts by holding and sliding them up or down. An auto to organize them by episode number would be nice as well. The current options of move to the top or bottom are very much limited. It would be nice to organize the un-downloaded podcasts from old to new as well in case one wants to listen to a pod channel from the beginning.
+	</description>
+		</report>
+		<report Number="55">
+			<summary>No intent to call Antennapod to subscribe a podcast.</summary>
+			<url>https://github.com/AntennaPod/AntennaPod/issues/333</url>
+			<bugID>Issue #333</bugID>
+			<label>feature request</label>
+			<description>
+		Antennapod doesn't have a way for other apps to subscribe a podcast. For example, feed:// and itpc:// urls don't subscribe with Antennapod, so Tunesviewer can't subscribe a podcast with Antennapod.
+	</description>
+		</report>
+		<report Number="56">
+			<summary>Feeds which require passwords</summary>
+			<url>https://github.com/AntennaPod/AntennaPod/issues/334</url>
+			<bugID>Issue #334</bugID>
+			<label>feature request</label>
+			<description>
+		Can you add the functionality to add feeds which require a login? Examples on http://www.bitsundso.de/plus-faq/: http://username:passwort@www.bitsundso.de/feed/plus/ or http://www.bitsundso.de/feed/plus/
+	</description>
+		</report>
+		<report Number="57">
+			<summary>Feature request: jump buttons on lock screen widget</summary>
+			<url>https://github.com/AntennaPod/AntennaPod/issues/337</url>
+			<bugID>Issue #337</bugID>
+			<label>feature request</label>
+			<description>
+		Sometimes when listening to podcasts one gets distracted a bit, but not intense or long enough to pause the podcast playback, for example when sitting on a train and there's an announcement where one does not know from the beginning if it is important for oneself. In such cases I like to jump back some seconds in the playback where the jump buttons in the player come in quite handy. But it would be even nicer if those buttons were also on the lock screen widget, as this way one would not have to unlock the phone and fire up antennapod to do so.
+	</description>
+		</report>
+		<report Number="58">
+			<summary>[Feature request] Option for normalisation of audio volume after download.</summary>
+			<url>https://github.com/AntennaPod/AntennaPod/issues/341</url>
+			<bugID>Issue #341</bugID>
+			<label>feature request</label>
+			<description>
+		Use case: podcasts recorded by radio broadcasters are extremely quiet. Listening to these podcasts interrupted by (relatively very loud) car navigation announcements is very uncomfortable.
+	</description>
+		</report>
+		<report Number="59">
+			<summary>AntennaPod doesn't respond to external &quot;Fast Forward&quot;, &quot;Next&quot;, &quot;Previous&quot; etc. input.</summary>
+			<url>https://github.com/AntennaPod/AntennaPod/issues/386</url>
+			<bugID>Issue #386</bugID>
+			<label>feature request</label>
+			<description>
+		Hi, All media players I use and have used on Android respond to standard external input for &quot;Fast Forward, &quot;Next&quot;, &quot;Previous&quot; etc. inputs. I was surprised when AntennaPod only responds to &quot;Play/Pause&quot; but none of the other media controls. This matters since I use the HeadsetButton Controller app and also Bluetooth headsets with more than &quot;Play/Pause&quot; controls and they do not work with AntennaPod. It would be very helpful if AntennaPod could respond like other players to external playback controls
+	</description>
+		</report>
+		<report Number="60">
+			<summary>Pausing in lockscreen makes widget disappear</summary>
+			<url>https://github.com/AntennaPod/AntennaPod/issues/429</url>
+			<bugID>Issue #429</bugID>
+			<label>feature request</label>
+			<description>
+		Hey! When pausing in the lockscreen, also in the notification screen, the player disappears. I have to open the app or use the homescreen widget to play again.
+	</description>
+		</report>
+		<report Number="61">
+			<summary>No reaction on prev / next over avrcp</summary>
+			<url>https://github.com/AntennaPod/AntennaPod/issues/432</url>
+			<bugID>Issue #432</bugID>
+			<label>feature request</label>
+			<description>
+		Hey! Antennapod shows no reaction when prev or next is pressed on the bluetooth device. I did not test a wired headset. It should jump an amount of minutes.
+	</description>
+		</report>
+		<report Number="62">
+			<summary>Proxy support</summary>
+			<url>https://github.com/AntennaPod/AntennaPod/issues/447</url>
+			<bugID>Issue #447</bugID>
+			<label>feature request</label>
+			<description>
+		would be nice if I could set proxy somewhere in setting... [can't find it anywhere, so I guess it's not there] I am getting a lot of 'Connection Error' so I guess it's by some blocking at my company network...
+	</description>
+		</report>
+		<report Number="63">
+			<summary>show number of items in queue</summary>
+			<url>https://github.com/AntennaPod/AntennaPod/issues/453</url>
+			<bugID>Issue #453</bugID>
+			<label>feature request</label>
+			<description>
+		Hi! With the new UI the user is not able to know how many episodes he has in the queue (or at least I don't know how to see it). Seems necessary to me.
+	</description>
+		</report>
+		<report Number="64">
+			<summary>option to make Queue the default screen</summary>
+			<url>https://github.com/AntennaPod/AntennaPod/issues/458</url>
+			<bugID>Issue #458</bugID>
+			<label>feature request</label>
+			<description>
+		I have a small issue with the new UI: I don't find the 'All episodes' screen very useful. It shows every episode of every podcast grouped by podcast* (hundreds of episodes). When 'show only new episodes' is selected the screen is empty (because they have been automatically downloaded and queued). As all of my newly downloaded episodes are sitting in the 'Queue' I'd like that to be the screen I see whenever I open AntennaPod. Could there be an option to make the queue the starting screen? * it'd make more sense if they were in descending chronological order with the newest episodes at the top - edit: I think it does this on some feeds not others, several feeds seem to appear at the top with every episode's date set to today
+	</description>
+		</report>
+		<report Number="65">
+			<summary>unify info and subscription page of a podcast</summary>
+			<url>https://github.com/AntennaPod/AntennaPod/issues/490</url>
+			<bugID>Issue #490</bugID>
+			<label>feature request</label>
+			<description>
+		After subscribing to a podcast that either needs authentication, or that one wants to not have auto-downloaded, it's cumbersum to get out of the Add Podcast dialogue, scroll down the list and enter the podcast's info page. Being able to adjust such options directly after subscribing would be neat.
+	</description>
+		</report>
+		<report Number="66">
+			<summary>automatically add most recent episode of newly added postcast to Queue or All Episodes list</summary>
+			<url>https://github.com/AntennaPod/AntennaPod/issues/492</url>
+			<bugID>Issue #492</bugID>
+			<label>feature request</label>
+			<description>
+		related (maybe an alternative) to #490 My most common mode of subscribing to a new podcast is because I got interested in its most current episode. This currently involves a lot of clicking so it would be nice if the general Auto-download option could also determine what happens to the latest episode of a newly subscribed podcast. If it is set, it should be downloaded. What do you think?
+	</description>
+		</report>
+		<report Number="67">
+			<summary>Add to Queue, then Download</summary>
+			<url>https://github.com/AntennaPod/AntennaPod/issues/495</url>
+			<bugID>Issue #495</bugID>
+			<label>feature request</label>
+			<description>
+		Hello! In the old UI it was possible to add items to the queue and then select 'download all'. I would appreciate if this behaviour would return as the new one can cause trouble when one wants to download several episodes with different file sizes. For example, a podcaster released three new episodes with different lengths: Episode One (1:00) Episode Two (0:45) Episode Three (0:30) Naturally, I would like to listen to the episodes in the correct order, but when I download them, Episode Three will be completed first and added to the queue first so that, in this example, they end up with the opposite order on the queue. Thanks in advance! Cheers
+	</description>
+		</report>
+		<report Number="68">
+			<summary>show current chapter in notification</summary>
+			<url>https://github.com/AntennaPod/AntennaPod/issues/502</url>
+			<bugID>Issue #502</bugID>
+			<label>feature request</label>
+			<description>
+		if available
+	</description>
+		</report>
+		<report Number="69">
+			<summary>Way to delete/clear download log?</summary>
+			<url>https://github.com/AntennaPod/AntennaPod/issues/506</url>
+			<bugID>Issue #506</bugID>
+			<label>feature request</label>
+			<description>
+		The log in the &quot;Downloads&quot; section appears to keep every download (successful and failed) forever. It would be great to be able to clear the log since it's getting very long.
+	</description>
+		</report>
+		<report Number="70">
+			<summary>AntennaPod for ChromeOS</summary>
+			<url>https://github.com/AntennaPod/AntennaPod/issues/510</url>
+			<bugID>Issue #510</bugID>
+			<label>feature request</label>
+			<description>
+		Here it is compiled for ARChon. Seems to work perfectly.
+	</description>
+		</report>
+		<report Number="71">
+			<summary>Feature Request: Delete Button In Episode</summary>
+			<url>https://github.com/AntennaPod/AntennaPod/issues/516</url>
+			<bugID>Issue #516</bugID>
+			<label>feature request</label>
+			<description>
+		Device: Samsung S3, Android 4.3, AntennaPod Ver 0.9.9.3 Assuming Skip Episode is not supposed to be a Skip Episode with an automatic delete function, which if it is, only Skips the episode for me. It would be great if there was a Delete button on the screen while in the specific episode with Delete being listed form the Menu button or maybe even at the top of the screen in the centre between the back to the main screen menu and http link. Daniel big thanks to you and all the people that help to make this great app!
+	</description>
+		</report>
+		<report Number="72">
+			<summary>Keep less than the 10 last podcasts</summary>
+			<url>https://github.com/AntennaPod/AntennaPod/issues/519</url>
+			<bugID>Issue #519</bugID>
+			<label>feature request</label>
+			<description>
+		When selecting how many podcasts to keep downloaded, the minimum is 10. I'd like to set that even lower, like 5 or maybe even 2. More options under 10 or the ability to enter your own number would be a great feature!
+	</description>
+		</report>
+		<report Number="73">
+			<summary>Queue podcast when adding it</summary>
+			<url>https://github.com/AntennaPod/AntennaPod/issues/520</url>
+			<bugID>Issue #520</bugID>
+			<label>feature request</label>
+			<description>
+		What I'd like is when adding a podcast the option to queue it in chronological order (I.E. Append the podcast to the queue, oldest episode first, newest episode last). Imagine you had this queue already:- Podcast 1 - Season 5 - Episode 4 Podcast 2 - Season 2 - Episode 8 Then added Podcast 3, which is has two seasons of 5 episodes each, it'd end up with:- Podcast 1 - Season 5 - Episode 4 Podcast 2 - Season 2 - Episode 8 Podcast 3 - Season 1 - Episode 1 Podcast 3 - Season 1 - Episode 2 Podcast 3 - Season 1 - Episode 3 Podcast 3 - Season 1 - Episode 4 Podcast 3 - Season 1 - Episode 5 Podcast 3 - Season 2 - Episode 1 Podcast 3 - Season 2 - Episode 2 Podcast 3 - Season 2 - Episode 3 Podcast 3 - Season 2 - Episode 4 Podcast 3 - Season 2 - Episode 5 This would be useful for people who like to listen to the backlog of a Podcast. Maybe also add some advanced options (Reverse order, only add newest X episodes/time, Regex, only add season X-Y,Z), etc... Maybe also add the option to the podcast's page.
+	</description>
+		</report>
+		<report Number="74">
+			<summary>Add support for gPodder's recently played episodes function</summary>
+			<url>https://github.com/AntennaPod/AntennaPod/issues/539</url>
+			<bugID>Issue #539</bugID>
+			<label>feature request</label>
+			<description>
+		If the podcasting app one uses supports it, you can see a list of your recently played episodes on your gPodder.net profile. It would be nice if AntennaPod would support this, but it should be possible to toggle it off or on for privacy reasons. Have a look at my profile for an example: https://gpodder.net/user/forteller/
+	</description>
+		</report>
+		<report Number="75">
+			<summary>Let me retry failed downloads from the log</summary>
+			<url>https://github.com/AntennaPod/AntennaPod/issues/541</url>
+			<bugID>Issue #541</bugID>
+			<label>feature request</label>
+			<description>
+		For some reason downloads fail quite often for me. When I tap the &quot;Downloads completed&quot; message and get sent to the log, I'd like to be able to choose to retry the failed episodes right there and then.
+	</description>
+		</report>
+		<report Number="76">
+			<summary>Please add an option to add new episodes to the top if the queue</summary>
+			<url>https://github.com/AntennaPod/AntennaPod/issues/552</url>
+			<bugID>Issue #552</bugID>
+			<label>feature request</label>
+			<description>
+		The one issue I currently have with AntennaPod is that I can't have new episodes added to the top of the queue. Please add this option.
+	</description>
+		</report>
+		<report Number="77">
+			<summary>feed-specific button to hide/unhide not downloaded podcasts</summary>
+			<url>https://github.com/AntennaPod/AntennaPod/issues/583</url>
+			<bugID>Issue #583</bugID>
+			<label>feature request</label>
+			<description>
+		First of all I'd like to congratulate for this great podcast app! :-) I wonder if it would be possible to implement a feed-specific button to hide/unhide episodes which haven't been downloaded yet. Let me give you a short background on that: I usually don't download all podcast episodes from a feed (it would take to much space on my mobile phone) and if there are a lot of episodes it's hard to keep track of which ones are already downloaded (which I preferably would like to listen to) and which are not. This would make it easier to keep an oversight of downloaded files in a feed-specific way.
+	</description>
+		</report>
+		<report Number="78">
+			<summary>&quot;Mark as (Un)read&quot; option</summary>
+			<url>https://github.com/AntennaPod/AntennaPod/issues/589</url>
+			<bugID>Issue #589</bugID>
+			<label>feature request</label>
+			<description>
+		Re-opening this closed issue, it appears that this option did exist at some point but has been removed again. This feature (and the ability to sync it with gpodder mentioned here) would be fantastic.
+	</description>
+		</report>
+		<report Number="79">
+			<summary>Add an 'Empty Queue' command</summary>
+			<url>https://github.com/AntennaPod/AntennaPod/issues/593</url>
+			<bugID>Issue #593</bugID>
+			<label>feature request</label>
+			<description>
+		Consider the following use case: User is subscribed to a number of podcasts User's queue is full with previously downloaded podcasts All the episodes in the queue are stale. The user doesn't want to listen to them (they already listened to them, they got behind, whatever). With the current model the user would have to manually remove all the episodes from the queue, one by one. That can be very time consuming and tedious with a long queue. If there were a 'empty queue' or 'clear queue' command the user could issue that command, all the episodes in the queue would be removed and then, when the system auto-updates, the queue would be filled with the latest episodes from their various subscriptions. Worthwhile?
+	</description>
+		</report>
+		<report Number="80">
+			<summary>add a refresh button to the queue view</summary>
+			<url>https://github.com/AntennaPod/AntennaPod/issues/595</url>
+			<bugID>Issue #595</bugID>
+			<label>feature request</label>
+			<description>
+		moved from the &quot;soon closed&quot; issue #458 It would be nice, if the queue view would get an &quot;refresh&quot; button, too. This is the only reason why i call the &quot;all episode&quot; view.
+	</description>
+		</report>
+		<report Number="81">
+			<summary>Too easy to accidentally mark all episodes as read</summary>
+			<url>https://github.com/AntennaPod/AntennaPod/issues/596</url>
+			<bugID>Issue #596</bugID>
+			<label>feature request</label>
+			<description>
+		I have just done it. For a while I have been fearing the possibility and now it has turned into a reality. Because, in All episodes view, 'Refresh' option is right above 'Mark all episodes as read', and also in part due to me being slightly retarded, I accidentally touched the latter in place of the former. With no confirmation requested and no undo option available, I am now unaware of what episodes I have and haven't heard, and moderately bemused over this situation. I really wish there were a confirmation step or an undo option to this. Thank you for your time, attention and a great app.
+	</description>
+		</report>
+		<report Number="82">
+			<summary>Show date from rss feed item - BBC Today In Parliament</summary>
+			<url>https://github.com/AntennaPod/AntennaPod/issues/600</url>
+			<bugID>Issue #600</bugID>
+			<label>feature request</label>
+			<description>
+		BBC Today In Parliament don't give any indication of date in their show titles or descriptions, so I'm often left looking at the list in AntennaPod wondering which one is most recent (having reorganised my queue several times). I see there's a date in the raw xml (below), nicely displayed by firefox. It would be great if AntennaPod could display the date somewhere. It's a daily show so quite high volume. http://www.bbc.co.uk/programmes/b006qtqd http://www.bbc.co.uk/podcasts/series/tip http://downloads.bbc.co.uk/podcasts/radio4/tip/rss.xml Many thanks for such a great piece of software. Loved the latest UI improvements, much better.
+	</description>
+		</report>
+		<report Number="83">
+			<summary>Option to disable download notifications</summary>
+			<url>https://github.com/AntennaPod/AntennaPod/issues/613</url>
+			<bugID>Issue #613</bugID>
+			<label>feature request</label>
+			<description>
+		Each time AntennaPod is downloading podcasts, has downloaded them or failed to download them, it adds a notification. Users should be able to control what notifications they do or don't want to receive, so there should be an option to disable the download notifications.
+	</description>
+		</report>
+		<report Number="84">
+			<summary>pause should rewind x seconds</summary>
+			<url>https://github.com/AntennaPod/AntennaPod/issues/620</url>
+			<bugID>Issue #620</bugID>
+			<label>feature request</label>
+			<description>
+		It would be nice if the podcast would rewind x seconds (with advanced pref? default 10 sec?) at stop and pause.
+	</description>
+		</report>
+		<report Number="85">
+			<summary>Download serially instead of in parallel</summary>
+			<url>https://github.com/AntennaPod/AntennaPod/issues/622</url>
+			<bugID>Issue #622</bugID>
+			<label>feature request</label>
+			<description>
+		I would like to scan down the list of episodes in &quot;All Episodes&quot; view, tap the download icons of all episodes I wish to retrieve, and then have those episodes downloaded one at a time in order (instead of simultaneously). Often my queue will be empty, and I'll want that first episode to download as soon as possible so I have something to listen to while the rest download. Is this already possible?
+	</description>
+		</report>
+		<report Number="86">
+			<summary>OPML Import</summary>
+			<url>https://github.com/AntennaPod/AntennaPod/issues/623</url>
+			<bugID>Issue #623</bugID>
+			<label>feature request</label>
+			<description>
+		Currently app only allows OPML import from a given directory, would be nice if this opened up a file dialog instead and allowed user to select the OPML file.
+	</description>
+		</report>
+		<report Number="87">
+			<summary>Integration with iTunes Podcast Search</summary>
+			<url>https://github.com/AntennaPod/AntennaPod/issues/625</url>
+			<bugID>Issue #625</bugID>
+			<label>feature request</label>
+			<description>
+		Would seem useful to discover and search for podcast feeds in the iTunes podcast directory - API for the directory - https://www.apple.com/itunes/affiliates/resources/documentation/itunes-store-web-service-search-api.html
+	</description>
+		</report>
+		<report Number="88">
+			<summary>Please bring back the Refresh icon</summary>
+			<url>https://github.com/AntennaPod/AntennaPod/issues/633</url>
+			<bugID>Issue #633</bugID>
+			<label>feature request</label>
+			<description>
+		After a recent upgrade, the Refresh icon is no more available in the top bar (in all views). Now one must click the top-right &quot;three dots&quot; icon, and then select refresh, which I find cumbersome. Please consider bringing back the old refresh icon (at least in the single podcast view), beside the Search icon, or even instead of it.
+	</description>
+		</report>
+		<report Number="89">
+			<summary>When viewing an item in a list, allow swipe left/right to go to next/previous list item</summary>
+			<url>https://github.com/AntennaPod/AntennaPod/issues/662</url>
+			<bugID>Issue #662</bugID>
+			<label>feature request</label>
+			<description>
+		When I view a list (e.g. &quot;All episodes&quot;) and click on a single item to view details, I would like to swipe left/right to go to the next/previous item in the list. 👍 1
+	</description>
+		</report>
+		<report Number="90">
+			<summary>[Feature Request] Play/pause directly from the queue without changing to the playback screen.</summary>
+			<url>https://github.com/AntennaPod/AntennaPod/issues/664</url>
+			<bugID>Issue #664</bugID>
+			<label>feature request</label>
+			<description>
+		Hi, There's a play/pause button to the right in the queue but it takes you to the playback screen when you press it. I would like for it to simply start playing or pause and stay in the queue view while adding a long press option to be taken to the playback screen.
+	</description>
+		</report>
+		<report Number="91">
+			<summary>Use the podcast's image to sort the Queue list</summary>
+			<url>https://github.com/AntennaPod/AntennaPod/issues/670</url>
+			<bugID>Issue #670</bugID>
+			<label>feature request</label>
+			<description>
+		In the queue list, it is possible to order the list by tap and holding onto the three horizontal lines, and moving the item up and down. I suggest using the podcast's image instead to tap and hold and sort vertically.
+	</description>
+		</report>
+		<report Number="92">
+			<summary>Improve Efficiency of Refreshing Feeds</summary>
+			<url>https://github.com/AntennaPod/AntennaPod/issues/671</url>
+			<bugID>Issue #671</bugID>
+			<label>feature request</label>
+			<description>
+		We currently re-download all the feeds. It would be nice if we only downloaded feeds that have been modified (by using If-Modified-Since).
+	</description>
+		</report>
+		<report Number="93">
+			<summary>Video Player: Add fast forward and rewind controls</summary>
+			<url>https://github.com/AntennaPod/AntennaPod/issues/673</url>
+			<bugID>Issue #673</bugID>
+			<label>feature request</label>
+			<description>
+		On my LG L 5 Optimus there is no option to fast forward or rewind for Global National video podcast (http://feeds.feedburner.com/globalnationalvideopodcast). Please make these features available for video podcasts.
+	</description>
+		</report>
+		<report Number="94">
+			<summary>Swipe to mark as read</summary>
+			<url>https://github.com/AntennaPod/AntennaPod/issues/704</url>
+			<bugID>Issue #704</bugID>
+			<label>feature request</label>
+			<description>
+		It would be nice if you could swipe an item in the 'All Episodes' list to mark it as read. Granted, this only makes sense if you're only displaying 'new' items, but I think it might be a common use case. The problem is that DSLV doesn't support lists that can remove items but that don't want to be dragged around. I took a stab at this here: https://github.com/TomHennen/AntennaPod/tree/swipe_to_mark_as_read but was thwarted because of the DSLV issue. I may take another look at this in the future, but I figured I'd at least note it as a feature request.
+	</description>
+		</report>
+		<report Number="95">
+			<summary>add ability to show feed url</summary>
+			<url>https://github.com/AntennaPod/AntennaPod/issues/722</url>
+			<bugID>Issue #722</bugID>
+			<label>feature request</label>
+			<description>
+		I did not found a way to view the exact url of the feed of an podcast. This can be useful to check if i have an old url in case the url has changed for a podcast.
+	</description>
+		</report>
+		<report Number="96">
+			<summary>Episode Forward/Back</summary>
+			<url>https://github.com/AntennaPod/AntennaPod/issues/732</url>
+			<bugID>Issue #732</bugID>
+			<label>feature request</label>
+			<description>
+		AntennaPod doesn't currently have a way to easily skip to the next episode. You can go to a sub-menu and click 'Skip episode' and that will do it, but it's not very accessible. I personally want to skip past episodes a lot, but that doesn't necessarily mean I want them removed from the queue. I think ideally we could add track forward/back buttons that let you navigate in your queue without removing episodes when you do so. These buttons (or at least forward) should be available on the widgets. Additionally, it should be possible to configure bluetooth buttons to track forward/back instead of rewind/fast forward. Does anyone else think such a thing is desirable? A lower-effort method would be to simply expose 'Skip episode' as a button on the various player widgets. All opinions are appreciated.
+	</description>
+		</report>
+		<report Number="97">
+			<summary>Mark multiple episodes</summary>
+			<url>https://github.com/AntennaPod/AntennaPod/issues/761</url>
+			<bugID>Issue #761</bugID>
+			<label>feature request</label>
+			<description>
+		Hi! I'd like to mark multiple episodes to apply actions. For example if I want to mark some episodes as read.
+	</description>
+		</report>
+		<report Number="98">
+			<summary>Report media progress</summary>
+			<url>https://github.com/AntennaPod/AntennaPod/issues/762</url>
+			<bugID>Issue #762</bugID>
+			<label>feature request</label>
+			<description>
+		I would like to see AntennaPod report media progress. This can be picked up e.g. by Music Boss to show media progress on the Pebble smartwatch.
+	</description>
+		</report>
+		<report Number="99">
+			<summary>Option to set all episodes older than 'n' to be deleted.</summary>
+			<url>https://github.com/AntennaPod/AntennaPod/issues/803</url>
+			<bugID>Issue #803</bugID>
+			<label>feature request</label>
+			<description>
+		I would really like to see an option in AntennaPod to be able to set that all episodes older than 'n' days should be deleted. It could either be a sliding scale, or something like &quot;one week&quot;, &quot;two weeks&quot;, &quot;one month&quot;, six months&quot; or &quot;one year&quot;. It would of course be even better if you could set this on a per subscribed podcast basis.
+	</description>
+		</report>
+		<report Number="100">
+			<summary>Missing A2DP data</summary>
+			<url>https://github.com/AntennaPod/AntennaPod/issues/820</url>
+			<bugID>Issue #820</bugID>
+			<label>feature request</label>
+			<description>
+		Hi! I often use Antennapod in my car, that can display the title data send with A2DP. With Antennapod the Artist is missing, also the playtime is not running. There is only a random value for the time.
+	</description>
+		</report>
+		<report Number="101">
+			<summary>Subscribe view: Show publication dates</summary>
+			<url>https://github.com/AntennaPod/AntennaPod/issues/821</url>
+			<bugID>Issue #821</bugID>
+			<label>feature request</label>
+			<description>
+		Hi When I add a url, it brings up the list which is great, butnno dates are shown there which sucks because it is hard to tell if the pcasts are updated recently or not. It would be nice if the dates aare listed there if possible.
+	</description>
+		</report>
+		<report Number="102">
+			<summary>Download indicator not show on the New Episodes list</summary>
+			<url>https://github.com/AntennaPod/AntennaPod/issues/822</url>
+			<bugID>Issue #822</bugID>
+			<label>feature request</label>
+			<description>
+		When downloading an episode from the New Episodes list the download progress bar isn't shown.
+	</description>
+		</report>
+		<report Number="103">
+			<summary>FR: download all</summary>
+			<url>https://github.com/AntennaPod/AntennaPod/issues/871</url>
+			<bugID>Issue #871</bugID>
+			<label>feature request</label>
+			<description>
+		It would be nice if there is a way to downliad all the episodes from a podcast via single menu item. Thanks
+	</description>
+		</report>
+		<report Number="104">
+			<summary>Any ideas for AntennaPod 1.3?</summary>
+			<url>https://github.com/AntennaPod/AntennaPod/issues/882</url>
+			<bugID>Issue #882</bugID>
+			<label>feature request</label>
+			<description>
+		Now that 1.2 is released it's time to start thinking about 1.3. There have been some suggestions for major UI improvements. Some visible, some under the covers. I think it would make sense to think through all the GUI related features and changes we want and try to make them all work well together. Some thoughts on improvements: Material design overhaul Use of RecyclerView in place of DSLV New subscription view (#848, #836) Better sharing of episodes (#861) Display of itunes 'explicit' tags (#724) Filtering by itunes 'explicit' tags (#725) Support for multiple queues I don't think this will happen in 1.3 Improve visibility of adding podcasts via iTunes - Done This is really the easiest way of adding podcasts Perhaps making it the first option users see and only labeling it 'search'? Download all episodes from a feed (#871, #520) Episode forward/back (#732) I bet there are some other good thoughts on what could be done. We should think hard about any changes to how we interact with the app, how these features would change them and how they could all work together.
+	</description>
+		</report>
+		<report Number="105">
+			<summary>Settings, subscriptions and other podcasts settings export</summary>
+			<url>https://github.com/AntennaPod/AntennaPod/issues/889</url>
+			<bugID>Issue #889</bugID>
+			<label>feature request</label>
+			<description>
+		Hi It would be nice if there is a way to back up Apod settings/data like some kind of export and import mechanism in case of moving to other devices, fresh installs etc. 👍 2
+	</description>
+		</report>
+		<report Number="106">
+			<summary>Audio from video streaming ?</summary>
+			<url>https://github.com/AntennaPod/AntennaPod/issues/917</url>
+			<bugID>Issue #917</bugID>
+			<label>feature request</label>
+			<description>
+		Hi I realize AntennaPod is geared towards audio but would not hurt is audio streaming from a video streaming is possible with it. Basicaly it will just play audio from a video stream if possible. The reason I am bringing it up because it might be cheaper from the batter usage perspective maybe?
+	</description>
+		</report>
+		<report Number="107">
+			<summary>Long press context menu on subscriptions</summary>
+			<url>https://github.com/AntennaPod/AntennaPod/issues/922</url>
+			<bugID>Issue #922</bugID>
+			<label>feature request</label>
+			<description>
+		I like the long pressing on Queue, New Episodes, etc. to add/remove those to the nav drawer. I think the same long press should do something for the subscriptions, like giving you a menu to unsubscribe.
+	</description>
+		</report>
+		<report Number="108">
+			<summary>Car view</summary>
+			<url>https://github.com/AntennaPod/AntennaPod/issues/932</url>
+			<bugID>Issue #932</bugID>
+			<label>feature request</label>
+			<description>
+		Often use this app while driving and have my phone mounted on the dash. Play / pause, forward, rewind controls however are small and hard to access use while in this view. Propose that while in the episode player view have a slide up gesture added to the bottom control bar so that it makes that control bar take up 50-60% of the screen and finger swipe down to make back to normal.
+	</description>
+		</report>
+		<report Number="109">
+			<summary>Remove button to Flattr AntennaPod</summary>
+			<url>https://github.com/AntennaPod/AntennaPod/issues/935</url>
+			<bugID>Issue #935</bugID>
+			<label>feature request</label>
+			<description>
+		Now that AntennaPod isn't being maintained by @danieloeh any longer and a team of people are working on it, Daniel, mentioned that he felt we should change who the Flattr money goes to. After discussing with Daniel and @mfietz we decided that we should remove the ability to flattr the app. The reason being that since the team is split up, there's no one person who the money should go to. At the moment we have no expenses (apart from time). So there really isn't a great way to deal with the revenue Flattr was providing. We are, of course, very pleased that people like the app enough to donate. We just don't know how to deal with those funds justly, and as a result felt it would be better to remove the ability to Flattr AntennaPod directly. This should resolve #507 and #567 as we just won't support accepting money any longer. If people have a better idea of what to do, please share it here.
+	</description>
+		</report>
+		<report Number="110">
+			<summary>Pause downloads</summary>
+			<url>https://github.com/AntennaPod/AntennaPod/issues/948</url>
+			<bugID>Issue #948</bugID>
+			<label>feature request</label>
+			<description>
+		Hi I think that it is very beneficial if we can pause and resume downloads. For instance I sometimes start some downloads and I realize that the downloads and slow and I might be in a hurry etc. At that point my only option is to cancel the downloads. thanks
+	</description>
+		</report>
+		<report Number="111">
+			<summary>Exported OPML is not formatted really</summary>
+			<url>https://github.com/AntennaPod/AntennaPod/issues/1238</url>
+			<bugID>Issue #1238</bugID>
+			<label>feature request</label>
+			<description>
+		Hi I exported the opml and it looks like one giant single line which makes it hard to edit manually. thanks
+	</description>
+		</report>
+		<report Number="112">
+			<summary>FR: Open the podcasts window</summary>
+			<url>https://github.com/AntennaPod/AntennaPod/issues/1239</url>
+			<bugID>Issue #1239</bugID>
+			<label>feature request</label>
+			<description>
+		Hi It would be nice if the user can open the podcast window that list all the titles of the podcast within any episode. Right now one has to locate the podcast from the left menu if the user needs to open the podcasts details page.
+	</description>
+		</report>
+		<report Number="113">
+			<summary>Drawer: Sort feeds by most recent publication date</summary>
+			<url>https://github.com/AntennaPod/AntennaPod/issues/1244</url>
+			<bugID>Issue #1244</bugID>
+			<label>feature request</label>
+			<description>
+		https://groups.google.com/forum/#!topic/antennapod/2XSuuRTBUsM: I have set my play list to sort it by (last publishing) date. It would be nice, if the sidebar could be set to sort it by this date, too. Actually it is only sortable by alphabet or by number of episodes. This option would give me the same order in both lists and it would be easier for me to find podcasts that are &quot;dead&quot; and which I could unsubscribe.
+	</description>
+		</report>
+		<report Number="114">
+			<summary>FR: Allow changing of episode length format</summary>
+			<url>https://github.com/AntennaPod/AntennaPod/issues/1299</url>
+			<bugID>Issue #1299</bugID>
+			<label>feature request</label>
+			<description>
+		The episodes always display their length as HH:MM:SS. There is no way I have found to change this to MMM:SS. Please add this option somewhere.
+	</description>
+		</report>
+		<report Number="115">
+			<summary>Highlight currently playing episode</summary>
+			<url>https://github.com/AntennaPod/AntennaPod/issues/1366</url>
+			<bugID>Issue #1366</bugID>
+			<label>feature request</label>
+			<description>
+		Feature was requested on the Play Store. User asks to highlight the currently playing episode in lists like the queue. Suggested a blue bar on the left.
+	</description>
+		</report>
+		<report Number="116">
+			<summary>Add 'submit debug log' function</summary>
+			<url>https://github.com/AntennaPod/AntennaPod/issues/1368</url>
+			<bugID>Issue #1368</bugID>
+			<label>feature request</label>
+			<description>
+		The developers have indicated the Google Play crash report contains a lot of valuable information. However, some bugs don't lead to crashes and it may be hard to pinpoint what exactly is going wrong (see e.g. my very vague issue #1264). In those cases, it may be handy to be able to easily copy/send a debug log, as is possible with Open Whisper System's Signal. They've put the option in the settings screen under 'advanced'; in AP the option might fit under the 'Other' section.
+	</description>
+		</report>
+		<report Number="117">
+			<summary>More smark options</summary>
+			<url>https://github.com/AntennaPod/AntennaPod/issues/1421</url>
+			<bugID>Issue #1421</bugID>
+			<label>feature request</label>
+			<description>
+		Usually podcasts last way longer than songs, 60 and 90 minutes are quite common. And many of them have 'garbage' (ads, uncut overlapping times from other contiguous chapters or programs), that you would like to skip especially at the end of the episode, all while considering current episode as fully played. I guess that this is why a 'smart mark as played' optional time is offered; you can currently choose between No and 15/30/45/60 seconds. I would like to request to expand this to allow to select for several minutes. For example, my typical podcast has usually around 5 minutes of overlapping content at the end I have to skip to go to next episode. I would bet that 5 minutes for something 60/90/120 minutes long is way more frequent than 60 seconds, the longest I can choose. Adding 5 and 10 minutes to the current available options would more or less make it for many people with minimal developer effort. Alternatively, I would rather prefer to let me choose the amount in seconds I want, instead of being only offered a closed set of predefined values. This way developers would not need to guess which options to offer, simply let the user enter what they feel it fits him. That would be slightly more complicated to code, but not much; perhaps only some code to prevent absurdly high or negative values to be accepted would be in order for safety.
+	</description>
+		</report>
+		<report Number="118">
+			<summary>Player: Toggle &quot;time left&quot; and &quot;total time&quot;</summary>
+			<url>https://github.com/AntennaPod/AntennaPod/issues/1456</url>
+			<bugID>Issue #1456</bugID>
+			<label>feature request</label>
+			<description>
+		Sometimes it's more useful to show how much time is needed for the current podcast to end instead of the total time. It's a user experience thing.
+	</description>
+		</report>
+		<report Number="119">
+			<summary>Don't auto delete favorites</summary>
+			<url>https://github.com/AntennaPod/AntennaPod/issues/1709</url>
+			<bugID>Issue #1709</bugID>
+			<label>feature request</label>
+			<description>
+		https://groups.google.com/d/msg/antennapod/2JZwjzvPTrQ/O_C25vUKAQAJ
+	</description>
+		</report>
+		<report Number="120">
+			<summary>Statistics</summary>
+			<url>https://github.com/AntennaPod/AntennaPod/issues/1743</url>
+			<bugID>Issue #1743</bugID>
+			<label>feature request</label>
+			<description>
+		It would be nice to have a statistics tab that shows how many hours of podcasts you have already listened to. Looks like this is quite easy to implement because the info is already in the app's database.
+	</description>
+		</report>
+		<report Number="121">
+			<summary>Add pod.care support</summary>
+			<url>https://github.com/AntennaPod/AntennaPod/issues/1776</url>
+			<bugID>Issue #1776</bugID>
+			<label>feature request</label>
+			<description>
+		Please add pod.care support. This allows to sync the current status of your listened podcasts to pod.care. With that it's also possible to sync between different devices.
+	</description>
+		</report>
+		<report Number="122">
+			<summary>Setting to choose maximum stored episode per subscription</summary>
+			<url>https://github.com/AntennaPod/AntennaPod/issues/1784</url>
+			<bugID>Issue #1784</bugID>
+			<label>feature request</label>
+			<description>
+		I changed from an other podcast app to AntennaPod and I missed one feature. I can setup the maximum number of downloads unter the general settings. But it would be a great feature, if I could setup the maximum number of stored episodes for each subscription separately. I think this option could placed in the context menu of each subscription. And if the maximum is reached, the oldest, not played episode will be deleted. Episodes I've started, but not finished shouldn't count. Example for unplayed episodes: I will have 2 Episodes for Podcast X. I download Episode 001 and after a week 002. One week later Episode 003 is released. AntennaPod should remove Episode 001 and than download 003. Example for played episodes: I will have 2 Episodes for Podcast X. I download Episode 001 and after a week 002. I started (but not finished) Episode 001. One week later Episode 003 is released and should downloaded (becourse Episode 001 is not counting). An other week later Episode 004 is released and AntennaPod should delete Episode 002 and than download 004.
+	</description>
+		</report>
+		<report Number="123">
+			<summary>Provide free version for f-droid builts</summary>
+			<url>https://github.com/AntennaPod/AntennaPod/issues/1959</url>
+			<bugID>Issue #1959</bugID>
+			<label>feature request</label>
+			<description>
+		Hi! Please provide a version, which does not depend on non-free components like google-play services or flattr. Otherwise f-droid cannot build recent versions. Maybe cou could add a f-droid branch.
+	</description>
+		</report>
+		<report Number="124">
+			<summary>Show downloaded episodes in subscription counter</summary>
+			<url>https://github.com/AntennaPod/AntennaPod/issues/2128</url>
+			<bugID>Issue #2128</bugID>
+			<label>feature request</label>
+			<description>
+		See https://groups.google.com/forum/#!topic/antennapod/oIucXvdjruE
+	</description>
+		</report>
+		<report Number="125">
+			<summary>Export subscriptions to HTML</summary>
+			<url>https://github.com/AntennaPod/AntennaPod/issues/2154</url>
+			<bugID>Issue #2154</bugID>
+			<label>feature request</label>
+			<description>
+		Someone sold me exporting to not only OPML, but also HTML as a &quot;killer feature&quot;.
+	</description>
+		</report>
+		<report Number="126">
+			<summary>Add a launch screen</summary>
+			<url>https://github.com/AntennaPod/AntennaPod/issues/2200</url>
+			<bugID>Issue #2200</bugID>
+			<label>feature request</label>
+			<description>
+		Currently when the app starts, we are shown a blank/black screen. A better UX would be to show a branded launch screen to the user based on the material design spec and implemented as shown in below example. This page has the guidelines to do it.
+	</description>
+		</report>
+	</reports>

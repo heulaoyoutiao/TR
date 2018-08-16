@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<reports>
+		<report Number="0">
+			<summary>Add an option to set a start and finish date</summary>
+			<url>https://github.com/AnimeNeko/Atarashii/issues/149</url>
+			<bugID>Issue #149</bugID>
+			<label>Feature Request</label>
+			<description>
+		I read this improvement on Play store : adding an option to set a start and finish date for an anime Thanks
+	</description>
+		</report>
+		<report Number="1">
+			<summary>Widgets</summary>
+			<url>https://github.com/AnimeNeko/Atarashii/issues/189</url>
+			<bugID>Issue #189</bugID>
+			<label>Feature Request</label>
+			<description>
+		It is not very important, but I think it would be good to add Widgets(with anime/manga stats and history, if it is possible with your current api).
+	</description>
+		</report>
+		<report Number="2">
+			<summary>Title Forum Link on MAL</summary>
+			<url>https://github.com/AnimeNeko/Atarashii/issues/371</url>
+			<bugID>Issue #371</bugID>
+			<label>Feature Request</label>
+			<description>
+		When displaying the details for a title on the application using MAL, would it be possible to add a link to the forum for that title? It seems they use the same forum logic as the main series, using the format: hxxp://myanimelist.net/forum/?animeid=[id] Not sure, but this may also require some changes in the API to handle.
+	</description>
+		</report>
+		<report Number="3">
+			<summary>Language Selection</summary>
+			<url>https://github.com/AnimeNeko/Atarashii/issues/398</url>
+			<bugID>Issue #398</bugID>
+			<label>Feature Request</label>
+			<description>
+		It would be nice to offer users a way to override the system language and pick one of the other languages we have translated.
+	</description>
+		</report>
+		<report Number="4">
+			<summary>Automatically filling in the start and end dates.</summary>
+			<url>https://github.com/AnimeNeko/Atarashii/issues/405</url>
+			<bugID>Issue #405</bugID>
+			<label>Feature Request</label>
+			<description>
+		Feature request for Automatically filling in the start and end dates.
+	</description>
+		</report>
+		<report Number="5">
+			<summary>Choose which list an anime/manga will placed after adding</summary>
+			<url>https://github.com/AnimeNeko/Atarashii/issues/409</url>
+			<bugID>Issue #409</bugID>
+			<label>Feature Request</label>
+			<description>
+		A setting that would enable the user to chose on which list the anime goes after its added. For now, it goes to the &quot;watching&quot; list, but i would prefer for it to go to the &quot;plan to watch&quot;. That would be great.
+	</description>
+		</report>
+		<report Number="6">
+			<summary>Can't logging when user signed up with facebook</summary>
+			<url>https://github.com/AnimeNeko/Atarashii/issues/438</url>
+			<bugID>Issue #438</bugID>
+			<label>Feature Request</label>
+			<description>
+		My friend succeed to connect only after he enter a password by the &quot;lost password&quot;. I think the connection work with a cookie from facebook and doesn't use a password. Can we fixed the the logging will handle facebook and so? I believe the same problem exists with twitter and google+ connections too.
+	</description>
+		</report>
+		<report Number="7">
+			<summary>Friends list</summary>
+			<url>https://github.com/AnimeNeko/Atarashii/issues/439</url>
+			<bugID>Issue #439</bugID>
+			<label>Feature Request</label>
+			<description>
+		A friend complained that he can't see his friends' lists. I think this is a really good feature, so I ask for him.
+	</description>
+		</report>
+		<report Number="8">
+			<summary>Display broadcast on in anime detailview</summary>
+			<url>https://github.com/AnimeNeko/Atarashii/issues/477</url>
+			<bugID>Issue #477</bugID>
+			<label>Feature Request</label>
+			<description>
+		Display broadcast information in the detailview - Add schedue in Atarashii Freshdesk issue 26
+	</description>
+		</report>
+		<report Number="9">
+			<summary>Opening and ending songs</summary>
+			<url>https://github.com/AnimeNeko/Atarashii/issues/490</url>
+			<bugID>Issue #490</bugID>
+			<label>Feature Request</label>
+			<description>
+		It would be nice to add this in the app. Once you press on it you will go to google or YouTube where you can listen it :)
+	</description>
+		</report>
+	</reports>

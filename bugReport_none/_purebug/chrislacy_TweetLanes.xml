@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<reports>
+		<report Number="0">
+			<summary>License clarification</summary>
+			<url>https://github.com/chrislacy/TweetLanes/issues/8</url>
+			<bugID>Issue #8</bugID>
+			<label>None yet</label>
+			<description>
+		There seems to be an inconsistency between the notice in LICENSE.md and the Apache License 2.0 § 9, which allows commercial use. Is this a hard prohibition against charging for TweetLanes or more of a suggestion? I have no plans to sell TweetLanes, I'm just hoping to see it in F-Droid :)
+	</description>
+		</report>
+		<report Number="1">
+			<summary>Fail whale when running the app from a build</summary>
+			<url>https://github.com/chrislacy/TweetLanes/issues/28</url>
+			<bugID>Issue #28</bugID>
+			<label>None yet</label>
+			<description>
+		I just built the app and run it in my phone. When I try to login, I get the fail whale. I am not getting it with the app downloaded from the play store. What might be causing the issue? Thanks
+	</description>
+		</report>
+		<report Number="2">
+			<summary>ADN timeline showing Tweets and ADN messages</summary>
+			<url>https://github.com/chrislacy/TweetLanes/issues/34</url>
+			<bugID>Issue #34</bugID>
+			<label>None yet</label>
+			<description>
+		I just installed the beta with ADN support announced here: https://twitter.com/chrismlacy/status/309754532064272384 I have added my App.net user account, which went well. When I view my TL when switched into the ADN account, the TL shows my Twitter tweets mixed (chronologically) with the ADN messages. Other lanes like My posts, Interactions and Global feed are pure ADN messages. TL and @mentions are mixed. Is this intended behavior? If so, then there is a niggle: Twitter avatars not loading when switched into the ADN account. Android 4.1.1 (Yakjuxw) on Galaxy Nexus.
+	</description>
+		</report>
+		<report Number="3">
+			<summary>Twitter URL shorter length</summary>
+			<url>https://github.com/chrislacy/TweetLanes/issues/51</url>
+			<bugID>Issue #51</bugID>
+			<label>None yet</label>
+			<description>
+		The t.co URL shorter length needs to be increased as currently the hard coded values are shorter than the generated URLs returned by twitter causing the characters left count when composing a tweet to be incorrect and post failure notifications when trying to tweet. Current values should be as detailed via the following api call: https://dev.twitter.com/docs/api/1.1/get/help/configuration A short term fix will be to increase the values in the following file https://github.com/chrislacy/TweetLanes/blob/master/android/libraries/SocialNetLib/src/com/twitter/Validator.java - pull request: #50 Long term is to use the api call and use the values returned by the api. Also, to note, there needs to be an additional value for tweets with media, currently twitter returns URLs with 23 characters which is 1 more than the non-HTTPS URLs and the same as HTTPS URLs.
+	</description>
+		</report>
+		<report Number="4">
+			<summary>java.lang.NoClassDefFoundError error for 4.0 users</summary>
+			<url>https://github.com/chrislacy/TweetLanes/issues/83</url>
+			<bugID>Issue #83</bugID>
+			<label>None yet</label>
+			<description>
+		View Crash Report on Crittercism Reported by: None (jason@famularo.org) Status: Resolved in Version: 1.1.2a This Crash occured 4 times for 1 users 0 java.lang.NoClassDefFoundError: android.app.TaskStackBuilder 1 at com.tweetlanes.android.Notifier.notify(Notifier.java:42) 2 at com.tweetlanes.android.view.AlarmReceiver$1.finished(AlarmReceiver.java:74) 3 at org.tweetalib.android.fetch.TwitterFetchStatuses$FetchStatusesTask.onPostExecute(TwitterFetchStatuses.java:612) 4 at org.tweetalib.android.fetch.TwitterFetchStatuses$FetchStatusesTask.onPostExecute(TwitterFetchStatuses.java:278) 5 at org.asynctasktex.AsyncTaskEx.finish(AsyncTaskEx.java:733) 6 at org.asynctasktex.AsyncTaskEx.access$500(AsyncTaskEx.java:233) 7 at org.asynctasktex.AsyncTaskEx$InternalHandler.handleMessage(AsyncTaskEx.java:746) 8 at android.os.Handler.dispatchMessage(Handler.java:99) 9 at android.os.Looper.loop(Looper.java:137) 10 at android.app.ActivityThread.main(ActivityThread.java:4340) 11 at java.lang.reflect.Method.invokeNative(Native Method) 12 at java.lang.reflect.Method.invoke(Method.java:511) 13 at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:784) 14 at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:551) 15 at dalvik.system.NativeStart.main(Native Method)
+	</description>
+		</report>
+		<report Number="5">
+			<summary>Custom Refresh Times</summary>
+			<url>https://github.com/chrislacy/TweetLanes/issues/84</url>
+			<bugID>Issue #84</bugID>
+			<label>None yet</label>
+			<description>
+		Would it be possible to include custom refresh times. It looks like it's hard coded to 15 minutes in here: https://github.com/chrislacy/TweetLanes/blob/master/android/client/src/com/tweetlanes/android/Notifier.java#L76
+	</description>
+		</report>
+		<report Number="6">
+			<summary>Reply All Bug</summary>
+			<url>https://github.com/chrislacy/TweetLanes/issues/87</url>
+			<bugID>Issue #87</bugID>
+			<label>None yet</label>
+			<description>
+		Sometimes when trying to reply to a tweet, only the first persons handle is present.
+	</description>
+		</report>
+		<report Number="7">
+			<summary>URL shortner</summary>
+			<url>https://github.com/chrislacy/TweetLanes/issues/92</url>
+			<bugID>Issue #92</bugID>
+			<label>None yet</label>
+			<description>
+		It would be nice to have some sort of url shortening bit.ly maybe?
+	</description>
+		</report>
+		<report Number="8">
+			<summary>Character Count</summary>
+			<url>https://github.com/chrislacy/TweetLanes/issues/93</url>
+			<bugID>Issue #93</bugID>
+			<label>None yet</label>
+			<description>
+		The number of used characters only shows on replies, not new tweets.
+	</description>
+		</report>
+		<report Number="9">
+			<summary>Possible remove cancel tweet button?</summary>
+			<url>https://github.com/chrislacy/TweetLanes/issues/98</url>
+			<bugID>Issue #98</bugID>
+			<label>None yet</label>
+			<description>
+		The number of times I've accidentally cancelled the tweet when meaning to press send. You can cancel by pressing the back button. What do people think?
+	</description>
+		</report>
+		<report Number="10">
+			<summary>Compose remaining doesn't reset after tweet sent</summary>
+			<url>https://github.com/chrislacy/TweetLanes/issues/103</url>
+			<bugID>Issue #103</bugID>
+			<label>None yet</label>
+			<description>
+		Mainly a note for me to fix. Once tweet sent, remaining characters still says how many for the sent tweet.
+	</description>
+		</report>
+		<report Number="11">
+			<summary>Twitter4J Error</summary>
+			<url>https://github.com/chrislacy/TweetLanes/issues/123</url>
+			<bugID>Issue #123</bugID>
+			<label>None yet</label>
+			<description>
+		Recent testing had a fair few of these. in the twitter4j code looks like an IO exception, but our code isn't very graceful about it. 06-14 14:02:53.969 26458-26817/com.tweetlanes.android.beta E/api-call: null null Relevant discussions can be found on the Internet at: http://www.google.co.jp/search?q=e5488403 or http://www.google.co.jp/search?q=0a410628 TwitterException{exceptionCode=[e5488403-0a410628 6ece33f2-3ddfba9e], statusCode=-1, message=null, code=-1, retryAfter=-1, rateLimitStatus=null, version=3.0.3} at twitter4j.internal.http.HttpClientImpl.request(HttpClientImpl.java:192) at twitter4j.internal.http.HttpClientWrapper.request(HttpClientWrapper.java:61) at twitter4j.internal.http.HttpClientWrapper.get(HttpClientWrapper.java:81) at twitter4j.TwitterImpl.get(TwitterImpl.java:1835) at twitter4j.TwitterImpl.getHomeTimeline(TwitterImpl.java:127) at org.tweetalib.android.fetch.TwitterFetchStatuses$FetchStatusesTask.doInBackground(TwitterFetchStatuses.java:446) at org.tweetalib.android.fetch.TwitterFetchStatuses$FetchStatusesTask.doInBackground(TwitterFetchStatuses.java:278) at org.asynctasktex.AsyncTaskEx$2.call(AsyncTaskEx.java:334) at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:305) at java.util.concurrent.FutureTask.run(FutureTask.java:137) at org.asynctasktex.PriorityExecutor$1.run(PriorityExecutor.java:61) at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1076) at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:569) at java.lang.Thread.run(Thread.java:864) Caused by: java.io.EOFException at libcore.io.Streams.readAsciiLine(Streams.java:203) at libcore.net.http.HttpEngine.readResponseHeaders(HttpEngine.java:560) at libcore.net.http.HttpEngine.readResponse(HttpEngine.java:813) at libcore.net.http.HttpURLConnectionImpl.getResponse(HttpURLConnectionImpl.java:274) at libcore.net.http.HttpURLConnectionImpl.getResponseCode(HttpURLConnectionImpl.java:486) at twitter4j.internal.http.HttpResponseImpl.(HttpResponseImpl.java:34) at twitter4j.internal.http.HttpClientImpl.request(HttpClientImpl.java:156) ... 13 more
+	</description>
+		</report>
+		<report Number="12">
+			<summary>java.lang.NullPointerException when getting maxlength</summary>
+			<url>https://github.com/chrislacy/TweetLanes/issues/148</url>
+			<bugID>Issue #148</bugID>
+			<label>None yet</label>
+			<description>
+		View Crash Report on Crittercism Reported by: None (jason@famularo.org) Status: Resolved in Version: Next Release This Crash occured 0 times for 0 users 0 java.lang.NullPointerException 1 at com.tweetlanes.android.core.view.ComposeBaseFragment.C(ComposeBaseFragment.java:160) 2 at com.tweetlanes.android.core.view.ComposeBaseFragment.d(ComposeBaseFragment.java:489) 3 at ln.afterTextChanged(ComposeBaseFragment.java:296) 4 at android.widget.TextView.sendAfterTextChanged(TextView.java:7247) 5 at android.widget.TextView.setText(TextView.java:3703) 6 at android.widget.TextView.setText(TextView.java:3554) 7 at android.widget.EditText.setText(EditText.java:80) 8 at android.widget.TextView.setText(TextView.java:3529) 9 at com.tweetlanes.android.core.view.ComposeBaseFragment.f(ComposeBaseFragment.java:380) 10 at com.tweetlanes.android.core.view.ComposeTweetFragment.f(ComposeTweetFragment.java:258) 11 at com.tweetlanes.android.core.view.ComposeBaseFragment.a(ComposeBaseFragment.java:228) 12 at lt.finished(ComposeTweetFragment.java:151) 13 at org.tweetalib.android.TwitterFetchStatus$FetchStatusTask.onPostExecute(TwitterFetchStatus.java:376) 14 at org.tweetalib.android.TwitterFetchStatus$FetchStatusTask.onPostExecute(TwitterFetchStatus.java:241) 15 at org.asynctasktex.AsyncTaskEx.finish(AsyncTaskEx.java:733) 16 at org.asynctasktex.AsyncTaskEx.access$500(AsyncTaskEx.java:233) 17 at org.asynctasktex.AsyncTaskEx$InternalHandler.handleMessage(AsyncTaskEx.java:746) 18 at android.os.Handler.dispatchMessage(Handler.java:99) 19 at android.os.Looper.loop(Looper.java:137) 20 at android.app.ActivityThread.main(ActivityThread.java:5041) 21 at java.lang.reflect.Method.invokeNative(Native Method) 22 at java.lang.reflect.Method.invoke(Method.java:511) 23 at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:793) 24 at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:560) 25 at dalvik.system.NativeStart.main(Native Method)
+	</description>
+		</report>
+		<report Number="13">
+			<summary>Remove old/read tweets from Timeline (cache?)</summary>
+			<url>https://github.com/chrislacy/TweetLanes/issues/263</url>
+			<bugID>Issue #263</bugID>
+			<label>None yet</label>
+			<description>
+		So lets say I have 100 unread tweets. As I am reading and catching up and scrolling up the tweets on the very bottom do not get removed automatically.
+	</description>
+		</report>
+		<report Number="14">
+			<summary>Ability to mark old tweets as read</summary>
+			<url>https://github.com/chrislacy/TweetLanes/issues/398</url>
+			<bugID>Issue #398</bugID>
+			<label>None yet</label>
+			<description>
+		When I can't read my stream during day, for example, I get a lot of tweets and I want skip their reading
+	</description>
+		</report>
+		<report Number="15">
+			<summary>Incompatible with Twitter 2-factor</summary>
+			<url>https://github.com/chrislacy/TweetLanes/issues/400</url>
+			<bugID>Issue #400</bugID>
+			<label>None yet</label>
+			<description>
+		I'm struggling to get my Twitter account working in TweetLanes. I can enter my credentials but the screen that then follows is this one: I've generated a temporary password for now.
+	</description>
+		</report>
+		<report Number="16">
+			<summary>can't authorise Tweet Lanes if Login Verification is enabled</summary>
+			<url>https://github.com/chrislacy/TweetLanes/issues/401</url>
+			<bugID>Issue #401</bugID>
+			<label>None yet</label>
+			<description>
+		In the official Android Twitter app, one can enable &quot;Login Verification&quot;, which makes the app pop up a notification you must respond to to approve any new logins. But when I tap the notification – switching from Tweet Lanes to Twitter – Tweet Lanes seems to lose its mind and go back to the front screen, offering me the choice of Twitter and App.net.
+	</description>
+		</report>
+		<report Number="17">
+			<summary>Own keys</summary>
+			<url>https://github.com/chrislacy/TweetLanes/issues/421</url>
+			<bugID>Issue #421</bugID>
+			<label>None yet</label>
+			<description>
+		Hello! I'm currently trying to build Tweet Lanes and want to set my own keys. I also could do that, but setting my own keys did that my app didn't let me log in anymore. Which settings do I have to set in Twitter developers? Thanks Florent1510
+	</description>
+		</report>
+		<report Number="18">
+			<summary>Cannot create new app in Twitter</summary>
+			<url>https://github.com/chrislacy/TweetLanes/issues/424</url>
+			<bugID>Issue #424</bugID>
+			<label>None yet</label>
+			<description>
+		They seem to have a new policy dated May 18th 2015 to need to add mobile phone details? I have added mobile phone details and received text message to say my mobile phone is activated, but clicking 'Create New App' button in https://apps.twitter.com/ still says I need to add phone details? EDIT: Using a previously dummy app to put in place Consumer Keys and Secrets, was able to run this app, but upon launching just got a blank screen on the GenyMotion emulator. Does it also require Twitter Login? as emualator doesnt have Twitter App installed? Status Code 401? 401:Authentication credentials (https://dev.twitter.com/pages/auth) were missing or incorrect. Ensure that you have set valid consumer key/secret, access token/secret, and the system clock is in sync. I did add these values, but it is coming from another project, so my question is whether it matters the name of the project in Android Studio, has to be exactly the same as name inside App.net and Twitter as I took those key/secret from those projects, since Twitter cannot Create New Apps at the moment.
+	</description>
+		</report>
+		<report Number="19">
+			<summary>For UI Testing</summary>
+			<url>https://github.com/chrislacy/TweetLanes/issues/425</url>
+			<bugID>Issue #425</bugID>
+			<label>None yet</label>
+			<description>
+		Any good UI testing framework?
+	</description>
+		</report>
+		<report Number="20">
+			<summary>location of the project.apk file</summary>
+			<url>https://github.com/chrislacy/TweetLanes/issues/426</url>
+			<bugID>Issue #426</bugID>
+			<label>None yet</label>
+			<description>
+		Slightly confused as to where is the location of the generated TweetLanes.apk is?
+	</description>
+		</report>
+		<report Number="21">
+			<summary>What is the difference between client and clientbeta folder?</summary>
+			<url>https://github.com/chrislacy/TweetLanes/issues/427</url>
+			<bugID>Issue #427</bugID>
+			<label>None yet</label>
+			<description>
+		Thanks
+	</description>
+		</report>
+	</reports>

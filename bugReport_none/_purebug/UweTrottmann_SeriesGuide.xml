@@ -1,0 +1,1767 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<reports>
+		<report Number="0">
+			<summary>Auto-Correct time for US Central users</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/1</url>
+			<bugID>Issue #1</bugID>
+			<label>None yet</label>
+			<description>
+		Right now users have to manually set the Time Offset setting to -1. I reworded the option in the latest beta to make it more discoverable, but still, doing it right by magic is way better...
+	</description>
+		</report>
+		<report Number="1">
+			<summary>Design app logo for ActionBar</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/2</url>
+			<bugID>Issue #2</bugID>
+			<label>None yet</label>
+			<description>
+		Especially on Honeycomb this would look way nicer on the show list.
+	</description>
+		</report>
+		<report Number="2">
+			<summary>Per show sorting settings</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/3</url>
+			<bugID>Issue #3</bugID>
+			<label>None yet</label>
+			<description>
+		Store sorting of a shows seasons and episodes with a series row. Respect this setting also in the show list when displaying next episodes (and everywhere else).
+	</description>
+		</report>
+		<report Number="3">
+			<summary>Show trending/own shows from trakt in AddShow</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/4</url>
+			<bugID>Issue #4</bugID>
+			<label>None yet</label>
+			<description>
+		When adding a show initially trending (for non-trakt users) or my own (and not yet added) shows on trakt should be displayed.
+	</description>
+		</report>
+		<report Number="4">
+			<summary>Select which shows to sync with trakt</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/5</url>
+			<bugID>Issue #5</bugID>
+			<label>None yet</label>
+			<description>
+		Allow to only sync certain shows with trakt. Variant 1: popup a checkbox list Variant 2: do it like PrimeTv (see here)
+	</description>
+		</report>
+		<report Number="5">
+			<summary>Accessibility support</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/6</url>
+			<bugID>Issue #6</bugID>
+			<label>None yet</label>
+			<description>
+		Set content descriptions for ImageViews (and action buttons?).
+	</description>
+		</report>
+		<report Number="6">
+			<summary>Explore more options for the app widget</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/7</url>
+			<bugID>Issue #7</bugID>
+			<label>None yet</label>
+			<description>
+		Additional options for displaying recent episodes unseen episodes
+	</description>
+		</report>
+		<report Number="7">
+			<summary>Refine results based on where you search from</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/8</url>
+			<bugID>Issue #8</bugID>
+			<label>None yet</label>
+			<description>
+		When hitting the search button while showing season x of show s, only episodes from show s which are in season x should be shown.
+	</description>
+		</report>
+		<report Number="8">
+			<summary>Delta updates (use thetvdb.com update api)</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/10</url>
+			<bugID>Issue #10</bugID>
+			<label>None yet</label>
+			<description>
+		Update shows like it is suggested in the tvdb API docs. Make sure new episodes get really added. Strategy: maybe only check for updated shows (type=series) and then download info for the whole show to make sure new episodes are added, too. Is a series id listed also when just episodes were updated/new ones added?
+	</description>
+		</report>
+		<report Number="9">
+			<summary>Dismiss Keyboard on Search</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/11</url>
+			<bugID>Issue #11</bugID>
+			<label>None yet</label>
+			<description>
+		Currently neither the layout's search button nor the IME's search button dismiss the keyboard. Doing so provides more room to view results and also enables a single press of the back button to exit the search screen.
+	</description>
+		</report>
+		<report Number="10">
+			<summary>Reintroduce upgrade code from 1.x series</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/15</url>
+			<bugID>Issue #15</bugID>
+			<label>None yet</label>
+			<description>
+		As some users seem to upgrade very sporadically or they have an old backup lying around or they are upgrading from a 1.6 device to a 2.x series supported Android device: put the old upgrade codes into SeriesGuide again, in the end its just a few kilobytes we saved...
+	</description>
+		</report>
+		<report Number="11">
+			<summary>Display message to user on Backup Import fail</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/16</url>
+			<bugID>Issue #16</bugID>
+			<label>None yet</label>
+			<description>
+		Kind of self-explanatory. Display a UI message if the onUpgrade method failed to upgrade and instead started from scratch.
+	</description>
+		</report>
+		<report Number="12">
+			<summary>Add sorting by favorites, then next episode of shows</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/17</url>
+			<bugID>Issue #17</bugID>
+			<label>None yet</label>
+			<description>
+		Currently Favorites first sorts alphabetical second, also add option for next episode.
+	</description>
+		</report>
+		<report Number="13">
+			<summary>Use new trakt-api release</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/18</url>
+			<bugID>Issue #18</bugID>
+			<label>None yet</label>
+			<description>
+		Also modify code to handle the new TraktExceptions.
+	</description>
+		</report>
+		<report Number="14">
+			<summary>[trakt] Further integrate with trakt.tv</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/19</url>
+			<bugID>Issue #19</bugID>
+			<label>None yet</label>
+			<description>
+		Syncing (most pressing: sync episodes for just one show directly from the show list) Allow display of trending shows Ratings Shouts On a side note: figure out where trakt gets their air times from. If the tvdb overhaul doesn't turn out to be fixing the air time time zone issue we might as well switch completely to trakt on the backend (however this would be an extreme measure).
+	</description>
+		</report>
+		<report Number="15">
+			<summary>Make trakt.tv account creation async</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/20</url>
+			<bugID>Issue #20</bugID>
+			<label>None yet</label>
+			<description>
+		There's already a TODO for some time...
+	</description>
+		</report>
+		<report Number="16">
+			<summary>Create an introduction dialog or something similar</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/22</url>
+			<bugID>Issue #22</bugID>
+			<label>None yet</label>
+			<description>
+		Something like a quick usage guide which explains where to add shows, how to update them, etc...
+	</description>
+		</report>
+		<report Number="17">
+			<summary>Use Viewpager when viewing episodes</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/23</url>
+			<bugID>Issue #23</bugID>
+			<label>None yet</label>
+			<description>
+		Use the ViewPager when episodes are displayed inside there own activity (currently only in portrait mode on non-xlarge devices). It worked alright in a prototype but it remains to be seen if this may need improvements on the episode image loading code. A minor bug has already been discovered (the background image does not seem to always load correctly when swiping), so changes to the EpisodeDetailsFragment will likely be necessary.
+	</description>
+		</report>
+		<report Number="18">
+			<summary>Ability to archive shows</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/24</url>
+			<bugID>Issue #24</bugID>
+			<label>None yet</label>
+			<description>
+		User dqdb is working on a fork on a ignore feature which does exactly what we want. However we still need a simple way of telling the user what archiving a show means (its episodes will neither appear in Upcoming nor in search).
+	</description>
+		</report>
+		<report Number="19">
+			<summary>Make the activity screen pretty</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/25</url>
+			<bugID>Issue #25</bugID>
+			<label>None yet</label>
+			<description>
+		Group episodes by day using relative wording, e.g. today, tomorrow, ... This needs extensive testing, maybe even a revision of when episodes appear still in upcoming and not in recent. Also, think about adding show posters. This would require usage of the same lazy adapter as in the main list.
+	</description>
+		</report>
+		<report Number="20">
+			<summary>Layouts on Galaxy Tab 7.0&quot;</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/26</url>
+			<bugID>Issue #26</bugID>
+			<label>None yet</label>
+			<description>
+		AddShow: with portrait orientation text is cut off at the left side (i.e. the beginning of show names isn't visible) Generally all dual pane activities look bad in portrait orientation. Maybe only use them for &quot;xlarge&quot; devices and &quot;large&quot; devices in landscape? An emulator image for the Galaxy Tab is available and can be downloaded using the Android SDK Manager.
+	</description>
+		</report>
+		<report Number="21">
+			<summary>Quick access to TheTVDB from episode/show info page</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/27</url>
+			<bugID>Issue #27</bugID>
+			<label>None yet</label>
+			<description>
+		Allow to easily open the theTVDB page of a shown episode (from episode details view) and of a show from inside the show info page.
+	</description>
+		</report>
+		<report Number="22">
+			<summary>Allow entering trakt credentials in settings</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/31</url>
+			<bugID>Issue #31</bugID>
+			<label>None yet</label>
+			<description>
+		By using SherlockPreferenceActivity it might be possible to get access to the fragment manager and display the trakt credentials DialogFragment.
+	</description>
+		</report>
+		<report Number="23">
+			<summary>Convert to new tvdb update method</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/32</url>
+			<bugID>Issue #32</bugID>
+			<label>None yet</label>
+			<description>
+		http://www.thetvdb.com/wiki/index.php/API:Update_Records However I can not find those files, something still wrong here...
+	</description>
+		</report>
+		<report Number="24">
+			<summary>AutoUpdate should cancel if Wifi is disconnected</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/33</url>
+			<bugID>Issue #33</bugID>
+			<label>None yet</label>
+			<description>
+		If Auto-Update is set to happen on Wi-Fi only it should cancel itself as soon as Wi-Fi gets disabled.
+	</description>
+		</report>
+		<report Number="25">
+			<summary>Don't run AutoUpdate if there is an update in progress</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/35</url>
+			<bugID>Issue #35</bugID>
+			<label>None yet</label>
+			<description>
+		Avoids those 'an update is in progress' messages...
+	</description>
+		</report>
+		<report Number="26">
+			<summary>[trakt] recommendations by show</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/39</url>
+			<bugID>Issue #39</bugID>
+			<label>None yet</label>
+			<description>
+		There is a related shows API call on trakt. Better than nothing? For now I think the general recommendations are better.
+	</description>
+		</report>
+		<report Number="27">
+			<summary>Look at Android Backup Manager code</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/41</url>
+			<bugID>Issue #41</bugID>
+			<label>None yet</label>
+			<description>
+		See that it works for both stable and beta. Maybe upload the whole show database?
+	</description>
+		</report>
+		<report Number="28">
+			<summary>Check notification style for 2.3 and below</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/42</url>
+			<bugID>Issue #42</bugID>
+			<label>None yet</label>
+			<description>
+		Got a report that there's still white text showing...
+	</description>
+		</report>
+		<report Number="29">
+			<summary>Create scrollable widgets for ICS</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/43</url>
+			<bugID>Issue #43</bugID>
+			<label>None yet</label>
+			<description>
+		Maybe for Honeycomb, too, if it doesn't make that much of a difference. More importantly make them resizable, so we only have one default size.
+	</description>
+		</report>
+		<report Number="30">
+			<summary>Figure out how to successfully use proguard</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/46</url>
+			<bugID>Issue #46</bugID>
+			<label>None yet</label>
+			<description>
+		Previous attempts only resulted in non-detailed errors when exporting an apk. Maybe try on Ubuntu, too, as at least the Android pre compiler is broken on Windows.
+	</description>
+		</report>
+		<report Number="31">
+			<summary>Provide 'Seen episodes until this one' option</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/47</url>
+			<bugID>Issue #47</bugID>
+			<label>None yet</label>
+			<description>
+		Genius, why didn't I think of this one?!
+	</description>
+		</report>
+		<report Number="32">
+			<summary>Scrollable Widget Does Not Clear Image</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/48</url>
+			<bugID>Issue #48</bugID>
+			<label>None yet</label>
+			<description>
+		If a show does not have an image then it retains the one from whichever row is being recycled. It should be set to the default image as the main list in the application does.
+	</description>
+		</report>
+		<report Number="33">
+			<summary>Overhaul UI according to Android Design Guidelines</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/49</url>
+			<bugID>Issue #49</bugID>
+			<label>None yet</label>
+			<description>
+		Look at http://developer.android.com/design/index.html and fix some UI and behavior that doesn't go along.
+	</description>
+		</report>
+		<report Number="34">
+			<summary>UI for adding multiple shows at once</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/50</url>
+			<bugID>Issue #50</bugID>
+			<label>None yet</label>
+			<description>
+		So adding multiple shows (e.g. from trakt) is even easier. Think about an option to add all shows from trakt, however this will likely be too risky as it will take too much time (and therefore will probably most of the time fail).
+	</description>
+		</report>
+		<report Number="35">
+			<summary>More intelligent updater</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/51</url>
+			<bugID>Issue #51</bugID>
+			<label>None yet</label>
+			<description>
+		Like: Look if a show aired recently, so we update it to get an episode picture.
+	</description>
+		</report>
+		<report Number="36">
+			<summary>Completely rework how we handle time and dates</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/52</url>
+			<bugID>Issue #52</bugID>
+			<label>None yet</label>
+			<description>
+		Currently the air time is stored with the show, the air date is stored with the episode. This is basically a mirror of how it is done with TVDb. To support notifications, a better update mechanism, better Upcoming/Recent filters we need a way to combine air date and time and make it robust against time zone changes as well as daylight saving time changes.
+	</description>
+		</report>
+		<report Number="37">
+			<summary>Notifications</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/56</url>
+			<bugID>Issue #56</bugID>
+			<label>None yet</label>
+			<description>
+		Support status bar notifications for upcoming episodes. Initial: Enable/Disable Only notify for favorite shows Later: Custom interval Allow enabling notifications per show depends on #52
+	</description>
+		</report>
+		<report Number="38">
+			<summary>Add UI for custom Upcoming limit</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/57</url>
+			<bugID>Issue #57</bugID>
+			<label>None yet</label>
+			<description>
+		Preference is already there and respected by 'Unseen/Upcoming' filter, defaults to 1 (so most users shouldn't worry about it). Define UI which allows meaningful range of selections (a day, three days, a week, two weeks, even a month?).
+	</description>
+		</report>
+		<report Number="39">
+			<summary>Duplicate menu entries in episode list view on rotate</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/60</url>
+			<bugID>Issue #60</bugID>
+			<label>None yet</label>
+			<description>
+		Hi Uwe, i have found another issue in your app in the episode-listview. the Actionbar menu and the menu entries in the bottom(hardwarekey)menu will be duplicated if the device gets rotated multiple times. There are also some issues for debate. And therefore i will not open an new official issue: If i click Watched all, also episodes will and can be marked as watched, that are in the future or there airdate are unknown. Calendar Export: you can export episodes to the calendare that are in the past. And in The Show-Overview you can export to calendar if &quot;no next episode found&quot;. To the 2nd &quot;issue&quot; its also fair to say &quot;keep the menu entries consistent to the user&quot; all the time. regards, David Wiesner 2.5.3beta (dbver 24) Android 2.2
+	</description>
+		</report>
+		<report Number="40">
+			<summary>Allow clearing of trakt credentials</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/64</url>
+			<bugID>Issue #64</bugID>
+			<label>None yet</label>
+			<description>
+		This got removed earlier, bring it back!
+	</description>
+		</report>
+		<report Number="41">
+			<summary>[trakt] Rating of shows</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/68</url>
+			<bugID>Issue #68</bugID>
+			<label>None yet</label>
+			<description>
+		Possibly include UI to display current rating.
+	</description>
+		</report>
+		<report Number="42">
+			<summary>Allow customization of share strings</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/70</url>
+			<bugID>Issue #70</bugID>
+			<label>None yet</label>
+			<description>
+		Toggles for including: episode description IMDb link TVDb link ...
+	</description>
+		</report>
+		<report Number="43">
+			<summary>Additional state for 'have it/collected'</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/71</url>
+			<bugID>Issue #71</bugID>
+			<label>None yet</label>
+			<description>
+		If you already downloaded an episode (e.g. iTunes), so you know what you can actually watch vs. what you have to download first. I don't really see the point if you have high-speed internet. But I experienced iTunes servers being slooooow at times, so there is a point.
+	</description>
+		</report>
+		<report Number="44">
+			<summary>[trakt] support shouts</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/74</url>
+			<bugID>Issue #74</bugID>
+			<label>None yet</label>
+			<description>
+		TODO Ask user when canceling if there is a draft
+	</description>
+		</report>
+		<report Number="45">
+			<summary>[GetGlue] display title of checked-in show</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/75</url>
+			<bugID>Issue #75</bugID>
+			<label>None yet</label>
+			<description>
+		To make it easier to spot incorrect check-ins. I asked them already about alternative solutions (than using the IMDb id), but haven't got an answer in days...
+	</description>
+		</report>
+		<report Number="46">
+			<summary>Allow sharing of a show</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/76</url>
+			<bugID>Issue #76</bugID>
+			<label>None yet</label>
+			<description>
+		No description provided.
+	</description>
+		</report>
+		<report Number="47">
+			<summary>[gh-pages] Change Twitter button URL</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/82</url>
+			<bugID>Issue #82</bugID>
+			<label>None yet</label>
+			<description>
+		No description provided.
+	</description>
+		</report>
+		<report Number="48">
+			<summary>Replace new button bar buttons by CompoundButtons</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/83</url>
+			<bugID>Issue #83</bugID>
+			<label>None yet</label>
+			<description>
+		Better accessibility (screen readers) and spares us a loader refresh.
+	</description>
+		</report>
+		<report Number="49">
+			<summary>[Search] Sort results by show, season and episode</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/87</url>
+			<bugID>Issue #87</bugID>
+			<label>None yet</label>
+			<description>
+		No description provided.
+	</description>
+		</report>
+		<report Number="50">
+			<summary>[trakt] Get collected episodes on Update</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/89</url>
+			<bugID>Issue #89</bugID>
+			<label>None yet</label>
+			<description>
+		Title says it all, activity API supports it, too.
+	</description>
+		</report>
+		<report Number="51">
+			<summary>[trakt] Submit marked episodes from show list</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/90</url>
+			<bugID>Issue #90</bugID>
+			<label>None yet</label>
+			<description>
+		No description provided.
+	</description>
+		</report>
+		<report Number="52">
+			<summary>Add ICS base theme</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/91</url>
+			<bugID>Issue #91</bugID>
+			<label>None yet</label>
+			<description>
+		Just throw in a theme toggle in settings, I'm not really happy with it just yet (yet another setting...).
+	</description>
+		</report>
+		<report Number="53">
+			<summary>Update to ABS 4.0.2</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/93</url>
+			<bugID>Issue #93</bugID>
+			<label>None yet</label>
+			<description>
+		I seem to forget more than usually right now...
+	</description>
+		</report>
+		<report Number="54">
+			<summary>ShowsActivity not changing theme until restart</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/94</url>
+			<bugID>Issue #94</bugID>
+			<label>None yet</label>
+			<description>
+		Possible solution: navigate home, replacing the root activity after setting a theme. However this is a not really user friendly.
+	</description>
+		</report>
+		<report Number="55">
+			<summary>Make the Wi-Fi only setting global</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/96</url>
+			<bugID>Issue #96</bugID>
+			<label>None yet</label>
+			<description>
+		Do not just use it for Updating, also apply it to episode image loading, trakt ratings loading, ... Rename it to 'Use Wi-Fi only'
+	</description>
+		</report>
+		<report Number="56">
+			<summary>[Platforms] Try to support Blackberry</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/97</url>
+			<bugID>Issue #97</bugID>
+			<label>None yet</label>
+			<description>
+		https://bdsc.webapps.blackberry.com/android/ Got approved for Appworld, if I have time I will try to upload the newest SeriesGuide X release.
+	</description>
+		</report>
+		<report Number="57">
+			<summary>Update to ABS 4.1.0</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/99</url>
+			<bugID>Issue #99</bugID>
+			<label>None yet</label>
+			<description>
+		No description provided.
+	</description>
+		</report>
+		<report Number="58">
+			<summary>Expand 'no special episodes' to activity/widget</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/102</url>
+			<bugID>Issue #102</bugID>
+			<label>None yet</label>
+			<description>
+		Feels like this setting should apply there, too. Let'st think about it.
+	</description>
+		</report>
+		<report Number="59">
+			<summary>TitleProvider</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/104</url>
+			<bugID>Issue #104</bugID>
+			<label>None yet</label>
+			<description>
+		The latest version of ViewPagerIndicator doesn have the class com.viewpagerindicator.TitleProvider please review
+	</description>
+		</report>
+		<report Number="60">
+			<summary>AutoUpdate actively displayed shows more often</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/106</url>
+			<bugID>Issue #106</bugID>
+			<label>None yet</label>
+			<description>
+		When entering a shows overview screen or any episode detail screen we should check if that show has been updated in the last 24 hours (make that a little less as users won't check exactly every 24+ hours). If not, we'll update it in the background potentially leading to destruction and chaos. Ok, rather super-class the hosting activities than the fragments. If not each EpisodeDetailsFragment would try to start an update, that seems like too much background noise.
+	</description>
+		</report>
+		<report Number="61">
+			<summary>Display empty message in check in screen</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/107</url>
+			<bugID>Issue #107</bugID>
+			<label>None yet</label>
+			<description>
+		Usability!
+	</description>
+		</report>
+		<report Number="62">
+			<summary>[notifications] Test if screen is turned on while device is asleep</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/108</url>
+			<bugID>Issue #108</bugID>
+			<label>None yet</label>
+			<description>
+		No description provided.
+	</description>
+		</report>
+		<report Number="63">
+			<summary>More options for upcoming shows threshold</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/109</url>
+			<bugID>Issue #109</bugID>
+			<label>None yet</label>
+			<description>
+		Provide options for 0 days, 1day, etc...
+	</description>
+		</report>
+		<report Number="64">
+			<summary>Investigate using Otto to do pre-calcing of counters, etc.</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/111</url>
+			<bugID>Issue #111</bugID>
+			<label>None yet</label>
+			<description>
+		http://square.github.com/otto/ If episodes get marked recalculate remaining episode counters right away, potentially update next episode. Dismissed previously because it isn't worth the effort, as in most cases the calculation has to be done anyhow. However if really every event which would trigger a calculation is covered (which is done more easily with an event bus) there would be a lot of potential for speed ups by not having to run a lot of background threads to update UI state. Show list next episode (goal: update only single shows as needed): After any updates to a single show (TVDb and trakt): episode or just description can change Potentially if marking an episode watched/unwatched anywhere Season watch counters (goal: update only single season counters as needed): If marking an episode watched/unwatched anywhere After any updates to that show (TVDb and trakt sync) How granular should we go? Only tell that a part of a show, a season or even an episode was updated?
+	</description>
+		</report>
+		<report Number="65">
+			<summary>Add IMDb link for episodes</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/115</url>
+			<bugID>Issue #115</bugID>
+			<label>None yet</label>
+			<description>
+		Also use that link for sharing.
+	</description>
+		</report>
+		<report Number="66">
+			<summary>Delete shows faster</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/116</url>
+			<bugID>Issue #116</bugID>
+			<label>None yet</label>
+			<description>
+		...at least as the user is perceiving: Delete the show entry first to make the show disappear from the show list. Continue deleting in the background. Check for potential conflicts with update task (should be fine once the show tuple is gone), etc...
+	</description>
+		</report>
+		<report Number="67">
+			<summary>Make next episode the one after latest watched</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/117</url>
+			<bugID>Issue #117</bugID>
+			<label>None yet</label>
+			<description>
+		This is a much more clever behavior and useful behavior. Let's try and see what users think. 'latest watched' means the one with the highest number.
+	</description>
+		</report>
+		<report Number="68">
+			<summary>Widget Title not changing properly</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/118</url>
+			<bugID>Issue #118</bugID>
+			<label>None yet</label>
+			<description>
+		Changing the widget view mode to Recent is a great feature. Unfortunatly the widget title always says &quot;Upcoming&quot;. Tested on v2.7x and on current beta version from play store. http://goo.gl/Er4sy http://goo.gl/V6qqG Device: Galaxy Note, Android 4.0.4, Custom Rom Great app, keep up the good work!
+	</description>
+		</report>
+		<report Number="69">
+			<summary>[trakt] API call returns failure: bad user</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/119</url>
+			<bugID>Issue #119</bugID>
+			<label>None yet</label>
+			<description>
+		Up until now there are multiple people (I know of) experiencing this problem. The trakt API just returns {&quot;status&quot;:&quot;failure&quot;,&quot;error&quot;:&quot;bad user&quot;}
+ despite users being able to login on trakt.tv. The trakt guys don't seem to really know what's going on there, so this can be seen as a notice for future incidents. If you experience problems when interacting with any trakt part of SeriesGuide (connecting an account, syncing, etc.), please log debug output (e.g. with CatLog) while you repeat the failing action multiple times. Look through the logs for any TraktException or the string above. If you confirmed your problem is the above, it would help if you could drop your trakt user name to support@seriesgui.de so we can maybe at some point establish a pattern. If not file a new issue or just drop a mail.
+	</description>
+		</report>
+		<report Number="70">
+			<summary>[Social] Link to Twitter search for realtime engagement</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/123</url>
+			<bugID>Issue #123</bugID>
+			<label>None yet</label>
+			<description>
+		Maybe even integrate tweets, though if possible link to the app/web interface and let it do a search. Low priority!
+	</description>
+		</report>
+		<report Number="71">
+			<summary>Add lower resolution first run background</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/128</url>
+			<bugID>Issue #128</bugID>
+			<label>None yet</label>
+			<description>
+		Small screen devices distort the background (as fitXY is used), provide a smaller resolution one.
+	</description>
+		</report>
+		<report Number="72">
+			<summary>[trakt] Fetch collected flags when adding show</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/129</url>
+			<bugID>Issue #129</bugID>
+			<label>None yet</label>
+			<description>
+		No description provided.
+	</description>
+		</report>
+		<report Number="73">
+			<summary>Display last edit time on theTVDb.com</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/131</url>
+			<bugID>Issue #131</bugID>
+			<label>None yet</label>
+			<description>
+		Fields already added and populated, just need to modify layouts and use them.
+	</description>
+		</report>
+		<report Number="74">
+			<summary>Highlighting/selection issue when changing episode sort order</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/134</url>
+			<bugID>Issue #134</bugID>
+			<label>None yet</label>
+			<description>
+		In the episode list view when changing the episode sort order (for example from &quot;Newest first&quot; to &quot;Unseen first&quot;) and then selecting (unseen) episodes, some random entry from the list is selected/highlighted. Here's a video of the issue: https://dl.dropbox.com/u/3019170/seriesguide_bug.mkv Device: Nexus 7, portrait mode SeriesGuide version: 2.8.1
+	</description>
+		</report>
+		<report Number="75">
+			<summary>Support all needed offsets for Time Offset setting</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/138</url>
+			<bugID>Issue #138</bugID>
+			<label>None yet</label>
+			<description>
+		Calculate from Pacific Time back and forward to date border to come up with useful values. Pacific GMT-8 (no DST) Farthest East: GMT+12 Farthest West: GMT-11 Needed max. offset values: +21 -4
+	</description>
+		</report>
+		<report Number="76">
+			<summary>[Suggestion] Check-In State Indicator</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/145</url>
+			<bugID>Issue #145</bugID>
+			<label>None yet</label>
+			<description>
+		Just another idea to help indicate which show you're currently checked into, assuming it's possible to get your checked-in state (which I'm guessing it is since I've seen the timer saying you have so and so much time left before you can check in again). Basically, the check in button is it's original gray color, and once you're checked into a show, it becomes the newer purple color, and the label changes from &quot;Check In&quot; to &quot;Checked In&quot;. Screenshot Mockup
+	</description>
+		</report>
+		<report Number="77">
+			<summary>Remember selected activity tab</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/146</url>
+			<bugID>Issue #146</bugID>
+			<label>None yet</label>
+			<description>
+		No description provided.
+	</description>
+		</report>
+		<report Number="78">
+			<summary>Toast Non-Action Bar Action Descriptions</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/147</url>
+			<bugID>Issue #147</bugID>
+			<label>None yet</label>
+			<description>
+		On long press, the action bar toasts the title of actions to provide transparency to their actions. This is of great use when the icon is ambiguous. I think this would be a great feature to add to the actions on the episode page: to work like this:
+	</description>
+		</report>
+		<report Number="79">
+			<summary>Update to ABS 4.2.0</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/148</url>
+			<bugID>Issue #148</bugID>
+			<label>None yet</label>
+			<description>
+		There are some changes requiring some changes and testing.
+	</description>
+		</report>
+		<report Number="80">
+			<summary>Widget text on Nexus 7 seems rather small.</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/152</url>
+			<bugID>Issue #152</bugID>
+			<label>None yet</label>
+			<description>
+		No description provided.
+	</description>
+		</report>
+		<report Number="81">
+			<summary>Light theme</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/153</url>
+			<bugID>Issue #153</bugID>
+			<label>None yet</label>
+			<description>
+		We provide the fallback ICS Holo theme already, so add a light one, too?
+	</description>
+		</report>
+		<report Number="82">
+			<summary>Show list: differentiate future episodes from past episodes</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/162</url>
+			<bugID>Issue #162</bugID>
+			<label>None yet</label>
+			<description>
+		Right now you have to look closely if a show has a past, unseen episode or a yet to air episode. Use color or indicators to improve visual discovery!
+	</description>
+		</report>
+		<report Number="83">
+			<summary>Add xxhdpi launcher icon</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/174</url>
+			<bugID>Issue #174</bugID>
+			<label>None yet</label>
+			<description>
+		144*144px icon in the drawable-xxhdpi or drawable-480dpi folder See https://plus.google.com/118292708268361843293/posts/ePQya3KsTjW
+	</description>
+		</report>
+		<report Number="84">
+			<summary>Clean up text files (market description, credits, ...)</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/179</url>
+			<bugID>Issue #179</bugID>
+			<label>None yet</label>
+			<description>
+		No description provided.
+	</description>
+		</report>
+		<report Number="85">
+			<summary>Update widget screenshots</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/181</url>
+			<bugID>Issue #181</bugID>
+			<label>None yet</label>
+			<description>
+		No description provided.
+	</description>
+		</report>
+		<report Number="86">
+			<summary>TV shows recommendations</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/186</url>
+			<bugID>Issue #186</bugID>
+			<label>None yet</label>
+			<description>
+		Hi, I read the feature requests that deal with recommendations, and it seems, recommendations will not be implemented in SeriesGuide to avoid bloating. Still though, I came to rely on SeriesGuide when it comes to what is on currently/recently/coming up and I visit trakt.tv rarely (read, never), so I could be missing something. My suggestion for manageable recommendation list would be to show whatever the list initially is on trakt.tv, for each item have an add/ignore choices, so that user can clean up the list manually. If the user is not interested in cleaning up the list, then also 'have a 30-days old recommendations are cleared automatically' policy to clean up the list on the device to avoid bloating. There could be an optional notification, when new recommendations arrive in the list. Does it sound reasonable enough?
+	</description>
+		</report>
+		<report Number="87">
+			<summary>Lists: make sure removal of shows/episodes is working as expected</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/198</url>
+			<bugID>Issue #198</bugID>
+			<label>None yet</label>
+			<description>
+		No description provided.
+	</description>
+		</report>
+		<report Number="88">
+			<summary>Missing shows in &quot;Unseen/Upcoming&quot; view</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/204</url>
+			<bugID>Issue #204</bugID>
+			<label>None yet</label>
+			<description>
+		In the &quot;Unseen/Upcoming&quot; view, if the last aired episode has been marked watched, the show disapears from this view. For me this is a little missleading, I thought this filter or view would display all shows, which have unseen episodes. But I can also understand the purpose, for example if someone step into a show later and don't want to watch all past episodes. Maybe its posible to add a per show setting to control this or a complete different view.
+	</description>
+		</report>
+		<report Number="89">
+			<summary>Find a new home for APK downloads</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/208</url>
+			<bugID>Issue #208</bugID>
+			<label>None yet</label>
+			<description>
+		So GitHub did deprecate file uploads...
+	</description>
+		</report>
+		<report Number="90">
+			<summary>Odd Backstack Coming From Widget</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/209</url>
+			<bugID>Issue #209</bugID>
+			<label>None yet</label>
+			<description>
+		Click &quot;upcoming&quot; from the widget, click &quot;up&quot; to open the side-menu, click &quot;shows&quot;, press back. I would expect the app to exit since everything in the side-menu is on the same hierarchical navigation level but it returns to the &quot;upcoming&quot; screen.
+	</description>
+		</report>
+		<report Number="91">
+			<summary>Movie check-ins</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/214</url>
+			<bugID>Issue #214</bugID>
+			<label>None yet</label>
+			<description>
+		Search on TheMovieDB.org Display rich results with posters (use servers as returned by configuration API end point) Support check-in with trakt and GetGlue Movie details page with ability to check in, watch trailers, see description and ratings Enable canceling of movie check-ins.
+	</description>
+		</report>
+		<report Number="92">
+			<summary>Shipping v3</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/219</url>
+			<bugID>Issue #219</bugID>
+			<label>None yet</label>
+			<description>
+		Update translations Modify manifests Run basic tests on all platforms Link to community from app Link to feature suggestion page from app Prepare new BB variant
+	</description>
+		</report>
+		<report Number="93">
+			<summary>DropDownMenu does not affect content in ShowsActivity</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/220</url>
+			<bugID>Issue #220</bugID>
+			<label>None yet</label>
+			<description>
+		Steps to reproduce: Open ShowsActivity rotate device select e.g.: Favorites in dropdownmenu The problem is that the field mFragment is not set if savedInstanceState is not null (e.g.: after rotating the device). To solve this problem, you can set the field mFragment, on every time the ShowsFragment is attached to the FragmentActivity by override onAttachFragment in ShowsActivity @Override
+public void onAttachFragment (Fragment fragment) {
+    if(fragment instanceof ShowsFragment){
+        mFragment=fragment;
+    }
+} or add another elseif clause in the onCreate regards, David
+	</description>
+		</report>
+		<report Number="94">
+			<summary>Add 'Check-in' Notification Action</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/224</url>
+			<bugID>Issue #224</bugID>
+			<label>None yet</label>
+			<description>
+		Using a translucent activity without leaving the current task stack so I can do this from &quot;within&quot; any application.
+	</description>
+		</report>
+		<report Number="95">
+			<summary>Switch to menu drawer or else</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/226</url>
+			<bugID>Issue #226</bugID>
+			<label>None yet</label>
+			<description>
+		Switch to menu drawer or update sliding menu. Also try to improve overdraw issues since adding the sliding menu (notably in the episode pager).
+	</description>
+		</report>
+		<report Number="96">
+			<summary>[Investigate] List next episode not getting updated</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/229</url>
+			<bugID>Issue #229</bugID>
+			<label>None yet</label>
+			<description>
+		No description provided.
+	</description>
+		</report>
+		<report Number="97">
+			<summary>Update trakt API with latest changes (comments)</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/230</url>
+			<bugID>Issue #230</bugID>
+			<label>None yet</label>
+			<description>
+		No description provided.
+	</description>
+		</report>
+		<report Number="98">
+			<summary>Add all possible plurals to plural terms</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/231</url>
+			<bugID>Issue #231</bugID>
+			<label>None yet</label>
+			<description>
+		This works around crowdins inability to handle those per language.
+	</description>
+		</report>
+		<report Number="99">
+			<summary>Update all graphic assets</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/232</url>
+			<bugID>Issue #232</bugID>
+			<label>None yet</label>
+			<description>
+		Screenshots on the store, video, social media sites.
+	</description>
+		</report>
+		<report Number="100">
+			<summary>Review Nexus 7/7in layouts</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/234</url>
+			<bugID>Issue #234</bugID>
+			<label>None yet</label>
+			<description>
+		A user reported some odd layouts. Let's investigate.
+	</description>
+		</report>
+		<report Number="101">
+			<summary>Support 'Manage lists' on list items</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/236</url>
+			<bugID>Issue #236</bugID>
+			<label>None yet</label>
+			<description>
+		Duh!
+	</description>
+		</report>
+		<report Number="102">
+			<summary>Improve error handling of SimpleCrypto</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/239</url>
+			<bugID>Issue #239</bugID>
+			<label>None yet</label>
+			<description>
+		Right now if something goes wrong we just give up. Create a new keystore if the old one could not be loaded. Handle more exceptions.
+	</description>
+		</report>
+		<report Number="103">
+			<summary>Update Analytics SDK to 2.0 beta 5</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/240</url>
+			<bugID>Issue #240</bugID>
+			<label>None yet</label>
+			<description>
+		https://developers.google.com/analytics/devguides/collection/android/resources
+	</description>
+		</report>
+		<report Number="104">
+			<summary>Crash when rotating device on show overview</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/242</url>
+			<bugID>Issue #242</bugID>
+			<label>None yet</label>
+			<description>
+		On the latest beta (v5beta4), when I rotate my device from portrait to landscape on any show overview, the app crashes and restarts. Rotation from landscape to portait looks fine though. I've got, by looking at the report, a NullPointerException on class ShowInfoFragment, method onPopulateShowData, line 146.
+	</description>
+		</report>
+		<report Number="105">
+			<summary>TWEAK: Activity only shows episodes at most one month into the future/past. WHY?</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/243</url>
+			<bugID>Issue #243</bugID>
+			<label>None yet</label>
+			<description>
+		Why? Can you please make this changeable with a setting? Now I can not see my older unwatched episodes. This &quot;TWEAK&quot; really wasn't cool!
+	</description>
+		</report>
+		<report Number="106">
+			<summary>TWEAK Episodes in Activity are now grouped by day.</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/244</url>
+			<bugID>Issue #244</bugID>
+			<label>None yet</label>
+			<description>
+		This takes up too much space. It was better without this and it would also be nice if there was a setting to switch this on or off.
+	</description>
+		</report>
+		<report Number="107">
+			<summary>episode list display corruption</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/245</url>
+			<bugID>Issue #245</bugID>
+			<label>None yet</label>
+			<description>
+		Sometimes, when scrolling the episode list a fragment of this list is drawn over another. The list becomes unreadable and cannot be scrolled any more. Here's a screenshot that says it all: I'm using the SeriesGuide v4.1 on a Galaxy Tab 8.9 (Android 4.0.4).
+	</description>
+		</report>
+		<report Number="108">
+			<summary>Activity - Episode date underline too strong (Android Dark)</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/247</url>
+			<bugID>Issue #247</bugID>
+			<label>None yet</label>
+			<description>
+		Under &quot;Activity&quot;, the bright Android blue used for the episode date underline is really distracting. I'd personally suggest just using a dark/light grey which would be a lot easier on the eyes. Thanks for the great app!
+	</description>
+		</report>
+		<report Number="109">
+			<summary>Provide better translation support</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/248</url>
+			<bugID>Issue #248</bugID>
+			<label>None yet</label>
+			<description>
+		For example allow to specify where a number appears inside a string, e.g. use 'Season %s' instead of just 'Season'
+'Episode %s'
+...
+ and insert the number into the variable string at the appropriate code line.
+	</description>
+		</report>
+		<report Number="110">
+			<summary>Add ... menu on movies, optimize layout</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/250</url>
+			<bugID>Issue #250</bugID>
+			<label>None yet</label>
+			<description>
+		Supply ... menu: Add to watchlist, possibly check-in. Taking the Play Store movie grid as guidance: Shrink poster sizes, optimize, decrease font size on phones Change paddings and margins, decrease font size on tablets
+	</description>
+		</report>
+		<report Number="111">
+			<summary>Revamp overview layout on tablets</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/251</url>
+			<bugID>Issue #251</bugID>
+			<label>None yet</label>
+			<description>
+		Introducing a three pane layout. Change to 3-pane layout, test on 7-inch and 10-inch devices. Customize overview fragment. Relayout and customize show info fragment. Move more information next to the poster, break it up into more lines
+	</description>
+		</report>
+		<report Number="112">
+			<summary>Speed up sticky list headers</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/252</url>
+			<bugID>Issue #252</bugID>
+			<label>None yet</label>
+			<description>
+		Update to latest version Use base adapter, optimize code to determine headers
+	</description>
+		</report>
+		<report Number="113">
+			<summary>Add time range filter setting to activity screens</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/253</url>
+			<bugID>Issue #253</bugID>
+			<label>None yet</label>
+			<description>
+		Allow selection of some basic thresholds, e.g. week, 2 weeks, month, unlimited.
+	</description>
+		</report>
+		<report Number="114">
+			<summary>Add light variant for check-in icon on activity items</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/254</url>
+			<bugID>Issue #254</bugID>
+			<label>None yet</label>
+			<description>
+		Add attribute like for stars.
+	</description>
+		</report>
+		<report Number="115">
+			<summary>Make auto-refresh of comments optional or remove it</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/255</url>
+			<bugID>Issue #255</bugID>
+			<label>None yet</label>
+			<description>
+		No description provided.
+	</description>
+		</report>
+		<report Number="116">
+			<summary>Make widget update interval adjustable</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/256</url>
+			<bugID>Issue #256</bugID>
+			<label>None yet</label>
+			<description>
+		Currently widgets are updated roughly every 5 minutes when the device is awake (REPETITION_INTERVAL = 5 * DateUtils.MINUTE_IN_MILLIS). Granted, at least the update is not performed when the device is asleep, but I find the 5 minutes interval unreasonable short considering that series times usually don't change at all during the day. Hence it would be nice if the widget update interval was customizable, or at least if the current 5 minutes interval could be reduced to a longer interval.
+	</description>
+		</report>
+		<report Number="117">
+			<summary>Move to one app version</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/258</url>
+			<bugID>Issue #258</bugID>
+			<label>None yet</label>
+			<description>
+		Development has started in the one-app branch. Use in-app billing to enable SeriesGuide X features, deprecate and make current X version a key to unlock X features. Implement in-app billing. Add library, basic purchasing activity Include and construct app key Create and verify developer payload Query existing purchases on app launch/resume Extract string resources Refine layout (e.g. progress bar) Remove in-app-billing debug messages X migration Purchased upgrade unlocks X features. Beta and X will unlock without purchase. Build SeriesGuide X update which notifies users, helps to move database. Use alpha and beta testing in the Android Developers Console to do beta testing. User can sign up for it, which will also hopefully lead to more feedback. Postponed
+	</description>
+		</report>
+		<report Number="118">
+			<summary>Update android-menudrawer to 2.0.2</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/259</url>
+			<bugID>Issue #259</bugID>
+			<label>None yet</label>
+			<description>
+		No description provided.
+	</description>
+		</report>
+		<report Number="119">
+			<summary>Switch to SyncAdapter for updating</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/260</url>
+			<bugID>Issue #260</bugID>
+			<label>None yet</label>
+			<description>
+		Developement has started in syncadapter branch. Set up a SyncAdapter, make sure onPerformSync is called Actually implement onPerformSync Add config files for all app variants (using separate accounts, same account is causing issues) Tie auto-udpate setting into en-/disabling SyncAdapter sync
+	</description>
+		</report>
+		<report Number="120">
+			<summary>Show actual progress while backing up</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/262</url>
+			<bugID>Issue #262</bugID>
+			<label>None yet</label>
+			<description>
+		Use the progress bar!
+	</description>
+		</report>
+		<report Number="121">
+			<summary>StickyGridHeaders is now available in Maven as a jar lib so you do not need to fork.</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/263</url>
+			<bugID>Issue #263</bugID>
+			<label>None yet</label>
+			<description>
+		No description provided.
+	</description>
+		</report>
+		<report Number="122">
+			<summary>Settings up button bug</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/264</url>
+			<bugID>Issue #264</bugID>
+			<label>None yet</label>
+			<description>
+		There seems to be a small bug with the up button in the settings. When you are in a level 2 settings screen, it returns to level 0 instead of 1. Example: I am here: Start -&gt; Settings -&gt; Services When I press the up button now, it goes back to Start instead of Settings. It seems to be working fine in the rest of the app.
+	</description>
+		</report>
+		<report Number="123">
+			<summary>App crashing on Activity &quot;recent&quot; tab</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/267</url>
+			<bugID>Issue #267</bugID>
+			<label>None yet</label>
+			<description>
+		On the last few beta versions whenever the &quot;recent&quot; list in the Activity page goes blank the app will crash. I get this on both my nexus 7 and nexus 4 which are both running stock android 4.2.2 straight from google. I have also sent about 6 crash reports from directly in the app so I kind of hope you got them Its pretty simple to replicate all you have to do is switch to that section and clear everything in it here is a video of me making it crash on my nexus 7 (sorry about portrait mode) https://www.youtube.com/watch?v=eX8Q67_e8Ho
+	</description>
+		</report>
+		<report Number="124">
+			<summary>Make Sync account removable again</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/268</url>
+			<bugID>Issue #268</bugID>
+			<label>None yet</label>
+			<description>
+		Test if SeriesGuide will properly re-add it when starting up again, if not make it so.
+	</description>
+		</report>
+		<report Number="125">
+			<summary>Pullout pane should not move Action Bar</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/272</url>
+			<bugID>Issue #272</bugID>
+			<label>None yet</label>
+			<description>
+		Following Android design guidelines, the pullout pane should only move within the content area of the app. The Action Bar(s) should stay in place.
+	</description>
+		</report>
+		<report Number="126">
+			<summary>some watched episodes still show up in the widget</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/274</url>
+			<bugID>Issue #274</bugID>
+			<label>None yet</label>
+			<description>
+		configure list widget to show past episodes but exclude watched ones. some older watched episodes still show up. toggling the watched flag doesn't help. niether does export/import . problem only exists in the widget, app is fine
+	</description>
+		</report>
+		<report Number="127">
+			<summary>Display progress bar if sync is active</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/275</url>
+			<bugID>Issue #275</bugID>
+			<label>None yet</label>
+			<description>
+		See http://stackoverflow.com/questions/12914941/syncadapter-running-animation-how-to-know-if-syncadapter-is-actively-synchroni for an example. Try to improve upon it. Only show this for user-triggered updates.
+	</description>
+		</report>
+		<report Number="128">
+			<summary>Use new minimal activity trakt API call</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/276</url>
+			<bugID>Issue #276</bugID>
+			<label>None yet</label>
+			<description>
+		http://trakt.tv/api-docs/activity-user http://support.trakt.tv/knowledgebase/articles/151380-api-changelog
+	</description>
+		</report>
+		<report Number="129">
+			<summary>Actions don't always hide when drawer is open</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/292</url>
+			<bugID>Issue #292</bugID>
+			<label>None yet</label>
+			<description>
+		Might be related to #279. When the drawer is opened, the actions don't always hide. This seems to happen in the overview screen for series (screenshot 2). Using the latest beta (updated today).
+	</description>
+		</report>
+		<report Number="130">
+			<summary>Add a 'Restore Auto-Backup' button to backup tool</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/305</url>
+			<bugID>Issue #305</bugID>
+			<label>None yet</label>
+			<description>
+		Makes auto-backups more useful without the hassle of having to move them manually.
+	</description>
+		</report>
+		<report Number="131">
+			<summary>Move episode search and home screen shortcuts to activity</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/311</url>
+			<bugID>Issue #311</bugID>
+			<label>None yet</label>
+			<description>
+		Make them available in all fragments in OverviewActivity this way.
+	</description>
+		</report>
+		<report Number="132">
+			<summary>Update DashClock API 2</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/312</url>
+			<bugID>Issue #312</bugID>
+			<label>None yet</label>
+			<description>
+		See if there is anything new we can leverage. https://code.google.com/p/dashclock/wiki/API
+	</description>
+		</report>
+		<report Number="133">
+			<summary>Visual artifact: Fast scroll appearing on the left side</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/316</url>
+			<bugID>Issue #316</bugID>
+			<label>None yet</label>
+			<description>
+		This one is pretty weird, never seen it before. I think it has to do with the SGH lib, but I'm not sure in what way right now. I only think so because it doesn't show up when you have infinite scrolling turned on and therefore no SGH. You can't actually grab it, but if you grab the right side, while the left one is still visible, both will drag. To reproduce: Go the Activity (make sure infinite scrolling is turned off) Quickly scroll down, when you hit the bottom you'll see it occur Screenshot
+	</description>
+		</report>
+		<report Number="134">
+			<summary>Integrate new GetGlue v3 API</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/324</url>
+			<bugID>Issue #324</bugID>
+			<label>None yet</label>
+			<description>
+		Currently in beta at http://developer.getglue.com/. Create new project in the likes of trakt-java and tmdb-java, but based on square/retrofit right from the beginning.
+	</description>
+		</report>
+		<report Number="135">
+			<summary>Counter does not make sense sometimes</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/330</url>
+			<bugID>Issue #330</bugID>
+			<label>None yet</label>
+			<description>
+		For some reason this is happening only on &quot;special episodes&quot;. I've watched 1 out of 46 special episodes, but the indication is &quot;7 episodes not watched&quot; (See attached image)
+	</description>
+		</report>
+		<report Number="136">
+			<summary>KitKat checklist</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/333</url>
+			<bugID>Issue #333</bugID>
+			<label>None yet</label>
+			<description>
+		Build with against API level 19 with build tools v19, up language level to 1.7. Check GetGlue authentication with new WebView. Set exact alarms for notifications (AlarmManager) Sources: http://developer.android.com/about/versions/android-4.4.html http://tools.android.com/recent/androidstudio032released
+	</description>
+		</report>
+		<report Number="137">
+			<summary>Update progress bar should replace the divider, not add to it</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/335</url>
+			<bugID>Issue #335</bugID>
+			<label>None yet</label>
+			<description>
+		While I appreciate the switch in v9 beta, which moved the update progress bar below action bar, now it looks awkward (at least with the Android Dark theme), because the divider is there all the time and when update is in progress, it just adds right below it, making the line two times that thick, (moreover, the divider stays intact and the progress bar animates, which looks weird, given they both have the same color in the mentioned theme). It would look much cleaner if the divider was replaced by the progress bar during update - the line would stay the same thick and the animation would look much better.
+	</description>
+		</report>
+		<report Number="138">
+			<summary>Trakt Username Should Not Show IME Suggestions</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/337</url>
+			<bugID>Issue #337</bugID>
+			<label>None yet</label>
+			<description>
+		Input type textNoSuggestions, if memory serves.
+	</description>
+		</report>
+		<report Number="139">
+			<summary>support TVRage</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/342</url>
+			<bugID>Issue #342</bugID>
+			<label>None yet</label>
+			<description>
+		at least as airtime provider for foreign countries. API could be found here: http://services.tvrage.com
+	</description>
+		</report>
+		<report Number="140">
+			<summary>Update EventBus to 2.1.0</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/344</url>
+			<bugID>Issue #344</bugID>
+			<label>None yet</label>
+			<description>
+		Get latest release which fixes some event delivery issues. https://github.com/greenrobot/EventBus
+	</description>
+		</report>
+		<report Number="141">
+			<summary>Series Not Available</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/348</url>
+			<bugID>Issue #348</bugID>
+			<label>None yet</label>
+			<description>
+		I'm looking to add &quot;Twisted&quot; (2013), which runs on ABC Family. The series is listed at TheTVDB.com, but is not available (with search) on SeriesGuide.
+	</description>
+		</report>
+		<report Number="142">
+			<summary>Option to remove movie from watchlist or add it from details activity</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/357</url>
+			<bugID>Issue #357</bugID>
+			<label>None yet</label>
+			<description>
+		There is no way to remove movie from watchlist or add it from movie details activity. Right now this option exists only in lists. This is not very convenient if user decides to do one of these actions after viewing details about a movie. He'll have to go back to list, find item, open context menu, and click on a button. It would be nice to have them in details activity.
+	</description>
+		</report>
+		<report Number="143">
+			<summary>Display only unaired + unwatched in widget</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/360</url>
+			<bugID>Issue #360</bugID>
+			<label>None yet</label>
+			<description>
+		Hi, The widget is able to display &quot;upcoming&quot; episodes that are in the future, and &quot;recent&quot; episodes. But, back when there was a Seriesguide and separate Seriesguide X, I think it was possible to display only unwatched episodes that have already been aired. Hopefully this feature can be revived. I think it would be very convenient if there is another category &quot;Unwatched&quot; for the widget that simply shows unwatched but aired episodes. If all aired episodes have already been watched then the widget can just be empty for as far as I'm concerned. Right now, in my opinion the widget is too cluttered because of the future and recently aired episodes. I'd like to be able and see my own progress in one simple view. Or is that possible and is this something I am consistently overlooking? Regardless, the app itself is great and it's been a lot of fun to see the progress in development. So, kudos for that. 👍
+	</description>
+		</report>
+		<report Number="144">
+			<summary>When syncing with trakt also listen for unseen and uncollected events</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/361</url>
+			<bugID>Issue #361</bugID>
+			<label>None yet</label>
+			<description>
+		Currently trakt activity is restricted to &quot;positive&quot; events. Investigate a possible solution to sync up &quot;negative&quot; events as well, e.g. unseen and uncollected.
+	</description>
+		</report>
+		<report Number="145">
+			<summary>Tab Strip Not Fully Themed</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/369</url>
+			<bugID>Issue #369</bugID>
+			<label>None yet</label>
+			<description>
+		Pressed state still shows the holo blue.
+	</description>
+		</report>
+		<report Number="146">
+			<summary>Stats ProgressBar Not Themed</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/370</url>
+			<bugID>Issue #370</bugID>
+			<label>None yet</label>
+			<description>
+		
+	</description>
+		</report>
+		<report Number="147">
+			<summary>[Xposed] Crash when disabling Auto-Update</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/372</url>
+			<bugID>Issue #372</bugID>
+			<label>None yet</label>
+			<description>
+		Seriesguide: v12.1 (db v32) OS: CyanogenMod 10.2.1 What happens Go to Settings -&gt; Basic and uncheck Turn on Auto Update. You get an error stating Unfortunately, Series guide has stopped and then it goes back to the Settings menu. What should happen Go to Settings -&gt; Basic and uncheck Turn on Auto Update. Autoupdate gets disabled.
+	</description>
+		</report>
+		<report Number="148">
+			<summary>Do not notify if show is hidden</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/373</url>
+			<bugID>Issue #373</bugID>
+			<label>None yet</label>
+			<description>
+		Hi, With SeriesGuide 12.2 with X subscription, the app notifies for all new episodes as I have asked but it includes the episodes from my hidden shows. Could you please fix it? Thanks.
+	</description>
+		</report>
+		<report Number="149">
+			<summary>Filter to show gathered and not watched yet, next to all unwatched</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/378</url>
+			<bugID>Issue #378</bugID>
+			<label>None yet</label>
+			<description>
+		Hi, Like seriesguide very much. One question, Is there a possibility to filer on shows I have gathered and not seen yet? Now the filter 'Unwatched' does not check if a show is gatjered pr not, but list all shows in series that have not been sen yet. If there is no such option yt, O'd like to request something like this to be added. Regards, Martin
+	</description>
+		</report>
+		<report Number="150">
+			<summary>Mark as viewed non aired episodes</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/379</url>
+			<bugID>Issue #379</bugID>
+			<label>None yet</label>
+			<description>
+		Why it's possible to mark non aired episode as watched? Normally we can't.
+	</description>
+		</report>
+		<report Number="151">
+			<summary>Hamburger icon color</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/380</url>
+			<bugID>Issue #380</bugID>
+			<label>None yet</label>
+			<description>
+		The nav drawer toggle indicator's default gray color doesn't look too good on the new purple action bar. I can't say for sure, but I think the various Google Play apps use a white color tinted with the respective app's action bar color (e.g., white with a hint of orange for Play Music or red for Play Movies). Or maybe it's just a transparent white.
+	</description>
+		</report>
+		<report Number="152">
+			<summary>Widget preferences should use white monochrome logo in action bar</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/385</url>
+			<bugID>Issue #385</bugID>
+			<label>None yet</label>
+			<description>
+		
+	</description>
+		</report>
+		<report Number="153">
+			<summary>&quot;X&quot; non-clickable text and clickable link same color</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/386</url>
+			<bugID>Issue #386</bugID>
+			<label>None yet</label>
+			<description>
+		
+	</description>
+		</report>
+		<report Number="154">
+			<summary>Checkmarks should be purple?</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/387</url>
+			<bugID>Issue #387</bugID>
+			<label>None yet</label>
+			<description>
+		Not sure if this was an intentional design decision or not. I would think the purple would look okay as the check mark color.
+	</description>
+		</report>
+		<report Number="155">
+			<summary>Replace &quot;0 mins&quot; with &quot;Now&quot;</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/388</url>
+			<bugID>Issue #388</bugID>
+			<label>None yet</label>
+			<description>
+		And perhaps do this for 5 minutes on each side of the exact air time.
+	</description>
+		</report>
+		<report Number="156">
+			<summary>Editing custom lists.</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/408</url>
+			<bugID>Issue #408</bugID>
+			<label>None yet</label>
+			<description>
+		Am I missing something? On http://seriesgui.de/ it says &quot;And much more - You also get - custom lists&quot; but I cant see or edit any of my trakt lists. It barely covers watchlist and collections. Whats up?
+	</description>
+		</report>
+		<report Number="157">
+			<summary>&quot;Watched / Not Watched&quot; label and icon not matching</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/409</url>
+			<bugID>Issue #409</bugID>
+			<label>None yet</label>
+			<description>
+		After tap a show in the show list, the icon and the label for &quot;Watched / Not Watched&quot; are not matching. If the episode is watched, the icon is white. If it's not watched, the icon is green. The icon seems to be showing the right information as per images below (I've only watched Part One)
+	</description>
+		</report>
+		<report Number="158">
+			<summary>Trakt Update</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/417</url>
+			<bugID>Issue #417</bugID>
+			<label>None yet</label>
+			<description>
+		I couldn't get into the community forum so trying this method. I am very familiar with trakt and have been eagerly awaiting the upgrade, especially v2 of the API. I am assuming the recent upgrade has caused the problems I am seeing. Essentially no communication with trakt via SeriesGuide. Have enjoyed using your app and happily paid the unlock cost. Just like to know if I'm correct wrt trakt and wonder what your plans may be if I am. Please advise.
+	</description>
+		</report>
+		<report Number="159">
+			<summary>Still problems with logging into Trakt.tv</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/418</url>
+			<bugID>Issue #418</bugID>
+			<label>None yet</label>
+			<description>
+		When trying to login it gives me a 422 error from trakt.tv.
+	</description>
+		</report>
+		<report Number="160">
+			<summary>HTTP 400 when connecting trakt</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/420</url>
+			<bugID>Issue #420</bugID>
+			<label>None yet</label>
+			<description>
+		See the screenshot below.
+	</description>
+		</report>
+		<report Number="161">
+			<summary>[trakt] Outdated data after sync + Sync not working</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/425</url>
+			<bugID>Issue #425</bugID>
+			<label>None yet</label>
+			<description>
+		Hello, First of all, I'm using French UI so some messages might not be translated exactly as it is in English UI. Plus, when I say check I mean marked as seen, I don't use the check-in feature. I noticed today after going on a TV show details, that it updated seasons and episodes as it always does, but this time lots of episodes were removed from “seen” in front of my eyes, even random episodes from other seasons that I watched months, maybe years ago. It happened to lot of TV shows but I will just take one as example: Case Closed. Some episodes from season 7, half from season 22, and the whole season 23 were marked unseen. So I looked on trakt and indeed they weren't marked seen. So I checked all seen from season 7 and 22, and checked first episodes from season 23 that I did watch. I got message “7x seen. Sending to trakt” as I always get. No error from catlog. I got back on trakt, season 7 was OK, season 22 and 23 were still missing. You can see in my history that I indeed just checked episodes from season 7: http://trakt.tv/users/yurienu/history and that season 22 and 23 are missing: http://trakt.tv/users/yurienu/progress I tried again a lot of times to mark season 22 seen but I kept getting the Sending to trakt message with no error. Is it possible that it has something to do with international titles? Thank you for your help,
+	</description>
+		</report>
+		<report Number="162">
+			<summary>trakt sign-in issues</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/429</url>
+			<bugID>Issue #429</bugID>
+			<label>None yet</label>
+			<description>
+		Collecting affected devices to maybe find a pattern. This assumes that the user tried to clear the SeriesGuide cache and changed the password but still failed. Affected devices Samsung Tab 3 8.0, 422 Unprocessable entity “I darf you very gerp” odd, as only used for WebDAV
+	</description>
+		</report>
+		<report Number="163">
+			<summary>Unwatched filter doesn't work</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/430</url>
+			<bugID>Issue #430</bugID>
+			<label>None yet</label>
+			<description>
+		Hi I am new to this app so it might be that I just misunderstand the filter, but as far as I understand it it should only show shows with unwatched episodes. However, when I apply it all shows (including those with unwatched episodes and those with all episodes unwatched) are hidden. I suppose that's not how its intended. Since I see nobody else reporting this, maybe it was introduced in today's update.
+	</description>
+		</report>
+		<report Number="164">
+			<summary>Beta app download</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/432</url>
+			<bugID>Issue #432</bugID>
+			<label>None yet</label>
+			<description>
+		I joined your beta program a couple of ours ago and I still can't seem to download your beta app. How long will it take before it is available for me to download and test?
+	</description>
+		</report>
+		<report Number="165">
+			<summary>Can't install on 2.3.4 ST18i</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/439</url>
+			<bugID>Issue #439</bugID>
+			<label>None yet</label>
+			<description>
+		I tried to install SeriesGuide on my Xperia Ray but I it says its not supported on my device. My friend got SeriesGuide on his Galaxy Y. Can someone please tell me how to fix this issue? Thanks in advance.
+	</description>
+		</report>
+		<report Number="166">
+			<summary>Add more sorting options in Shows</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/453</url>
+			<bugID>Issue #453</bugID>
+			<label>None yet</label>
+			<description>
+		Like on trakt.tv progress page.
+	</description>
+		</report>
+		<report Number="167">
+			<summary>F-Droid integration</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/456</url>
+			<bugID>Issue #456</bugID>
+			<label>None yet</label>
+			<description>
+		Please consider uploading releases to F-Droid. Especially in this context of Google Play abuses. Great app. 👍 1 🎉 1
+	</description>
+		</report>
+		<report Number="168">
+			<summary>Add shows to the user's Trakt watchlist</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/457</url>
+			<bugID>Issue #457</bugID>
+			<label>None yet</label>
+			<description>
+		SeriesGuide doesn't have an option to add shows to the watchlist, and my shows list is too big already to add all these shows I come across but can't watch now. Can you add support for it? Maybe to the left of the +/check in the Add Show menu? (but with a small margin to prevent muscle memory errors)
+	</description>
+		</report>
+		<report Number="169">
+			<summary>Movie/Show Suggestions via trakt</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/459</url>
+			<bugID>Issue #459</bugID>
+			<label>None yet</label>
+			<description>
+		Since trakt's recent site wide update, the only way to access their movie/show recommendation engine is view the api. Since SeriesGuide is already OAuthed for a user, this provides a unique opportunity for SeriesGuide to be the first/easiest way for someone to take advantage of this feature. Provide a section or feature called 'suggest a movie/show' in which the trakt recommendation engine is polled by SeriesGuide http://docs.trakt.apiary.io/#reference/recommendations/get-watched-history
+	</description>
+		</report>
+		<report Number="170">
+			<summary>Questions about TheTVDB direct integration - without trakt.tv login</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/469</url>
+			<bugID>Issue #469</bugID>
+			<label>None yet</label>
+			<description>
+		Hi. Developer question: I see from the changelog that it used to be possible to directly search TheTVDB - but this was disabled. I'm curious about ideas and thoughts on using SeriesGuide without trakt.tv login. There is another open source Apache 2.0 app out there for Android that has direct integration with TheTVDB - https://github.com/tarzasai/Uoccin Is there any reason to be against having a mode that is pure TheTVDB?
+	</description>
+		</report>
+		<report Number="171">
+			<summary>Manage watched movies too!</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/479</url>
+			<bugID>Issue #479</bugID>
+			<label>None yet</label>
+			<description>
+		I know the name application is &quot;SeriesGuide&quot;, but it's the best one for series, so I hope if you add to managing movies (watched movies, statistics...)
+	</description>
+		</report>
+		<report Number="172">
+			<summary>SeriesGuide Cloud Submit Improvement</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/480</url>
+			<bugID>Issue #480</bugID>
+			<label>None yet</label>
+			<description>
+		When using the beta cloud backup feature and checking episodes as already watched the UI is not accessible for half a second. This maybe should be moved to an UI independent background handler.
+	</description>
+		</report>
+		<report Number="173">
+			<summary>Episodes not watched is incorrect</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/482</url>
+			<bugID>Issue #482</bugID>
+			<label>None yet</label>
+			<description>
+		The number of unwatched episodes for one season of my shows does not match number of episodes I have not currently watched. Attached a screenshot showing the issue: SeriesGuide is reporting that I have 26 unwatched episodes, but the count in the top right shows I have seen 144 of 308 episodes (this number is correct, the 26 unwatched episodes is incorrect).
+	</description>
+		</report>
+		<report Number="174">
+			<summary>Next episode is always sorting by release date</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/483</url>
+			<bugID>Issue #483</bugID>
+			<label>None yet</label>
+			<description>
+		Here's an example with the show Wonderfalls, but this works with any show that aired in the 'wrong' order. Set 1x05 Crime Dog (DVD 5.0, aired 23/07) and all older episodes as watched Next Episode is now 1x07 Muffin Buffalo (DVD 6.0, aired 23/07). It jumped 1x06 Barrel Bear (DVD 7.0, aired 27/10) After setting 1x07 as watched, Next Episode is now 1x11 Cocktail Bunny (DVD 11.0, aired 25/07) Is there a way to make Next Episode follow the sorting order selected in the episode list(if we're watching the show on Netflix, DVD or any other source that isn't TV)? Sometimes setting a special episode as watched makes SeriesGuide jump whole seasons, because it aired in the middle of the show.
+	</description>
+		</report>
+		<report Number="175">
+			<summary>Seriesguide Cloud API</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/488</url>
+			<bugID>Issue #488</bugID>
+			<label>None yet</label>
+			<description>
+		Is there a Seriesguide Cloud API? This would be a nice extension of the great service of seriesguide. One example for a usage of these data could be, similar to a rss news feed, on a simple personal information website.
+	</description>
+		</report>
+		<report Number="176">
+			<summary>Back button bug in recent</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/489</url>
+			<bugID>Issue #489</bugID>
+			<label>None yet</label>
+			<description>
+		Steps to recreate the bug Go to RECENT tab Click on any episode Press back button in toolbar It goes to episode list instead of going back to RECENT
+	</description>
+		</report>
+		<report Number="177">
+			<summary>Faulty animation direction when leaving season and episode view via up navigation</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/490</url>
+			<bugID>Issue #490</bugID>
+			<label>None yet</label>
+			<description>
+		Animation is shown from right to left when leaving the view for a single season or episode via the up navigation in the upper left corner despite the logical direction being left to right. Leaving a tv show via this button shows the correct animation direction. Issue is not present when navigating back with the back button in navigation bar.
+	</description>
+		</report>
+		<report Number="178">
+			<summary>Trakt syncing (with large history?) is slow, disruptive, can cause data loss</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/491</url>
+			<bugID>Issue #491</bugID>
+			<label>None yet</label>
+			<description>
+		I really like the idea of trakt syncing in SeriesGuide. While SeriesGuide is my preferred tool for organizing my viewing, mirroring that history to an online, shared database with social features has a certain appeal. However, the reality of the current trakt syncing feature — as it exists in SG v.30.0.1(Database v38) — falls somewhat short of that ideal, and is making me consider disabling the trakt syncing just to restore some usability to SeriesGuide. Here's my typical SeriesGuide experience, with AutoUpdate enabled and SeriesGuide connected to trakt (only, not Cloud): Launch the SeriesGuide app, which usually takes me to Recent as that's the tab I was last viewing. The spinner at the top of the tab begins twirling as SeriesGuide starts syncing with trakt. Various shows begin transiently appearing in the list, as SeriesGuide &quot;resets&quot; their watched status before applying the state downloaded from trakt. (This is bug #487) If I attempt to mark any episodes (of any show) as Watched during the syncing process, those watched flags will more often than not be lost by SeriesGuide when it finishes syncing. (This may relate to bug #458 — @pironic writes &quot;Occasionally I find that under some conditions outside of the SeriesGuide pervue, shows and movies are scrobbled twice.&quot;, but I find that most of my duplicate activity is caused by SeriesGuide, when it loses Watched flags and I re-apply them, only to later find out that I've created duplicates.) Several minutes after syncing starts (this is no exaggeration — the syncing spinner can last anywhere from 45 seconds to 2, 3+ minutes), the update completes and I am able to make changes in SeriesGuide without them being lost. I realize that what SeriesGuide can do in syncing with trakt is constrained by the trakt API, and that ideal efficiency may not be possible given those constraints. But I feel like something at least needs to be done to make the syncing (a) more asynchronous and (b) less disruptive, so that SeriesGuide can be used while it's going on. The situation in bug #487 — where SeriesGuide manipulates the live datastore during the syncing process, removing and reapplying the entire Watched history for a show instead of simply making updates ­— feels like a prime candidate for refactoring and improvement. As some data points on my situation, SeriesGuide is running on a Samsung Galaxy S4, not exactly a slow or resource-starved device. (And I'm running SlimKat 9.0, a CyanoGen-based Android 4.4.4 — not Samsung's dog-slow stock OS.) It connects to the internet over Sprint's 4G LTE network in New York City, which typically gives me SpeedTest numbers of 6 - 12 Mbps down, 4 - 6 Mbps up. In every sense, performance is as good as can reasonably be expected. To give you an idea of my datastore, this is what SeriesGuide is working with: So, I'm far from a light user. It's entirely possible that I simply have too much data in SeriesGuide, and syncing it all to trakt is just too intensive a process. However, most of those shows are fully watched and Hidden, simply there for historical reasons. There's no reason to expect that they'd be receiving updates. If necessary I can delete the historical data from SeriesGuide, though it would be preferable if that info could simply be excluded from the syncing process in some way, rather than having to be discarded. It's also possible that having active shows on my list like Saturday Night Live (41 seasons / 810 episodes and counting) and The Simpsons (27 seasons / 602 episodes and counting) makes the syncing process unduly heavy. But, short of canceling those shows, I'm not sure what I can really do about that, so if that is indeed a problem then it would appear to be another way in which the syncing process is ripe for improvement. (I haven't even considered adding really high-volume shows like The Daily Show to SeriesGuide, even though I do watch it regularly.) SeriesGuide is a really great tool, and the trakt integration, while intriguing, would be a wonderful feature if only it didn't interfere so greatly with the app's performance and utility.
+	</description>
+		</report>
+		<report Number="179">
+			<summary>Gradle problem in Android Studio 2.1</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/492</url>
+			<bugID>Issue #492</bugID>
+			<label>None yet</label>
+			<description>
+		I want to import this project into my android-studio so that i download hole project and try to open it from android-studio.After that it shows some error in api gradle error is &quot;Error:(84, 0) No such property: ossrhUsername for class: org.gradle.api.publication.maven.internal.deployer.DefaultGroovyMavenDeployer Open File&quot; I am confused about really i need api folder in my project or which folder i need to import this project.
+	</description>
+		</report>
+		<report Number="180">
+			<summary>Crashlytics Developer Tools error.</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/493</url>
+			<bugID>Issue #493</bugID>
+			<label>None yet</label>
+			<description>
+		Finally i can import it into android-studio.After sync gradle it show one error that is Error:Execution failed for task ':SeriesGuide:fabricGenerateResourcesAmazonDebug'. Crashlytics Developer Tools error. How i can solve it.
+	</description>
+		</report>
+		<report Number="181">
+			<summary>Feature Suggestion: &quot;Undo&quot; for Recent/Upcoming list checkins</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/495</url>
+			<bugID>Issue #495</bugID>
+			<label>None yet</label>
+			<description>
+		Occasionally while scrolling the Recent list, I accidentally tap a checkmark next to one of the entries, marking something as Watched that I didn't intend. Since the entry immediately disappears, usually before I can notice what it was, I'm left with only the &quot;XxYY Seen. Sent to trakt&quot; message at the bottom of the screen as a hint as to what I just accidentally removed from the list, so that I can hunt it down and un-mark it. Sometimes that's easy, as there are other episodes of the same show nearby and the &quot;hole&quot; is obvious. Sometimes it's far from obvious, and requires substantial digging. It'd be handy if the &quot;checked-in&quot; message stuck around slightly longer than it does currently, and either provided an &quot;Undo&quot; function directly, or (failing that) was tappable to navigate to the episode in question, so that it could be unmarked. (Currently, attempting to tap on the message just selects whatever list entry is below it.) This is in line with, e.g. GMail's list features, where immediately after an action is taken, the success message includes an Undo link in case the action was made in error. 👍 1
+	</description>
+		</report>
+		<report Number="182">
+			<summary>Sync list with trakt</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/502</url>
+			<bugID>Issue #502</bugID>
+			<label>None yet</label>
+			<description>
+		Would be awesome if the lists also could be synced with trakt. 👍 1
+	</description>
+		</report>
+		<report Number="183">
+			<summary>Make SeriesGuide Settings compliant with DPI changes</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/508</url>
+			<bugID>Issue #508</bugID>
+			<label>None yet</label>
+			<description>
+		With my DPI of 520 on the LG G3, (running LineageOS), the settings activity of SeriesGuide doesn't fit the entire area. Its like squished together and centered, which makes things really weird. This doesn't happen with other areas of the app. I've attached a screenshot just in case it'll help. Android version: 7.1.1 (LineageOS 14.1) Model: LG G3 (d852) SeriesGuide version: 35
+	</description>
+		</report>
+		<report Number="184">
+			<summary>Add you are watching</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/510</url>
+			<bugID>Issue #510</bugID>
+			<label>None yet</label>
+			<description>
+		I would be nice to add you are watching so I can find out more about movie or TV show that I am watching.
+	</description>
+		</report>
+		<report Number="185">
+			<summary>support multiple plays</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/511</url>
+			<bugID>Issue #511</bugID>
+			<label>None yet</label>
+			<description>
+		It would be nice if SeriesGuide would support multiple plays, like trakt does it. For example with a long press on seen to add another play. Also a number of the plays next to the tick wuld be nice.
+	</description>
+		</report>
+		<report Number="186">
+			<summary>In the statistics page, show total duration time of movies in the collection</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/514</url>
+			<bugID>Issue #514</bugID>
+			<label>None yet</label>
+			<description>
+		No description provided.
+	</description>
+		</report>
+		<report Number="187">
+			<summary>Option to view show details in some of the screens</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/515</url>
+			<bugID>Issue #515</bugID>
+			<label>None yet</label>
+			<description>
+		I'm referring to the small popup that appears when the user clicks on a show in Add Show, Recommended and Watchlist sections of the Search screen - there should be either a link or a button that lets the user view the show's details without adding it to a list.
+	</description>
+		</report>
+		<report Number="188">
+			<summary>Will the sale to the application X Pass</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/517</url>
+			<bugID>Issue #517</bugID>
+			<label>None yet</label>
+			<description>
+		Here you can read about this function Play Console Help
+	</description>
+		</report>
+		<report Number="189">
+			<summary>Dealing with the new popup menu</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/518</url>
+			<bugID>Issue #518</bugID>
+			<label>None yet</label>
+			<description>
+		Regarding the new popup menu displayed after pressing the tick icon; please consider removing it, adding an option to disable it, or making the popup menu only show up after long pressing the tick icon. The default action for the tick icon since it's creation has been setting an episode as watched and the addition of this popup menu does nothing more but add an extra step to the process of doing this. Myself and from what I can tell many other users do not use the &quot;check in&quot; or even the entire collections features meaning that it really does absolutely nothing but add an extra step to what used to be a 1 button process. I'd also like to point out that &quot;set watched&quot; isn't even the first item on the popup menu making it really easy to accidentally press the wrong menu item since it's between two others. I personally don't update all the episodes I've seen right after I've seen them meaning that when I do enter the app I'm planning on setting quite a lot of episodes as watched and this popup menu quite frankly makes it a really annoying pain in the butt. It doesn't help that the popup menu actually covers up the next episode that I want to set as watched so I have to search for the icon again and try not to be too fast or else oops I just added it to my collection. I'll also point out that when I opened the app today to set episodes as watched I managed to accidentally add an episode to my unused collection because I pressed the tick icon expecting it to do what it's always done but instead causing the popup menu to show up over the next tick icon I wanted to press causing &quot;add to collection&quot; to be selected instead. I can go on and on about how much I absolutely despise this feature and want it to burn if you need more motivation to kill it. Though trying to be a bit more level headed, I think it would just be a better idea if you made the popup menu show up on long press of the tick icon instead of changing the default action that icon has had since I believe forever.
+	</description>
+		</report>
+		<report Number="190">
+			<summary>Bad error reporting when show is not up2date on trakt</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/519</url>
+			<bugID>Issue #519</bugID>
+			<label>None yet</label>
+			<description>
+		So I wanted to set an Episode to watched and got the following error: &quot;Could not talk to trakt. Try again later.&quot; I tried again later and still the same. Then I noticed the Episode is still missing in the trakt Database and is only on tvdb. Maybe there should be error reporting that accounts for this so trakt VIP users can go on the site and refresh the data.
+	</description>
+		</report>
+		<report Number="191">
+			<summary>Provide an option to export / import lists of TV Show episodes</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/523</url>
+			<bugID>Issue #523</bugID>
+			<label>None yet</label>
+			<description>
+		Since lists aren't synced to Trakt, it would be a good idea to provide users with the option to export their lists to a file (OPML, if that is the right format) and import it into the app at a later point in time or import on another phone. (This is a feature request, I am not familiar with the stack that this project uses / how the episodes and lists are stored, so I am sorry if I am making a basic mistake in the understanding. That said, I am familiar with Android and I will look at the code and find the right portions.) @UweTrottmann Is this a feature that you would be interested in?
+	</description>
+		</report>
+		<report Number="192">
+			<summary>Please add re watch option</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/524</url>
+			<bugID>Issue #524</bugID>
+			<label>None yet</label>
+			<description>
+		Re-watch is supported by trakt. Please add option in app too. I am xpass user. There are many movies and series I have watched again. To add them again I have to visit trakt. Thanks
+	</description>
+		</report>
+		<report Number="193">
+			<summary>Series does show wrong language</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/526</url>
+			<bugID>Issue #526</bugID>
+			<label>None yet</label>
+			<description>
+		I added &quot;Tatort&quot; to my Series. But it shows &quot;Scene of Crime&quot; and that there is no description in English. But the language in the settings is German. And there are german Descriptions in TheTVDB Other series working fine. Samsung Galaxy S7 Edge
+	</description>
+		</report>
+		<report Number="194">
+			<summary>Tv showes images are blank</summary>
+			<url>https://github.com/UweTrottmann/SeriesGuide/issues/530</url>
+			<bugID>Issue #530</bugID>
+			<label>None yet</label>
+			<description>
+		I compiled app using Android studio. Everything works fine after putting my own api but tv showes images are not getting displayed. I followed the clear cache instructions but still blank.
+	</description>
+		</report>
+	</reports>

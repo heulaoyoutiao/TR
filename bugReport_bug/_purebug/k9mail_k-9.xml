@@ -1,0 +1,1876 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<reports>
+		<report Number="0">
+			<summary>[bug] Attachments showing up on the wrong email</summary>
+			<url>https://github.com/k9mail/k-9/issues/583</url>
+			<bugID>Issue #583</bugID>
+			<label>bug</label>
+			<description>
+		I have 2 emails which both have an attachment called external_0.jpg. When viewing these messages, k9 usually shows the wrong image for at least one of them. I suspect that FileHelper.createUniqueFile is subject to a race condition when downloading messages and needs a mutex - I'm running on the quad-core Galaxy Note 2.
+	</description>
+		</report>
+		<report Number="1">
+			<summary>When moving mail a second time, the folder list should be scrolled to the last folder used</summary>
+			<url>https://github.com/k9mail/k-9/issues/597</url>
+			<bugID>Issue #597</bugID>
+			<label>bug</label>
+			<description>
+		Currently it's off by 1-2 folders.
+	</description>
+		</report>
+		<report Number="2">
+			<summary>Message displays only single line</summary>
+			<url>https://github.com/k9mail/k-9/issues/598</url>
+			<bugID>Issue #598</bugID>
+			<label>bug</label>
+			<description>
+		When reading through messages in inbox via IMAP, I typically tap archive to move to next item. Frequently, K9 shows the next message nearly blank with only one line of text visible. Swiping up/down scrolls the message through this one line area. Tapping previous, then next causes the message to be displayed normally. Currently on Android 5.0.2 on Nexus 7 and K9 5.004. Please let me know what additional info would be helpful.
+	</description>
+		</report>
+		<report Number="3">
+			<summary>Wrong file attachments from recorded audio on whatsup</summary>
+			<url>https://github.com/k9mail/k-9/issues/609</url>
+			<bugID>Issue #609</bugID>
+			<label>bug</label>
+			<description>
+		Hi, If I record an audio file on whatsup with the microphone and after sent in whatsup I select the audio message and share in K9-mail the email is Sended with danaged file. The file audio Sended by Android 5.0 on Samsung galaxy S5 with whatsup share function then K9-mail arrive danaged. For send correctly and share I must use Gmail app with Gmail account. Please fix this on k-9 mail so I can send by email audio recorded message via WhatsUp to email
+	</description>
+		</report>
+		<report Number="4">
+			<summary>Folder listed multiple times</summary>
+			<url>https://github.com/k9mail/k-9/issues/614</url>
+			<bugID>Issue #614</bugID>
+			<label>bug</label>
+			<description>
+		While figuring out #613 I noticed three folders named &quot;Outbox&quot;. One was the remote folder but two entries led to the same local folder. After trying 'recreate' on the account's data, I ended up with triplicate entries for the spam folder. I ended up deleting and re-creating the account; it's working fine now. Still wanted to report the behavior though.
+	</description>
+		</report>
+		<report Number="5">
+			<summary>Account listed multiple times</summary>
+			<url>https://github.com/k9mail/k-9/issues/615</url>
+			<bugID>Issue #615</bugID>
+			<label>bug</label>
+			<description>
+		I have three email accounts, which were before listed like this: AccountA
+AccountB
+AccountC
+ After long-pressing the last account and choosing &quot;Move up&quot;, I got two copies of the account that I tried to move, like this: AccountA
+AccountC
+AccountB
+AccountC
+ This state persisted after restarting the app (I think, the app was not listed in task manager), but problem went away after restarting phone, and AccountC is now in the middle as expected. Problem is not reproducible, I can now move them around as I please. When I had the problem I moved the account shortly after creating it. K-9 Mail version: 5.004 Android version: 4.4.2 Phone: LG G2
+	</description>
+		</report>
+		<report Number="6">
+			<summary>Account setting &quot;Delete from Server&quot; lost after SSLError</summary>
+			<url>https://github.com/k9mail/k-9/issues/616</url>
+			<bugID>Issue #616</bugID>
+			<label>bug</label>
+			<description>
+		Hi, ever and anon I get an SSLCertificate error with my provider gmx.net. When this happens the account settings changes and mails will be no longer deleted from the mail server after they are deleted localy. I have to change the settings by hand back. regards dieter
+	</description>
+		</report>
+		<report Number="7">
+			<summary>Resource leak -- file not closed -- found by Facebook's static analyzer</summary>
+			<url>https://github.com/k9mail/k-9/issues/618</url>
+			<bugID>Issue #618</bugID>
+			<label>bug</label>
+			<description>
+		Hello, This resource leak report, included with comments below, were found by running Facebook's Infer static analyzer on K-9. Regards, Dulma Rodriguez Facebook Static Analysis Tools Team File: k9mail/src/androidTest/java/com/fsck/k9/helper/HtmlConverterTest.java Report: Resource Leak: resource acquired by call to FileWriter(...) at line 143 is not released after line 147. Remarks: The problem seems to be that out.write(...) can throw an exception, in which case out.close() won't get called. A simple fix is to put the call to close in a finally clause.
+	</description>
+		</report>
+		<report Number="8">
+			<summary>Wrong file attachments from image sended from whatsup</summary>
+			<url>https://github.com/k9mail/k-9/issues/639</url>
+			<bugID>Issue #639</bugID>
+			<label>bug</label>
+			<description>
+		If i send a picture with whatsup and select K9-mail as email client email are correctly sent but image are not visible because is broken.. only a lot of code is send.
+	</description>
+		</report>
+		<report Number="9">
+			<summary>HTML code in message preview</summary>
+			<url>https://github.com/k9mail/k-9/issues/640</url>
+			<bugID>Issue #640</bugID>
+			<label>bug</label>
+			<description>
+		Preview (in message list and in notification) of HTML-only messages contains html code obscuring the real content.
+	</description>
+		</report>
+		<report Number="10">
+			<summary>K9-Mail crashes when touching area of attached mail and quickly trying to type</summary>
+			<url>https://github.com/k9mail/k-9/issues/642</url>
+			<bugID>Issue #642</bugID>
+			<label>bug</label>
+			<description>
+		What steps will reproduce the problem? Tap in the reply area, so the keyboard opens Tap in the area of the attached message quickly start typing before the keyboard disappears -&gt; K9mail has stopped working. What do you expect to have happen? No crash, or that keyboard disappears more quickly, or that current message gets saved before K9-Mail crashes. What version of K-9 are you using? 5.005 What is your device and what version of Android are you using? Fairphone FP1 (MT6589 chipset) Android 4.2.2 What else should we know? The crash produces no entry in the log (using CatLog on the rooted phone). We have discussed this in the Fairphone Forum and the issue seems quite reproducible: https://forum.fairphone.com/t/k9-mail-crashes-when-trying-to-type-in-area-of-attached-mail/5899
+	</description>
+		</report>
+		<report Number="11">
+			<summary>screen rotation bug with encrypted message</summary>
+			<url>https://github.com/k9mail/k-9/issues/660</url>
+			<bugID>Issue #660</bugID>
+			<label>bug</label>
+			<description>
+		Decryption works correctly, but when the screen is rotated, the decrypted text disappears and the message is decrypted again.
+	</description>
+		</report>
+		<report Number="12">
+			<summary>Reply encrypted emails</summary>
+			<url>https://github.com/k9mail/k-9/issues/663</url>
+			<bugID>Issue #663</bugID>
+			<label>bug</label>
+			<description>
+		No description provided.
+	</description>
+		</report>
+		<report Number="13">
+			<summary>URL links open in K-9 instead of browser</summary>
+			<url>https://github.com/k9mail/k-9/issues/673</url>
+			<bugID>Issue #673</bugID>
+			<label>bug</label>
+			<description>
+		Not sure what is going on, but just lately, URL links in emails want to open directly in K-9 instead of opening a browser - unless I long-press the link and choose &quot;open link&quot;. What happened? I cleared all default actions for K-9 without anything changing. K-9 5.005 on Lollipop 5.0.2 LG G2
+	</description>
+		</report>
+		<report Number="14">
+			<summary>Runtime exception when loading an email in the background.</summary>
+			<url>https://github.com/k9mail/k-9/issues/690</url>
+			<bugID>Issue #690</bugID>
+			<label>bug</label>
+			<description>
+		Steps to reproduce: Open an email that contains more data than the threshold to load. Click &quot;Download complete message&quot; and immediately back out of the message. When the message finishes downloading, the following exception occurs: com.fsck.k9.debug E/AndroidRuntime﹕ FATAL EXCEPTION: main
+    Process: com.fsck.k9.debug, PID: 22305
+    java.lang.IllegalStateException: Fragment MessageViewFragment{41c41ab0} not attached to Activity
+            at android.app.Fragment.getLoaderManager(Fragment.java:1019)
+            at com.fsck.k9.ui.messageview.MessageViewFragment.onMessageDownloadFinished(MessageViewFragment.java:247)
+            at com.fsck.k9.ui.messageview.MessageViewFragment.access$1400(MessageViewFragment.java:56)
+            at com.fsck.k9.ui.messageview.MessageViewFragment$DownloadMessageListener$1.run(MessageViewFragment.java:808)
+            at android.os.Handler.handleCallback(Handler.java:733)
+            at android.os.Handler.dispatchMessage(Handler.java:95)
+            at android.os.Looper.loop(Looper.java:136)
+            at android.app.ActivityThread.main(ActivityThread.java:5146)
+            at java.lang.reflect.Method.invokeNative(Native Method)
+            at java.lang.reflect.Method.invoke(Method.java:515)
+            at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:732)
+            at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:566)
+            at dalvik.system.NativeStart.main(Native Method)
+	</description>
+		</report>
+		<report Number="15">
+			<summary>Message temporarily unread after download</summary>
+			<url>https://github.com/k9mail/k-9/issues/697</url>
+			<bugID>Issue #697</bugID>
+			<label>bug</label>
+			<description>
+		After pressing 'Download complete message' to retrieve a read message, that message will be rendered as unread until the next sync/refresh. Seen on 5.006.
+	</description>
+		</report>
+		<report Number="16">
+			<summary>Text Selection broken on k9 mail 5.006 (latest available in Google store)</summary>
+			<url>https://github.com/k9mail/k-9/issues/710</url>
+			<bugID>Issue #710</bugID>
+			<label>bug</label>
+			<description>
+		After tapping on next inside email message, text selection indicators show up but they are broken. Choosing text with them result in simultaneous scroll of screen. Replicable on both Samsung Galaxy Grand Neo JB 4.2.2 and LG 3G S 4.4 KitKat
+	</description>
+		</report>
+		<report Number="17">
+			<summary>Drafts of encrypted mails are saved in plaintext</summary>
+			<url>https://github.com/k9mail/k-9/issues/711</url>
+			<bugID>Issue #711</bugID>
+			<label>bug</label>
+			<description>
+		Description: When sending an encrypted mail the message may be saved in plaintext on the server (as draft). The actual sent mail is encrypted. Steps to reproduce: Make sure to have two mail accounts configured (both have public/secret keys) Send it to yourself (or to another one - just tested it by sending it to myself) Check Encrypted checkbox Write some Subject and &quot;encrypted&quot; message Change to the other mail account Toast appears which says the message is saved as draft Send the mail Sent mail is encrypted Draft of mail (found in trash folder) is unencrypted
+	</description>
+		</report>
+		<report Number="18">
+			<summary>k9 crashes using wrong signs</summary>
+			<url>https://github.com/k9mail/k-9/issues/724</url>
+			<bugID>Issue #724</bugID>
+			<label>bug</label>
+			<description>
+		My k9 crashes when entering different combinations of characters to the recipient field of an email. Just typing a forward slash / to the To-field even does it.
+	</description>
+		</report>
+		<report Number="19">
+			<summary>K-9 as Stopped when opening messages grouped</summary>
+			<url>https://github.com/k9mail/k-9/issues/730</url>
+			<bugID>Issue #730</bugID>
+			<label>bug</label>
+			<description>
+		Sorry for my bad English, I am Brazilian es'm using google translator. We compile the k9 master and everything is ok but when I open grouped messages, the application stopped. follows the error log: 08-03 09:49:07.930 688-688/com.fsck.k9.emailars.debug E/AndroidRuntime﹕ FATAL EXCEPTION: main java.lang.NullPointerException at com.fsck.k9.ui.messageview.MessageTopView.setMessage(MessageTopView.java:86) at com.fsck.k9.ui.messageview.MessageViewFragment.showMessage(MessageViewFragment.java:282) at com.fsck.k9.ui.messageview.MessageViewFragment.onDecodeMessageFinished(MessageViewFragment.java:277) at com.fsck.k9.ui.messageview.MessageViewFragment.access$1200(MessageViewFragment.java:56) at com.fsck.k9.ui.messageview.MessageViewFragment$DecodeMessageLoaderCallback.onLoadFinished(MessageViewFragment.java:756) at com.fsck.k9.ui.messageview.MessageViewFragment$DecodeMessageLoaderCallback.onLoadFinished(MessageViewFragment.java:746) at android.app.LoaderManagerImpl$LoaderInfo.callOnLoadFinished(LoaderManager.java:438) at android.app.LoaderManagerImpl$LoaderInfo.onLoadComplete(LoaderManager.java:406) at android.content.Loader.deliverResult(Loader.java:125) at com.fsck.k9.ui.message.DecodeMessageLoader.deliverResult(DecodeMessageLoader.java:40) at com.fsck.k9.ui.message.DecodeMessageLoader.deliverResult(DecodeMessageLoader.java:15) at android.content.AsyncTaskLoader.dispatchOnLoadComplete(AsyncTaskLoader.java:236) at android.content.AsyncTaskLoader$LoadTask.onPostExecute(AsyncTaskLoader.java:76) at android.os.AsyncTask.finish(AsyncTask.java:602) at android.os.AsyncTask.access$600(AsyncTask.java:156) at android.os.AsyncTask$InternalHandler.handleMessage(AsyncTask.java:615) at android.os.Handler.dispatchMessage(Handler.java:99) at android.os.Looper.loop(Looper.java:137) at android.app.ActivityThread.main(ActivityThread.java:4424) at java.lang.reflect.Method.invokeNative(Native Method) at java.lang.reflect.Method.invoke(Method.java:511) at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:784) at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:551) at dalvik.system.NativeStart.main(Native Method)
+	</description>
+		</report>
+		<report Number="20">
+			<summary>My k9 does not verify Sign after download</summary>
+			<url>https://github.com/k9mail/k-9/issues/732</url>
+			<bugID>Issue #732</bugID>
+			<label>bug</label>
+			<description>
+		If I compile K9 and install on my phone, select the OpenKeyChain provider, and my key and then receive a Signed Mail, K9 says me that the mail is signed but he does not have the key, so i presso &quot;lookup&quot;, it searchs the key, download It (via OpenKeyChain) and when it turn back to K9, my mail is not &quot;signed&quot; yet, but if i exit the mail view fragment and re-open the mail, now it see the key on OpenKeyChain and verify the Sign, just like if It returns after download It does not refresh the fragment view. How can I fix that? please help, I'm going crazy .
+	</description>
+		</report>
+		<report Number="21">
+			<summary>WhatsApp sharing problem (8-bit encoding)</summary>
+			<url>https://github.com/k9mail/k-9/issues/744</url>
+			<bugID>Issue #744</bugID>
+			<label>bug</label>
+			<description>
+		Using K9 from PlayStore, v5.006, Samsung Galaxy S5. Open a WhatsApp chat where you received an image. Push for a long time on image to select it, choose to share with K9. K9 will compose and send the message, but the image attachment is unreadable for the recipient. The problem does not appear when you single tap on a WhatsApp image to zoom it, and then share from here. Analyzing the received email: K9 is encoding the attachment with Content-Transfer-Encoding: 8bit, but I think the 8bit body is not correct, because it contains \r\n in the wrong position, not permitted by MIME RFC 2045 https://tools.ietf.org/html/rfc2045#section-2.8 I think K9 should encode attachments in the usual base64 way. Also posted here Google Code
+	</description>
+		</report>
+		<report Number="22">
+			<summary>In the mail notifications some text fields are hardcoded to black</summary>
+			<url>https://github.com/k9mail/k-9/issues/746</url>
+			<bugID>Issue #746</bugID>
+			<label>bug</label>
+			<description>
+		While the rest of the notification fonts adjust to the current theme the recipient or the subject is always displayed in black. This ruins the readability on dark system themes. Examples are attached.
+	</description>
+		</report>
+		<report Number="23">
+			<summary>attached photos are replaced with duplicates</summary>
+			<url>https://github.com/k9mail/k-9/issues/749</url>
+			<bugID>Issue #749</bugID>
+			<label>bug</label>
+			<description>
+		How was this bug caught: started composing a mail attached 4 photos using the standard attach feature of K9 (button) K-9 showed as if it fully succeeded, a mail was sent and it has 4 photos attached inside. The problem: all photos are copies of the last photo. They have identical contets, identical size but not identical names (names are correct). Expected: fail to send the message or send 4 different attachments. Reproducible? - No. I could not reproduce the problem: sending a message with the same 4 photos went OK. Photos have correct contents but the same names as in the first attempt. Verification, why trust this bug report: the names of the attachments are correct, these are 4 different photos. In case of a human mistake (attaching the same photo 4 times) there would be 4 identical names.
+	</description>
+		</report>
+		<report Number="24">
+			<summary>Export folder-settings only works for top level folders</summary>
+			<url>https://github.com/k9mail/k-9/issues/765</url>
+			<bugID>Issue #765</bugID>
+			<label>bug</label>
+			<description>
+		I have a folder structure with 3 or 4 levels of (sub-)folders in my IMAP account. After configuring all the folders (display class, sync class, push class, ...) I exported the settings and imported them on my new phone, but only the settings for the top level folders where transferred. I checked the k9s file and saw that only the top level folders where exported. I edited the file and added all my folders (with a script) and imported that file after clearing the K9 data. This time, all settings were imported. So the export skips sub-folders but the import (fortunately) does not. Sub-folders should also be exported. I tested this with v5.006 and v5.107 on Nexus 5 with stock Android 5.1.1.
+	</description>
+		</report>
+		<report Number="25">
+			<summary>Checking mail notifcation stays forever if server is not reachabel</summary>
+			<url>https://github.com/k9mail/k-9/issues/770</url>
+			<bugID>Issue #770</bugID>
+			<label>bug</label>
+			<description>
+		It happens from time to time that k9 mail is not able to reach the server and keeps the checking mail notification for ever. I observed this i.e. in wifi networks that have no uplink. Sometimes when i force k9 mail to pull mails in such a network (of course by mistake) that the &quot;cheking mail&quot; notification pops up and stays until i reboot the phone. Killing k9mail via the app settings dialog of android is not helping. It also stays there after k9 successfully pulled mails trough a different wifi network. I'm running k9 on an nexus 5 with android 5.1.1 the mail server on the other side is a dovecot imap on debian old stable. Latest k9 version tested is 5.006 from fdroid.
+	</description>
+		</report>
+		<report Number="26">
+			<summary>Crash when modifying user for SMTP server</summary>
+			<url>https://github.com/k9mail/k-9/issues/771</url>
+			<bugID>Issue #771</bugID>
+			<label>bug</label>
+			<description>
+		Expected behaviour After having set up the first mail account server, I wanted to set up the SMTP server, which is different from the incoming mail server and uses a different user name and password. Actual behaviour The SMTP server is changed (no unexpected behaviour), and then when I modify the user name or start to modify the password the screen gets black or freezes and then gets black. The message that K-9 stopped appears. Steps to reproduce 1.Setup first incoming mail account 2.Trying to setup the SMTP server account K-9 Mail crashes. 3. Environment K-9 Mail version: 5.006 Android version: 4.1.2 (no newer version provided by my ISP) Account type (IMAP, POP3, WebDAV/Exchange): IMAP
+	</description>
+		</report>
+		<report Number="27">
+			<summary>Plain appended PGP encrypted mails destroys mail body due OpenKeychain result</summary>
+			<url>https://github.com/k9mail/k-9/issues/807</url>
+			<bugID>Issue #807</bugID>
+			<label>bug</label>
+			<description>
+		I had written a mail to service@oppodigital.com and the answer is visible for a second or less and will be overlain by the result of OpenKeychain. The reasone seem to be that in the answer mail from oppodigital.com, there is a line with &quot;________________________________________&quot; and after this my orignal mail starting with &quot;From: bitstreamout bitstreamout@gmail.com&quot;, the line with the Sent date as well as the To, the Subject line, an empty line , and the &quot;-----BEGIN PGP SIGNED MESSAGE-----&quot; causes that k9mail starts OpenKeychain to verify the signature (which is OK) but then erase the mail body with the result. This I've tested also with the alpah version v5.107. If required I can attach a compressed version of the orignal mail. bitstreamout
+	</description>
+		</report>
+		<report Number="28">
+			<summary>Report a possible race issue</summary>
+			<url>https://github.com/k9mail/k-9/issues/809</url>
+			<bugID>Issue #809</bugID>
+			<label>bug</label>
+			<description>
+		Hi, Developers of k9mail/k-9, I am writing to report a race issue on use of ConcurrentHashMap. The issue is reported by our tool in an automatic way. Although manually confirmed, it would be a false positive, given we do not know the specification of the program. We would very appreciate if you could check below for details and confirm with us whether it is a real problem. For more information, please refer to our website: http://sav.sutd.edu.sg/?page_id=2845 File: k9mail/k-9/k9mail/src/main/java/com/fsck/k9/controller/MessagingController.java Location: Line (4600/4603, 5131) Description: The get-then-put operations (line 4600, 4603) in method &quot;getNotificationData&quot; are synchronized on lock &quot;notificationData&quot;. If the intention is to guarantee the atomicity of the get-then-put operations, then the remove operation in line 5130 may break this atomicity. Relying on the ConcurrentHashMap to ensure exclusive access is dangerous since ConcurrentHashMap has no guarantee of exclusive access.
+	</description>
+		</report>
+		<report Number="29">
+			<summary>ClassCastException on IMAP sync</summary>
+			<url>https://github.com/k9mail/k-9/issues/811</url>
+			<bugID>Issue #811</bugID>
+			<label>bug</label>
+			<description>
+		On a fresh install of k9Mail on a new phone, one of my IMAP accounts stops suddenly with the below error. It worked like a charm for a few days prior to that. I've another IMAP account on the same server which still works and isn't affected. K9-Mail version: 5.006 Device make: motorola Device model: MotoG3 Android version: 5.1.1 java.lang.ClassCastException: com.fsck.k9.mail.store.ImapResponseParser$ImapList cannot be cast to java.lang.String at com.fsck.k9.mail.store.ImapResponseParser.readTokens(ImapResponseParser.java:69) at com.fsck.k9.mail.store.ImapResponseParser.readResponse(ImapResponseParser.java:51) at com.fsck.k9.mail.store.ImapResponseParser.readResponse(ImapResponseParser.java:29) at com.fsck.k9.mail.store.ImapStore$ImapConnection.readStatusResponse(ImapStore.java:2775) at com.fsck.k9.mail.store.ImapStore$ImapConnection.saslAuthPlain(ImapStore.java:2727) at com.fsck.k9.mail.store.ImapStore$ImapConnection.open(ImapStore.java:2530) at com.fsck.k9.mail.store.ImapStore$ImapConnection.sendCommand(ImapStore.java:2872) at com.fsck.k9.mail.store.ImapStore$ImapConnection.executeSimpleCommand(ImapStore.java:2921) at com.fsck.k9.mail.store.ImapStore$ImapConnection.executeSimpleCommand(ImapStore.java:2902) at com.fsck.k9.mail.store.ImapStore$ImapFolder.executeSimpleCommand(ImapStore.java:858) at com.fsck.k9.mail.store.ImapStore$ImapFolder.internalOpen(ImapStore.java:904) at com.fsck.k9.mail.store.ImapStore$ImapFolder.open(ImapStore.java:867) at com.fsck.k9.controller.MessagingController.synchronizeMailboxSynchronous(MessagingController.java:1041) at com.fsck.k9.controller.MessagingController.access$400(MessagingController.java:111) at com.fsck.k9.controller.MessagingController$8.run(MessagingController.java:934) at com.fsck.k9.controller.MessagingController.run(MessagingController.java:435) at java.lang.Thread.run(Thread.java:818)
+	</description>
+		</report>
+		<report Number="30">
+			<summary>email content with image can not open and save</summary>
+			<url>https://github.com/k9mail/k-9/issues/813</url>
+			<bugID>Issue #813</bugID>
+			<label>bug</label>
+			<description>
+		Expected behaviour Receive a email with a image,k9 look good,with a image in content view and a image in the attachment view. But 1.can not open when click open btn(cause the attachment mime type:application/octet-stream) 2.when long click the image in content view,pop the menu for view or save the image,two func does not work(cause the uri may be correct) Actual behaviour 1.the image should be open exactly 2.when long click the image,the image should be view or open Steps to reproduce 1.get a mail with photo in content 2.open k9 to view this mail 3.click the save btn in attachment view/ long click the image in content view to show the menu option for view or open the image. Environment K-9 Mail version: check out from github 25.9.2015 Android version: 4.3 Account type (IMAP, POP3, WebDAV/Exchange): POP3
+	</description>
+		</report>
+		<report Number="31">
+			<summary>[bug] deleting the last mail in thread view can cause all kinds of odd effects</summary>
+			<url>https://github.com/k9mail/k-9/issues/814</url>
+			<bugID>Issue #814</bugID>
+			<label>bug</label>
+			<description>
+		How to reproduce: Go to the inbox Click on a mail that is part of a thread From now on only mail that are part of the thread are shown Click on a Mail The mail Opens Now press the &quot;delete&quot; button until the last Mail of the thread is deleted. How to reproduce (method 2): Go to the inbox Click on a mail that is part of a thread From now on only mail that are part of the thread are shown Select all Mails Choose the &quot;delete&quot; action in order to delete all mails What might happen (seems for some reason not to happen if I try to create a test thread by sending mails back and forth without receiving messages that are not part of the thread and doing other stuff with the phone inbetween) either shows me a screen which is empty except of the title and the bottom line (which might be intended: The thread I am currently viewing is actually empty) or goes back to the folder I came from or crashes or shows me the mails of the thread as if they weren't deleted. Crashes happen only about 10% of the time. I assume that a check that tests if there are mails to visualize is missing. This crash has been around for a while and can still be reproduced in the current alpha version (201509259). Environment K-9 Mail version: 5.107 Android version: 4.4.1, 5.0, 4.1,... (Did test several) Account type (IMAP, POP3, WebDAV/Exchange): IMAP Cellphone Type: Galaxy Note I (stock ROM) Galaxy Note I (Cyanogen Mod 10.1) Galaxy Note I (OmniRom) Wildfire S (Stock ROM) Wildfire S (Cyanogenmod 10.0 nightly) Wiko Bloom (Stock ROM)
+	</description>
+		</report>
+		<report Number="32">
+			<summary>[bug] Delete doesn't update to imap server / IOException readStringUnti</summary>
+			<url>https://github.com/k9mail/k-9/issues/815</url>
+			<bugID>Issue #815</bugID>
+			<label>bug</label>
+			<description>
+		Deleting an email in my inbox deletes it locally but does not delete it on the imap server. It used to work. When I look at folders I see this message for inbox: IOException readStringUnti Or Exception: Message count -1 This is a big deal for me. The inbox is large, and I get lots of spam I want to delete.
+	</description>
+		</report>
+		<report Number="33">
+			<summary>Viewing/saving inline images doesn't work</summary>
+			<url>https://github.com/k9mail/k-9/issues/818</url>
+			<bugID>Issue #818</bugID>
+			<label>bug</label>
+			<description>
+		Long-pressing inline images displays a popup with items &quot;View image&quot; and &quot;Save image&quot;. Both currently don't work. Since we no longer rewrite cid:-URIs to content://-URIs pointing to our content provider for attachments we need to change the code that handles viewing and saving inline images. See MessageContainerView.onCreateContextMenu()
+	</description>
+		</report>
+		<report Number="34">
+			<summary>forward a mail with attachment failed</summary>
+			<url>https://github.com/k9mail/k-9/issues/819</url>
+			<bugID>Issue #819</bugID>
+			<label>bug</label>
+			<description>
+		Actual behaviour there's two cases: 1.get a mail with inline images 2.get a mail with attachment Two mail has been down fully in my k9 client. When forward,both toast:&quot;Some attachments cannot be forwarded because they have not been downloaded.&quot;. If ignore this error to forward,the inline images or attachment can not be send to others. Expected behaviour The two case should forward correctly Steps to reproduce 1.forward a mail to somebody with inline images or with attachment. 2.both toast &quot;Some attachments cannot be forwarded because they have not been downloaded.&quot;. 3.click forward btn ok 4.login in somebody's mail to get these two mails 5.images inline can not show and also without attachements Environment K-9 Mail version: check out from github on 28.9.2015 Android version: 4.3 Account type (IMAP, POP3, WebDAV/Exchange): POP3
+	</description>
+		</report>
+		<report Number="35">
+			<summary>IMAP search and the trailing whitespace problem</summary>
+			<url>https://github.com/k9mail/k-9/issues/828</url>
+			<bugID>Issue #828</bugID>
+			<label>bug</label>
+			<description>
+		Steps to reproduce: Find a mail that ends with a unique string from some time ago. So it is not local on the phone and you don't get confused by &quot;false positives&quot;. Go your account inbox Click on the search icon No local results. Click on the IMAP search button (search glass + cloud) Wait and find nothing. Example: Email Subject: &quot;Pictures from Timbuktu&quot; An IMAP search for &quot;Timbuktu&quot; returns the result. But a search for &quot;Timbuktu &quot; does not. This is a really big problem. Because many android keyboards easily add a trailing whitespace when you don't want it, or when you use the word completion to save a few letters typing.
+	</description>
+		</report>
+		<report Number="36">
+			<summary>k9mail frequently crashes when deleting mail (bulk or individual) secure IMAP more than 1000 emails in inbox</summary>
+			<url>https://github.com/k9mail/k-9/issues/839</url>
+			<bugID>Issue #839</bugID>
+			<label>bug</label>
+			<description>
+		When I set to sync IMAP with less than 100 emails, no problem. But I need to find older emails so I sync with approx 2500 emails in the inbox. I'm using an SSL IMAP connection. Frequently the app crashes. I'm running the latest version of k9mail on android 4.2.2 on a Samsung Galaxy Note 8 GT-N5100. I don't have root, so logs are inaccessible due to permissions. When I have time I'll connect to my Linux box and try to obtain logs for you.
+	</description>
+		</report>
+		<report Number="37">
+			<summary>Certain emails are not displaying (All white)</summary>
+			<url>https://github.com/k9mail/k-9/issues/854</url>
+			<bugID>Issue #854</bugID>
+			<label>bug</label>
+			<description>
+		I am signed up to get weekly emails from Goldstar.com with a list of discount events in my area. These emails are not properly displaying on K-9 and show up all white. At first the email may display but if I rotate my Samsung Note 4 90 degrees, the email turns all white. These emails use to display properly on k9.
+	</description>
+		</report>
+		<report Number="38">
+			<summary>Serious drafts glitch since last update</summary>
+			<url>https://github.com/k9mail/k-9/issues/858</url>
+			<bugID>Issue #858</bugID>
+			<label>bug</label>
+			<description>
+		I'm having an issue where if I create or edit a draft, it saves fine, and then shows up in the folder fine (with a preview of the message body), but when I click it from that folder view, it is blank when it opens. Nothing I can do after that will make it open correctly (ie refreshing the folder). The draft still appears on my other devices (pc) without error. If I make an edit then to the blank message, and it asks me to either save or discard, saving will still overwrite the correct draft, and discard will delete it from the server. If I simply click Back to go back to the folder list, and then open and re-save the draft on my pc, it will refresh in k9 and I can open it ok. This issue is not happening every time I open drafts, but is often now. Had no issues prior to updating to the new version (a few weeks ago?), and has been happening ever since.
+	</description>
+		</report>
+		<report Number="39">
+			<summary>Loop when decrypting PGP/MIME mail</summary>
+			<url>https://github.com/k9mail/k-9/issues/864</url>
+			<bugID>Issue #864</bugID>
+			<label>bug</label>
+			<description>
+		Using the current master branch I'm trying to decrypt PGP/MIME mails using OpenKeychain. When I open the message, K9 correctly starts OpenKeychain which lets me enter my PIN and then asks me to hold my YubiKey NEO to the NFC scanner. After the decryption is done, I remove the key and OpenKeychain gives control back to K9 which in turn opens OpenKeychain again. This repeats forever. When I click &quot;Cancel&quot;, it stops the loop but also crashes K9 (probably issue ##588).
+	</description>
+		</report>
+		<report Number="40">
+			<summary>Crash during reading of an email</summary>
+			<url>https://github.com/k9mail/k-9/issues/871</url>
+			<bugID>Issue #871</bugID>
+			<label>bug</label>
+			<description>
+		I receive an email which crashes the app. After some research, I found that mBody for the file Version_texte.txt is null (LocalBodyPart with minetype &quot;text/plain&quot;) and OpenPgpUtils.parseMessage crashes with a null value. I also tried a new email with this file but mBody is not null. So I think the issue is located in the loading process. You can find the mail here : http://guillaume.smaha.net/contrib/k9mail/TestCrashEmail.eml
+	</description>
+		</report>
+		<report Number="41">
+			<summary>Draft not saved when using mailto: link</summary>
+			<url>https://github.com/k9mail/k-9/issues/876</url>
+			<bugID>Issue #876</bugID>
+			<label>bug</label>
+			<description>
+		Saving a Massage works when creating a new one inside of k9, but not when started from a mailto: link, eg. In a browser. Using save in the menu shows the &quot;Massage saved&quot; overlay, but i can't find it in the drafts folder.
+	</description>
+		</report>
+		<report Number="42">
+			<summary>issues with saving to drafts</summary>
+			<url>https://github.com/k9mail/k-9/issues/886</url>
+			<bugID>Issue #886</bugID>
+			<label>bug</label>
+			<description>
+		K9 doesn't save the signature in the draft. Therefore it forgets changes in the signature that were made for this particular email. And it saves quotations from previous emails to the draft even if you clicked on the x to not include them. If you reopen the draft with K9 Mail the signature will be the default one again. If you open it with another email program (IMAP) it won't display any signature at all (at least Thunderbird didn't)
+	</description>
+		</report>
+		<report Number="43">
+			<summary>k9mail frequently crashes when deleting mail (bulk or individual) IMAP Inbox: BUG</summary>
+			<url>https://github.com/k9mail/k-9/issues/901</url>
+			<bugID>Issue #901</bugID>
+			<label>bug</label>
+			<description>
+		K9 mail client crashes almost every time I delete mail from my inbox. Especially bulk delete. I've done the basic things one would do to fix. Reinstall, delete and recreate account. There is plenty of disc space on my device. I've enabled debugging. I don't know what else to do. Can you help please?
+	</description>
+		</report>
+		<report Number="44">
+			<summary>S/MIME crashes app</summary>
+			<url>https://github.com/k9mail/k-9/issues/916</url>
+			<bugID>Issue #916</bugID>
+			<label>bug</label>
+			<description>
+		I'm using the master branch and opening PGP/MIME signed/encrypted mail works fine, but when I open a S/MIME signed mail, the app crashes. 11-28 11:26:29.522 21844 21844 D AndroidRuntime: Shutting down VM
+11-28 11:26:29.530 21844 21844 E AndroidRuntime: FATAL EXCEPTION: main
+11-28 11:26:29.530 21844 21844 E AndroidRuntime: Process: com.fsck.k9.debug, PID: 21844
+11-28 11:26:29.530 21844 21844 E AndroidRuntime: java.lang.NullPointerException: Attempt to invoke virtual method 'int org.openintents.openpgp.OpenPgpSignatureResult.getResult()' on a null object reference
+11-28 11:26:29.530 21844 21844 E AndroidRuntime:    at com.fsck.k9.ui.messageview.OpenPgpHeaderView.displayVerificationResult(OpenPgpHeaderView.java:184)
+11-28 11:26:29.530 21844 21844 E AndroidRuntime:    at com.fsck.k9.ui.messageview.OpenPgpHeaderView.initializeSignatureHeader(OpenPgpHeaderView.java:164)
+11-28 11:26:29.530 21844 21844 E AndroidRuntime:    at com.fsck.k9.ui.messageview.OpenPgpHeaderView.setOpenPgpData(OpenPgpHeaderView.java:70)
+11-28 11:26:29.530 21844 21844 E AndroidRuntime:    at com.fsck.k9.ui.messageview.MessageContainerView.displayMessageViewContainer(MessageContainerView.java:444)
+11-28 11:26:29.530 21844 21844 E AndroidRuntime:    at com.fsck.k9.ui.messageview.MessageTopView.setMessage(MessageTopView.java:94)
+11-28 11:26:29.530 21844 21844 E AndroidRuntime:    at com.fsck.k9.ui.messageview.MessageViewFragment.showMessage(MessageViewFragment.java:277)
+11-28 11:26:29.530 21844 21844 E AndroidRuntime:    at com.fsck.k9.ui.messageview.MessageViewFragment.onDecodeMessageFinished(MessageViewFragment.java:272)
+11-28 11:26:29.530 21844 21844 E AndroidRuntime:    at com.fsck.k9.ui.messageview.MessageViewFragment.access$1200(MessageViewFragment.java:56)
+11-28 11:26:29.530 21844 21844 E AndroidRuntime:    at com.fsck.k9.ui.messageview.MessageViewFragment$DecodeMessageLoaderCallback.onLoadFinished(MessageViewFragment.java:751)
+11-28 11:26:29.530 21844 21844 E AndroidRuntime:    at com.fsck.k9.ui.messageview.MessageViewFragment$DecodeMessageLoaderCallback.onLoadFinished(MessageViewFragment.java:741)
+11-28 11:26:29.530 21844 21844 E AndroidRuntime:    at android.app.LoaderManagerImpl$LoaderInfo.callOnLoadFinished(LoaderManager.java:483)
+11-28 11:26:29.530 21844 21844 E AndroidRuntime:    at android.app.LoaderManagerImpl$LoaderInfo.onLoadComplete(LoaderManager.java:451)
+11-28 11:26:29.530 21844 21844 E AndroidRuntime:    at android.content.Loader.deliverResult(Loader.java:144)
+11-28 11:26:29.530 21844 21844 E AndroidRuntime:    at com.fsck.k9.ui.message.DecodeMessageLoader.deliverResult(DecodeMessageLoader.java:40)
+11-28 11:26:29.530 21844 21844 E AndroidRuntime:    at com.fsck.k9.ui.message.DecodeMessageLoader.deliverResult(DecodeMessageLoader.java:15)
+11-28 11:26:29.530 21844 21844 E AndroidRuntime:    at android.content.AsyncTaskLoader.dispatchOnLoadComplete(AsyncTaskLoader.java:265)
+11-28 11:26:29.530 21844 21844 E AndroidRuntime:    at android.content.AsyncTaskLoader$LoadTask.onPostExecute(AsyncTaskLoader.java:92)
+11-28 11:26:29.530 21844 21844 E AndroidRuntime:    at android.os.AsyncTask.finish(AsyncTask.java:651)
+11-28 11:26:29.530 21844 21844 E AndroidRuntime:    at android.os.AsyncTask.-wrap1(AsyncTask.java)
+11-28 11:26:29.530 21844 21844 E AndroidRuntime:    at android.os.AsyncTask$InternalHandler.handleMessage(AsyncTask.java:668)
+11-28 11:26:29.530 21844 21844 E AndroidRuntime:    at android.os.Handler.dispatchMessage(Handler.java:102)
+11-28 11:26:29.530 21844 21844 E AndroidRuntime:    at android.os.Looper.loop(Looper.java:148)
+11-28 11:26:29.530 21844 21844 E AndroidRuntime:    at android.app.ActivityThread.main(ActivityThread.java:5417)
+11-28 11:26:29.530 21844 21844 E AndroidRuntime:    at java.lang.reflect.Method.invoke(Native Method)
+11-28 11:26:29.530 21844 21844 E AndroidRuntime:    at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:726)
+11-28 11:26:29.530 21844 21844 E AndroidRuntime:    at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:616)
+11-28 11:26:29.533  2062  5906 W ActivityManager:   Force finishing activity com.fsck.k9.debug/com.fsck.k9.activity.MessageList
+	</description>
+		</report>
+		<report Number="45">
+			<summary>checking hide password checkbock makes carret move</summary>
+			<url>https://github.com/k9mail/k-9/issues/926</url>
+			<bugID>Issue #926</bugID>
+			<label>bug</label>
+			<description>
+		When creating a new account. 1- Enter a few characters in the password field. Let's call these characters &quot;part 1&quot;. 2- Check the show password checkbox. 3- Enter a few characters. Let's call these characters &quot;part 2&quot; =&gt; the latest characters (part 2) are entered before the earliest (part 1) Example : part 1 = abc part 2 = xyz What is shown in the password field : 1- *** 2- abc 3- xyzabc We should see abcxyz
+	</description>
+		</report>
+		<report Number="46">
+			<summary>Can't find folders begining with 00=[</summary>
+			<url>https://github.com/k9mail/k-9/issues/933</url>
+			<bugID>Issue #933</bugID>
+			<label>bug</label>
+			<description>
+		Fails to find IMAP folders beginning with 00=[ Tested with Dovecot IMAP server 2.2-2.1. The affected folders were tested and visible under other IMAP clients such as Thunderbird, Roundcube, Squirrel mail, stock Android Email client, and GMail.
+	</description>
+		</report>
+		<report Number="47">
+			<summary>Mails not appearing in the inbox</summary>
+			<url>https://github.com/k9mail/k-9/issues/941</url>
+			<bugID>Issue #941</bugID>
+			<label>bug</label>
+			<description>
+		This is kind of hard to trigger. But it can be triggered at least on a Wiko Bloom and a Samsung Galaxy Note I: Read something in full-screen mode using the kindle app As soon as you get a notification for a mail that is part of a thread you have other mails of in your inbox tap the middle of the screen (which causes the notification bar to display) and while the notification bar animation showing the mail title mail by mail is still shown open the notification bar and tap on the notification from k9. As soon as the mail appears: Press the home button. After that the mail is still in the inbox (Thunderbird will see it, the webmailer, too). But K9 Mail cannot see it anymore: It has disappeared from the inbox and the search function won't be able to find it, neither.
+	</description>
+		</report>
+		<report Number="48">
+			<summary>Can't read the full subject on long email subjects</summary>
+			<url>https://github.com/k9mail/k-9/issues/946</url>
+			<bugID>Issue #946</bugID>
+			<label>bug</label>
+			<description>
+		Hi, I'm using K9 v 5.007 (from F-Droid) and realised there's no way to display the full titles of long emails except by opening it and then requesting to see the full headers. I would have expected to be able to touch, or maybe long touch the subject to see it in full. Hope this helps, a quick search didn't return any open issues about this. Cheers
+	</description>
+		</report>
+		<report Number="49">
+			<summary>Email incorrectly sent from personal account with busness name</summary>
+			<url>https://github.com/k9mail/k-9/issues/961</url>
+			<bugID>Issue #961</bugID>
+			<label>bug</label>
+			<description>
+		nexus 5 k9mail 5.007 previously on 5.006 - no issues prior. to make it simple. 2 email accounts affected, one business and one personal. (personal default), both gmail. i composed a new email switched to my business account, it saved to draft a few times as i as was trying to find the cheque book, i didnt leave the screen. i sent the email only to find it was sent from my personal email with the business account name. saved to my personal sent folder but with the business name/email being displayed, the replied message displays it was sent from personal so k9mail was not displaying the correct email sent from. seems like a rare occurrence and i dont know how to reproduce it. i looked in the catlog (nothing), i realized i should of enabled extra debugging. i will update if it happens again
+	</description>
+		</report>
+		<report Number="50">
+			<summary>widget is 2x2 instead of 1x1</summary>
+			<url>https://github.com/k9mail/k-9/issues/966</url>
+			<bugID>Issue #966</bugID>
+			<label>bug</label>
+			<description>
+		would like to use it like an appicon, the actual space it uses is only 1x1, but it instead centers itself in a 2x2 space, making it look write quite ugly too. (works properly on my old Sony)
+	</description>
+		</report>
+		<report Number="51">
+			<summary>Hide alternate email address popup when user continues to type</summary>
+			<url>https://github.com/k9mail/k-9/issues/979</url>
+			<bugID>Issue #979</bugID>
+			<label>bug</label>
+			<description>
+		When using a hardware keyboard it's possible to continue writing text while the dialog to select alternate email addresses is displayed. The can lead to the auto-complete popup being drawn on top of the alternate address popup.
+	</description>
+		</report>
+		<report Number="52">
+			<summary>Settings Export/Import</summary>
+			<url>https://github.com/k9mail/k-9/issues/990</url>
+			<bugID>Issue #990</bugID>
+			<label>bug</label>
+			<description>
+		I have 3 accounts in K9 and performed an export from an old device to a new device. Only one account (IMAP) worked afterwards. The two POP3 accounts did not work after import. I had to delete and recreate the accounts for the two POP3 mailboxes in order for them to work. I can provide the settings file (privately) if needed.
+	</description>
+		</report>
+		<report Number="53">
+			<summary>No valid OpenPGP block found</summary>
+			<url>https://github.com/k9mail/k-9/issues/1008</url>
+			<bugID>Issue #1008</bugID>
+			<label>bug</label>
+			<description>
+		Hi! I am not sure, whether this is an openkeychain issue or a k9 mail issue, that's why I'd like to post it here again: open-keychain/open-keychain#1665 I use K9 5.007 and OpenKeyChain 3.7 on my Android with CM 12.1. When I reply a mail, K9 mail adds the old message quoted like this: This is the reply mail followed by the quotation of the original mail: -----BEGIN PGP MESSAGE----- Charset: utf-8 Version: GnuPG v2 hQIMA324sfl24ltklwqfl2tl2gw However, K9 mail cannot decrypt my sent message then and Thunderbird tells me that no valid OpenPGP block could be found. This is how the sent mail looks then: -----BEGIN PGP MESSAGE----- hQIMAypJd8s8JCpBAQ//fWrPkSHfvGyh9YPbIn9OhQCOKCQM2yUusUiGbOxYPxbZ When I compare it to a working encrypted mail -----END PGP MESSAGE----- is missing here at the end of the mail. So only a part of the encrypted messages seems to be sent! How can I help you to narrow down the problem?
+	</description>
+		</report>
+		<report Number="54">
+			<summary>Note 4 display keeps switching on</summary>
+			<url>https://github.com/k9mail/k-9/issues/1024</url>
+			<bugID>Issue #1024</bugID>
+			<label>bug</label>
+			<description>
+		Display on my new Note 4 would keep switching on for no reason. Finally discovered K9 was causing issue if email saved to draft...............when draft deleted, issue stopped.
+	</description>
+		</report>
+		<report Number="55">
+			<summary>Message Send Failed &quot;Signing requested, but no key selected!&quot;</summary>
+			<url>https://github.com/k9mail/k-9/issues/1050</url>
+			<bugID>Issue #1050</bugID>
+			<label>bug</label>
+			<description>
+		On the current git HEAD, on a device without any PGP apps installed, composing and then sending a message fails with a toast saying &quot;Signing requested, but no key selected!&quot;. The effect of this is that e-mails can't ever be sent. Looking at the code this seems to be due to line 51 of RecipientPresenter.java which checks isMissingSignKey() which is true when signingKeyId is null in the current cryptoStatus. If no PGP app is installed that value will always be null. I think the proper solution would be to have isMissingSignKey() also check if cryptoStatus.cryptoMode is CryptoMode.DISABLE and also set the currentCryptoMode, which currently defaults to CryptoMode.OPPORTUNISTIC, to default to CryptoMode.DISABLE as users without OpenPGP can't even open the menu to change modes. The following commit shows what I propose: adamsmd/k-9@1067f1b I didn't see anywhere that the current code saves a preference for currentCryptoMode. So I assume this is a feature still in development, but this change will allow users without OpenPGP to continue using and testing HEAD.
+	</description>
+		</report>
+		<report Number="56">
+			<summary>Wrong image showing in e-mail body</summary>
+			<url>https://github.com/k9mail/k-9/issues/1063</url>
+			<bugID>Issue #1063</bugID>
+			<label>bug</label>
+			<description>
+		When I look at an e-mail, the image (company logo of the recipient) at the bottom of the body is the wrong one. The image displayed belongs to a completely different e-mail from a completely different sender. It sounds to me that maybe the image in both e-mails have the same name and for an unknown reason, K9 do not show the correct one. I'm using K9 version 5.007 on Android version 5.1
+	</description>
+		</report>
+		<report Number="57">
+			<summary>K9 crashes when 15+ folders exist</summary>
+			<url>https://github.com/k9mail/k-9/issues/1065</url>
+			<bugID>Issue #1065</bugID>
+			<label>bug</label>
+			<description>
+		I have a Samsung Galaxy Note 3, running Android 5.0 and K9 5.007. If I set K9 to pull my IMAP folder list, just 1st class standard folders, everything is fine. If I have it set to 1st and 2nd, which loads between. 15 and 20 folders, K9 always crashes. It's not even downloading the folders' contents, just the folder names themselves at that point.
+	</description>
+		</report>
+		<report Number="58">
+			<summary>Opening no-more-existent mail crashes K9</summary>
+			<url>https://github.com/k9mail/k-9/issues/1079</url>
+			<bugID>Issue #1079</bugID>
+			<label>bug</label>
+			<description>
+		Did delete a Mail from my IMAP account while my device running K9 had no internet connection. Then (once the device was connected to the internet again) tried to open this Mail =&gt; Crash. Might this be the root cause of Bug #814? Expected behaviour If I try to open a no-more existing mail I would expect to be returned to the current thread and, if the current thread does no more exist, as well, to the inbox. Actual behaviour K9 sometimes (about 10% of the time) crashes Steps to reproduce Use an IMAP account Make sure that K9 cannot see immediately that an e-mail has been deleted Delete an E-Mail from outside K9 Try to open this E-Mail using K9. Environment K-9 Mail version: Android version: Account type (IMAP, POP3, WebDAV/Exchange): Thanks a lot, and kind regards,  Gunter
+	</description>
+		</report>
+		<report Number="59">
+			<summary>Failed to export settings</summary>
+			<url>https://github.com/k9mail/k-9/issues/1100</url>
+			<bugID>Issue #1100</bugID>
+			<label>bug</label>
+			<description>
+		Expected behaviour Export settings to local file Actual behaviour &quot;Failed to export settings&quot; 02-16 17:18:34.093 I/k9 (10989): Exporting preferences 02-16 17:18:34.133 W/k9 (10989): Exception during export 02-16 17:18:34.133 W/k9 (10989): com.fsck.k9.preferences.SettingsImportExportException: com.fsck.k9.preferences.SettingsImportExportException: Not a valid transport URI 02-16 17:18:34.133 W/k9 (10989): at com.fsck.k9.preferences.SettingsExporter.exportToFile(SettingsExporter.java:99) 02-16 17:18:34.133 W/k9 (10989): at com.fsck.k9.activity.Accounts$ExportAsyncTask.doInBackground(Accounts.java:1949) 02-16 17:18:34.133 W/k9 (10989): at com.fsck.k9.activity.Accounts$ExportAsyncTask.doInBackground(Accounts.java:1926) 02-16 17:18:34.133 W/k9 (10989): at android.os.AsyncTask$2.call(AsyncTask.java:288) 02-16 17:18:34.133 W/k9 (10989): at java.util.concurrent.FutureTask.run(FutureTask.java:237) 02-16 17:18:34.133 W/k9 (10989): at android.os.AsyncTask$SerialExecutor$1.run(AsyncTask.java:231) 02-16 17:18:34.133 W/k9 (10989): at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1112) 02-16 17:18:34.133 W/k9 (10989): at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:587) 02-16 17:18:34.133 W/k9 (10989): at java.lang.Thread.run(Thread.java:841) 02-16 17:18:34.133 W/k9 (10989): Caused by: com.fsck.k9.preferences.SettingsImportExportException: Not a valid transport URI 02-16 17:18:34.133 W/k9 (10989): at com.fsck.k9.preferences.SettingsExporter.exportPreferences(SettingsExporter.java:164) 02-16 17:18:34.133 W/k9 (10989): at com.fsck.k9.preferences.SettingsExporter.exportToFile(SettingsExporter.java:94) 02-16 17:18:34.133 W/k9 (10989): ... 8 more 02-16 17:18:34.133 W/k9 (10989): Caused by: java.lang.IllegalArgumentException: Not a valid transport URI 02-16 17:18:34.133 W/k9 (10989): at com.fsck.k9.mail.Transport.decodeTransportUri(Transport.java:43) 02-16 17:18:34.133 W/k9 (10989): at com.fsck.k9.preferences.SettingsExporter.writeAccount(SettingsExporter.java:257) 02-16 17:18:34.133 W/k9 (10989): at com.fsck.k9.preferences.SettingsExporter.exportPreferences(SettingsExporter.java:155) 02-16 17:18:34.133 W/k9 (10989): ... 9 more Steps to reproduce Try to export settings 2. 3. Environment K-9 Mail version: 5.008 Android version: Nexus 7 2013 v4.4 / rooted Account type (IMAP, POP3, WebDAV/Exchange): N/A
+	</description>
+		</report>
+		<report Number="60">
+			<summary>Notification stays after reading e-mail</summary>
+			<url>https://github.com/k9mail/k-9/issues/1110</url>
+			<bugID>Issue #1110</bugID>
+			<label>bug</label>
+			<description>
+		Expected behaviour Notification disappears after reading an e-mail. Actual behaviour The notification stays after reading the e-mail, when the e-mail was received by refreshing the inbox out of the inbox. Steps to reproduce Go to the inbox, where you expect to get an e-mail in. Refresh the inbox, so you receive the e-mail. Click on the new e-mail to read it. (optional) Go back to the inbox by any back button. You see the e-mail is definitely marked unread. Press the home button to leave K-9. Environment K-9 Mail version: 5.008 Android version: 5.1.1 Account type (IMAP, POP3, WebDAV/Exchange): IMAP
+	</description>
+		</report>
+		<report Number="61">
+			<summary>Error with message count 0 in imap folders</summary>
+			<url>https://github.com/k9mail/k-9/issues/1139</url>
+			<bugID>Issue #1139</bugID>
+			<label>bug</label>
+			<description>
+		Expected behaviour nothing (no error) Actual behaviour 03-03 11:54:12.420 E/k9      (22700): java.lang.Exception: Message count 0 for folder Drafts
+03-03 11:54:12.420 E/k9      (22700):   at com.fsck.k9.controller.MessagingController.synchronizeMailboxSynchronous(MessagingController.java:931)
+03-03 11:54:12.420 E/k9      (22700):   at com.fsck.k9.controller.MessagingController.access$300(MessagingController.java:99)
+03-03 11:54:12.420 E/k9      (22700):   at com.fsck.k9.controller.MessagingController$8.run(MessagingController.java:754)
+03-03 11:54:12.420 E/k9      (22700):   at com.fsck.k9.controller.MessagingController.run(MessagingController.java:257)
+03-03 11:54:12.420 E/k9      (22700):   at java.lang.Thread.run(Thread.java:833)
+ Steps to reproduce build and install revision 150fc82 configure imap account start k-9 Environment K-9 Mail version: revision 150fc82 Android version: 6 (Marshmallow) Account type (IMAP, POP3, WebDAV/Exchange): IMAP
+	</description>
+		</report>
+		<report Number="62">
+			<summary>Can't send message without crypto provider</summary>
+			<url>https://github.com/k9mail/k-9/issues/1150</url>
+			<bugID>Issue #1150</bugID>
+			<label>bug</label>
+			<description>
+		Expected behaviour Message should be sent unsigned. Actual behaviour Without an installed crypto provider sending a message fails with the message &quot;No key configured for signing! Please check your settings.&quot; Steps to reproduce Open compose activity Fill in recipient, subject and message text Tap 'send' Environment K-9 Mail version: master / 833e1cc Android version: 5.1
+	</description>
+		</report>
+		<report Number="63">
+			<summary>State of crypto mode selector lost on configuration change</summary>
+			<url>https://github.com/k9mail/k-9/issues/1151</url>
+			<bugID>Issue #1151</bugID>
+			<label>bug</label>
+			<description>
+		Expected behaviour Retain selected state on configuration changes. Actual behaviour Selected state is lost on configuration change. Steps to reproduce Use crypto mode selector to change crypto mode Rotate device Observe crypto mode indicator reverting display to default mode. Environment K-9 Mail version: master / 833e1cc Android version: 5.1
+	</description>
+		</report>
+		<report Number="64">
+			<summary>can't compose Mails on fairphone2</summary>
+			<url>https://github.com/k9mail/k-9/issues/1161</url>
+			<bugID>Issue #1161</bugID>
+			<label>bug</label>
+			<description>
+		Expected behaviour Getting editor to write mail or answer in mail Actual behaviour Get only a white page Steps to reproduce click on New mail symbol only white screen to see Environment K-9 Mail version: 5.008 Android version: Account type (IMAP, POP3, WebDAV/Exchange): imap
+	</description>
+		</report>
+		<report Number="65">
+			<summary>Select all is broken</summary>
+			<url>https://github.com/k9mail/k-9/issues/1176</url>
+			<bugID>Issue #1176</bugID>
+			<label>bug</label>
+			<description>
+		Expected behaviour Select all in inbox should mark all emails as selected Actual behaviour K-9 mail crashes Steps to reproduce Select all 2.Crash 3. Environment K-9 Mail version: 5.008 Android version: 6.0 Account type (IMAP, POP3, WebDAV/Exchange): POP3
+	</description>
+		</report>
+		<report Number="66">
+			<summary>NPE/Null object reference crash when attempting to decode certain messages</summary>
+			<url>https://github.com/k9mail/k-9/issues/1201</url>
+			<bugID>Issue #1201</bugID>
+			<label>bug</label>
+			<description>
+		Expected behaviour Email should be decoded and displayed properly Actual behaviour K-9 mail crashes, due to an NPE Steps to reproduce (Attached email in .eml format) Download attached message to K-9 mail Attempt to view the message Environment K-9 Mail version: 5.108 (build from current master as of 2016-03-22) Android version: 6.0.1 Device: Nexus 6P Account type (IMAP, POP3, WebDAV/Exchange): IMAP Crash logs 03-22 11:02:07.340 E/k9      (20726): Error while decoding message
+03-22 11:02:07.340 E/k9      (20726): java.lang.RuntimeException: Not supported
+03-22 11:02:07.340 E/k9      (20726):   at com.fsck.k9.mailstore.LocalMessageExtractor.extractAttachmentInfo(LocalMessageExtractor.java:529)
+03-22 11:02:07.340 E/k9      (20726):   at com.fsck.k9.mailstore.LocalMessageExtractor.extractAttachmentInfos(LocalMessageExtractor.java:502)
+03-22 11:02:07.340 E/k9      (20726):   at com.fsck.k9.mailstore.LocalMessageExtractor.decodeMessageForView(LocalMessageExtractor.java:444)
+03-22 11:02:07.340 E/k9      (20726):   at com.fsck.k9.ui.message.DecodeMessageLoader.loadInBackground(DecodeMessageLoader.java:46)
+03-22 11:02:07.340 E/k9      (20726):   at com.fsck.k9.ui.message.DecodeMessageLoader.loadInBackground(DecodeMessageLoader.java:15)
+03-22 11:02:07.340 E/k9      (20726):   at android.content.AsyncTaskLoader.onLoadInBackground(AsyncTaskLoader.java:312)
+03-22 11:02:07.340 E/k9      (20726):   at android.content.AsyncTaskLoader$LoadTask.doInBackground(AsyncTaskLoader.java:69)
+03-22 11:02:07.340 E/k9      (20726):   at android.content.AsyncTaskLoader$LoadTask.doInBackground(AsyncTaskLoader.java:66)
+03-22 11:02:07.340 E/k9      (20726):   at android.os.AsyncTask$2.call(AsyncTask.java:295)
+03-22 11:02:07.340 E/k9      (20726):   at java.util.concurrent.FutureTask.run(FutureTask.java:237)
+03-22 11:02:07.340 E/k9      (20726):   at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1113)
+03-22 11:02:07.340 E/k9      (20726):   at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:588)
+03-22 11:02:07.340 E/k9      (20726):   at java.lang.Thread.run(Thread.java:818)
+03-22 11:02:07.357 E/AndroidRuntime(20726): FATAL EXCEPTION: main
+03-22 11:02:07.357 E/AndroidRuntime(20726): Process: com.fsck.k9, PID: 20726
+03-22 11:02:07.357 E/AndroidRuntime(20726): java.lang.NullPointerException: Attempt to read from field 'com.fsck.k9.mail.Message com.fsck.k9.mailstore.MessageViewInfo.message' on a null object reference
+03-22 11:02:07.357 E/AndroidRuntime(20726):     at com.fsck.k9.ui.messageview.MessageTopView.setMessage(MessageTopView.java:90)
+03-22 11:02:07.357 E/AndroidRuntime(20726):     at com.fsck.k9.ui.messageview.MessageViewFragment.showMessage(MessageViewFragment.java:281)
+03-22 11:02:07.357 E/AndroidRuntime(20726):     at com.fsck.k9.ui.messageview.MessageViewFragment.onDecodeMessageFinished(MessageViewFragment.java:276)
+03-22 11:02:07.357 E/AndroidRuntime(20726):     at com.fsck.k9.ui.messageview.MessageViewFragment.access$1200(MessageViewFragment.java:57)
+03-22 11:02:07.357 E/AndroidRuntime(20726):     at com.fsck.k9.ui.messageview.MessageViewFragment$DecodeMessageLoaderCallback.onLoadFinished(MessageViewFragment.java:755)
+03-22 11:02:07.357 E/AndroidRuntime(20726):     at com.fsck.k9.ui.messageview.MessageViewFragment$DecodeMessageLoaderCallback.onLoadFinished(MessageViewFragment.java:745)
+03-22 11:02:07.357 E/AndroidRuntime(20726):     at android.app.LoaderManagerImpl$LoaderInfo.callOnLoadFinished(LoaderManager.java:483)
+03-22 11:02:07.357 E/AndroidRuntime(20726):     at android.app.LoaderManagerImpl$LoaderInfo.onLoadComplete(LoaderManager.java:451)
+03-22 11:02:07.357 E/AndroidRuntime(20726):     at android.content.Loader.deliverResult(Loader.java:144)
+03-22 11:02:07.357 E/AndroidRuntime(20726):     at com.fsck.k9.ui.message.DecodeMessageLoader.deliverResult(DecodeMessageLoader.java:40)
+03-22 11:02:07.357 E/AndroidRuntime(20726):     at com.fsck.k9.ui.message.DecodeMessageLoader.deliverResult(DecodeMessageLoader.java:15)
+03-22 11:02:07.357 E/AndroidRuntime(20726):     at android.content.AsyncTaskLoader.dispatchOnLoadComplete(AsyncTaskLoader.java:265)
+03-22 11:02:07.357 E/AndroidRuntime(20726):     at android.content.AsyncTaskLoader$LoadTask.onPostExecute(AsyncTaskLoader.java:92)
+03-22 11:02:07.357 E/AndroidRuntime(20726):     at android.os.AsyncTask.finish(AsyncTask.java:651)
+03-22 11:02:07.357 E/AndroidRuntime(20726):     at android.os.AsyncTask.-wrap1(AsyncTask.java)
+03-22 11:02:07.357 E/AndroidRuntime(20726):     at android.os.AsyncTask$InternalHandler.handleMessage(AsyncTask.java:668)
+03-22 11:02:07.357 E/AndroidRuntime(20726):     at android.os.Handler.dispatchMessage(Handler.java:102)
+03-22 11:02:07.357 E/AndroidRuntime(20726):     at android.os.Looper.loop(Looper.java:148)
+03-22 11:02:07.357 E/AndroidRuntime(20726):     at android.app.ActivityThread.main(ActivityThread.java:5422)
+03-22 11:02:07.357 E/AndroidRuntime(20726):     at java.lang.reflect.Method.invoke(Native Method)
+03-22 11:02:07.357 E/AndroidRuntime(20726):     at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:726)
+03-22 11:02:07.357 E/AndroidRuntime(20726):     at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:616)
+ Your PVWC eBill is Ready - Anonymized.eml.txt
+	</description>
+		</report>
+		<report Number="67">
+			<summary>Issue when deleting recipient &quot;chip&quot;</summary>
+			<url>https://github.com/k9mail/k-9/issues/1204</url>
+			<bugID>Issue #1204</bugID>
+			<label>bug</label>
+			<description>
+		Expected behaviour Pressing backspace on (soft) keyboard should remove recipient &quot;chip&quot;. Actual behaviour Still seeing the toString() output (see PR #1202). Steps to reproduce Add two recipients Move focus to different input field Move focus back to &quot;To&quot; field Press backspace See toString() output for second recipient Environment K-9 Mail version: b586522 Android version: 6.0.1
+	</description>
+		</report>
+		<report Number="68">
+			<summary>Unable to send messages to servers that don't support 8-bit encoding</summary>
+			<url>https://github.com/k9mail/k-9/issues/1206</url>
+			<bugID>Issue #1206</bugID>
+			<label>bug</label>
+			<description>
+		Expected behaviour Message should be delivered to outgoing mail server Actual behaviour Get a &quot;failed to send message&quot; error, message is put in drafts Steps to reproduce create message send Environment K-9 Mail version: 5.108 Android version: 6.0.1 Account type (IMAP, POP3, WebDAV/Exchange): imap (but this is only a send issue, retrieving mail works fine). fail-to-send.txt This is against Rackspace's mail service -- secure.emailsrvr.com -- port 465 - ssl/tls They only support TLS1.0 and above. Picking up mail from their server works fine, as does the outgoing mail server test during setup/configuration. Did an upgrade to the 5.108 alpha on this device, and a re-install on samsung android 5.x devices, encountering the same issue on all. The same K-9 works fine sending to gmail, with basically the same outgoing mail server settings (465 - ssl/tls).
+	</description>
+		</report>
+		<report Number="69">
+			<summary>Crypto icon grey on reply</summary>
+			<url>https://github.com/k9mail/k-9/issues/1224</url>
+			<bugID>Issue #1224</bugID>
+			<label>bug</label>
+			<description>
+		When replying to an encrypted email, the crypto Icon in the top right corner is grey, but should instead be orange/green. After clicking on it and closing the dialog it is correct.
+	</description>
+		</report>
+		<report Number="70">
+			<summary>Crash on screen rotate with OpenPGP handled message</summary>
+			<url>https://github.com/k9mail/k-9/issues/1227</url>
+			<bugID>Issue #1227</bugID>
+			<label>bug</label>
+			<description>
+		Expected behaviour Message should be re-rendered in landscape. Actual behaviour Application crashes with following exception. 03-29 08:40:55.041 12045-12045/com.fsck.k9.debug E/AndroidRuntime: FATAL EXCEPTION: main
+                                                                   Process: com.fsck.k9.debug, PID: 12045
+                                                                   java.util.NoSuchElementException
+                                                                       at java.util.ArrayDeque.removeFirst(ArrayDeque.java:248)
+                                                                       at com.fsck.k9.ui.crypto.MessageCryptoHelper.onCryptoFinished(MessageCryptoHelper.java:454)
+                                                                       at com.fsck.k9.ui.crypto.MessageCryptoHelper.onCryptoSuccess(MessageCryptoHelper.java:438)
+                                                                       at com.fsck.k9.ui.crypto.MessageCryptoHelper.handleCryptoOperationSuccess(MessageCryptoHelper.java:420)
+                                                                       at com.fsck.k9.ui.crypto.MessageCryptoHelper.handleCryptoOperationResult(MessageCryptoHelper.java:379)
+                                                                       at com.fsck.k9.ui.crypto.MessageCryptoHelper.onCryptoOperationReturned(MessageCryptoHelper.java:353)
+                                                                       at com.fsck.k9.ui.crypto.MessageCryptoHelper.access$400(MessageCryptoHelper.java:49)
+                                                                       at com.fsck.k9.ui.crypto.MessageCryptoHelper$4.onReturn(MessageCryptoHelper.java:250)
+                                                                       at org.openintents.openpgp.util.OpenPgpApi$OpenPgpAsyncTask.onPostExecute(OpenPgpApi.java:298)
+                                                                       at org.openintents.openpgp.util.OpenPgpApi$OpenPgpAsyncTask.onPostExecute(OpenPgpApi.java:279)
+                                                                       at android.os.AsyncTask.finish(AsyncTask.java:651)
+                                                                       at android.os.AsyncTask.-wrap1(AsyncTask.java)
+                                                                       at android.os.AsyncTask$InternalHandler.handleMessage(AsyncTask.java:668)
+                                                                       at android.os.Handler.dispatchMessage(Handler.java:102)
+                                                                       at android.os.Looper.loop(Looper.java:148)
+                                                                       at android.app.ActivityThread.main(ActivityThread.java:5422)
+                                                                       at java.lang.reflect.Method.invoke(Native Method)
+                                                                       at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:726)
+                                                                       at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:616)
+ Email available on request. Steps to reproduce Receive a message that has been signed Open the message. Rotate the phone to landscape Environment K-9 Mail version: commit 74c6e76 (current master) OpenKeychain version: 3.9.4 Android version: 6.0.1 Account type (IMAP, POP3, WebDAV/Exchange): IMAP
+	</description>
+		</report>
+		<report Number="71">
+			<summary>ClassNotFoundException: com.fsck.k9.search.LocalSearch</summary>
+			<url>https://github.com/k9mail/k-9/issues/1240</url>
+			<bugID>Issue #1240</bugID>
+			<label>bug</label>
+			<description>
+		Expected behaviour Classes should exist Actual behaviour 03-31 12:40:23.101 E/Parcel  (  927): Class not found when unmarshalling: com.fsck.k9.search.LocalSearch^M
+03-31 12:40:23.101 E/Parcel  (  927): java.lang.ClassNotFoundException: com.fsck.k9.search.LocalSearch^M
+03-31 12:40:23.101 E/Parcel  (  927):   at java.lang.Class.classForName(Native Method)^M
+03-31 12:40:23.101 E/Parcel  (  927):   at java.lang.Class.forName(Class.java:308)^M
+03-31 12:40:23.101 E/Parcel  (  927):   at java.lang.Class.forName(Class.java:272)^M
+03-31 12:40:23.101 E/Parcel  (  927):   at android.os.Parcel.readParcelableCreator(Parcel.java:2275)^M
+03-31 12:40:23.101 E/Parcel  (  927):   at android.os.Parcel.readParcelable(Parcel.java:2239)^M
+03-31 12:40:23.101 E/Parcel  (  927):   at android.os.Parcel.readValue(Parcel.java:2146)^M
+03-31 12:40:23.101 E/Parcel  (  927):   at android.os.Parcel.readArrayMapInternal(Parcel.java:2479)^M
+03-31 12:40:23.101 E/Parcel  (  927):   at android.os.BaseBundle.unparcel(BaseBundle.java:221)^M
+03-31 12:40:23.101 E/Parcel  (  927):   at android.os.BaseBundle.getString(BaseBundle.java:918)^M
+03-31 12:40:23.101 E/Parcel  (  927):   at android.content.Intent.getStringExtra(Intent.java:5378)^M
+03-31 12:40:23.101 E/Parcel  (  927):   at com.android.server.am.ActivityStackSupervisor.startActivityLocked(ActivityStackSupervisor.java:1759)^M
+03-31 12:40:23.101 E/Parcel  (  927):   at com.android.server.am.ActivityStackSupervisor.startActivityMayWait(ActivityStackSupervisor.java:1305)^M
+03-31 12:40:23.101 E/Parcel  (  927):   at com.android.server.am.ActivityManagerService.startActivityAsUser(ActivityManagerService.java:4616)^M
+03-31 12:40:23.101 E/Parcel  (  927):   at com.android.server.am.ActivityManagerService.startActivity(ActivityManagerService.java:4454)^M
+03-31 12:40:23.101 E/Parcel  (  927):   at android.app.ActivityManagerNative.onTransact(ActivityManagerNative.java:142)^M
+03-31 12:40:23.101 E/Parcel  (  927):   at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:3021)^M
+03-31 12:40:23.101 E/Parcel  (  927):   at android.os.Binder.execTransact(Binder.java:446)^M
+03-31 12:40:23.101 E/Parcel  (  927): Caused by: java.lang.ClassNotFoundException: Didn't find class &quot;com.fsck.k9.search.LocalSearch&quot; on path: DexPathList[[directory &quot;.&quot;],nativeLibraryDirectories=[/vendor/lib, /system/lib]]^M
+03-31 12:40:23.101 E/Parcel  (  927):   at dalvik.system.BaseDexClassLoader.findClass(BaseDexClassLoader.java:56)^M
+03-31 12:40:23.101 E/Parcel  (  927):   at java.lang.ClassLoader.loadClass(ClassLoader.java:511)^M
+03-31 12:40:23.101 E/Parcel  (  927):   at java.lang.ClassLoader.loadClass(ClassLoader.java:469)^M
+03-31 12:40:23.101 E/Parcel  (  927):   ... 17 more^M
+03-31 12:40:23.101 E/Parcel  (  927):   Suppressed: java.lang.ClassNotFoundException: com.fsck.k9.search.LocalSearch^M
+03-31 12:40:23.101 E/Parcel  (  927):           at java.lang.Class.classForName(Native Method)^M
+03-31 12:40:23.101 E/Parcel  (  927):           at java.lang.BootClassLoader.findClass(ClassLoader.java:781)^M
+03-31 12:40:23.101 E/Parcel  (  927):           at java.lang.BootClassLoader.loadClass(ClassLoader.java:841)^M
+03-31 12:40:23.101 E/Parcel  (  927):           at java.lang.ClassLoader.loadClass(ClassLoader.java:504)^M
+03-31 12:40:23.101 E/Parcel  (  927):           ... 18 more^M
+03-31 12:40:23.101 E/Parcel  (  927):   Caused by: java.lang.NoClassDefFoundError: Class not found using the boot class loader; no stack available
+ Steps to reproduce TBD Environment K-9 Mail version: TBD Android version: TBD Account type (IMAP, POP3, WebDAV/Exchange): N/A / TBD
+	</description>
+		</report>
+		<report Number="72">
+			<summary>FileBackedBody parts are sometimes not saved correctly</summary>
+			<url>https://github.com/k9mail/k-9/issues/1243</url>
+			<bugID>Issue #1243</bugID>
+			<label>bug</label>
+			<description>
+		Expected behaviour Tell us what should happen Content should be displayed Actual behaviour Tell us what happens instead Empty view with warnings about the non encryption status. Clicking on reply shows the plain text part of the mail, so it really is just an ui rendering problem. Steps to reproduce Open a multipart mail in k9 2. 3. Environment K-9 Mail version: latest dev release (5.108) Android version: 6 Account type (IMAP, POP3, WebDAV/Exchange): IMAP I guess this behavior was probably already reported, but I couldn't find am issue. Sorry. Happy to help debugging this if I am the first reporter.
+	</description>
+		</report>
+		<report Number="73">
+			<summary>Application crash: no free notification ID</summary>
+			<url>https://github.com/k9mail/k-9/issues/1245</url>
+			<bugID>Issue #1245</bugID>
+			<label>bug</label>
+			<description>
+		Expected behaviour Can view folder having retrieved unread mail. Actual behaviour Application crash (K-9 has stopped) Steps to reproduce Find a folder with mail server side that hasn't yet been synced Pull-refresh the folder Application crash reported --------- beginning of crash
+04-01 08:48:47.502 9926-9959/com.fsck.k9.debug E/AndroidRuntime: FATAL EXCEPTION: MessagingController
+            Process: com.fsck.k9.debug, PID: 9926
+            java.lang.AssertionError: getNewNotificationId() called with no free notification ID
+                at com.fsck.k9.notification.NotificationData.getNewNotificationId(NotificationData.java:77)
+                at com.fsck.k9.notification.NotificationData.addNotificationContent(NotificationData.java:46)
+                at com.fsck.k9.notification.NewMailNotifications.addNewMailNotification(NewMailNotifications.java:56)
+                at com.fsck.k9.notification.NotificationController.addNewMailNotification(NotificationController.java:95)
+                at com.fsck.k9.controller.MessagingController.downloadLargeMessages(MessagingController.java:1584)
+                at com.fsck.k9.controller.MessagingController.downloadMessages(MessagingController.java:1218)
+                at com.fsck.k9.controller.MessagingController.synchronizeMailboxSynchronous(MessagingController.java:979)
+                at com.fsck.k9.controller.MessagingController$8.run(MessagingController.java:764)
+                at com.fsck.k9.controller.MessagingController.run(MessagingController.java:267)
+                at java.lang.Thread.run(Thread.java:818)
+ Environment K-9 Mail version: 74c6e76 Android version: 6.0.1 Account type (IMAP, POP3, WebDAV/Exchange): IMAP
+	</description>
+		</report>
+		<report Number="74">
+			<summary>Reply flag is not set anymore when replying to a mail</summary>
+			<url>https://github.com/k9mail/k-9/issues/1250</url>
+			<bugID>Issue #1250</bugID>
+			<label>bug</label>
+			<description>
+		Expected behaviour Reply flag is set when replying to a mail. Actual behaviour When replying to a mail I do not see a reply flag for the original mail I replied to. When checking the account with a different client (web/Thunderbird) I do not see a flag, too. So it is no frontend bug, the flag is not set anymore, beginning with 5.108. Steps to reproduce See above. Environment K-9 Mail version: 5.108 Android version: CM 12.1 Account type (IMAP, POP3, WebDAV/Exchange): IMAP
+	</description>
+		</report>
+		<report Number="75">
+			<summary>App crashed by typing address in the address field when composing a message</summary>
+			<url>https://github.com/k9mail/k-9/issues/1251</url>
+			<bugID>Issue #1251</bugID>
+			<label>bug</label>
+			<description>
+		Expected behaviour Should be possible typing addresses into the address field. Actual behaviour App crashed by typing address in the address field Steps to reproduce Click the compose icon Try to type a address into the &quot;To:&quot; field Environment K-9 Mail version: 5.108 (current alpha) Android version: 5.0 Account type (IMAP, POP3, WebDAV/Exchange): IMAP
+	</description>
+		</report>
+		<report Number="76">
+			<summary>Some e-mails are unreadable after decryption</summary>
+			<url>https://github.com/k9mail/k-9/issues/1252</url>
+			<bugID>Issue #1252</bugID>
+			<label>bug</label>
+			<description>
+		Expected behaviour Mail should be readable Actual behaviour See screenshot Steps to reproduce I don't know when this will happens. Some mails shown correct, some mails like on screenshot. Environment Environment K-9 Mail version: 5.108 (current alpha) Android version: 5.0 Account type (IMAP, POP3, WebDAV/Exchange): IMAP
+	</description>
+		</report>
+		<report Number="77">
+			<summary>v5.009 does not use default and chosen language</summary>
+			<url>https://github.com/k9mail/k-9/issues/1254</url>
+			<bugID>Issue #1254</bugID>
+			<label>bug</label>
+			<description>
+		I have two Android. On Android 4.4.4, v5.008 uses Japanese as default language. But v5.009 uses English. I try set Japanese explicitly, but no effect. On Android 4.1.2, v5.009 uses Japanese.
+	</description>
+		</report>
+		<report Number="78">
+			<summary>K9 deletes Text on Phone Flip</summary>
+			<url>https://github.com/k9mail/k-9/issues/1268</url>
+			<bugID>Issue #1268</bugID>
+			<label>bug</label>
+			<description>
+		I just entered text in the sig area, flipped the phone from horizontal to verticsl, text was gone. Version? No way to tell, latest from Play.
+	</description>
+		</report>
+		<report Number="79">
+			<summary>Crash viewing an application/pgp message</summary>
+			<url>https://github.com/k9mail/k-9/issues/1271</url>
+			<bugID>Issue #1271</bugID>
+			<label>bug</label>
+			<description>
+		Hi Philip, as discussed on the mailing list, here a crash log. To repeat: I have a message with Content-Type: application/pgp; format=text; x-action=encrypt
+ where opening the message consistenly crashes K9, version 5.108 Hope the log helps, let me know if you need any testing. Norbert k9-crash-log.txt
+	</description>
+		</report>
+		<report Number="80">
+			<summary>Thread listed multiple times in the message list</summary>
+			<url>https://github.com/k9mail/k-9/issues/1275</url>
+			<bugID>Issue #1275</bugID>
+			<label>bug</label>
+			<description>
+		Sometimes threads are listed more than once in the message list. This is because of a bug in the query to create the threaded message list in EmailProvider. Usually the latest message in a thread is displayed. But when multiple messages have the same timestamp all of them are displayed. Environment K-9 Mail version: 5.108
+	</description>
+		</report>
+		<report Number="81">
+			<summary>Recipient box background colour not changed in dark theme when composing.</summary>
+			<url>https://github.com/k9mail/k-9/issues/1277</url>
+			<bugID>Issue #1277</bugID>
+			<label>bug</label>
+			<description>
+		Expected behaviour The recipient box with the real name/email in it should be themed to be dark when the user has a dark theme enabled. Actual behaviour The background stays the same colour, but the text is themed to be lighter. This makes the background and foreground very similar, making the box hard to read. Steps to reproduce Enable dark theme Enter any recipient in the &quot;To: &quot; box Environment K-9 Mail version: 5.108 Android version: 5.1.1 Account type (IMAP, POP3, WebDAV/Exchange): IMAP
+	</description>
+		</report>
+		<report Number="82">
+			<summary>multipart HTML messages not displaying</summary>
+			<url>https://github.com/k9mail/k-9/issues/1368</url>
+			<bugID>Issue #1368</bugID>
+			<label>bug</label>
+			<description>
+		Since updating to the 5.108 prerelease, I can no longer see the body of some multipart HTML emails. The header appears intact, and the messages appear fine in other mail clients. Plain text mail is fine, as are many HTML emails. I think the failing ones all have inline attachments (graphics) but I'm not 100% sure of that. When I turn on debugging and &quot;adb logcat&quot; I see the following exception appear each time I try to view a problematic HTML email. Devices: Google Nexus 5X, latest Marshmallow 6.0.1 Sony Tablet Z2, Marshmallow 6.0.1, February update. Perhaps unrelated, I did have to force k-9 to request the IMAP folder list after the update to see all of my folders besides just the INBOX, Trash, etc. I tried &quot;Clear local messages&quot; for my Inbox, but that did not change the behavior. I have not yet dared to try &quot;Clear messages&quot; or &quot;Recreate data&quot; on the account. 05-10 13:51:34.286 D/k9 ( 9362): MessageView displaying message MessageReference{accountUuid='9f5ff35a-c63f-4071-853b-9c8aec540551', folderName='INBOX', uid='319609', flag=null} 05-10 13:51:34.362 E/k9 ( 9362): Unable to getTextFromPart 05-10 13:51:34.362 E/k9 ( 9362): com.fsck.k9.mail.MessagingException: File not found 05-10 13:51:34.362 E/k9 ( 9362): at com.fsck.k9.mailstore.FileBackedBody.getInputStream(FileBackedBody.java:32) 05-10 13:51:34.362 E/k9 ( 9362): at com.fsck.k9.mail.internet.MimeUtility.decodeBody(MimeUtility.java:1021) 05-10 13:51:34.362 E/k9 ( 9362): at com.fsck.k9.mail.internet.MessageExtractor.getTextFromPart(MessageExtractor.java:78) 05-10 13:51:34.362 E/k9 ( 9362): at com.fsck.k9.mailstore.LocalMessageExtractor.buildHtml(LocalMessageExtractor.java:153) 05-10 13:51:34.362 E/k9 ( 9362): at com.fsck.k9.mailstore.LocalMessageExtractor.extractTextAndAttachments(LocalMessageExtractor.java:117) 05-10 13:51:34.362 E/k9 ( 9362): at com.fsck.k9.mailstore.LocalMessageExtractor.decodeMessageForView(LocalMessageExtractor.java:442) 05-10 13:51:34.362 E/k9 ( 9362): at com.fsck.k9.ui.message.DecodeMessageLoader.loadInBackground(DecodeMessageLoader.java:46) 05-10 13:51:34.362 E/k9 ( 9362): at com.fsck.k9.ui.message.DecodeMessageLoader.loadInBackground(DecodeMessageLoader.java:15) 05-10 13:51:34.362 E/k9 ( 9362): at android.content.AsyncTaskLoader.onLoadInBackground(AsyncTaskLoader.java:312) 05-10 13:51:34.362 E/k9 ( 9362): at android.content.AsyncTaskLoader$LoadTask.doInBackground(AsyncTaskLoader.java:69) 05-10 13:51:34.362 E/k9 ( 9362): at android.content.AsyncTaskLoader$LoadTask.doInBackground(AsyncTaskLoader.java:66) 05-10 13:51:34.362 E/k9 ( 9362): at android.os.AsyncTask$2.call(AsyncTask.java:295) 05-10 13:51:34.362 E/k9 ( 9362): at java.util.concurrent.FutureTask.run(FutureTask.java:237) 05-10 13:51:34.362 E/k9 ( 9362): at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1113) 05-10 13:51:34.362 E/k9 ( 9362): at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:588) 05-10 13:51:34.362 E/k9 ( 9362): at java.lang.Thread.run(Thread.java:818) 05-10 13:51:34.362 E/k9 ( 9362): Caused by: java.io.FileNotFoundException: /storage/emulated/0/Android/data/com.fsck.k9/files/9f5ff35a-c63f-4071-853b-9c8aec540551.db_att/3569: open failed: ENOENT (No such file or directory) 05-10 13:51:34.362 E/k9 ( 9362): at libcore.io.IoBridge.open(IoBridge.java:452) 05-10 13:51:34.362 E/k9 ( 9362): at java.io.FileInputStream.(FileInputStream.java:76) 05-10 13:51:34.362 E/k9 ( 9362): at com.fsck.k9.mailstore.FileBackedBody.getInputStream(FileBackedBody.java:30) 05-10 13:51:34.362 E/k9 ( 9362): ... 15 more 05-10 13:51:34.362 E/k9 ( 9362): Caused by: android.system.ErrnoException: open failed: ENOENT (No such file or directory) 05-10 13:51:34.362 E/k9 ( 9362): at libcore.io.Posix.open(Native Method) 05-10 13:51:34.362 E/k9 ( 9362): at libcore.io.BlockGuardOs.open(BlockGuardOs.java:186) 05-10 13:51:34.362 E/k9 ( 9362): at libcore.io.IoBridge.open(IoBridge.java:438) 05-10 13:51:34.362 E/k9 ( 9362): ... 17 more
+	</description>
+		</report>
+		<report Number="83">
+			<summary>Answer acts like answer all</summary>
+			<url>https://github.com/k9mail/k-9/issues/1369</url>
+			<bugID>Issue #1369</bugID>
+			<label>bug</label>
+			<description>
+		Expected behaviour Only the sender is copied to the reciever field on the compose screen. Actual behaviour All the email addresses in the original email are copied to the reciever fields on the compose screen. Steps to reproduce open a recieved mail with multiple recievers Click on the answer icon button and then on answer in the popup Environment K-9 Mail version: v5.108 Android version: 6.0.1; Security Patch: 1. March 2016) Device: Nexus 5X
+	</description>
+		</report>
+		<report Number="84">
+			<summary>infinite loop in downloadMessageBody</summary>
+			<url>https://github.com/k9mail/k-9/issues/1401</url>
+			<bugID>Issue #1401</bugID>
+			<label>bug</label>
+			<description>
+		(Note to self) the if (body == null) startDownloadingMessageBody logic in MessageViewFragment might result in an infinite loop at the moment, that should probably be fixed to allow only a single pass
+	</description>
+		</report>
+		<report Number="85">
+			<summary>Subject in expanded notifications doesn't take account of dark themes</summary>
+			<url>https://github.com/k9mail/k-9/issues/1418</url>
+			<bugID>Issue #1418</bugID>
+			<label>bug</label>
+			<description>
+		Expected behaviour With a dark theme, all text in notifications should be light coloured. Actual behaviour The subject in the expanded notification appears black, whether a light or dark theme. Collapsed notification displays correctly though. Environment K-9 Mail version: v5.010 or v5.109 Android version: 6.0.1 (CyanogenMod 13)
+	</description>
+		</report>
+		<report Number="86">
+			<summary>crash when trying to create new mail (marshmallow)</summary>
+			<url>https://github.com/k9mail/k-9/issues/1434</url>
+			<bugID>Issue #1434</bugID>
+			<label>bug</label>
+			<description>
+		Expected behaviour I would expect to see the &quot;new mail&quot; dialogue. Actual behaviour The app crashes. Steps to reproduce start k-9 mail select new mail icon crash Environment K-9 Mail version: 5.109 Android version: Android 6.0 marshmallow, huawei style (EMUI) Account type (IMAP, POP3, WebDAV/Exchange): IMAP Thoughts on this: Could this result from a permission problem? K-9 requests access rights for &quot;contacts&quot; and &quot;storage&quot;, which are granted. Four additional permissions show up in a subfolder (read email attachments, read emails, delete emails, k-9 remote control). Everytime I manually grant those, the slider is back to &quot;off&quot; when I revisit this tab... Does k-9 fail in requesting those rights at installation time? logcat: generated as described in HOWTO: int logctl_get(): open '/dev/hwlog_switch' fail -1, 13. Permission denied
+
+Note: log switch off, only log_main and log_events will have logs!
+--------- beginning of main
+06-05 11:30:42.296 I/k9      ( 3371): Committing preference changes
+06-05 11:30:42.358 I/k9      ( 3371): Preferences commit took 62ms
+06-05 11:30:46.704 I/k9      ( 4596): Loading preferences from DB into Storage
+06-05 11:30:46.723 I/k9      ( 4596): Preferences load took 19ms
+06-05 11:30:46.768 I/k9      ( 4596): Registered: unmount receiver
+06-05 11:30:46.771 I/k9      ( 4596): Registered: shutdown receiver
+06-05 11:31:05.784 I/k9      ( 4596): Committing preference changes
+06-05 11:31:05.794 I/k9      ( 4596): Preferences commit took 10ms
+06-05 11:31:08.781 I/k9      ( 4690): Loading preferences from DB into Storage
+06-05 11:31:08.798 I/k9      ( 4690): Preferences load took 17ms
+06-05 11:31:08.837 I/k9      ( 4690): Registered: unmount receiver
+06-05 11:31:08.839 I/k9      ( 4690): Registered: shutdown receiver
+06-05 11:31:16.667 I/k9      ( 4690): Committing preference changes
+06-05 11:31:16.710 I/k9      ( 4690): Preferences commit took 43ms
+	</description>
+		</report>
+		<report Number="87">
+			<summary>&quot;Unable to save attachment to SD card&quot; since Android 6.0.1</summary>
+			<url>https://github.com/k9mail/k-9/issues/1461</url>
+			<bugID>Issue #1461</bugID>
+			<label>bug</label>
+			<description>
+		Expected behavior Attachment should be saved on my extrenal SD Card Actual behavior java.io.FileNotFoundException: /storage/AC6E-B51D/Download/20160530082804967.pdf: open failed: EACCES (Permission denied) In some other apps like Estrong FileExplorer I believe I got some dialogue like &quot;chose actual path to SD card to get write access&quot;. Don't remember exactly... Steps to reproduce Chose the save attachments to the external SD Receive an email with attachment Choose to save it Environment K-9 Mail version: 5.010 Android version: Android 6.0.1 Account type (IMAP, POP3, WebDAV/Exchange): Irrelevant k9-log-save-attachement.txt
+	</description>
+		</report>
+		<report Number="88">
+			<summary>[Bug: Regression] Upgrading from K-9 Mail 5.008 to 5.010 breaks its Share functionality under AlienDalvik (AOSP 4.1.2): K-9 always crashes</summary>
+			<url>https://github.com/k9mail/k-9/issues/1473</url>
+			<bugID>Issue #1473</bugID>
+			<label>bug</label>
+			<description>
+		Upgrading from K-9 Mail 5.008 to 5.010 breaks its Share functionality when attaching a file to an email under AlienDalvik (based on AOSP 4.1.2) in Jolla's SailfishOS 2.0.1.11 K-9 always crashes, a pop up window is displayed stating, &quot;Unfortunately the application com.fsck.k9 has stopped. [OK]&quot;. By clicking on [OK], K-9 restarts, and saves the message in the Drafts folder, but without the file being attached. I checked the following: Using the Share functionality between other applications works: I tested between Amaze, OpenKeychain, TurboEditor and a few native SailfishOS applications. Using the Share functionality in other Android applications in order to send a file to K-9 Mail always crashes K-9 in exactly the same way (as described above), no matter if K-9 was running or not. Sharing data (not a file) does not crash K-9 Mail, but seems to exhibit another bug: a handle (?) is inserted into the mail body, not the data sent, e.g. with data sent from BarcodeScanner: [Subject] Barcode Scanner - Plain text [Body] market://details?id=com.fsck.k9 I will file a separate bug report, when sufficiently tested to write up something more comprehensive. It also makes no difference, which Android application is picked, when using the Share functionality from within K-9 Mail for attaching a file to an email: K-9 always crashes. Tested with Amaze file manager and TurboEditor. Only when I pick SailfishOS' native Gallery application (which is the third application offered besides Amaze and TurboEditor when attaching a file in K-9 Mail on my Jolla Phone), K-9 does not crash and the file is indeed attached. But it is not Android's internal Share mechanism being used here, instead the still somewhat fragile Share functionality between Android and SailfishOS applications provided by Jolla's SailfishOS 2 is utilised. In this specific case (attaching a file to an email in K-9) it even works consistently stable, but unfortunately SailfishOS' native Gallery app allows to select picture file formats (e.g. jpg, png), only. After downgrading from K-9 Mail 5.010 to 5.008, the Share functionality works fine, again. I am sure willing to make further tests, checks and balances, when provided with instructions how to. Please do try to fix that, as the inability to attach arbitrary files to emails in K-9 Mail renders the beautiful and feature laden K-9 useless as a generic email client. Cheers and Kudos for maintaining and enhancing the best mobile email client I am aware of. And I am really looking forward to the progress on PGP/MIME. P.S.: I suspect the MIME handling changes introduced in K-9 Mail 5.009 to be the cause. From K-9's changelog on https://k9mail.github.io/k-9/changelog_5.0-MAINT_branch.xml: 5.010 [...] 5.009 [...] Improved MIME type handling when other apps share files to K-9 Mail [...]
+	</description>
+		</report>
+		<report Number="89">
+			<summary>DiskFull problem when saving attached file is not taken into account</summary>
+			<url>https://github.com/k9mail/k-9/issues/1476</url>
+			<bugID>Issue #1476</bugID>
+			<label>bug</label>
+			<description>
+		Expected behavior Tell us what should happen be in an email with attached file ask to saved attached file having no more space on the sd card K9 should warn that the file could not be saved Actual behavior Tell us what happens instead K9 just creates an empty file! Environment K-9 Mail version: Probably latest... I don't see any entry in any K9 menus to get this information... OK found it in Android's menus: 5.01, but remark above still relevant: this info should be easily accessible from within K9 Android version: 4.4.2
+	</description>
+		</report>
+		<report Number="90">
+			<summary>&quot;To&quot; field does not convert typed email addresses to tokens on send</summary>
+			<url>https://github.com/k9mail/k-9/issues/1495</url>
+			<bugID>Issue #1495</bugID>
+			<label>bug</label>
+			<description>
+		Expected behavior Autocomplete address field &quot;To&quot; should convert typed email addresses to tokens when clicking send Actual behavior It does not, shows &quot;Recipient field contains incomplete input!&quot; Steps to reproduce compose mail write body subject and in the last step write email address into &quot;To&quot; field without selecting an email address from the dropdown click send Environment K-9 Mail version: 5.110 Android version: 6 Account type (IMAP, POP3, WebDAV/Exchange): IMAP
+	</description>
+		</report>
+		<report Number="91">
+			<summary>Webdav (Exchange) sending email is broken since v5.109 (alpha)</summary>
+			<url>https://github.com/k9mail/k-9/issues/1500</url>
+			<bugID>Issue #1500</bugID>
+			<label>bug</label>
+			<description>
+		Android version: 6.01 Using K-9 Mail v5.010 (stable) i could send emails using my old WEBDAV account. But never delete emails on the server. Then Updated to K-9 Mail v5.109 (alpha) / and also to K-9 Mail v5.110 (alpha). Now I can delete emails on the server, but I can not send emails any more. They end up on the outgoing folder. Sorry I can't tell you the error message. The message text is too long so it's truncated... Then Downgraded (titanium Backup / also the database) and sending emails is working again.
+	</description>
+		</report>
+		<report Number="92">
+			<summary>Cannot Paste into &quot;To&quot; field</summary>
+			<url>https://github.com/k9mail/k-9/issues/1504</url>
+			<bugID>Issue #1504</bugID>
+			<label>bug</label>
+			<description>
+		Expected behavior Paste context dialog should come up when long clicking into &quot;to&quot; field. Actual behavior Nothing happens Steps to reproduce Long click into &quot;to&quot; field Environment K-9 Mail version: 5.110 Android version: 6 Account type (IMAP, POP3, WebDAV/Exchange):
+	</description>
+		</report>
+		<report Number="93">
+			<summary>Unable to View Messages</summary>
+			<url>https://github.com/k9mail/k-9/issues/1507</url>
+			<bugID>Issue #1507</bugID>
+			<label>bug</label>
+			<description>
+		Expected behavior When I tap on a message, I should be able to read that message. Actual behavior The message opens, but the message contents are missing. Steps to reproduce Tap on Google email message. Message opens. There is no message. Rinse and repeat for each Google email account. Try uninstalling and reinstalling. No change. Environment K-9 Mail version: 5.110 Android version: 5.0.1 Account type (IMAP, POP3, WebDAV/Exchange): IMAP
+	</description>
+		</report>
+		<report Number="94">
+			<summary>No Subject/No Text</summary>
+			<url>https://github.com/k9mail/k-9/issues/1541</url>
+			<bugID>Issue #1541</bugID>
+			<label>bug</label>
+			<description>
+		Expected behavior Tell us what should happen I expect email to properly sync or at the least fix themselves after a new sync. Actual behavior Tell us what happens instead Today is the first time in a while it's happened, but I ended up with 4 emails in one screenshot getting this error. They are real emails on the server side I can see fine. This problem is only corrected by deleting the real emails and then syncing in k-9 to get rid of them. I can't find a way to get the actual email to sync up. Steps to reproduce Just manual syncing and checking emails since I don't push/force sync. Environment K-9 Mail version: 5.010 Android version: 5.0 Account type (IMAP, POP3, WebDAV/Exchange): IMAP - yahoo I just enabled debug logging. When it happens again I'll update with the log.
+	</description>
+		</report>
+		<report Number="95">
+			<summary>Message text obscured when successful decryption</summary>
+			<url>https://github.com/k9mail/k-9/issues/1575</url>
+			<bugID>Issue #1575</bugID>
+			<label>bug</label>
+			<description>
+		Expected behavior Using open keychain with k9 on android, When opening an e-mail thread where I have signed and not encrypted but the replying party has not signed/ encrypted, the entire message thread should be displayed and arguably no confirmation successful decryption and valid signature. Actual behavior The most recent reply from other party is not shown and message regarding decryption is shown. The most recent contribution to the email thread is not signed and so I question whether decryption/key checking should be activated. The signature checking seems to cut off any message above the start of the most recent signing block. An email thread might look something like this: Unsigned reply signed reply enclosed in inline pgp block sent from desktop mail program unsigned reply to original mail signed message enclosed in inline pgp block sent from desktop mail program. What actually happens looks like this: x unsigned reply (not shown) Signed reply sent from desktop mail app. Pgp signing block not visible (parsed by k9/open keychain?) unsigned reply signed original message with pgp signature block. Additionally, if I reply all parts of the thread are visible in the quoted reply so the content is still there. Steps to reproduce Set up open keychain with k9 Send email to someone with inline signature block Get reply with no signature Reply with signature block Get another reply without signature Environment K-9 Mail version: 5.010 Android version: 6.0.1 (Chroma ROM) / was also happening with 5.1.1 stock android. Account type (IMAP, POP3, WebDAV/Exchange): IMAP
+	</description>
+		</report>
+		<report Number="96">
+			<summary>Android Nougat: Email Context Menu at Wrong Position</summary>
+			<url>https://github.com/k9mail/k-9/issues/1581</url>
+			<bugID>Issue #1581</bugID>
+			<label>bug</label>
+			<description>
+		Expected behavior If I long tap on a message the context menu should appear besides the finger position. Actual behavior The context menu appears at the lower end of the screen and is only 1-2 lines in size. Steps to reproduce Select a message Long tap See what happens Environment K-9 Mail version: 5.010 Android version: Nougat (7) Release Account type (IMAP, POP3, WebDAV/Exchange): All (type independent)
+	</description>
+		</report>
+		<report Number="97">
+			<summary>Crash while moving message</summary>
+			<url>https://github.com/k9mail/k-9/issues/1582</url>
+			<bugID>Issue #1582</bugID>
+			<label>bug</label>
+			<description>
+		Reported via Google Play: java.lang.RuntimeException: Failure delivering result ResultInfo{who=android:fragment:1, request=1, result=-1, data=Intent { (has extras) }} to activity {com.fsck.k9/com.fsck.k9.activity.MessageList}: java.lang.IllegalStateException: got an activity result that wasn't meant for us. this is a bug!
+    at android.app.ActivityThread.deliverResults(ActivityThread.java:3574)
+    at android.app.ActivityThread.handleSendResult(ActivityThread.java:3617)
+    at android.app.ActivityThread.access$1300(ActivityThread.java:151)
+    at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1352)
+    at android.os.Handler.dispatchMessage(Handler.java:102)
+    at android.os.Looper.loop(Looper.java:135)
+    at android.app.ActivityThread.main(ActivityThread.java:5254)
+    at java.lang.reflect.Method.invoke(Native Method)
+    at java.lang.reflect.Method.invoke(Method.java:372)
+    at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:904)
+    at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:699)
+    at de.robv.android.xposed.XposedBridge.main(XposedBridge.java:102)
+Caused by: java.lang.IllegalStateException: got an activity result that wasn't meant for us. this is a bug!
+    at com.fsck.k9.ui.messageview.MessageCryptoPresenter.onActivityResult(MessageCryptoPresenter.java:158)
+    at com.fsck.k9.ui.messageview.MessageViewFragment.onActivityResult(MessageViewFragment.java:405)
+    at android.app.Activity.dispatchActivityResult(Activity.java:6197)
+    at android.app.ActivityThread.deliverResults(ActivityThread.java:3570)
+    ... 11 more
+ User messages: moved a message that was opened to a different folder. Crash on moving opened email to another IMAP folder. Crash after selecting target folder. crash at moving message to different folder. is consistent problem tried to move a message to another folder, crash. happens wavy time I select move and a folder in the refile menu.
+	</description>
+		</report>
+		<report Number="98">
+			<summary>HTML/formatting stripped when forwarding HTML emails</summary>
+			<url>https://github.com/k9mail/k-9/issues/1604</url>
+			<bugID>Issue #1604</bugID>
+			<label>bug</label>
+			<description>
+		Expected behavior Forwarding an HTML email should result in the recipient receiving an HTML email with all contents intact. Actual behavior Forwarded message is plain-text only Steps to reproduce Receive HTML email Forward HTML email Review email received by recipient Environment K-9 Mail version: 5.111 Android version: 6.0 Account type: IMAP I checked a fresh install/setup of 5.010 and this problem did not occur, but a fresh install/setup of 5.111 with the same settings brought it back.
+	</description>
+		</report>
+		<report Number="99">
+			<summary>Quoted-printable encoding inserts unnecessary line breaks</summary>
+			<url>https://github.com/k9mail/k-9/issues/1609</url>
+			<bugID>Issue #1609</bugID>
+			<label>bug</label>
+			<description>
+		K-9 Mail created a message that contained unnecessary line breaks in the encoded message body. (v5.111) [...]
+Content-Type: text/plain;
+ charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+[...]
+-----BEGIN PGP SIGNATURE-----
+
+iQI0BAEBCgAeFxxCZXJuZCA8dGVzdEBja2V0dGkuZGU=
++BQJX1LDSAAoJEG2bO4IG
+m2wDJ6YQAIc3oA5JPv122U0IdBWN0c0CPr0bm6e+Z7dlAOCmNdhO/=
+WxhMTEI1u4v
+AL9AySWQIeek3tWZJSgSfhULXCC1ZUU2tWA/1cpf9PMpdXknJvi8y34osV+0SnU=
+/
+LhIkMPUK2wGUYmDUvBL2g9Zbx4giknta+2/IbaGMljRHQuDV1XpHEVDKzRE73VID
+xn7F7CSI=
+xkQGPI6mNOuM70BsaVyCwrTRiSW4rnwe2CgLf+RVSePCnveTjxC6xZyC
+Q7z1LBKGNEvw0PRKjM=
+1IbNeFSJ3y73RBS4y1cDYECWxKPjDJ5PR9x2QzcTdqKbXp
+pVXJEv/8SzurR99V1OvlTS3s2tdS=
+fSLpd9uP1hqxK71Dek5fcMUHQqgsIz2mmiEa
+dExWc9dItBjgH9dPyBXn9m/G5UnF1E8FbqlS7J=
+swgfiW0KNAkYEsFyvjp7q7W6TK
+qkYnxJCENCG4Hf+lofDEzHth/uu23Z7cHhjkzZDet0dMGpA+=
+B1jH9ZVu4aEoWLGQ
+VJ3Lfjqy4ZysAmziR8iKcg3V/q0vmL+zC+3s9U+UaXPbpI2JD/hr89WIkG=
+zVnNpG
+8hInOIgLOJhui5PFEB7XNdpBJj+O2NYigV76Fvhb4boyCt7VdhRe01C7cohusPHB
+/TO=
+wbqG+0w+z6eL8tyxZ2HVWFyfgHyarnwGquIxYjxE5OzfS+LN4
+=3DS8iC
+-----END PGP SIGN=
+ATURE-----
+	</description>
+		</report>
+		<report Number="100">
+			<summary>Wrong order for multipart/alternative children</summary>
+			<url>https://github.com/k9mail/k-9/issues/1625</url>
+			<bugID>Issue #1625</bugID>
+			<label>bug</label>
+			<description>
+		We create multipart/alternative parts with a text/html part as first child and text/plain as second child. This isn't what other clients do. And it seems to confuse Thunderbird which then only displays the text/plain part. Affected version: 5.111
+	</description>
+		</report>
+		<report Number="101">
+			<summary>Notifications raised incorrectly with multiple accounts</summary>
+			<url>https://github.com/k9mail/k-9/issues/1660</url>
+			<bugID>Issue #1660</bugID>
+			<label>bug</label>
+			<description>
+		If you have multiple accounts for K-9 and you get new email in them you should get one notification per account. What actually happens is that new emails are listed under the wrong notification. For example if I have account A and account B. I get an email from A A notification is created for A. This is correct. I get an email from B. A new notification is created for B. This is also correct. The notification for A is updated with the email from B turning it into a multi-line notification. This is incorrect. Seen on: K-9: master branch Android: Nougat (7.0) Nexus 6P
+	</description>
+		</report>
+		<report Number="102">
+			<summary>No dark app / editor theme in v5.112</summary>
+			<url>https://github.com/k9mail/k-9/issues/1665</url>
+			<bugID>Issue #1665</bugID>
+			<label>bug</label>
+			<description>
+		Expected behavior App keeps dark theme / black background after upgrading to v5.112 Actual behavior After upgrading to v5.112, the app theme is always light. Steps to reproduce Upgrade to / install v5.112 Try setting the dark app theme I tried setting the theme to light, restarting the app, setting it back to dark and restarting it again. Doesn't help. Same problem with editor theme. Environment K-9 Mail version: v5.112 Android version: 6.0.1 Account type: IMAP 👍 1
+	</description>
+		</report>
+		<report Number="103">
+			<summary>Switching from dark to light theme (or vise versa) inside message doesn't work</summary>
+			<url>https://github.com/k9mail/k-9/issues/1666</url>
+			<bugID>Issue #1666</bugID>
+			<label>bug</label>
+			<description>
+		Expected behavior When fixed message theme option is disabled, switching the theme when viewing a message should switch the theme immediately. Actual behavior After switching the theme inside the message, the message view reloads but the theme stays the same. I need to leave the message and open it again to get the other theme. Steps to reproduce Disable fixed message theme option Open message and switch to dark / light theme Environment K-9 Mail version: v5.111 + v5.112 (iirc, before v5.111 I didn't have this problem) Android version: 6.0.1 Account type : IMAP
+	</description>
+		</report>
+		<report Number="104">
+			<summary>&quot;Fetching headers null:null 3/3&quot;</summary>
+			<url>https://github.com/k9mail/k-9/issues/1685</url>
+			<bugID>Issue #1685</bugID>
+			<label>bug</label>
+			<description>
+		Obviously it shouldn't be null. Also it seems to be stuck like that.
+	</description>
+		</report>
+		<report Number="105">
+			<summary>Updating database forever</summary>
+			<url>https://github.com/k9mail/k-9/issues/1697</url>
+			<bugID>Issue #1697</bugID>
+			<label>bug</label>
+			<description>
+		I updated K-9 to 5.113 and now it is busy updating some database, and has been for the last two hours. It is draining battery faster than I can recharge and has by now filled up 6 GiB of storage.
+	</description>
+		</report>
+		<report Number="106">
+			<summary>NPE in k9 and empty list when querying messages from 3rd party application (Gadgetbridge)</summary>
+			<url>https://github.com/k9mail/k-9/issues/1699</url>
+			<bugID>Issue #1699</bugID>
+			<label>bug</label>
+			<description>
+		Expected behavior We should get a list of messages Actual behavior We get an empty list and k9 logs a NPE java.lang.NullPointerException: Attempt to invoke virtual method 'com.fsck.k9.Account com.fsck.k9.mailstore.LocalMessage.getAccount()' on a null object reference at com.fsck.k9.provider.MessageProvider$MesssageInfoHolderRetrieverListener.listLocalMessagesAddMessages(MessageProvider.java:939) at com.fsck.k9.controller.MessagingController$6.messageFinished(MessagingController.java:534) at com.fsck.k9.controller.MessagingController$6.messageFinished(MessagingController.java:520) at com.fsck.k9.mailstore.LocalStore$13.doDbWork(LocalStore.java:610) at com.fsck.k9.mailstore.LocalStore$13.doDbWork(LocalStore.java:596) at com.fsck.k9.mailstore.LockableDatabase.execute(LockableDatabase.java:275) at com.fsck.k9.mailstore.LocalStore.getMessages(LocalStore.java:596) at com.fsck.k9.mailstore.LocalStore.searchForMessages(LocalStore.java:583) at com.fsck.k9.controller.MessagingController.searchLocalMessagesSynchronous(MessagingController.java:548) at com.fsck.k9.controller.MessagingController$5.run(MessagingController.java:500) at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1113) at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:588) at java.lang.Thread.run(Thread.java:818) Steps to reproduce ` try (Cursor c = context.getContentResolver().query(Uri.parse(&quot;content://com.fsck.k9.messageprovider/inbox_messages&quot;, messagesProjection, null, null, null)) { // c.getCount() will be 0 } ` Environment K-9 Mail version: 5.113 Android version: CM13 (6.0.1) Account type (IMAP, POP3, WebDAV/Exchange): IMAP
+	</description>
+		</report>
+		<report Number="107">
+			<summary>Quick Actions don't get displayed on Android 7.0</summary>
+			<url>https://github.com/k9mail/k-9/issues/1741</url>
+			<bugID>Issue #1741</bugID>
+			<label>bug</label>
+			<description>
+		Expected behavior Obviously, when this setting is enabled for &quot;single&quot; or &quot;all&quot;, the delete button should appear for the appropriate number of messages being present. Actual behavior Notification appears, WITHOUT the delete button Steps to reproduce Enable notification delete button Exit k9 receive an email Environment K-9 Mail version: 5.114 Android version: 7.0 (Nexus 6) or 7.1 (Pixel). Account type (IMAP, POP3, WebDAV/Exchange): IMAP / not applicable.
+	</description>
+		</report>
+		<report Number="108">
+			<summary>Notification not cleared when deleting message(s) from notification</summary>
+			<url>https://github.com/k9mail/k-9/issues/1762</url>
+			<bugID>Issue #1762</bugID>
+			<label>bug</label>
+			<description>
+		Expected behavior When I choose to &quot;Delete&quot; a message or messages from a notification, the notification should be cleared afterwards. Actual behavior While the mail is correctly deleted, i. e. moved to trash on server, the notification is still displayed. Steps to reproduce Send a test mail to one of the configured accounts. Select &quot;Delete&quot; from the notification Environment K-9 Mail version: 5.114 Android version: 6.0.1 Account type (IMAP, POP3, WebDAV/Exchange): IMAP (self-hosted dovecot as well as mailbox.org)
+	</description>
+		</report>
+		<report Number="109">
+			<summary>&quot;Mark as read&quot; not working from notification</summary>
+			<url>https://github.com/k9mail/k-9/issues/1822</url>
+			<bugID>Issue #1822</bugID>
+			<label>bug</label>
+			<description>
+		Expected behavior Selecting &quot;mark as read&quot; should mark the email as read and dismiss the notification Actual behavior Absolutely nothing! Steps to reproduce Send email to self Expand the notification Select &quot;Mark as read&quot; Environment K-9 Mail version: 5.115 Android version: 6.0.1 Account type (IMAP, POP3, WebDAV/Exchange): IMAP 👍 1
+	</description>
+		</report>
+		<report Number="110">
+			<summary>K-9 mail crashes when trying to download an attachment</summary>
+			<url>https://github.com/k9mail/k-9/issues/1826</url>
+			<bugID>Issue #1826</bugID>
+			<label>bug</label>
+			<description>
+		I searched for a message containing a train ticket. I entered it and tried to save it. Then the app crashed. The mail account used here was the same as in #1794 Environment K-9 Mail version: 5.115 Android version: CM13 Account type (IMAP, POP3, WebDAV/Exchange): IMAP 12-01 12:57:01.186 11371 11422 E AndroidRuntime: FATAL EXCEPTION: AsyncTask #3
+12-01 12:57:01.186 11371 11422 E AndroidRuntime: Process: com.fsck.k9, PID: 11371
+12-01 12:57:01.186 11371 11422 E AndroidRuntime: Theme: themes:{default=overlay:system, iconPack:system, fontPkg:system, com.android.systemui=overlay:system, com.android.systemui.navbar=overlay:system}
+12-01 12:57:01.186 11371 11422 E AndroidRuntime: java.lang.RuntimeException: An error occurred while executing doInBackground()
+12-01 12:57:01.186 11371 11422 E AndroidRuntime: 	at android.os.AsyncTask$3.done(AsyncTask.java:309)
+12-01 12:57:01.186 11371 11422 E AndroidRuntime: 	at java.util.concurrent.FutureTask.finishCompletion(FutureTask.java:354)
+12-01 12:57:01.186 11371 11422 E AndroidRuntime: 	at java.util.concurrent.FutureTask.setException(FutureTask.java:223)
+12-01 12:57:01.186 11371 11422 E AndroidRuntime: 	at java.util.concurrent.FutureTask.run(FutureTask.java:242)
+12-01 12:57:01.186 11371 11422 E AndroidRuntime: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1113)
+12-01 12:57:01.186 11371 11422 E AndroidRuntime: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:588)
+12-01 12:57:01.186 11371 11422 E AndroidRuntime: 	at java.lang.Thread.run(Thread.java:818)
+12-01 12:57:01.186 11371 11422 E AndroidRuntime: Caused by: java.lang.IllegalStateException: No attachment data available
+12-01 12:57:01.186 11371 11422 E AndroidRuntime: 	at com.fsck.k9.mailstore.LocalStore.getRawAttachmentInputStream(LocalStore.java:725)
+12-01 12:57:01.186 11371 11422 E AndroidRuntime: 	at com.fsck.k9.mailstore.LocalStore.access$100(LocalStore.java:66)
+12-01 12:57:01.186 11371 11422 E AndroidRuntime: 	at com.fsck.k9.mailstore.LocalStore$15.doDbWork(LocalStore.java:700)
+12-01 12:57:01.186 11371 11422 E AndroidRuntime: 	at com.fsck.k9.mailstore.LocalStore$15.doDbWork(LocalStore.java:684)
+12-01 12:57:01.186 11371 11422 E AndroidRuntime: 	at com.fsck.k9.mailstore.LockableDatabase.execute(LockableDatabase.java:275)
+12-01 12:57:01.186 11371 11422 E AndroidRuntime: 	at com.fsck.k9.mailstore.LocalStore.getAttachmentInputStream(LocalStore.java:684)
+12-01 12:57:01.186 11371 11422 E AndroidRuntime: 	at com.fsck.k9.provider.AttachmentProvider.getAttachmentInputStream(AttachmentProvider.java:186)
+12-01 12:57:01.186 11371 11422 E AndroidRuntime: 	at com.fsck.k9.provider.AttachmentProvider.openAttachment(AttachmentProvider.java:167)
+12-01 12:57:01.186 11371 11422 E AndroidRuntime: 	at com.fsck.k9.provider.AttachmentProvider.openFile(AttachmentProvider.java:78)
+12-01 12:57:01.186 11371 11422 E AndroidRuntime: 	at android.content.ContentProvider.openAssetFile(ContentProvider.java:1374)
+12-01 12:57:01.186 11371 11422 E AndroidRuntime: 	at android.content.ContentProvider.openTypedAssetFile(ContentProvider.java:1554)
+12-01 12:57:01.186 11371 11422 E AndroidRuntime: 	at android.content.ContentProvider.openTypedAssetFile(ContentProvider.java:1620)
+12-01 12:57:01.186 11371 11422 E AndroidRuntime: 	at android.content.ContentProvider$Transport.openTypedAssetFile(ContentProvider.java:419)
+12-01 12:57:01.186 11371 11422 E AndroidRuntime: 	at android.content.ContentResolver.openTypedAssetFileDescriptor(ContentResolver.java:1107)
+12-01 12:57:01.186 11371 11422 E AndroidRuntime: 	at android.content.ContentResolver.openAssetFileDescriptor(ContentResolver.java:944)
+12-01 12:57:01.186 11371 11422 E AndroidRuntime: 	at android.content.ContentResolver.openInputStream(ContentResolver.java:664)
+12-01 12:57:01.186 11371 11422 E AndroidRuntime: 	at com.fsck.k9.ui.messageview.AttachmentController.writeAttachmentToStorage(AttachmentController.java:149)
+12-01 12:57:01.186 11371 11422 E AndroidRuntime: 	at com.fsck.k9.ui.messageview.AttachmentController.saveAttachmentWithUniqueFileName(AttachmentController.java:141)
+12-01 12:57:01.186 11371 11422 E AndroidRuntime: 	at com.fsck.k9.ui.messageview.AttachmentController.access$900(AttachmentController.java:42)
+12-01 12:57:01.186 11371 11422 E AndroidRuntime: 	at com.fsck.k9.ui.messageview.AttachmentController$SaveAttachmentAsyncTask.doInBackground(AttachmentController.java:348)
+12-01 12:57:01.186 11371 11422 E AndroidRuntime: 	at com.fsck.k9.ui.messageview.AttachmentController$SaveAttachmentAsyncTask.doInBackground(AttachmentController.java:337)
+12-01 12:57:01.186 11371 11422 E AndroidRuntime: 	at android.os.AsyncTask$2.call(AsyncTask.java:295)
+12-01 12:57:01.186 11371 11422 E AndroidRuntime: 	at java.util.concurrent.FutureTask.run(FutureTask.java:237)
+12-01 12:57:01.186 11371 11422 E AndroidRuntime: 	... 3 more
+12-01 12:57:01.190  1350  1883 W ActivityManager:   Force finishing activity com.fsck.k9/.activity.Search
+	</description>
+		</report>
+		<report Number="111">
+			<summary>Bcc recipient doesn't appear in drafts</summary>
+			<url>https://github.com/k9mail/k-9/issues/1857</url>
+			<bugID>Issue #1857</bugID>
+			<label>bug</label>
+			<description>
+		Expected behavior When opening a draft, the user should be able to see the emails of the bcc field Actual behavior Only the big letter with a coloured background appears instead of the email. Also the cursor position is wrong ( under the background of the letter) Steps to reproduce Create a new message Add a bcc address Save as a draft Open the draft and check the bcc field Environment K-9 Mail version: 5.115 Android version: 4.4 Account type (IMAP, POP3, WebDAV/Exchange): IMAP
+	</description>
+		</report>
+		<report Number="112">
+			<summary>Crash: NPE in Address.hashCode()</summary>
+			<url>https://github.com/k9mail/k-9/issues/1874</url>
+			<bugID>Issue #1874</bugID>
+			<label>bug</label>
+			<description>
+		Via Play Developer Console App version: 5.200 java.lang.NullPointerException: Attempt to invoke virtual method 'int java.lang.String.hashCode()' on a null object reference
+	at com.fsck.k9.mail.Address.hashCode(Address.java:176)
+	at java.util.Collections.secondaryHash(Collections.java:3405)
+	at java.util.LinkedHashMap.get(LinkedHashMap.java:250)
+	at android.support.v4.util.LruCache.get(LruCache.java:84)
+	at com.fsck.k9.activity.misc.ContactPictureLoader.getBitmapFromCache(ContactPictureLoader.java:213)
+	at com.fsck.k9.activity.misc.ContactPictureLoader.loadContactPicture(ContactPictureLoader.java:133)
+	at com.fsck.k9.activity.compose.RecipientAdapter.setContactPhotoOrPlaceholder(RecipientAdapter.java:137)
+	at com.fsck.k9.view.RecipientSelectView.bindObjectView(RecipientSelectView.java:128)
+	at com.fsck.k9.view.RecipientSelectView.getViewForObject(RecipientSelectView.java:112)
+	at com.fsck.k9.view.RecipientSelectView.buildSpanForObject(RecipientSelectView.java:437)
+	at com.fsck.k9.view.RecipientSelectView.buildSpanForObject(RecipientSelectView.java:47)
+	at com.tokenautocomplete.TokenCompleteTextView.insertSpan(TokenCompleteTextView.java:1031)
+	at com.tokenautocomplete.TokenCompleteTextView.access$700(TokenCompleteTextView.java:54)
+	at com.tokenautocomplete.TokenCompleteTextView$3.run(TokenCompleteTextView.java:924)
+	at android.os.Handler.handleCallback(Handler.java:739)
+	at android.os.Handler.dispatchMessage(Handler.java:95)
+	at android.os.Looper.loop(Looper.java:135)
+	at android.app.ActivityThread.main(ActivityThread.java:5930)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at java.lang.reflect.Method.invoke(Method.java:372)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:1405)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1200)
+	</description>
+		</report>
+		<report Number="113">
+			<summary>Crash: NPE in MessageList.decodeExtras()</summary>
+			<url>https://github.com/k9mail/k-9/issues/1875</url>
+			<bugID>Issue #1875</bugID>
+			<label>bug</label>
+			<description>
+		Via Play Developer Console App version: 5.200 java.lang.NullPointerException: Attempt to invoke virtual method 'void android.widget.TextView.setVisibility(int)' on a null object reference
+	at com.fsck.k9.activity.MessageList.decodeExtras(MessageList.java:485)
+	at com.fsck.k9.activity.MessageList.onNewIntent(MessageList.java:258)
+	at android.app.Instrumentation.callActivityOnNewIntent(Instrumentation.java:1212)
+	at android.app.Instrumentation.callActivityOnNewIntent(Instrumentation.java:1224)
+	at android.app.ActivityThread.deliverNewIntents(ActivityThread.java:2545)
+	at android.app.ActivityThread.performNewIntents(ActivityThread.java:2557)
+	at android.app.ActivityThread.handleNewIntent(ActivityThread.java:2566)
+	at android.app.ActivityThread.-wrap12(ActivityThread.java)
+	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1416)
+	at android.os.Handler.dispatchMessage(Handler.java:102)
+	at android.os.Looper.loop(Looper.java:148)
+	at android.app.ActivityThread.main(ActivityThread.java:5417)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:726)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:616)
+	</description>
+		</report>
+		<report Number="114">
+			<summary>Crash: NPE in MessageCryptoHelper.addCryptoResultAnnotationToMessage()</summary>
+			<url>https://github.com/k9mail/k-9/issues/1878</url>
+			<bugID>Issue #1878</bugID>
+			<label>bug</label>
+			<description>
+		Via Play Developer Console App version: 5.200 java.lang.RuntimeException: Failure delivering result ResultInfo{who=null, request=65916, result=0, data=null} to activity {com.fsck.k9/com.fsck.k9.activity.MessageList}: java.lang.NullPointerException: Attempt to read from field 'com.fsck.k9.mail.Part com.fsck.k9.ui.crypto.MessageCryptoHelper$CryptoPart.part' on a null object reference
+	at android.app.ActivityThread.deliverResults(ActivityThread.java:3733)
+	at android.app.ActivityThread.handleSendResult(ActivityThread.java:3776)
+	at android.app.ActivityThread.-wrap16(ActivityThread.java)
+	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1412)
+	at android.os.Handler.dispatchMessage(Handler.java:102)
+	at android.os.Looper.loop(Looper.java:148)
+	at android.app.ActivityThread.main(ActivityThread.java:5461)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:726)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:616)
+Caused by: java.lang.NullPointerException: Attempt to read from field 'com.fsck.k9.mail.Part com.fsck.k9.ui.crypto.MessageCryptoHelper$CryptoPart.part' on a null object reference
+	at com.fsck.k9.ui.crypto.MessageCryptoHelper.addCryptoResultAnnotationToMessage(MessageCryptoHelper.java:575)
+	at com.fsck.k9.ui.crypto.MessageCryptoHelper.onCryptoOperationCanceled(MessageCryptoHelper.java:558)
+	at com.fsck.k9.ui.crypto.MessageCryptoHelper.onActivityResult(MessageCryptoHelper.java:536)
+	at com.fsck.k9.activity.MessageLoaderHelper.onActivityResult(MessageLoaderHelper.java:168)
+	at com.fsck.k9.ui.messageview.MessageViewFragment.onPendingIntentResult(MessageViewFragment.java:393)
+	at com.fsck.k9.activity.MessageList.onActivityResult(MessageList.java:1600)
+	at android.app.Activity.dispatchActivityResult(Activity.java:6456)
+	at android.app.ActivityThread.deliverResults(ActivityThread.java:3729)
+	... 9 more
+	</description>
+		</report>
+		<report Number="115">
+			<summary>Cc/Bcc expander barely visible in dark theme</summary>
+			<url>https://github.com/k9mail/k-9/issues/1893</url>
+			<bugID>Issue #1893</bugID>
+			<label>bug</label>
+			<description>
+		Expected behavior K-9 Mail version 5.115 used to provide the option of choosing a TO, CC or BCC recipient in the selection field at the very top of the compose an email window. This is no longer available in version 5.2. There should also be the option to choose a To, CC or BCC recipient in the pull down list Actual behavior When composing an email one can't select a CC nor BCC recipient unless one has checked &quot;Always show Cc/Bcc&quot; in the settings for each email account. Steps to reproduce Compose an email Can't select Cc nor Bcc recipients for the email Environment K-9 Mail version: 5.2 Android version: 6.0.1 Account type (IMAP, POP3, WebDAV/Exchange): POP.
+	</description>
+		</report>
+		<report Number="116">
+			<summary>Cannot zoom HTML messages properly if at all</summary>
+			<url>https://github.com/k9mail/k-9/issues/1908</url>
+			<bugID>Issue #1908</bugID>
+			<label>bug</label>
+			<description>
+		Expected behavior HTML mail should pinch zoom as it always has Actual behavior In 5.201 I tried zooming a few HTML emails. Nether would pinch zoom (though double tapping made them a tiny bit bigger). At least once this led to a crash of the app. I reverted to 5.010 and zoom works just fine with the same mail - in fact, it never had any such issue so I'm not upgrading until this is fixed. Steps to reproduce Open html email e.g. from Xbox.com Pinch zoom Either nothing happens, it moves a tiny bit, or it ends up crashing. Environment K-9 Mail version: 5.201 is broken for this. Works fine in 5.010 Android version: 7.0 on Nexus 6 IMAP
+	</description>
+		</report>
+		<report Number="117">
+			<summary>After recent update, email doesn't download or delete</summary>
+			<url>https://github.com/k9mail/k-9/issues/1910</url>
+			<bugID>Issue #1910</bugID>
+			<label>bug</label>
+			<description>
+		Expected behavior Example: emptying the trash should empty the trash Actual behavior Nothing happens, sometimes the app crashes Steps to reproduce Click on folder icon next to account Expand menu Click empty trash Environment K-9 Mail version: 5.201 Android version: 6.0.1 Account type (IMAP, POP3, WebDAV/Exchange): Pop3
+	</description>
+		</report>
+		<report Number="118">
+			<summary>Crypto indicator displayed in token dropdown when no crypto provider configured</summary>
+			<url>https://github.com/k9mail/k-9/issues/1914</url>
+			<bugID>Issue #1914</bugID>
+			<label>bug</label>
+			<description>
+		See this screenshot provided by someone on the mailing list. The three dots were mistaken for a broken menu indicator.
+	</description>
+		</report>
+		<report Number="119">
+			<summary>message subject no longer shown on message view</summary>
+			<url>https://github.com/k9mail/k-9/issues/1915</url>
+			<bugID>Issue #1915</bugID>
+			<label>bug</label>
+			<description>
+		Expected behavior the message subject should be shown in the message view Actual behavior the message view no longer shows the message subject Steps to reproduce open a message try to read the message subject in the message view Environment K-9 Mail version: 5.201 Android version: 7.1.1 Account type (IMAP, POP3, WebDAV/Exchange): IMAP
+	</description>
+		</report>
+		<report Number="120">
+			<summary>ImapResponseParser.parseLiteral timeout error</summary>
+			<url>https://github.com/k9mail/k-9/issues/1919</url>
+			<bugID>Issue #1919</bugID>
+			<label>bug</label>
+			<description>
+		k9-log.txt Expected behavior Tell us what should happen K9 should be able to read IMAP mail Actual behavior Tell us what happens instead It logs in the IMAP account but doesn't read the mail box. Steps to reproduce Environment K-9 Mail version: 5.201 Android version: 6.0.1 Account type (IMAP, POP3, WebDAV/Exchange): IMAP
+	</description>
+		</report>
+		<report Number="121">
+			<summary>Black text in quotation in replies</summary>
+			<url>https://github.com/k9mail/k-9/issues/1930</url>
+			<bugID>Issue #1930</bugID>
+			<label>bug</label>
+			<description>
+		Expected behavior When replying to a mail the quoted part should be shown in white, also when the black design is used. Actual behavior Steps to reproduce Additionally you may need to use a black design in Cyanogenmod. The pre-5.0 version the quote was shown correctly. Environment K-9 Mail version: 5.20 Android version: CM 13
+	</description>
+		</report>
+		<report Number="122">
+			<summary>After v5.201 upgrade, stopped receiving email</summary>
+			<url>https://github.com/k9mail/k-9/issues/1934</url>
+			<bugID>Issue #1934</bugID>
+			<label>bug</label>
+			<description>
+		Expected behavior Prior to the upgrade, during inbox polling, if new messages exist, a copy of the new messages will down load to my phone. Actual behavior After the upgrade to v5.201, during polling, it just says loading for a very long time and then stops. No new messages are dowe loaded eventhough Steps to reproduce Environment K-9 Mail version: Android version: Account type (IMAP, POP3, WebDAV/Exchange):
+	</description>
+		</report>
+		<report Number="123">
+			<summary>BCC not working as expected</summary>
+			<url>https://github.com/k9mail/k-9/issues/1938</url>
+			<bugID>Issue #1938</bugID>
+			<label>bug</label>
+			<description>
+		Expected behavior I wrote the mail with BBC on my Android 6.0.1. So other people from CC shouldn't know that there are e-mail on BBC Actual behavior All were able to read that there was bbc Steps to reproduce Write mail with BBC See their smiling faces when they discovers that boss e-mail is on BBC. Environment K-9 Mail version: 5.201 Android version:6.0.1. Account type (IMAP, POP3, WebDAV/Exchange): IMAP and SMTP on zoho.com
+	</description>
+		</report>
+		<report Number="124">
+			<summary>K9 5.201 crashing...</summary>
+			<url>https://github.com/k9mail/k-9/issues/1940</url>
+			<bugID>Issue #1940</bugID>
+			<label>bug</label>
+			<description>
+		Expected behavior A nice and stable app is going real unstable and bad. It start crashing, and response slow. -Update of db is ok with success. -Normal day use it crash some time when it receive a mail. Environment K-9 Mail version: -5.201 Android version: -6.0.1 Account type (IMAP, POP3, WebDAV/Exchange): -IMAP -Start crashing after latest update, have runned for years!
+	</description>
+		</report>
+		<report Number="125">
+			<summary>PGP message doesn't decrypt in 5.201, but does in 5.010</summary>
+			<url>https://github.com/k9mail/k-9/issues/1960</url>
+			<bugID>Issue #1960</bugID>
+			<label>bug</label>
+			<description>
+		Expected behavior Open PGP encrypted message in inbox, get prompted for PGP passphrase and enter it, then see the decrypted message text. This is also the actual behavior up to and including 5.010. Actual behavior Open PGP encrypted message in inbox, get prompted for PGP passphrase and enter it, but the text displayed remains the PGP ASCII armor, i.e. the data starting with &quot;-----BEGIN PGP MESSAGE-----&quot; and ending with &quot;-----END PGP MESSAGE-----&quot;. No cleartext message is displayed. Steps to reproduce This seems to be related to the encoding of the incoming PGP message. The messages who cause the issue are MIME messages with two parts: one is the ASCII armor with content type text/plain. The second part is also the ASCII armor, but with some additional HTML markup and content type text/html. I've attached the full SMTP message, stripped from most headers, for your reference. As you can see from the headers, the user agent of the sender is Thunderbird. I've also attached the k9 debug log. message.txt k9-log.txt Environment K-9 Mail version: 5.201 Android version: 4.4.4 (CM 11-20141115-SNAPSHOT-M12-i9100) Account type (IMAP, POP3, WebDAV/Exchange): IMAP
+	</description>
+		</report>
+		<report Number="126">
+			<summary>CC/BCC Disappear if you tap subject first</summary>
+			<url>https://github.com/k9mail/k-9/issues/1965</url>
+			<bugID>Issue #1965</bugID>
+			<label>bug</label>
+			<description>
+		Expected behavior While composing a new email, if I type the subject first, and compose the email, THEN go back and fill out the addresses of BCC and CC. Actual behavior While composing a new email, if I type the subject first, the BCC and CC address fields disappear (have them configured to show by default). No way to get them back because the BCC/CC icon is missing (see previous issue) Steps to reproduce Tap to compose a new email Tap and type a subject BCC/CC address fields disappear Environment K-9 Mail version: 5.201 Android version: 6.0 Account type (IMAP, POP3, WebDAV/Exchange):IMAP
+	</description>
+		</report>
+		<report Number="127">
+			<summary>K9 Unread Widget Size is 1x2 or 2x2 instead of 1x1</summary>
+			<url>https://github.com/k9mail/k-9/issues/1981</url>
+			<bugID>Issue #1981</bugID>
+			<label>bug</label>
+			<description>
+		I first noticed this on my wifes klte with CM12 - for some reason (unexplicable to mee), the unread widget has the size 2x2 instead of 1x1 for at least a year now (uninstall and reinstall of k9 didn't help). Now, since I updated to K9 5.2, it also happened on my klte with CM13.0, but the size is now 1x2 (as you can see in the attached screenshot). The widget is not resizable after added to a homescreen. Expected behavior The widget should always be 1x1 in size, as it was before. Actual behavior On some devices, the size is off - 1x2 or 2x2 on two of my devices. Steps to reproduce Can't reproduce - can get rid of, either, by uninstalling/reinstalling. Also did a wipe of K9 data once on my wifes phone, to no avail. Environment K-9 Mail version: 5.201 currently, was already for some months before on one device. Android version: 5.0/6.0 (CM 12/13) Account type (IMAP, POP3, WebDAV/Exchange): IMAP
+	</description>
+		</report>
+		<report Number="128">
+			<summary>Nothing in main body of Mail since latest update</summary>
+			<url>https://github.com/k9mail/k-9/issues/1992</url>
+			<bugID>Issue #1992</bugID>
+			<label>bug</label>
+			<description>
+		Shows subject line and sender but does show anything in the main body see attachment. This is the same for new emails or old already downloaded emails Environment K-9 Mail version:5.202 Android version: 4.4.2 Account type (IMAP, POP3, WebDAV/Exchange): IMAP
+	</description>
+		</report>
+		<report Number="129">
+			<summary>K-9 Mail not showing inline images since last two updates</summary>
+			<url>https://github.com/k9mail/k-9/issues/1997</url>
+			<bugID>Issue #1997</bugID>
+			<label>bug</label>
+			<description>
+		Expected behavior Inline images should be displayed Actual behavior Inline images are not displayed Should look like this (snip from outlook): Steps to reproduce Download new email View email Scratch head File issue Environment K-9 Mail version: Android version: K-9 Mail 5.201 and 5.202 android 6.0.1, Samsung Note 5. Account type (IMAP, POP3, WebDAV/Exchange): POP3
+	</description>
+		</report>
+		<report Number="130">
+			<summary>Crash: NPE in MessageTitleView.showSubjectInMessageHeader()</summary>
+			<url>https://github.com/k9mail/k-9/issues/2010</url>
+			<bugID>Issue #2010</bugID>
+			<label>bug</label>
+			<description>
+		Via Play Developer Console Version: 5.202 java.lang.NullPointerException: Attempt to invoke virtual method 'void com.fsck.k9.view.MessageHeader.showSubjectLine()' on a null object reference
+	at com.fsck.k9.view.MessageTitleView.showSubjectInMessageHeader(MessageTitleView.java:67)
+	at com.fsck.k9.activity.MessageList.displayMessageSubject(MessageList.java:1439)
+	at com.fsck.k9.ui.messageview.MessageViewFragment.displayMessageSubject(MessageViewFragment.java:478)
+	at com.fsck.k9.ui.messageview.MessageViewFragment.displayHeaderForLoadingMessage(MessageViewFragment.java:249)
+	at com.fsck.k9.ui.messageview.MessageViewFragment.access$400(MessageViewFragment.java:55)
+	at com.fsck.k9.ui.messageview.MessageViewFragment$5.onMessageDataLoadFinished(MessageViewFragment.java:718)
+	at com.fsck.k9.activity.MessageLoaderHelper.onLoadMessageFromDatabaseFinished(MessageLoaderHelper.java:196)
+	at com.fsck.k9.activity.MessageLoaderHelper.access$500(MessageLoaderHelper.java:69)
+	at com.fsck.k9.activity.MessageLoaderHelper$1.onLoadFinished(MessageLoaderHelper.java:244)
+	at com.fsck.k9.activity.MessageLoaderHelper$1.onLoadFinished(MessageLoaderHelper.java:224)
+	at android.app.LoaderManagerImpl$LoaderInfo.callOnLoadFinished(LoaderManager.java:488)
+	at android.app.LoaderManagerImpl$LoaderInfo.onLoadComplete(LoaderManager.java:456)
+	at android.content.Loader.deliverResult(Loader.java:144)
+	at com.fsck.k9.ui.message.LocalMessageLoader.deliverResult(LocalMessageLoader.java:44)
+	at com.fsck.k9.ui.message.LocalMessageLoader.deliverResult(LocalMessageLoader.java:16)
+	at android.content.AsyncTaskLoader.dispatchOnLoadComplete(AsyncTaskLoader.java:265)
+	at android.content.AsyncTaskLoader$LoadTask.onPostExecute(AsyncTaskLoader.java:92)
+	at android.os.AsyncTask.finish(AsyncTask.java:636)
+	at android.os.AsyncTask.access$500(AsyncTask.java:177)
+	at android.os.AsyncTask$InternalHandler.handleMessage(AsyncTask.java:653)
+	at android.os.Handler.dispatchMessage(Handler.java:111)
+	at android.os.Looper.loop(Looper.java:194)
+	at android.app.ActivityThread.main(ActivityThread.java:5624)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at java.lang.reflect.Method.invoke(Method.java:372)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:959)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:754)
+	</description>
+		</report>
+		<report Number="131">
+			<summary>IMAP auth fails for account with dot in name and encrypted password</summary>
+			<url>https://github.com/k9mail/k-9/issues/2039</url>
+			<bugID>Issue #2039</bugID>
+			<label>bug</label>
+			<description>
+		Expected behavior K-9 to authenticate and pull down email from IMAP server. Actual behavior Authentication fails. ADB log: 01-10 20:42:35.579 E/k9      (12589): com.fsck.k9.mail.AuthenticationFailedException: Command: AUTHENTICATE CRAM-MD5; response: #1# [NO, [AUTHENTICATIONFAILED], Authentication failed.]
+01-10 20:42:35.579 E/k9      (12589): 	at com.fsck.k9.mail.store.imap.ImapConnection.authCramMD5(ImapConnection.java:379)
+01-10 20:42:35.579 E/k9      (12589): 	at com.fsck.k9.mail.store.imap.ImapConnection.authenticate(ImapConnection.java:327)
+01-10 20:42:35.579 E/k9      (12589): 	at com.fsck.k9.mail.store.imap.ImapConnection.open(ImapConnection.java:121)
+01-10 20:42:35.579 E/k9      (12589): 	at com.fsck.k9.mail.store.imap.ImapConnection.sendCommand(ImapConnection.java:640)
+01-10 20:42:35.579 E/k9      (12589): 	at com.fsck.k9.mail.store.imap.ImapConnection.executeSimpleCommand(ImapConnection.java:623)
+01-10 20:42:35.579 E/k9      (12589): 	at com.fsck.k9.mail.store.imap.ImapConnection.executeSimpleCommand(ImapConnection.java:612)
+01-10 20:42:35.579 E/k9      (12589): 	at com.fsck.k9.mail.store.imap.ImapFolder.executeSimpleCommand(ImapFolder.java:109)
+01-10 20:42:35.579 E/k9      (12589): 	at com.fsck.k9.mail.store.imap.ImapFolder.internalOpen(ImapFolder.java:145)
+01-10 20:42:35.579 E/k9      (12589): 	at com.fsck.k9.mail.store.imap.ImapFolderPusher$PushRunnable.openConnectionIfNecessary(ImapFolderPusher.java:330)
+01-10 20:42:35.579 E/k9      (12589): 	at com.fsck.k9.mail.store.imap.ImapFolderPusher$PushRunnable.run(ImapFolderPusher.java:155)
+01-10 20:42:35.579 E/k9      (12589): 	at java.lang.Thread.run(Thread.java:761)
+ Steps to reproduce Set up account Incoming server: Security: SSL/TLS Port: 993 Username: name.withdot Authentication: Encrypted password Environment K-9 Mail version: v5.202 Android version: 7.0 Account type (IMAP, POP3, WebDAV/Exchange): IMAP Additional info: Another account with identical settings but no dot in the account name at same server works fine. If I turn off password encryption the authentication succeeds.
+	</description>
+		</report>
+		<report Number="132">
+			<summary>Icon to remove a recipient in compose screen is almost invisible in dark theme</summary>
+			<url>https://github.com/k9mail/k-9/issues/2083</url>
+			<bugID>Issue #2083</bugID>
+			<label>bug</label>
+			<description>
+		Dark theme with &quot;X&quot; button almost invisible: Light theme for comparison: 👍 1
+	</description>
+		</report>
+		<report Number="133">
+			<summary>Database size is still increasing</summary>
+			<url>https://github.com/k9mail/k-9/issues/2103</url>
+			<bugID>Issue #2103</bugID>
+			<label>bug</label>
+			<description>
+		Unfortunately, the fix #2005 is not sufficient for the issue #1917: After updating from 5.202 to 5.203, the database of my IMAP account decreased only a little bit from 3.5MB to 3.4MB. Compressing the account still doesn't change anything and all local messages were deleted before. In 5.0xx, the database has never gone over 1MB. Environment K-9 Mail version: 5.203 Android version: 6.0.1 (CyanogenOS 13.1.5) Account type: IMAP
+	</description>
+		</report>
+		<report Number="134">
+			<summary>K9 does not delete message from Server</summary>
+			<url>https://github.com/k9mail/k-9/issues/2117</url>
+			<bugID>Issue #2117</bugID>
+			<label>bug</label>
+			<description>
+		Expected behavior deleting a message on K9 shoudld elete the message from the server as is configured in the accounts Fetching mail options Actual behavior messages are not deleted from the server but remain there. the local message is deleted This occurs only with my google account Environment K-9 Mail version: 5.203 Android version: 6.0.1 Account type (IMAP, POP3, WebDAV/Exchange): IMAP
+	</description>
+		</report>
+		<report Number="135">
+			<summary>Erroneous &quot;+0 more&quot; messages on Notifications.</summary>
+			<url>https://github.com/k9mail/k-9/issues/2121</url>
+			<bugID>Issue #2121</bugID>
+			<label>bug</label>
+			<description>
+		Expected behavior Since 5.202 occasionally the notifications can show &quot;+0&quot;. This never as witnessed in 5.200 and before. Actual behavior Notifications will show a &quot;+X&quot; number in the expanded notification where the X is the number of new messages exceeding that of the notification displayed messages. Steps to reproduce Cannot reproduce at will - Ive not actually tried to work out how. However, see screenshots: Note it says 6 new messages, yet only displays 5 and then &quot;+0 more&quot;: Environment K-9 Mail version: 5.203 Android version: 4.2.1 Account type (IMAP, POP3, WebDAV/Exchange): IMAP
+	</description>
+		</report>
+		<report Number="136">
+			<summary>Response to authentication failure due to password</summary>
+			<url>https://github.com/k9mail/k-9/issues/2134</url>
+			<bugID>Issue #2134</bugID>
+			<label>bug</label>
+			<description>
+		Expected behavior A user correctly sets up an email account in K9. User changes their password on the email system K9 is connecting to. User has not updated the password set in the K9 account settings. When an authentication failure occurs due to password, notify the user that the password is incorrect and provide them with a dialog to update the password in K9 account settings. Don't continually try to authenticate with the server thus potentially triggering account lockouts due to multiple authentication failures in a short span of time. Actual behavior When an authentication failure occurs due to password, no prompt or error is displayed for the user. Continually attempts to authenticate with server and in our system triggers the account lockout. Steps to reproduce 1.Setup an email account in K9 2.Change password in email system 3.Refresh inbox in K9 4.Observe no errors or prompts about incorrect password being displayed 5.Monitor audit log of mail system for authentication failures and lockout Environment K-9 Mail version: 5.203 Android version: 6.0.1 Account type (IMAP, POP3, WebDAV/Exchange): IMAP k9-log-extract.txt
+	</description>
+		</report>
+		<report Number="137">
+			<summary>Clear local messages -&gt; freeze</summary>
+			<url>https://github.com/k9mail/k-9/issues/2143</url>
+			<bugID>Issue #2143</bugID>
+			<label>bug</label>
+			<description>
+		Expected behavior &quot;Clear local messages&quot; should clear the locally stored messages, allowing one to re-download the messages from the server. Actual behavior Freeze. Steps to reproduce Have a folder with some large amount of messages. A few hundred should suffice. Make sure it's NOT up-to-date with the server Clear its local messages. Environment K-9 Mail version: 5.203 Android version: 6.0.1 Account type (IMAP, POP3, WebDAV/Exchange): IMAP
+	</description>
+		</report>
+		<report Number="138">
+			<summary>Crash in 5.205: Bug in ParcelableUtil.unmarshall()?</summary>
+			<url>https://github.com/k9mail/k-9/issues/2282</url>
+			<bugID>Issue #2282</bugID>
+			<label>bug</label>
+			<description>
+		Crash reported via Google Play. User messages: crash when opening from 1x1 widget using inbox icon to start k9 results in crash force closes on start from widget java.lang.RuntimeException: Unable to start activity ComponentInfo{com.fsck.k9/com.fsck.k9.activity.MessageList}: java.lang.NullPointerException: Attempt to get length of null array
+	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:3253)
+	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:3349)
+	at android.app.ActivityThread.access$1100(ActivityThread.java:221)
+	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1794)
+	at android.os.Handler.dispatchMessage(Handler.java:102)
+	at android.os.Looper.loop(Looper.java:158)
+	at android.app.ActivityThread.main(ActivityThread.java:7224)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:1230)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1120)
+Caused by: java.lang.NullPointerException: Attempt to get length of null array
+	at com.fsck.k9.helper.ParcelableUtil.unmarshall(ParcelableUtil.java:27)
+	at com.fsck.k9.helper.ParcelableUtil.unmarshall(ParcelableUtil.java:19)
+	at com.fsck.k9.activity.MessageList.decodeExtras(MessageList.java:437)
+	at com.fsck.k9.activity.MessageList.onCreate(MessageList.java:225)
+	at android.app.Activity.performCreate(Activity.java:6876)
+	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1135)
+	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:3206)
+	... 9 more
+	</description>
+		</report>
+		<report Number="139">
+			<summary>LED blinking is work only when there is sound notification (Android 7.1.1)</summary>
+			<url>https://github.com/k9mail/k-9/issues/2331</url>
+			<bugID>Issue #2331</bugID>
+			<label>bug</label>
+			<description>
+		Expected behavior There should be LED notification when new mail arrives, even if the ringtone is set to none. Actual behavior There is no LED notification when the ringtone is set to none. If I set it to something, there will be LED notification. Same settings on Android 6.0.1 work as expected. Steps to reproduce Set Blink LED, set Ringtone to None. -&gt; at new mail arrival, no LED notification Set Ringtone to something. -&gt; at new mail arrival, there will be sound and LED notification Set Ringtone back to None -&gt; at new mail arrival, no LED notification Environment K-9 Mail version: 5.203 Android version: 7.1.1 Account type (IMAP, POP3, WebDAV/Exchange): IMAP
+	</description>
+		</report>
+		<report Number="140">
+			<summary>Contact photo in token doesn't show</summary>
+			<url>https://github.com/k9mail/k-9/issues/2337</url>
+			<bugID>Issue #2337</bugID>
+			<label>bug</label>
+			<description>
+		Expected behavior When composing email, the contact photo in token shows Actual behavior The contact photo in token doesn't show at the beginning, but becomes shown if continue to type. Steps to reproduce Create a contact with photo Compose a new email Click the drop down item of the contact with photo No photo shows in the token Continue to type in the input box, the photo shows. Environment K-9 Mail version: 5.203 Android version: 7.1.1, and I reproduced in API 23 emulator Account type (IMAP, POP3, WebDAV/Exchange): IMAP
+	</description>
+		</report>
+		<report Number="141">
+			<summary>Cancelling Compose window not always requesting 'Save As Draft' option</summary>
+			<url>https://github.com/k9mail/k-9/issues/2433</url>
+			<bugID>Issue #2433</bugID>
+			<label>bug</label>
+			<description>
+		THIS IS THE SAME AS #2120 (for v5.203) but that is closed and I dont know how to append/reopen. This now applies to v5.206. I confirm that the problem now resides on 5.206 despite supposed fix being 'applied' in 5.204. &quot;Save As Draft&quot; offering is inconsistent. Expected behavior When browsing, for example the GALLERY on the device, and choosing a picture to 'share' through K9, a new email is generated with the photo attachment. If the 'return'/back out button is pressed on the device, K9 prompts &quot;Save as Draft or Discard&quot; (allowing saving as draft). Actual behavior If a fresh email is composed from WITHIN K9, and the 'return'/back out button is pressed, the email is unceremoniously discarded and no option to Save As Draft is offered. Steps to reproduce As above Environment K-9 Mail version: 5.206 Android version: 4.2.1 Account type (IMAP, POP3, WebDAV/Exchange):
+	</description>
+		</report>
+		<report Number="142">
+			<summary>Downloading complete message removes star</summary>
+			<url>https://github.com/k9mail/k-9/issues/2475</url>
+			<bugID>Issue #2475</bugID>
+			<label>bug</label>
+			<description>
+		K9 5.205 If I star message then press the button to download the complete message the star disappears
+	</description>
+		</report>
+		<report Number="143">
+			<summary>Export settings does not export 'Support signing of unecrypted mail' setting</summary>
+			<url>https://github.com/k9mail/k-9/issues/2503</url>
+			<bugID>Issue #2503</bugID>
+			<label>bug</label>
+			<description>
+		If I set 'Support signing of unecrypted mail' option, then export the settings, then clear K9 mail app. data, then import the settings, the 'Support signing of unecrypted mail' option does not get set.
+	</description>
+		</report>
+		<report Number="144">
+			<summary>A lot of crashes with android 7.0</summary>
+			<url>https://github.com/k9mail/k-9/issues/2569</url>
+			<bugID>Issue #2569</bugID>
+			<label>bug</label>
+			<description>
+		I have k9 installed on some devices, but the only one with android 7.0 suffers of crashes which do not happen in android 4.4. Expected behavior Tell us what should happen Actual behavior Tell us what happens instead Steps to reproduce Environment K-9 Mail version:5.206 Android version:7.0 Account type (IMAP, POP3, WebDAV/Exchange):imap
+	</description>
+		</report>
+		<report Number="145">
+			<summary>Beta Tester link on README.md not working</summary>
+			<url>https://github.com/k9mail/k-9/issues/2602</url>
+			<bugID>Issue #2602</bugID>
+			<label>bug</label>
+			<description>
+		Hello, the &quot;Beta tester&quot; and &quot;Alpha tester&quot; Links on the github landing page are broken. Is there a version with the new UI that can be tested?
+	</description>
+		</report>
+		<report Number="146">
+			<summary>Last update deleted all my accounts</summary>
+			<url>https://github.com/k9mail/k-9/issues/2647</url>
+			<bugID>Issue #2647</bugID>
+			<label>bug</label>
+			<description>
+		This morning I updated K-9 through Google Play: it deleted all my accounts. Expected behavior To see my many accounts set up and running as before Actual behavior K-9 shows as a new install, without any account Steps to reproduce Environment K-9 Mail version: 5.207 Android version: 6.0 Account type (IMAP, POP3, WebDAV/Exchange): IMAP
+	</description>
+		</report>
+		<report Number="147">
+			<summary>Crash when activating an account</summary>
+			<url>https://github.com/k9mail/k-9/issues/2708</url>
+			<bugID>Issue #2708</bugID>
+			<label>bug</label>
+			<description>
+		I updated some weeks ago to a new phone with android nougat (7.0). I 've read up that syncing is not working properly on 7.0 and till a fix is found I can deal with doing manual upgrades. But I am experiencing another bug. I have 6 email accounts added (imported from a phone with android 6.0). First one on the list works as expected. For the rest if I press on them (A), K-9 closes. Long pressing shows the pop up menu but has Activate (2nd screenshot). Pressing Activate closes K-9. If I press on the directory icon on the right (B) on one of the not working emails, it enters in the Folders menu and I can access all directories, settings and sync the account just fine. So firing up K-9 only the 1st account on the top works normally. The rest if I press on them crash K-9 and only work fine if I enter in the Folders menu. Expected behavior It should be able to enter in the accounts without a force-close Actual behavior K-9 closes. Steps to reproduce Open K-9 Click on any account except the first. K-9 closes Environment K-9 Mail version: 5.207 Android version: 7.0 Account type (IMAP, POP3, WebDAV/Exchange): imap
+	</description>
+		</report>
+		<report Number="148">
+			<summary>IndexOutOfBounds with Multipart/Signed with only 1 part</summary>
+			<url>https://github.com/k9mail/k-9/issues/2758</url>
+			<bugID>Issue #2758</bugID>
+			<label>bug</label>
+			<description>
+		Expected behavior Should see the Email Actual behavior App crashes Steps to reproduce Open a specific Email (I only have one Email where this happens) This Email has no attachment Environment K-9 Mail version: 5.208 Android version: 7.1.2 (LineageOS) Account type (IMAP, POP3, WebDAV/Exchange): IMAP Log: 09-11 17:32:50.135 D/k9      (31893): MessageView displaying message MessageReference{accountUuid='b213f70e-f05f-4d42-b37c-6ccb377537d0', folderName='INBOX', uid='701', flag=null}
+09-11 17:32:50.135 D/k9      (31893): Creating new local message loader
+09-11 17:32:50.477 E/AndroidRuntime(31893): FATAL EXCEPTION: main
+09-11 17:32:50.477 E/AndroidRuntime(31893): Process: com.fsck.k9, PID: 31893
+09-11 17:32:50.477 E/AndroidRuntime(31893): java.lang.IndexOutOfBoundsException: Index: 1, Size: 1
+09-11 17:32:50.477 E/AndroidRuntime(31893): 	at java.util.ArrayList.get(ArrayList.java:411)
+09-11 17:32:50.477 E/AndroidRuntime(31893): 	at com.fsck.k9.mail.Multipart.getBodyPart(Multipart.java:24)
+09-11 17:32:50.477 E/AndroidRuntime(31893): 	at com.fsck.k9.crypto.MessageDecryptVerifier.getSignatureData(MessageDecryptVerifier.java:202)
+09-11 17:32:50.477 E/AndroidRuntime(31893): 	at com.fsck.k9.ui.crypto.MessageCryptoHelper.callAsyncDetachedVerify(MessageCryptoHelper.java:352)
+09-11 17:32:50.477 E/AndroidRuntime(31893): 	at com.fsck.k9.ui.crypto.MessageCryptoHelper.decryptVerify(MessageCryptoHelper.java:260)
+09-11 17:32:50.477 E/AndroidRuntime(31893): 	at com.fsck.k9.ui.crypto.MessageCryptoHelper.decryptOrVerifyPart(MessageCryptoHelper.java:238)
+09-11 17:32:50.477 E/AndroidRuntime(31893): 	at com.fsck.k9.ui.crypto.MessageCryptoHelper.startDecryptingOrVerifyingPart(MessageCryptoHelper.java:204)
+09-11 17:32:50.477 E/AndroidRuntime(31893): 	at com.fsck.k9.ui.crypto.MessageCryptoHelper.decryptOrVerifyNextPart(MessageCryptoHelper.java:197)
+09-11 17:32:50.477 E/AndroidRuntime(31893): 	at com.fsck.k9.ui.crypto.MessageCryptoHelper.access$200(MessageCryptoHelper.java:58)
+09-11 17:32:50.477 E/AndroidRuntime(31893): 	at com.fsck.k9.ui.crypto.MessageCryptoHelper$1.onBound(MessageCryptoHelper.java:219)
+09-11 17:32:50.477 E/AndroidRuntime(31893): 	at org.openintents.openpgp.util.OpenPgpServiceConnection$1.onServiceConnected(OpenPgpServiceConnection.java:81)
+09-11 17:32:50.477 E/AndroidRuntime(31893): 	at android.app.LoadedApk$ServiceDispatcher.doConnected(LoadedApk.java:1453)
+09-11 17:32:50.477 E/AndroidRuntime(31893): 	at android.app.LoadedApk$ServiceDispatcher$RunConnection.run(LoadedApk.java:1481)
+09-11 17:32:50.477 E/AndroidRuntime(31893): 	at android.os.Handler.handleCallback(Handler.java:751)
+09-11 17:32:50.477 E/AndroidRuntime(31893): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+09-11 17:32:50.477 E/AndroidRuntime(31893): 	at android.os.Looper.loop(Looper.java:154)
+09-11 17:32:50.477 E/AndroidRuntime(31893): 	at android.app.ActivityThread.main(ActivityThread.java:6186)
+09-11 17:32:50.477 E/AndroidRuntime(31893): 	at java.lang.reflect.Method.invoke(Native Method)
+09-11 17:32:50.477 E/AndroidRuntime(31893): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:889)
+09-11 17:32:50.477 E/AndroidRuntime(31893): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:779)
+	</description>
+		</report>
+		<report Number="149">
+			<summary>S/MIME signed emails in sent folder misleadingly shown as PGP encrypted mails</summary>
+			<url>https://github.com/k9mail/k-9/issues/2776</url>
+			<bugID>Issue #2776</bugID>
+			<label>bug</label>
+			<description>
+		Expected behavior I am using S/MIME to sign e-mails on my computer. When I open sent mails in k9 mail app on my smartphone the mail body is shown correctly, I can read the sent message, because it is just signed. I also see the attachment (signature file&quot; smime.p7s&quot;) there. Actual behavior Since last update the S/MIME signed mails are shown correctly in AutoPreview (I see text there), but after clicking on them to open the mail and read the full message. Instead a message &quot;this mail is encrypted / This e-mail is with OpenPGP encrypted. To read it you need compatible OpenPGP-App installed and configured / Choose OpenPGPG app&quot; appeaers and I have no chance to read the message. Steps to reproduce use a s/mime to sign e-mails from your computer open the sent mail on your smartphone with k9 mail app then this message appears Environment K-9 Mail version: 5.300 (installed 11th Sept. 2017) Android version: 7.0 Account type (IMAP, POP3, WebDAV/Exchange): IMAP
+	</description>
+		</report>
+		<report Number="150">
+			<summary>NullPointerException when processing draft message</summary>
+			<url>https://github.com/k9mail/k-9/issues/2847</url>
+			<bugID>Issue #2847</bugID>
+			<label>bug</label>
+			<description>
+		Reported for K-9 Mail 5.301 Exception: java.lang.NullPointerException: 
+  at com.fsck.k9.ui.compose.QuotedMessagePresenter.processDraftMessage (QuotedMessagePresenter.java:255)
+  at com.fsck.k9.activity.MessageCompose.processDraftMessage (MessageCompose.java:1378)
+  at com.fsck.k9.activity.MessageCompose.processSourceMessage (MessageCompose.java:1203)
+  at com.fsck.k9.activity.MessageCompose.loadLocalMessageForDisplay (MessageCompose.java:1575)
+  at com.fsck.k9.activity.MessageCompose$10.onMessageViewInfoLoadFinished (MessageCompose.java:1595)
+  at com.fsck.k9.activity.MessageLoaderHelper.onDecodeMessageFinished (MessageLoaderHelper.java:365)
+  at com.fsck.k9.activity.MessageLoaderHelper.access$900 (MessageLoaderHelper.java:73)
+  at com.fsck.k9.activity.MessageLoaderHelper$3.onLoadFinished (MessageLoaderHelper.java:392)
+  at com.fsck.k9.activity.MessageLoaderHelper$3.onLoadFinished (MessageLoaderHelper.java:378)
+  at android.app.LoaderManagerImpl$LoaderInfo.callOnLoadFinished (LoaderManager.java:489)
+  at android.app.LoaderManagerImpl$LoaderInfo.onLoadComplete (LoaderManager.java:457)
+  at android.content.Loader.deliverResult (Loader.java:144)
+  at com.fsck.k9.ui.message.LocalMessageExtractorLoader.deliverResult (LocalMessageExtractorLoader.java:48)
+  at com.fsck.k9.ui.message.LocalMessageExtractorLoader.deliverResult (LocalMessageExtractorLoader.java:18)
+  at android.content.AsyncTaskLoader.dispatchOnLoadComplete (AsyncTaskLoader.java:268)
+  at android.content.AsyncTaskLoader$LoadTask.onPostExecute (AsyncTaskLoader.java:92)
+  at android.os.AsyncTask.finish (AsyncTask.java:695)
+  at android.os.AsyncTask.-wrap1 (Unknown Source)
+  at android.os.AsyncTask$InternalHandler.handleMessage (AsyncTask.java:712)
+  at android.os.Handler.dispatchMessage (Handler.java:105)
+  at android.os.Looper.loop (Looper.java:164)
+  at android.app.ActivityThread.main (ActivityThread.java:6541)
+  at java.lang.reflect.Method.invoke (Native Method)
+  at com.android.internal.os.Zygote$MethodAndArgsCaller.run (Zygote.java:240)
+  at com.android.internal.os.ZygoteInit.main (ZygoteInit.java:767)
+ k-9/k9mail/src/main/java/com/fsck/k9/ui/compose/QuotedMessagePresenter.java Lines 252 to 255 in d26483e String text = MessageExtractor.getTextFromPart(part); Timber.d(&quot;Loading message with offset %d, length %d. Text length is %d.&quot;, bodyOffset, bodyLength, text.length()); Probably caused by a message where no text could be extracted, i.e. MessageExtractor.getTextFromPart(part) returned null. Ideally, we'd display an error message letting the user know what went wrong. Unfortunately, we currently only log and ignore exceptions in getTextFromPart(). So there's no way of knowing why no text could be extracted.
+	</description>
+		</report>
+		<report Number="151">
+			<summary>5.301 plain-text body rendering issues</summary>
+			<url>https://github.com/k9mail/k-9/issues/2856</url>
+			<bugID>Issue #2856</bugID>
+			<label>bug</label>
+			<description>
+		It appears that somewhere between 5.208 and 5.301 some issues were introduced in the rendering the body of (single-part) plain-text messages. For instance, a message that ends with:  Davide
+
+ ------------------------------------------------------------------------------
+ Check out the vibrant tech community on one of the world's most
+ engaging tech sites, Slashdot.org! http://sdm.link/slashdot
+ _______________________________________________
+ Bacula-users mailing list
+ Bacula-users@lists.sourceforge.net
+ https://lists.sourceforge.net/lists/listinfo/bacula-users
+ is displayed in 5.301 as:  DavideCheck out the vibrant tech community on one of the world's most
+ engaging tech sites, Slashdot.org! http://sdm.link/slashdotBacula-users mailing list
+ Bacula-users@lists.sourceforge.net
+ https://lists.sourceforge.net/lists/listinfo/bacula-users
+ If I forward the message from a 5.301 client the bottom text block is displayed correctly in the draft. There additionally appears to be a problem with hyperlinking. If the &quot;http://&quot; or &quot;https://&quot;&quot; starts in column one it is not hyperlinked. If it starts in column 2+ it is. In 5.208 the message renders correctly and all &quot;http://&quot; and &quot;https://&quot; urls are hyperlinked regardless of their column start position.
+	</description>
+		</report>
+		<report Number="152">
+			<summary>Emails with attachments can get sent multiple times</summary>
+			<url>https://github.com/k9mail/k-9/issues/2858</url>
+			<bugID>Issue #2858</bugID>
+			<label>bug</label>
+			<description>
+		Expected behavior Email should only be sent once Actual behavior Email gets sent about five times Steps to reproduce Send an email with an attachment Environment K-9 Mail version: 5.208 Android version: 6.0 Account type (IMAP, POP3, WebDAV/Exchange): Pop3
+	</description>
+		</report>
+		<report Number="153">
+			<summary>Missed translation resources for 2 strings</summary>
+			<url>https://github.com/k9mail/k-9/issues/2941</url>
+			<bugID>Issue #2941</bugID>
+			<label>bug</label>
+			<description>
+		Hi, seems that translation missed for this (or related) string in K-9 builds (&quot;Cryptography&quot;). https://imgur.com/a/8AHyJ Also, probably missed localization string in caption (More from this sender -&gt; &quot;From&quot;) for this or related string: https://imgur.com/a/khhlR Please add the resources that we can translate with Transifex. Regards K-9 Mail version: 5.304 Android version: 4.4 Account type (IMAP):
+	</description>
+		</report>
+		<report Number="154">
+			<summary>No notification sound / no notification light when new mail arrives</summary>
+			<url>https://github.com/k9mail/k-9/issues/2999</url>
+			<bugID>Issue #2999</bugID>
+			<label>bug</label>
+			<description>
+		Please search to check for an existing issue (including closed issues, for which the fix may not have yet been released) before opening a new issue: https://github.com/k9mail/k-9/issues?q=is%3Aissue Expected behavior Tell us what should happen Notification Sound / Light should be hearable/visible when new mail arrives Actual behavior Tell us what happens instead No Notification sound and no Light notification when new mail arrives (it worked in versions prior 5.400 Steps to reproduce 1.Send a mail from an external account (not in K9) 2. New Mail arrives (indicated within the K9 account and with a small letter in Notification bar) 3. There is no sound and LED notification light Environment K-9 Mail version: 5.400 Android version: 6.0 (LG G4) Account type (IMAP, POP3, WebDAV/Exchange): IMAP
+	</description>
+		</report>
+		<report Number="155">
+			<summary>Images in body of YouTube e-mail notifications are no longer displayed</summary>
+			<url>https://github.com/k9mail/k-9/issues/3006</url>
+			<bugID>Issue #3006</bugID>
+			<label>bug</label>
+			<description>
+		Expected behavior Images in e-mail body should be displayed. Actual behavior Images are not displayed. As far as I know, this is issue with YouTube e-mail notifications only. Everything worked fine until the last update. Now, also the older messages (received before the update) are affected by this bug. Deleting K9's cache and restarting device did not help. Steps to reproduce Open the e-mail message Images are blank, as seen here: Environment K-9 Mail version: 5.400 Android version: 5.0.1 (tablet), 5.1.1 (smartphone) Account type (IMAP, POP3, WebDAV/Exchange): IMAP 👍 1
+	</description>
+		</report>
+		<report Number="156">
+			<summary>Prefer To over X-Original-To when determining recipient identity</summary>
+			<url>https://github.com/k9mail/k-9/issues/3011</url>
+			<bugID>Issue #3011</bugID>
+			<label>bug</label>
+			<description>
+		Please search to check for an existing issue (including closed issues, for which the fix may not have yet been released) before opening a new issue: https://github.com/k9mail/k-9/issues?q=is%3Aissue Expected behavior reply to the e-mail with the identity the email was send to (note: this is not the same as always replying with the identity which has highest priority, that woudl also be acceptable, but rplying with the identity which received the email would be best) Actual behavior the inital account is selected by default, instead of the identity which received the email. Even the identity priority is ignored. Steps to reproduce create account add new identity prioritise new identity over inital identity send email to newest identity attempt to reply to received email (and notice the wrong identity is assumed) Environment K-9 Mail version: 5.400 Android version: 7.0 Account type (IMAP, POP3, WebDAV/Exchange): IMAP
+	</description>
+		</report>
+		<report Number="157">
+			<summary>tel URI links are stripped by HtmlSanitizer</summary>
+			<url>https://github.com/k9mail/k-9/issues/3065</url>
+			<bugID>Issue #3065</bugID>
+			<label>bug</label>
+			<description>
+		Please search to check for an existing issue (including closed issues, for which the fix may not have yet been released) before opening a new issue: https://github.com/k9mail/k-9/issues?q=is%3Aissue Expected behavior Tell us what should happen Click to call link does not work since a few weeks. A click to call link is a hyperlink which is opened by a dialer-application. For Exampel: </description>
+		</report>
+	</reports>

@@ -1,0 +1,1553 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<reports>
+		<report Number="0">
+			<summary>Allow importing the standard SMS database at any time</summary>
+			<url>https://github.com/WhisperSystems/Signal-Android/issues/19</url>
+			<bugID>Issue #19</bugID>
+			<label>feature</label>
+			<description>
+		When ran for the first time, TextSecure allows the user to import the existing SMS database into TextSecure. But later, there only is the option of importing/exporting a TextSecure SMS database, and nothing to re-import the standard SMS database (useful when the user did something wrong and wants to start over) It's kind of an issue: you can still clear all TextSecure data from Android and start over, but it also resets your keys… So, it would be cool to be able to trash all existing TextSecure SMS and re-import the standard SMS database, all in one go and without resetting the keys.
+	</description>
+		</report>
+		<report Number="1">
+			<summary>TextSecure does not retry sending sms which fail to send.</summary>
+			<url>https://github.com/WhisperSystems/Signal-Android/issues/22</url>
+			<bugID>Issue #22</bugID>
+			<label>feature</label>
+			<description>
+		IMHO failed sms should be added to a queue and sent later when there is enough signal strength to do send them.
+	</description>
+		</report>
+		<report Number="2">
+			<summary>No max. thread size setting</summary>
+			<url>https://github.com/WhisperSystems/Signal-Android/issues/23</url>
+			<bugID>Issue #23</bugID>
+			<label>feature</label>
+			<description>
+		Recently due to my own ignorance and the Mrs being away I quickly amounted ~1000 messages in one thread. At which point I think I must have hit a database / memory issue. TextSecure could not accept any new messages (it straight rejected them) but equally had no memory so I couldnt delete a single message or an entire thread at once. The only way to resolve the problem was to go into the Settings menu -&gt; Applications -&gt; TextSecure and delete TextSecure's database. I'd prepose a &quot;max thread length&quot; in the options, most other text programs allow you to set a max length of say 100 messages.
+	</description>
+		</report>
+		<report Number="3">
+			<summary>merge multiple SMS databases</summary>
+			<url>https://github.com/WhisperSystems/Signal-Android/issues/28</url>
+			<bugID>Issue #28</bugID>
+			<label>feature</label>
+			<description>
+		Merging two existing would be nice. For example, when you get a new phone, and have to wait a while before you can import your old texts. Currently newer database gets 'clobbered'.
+	</description>
+		</report>
+		<report Number="4">
+			<summary>Message content preview in notification bar</summary>
+			<url>https://github.com/WhisperSystems/Signal-Android/issues/72</url>
+			<bugID>Issue #72</bugID>
+			<label>feature</label>
+			<description>
+		I'd like to get a preview of the messagge in notification bar. Could be also good a JB-style quick reply fuction. Thanks for your working and this awesome software!
+	</description>
+		</report>
+		<report Number="5">
+			<summary>Unread messages should be more distinctive</summary>
+			<url>https://github.com/WhisperSystems/Signal-Android/issues/74</url>
+			<bugID>Issue #74</bugID>
+			<label>feature</label>
+			<description>
+		When I receive a new message, I will get a notification. If I click on the notification, I will go to that person within TextSecure. But if I do not click on the notification, and just go into TextSecure.....I do not know who sent me the new message. It would be nice to have the box around the user highlighted in green, or maybe have a green number in the box that represents new messages that have not been read. Thanks, Keep up the good work. Nice to have people looking out for you in this age of 1984.
+	</description>
+		</report>
+		<report Number="6">
+			<summary>Display all recipients for group thread.</summary>
+			<url>https://github.com/WhisperSystems/Signal-Android/issues/77</url>
+			<bugID>Issue #77</bugID>
+			<label>feature</label>
+			<description>
+		After creating a bulk message, the recipients are not easily listed anywhere. The contacts are listed, but after the first few it gets cut. you can check the details of each message sent but that's slow. Please make an option included in a bulk sms message with easily displays the currently included recipients. So I know who any future messages will be sent in bulk too. adding/removing people would be overkill.. but having a nice list would be awesome.
+	</description>
+		</report>
+		<report Number="7">
+			<summary>Optional vibrate when phone is in connected call state.</summary>
+			<url>https://github.com/WhisperSystems/Signal-Android/issues/79</url>
+			<bugID>Issue #79</bugID>
+			<label>feature</label>
+			<description>
+		the vibrate received text notification comes on while phone is in use; this can be annoying to the other end especially on speaker phone. Maybe you can look into turning this off? phone used - Droid2G
+	</description>
+		</report>
+		<report Number="8">
+			<summary>Option to use txtsecure over web</summary>
+			<url>https://github.com/WhisperSystems/Signal-Android/issues/81</url>
+			<bugID>Issue #81</bugID>
+			<label>feature</label>
+			<description>
+		Even though two parties having TextSecure have encrypted communication, carriers can still gleam and log much information about a conversation, such as who communicates, when and how often, and the length of texts. Also some folks have limited texting plans and this might save 'em a buck. Side note: I know like 2 years ago I was like nahh don't do it, but back then not everybody had data plans! I didn't have the vision! lol
+	</description>
+		</report>
+		<report Number="9">
+			<summary>Better support for &quot;me&quot; contact.</summary>
+			<url>https://github.com/WhisperSystems/Signal-Android/issues/82</url>
+			<bugID>Issue #82</bugID>
+			<label>feature</label>
+			<description>
+		No description provided.
+	</description>
+		</report>
+		<report Number="10">
+			<summary>Better identity key synchronization</summary>
+			<url>https://github.com/WhisperSystems/Signal-Android/issues/83</url>
+			<bugID>Issue #83</bugID>
+			<label>feature</label>
+			<description>
+		No description provided.
+	</description>
+		</report>
+		<report Number="11">
+			<summary>Collate group SMS messages.</summary>
+			<url>https://github.com/WhisperSystems/Signal-Android/issues/84</url>
+			<bugID>Issue #84</bugID>
+			<label>feature</label>
+			<description>
+		No description provided.
+	</description>
+		</report>
+		<report Number="12">
+			<summary>Real receive time feature</summary>
+			<url>https://github.com/WhisperSystems/Signal-Android/issues/97</url>
+			<bugID>Issue #97</bugID>
+			<label>feature</label>
+			<description>
+		Hello there A feature I really liked about the Jellybean messaging app is that I could see when I actually should.have received the message. This because I turn off my phone lots of times. When I turn my phone on now and get my messages, they all have the same received time: that moment that I turned on my phone, not when the message has been sent. That's one of the most important features I'm missing. However, I also would like any confirmation option when my message arrives to the other part. Thanks
+	</description>
+		</report>
+		<report Number="13">
+			<summary>Draft of message saved</summary>
+			<url>https://github.com/WhisperSystems/Signal-Android/issues/103</url>
+			<bugID>Issue #103</bugID>
+			<label>feature</label>
+			<description>
+		While typing an SMS, sometimes, you get notifications and switch applications to act with the notification. And after returning to application, sometimes you have come back to home to check agenda or whatever, and the draft of the message has been lost. Since every SMS composer on android seems to handle that, it should be great that TextSecure handles it too.
+	</description>
+		</report>
+		<report Number="14">
+			<summary>Send a &quot;aborting session&quot; notification accross the channel, close the session upon receiving it.</summary>
+			<url>https://github.com/WhisperSystems/Signal-Android/issues/143</url>
+			<bugID>Issue #143</bugID>
+			<label>feature</label>
+			<description>
+		After having experienced the issue quite often, I've been looking at the code just now to make sure the behaviour hadn't changed since I had the issue. If I'm missing something, just close this :) So, if I'm not mistaken, when aborting a secure session, this happens : https://github.com/WhisperSystems/TextSecure/blob/master/src/org/thoughtcrime/securesms/crypto/KeyUtil.java#L79 Basically, keys are flushed, status is retored, and the thread goes on. So if Alice and Bob were having a secure exchange, and Alice aborts the secure session, she never notifies Bob of this. The result is that Bob still has the symmetric encrypton key in his memory, and more importantly, he will use them to communicate with Alice on the next message, even a month after Alice flushed the keys... This forces most users to keep the secure sessions ON all the time. Which means keys are not flushed ASAP as they probably should be. I think Textsecure should allow for an usable application of the best practice of ending secure sessions when an exchange has been completed. This could be fixed very easily by sending a &quot;I'm aborting the session&quot; notification accross the secure channel before clearing everything. This should probably not require an ACK of any sort, so it would be quite cheap, and then it's up to the other person to close its side of the session too (but Textsecure should recognize that the other side of the covnersation has already ended its secure session, so no notification should be sent when Bob closes its session too.) You could even automatically close the session upon receiving this notification. I'm tempted to say that we could also use this additionnal step to disclose authentication keys and get plausible deniability, but I'm not sure if it's possible to do this without screwing up the secure channel big time, so it's probably better to not do that ATM :) I know SMSes are not cheap for everyone, but making the other party of the conversation doesn't stay unsynced with the conversation state would probably be a great improvement... I'm tired of receiving messages encrypted with month-long-gone encryption keys, because they never see that I closed the session.
+	</description>
+		</report>
+		<report Number="15">
+			<summary>Feature: Automatic deletion of old messages</summary>
+			<url>https://github.com/WhisperSystems/Signal-Android/issues/176</url>
+			<bugID>Issue #176</bugID>
+			<label>feature</label>
+			<description>
+		In the spirit of https://ssd.eff.org/your-computer/protect/retention having deletion of messages older than a certain amount is probably good practice. I previously used an automated tool to delete SMS messages older than 30 days, but since TextSecure uses its own database, this no longer works. Having the option for TextSecure to delete messages older than X (reuse of the passphrase timeout selector would be fine) would be highly helpful.
+	</description>
+		</report>
+		<report Number="16">
+			<summary>no way to &quot;Add Text&quot; from contacts like what can be done in default messaging app in Android</summary>
+			<url>https://github.com/WhisperSystems/Signal-Android/issues/211</url>
+			<bugID>Issue #211</bugID>
+			<label>feature</label>
+			<description>
+		In Android, to send contact info, I can either go to Contacts and select Send Contact Info or Go to Messaging App, Select &quot;Add text&quot; and then from it choose to go to Contacts list and then select the information that I want to send from Contact List. Currently it is not present in TextSecure due to which it becomes very difficult to send contact info of one person to another.
+	</description>
+		</report>
+		<report Number="17">
+			<summary>Feature Request: Notification options per contact</summary>
+			<url>https://github.com/WhisperSystems/Signal-Android/issues/213</url>
+			<bugID>Issue #213</bugID>
+			<label>feature</label>
+			<description>
+		I know this is a bit above and beyond the typical SMS functionality, and I totally understand if this gets dropped to the bottom of the list, but I do find I often need to find out about some SMSs far more urgently than others -- in my case, I have a critical server that tells me when it's down: I'd like that one to scream loudly at me even if I'm sleeping deeply. Some unknown number texting me about a dream vacation that I have won I am quite happy to sleep thru. :) Awesome work regardless, team! R
+	</description>
+		</report>
+		<report Number="18">
+			<summary>optionally alert sender on bad session</summary>
+			<url>https://github.com/WhisperSystems/Signal-Android/issues/215</url>
+			<bugID>Issue #215</bugID>
+			<label>feature</label>
+			<description>
+		Add an option to alert sender when a message has been sent for a non existent session.
+	</description>
+		</report>
+		<report Number="19">
+			<summary>Dark theme missing dark 'default' user avatar</summary>
+			<url>https://github.com/WhisperSystems/Signal-Android/issues/221</url>
+			<bugID>Issue #221</bugID>
+			<label>feature</label>
+			<description>
+		Contacts that do not have a photo have a grey / white avatar by default. This does not blend very well with the dark theme. Also in conversation view, if you have a multi line sms that is taller than the avatar icon you end up with a grey column running the length of the sms.
+	</description>
+		</report>
+		<report Number="20">
+			<summary>Ability to edit messages for security</summary>
+			<url>https://github.com/WhisperSystems/Signal-Android/issues/226</url>
+			<bugID>Issue #226</bugID>
+			<label>feature</label>
+			<description>
+		My understanding of OTR protocol is that you are guarantied to be the sender of a message when it is received but the protocol also guaranties that nobody can prove a message was sent by you at a later point. Like a real life conversation. &quot;If know you said something to me, but I can not prove it at a later point&quot;. This is great but unless TextSecure somehow allows people to alter the past of a conversation the app itself does provide a reasonable proof/indication that I said something in the past. Example: My friends phone is ceased and he is compromised to unlock TextSecure. OTR does not in any way guarantee I had our long conversation but since my friend is not a skilled hacker/developer able to alter the TextSecure database the conversation itself it a pretty good indicator/proof of the conversation being authentic. Solution: Add the option to edit a message (any message) from the Android Context Menu just like you can delete a message. Maybe also add the ability to insert a new message next to it.
+	</description>
+		</report>
+		<report Number="21">
+			<summary>More compressed view of threads</summary>
+			<url>https://github.com/WhisperSystems/Signal-Android/issues/237</url>
+			<bugID>Issue #237</bugID>
+			<label>feature</label>
+			<description>
+		Is it possible to make a general view of threads more compressed (by choice)? With my system default SMS app I can view 9 threads, with TextSecure only 6. I have a 480 x 800 pixel display. Default SMS app's view attached https://dl.dropboxusercontent.com/u/5646012/PUB/TextSecure-RedPhone/SMS.png By the way, I wanted to do the same screenshot of TextSecure's view, but couldn't make it. Impressed! ;)
+	</description>
+		</report>
+		<report Number="22">
+			<summary>Messages sent/recieved in plaintext during a secure session should be obvious</summary>
+			<url>https://github.com/WhisperSystems/Signal-Android/issues/244</url>
+			<bugID>Issue #244</bugID>
+			<label>feature</label>
+			<description>
+		Messages sent/recieved in plaintext during a secure session should be obvious, eg with a red background, or border.
+	</description>
+		</report>
+		<report Number="23">
+			<summary>Unable to find to which SIM message was sent</summary>
+			<url>https://github.com/WhisperSystems/Signal-Android/issues/245</url>
+			<bugID>Issue #245</bugID>
+			<label>feature</label>
+			<description>
+		Hi, I am using dual sim mobile. I installed TextSecure, but I am unable to know to which SIM the message is sent ? Please help me.
+	</description>
+		</report>
+		<report Number="24">
+			<summary>Feature request: Lock TextSecure upon connection to usb</summary>
+			<url>https://github.com/WhisperSystems/Signal-Android/issues/268</url>
+			<bugID>Issue #268</bugID>
+			<label>feature</label>
+			<description>
+		Just like the title says. When there is a USB plugged into the phone (on connection event), erase the Text Secure credentials from memory and require the user to enter their password. This is to make it harder for some one to gain access to the encrypted text message database since upon connection (via USB at least) the saved credentials are destroyed in memory and can not be gleaned from a memory dump.
+	</description>
+		</report>
+		<report Number="25">
+			<summary>No option to force-ignore someone's textsecure account</summary>
+			<url>https://github.com/WhisperSystems/Signal-Android/issues/274</url>
+			<bugID>Issue #274</bugID>
+			<label>feature</label>
+			<description>
+		From the &quot;Manage Identity Keys&quot; screen there is no way to remove a key
+	</description>
+		</report>
+		<report Number="26">
+			<summary>Custom alerts for different contacts.</summary>
+			<url>https://github.com/WhisperSystems/Signal-Android/issues/291</url>
+			<bugID>Issue #291</bugID>
+			<label>feature</label>
+			<description>
+		Prior to using TextSecure, I'd use another app to play a custom sound when certain contacts would send me an SMS. TextSecure blocks this functionality, but would it be possible to incorporate a similar feature so different contacts can have different tones/vibrate patterns?
+	</description>
+		</report>
+		<report Number="27">
+			<summary>message notifications in the status bar should not show the sender..</summary>
+			<url>https://github.com/WhisperSystems/Signal-Android/issues/308</url>
+			<bugID>Issue #308</bugID>
+			<label>feature</label>
+			<description>
+		The sender is confidential information. Not only the message content. It should be possible to turn OFF the display of the sender in message notifications in the status bar. Also, you could include a &quot;stealth&quot; notification mode where for instance, only a led would blink. Hide the sender is the priority though.
+	</description>
+		</report>
+		<report Number="28">
+			<summary>Need Batch Selection Mode for individual messages inside a conversation</summary>
+			<url>https://github.com/WhisperSystems/Signal-Android/issues/312</url>
+			<bugID>Issue #312</bugID>
+			<label>feature</label>
+			<description>
+		Deleting individual messages from a conversation is cumbersome and inefficient (Hold down on a message, then select Delete from popup menu, then select Yes on confirmation message, one message at a time). By way of contrast, holding down on a conversation in the Conversations list initiates Batch Selection Mode, allowing user to select multiple conversations for an action (currently Delete is the only option). Being able to trim out fluff from a conversation but keep important messages would be a valuable feature. A similar Batch Selection Mode for individual messages within a conversation (as already exists in the default Android Text Message app) would provide this functionality.
+	</description>
+		</report>
+		<report Number="29">
+			<summary>Feature request: Scheduled backups</summary>
+			<url>https://github.com/WhisperSystems/Signal-Android/issues/318</url>
+			<bugID>Issue #318</bugID>
+			<label>feature</label>
+			<description>
+		I don't know if there is a way you could do it now - eg. where the encrypted db is stored... but i'd like to be able to backup my conversations (in encrypted format) to an outside location (dropbox etc - mayby through foldersync) thanks
+	</description>
+		</report>
+		<report Number="30">
+			<summary>Feature request for TextSecure: Unread count on icon</summary>
+			<url>https://github.com/WhisperSystems/Signal-Android/issues/321</url>
+			<bugID>Issue #321</bugID>
+			<label>feature</label>
+			<description>
+		When I'm pushing TextSecure onto friends and family to spread adoption of encrypted communications, the showstopper is the lack of an unread messages count on the icon, like all other messaging apps have today. When I send text messages to my mother, she will never read them, because when she turns her phone on, TextSecure won't show on her home screen as &quot;1 unread message&quot; with a little red circled &quot;1&quot; on the TextSecure icon. Drawing from UX from all other messaging apps today, the lack of such a number will instead indicate &quot;nothing unread&quot;. I understand such an indicator is a privacy leak, but it's also an adoption showstopper to take TextSecure beyond the hardcore carers for cryptography, and by extension, even the ability for people like ourselves to communicate securely with friends and family (since they won't use TextSecure). Cheers, Rick
+	</description>
+		</report>
+		<report Number="31">
+			<summary>Feature request: Web of Trust (WoT) support</summary>
+			<url>https://github.com/WhisperSystems/Signal-Android/issues/329</url>
+			<bugID>Issue #329</bugID>
+			<label>feature</label>
+			<description>
+		It would be interesting to have some sort of support for web of trust for easing the spreading of trusted encrypted communication without verifying the keys manually, in person. Trust levels would need to get lower with number of hops though.
+	</description>
+		</report>
+		<report Number="32">
+			<summary>Feature request: option to resend messages when delivery fails</summary>
+			<url>https://github.com/WhisperSystems/Signal-Android/issues/352</url>
+			<bugID>Issue #352</bugID>
+			<label>feature</label>
+			<description>
+		Currently. failed messages seem to only have the standard actions for messages in a thread (copy, delete, message details, forward) upon tap and hold. An option to attempt a resend would be very helpful.
+	</description>
+		</report>
+		<report Number="33">
+			<summary>Adding per-contact notification preferences</summary>
+			<url>https://github.com/WhisperSystems/Signal-Android/issues/354</url>
+			<bugID>Issue #354</bugID>
+			<label>feature</label>
+			<description>
+		I'm working to add functionality to TextSecure to allow customization of notifications (ringtone, vibrate pattern, led color) on a per-contact basis. I've got two questions: Is this a feature that you'd be interested in including in mainline TextSecure, and If so, would it be better to let android store the per-contact preferences in the usual preferences location or would it be better to add them to the IdentityDatabase? Thanks!
+	</description>
+		</report>
+		<report Number="34">
+			<summary>Sending encrypted through google voice</summary>
+			<url>https://github.com/WhisperSystems/Signal-Android/issues/364</url>
+			<bugID>Issue #364</bugID>
+			<label>feature</label>
+			<description>
+		Allow for the extra header that google voice attaches text messages and still allow decryption. currently a msg received is recognized as a text secure msg but the return key and further msgs are wont work as google uses a token text msg phone number and puts the real txt caller id in the msg as a header. text msgs to the reciever with the extra header are still encrypted
+	</description>
+		</report>
+		<report Number="35">
+			<summary>[feature] export of conversations to text files</summary>
+			<url>https://github.com/WhisperSystems/Signal-Android/issues/403</url>
+			<bugID>Issue #403</bugID>
+			<label>feature</label>
+			<description>
+		I would like to make a suggestion of a new feature. I would like to request an option to export individual sms or whole conversations to a text file. These exports would include the sms text along with the phone number and time stamp.
+	</description>
+		</report>
+		<report Number="36">
+			<summary>Feature request: Tasker Intents</summary>
+			<url>https://github.com/WhisperSystems/Signal-Android/issues/430</url>
+			<bugID>Issue #430</bugID>
+			<label>feature</label>
+			<description>
+		I know Tasker integration has been brought up before in WhisperSystems#96 but not since, and I've been thinking of it more and was thinking of how it could be implemented from within TextSecure. Baring in mind Tasker has no access to TextSecures database so can not be responsible for checking for new messages. Realistically TextSecure would have to notify Tasker of a new message. Could TextSecure be used to send a Broadcast Intent when a new message is received? Then Tasker would only have to listen for them. You could also setup extra variables for senders name or message, configurable from with-in TextSecure so the user could decided how much or how little information is then available to the system. My specific use case at present is Tasker speaks the sender name of a message to me and while I'm driving it reads out the message aloud so having the extra variables set would be helpful. I don't think my Java programming it up to doing this alone, but I have cloned the TextSecure repository and will give it a try, but what does anyone else think? 👍 1
+	</description>
+		</report>
+		<report Number="37">
+			<summary>Feature: Direct Photo/Video/Audio attachments while staying in app (API calls to camera, sound recorder, video camera) instead of multistep separate apps</summary>
+			<url>https://github.com/WhisperSystems/Signal-Android/issues/520</url>
+			<bugID>Issue #520</bugID>
+			<label>feature</label>
+			<description>
+		I love the app... I want to replace it full time from Textra, BUT there is a big draw back, why don't you allow for direct photos, video and sounds to be taken. So you don't have to use two apps to get the file to send. Example: My wife takes a photo of something she wants my opinion on buying, (in textra or native) presses add, camera comes up, takes photo and sends Example: Same situation, but with Text Secure you have to take the photo first and save image, then goto app and add via the menu of &quot;where&quot; the documents are to attach and send So, as you can imagine carrying on a conversation and needing to send several photos during that conversation it would be a bit frustrating and very time consuming using Text Secure. Native, Textra and about all others I have used use API's and directly use the photo/audio to send.
+	</description>
+		</report>
+		<report Number="38">
+			<summary>choose mobile number/use default/work/mobile</summary>
+			<url>https://github.com/WhisperSystems/Signal-Android/issues/553</url>
+			<bugID>Issue #553</bugID>
+			<label>feature</label>
+			<description>
+		When choosing a recipient with several numbers, I want some visual indicator on how they're saved in my address book. The autocomplete first gives a vanity number, then autosuggests contacts on a alphabetical order. Given only 1 contact matches, with several numbers, like following .vcf, I don't have any visual indication in the textsecure app which number is which: TEL;CELL:+49150123456789 TEL;WORK:+4930987654321 TEL;CELL;PREF:+4850123456789 EMAIL;PREF:alice@rabbithole END:VCARD As a human being, I consider these numbers not really human memorizable, but I don't have a problem distinguishing work/cell/home/preferred. Ideally the auto complete suggestion order would be: TEL;CELL;PREF TEL;CELL; TEL;WORK TEL;HOME Right now they're being used in fifo-way, I'm suggesting that order because, preferred makes sense to have that one first, after that, a mobile phone, because well, it can probably receive SMS, work and home might be able to receive SMS, but maybe also not. I tried making a screenshot of what I meant, but apparently textsecure blackens them.
+	</description>
+		</report>
+		<report Number="39">
+			<summary>Non-preferred phone number first in search results</summary>
+			<url>https://github.com/WhisperSystems/Signal-Android/issues/580</url>
+			<bugID>Issue #580</bugID>
+			<label>feature</label>
+			<description>
+		Phone: HTC One V Android: 4.0.3 HTC Sense: 4.0 Textsecure: Latest (Play Store) When searching for a recipient during composing, TextSecure sometimes will not list the preferred number first for the recipient. For example, these screenshots show that although the Mobile number for this recipient is preferred[1], the search results show the Home number first[2].
+	</description>
+		</report>
+		<report Number="40">
+			<summary>Feature - Emoji</summary>
+			<url>https://github.com/WhisperSystems/Signal-Android/issues/592</url>
+			<bugID>Issue #592</bugID>
+			<label>feature</label>
+			<description>
+		I hate emoji, but this guy on this issue requested it and I figure I'll help him/you out by making a new issue/feature request.
+	</description>
+		</report>
+		<report Number="41">
+			<summary>Display sent time instead of received time</summary>
+			<url>https://github.com/WhisperSystems/Signal-Android/issues/597</url>
+			<bugID>Issue #597</bugID>
+			<label>feature</label>
+			<description>
+		It would be nice if there is an option in the settings to display the sent time (as displayed in the &quot;message details&quot;) instead of the received time next to the messages.
+	</description>
+		</report>
+		<report Number="42">
+			<summary>Sending encrypted messages to yourself is not supported.</summary>
+			<url>https://github.com/WhisperSystems/Signal-Android/issues/622</url>
+			<bugID>Issue #622</bugID>
+			<label>feature</label>
+			<description>
+		I do not have any contacts who use TextSecure so I sent a message to myself. Seems to work fine. However, sending the second message or any message after the first one seems to fail with &quot;Bad encrypted message&quot;. I have reset the app using Titanium and can reproduce this, only the first message gets through correctly.
+	</description>
+		</report>
+		<report Number="43">
+			<summary>SMS read/received receipt is on, cannot toggle</summary>
+			<url>https://github.com/WhisperSystems/Signal-Android/issues/635</url>
+			<bugID>Issue #635</bugID>
+			<label>feature</label>
+			<description>
+		My carrier has a known issue in which SMS delivery receipts are sent to me as a SMS from their SMS Center with the exact same text body I sent to my recipient. I would like to see an option to toggle delivery receipt on SMS.
+	</description>
+		</report>
+		<report Number="44">
+			<summary>Support &quot;Send location&quot; feature</summary>
+			<url>https://github.com/WhisperSystems/Signal-Android/issues/638</url>
+			<bugID>Issue #638</bugID>
+			<label>feature</label>
+			<description>
+		Hi, This app is great and I'd love to replace normal sms and whatsapp with that. The only feature which is missing is the &quot;Send location&quot; feature. I know the first aim is to replace sms but I must say with such feature I could just throw away whatsapp :)
+	</description>
+		</report>
+		<report Number="45">
+			<summary>Support animated gifs</summary>
+			<url>https://github.com/WhisperSystems/Signal-Android/issues/643</url>
+			<bugID>Issue #643</bugID>
+			<label>feature</label>
+			<description>
+		Will be added? By now if i send a gif it arrives as a static image (first frames)
+	</description>
+		</report>
+		<report Number="46">
+			<summary>Disable SMS only on out-of-country contacts</summary>
+			<url>https://github.com/WhisperSystems/Signal-Android/issues/650</url>
+			<bugID>Issue #650</bugID>
+			<label>feature</label>
+			<description>
+		This is a feature request. It would be very handy if I can enable SMS fallback only for the contacts in my country but disable them for contacts out of my country. Usually out-of-country SMS rates are quite high and can run up quite a bill if you have the feature enabled to fallback on SMS. Thanks.
+	</description>
+		</report>
+		<report Number="47">
+			<summary>pebble intents</summary>
+			<url>https://github.com/WhisperSystems/Signal-Android/issues/662</url>
+			<bugID>Issue #662</bugID>
+			<label>feature</label>
+			<description>
+		feature request: add pebble intents, so that pebble users can get notifications without needing another application. guide for android: http://developer.getpebble.com/2/mobile-app-guide/android-guide.html/ it would be lovely if this could be added.
+	</description>
+		</report>
+		<report Number="48">
+			<summary>Only push msg, no SMS fallback: why list non-TextSecure contacts?</summary>
+			<url>https://github.com/WhisperSystems/Signal-Android/issues/664</url>
+			<bugID>Issue #664</bugID>
+			<label>feature</label>
+			<description>
+		When using TextSecure v2.0.1 with only push messages enabled (no SMS fallback) creating a new thread by clicking on the '+' sign, all contacts are displayed. Confirmed TextSecure contacts are displayed in a bold font. Non-TextSecure contacts are displayed with a regular font. As we do not have the SMS fallback enabled why does TextSecure even bother displaying non-TextSecure users. This is confusing. Please do not display non-TextSecure users if SMS fallback has been disabled. When SMS fallback has been enabled, please consider making the distinction between TextSecure and non-TextSecure user more distinctive. Bold vs Regular font is not distinctive enough. Use different background color for instance.
+	</description>
+		</report>
+		<report Number="49">
+			<summary>Add an option to control when SMS are sent</summary>
+			<url>https://github.com/WhisperSystems/Signal-Android/issues/671</url>
+			<bugID>Issue #671</bugID>
+			<label>feature</label>
+			<description>
+		When TS is the default SMS/MMS app, the Allow SMS fallback option is grayed out. That means the user has no control over when SMS are sent to non-TS contacts. It just happens (and the user incurs the costs). I suggest to replace this checkbox: Allow SMS fallback [X]
+ With a popup menu: SMS fallback       [Allow | Allow but warn | Off]
+ Allow means SMS are always sent if the receiver doesn't have TS or the phone is not on a Wifi/bluetooth network. Allow but warn means that the send icon (the paper plane) will be overlaid with a little SMS speech bubble with an exclamation mark inside (I'm happy to do this icon). Also, whenever a new thread is started where fallback SMS must be used and the user presses the send icon, a warning pop-up will be displayed (which could have a Never show this again checkbox). This could also be displayed when the receiver goes offline during a conversation (see #678). Off means the send icon will be grayed out when the phone is not on a Wifi/bluetooth network. (Receivers w/o TS should be filtered out from the contacts list in this case, see #664). It still means TextSecure will receive all SMS if it is the default messaging app on the phone. Emergency numbers should always be excluded from this, ofc.
+	</description>
+		</report>
+		<report Number="50">
+			<summary>Don't show letter count, when SMS mode disabled</summary>
+			<url>https://github.com/WhisperSystems/Signal-Android/issues/695</url>
+			<bugID>Issue #695</bugID>
+			<label>feature</label>
+			<description>
+		When I start typing, the count of letters is shown at the bottom left corner, though I have the SMS mode completely disabled.
+	</description>
+		</report>
+		<report Number="51">
+			<summary>Feature request: Make SMS mode optional on first start</summary>
+			<url>https://github.com/WhisperSystems/Signal-Android/issues/697</url>
+			<bugID>Issue #697</bugID>
+			<label>feature</label>
+			<description>
+		I would like to have the option to opt-out of the SMS functionality on first start.. Many people don't have an unlimited plan on SMS or would like to send international messages. Especially for non-technical users, the SMS functionality can be very confusing and can result in (high) costs. A dialog asking whether this app should be used as SMS app with optional PUSH service or as PUSH service with optional SMS fallback or only SMS or only PUSH would help a lot.
+	</description>
+		</report>
+		<report Number="52">
+			<summary>Fewer clicks to check QR-Code</summary>
+			<url>https://github.com/WhisperSystems/Signal-Android/issues/719</url>
+			<bugID>Issue #719</bugID>
+			<label>feature</label>
+			<description>
+		For a faster usage of the app it might be worth considering to group &quot;check QR-Code&quot;, &quot;Show QR-Code&quot; and &quot;Verify manually&quot; under the padlock symbol in chats. So you can save two clicks to show or read the qr code.
+	</description>
+		</report>
+		<report Number="53">
+			<summary>No automatic download of attachments</summary>
+			<url>https://github.com/WhisperSystems/Signal-Android/issues/721</url>
+			<bugID>Issue #721</bugID>
+			<label>feature</label>
+			<description>
+		It would be nice TextSecure hat an option to not download attachments automatically. When you are part of many groups you get a lot of pictures and videos that you do not really care about. This may be fine on a free WiFi but can quickly reduce volume of a mobile data plan. I propose a setting &quot;Automaitc download of attachments&quot; with options &quot;always&quot;, &quot;only on wifi&quot; and &quot;never&quot;.
+	</description>
+		</report>
+		<report Number="54">
+			<summary>Sharing from Android apps to running conversations</summary>
+			<url>https://github.com/WhisperSystems/Signal-Android/issues/726</url>
+			<bugID>Issue #726</bugID>
+			<label>feature</label>
+			<description>
+		Sharing files or links to W****app brings up a window with your running conversations as a first choice. TextSecure shows a &quot;Compose Message&quot; window when shared to. The problems are that you... have to select the correct phone number of the contact you are looking for again do not get any indication about the contact being on TextSecure or not (green bar) do not have the ability to chose groups. TextSecure should also present the running conversations (single user and group) first because those are the most likely receivers.
+	</description>
+		</report>
+		<report Number="55">
+			<summary>Text size and message bubble colour adjustments</summary>
+			<url>https://github.com/WhisperSystems/Signal-Android/issues/732</url>
+			<bugID>Issue #732</bugID>
+			<label>feature</label>
+			<description>
+		Can we have pinch to zoom like the HTC stock messaging app or a text size adjuster in settings with scaling message bubble and also bubble colour customisable. I like this project and wish I had the skills to help.
+	</description>
+		</report>
+		<report Number="56">
+			<summary>Spartan UI theme</summary>
+			<url>https://github.com/WhisperSystems/Signal-Android/issues/753</url>
+			<bugID>Issue #753</bugID>
+			<label>feature</label>
+			<description>
+		The default UI is getting more sophisticated and playful. It would be nice to have a more spartan/basic UI option that, e.g., resembles the look of the stock messenger app.
+	</description>
+		</report>
+		<report Number="57">
+			<summary>different notification settings for group chats</summary>
+			<url>https://github.com/WhisperSystems/Signal-Android/issues/757</url>
+			<bugID>Issue #757</bugID>
+			<label>feature</label>
+			<description>
+		It would be very nice to be able to change the notification settings for goups independently from other (personal) chats, as group chats might have a lower priority for the user.
+	</description>
+		</report>
+		<report Number="58">
+			<summary>Feature Request: Only one notification for multiple messages received at once + Timestamps</summary>
+			<url>https://github.com/WhisperSystems/Signal-Android/issues/778</url>
+			<bugID>Issue #778</bugID>
+			<label>feature</label>
+			<description>
+		After being offline (flight mode / no internet connection) my device rings/vibrates multiple times, depending on how many messages have been sent by others in the meantime. Being in a quite active group my device vibrated for about 30 seconds this morning. I can see the point of being notified that not only one but multiple messages have been received but this should be reworked to a less annoying way (e.g., ring twice for multiple messages). Additionally, all messages that get then received are displayed with their receiving time. I would prefer having them displayed with the sending time, which can also be seen by looking in the message details. Maybe a menu entry to switch between both options would be a good idea because I can imagine people who like it the way it is handled now.
+	</description>
+		</report>
+		<report Number="59">
+			<summary>multiple message selection within a thread</summary>
+			<url>https://github.com/WhisperSystems/Signal-Android/issues/786</url>
+			<bugID>Issue #786</bugID>
+			<label>feature</label>
+			<description>
+		PLEASE add the ability to select or deselect multiple messages from within a thread to delete. Example: I have a thread which has the address of the contact contained in it. I can't delete the thread, because then I lose the address. If there are 300 other messages in that thread, I'd have to go through them one at a time to delete them and keep the 1 message I care about. GoSMSPro has this capability and is the ONLY reason I currently use it. I would prefer to go with TextSecure, but this one feature will keep me from doing so.
+	</description>
+		</report>
+		<report Number="60">
+			<summary>Feature request: Mute Group (or any user)</summary>
+			<url>https://github.com/WhisperSystems/Signal-Android/issues/801</url>
+			<bugID>Issue #801</bugID>
+			<label>feature</label>
+			<description>
+		Sometimes friends in a group are discussing something I'm not interested in and my phone would go nuts vibrating and ringing all the time. A &quot;Mute for X minutes/hours&quot; feature would be awesome.
+	</description>
+		</report>
+		<report Number="61">
+			<summary>Display shorter fingerprint, enable sharing of fingerprint</summary>
+			<url>https://github.com/WhisperSystems/Signal-Android/issues/817</url>
+			<bugID>Issue #817</bugID>
+			<label>feature</label>
+			<description>
+		To enable faster sharing of the fingerprint, let the user copy the fingerprint and send it over a secure channel (inform the user that the channel needs to be secure). Also, don't display the hex of the fingerprint but rather something the user can easily read out: base58-encoding poetry-encoding
+	</description>
+		</report>
+		<report Number="62">
+			<summary>Feature request: &quot;Add to contact&quot; option in conversations</summary>
+			<url>https://github.com/WhisperSystems/Signal-Android/issues/822</url>
+			<bugID>Issue #822</bugID>
+			<label>feature</label>
+			<description>
+		If the recipient from a conversation is not in the contacts, it would be nice to have an &quot;Add to contacts&quot; button in the conversations menu. This would allow the &quot;hey send me a message so I have your number&quot; social routine to work. 👍 1
+	</description>
+		</report>
+		<report Number="63">
+			<summary>Fingeprint Exchange</summary>
+			<url>https://github.com/WhisperSystems/Signal-Android/issues/826</url>
+			<bugID>Issue #826</bugID>
+			<label>feature</label>
+			<description>
+		Currently you can only confirm a fingerprint, if you read a QR-Code from anothers phone. This requires both chatters to be in the same place. This is at least the safest way, but there are other ways to do this nearly as secure as this. You could e.g. talk with someone on the phone, who dictates his fingerprint, so that you can confirm it by simply checking, if the code he's dictating matches the one, your phone is showing. So there should be an option, to confirm another ones fingerprint by simply telling the app &quot;Yes, I've checked/confirmed the fingerprint of my opposite.&quot; This would be similar to the way PGP fingerprint exchanges can work.
+	</description>
+		</report>
+		<report Number="64">
+			<summary>Feature Request: Group Administration</summary>
+			<url>https://github.com/WhisperSystems/Signal-Android/issues/828</url>
+			<bugID>Issue #828</bugID>
+			<label>feature</label>
+			<description>
+		TextSecure groups lack the possibility to remove participants after they were added. 👍 3
+	</description>
+		</report>
+		<report Number="65">
+			<summary>Screen does not wake on message received</summary>
+			<url>https://github.com/WhisperSystems/Signal-Android/issues/839</url>
+			<bugID>Issue #839</bugID>
+			<label>feature</label>
+			<description>
+		It could just be my device (Galaxy S4) but the screen does not wake when I receive a message. It is inconvenient when I have my phone on silent sitting in front of me on my desk and the only notification is the LED blinking. Is there a way that it could be an option in the notification settings to enable waking the screen whenever a text/notification is received?
+	</description>
+		</report>
+		<report Number="66">
+			<summary>Add a help button to explain why you should set a passphrase</summary>
+			<url>https://github.com/WhisperSystems/Signal-Android/issues/864</url>
+			<bugID>Issue #864</bugID>
+			<label>feature</label>
+			<description>
+		When you first start up TextSecure it wants you to choose a passphrase. There should be a help button which explains what it is and why it is needed. Why it is a bad idea to go without one ...
+	</description>
+		</report>
+		<report Number="67">
+			<summary>Search field missing in group creation dialog</summary>
+			<url>https://github.com/WhisperSystems/Signal-Android/issues/898</url>
+			<bugID>Issue #898</bugID>
+			<label>feature</label>
+			<description>
+		When creating a group and adding contacts, there is no search field on top of the contact list. This search field is present when composing a single message and a contact must be picked. Because it's missing in the contact picker when creating a group, it is harder to add contacts to a group.
+	</description>
+		</report>
+		<report Number="68">
+			<summary>Add our Details to (system-wide) Contact</summary>
+			<url>https://github.com/WhisperSystems/Signal-Android/issues/902</url>
+			<bugID>Issue #902</bugID>
+			<label>feature</label>
+			<description>
+		I think it would be nice to add our contact details (&quot;has TextSecure&quot; / &quot;is registered for Push&quot;) to the system-wide contact list, just as Threema / Telegram / WhatsApp / ... do it. Then, for a contact in my address book that has TS installed, the contact would show this piece of information in the contact screen and take me to the TS-Conversation with one tap. My usual &quot;workflow&quot; for contacting someone is: I open my address book, open his contact, and then have a look at the options I have. There I see &quot;Oh, I can contact him via SMS, WhatsApp, or Threema&quot; (for example). I do not open all my installed messengers and look around in which messenger I can contact him..
+	</description>
+		</report>
+		<report Number="69">
+			<summary>Allow to set and sync Contact Pictures</summary>
+			<url>https://github.com/WhisperSystems/Signal-Android/issues/916</url>
+			<bugID>Issue #916</bugID>
+			<label>feature</label>
+			<description>
+		Allow users to set their own contact picture and sync it to other TextSecure users. In contrast to WhatsApp, provide those pictures to the system contact list to be used in any app, including but not limited to TextSecure. Is this possible using a SyncAdapter ( #890 ) coupled with a ContentProvider? 👍 3
+	</description>
+		</report>
+		<report Number="70">
+			<summary>Refuse to receive Attachment / Pictures</summary>
+			<url>https://github.com/WhisperSystems/Signal-Android/issues/930</url>
+			<bugID>Issue #930</bugID>
+			<label>feature</label>
+			<description>
+		I would like to refuse receiving attachments and pictures while I am online using 3G. I can think of a checkbox that enables / disables receiving attachments. Optionally, the attachments are not loaded automatically but loaded upon request by the receiver. (this is a whatsapp feature, but that is maybe more complicated). Thank you for your great app!
+	</description>
+		</report>
+		<report Number="71">
+			<summary>Delivery reports for PUSHed messages?</summary>
+			<url>https://github.com/WhisperSystems/Signal-Android/issues/957</url>
+			<bugID>Issue #957</bugID>
+			<label>feature</label>
+			<description>
+		SMS messages support the notion of a delivery report that allows me to see when a message was actually delivered to the recipient. I miss that feature for PUSHed messages, though. It seems there is no way to request a delivery report?
+	</description>
+		</report>
+		<report Number="72">
+			<summary>Mark new/unread messages in conversation</summary>
+			<url>https://github.com/WhisperSystems/Signal-Android/issues/965</url>
+			<bugID>Issue #965</bugID>
+			<label>feature</label>
+			<description>
+		In whatsapp, when you open a group chat for example, you see just above the new messages that were posted a little banner &quot;New messages /unread messages&quot;. I find this feature really helpful to not be lost in a conversation. 👍 6
+	</description>
+		</report>
+		<report Number="73">
+			<summary>Color incoming messages in groups according to author</summary>
+			<url>https://github.com/WhisperSystems/Signal-Android/issues/969</url>
+			<bugID>Issue #969</bugID>
+			<label>feature</label>
+			<description>
+		Since there's so many UX experts around lately, I want to propose this: In groups, I always find it kind of annoying to have to read the name of the sender of a message. Somehow that distracts me from the actual messages. What do you think about this: In a group message, every incoming message is colored based on the author. Basically, we'd need a &quot;string to RGB&quot; hash function (shouldn't be that hard) and then color the background of their messages with 20% opacity (or so..) That way, I know that everything that's green is from my Buddy Bob, and everything that's yellow is from Alice, and I can just read the whole conversation without reading the name in front of every single message...
+	</description>
+		</report>
+		<report Number="74">
+			<summary>[Suggestion] Allow arbitrary file types (txt, zip, apk, pdf ...) to be sent as attachments, not only audio/video/media</summary>
+			<url>https://github.com/WhisperSystems/Signal-Android/issues/993</url>
+			<bugID>Issue #993</bugID>
+			<label>feature</label>
+			<description>
+		Currently, only media files (image, video, audio) can be selected as attachment, but I want also be able to send text and zip files via the Android Filemanager. What was the original reason to limit attachments to media types? [UPDATED 20151020] Bounty for implementation We have a bounty for the implementation, it's now at Click, if you want to support. Bitcoin payment is supported.
+	</description>
+		</report>
+		<report Number="75">
+			<summary>Amazon/Nokia X/generic support?</summary>
+			<url>https://github.com/WhisperSystems/Signal-Android/issues/1032</url>
+			<bugID>Issue #1032</bugID>
+			<label>feature</label>
+			<description>
+		Hi, I'm a happy owner of a Nokia X device. I built TextSecure from source and was able to install it, but not to register it, since I naturally don't have any google account associated to the phone and no google play account. Are there plans to support the Nokia push services as well? How about Amazon devices (tablets)? Is someone working on this? If not, I might have a bit time next weekend and try to work on it, but I have to admit that I currently have no clue about TextSecure internals and I'm not an experienced Android developer.
+	</description>
+		</report>
+		<report Number="76">
+			<summary>Reply from Notification</summary>
+			<url>https://github.com/WhisperSystems/Signal-Android/issues/1041</url>
+			<bugID>Issue #1041</bugID>
+			<label>feature</label>
+			<description>
+		This is a request to parity-match the stock AOSP SMS/MMS client and allow users to reply from the notification.
+	</description>
+		</report>
+		<report Number="77">
+			<summary>Contacts view improvements</summary>
+			<url>https://github.com/WhisperSystems/Signal-Android/issues/1042</url>
+			<bugID>Issue #1042</bugID>
+			<label>feature</label>
+			<description>
+		Since you mentioned in the issues about dubed phone numbers and libphonenumber that there are plans to rework the contacts view I think I should give some feedback about it. The search bar should work as in the conversations view. The profile pictures should be visible in the contacts view. To choose from more then one possible phone numbers shouldn't require a dialogue box. The view should display all available phone numbers at once. Kinda like the &quot;all contacts&quot; view in the KitKat dialler. If TextSecure isn't use as SMS replacement, the contacts view should only display TextSecure enabled numbers. TextSecure enabled contacts shouldn't be in green but in blue like TextSecure PUSH messages.
+	</description>
+		</report>
+		<report Number="78">
+			<summary>drafts should be marked and moved to top of list</summary>
+			<url>https://github.com/WhisperSystems/Signal-Android/issues/1055</url>
+			<bugID>Issue #1055</bugID>
+			<label>feature</label>
+			<description>
+		the message drafts should be automatically moved to the top of the message-list and be marked somehow, i.e. get another color or a text &quot;Draft&quot;
+	</description>
+		</report>
+		<report Number="79">
+			<summary>Ask for desired behaviour on first start</summary>
+			<url>https://github.com/WhisperSystems/Signal-Android/issues/1065</url>
+			<bugID>Issue #1065</bugID>
+			<label>feature</label>
+			<description>
+		Would it be possible to ask the user during the first start of the app (right before/after setting the passphrase), to specify the desired behaviour: only use push use SMS fallback use as default SMS/MMS-App Probably even add a &quot;what does that mean?&quot; button which opens a pop-up that explains (in simple words) what every mode does. This would go a long way in making the app more friendly for the less tech-enthusiastic users and those, who don't want to crawl through the settings-menu. edit: corrected formatting.
+	</description>
+		</report>
+		<report Number="80">
+			<summary>Turn off Push without unregistering from server</summary>
+			<url>https://github.com/WhisperSystems/Signal-Android/issues/1066</url>
+			<bugID>Issue #1066</bugID>
+			<label>feature</label>
+			<description>
+		There needs to be a way of turning off Push without unregistering from server or turning mobile and WiFi off. For example, on a regular basis a use a corporate network and a university network. They are both heavily monitored and packets and protocols through them are managed and stay behind one or several proxies. This means that sometimes Push messages can't get through and I need to either go and switch off my network, which I use for other things, or switch off Push, which means I have to reregister again afterwards. I am sure there are other situations where you want to be able to just suspend Push functionality, not 'cripple' it completely. So my idea is that switching off Push and unregistering from server should be put on different buttons and be kept relatively independent of each other.
+	</description>
+		</report>
+		<report Number="81">
+			<summary>Sort Messages by send time, not by receive time</summary>
+			<url>https://github.com/WhisperSystems/Signal-Android/issues/1084</url>
+			<bugID>Issue #1084</bugID>
+			<label>feature</label>
+			<description>
+		Please sort Messages by send time, not by receive time (and show send instead of recieve time under the messages). Sometimes I have lots of problems to follow discussions in larger group chats, when I power on my phone and recieve lots of messages with the same timestamp under a message with no time break between the topics. This is a very annoying bug... 👍 1
+	</description>
+		</report>
+		<report Number="82">
+			<summary>Do not load entire conversation, only most N recent messages</summary>
+			<url>https://github.com/WhisperSystems/Signal-Android/issues/1094</url>
+			<bugID>Issue #1094</bugID>
+			<label>feature</label>
+			<description>
+		If a conversation gets long (hundreds of messages, with images), TextSecure starts being very slow on my Gingerbread phone and RAM consumption can go up to 48 MB (too much for the little device). TextSecure is almost unusable in this state. Perhaps only loading the most recent messages will help?
+	</description>
+		</report>
+		<report Number="83">
+			<summary>Conversation list as drawer</summary>
+			<url>https://github.com/WhisperSystems/Signal-Android/issues/1096</url>
+			<bugID>Issue #1096</bugID>
+			<label>feature</label>
+			<description>
+		As mentioned in #674, the drawer in the conversation list isn't really necessary in its current form. Why not put the conversation list itself in a drawer and remove the separate activity entirely? I coded a proof-of-concept branch and really like the result, but wanted to see what others' opinions are. This is a rather large change, and isn't fully polished up, so I'm not opening a pull request just yet. The branch can be found here if anyone wants to see/build it. It works quite well in its current state with just a few edge cases that need to be fixed up. Import/Export and the key fingerprint views can be found at the bottom of the settings screen for now.
+	</description>
+		</report>
+		<report Number="84">
+			<summary>Groups invitation system</summary>
+			<url>https://github.com/WhisperSystems/Signal-Android/issues/1103</url>
+			<bugID>Issue #1103</bugID>
+			<label>feature</label>
+			<description>
+		A groups invitation system will be a very welcome addition to the existing features. Basically, if someone adds me to a group, I would like an invite asking me if I want to accept or deny joining that group. All invitations can be collected in a separate screen where they can wait for my confirmations. I know I can always leave a group if I don't want to be on it, but this way, I have control about which groups I join right from the beginning, instead of being dumped into it. Thanks for the awesome app. :)
+	</description>
+		</report>
+		<report Number="85">
+			<summary>Deletion of contact keys</summary>
+			<url>https://github.com/WhisperSystems/Signal-Android/issues/1133</url>
+			<bugID>Issue #1133</bugID>
+			<label>feature</label>
+			<description>
+		Hello moxie, could you please let us delete the contact keys? Several of my friends changed their number or uninstalled TextSecure, I'm not liking to scroll threw their contact keys whenever I check them. Let us long press them for deleting, add a warning and everything would be fine.
+	</description>
+		</report>
+		<report Number="86">
+			<summary>Add &quot;Don't show again&quot; checkbox to thumbnail dialogs</summary>
+			<url>https://github.com/WhisperSystems/Signal-Android/issues/1173</url>
+			<bugID>Issue #1173</bugID>
+			<label>feature</label>
+			<description>
+		To improve the usability, the thumbnail dialogs (open and save) should contain a &quot;Don't show again&quot; checkbox so that the user isn't bothered again. The idea is, that the user understands that there might be a little risk in opening or saving an attached image, but doesn't want to see this warning again and again. Most users expect that the image instantly shows up. So it is nice to have this warning message, but there should be the possibility to disable it.
+	</description>
+		</report>
+		<report Number="87">
+			<summary>TextSecure should complain once after another app took SMS default away</summary>
+			<url>https://github.com/WhisperSystems/Signal-Android/issues/1195</url>
+			<bugID>Issue #1195</bugID>
+			<label>feature</label>
+			<description>
+		Ok, this is a bit weird: Today I noticed that I couldn't receive SMS any more. TS did not show them at all. No notification, not in the conversation, just not there. But since I have a Pebble smartwatch which shows incoming messages as well, I still got the notification on my watch. So it seems to have reached the phone, but did not get processed by TS. What happened? Titanium Backup set itself to be the default SMS app and I had no idea about that. And I still don't know why it did that because I haven't used it for days. The system SMS app handles this quite well by displaying a big warning dialog that TitaniumBackup is now the default messaging app, but TS kept quiet so I almost missed some important messages, I only received them because of my Pebble smartwatch. Now I know that TS will still work without SMS, so it should not display such an extreme warning message, but I think it would be nice to display it at least once, like &quot;You just changed your default SMS app to be TitaniumBackup instead of TextSecure. Was this intentional or should TS be the default again? &quot;It's alright&quot; / &quot;Make TS my default again&quot;&quot;.
+	</description>
+		</report>
+		<report Number="88">
+			<summary>show message count next to contact name</summary>
+			<url>https://github.com/WhisperSystems/Signal-Android/issues/1198</url>
+			<bugID>Issue #1198</bugID>
+			<label>feature</label>
+			<description>
+		The stock rom shows the number of messages per thread (user/group). This is a nice feature and should easily be integrated as the message count is passed to a variable in ConversationListItem.java already. here my simple example: not the nice light gray smaller number like the stock sms app... Another wessenger shows the number of unread messages instead which also is a fine feature
+	</description>
+		</report>
+		<report Number="89">
+			<summary>Add a way to restore group information</summary>
+			<url>https://github.com/WhisperSystems/Signal-Android/issues/1254</url>
+			<bugID>Issue #1254</bugID>
+			<label>feature</label>
+			<description>
+		If a user (like me) has to re-install TS, restore some (old) backup or loses (part of) his data for some other reason, groups are messed up. The groups that he joined do not show up, and as far as I can see, there is currently no way to restore them. If someone tries to re-add me to the group, that does nothing. If someone writes something into the group, I see a message in an &quot;unknown group&quot;, but cannot reply since my TS does not know the recipients. I think there should be some way to send the group data from one TS that still knows this information to the one that lost it. This is what I think could be done (let my buddy be called 'Bob'): I restore a backup, my group is gone. Bob sends something in that group. My TS sees that it's missing a group, and that Bob is most probably part of it. It sends a &quot;please give me the group data&quot; message to Bob. Bob's TS receives the message and checks that I am actually part of that group (so we don't leak group data to potential outsiders). It then sends a message with the whole group information to me. Also, there should be a way to do this manually from Bob's client. @moxie0 Since you're thinking about adding message types anyway (talking about delivery receipts), could this be done?
+	</description>
+		</report>
+		<report Number="90">
+			<summary>Option to disable trailing whitespaces</summary>
+			<url>https://github.com/WhisperSystems/Signal-Android/issues/1294</url>
+			<bugID>Issue #1294</bugID>
+			<label>feature</label>
+			<description>
+		Problem: TextSecure apparently uses trailing whitespaces in text messages. This makes it impossible to use with certain telco-services which rely on exact SMS-based short codes/activation codes. Requested solution: Please provide a way to disable trailing spaces (even at the expense of secure data messaging). In addition to that you could perhaps consider disabling it (as a sane default) for numbers with up to a few (e.g., 4) digits. Related to: Issue #304
+	</description>
+		</report>
+		<report Number="91">
+			<summary>Indicating in the conservation overview whether the last message is yours or from your conversation partner</summary>
+			<url>https://github.com/WhisperSystems/Signal-Android/issues/1363</url>
+			<bugID>Issue #1363</bugID>
+			<label>feature</label>
+			<description>
+		Description given.
+	</description>
+		</report>
+		<report Number="92">
+			<summary>Disable ADB backups for security reasons</summary>
+			<url>https://github.com/WhisperSystems/Signal-Android/issues/1387</url>
+			<bugID>Issue #1387</bugID>
+			<label>feature</label>
+			<description>
+		On many Android devices ADB debugging is enabled, allowing anyone with physical access to the device to make a full backup of apps and their files/settings. This can be disabled by setting android:allowBackup to false in the AndroidManifest.xml. It may not add much security for cases in which the user used a strong password to encrypt the TextSecure files. But consider the following scenario: unrooted smartphone Attacker has physical access for a short period of time no/weak/circumvented lockscreen password unknown but weak TextSecure encryption password. Even with physical access the user isn't allowed to read the /data/data folder and can only do online attacks against the TextSecure password. But if he/she is able to copy the whole TextSecure folder, the attacker can do offline attacks, more or less instantly breaking all simple passwords. There is also a nice talk, demonstrating this exact problem with password container apps like LastPass (interesting part minute ~13): http://blog.deepsec.net/?p=1740
+	</description>
+		</report>
+		<report Number="93">
+			<summary>Improve transport channel prediction</summary>
+			<url>https://github.com/WhisperSystems/Signal-Android/issues/1440</url>
+			<bugID>Issue #1440</bugID>
+			<label>feature</label>
+			<description>
+		I didn't look at the code, but from the behaviour I suspect that we only check what channel the contact supports instead of actually checking for an internet connection. Can't we just ping google or the push server as soon as text is entered, (hopefully not DOSing it) to evaluate if we have a working internet connection? Apparently the Android framework already offers a function for that. Simply checking if wifi or mobile data are enabled is probably not good enough in case of captive portals and patchy reception.
+	</description>
+		</report>
+		<report Number="94">
+			<summary>An alternative to the painful plaintext key comparison</summary>
+			<url>https://github.com/WhisperSystems/Signal-Android/issues/1459</url>
+			<bugID>Issue #1459</bugID>
+			<label>feature</label>
+			<description>
+		Humans are better at comparing images than comparing a long string. Currently, the latter is used in TextSecure, and it's very inconvenient. My proposal is to be inspired by Telegram, here is how Telegram users compare their shared key: Important: If we take that path, there is one problem which Telegram didn't resolve and we should - Users often compare their key visualizations over an insecure channel. The most common way is for them to take a screenshot of the key visualization and then send it via Telegram itself. This defeats the purpose of key visualizations, because Telegram should be considered an insecure channel until the keys are compared outside of it. The solution is just a simple message like: &quot;Please compare your key visualizations in real life / over a secure channel, never compare your key visualization via TextSecure itself&quot;
+	</description>
+		</report>
+		<report Number="95">
+			<summary>[Proposal for a registration improvement] When registering a tablet w/o SMS functions and using temporarily a second SMS enabled device: allow to manually enter the six-digit code during step 2</summary>
+			<url>https://github.com/WhisperSystems/Signal-Android/issues/1467</url>
+			<bugID>Issue #1467</bugID>
+			<label>feature</label>
+			<description>
+		With reference to #1397 and after a discussion with @generalmanager I like to propose this small UX change during the registration step 2 (when the silent sms is used to register the device's number). Current situation: During Step 2, the registration currently waits for 2 minutes to receive the (first) registration SMS. This registration obviously fails in the case that the device (e.g. a tablet without SMS/MMS functions) is unable to receive SMS. If the user has a different device e.g. a smartphone with their SIM card and SMS/MMS enabled, they receive the first code on this device. After the timeout the first code is not valid any longer. The user can manually trigger the TS server to send a second six-digit-code via the Code-by-Voice-call function, and then enter the second code to finish the registration on their tablet. My suggestion (TOFU-compliant): In oder to comply with the trust-on-first-use (TOFU) principle and to avoid the abvove mentioned second registration cycle by voice (in the case of a tablet without SMS/MMS function) I suggest a code change to allow the entering of the six-digit-code already during the first cycle. I mean this: already during registration step 2 - while the device waits for 2 minutes to receive the first verification code in a silent SMS users should be able to enter the (first) code manually in case they are in possession of it because they received it on their other, SMS/MMS-enabled phone device. In my view this appears to be possible, and does not break the workflow, or introduces security threats. Advantages Less registration codes need to be sent, lowering the number of &quot;registration failures during step 2&quot; (when the device cannot receive SMS, but the SMS was sent to another device of the user) much easier and quicker registration for tablet users, because the timeout does not matter any more: user cann immediately enter the code in the first cycle (TOFU)
+	</description>
+		</report>
+		<report Number="96">
+			<summary>Make scroll to new message on send optional.</summary>
+			<url>https://github.com/WhisperSystems/Signal-Android/issues/1472</url>
+			<bugID>Issue #1472</bugID>
+			<label>feature</label>
+			<description>
+		I'm referencing this issue: WhisperSystems#1249 Would it be possible to make this optional via settings (enabled by default)? I often receive multiple questions spread across multiple messages and the fact that TS didn't automatically scroll every time I sent a reply was very useful. I really liked being able to answer questions one by one without having to scroll back up every time I replied to one.
+	</description>
+		</report>
+		<report Number="97">
+			<summary>i'm annoying</summary>
+			<url>https://github.com/WhisperSystems/Signal-Android/issues/1512</url>
+			<bugID>Issue #1512</bugID>
+			<label>feature</label>
+			<description>
+		No description provided.
+	</description>
+		</report>
+		<report Number="98">
+			<summary>Replace &quot;Push and SMS&quot; title in the settings with something more appropriate</summary>
+			<url>https://github.com/WhisperSystems/Signal-Android/issues/1610</url>
+			<bugID>Issue #1610</bugID>
+			<label>feature</label>
+			<description>
+		At the moment the first title in the TextSecure settings is named &quot;Push and SMS&quot; although it refers to push messages, SMS messages and MMS messages. Push messages will also be renamed to &quot;TextSecure messages&quot; so this title needs to be replaced with something more appropriate. &quot;Sending and receiving&quot; maybe?
+	</description>
+		</report>
+		<report Number="99">
+			<summary>Queue data messages</summary>
+			<url>https://github.com/WhisperSystems/Signal-Android/issues/1654</url>
+			<bugID>Issue #1654</bugID>
+			<label>feature</label>
+			<description>
+		At the moment sending of data messages fails if there is no internet connection. You are able to choose SMS fallback. I think it would be good to start queueing the message and send it when the internet connection is established again. We could add a little notice to the dialog which pops up when you tap the message for fallback. Something like: &quot;Your message will be sent when you have a internet connection again. If you don't want to wait, you can send a SMS now&quot; What do you think? edit: posted it in the mailing list now
+	</description>
+		</report>
+		<report Number="100">
+			<summary>Menu item to send a TextSecure installation link</summary>
+			<url>https://github.com/WhisperSystems/Signal-Android/issues/1722</url>
+			<bugID>Issue #1722</bugID>
+			<label>feature</label>
+			<description>
+		For easier spread of TextSecure, it might be good to offer a menu item in unencrypted SMS conversations that starts the message editor with TextSecure's Google Play link (and maybe a text like &quot;Please install the following for encrypted communication:&quot;). The menu item should have a name like &quot;Ask for encrypted communication&quot;, although this might be too long.
+	</description>
+		</report>
+		<report Number="101">
+			<summary>Creation of group leaks name and included numbers to participants before any message is sent</summary>
+			<url>https://github.com/WhisperSystems/Signal-Android/issues/1725</url>
+			<bugID>Issue #1725</bugID>
+			<label>feature</label>
+			<description>
+		I created a group just to test how creating a group works. I added some random contacts that showed as TextSecure users. Then I decided, ok, creating groups works and went on with my day. Later I received a message from one of the users, inside the group, asking about the purpose of this group. At no point did TextSecure indicate or warn that the mere creation of a group was a &quot;transferred&quot; action. This lead me to leak the numbers of completely unrelated strangers to each others. Please add a warning or dialog that a group is immediately communicated to all participants, even with no message(s) sent.
+	</description>
+		</report>
+		<report Number="102">
+			<summary>Custom label value not showing up at top of conversation</summary>
+			<url>https://github.com/WhisperSystems/Signal-Android/issues/1733</url>
+			<bugID>Issue #1733</bugID>
+			<label>feature</label>
+			<description>
+		Setup: Have a contact with two Custom labels for their two phone numbers. Steps to reproduce: open any conversation with a user like above. Note: at the top of the conversation, it doesn't show that custom label next to the phone #. This affects me because I have contacts that have two cell #'s to which I can text. It also might be good to consider showing the custom label in the list of conversations.
+	</description>
+		</report>
+		<report Number="103">
+			<summary>Automatic SMS forwarding</summary>
+			<url>https://github.com/WhisperSystems/Signal-Android/issues/1761</url>
+			<bugID>Issue #1761</bugID>
+			<label>feature</label>
+			<description>
+		It would be awesome to be able to automatically forward all incoming SMS from a certain contact to another contact.
+	</description>
+		</report>
+		<report Number="104">
+			<summary>Enable sender to delete own messages from all parties in the conversation</summary>
+			<url>https://github.com/WhisperSystems/Signal-Android/issues/1764</url>
+			<bugID>Issue #1764</bugID>
+			<label>feature</label>
+			<description>
+		While I think this is an important feature, some people were opposed to self-destructing messages. I would take it even further and do similar to Gliph, where anyone in a conversation can delete messages. A risk with Gliph is their effectively central control*, which the TextSecure team seems to have solved very elegantly. * Gliph is quite transparent, and have what they call Lockdown™ Privacy Protection. Unfortunately, the fact remains they are in control of the infrastructure and could theoretically capture the passphrase next time you login. Meaning we have to trust them. Messages I send other people should disappear on my terms. The sender should have control over her messages, as she's the one providing the content after all. Without much insight into the project, I'd like to share my ideas. Let's hope they are of value. Scenarios to relate with Imagine two journalists discussing some political issue over TextSecure, and one of them loses track of their phone. Say this journalist didn't care immensely and neglected security in a way that his messages are now available to read for anyone in possession of his phone. If the journalist's friend could trigger the phone to delete sensitive messages—provided the phone can reach the Internet—they could rest more peacefully. In case you are not a top secret agent, something easier to relate to may be sending a message to the wrong person. If you realize you've sexted your family like around 10% in a poll by Recombu have you may want to have an undo button. (how do people accidentally do this?) Friends and collegues I care quite a bit about privacy and security, and although I've managed to make my friends care more than expected, there is a limit to what they'll endure. This suggestion would ease the pressure on them to control their habits. They won't use a very secure password if they have to enter it every time to read messages. Implementation complicatedness Putting this idea together into the product can get complicated. Should the recipient have the ability to disallow deletion? As he could already be in possession of the information, one could argue it may already be captured and that my idea gives a false sense of security to the sender. I think it's an issue with little impact to an otherwise very valuable feature. Anyway, if we let the recipient prevent such deletion, I would like the sender to be aware of that fact before submitting her message. If the recipient doesn't agree with letting the sender delete their messages or having them expire, he could disable it for future messages. The recipient may have the ability to disallow deletion/expiry for (specific or all) senders, but the sender must always be aware of which before sending. All this causes complexity and new UI considerations. It appears we do not want more of that. Everyone should easily understand their message's fate. Solution Let the sender delete it's own contribution to the conversation. Allow manual locking of messages as suggested in #283. That's a simple and in my opinion reasonable compromise resulting in an easy to understand model avoiding added complexity. Model Messages are owned by the sender, who can always delete them, but is also aware that removal from other devices (or human memories) cannot be guaranteed. User interface We have the following alternatives for deletion. Delete message or conversation... ...from current device only. ...from current device and send deletion notice for own messages to other parties. ...from current device and send deletion notice to other parties, regardless of sender. ...from other parties only, by sending a deletion notice. Potential problems How can messages be kept track of, and could this kind of ownership break the plausible deniability we currently enjoy? Would the ability to delete any message in a conversation solve that problem? Future considerations Let any party delete any message People should manage to handle this as a social issue, where if someone disrespects the wishes of message retention, they're reprimanded appropriately. TextSecure has no role in this. Expiring messages (requires UI modification) Perhaps auto-deletion after recipient specified time period suits better for TextSecure. Related issues #175, #176, #226, #283. I love that Signal was just released for iPhone!
+	</description>
+		</report>
+		<report Number="105">
+			<summary>Request - Attachemnt icon in conversation</summary>
+			<url>https://github.com/WhisperSystems/Signal-Android/issues/1820</url>
+			<bugID>Issue #1820</bugID>
+			<label>feature</label>
+			<description>
+		Hello - again -, I think that it might be nice to have the media button directly in the conversation ( e.g: next to the lock) and not in the menu. regards, chmol
+	</description>
+		</report>
+		<report Number="106">
+			<summary>please add option to hide message sender and the contence of a message in notification bar.</summary>
+			<url>https://github.com/WhisperSystems/Signal-Android/issues/1858</url>
+			<bugID>Issue #1858</bugID>
+			<label>feature</label>
+			<description>
+		hi, please add a option to hide the sender of a message and the message contence when the notification appears in the notification bar. in other words it would now say new message from john smith and what he wrote. what I want is just 1 new message that's it nothing about sender or what's in the message. thank you for all you do.
+	</description>
+		</report>
+		<report Number="107">
+			<summary>Automatic backup</summary>
+			<url>https://github.com/WhisperSystems/Signal-Android/issues/1876</url>
+			<bugID>Issue #1876</bugID>
+			<label>feature</label>
+			<description>
+		With regards to #1705 I would propose automatic daily backups. There things to consider: If a person has not set up a passphrase, would an automatic backup be of security concerns? That would introduce the need for another UI-element, which is not an option when sticking to the development ideology. And only having automatic backups after setting up a passhprase is opaque. So I guess the best solution would be to bring in Flock: Let's enable automatic backups only if Flock is present and in a way that only Flock can access the (maybe unsecured) backup-data.
+	</description>
+		</report>
+		<report Number="108">
+			<summary>Option to set a default output Directory for Backups/Backup into subfolder instead of root</summary>
+			<url>https://github.com/WhisperSystems/Signal-Android/issues/1901</url>
+			<bugID>Issue #1901</bugID>
+			<label>feature</label>
+			<description>
+		Just a little Feature request. My Problem is, that i want to synchronize the Message Backups to my Home Computer. When I was using normal SMS and SMSBackup, all the output files were written into a subdirectory which was easy to synchronize but TextSecure writes the Backup File directly into the root of the sd card which I cant synchronize automatically because the sync software only supports folders and not single files. My question is: Is it possible to place the Backups per default in a subdirectory or to add an option where the backup directory can be set?
+	</description>
+		</report>
+		<report Number="109">
+			<summary>Give option for user to suppress warning on opening attachments</summary>
+			<url>https://github.com/WhisperSystems/Signal-Android/issues/1915</url>
+			<bugID>Issue #1915</bugID>
+			<label>feature</label>
+			<description>
+		Friends who are using TextSecure have found it frustrating that it alerts them every time they want to view an image. Even if they have the passphrase option disabled it still prompts them. My &quot;I'm totally an artist&quot; mockup: But I'd recommend the box being unchecked by default and an option in settings to reenable the alert.
+	</description>
+		</report>
+		<report Number="110">
+			<summary>Per contact settings storage</summary>
+			<url>https://github.com/WhisperSystems/Signal-Android/issues/1977</url>
+			<bugID>Issue #1977</bugID>
+			<label>feature</label>
+			<description>
+		@moxie0 It seems that a per contact user setting storage may be a good idea for the future, as feature implementations such as per contact notification sounds continue to be implemented. Rather than see this fragmented across many different type specific databases it would seem creating a generic db for this task may be desirable. Would you agree? I have made some modifications that would require this type of storage as well for implementing a MRU (most recently used) transit type for messages instead of automatically defaulting to Push. But before creating yet another database in the factory I wanted get your opinion on the matter.
+	</description>
+		</report>
+		<report Number="111">
+			<summary>Retry send-via-data before manual SMS fallback</summary>
+			<url>https://github.com/WhisperSystems/Signal-Android/issues/2015</url>
+			<bugID>Issue #2015</bugID>
+			<label>feature</label>
+			<description>
+		Currently, when send-via-data fails, e.g. because there is no internet connectivity, TextSecure will mark the message light green and offer to fallback to SMS (&quot;tap to ...&quot;). There is no way back to a light blue message / send-via-data, even if the internet connection comes back online. TextSecure should immediately and automatically retry to send-via-data, as soon as the internet connection is back online. This should be made visually obvious, e.g. by keeping the light blue background instead of switching to light green, or by adding a spinning circle icon.
+	</description>
+		</report>
+		<report Number="112">
+			<summary>Add support for other QR-code scanner</summary>
+			<url>https://github.com/WhisperSystems/Signal-Android/issues/2074</url>
+			<bugID>Issue #2074</bugID>
+			<label>feature</label>
+			<description>
+		The QR-code scanner which needs to be installed requires a lot of rights (like reading my contacts or bookmarks), this does IMO not match to the security standards of TextSecure.
+	</description>
+		</report>
+		<report Number="113">
+			<summary>Automatically resend undelivered messages</summary>
+			<url>https://github.com/WhisperSystems/Signal-Android/issues/2098</url>
+			<bugID>Issue #2098</bugID>
+			<label>feature</label>
+			<description>
+		Since the delivery confirmation functionality has been implemented, I sent 48 messages. For 3 of these, I did not get a confirmation that they have been delivered. It would be nice if messages are automatically resent if no delivery confirmation is received. Especially, if later messages to the same recipient do get a delivery confirmation, indicating that the recipient is reachable again.
+	</description>
+		</report>
+		<report Number="114">
+			<summary>Detailed receive receipts in group message details</summary>
+			<url>https://github.com/WhisperSystems/Signal-Android/issues/2115</url>
+			<bugID>Issue #2115</bugID>
+			<label>feature</label>
+			<description>
+		I believe that group messages are currently only marked with the receive receipt indicator if every participant's phone has sent one. The usability could be much improved if the detailed message information which is shown after a long-click on the message followed by clicking the &quot;i&quot; icon contained the receive receipt status of all participants. eg: Receive statuses: Alice: [✓] Bob: [✓] Marry: [ ] What do you think? 👍 5 ❤️ 1
+	</description>
+		</report>
+		<report Number="115">
+			<summary>Android Lollipop lock screen notification privacy</summary>
+			<url>https://github.com/WhisperSystems/Signal-Android/issues/2151</url>
+			<bugID>Issue #2151</bugID>
+			<label>feature</label>
+			<description>
+		It would be great if I was able to see the contents of the &quot;TextSecure is unlocked&quot; notification while on the lock screen but treat actual message notifications as private. Furthermore, it would be good if TextSecure could provide an option to treat the sender vs content as private separately. For example, I would like to see the sender but not the message while on the lock screen. I have no idea whether this is possible via the new Lollipop APIs but it seems like the message content could be easily omitted from the notification by TextSecure.
+	</description>
+		</report>
+		<report Number="116">
+			<summary>Testing guidelines needed</summary>
+			<url>https://github.com/WhisperSystems/Signal-Android/issues/2244</url>
+			<bugID>Issue #2244</bugID>
+			<label>feature</label>
+			<description>
+		As there are often issues with new features or fixes, there should be a guideline (or better an automated GUI test) to ensure functionality. For these tests it would be great to have a sample database to use or at least and in addition dummy recipients and groups provided by the TS server that can be stressed.
+	</description>
+		</report>
+		<report Number="117">
+			<summary>Share contact info improvements</summary>
+			<url>https://github.com/WhisperSystems/Signal-Android/issues/2306</url>
+			<bugID>Issue #2306</bugID>
+			<label>feature</label>
+			<description>
+		I wanted to ask if there are any plans to improve the sharing of contacts in TextSecure? I know there's the option &quot;Add contact info&quot; but it just sends the phone number of a selected contact without the name or any other information about it (like email adress, birthday, etc). If I open the contacts app (on Android 5.0) and choose a contact to share, TextSecure is not available in the list of applications that I could use to share the contact info... I really like the way WhatsApp handles contact sharing, but I have no idea if there is a chance to get a similar way of sharing contacts in Textsecure... I have to admit I'm not a developer and these are just some ideas I have, but I don't know if it is possible for you to implement it. In my opinion this would be a nice improvement for TS :) EDIT: I guess the problem with the missing sharing option in the Android contacts app has already been issue #1407 . Sorry for the duplicate!
+	</description>
+		</report>
+		<report Number="118">
+			<summary>[Feature Request] Display sent time instead of received time</summary>
+			<url>https://github.com/WhisperSystems/Signal-Android/issues/2314</url>
+			<bugID>Issue #2314</bugID>
+			<label>feature</label>
+			<description>
+		version 2.3.3 have been removed this feature, Fixes #597 is a feature of this kind.
+	</description>
+		</report>
+		<report Number="119">
+			<summary>[Feature Request] Swipe images</summary>
+			<url>https://github.com/WhisperSystems/Signal-Android/issues/2355</url>
+			<bugID>Issue #2355</bugID>
+			<label>feature</label>
+			<description>
+		I noticed that in a conversation with several images (or media files in general) I have to click each one to view and then return to the conversation list to view the next. I think it would be more comfortable for the user to be able to swipe (left/right) between all media items sent in this conversation, similar to the Gallery app. 👍 18
+	</description>
+		</report>
+		<report Number="120">
+			<summary>[Feature Request] Improve group message delivery confirmation</summary>
+			<url>https://github.com/WhisperSystems/Signal-Android/issues/2373</url>
+			<bugID>Issue #2373</bugID>
+			<label>feature</label>
+			<description>
+		Only confirm the delivery of a message to a group when it has been delivered to all group members. Currently, a message sent to a group is marked as delivered when at least one group member confirmed the reception (see #2260). This is not intuitive in my opinion, because it can now happen that a group message is labeled as delivered while some group members did not receive it. Reliable and intuitive group message delivery notifications are important, because it seems that GCM is not too reliable (see #2238, #2098). 👍 3 ❤️ 2
+	</description>
+		</report>
+		<report Number="121">
+			<summary>Multi-device sync message support</summary>
+			<url>https://github.com/WhisperSystems/Signal-Android/issues/2493</url>
+			<bugID>Issue #2493</bugID>
+			<label>feature</label>
+			<description>
+		Incoming sync messages should appear in the correct thread be rendered as outgoing messages Outgoing sync messages should be enabled for groups.
+	</description>
+		</report>
+		<report Number="122">
+			<summary>Adaptive Bitmap memory consumption</summary>
+			<url>https://github.com/WhisperSystems/Signal-Android/issues/2495</url>
+			<bugID>Issue #2495</bugID>
+			<label>feature</label>
+			<description>
+		Change Bitmap memory usage depending on the available heap size. store low-fidelity images like thumbnails and contact photos with RGB_565 option instead of ARGB_8888 lower max image dimension when sending images/video to below 1280 depending on memory constraints look into using inMemory option when available to reuse existing allocated Bitmap memory
+	</description>
+		</report>
+		<report Number="123">
+			<summary>[RFE] Add retry button to SMS Fallback popup</summary>
+			<url>https://github.com/WhisperSystems/Signal-Android/issues/2500</url>
+			<bugID>Issue #2500</bugID>
+			<label>feature</label>
+			<description>
+		I have enabled to be asked if I want to fallback to SMS if a push message can't be sent. Sometimes just the reception is bad or I type a message in the elevator. I don't want to send it via SMS, I just want to retry to send it over PUSH after I leave the elevator for example. So the SMS fallback popup should have another options to retry via PUSH.
+	</description>
+		</report>
+		<report Number="124">
+			<summary>Poll Feature</summary>
+			<url>https://github.com/WhisperSystems/Signal-Android/issues/2551</url>
+			<bugID>Issue #2551</bugID>
+			<label>feature</label>
+			<description>
+		First of all: Your work is absolutly awesome and my friends and i are very very thankful to be able to collaborate so easy, secure and undisturbed over the Internet! When we work on projects for university we use a Textsecure group. And because we want to decide democratically on steps our group takes, dates of meetings or find out whos comming to an event we use doodle.com a lot. It cant be done soon, but we would love to see a poll feature some day (maybe like Threema has implemented it). Perhaps in Signal for Android version 4.0 :o) Because communication is the basis of everthing and your apps are all about communication, i think this feature would be fantastic! Thank you so much! And keep on having fun with this great project! 👍 1
+	</description>
+		</report>
+		<report Number="125">
+			<summary>notify when new contacts have registered for TextSecure</summary>
+			<url>https://github.com/WhisperSystems/Signal-Android/issues/2553</url>
+			<bugID>Issue #2553</bugID>
+			<label>feature</label>
+			<description>
+		A small positive reinforcement when you can communicate with new friends privately :).
+	</description>
+		</report>
+		<report Number="126">
+			<summary>tweet invitations</summary>
+			<url>https://github.com/WhisperSystems/Signal-Android/issues/2555</url>
+			<bugID>Issue #2555</bugID>
+			<label>feature</label>
+			<description>
+		Allow user to quickly send a tweet in-app to invite their friends.
+	</description>
+		</report>
+		<report Number="127">
+			<summary>[Feature] Convert known phone numbers in text body into contact names</summary>
+			<url>https://github.com/WhisperSystems/Signal-Android/issues/2602</url>
+			<bugID>Issue #2602</bugID>
+			<label>feature</label>
+			<description>
+		Splitting this out from @brwolfgang's #2582 request for clickable phone numbers. It also would be nice if TS would identify the number in text body using my local contacts list and instead of showing the unrecognizable sequence of numbers it showed a (clickable) contact name. A SMS example: Você recebeu ligações de: 04111123451234 16:59hs A processed SMS example: Você recebeu ligações de: : Dad 16:59hs Blocked on #2582.
+	</description>
+		</report>
+		<report Number="128">
+			<summary>Feature: create beta channel</summary>
+			<url>https://github.com/WhisperSystems/Signal-Android/issues/2626</url>
+			<bugID>Issue #2626</bugID>
+			<label>feature</label>
+			<description>
+		Please consider adding a beta channel over Google Groups (or G+). Phased roll-outs really make sense, I get that. I would really like to not have to wait days until I get the new version. Especially right now, when many critical features are being added, like the move from GCM to your own delivery channel. Also I'm willing and capable to provide feedback and logs, I'm guessing I'm not the only one.
+	</description>
+		</report>
+		<report Number="129">
+			<summary>[MESSAGING] Ability to resend an encrypted message as an SMS message at any given time</summary>
+			<url>https://github.com/WhisperSystems/Signal-Android/issues/2709</url>
+			<bugID>Issue #2709</bugID>
+			<label>feature</label>
+			<description>
+		Sometimes when messaging (Using the Push service) the tick box will not appear, it would be nice to be able to be able to hold down on the message and click 'Send as encrypted SMS' or something to that effect
+	</description>
+		</report>
+		<report Number="130">
+			<summary>Where are the old text-only smileys?</summary>
+			<url>https://github.com/WhisperSystems/Signal-Android/issues/2943</url>
+			<bugID>Issue #2943</bugID>
+			<label>feature</label>
+			<description>
+		Why did you remove the old text based smileys? I don't like all this emoji crap and preferred the other ones.
+	</description>
+		</report>
+		<report Number="131">
+			<summary>[Feature request] Indicate a new day [ux]</summary>
+			<url>https://github.com/WhisperSystems/Signal-Android/issues/3147</url>
+			<bugID>Issue #3147</bugID>
+			<label>feature</label>
+			<description>
+		I'd like to request a new &quot;feature&quot;, which would be some kind of indicator when a new day begins (like it's implemented in other messengers like WhatsApp). I think this would make searching messages that were sent on a certain day easier and it just structures the conversations... Below you can see how WhatsApp handles it and I think a similar solution would be great! 👍 2
+	</description>
+		</report>
+		<report Number="132">
+			<summary>Make paperclip green or blue to indicate non-secure or textsecure status of attachment</summary>
+			<url>https://github.com/WhisperSystems/Signal-Android/issues/3313</url>
+			<bugID>Issue #3313</bugID>
+			<label>feature</label>
+			<description>
+		Currently the paperclip in the sending field is a black/white icon. Prior to the paperclip, it was a green or blue airplane indicating transport protocol. Could that be done to the paperclip as well to be in sync with the airplane to be green or blue?
+	</description>
+		</report>
+		<report Number="133">
+			<summary>Feature request: integration with KK Widget</summary>
+			<url>https://github.com/WhisperSystems/Signal-Android/issues/3314</url>
+			<bugID>Issue #3314</bugID>
+			<label>feature</label>
+			<description>
+		KK Widget (aka DashClock) has the ability to show text messages on its screen saver but, unfortunately, TextSecure messages don't show. As a result, I no longer can easily see when I receive a text. Would be nice to see these two somehow integrated.
+	</description>
+		</report>
+		<report Number="134">
+			<summary>Display app version in settings dialogue</summary>
+			<url>https://github.com/WhisperSystems/Signal-Android/issues/3324</url>
+			<bugID>Issue #3324</bugID>
+			<label>feature</label>
+			<description>
+		The version number is not displayed within the TextSecure app. I suggest to display it at the bottom of the settings dialogue. Please let me know if I have missed something.
+	</description>
+		</report>
+		<report Number="135">
+			<summary>Let me aggressively invite non-textsecure friends</summary>
+			<url>https://github.com/WhisperSystems/Signal-Android/issues/3446</url>
+			<bugID>Issue #3446</bugID>
+			<label>feature</label>
+			<description>
+		I just set Textsecure as my default SMS app on Android. Every time I send an unconventional SMS, I'd like to invite these users to install Textsecure/Signal, because I want more of my friends to be able to have private conversations with me. I also want Textsecure to spread organically because I think that'd be good for the world! I'd like a preference that would append short invite text and an invite link to every message provided there are enough characters, for example: &quot;Let's speak privately! SHORTLINK&quot; or &quot;Get privacy: SHORTLINK&quot; or &quot;Get this! SHORTLINK&quot; Ideally you'd experiment and figure out whatever text worked the best. For any user that sets their default SMS app as textsecure/signal, you should ask them if they'd like to turn this on.
+	</description>
+		</report>
+		<report Number="136">
+			<summary>Direct audio capture</summary>
+			<url>https://github.com/WhisperSystems/Signal-Android/issues/3563</url>
+			<bugID>Issue #3563</bugID>
+			<label>feature</label>
+			<description>
+		Push-to-talk style. spawned from WhisperSystems#520
+	</description>
+		</report>
+		<report Number="137">
+			<summary>Clicking the direct capture toggle does not dismiss the camera preview</summary>
+			<url>https://github.com/WhisperSystems/Signal-Android/issues/3573</url>
+			<bugID>Issue #3573</bugID>
+			<label>feature</label>
+			<description>
+		After opening the camera preview, hitting the camera toggle button again does nothing.
+	</description>
+		</report>
+		<report Number="138">
+			<summary>delivery indicator in conversation list item</summary>
+			<url>https://github.com/WhisperSystems/Signal-Android/issues/4049</url>
+			<bugID>Issue #4049</bugID>
+			<label>feature</label>
+			<description>
+		the conversation summary should show the most recent message's delivery status if it's outgoing
+	</description>
+		</report>
+		<report Number="139">
+			<summary>support encrypted video in preview activity</summary>
+			<url>https://github.com/WhisperSystems/Signal-Android/issues/4137</url>
+			<bugID>Issue #4137</bugID>
+			<label>feature</label>
+			<description>
+		This will make WhisperSystems#4116 more moot since it wouldn't involve creating a full copy of the large media.
+	</description>
+		</report>
+		<report Number="140">
+			<summary>Low quality contact photo during call</summary>
+			<url>https://github.com/WhisperSystems/Signal-Android/issues/4245</url>
+			<bugID>Issue #4245</bugID>
+			<label>feature</label>
+			<description>
+		Calling screen doesn't show the full resolution contact photo on Signal 3.0.3
+	</description>
+		</report>
+		<report Number="141">
+			<summary>allow direct sharing to contacts via 6.0 ChooserTargetService</summary>
+			<url>https://github.com/WhisperSystems/Signal-Android/issues/4333</url>
+			<bugID>Issue #4333</bugID>
+			<label>feature</label>
+			<description>
+		https://developer.android.com/reference/android/service/chooser/ChooserTargetService.html 👍 10
+	</description>
+		</report>
+		<report Number="142">
+			<summary>Opus Codec Support</summary>
+			<url>https://github.com/WhisperSystems/Signal-Android/issues/4359</url>
+			<bugID>Issue #4359</bugID>
+			<label>feature</label>
+			<description>
+		This has already been reported against RedPhone and Signal for iOS: https://github.com/WhisperSystems/RedPhone/issues/69 WhisperSystems/Signal-iOS#50
+	</description>
+		</report>
+		<report Number="143">
+			<summary>Wishlist: Video calls</summary>
+			<url>https://github.com/WhisperSystems/Signal-Android/issues/4497</url>
+			<bugID>Issue #4497</bugID>
+			<label>feature</label>
+			<description>
+		It would be nice if we could make video calls, not just voice calls. Can we expect this to happen in the future? Thanks! 👍 33 ❤️ 4
+	</description>
+		</report>
+		<report Number="144">
+			<summary>Shadow above the message text box when texts are covered</summary>
+			<url>https://github.com/WhisperSystems/Signal-Android/issues/5098</url>
+			<bugID>Issue #5098</bugID>
+			<label>feature</label>
+			<description>
+		This is how Signal currently looks when texts are covered: This is what Google messenger does when texts are covered: As you can see, a shadow appears on the bottom of the message area on Google messenger, and not on Signal. This bottom shadow serves two purposes: to visually communicate the presence of later messages and to provide consistency with the shadow on the action bar. It would be great if this could be added to Signal.
+	</description>
+		</report>
+		<report Number="145">
+			<summary>Turn off vibration during calls</summary>
+			<url>https://github.com/WhisperSystems/Signal-Android/issues/5321</url>
+			<bugID>Issue #5321</bugID>
+			<label>feature</label>
+			<description>
+		I have: searched open and closed issues for duplicates read https://github.com/WhisperSystems/Signal-Android/wiki/Submitting-useful-bug-reports So I just sat here and talked to someone over Signal, and I sent them a message. My ears almost shattered at the sound that followed. It was pure agony. Please, for the love of all that is unholy, turn off vibration during calls! Possibly related: #4164
+	</description>
+		</report>
+		<report Number="146">
+			<summary>Send using &quot;Enter&quot; Key on Hardware Keyboard</summary>
+			<url>https://github.com/WhisperSystems/Signal-Android/issues/5476</url>
+			<bugID>Issue #5476</bugID>
+			<label>feature</label>
+			<description>
+		Feature request: when using an external USB keyboard with my device on Signal, make it possible to send messages using either: Enter Ctrl+Enter Shift+Enter If desired to send on plain Enter, Shift+Enter should enter a newline.
+	</description>
+		</report>
+		<report Number="147">
+			<summary>Disable &quot;Screen security&quot; by default</summary>
+			<url>https://github.com/WhisperSystems/Signal-Android/issues/5529</url>
+			<bugID>Issue #5529</bugID>
+			<label>feature</label>
+			<description>
+		I have: searched open and closed issues for duplicates read https://github.com/WhisperSystems/Signal-Android/wiki/Submitting-useful-bug-reports Feature description It's quite common to see non-passphrase users wonder why screenshots in Signal don't work. It probably doesn't make sense to have Screen security enabled by default for them. For passphrase users it makes sense. One option would be to remove the feature completely from settings and make it an implicit feature which depends on the passphrase setting. In #1431 (comment) moxie0 wrote: [The Screen security feature i]s not designed to prevent screenshots, it's designed to notify the task manager that it shouldn't cache screenshots of conversations. The side effect is that it prevents screenshots.
+	</description>
+		</report>
+		<report Number="148">
+			<summary>WebRTC update and delay agnostic echo cancelation</summary>
+			<url>https://github.com/WhisperSystems/Signal-Android/issues/5589</url>
+			<bugID>Issue #5589</bugID>
+			<label>feature</label>
+			<description>
+		Any plan to update webrtc component especially the latest AEC from webrtc with delay agnostic echo cancellation mode? Thanks for the great work.
+	</description>
+		</report>
+		<report Number="149">
+			<summary>Add Android Auto Messaging support</summary>
+			<url>https://github.com/WhisperSystems/Signal-Android/issues/5619</url>
+			<bugID>Issue #5619</bugID>
+			<label>feature</label>
+			<description>
+		It would be nice if Signal would work with Android Auto. From what I understand it doesn't seem to be that complicated. It seems to need a notification, and handling a Intent for replies. Not sure if this is the kind of notifications and Intents already supported... in that case it might just be a manifest change... https://developer.android.com/training/auto/messaging/index.html 👍 1
+	</description>
+		</report>
+		<report Number="150">
+			<summary>Add shortcut to jump to end of conversation</summary>
+			<url>https://github.com/WhisperSystems/Signal-Android/issues/5651</url>
+			<bugID>Issue #5651</bugID>
+			<label>feature</label>
+			<description>
+		I have: searched open and closed issues for duplicates read https://github.com/WhisperSystems/Signal-Android/wiki/Submitting-useful-bug-reports Feature Request When you are in a conversation and scrolled a bit away from the most recent message (upwards direction) a shortcut to the bottom of the conversation could be displayed near the scroll bar. This would make it easier to return to the most recent messages after reading some old messages. Screenshot (WhatsApp) 👍 7
+	</description>
+		</report>
+		<report Number="151">
+			<summary>Add support for bundled notifications (Android 7.0)</summary>
+			<url>https://github.com/WhisperSystems/Signal-Android/issues/5712</url>
+			<bugID>Issue #5712</bugID>
+			<label>feature</label>
+			<description>
+		I have: searched open and closed issues for duplicates read https://github.com/WhisperSystems/Signal-Android/wiki/Submitting-useful-bug-reports Bug description Android 7.0 (Nougat) adds bundled notifications which allows the app to group notifications in a way that lets the user expand the group to work with each notification individually (https://developer.android.com/about/versions/nougat/android-7.0.html#notification_enhancements). Currently, when Signal has notifications from two or more conversations, the notifications are grouped together into one notification that cannot be expanded, preventing the user from preforming quick actions on the notifications without entering the app. Implementing the new notification feature will allow Signal to continue to group notifications with the added benefit of preforming quick actions on each notification individually. Screenshots Bundled notifications example (from https://developer.android.com/about/versions/nougat/android-7.0.html) Device info Device: Nexus 5X Android version: 7.0.0 👍 2
+	</description>
+		</report>
+		<report Number="152">
+			<summary>Should messages be marked read when notification is swiped away?</summary>
+			<url>https://github.com/WhisperSystems/Signal-Android/issues/5720</url>
+			<bugID>Issue #5720</bugID>
+			<label>feature</label>
+			<description>
+		I have: searched open and closed issues for duplicates read https://github.com/WhisperSystems/Signal-Android/wiki/Submitting-useful-bug-reports Bug description When the message can be read in the drop down menu, swiping/clearing the notification should mark message to read. Steps to reproduce Saw message from dropdown notification swipe to remove from notification Message should be marked read Further notifications should not stack with the read mesages. Screenshots Device info Device: Manufacturer Model XVI Android version: 0.0.0 Signal version: 0.0.0 Link to debug log 👍 2
+	</description>
+		</report>
+		<report Number="153">
+			<summary>App does not use android 7.0 system quick reply from the notification drawer</summary>
+			<url>https://github.com/WhisperSystems/Signal-Android/issues/5728</url>
+			<bugID>Issue #5728</bugID>
+			<label>feature</label>
+			<description>
+		I have: searched open and closed issues for duplicates read https://github.com/WhisperSystems/Signal-Android/wiki/Submitting-useful-bug-reports Bug description Signal app does not utilize new Android system quick reply from notification pull down. Steps to reproduce Receive a message Open notification drawer Actual result: Quick reply from the notification drawer is not an option. Expected result: I expect I would be able to reply to messages from the system quick reply like in other messaging applications. Device info Device: Nexus 5X Android version: Android 7.0 Signal version: 3.19.1 👍 7
+	</description>
+		</report>
+		<report Number="154">
+			<summary>Backlight notification (BLN) support</summary>
+			<url>https://github.com/WhisperSystems/Signal-Android/issues/5750</url>
+			<bugID>Issue #5750</bugID>
+			<label>feature</label>
+			<description>
+		I have: searched open and closed issues for duplicates read https://github.com/WhisperSystems/Signal-Android/wiki/Submitting-useful-bug-reports Bug description New message notification does not activate backlight notification (BLN) on devices that lack notification LED but have backlit buttons (ex: Samsung Nexus S). Steps to reproduce Receive a message via the AOSP SMS app while screen is off Buttons light up upon receiving the notification Receive a message via Signal while screen is off Buttons do not light up ; need to switch screen on to check the notification bar Actual result: Buttons do not light up ; need to switch screen on to check the notification bar Expected result: Buttons light up upon receiving the notification Device info Device: Google/Samsung Nexus S (crespo) Android version: 4.4.4 (CyanogenMod 11) Signal version: 3.16.1
+	</description>
+		</report>
+		<report Number="155">
+			<summary>Should a swiped-away notification reappear when new messages arrive?</summary>
+			<url>https://github.com/WhisperSystems/Signal-Android/issues/5751</url>
+			<bugID>Issue #5751</bugID>
+			<label>feature</label>
+			<description>
+		I have: searched open and closed issues for duplicates read https://github.com/WhisperSystems/Signal-Android/wiki/Submitting-useful-bug-reports Bug description A swiped away notification of a received SMS is displayed back after some time. Steps to reproduce Receive an SMS Without opening Signal, swipe away the new notification from the Android notification drawer Actual result: After some time the same notification is displayed back. I cannot tell exactly when. Maybe it is event related. Expected result: The notification should not be displayed, once it is swiped away. If another message is received from the same contact/number, a new notification should display the new message (or possibly the swiped away message and the new message). Device info Device: LGE Nexus 5X (bullhead) Android: 7.0 (3141966, NRD90R) Memory: 15M (1.73% free, 192M max) Memclass: 192 OS Host: vped5.mtv.corp.google.com App: Signal 3.19.1 Link to debug log https://gist.github.com/nagromc/c2a3a151ba09ed2f38265d3a723b8a52#file-issue-5751-comment-181395245-txt 👍 1
+	</description>
+		</report>
+		<report Number="156">
+			<summary>Allow possibility to disallow disappearing messages</summary>
+			<url>https://github.com/WhisperSystems/Signal-Android/issues/5787</url>
+			<bugID>Issue #5787</bugID>
+			<label>feature</label>
+			<description>
+		It would be nice to have the possibility to always disallow disappearing messages if you never want a contact to put a timer on your conversations. The person trying to set a timer could even get a message saying that the other contact refuses to have disappearing messages / deactivated disappearing messages. 👍 1 👎 1
+	</description>
+		</report>
+		<report Number="157">
+			<summary>Allow notification messages in muted groups</summary>
+			<url>https://github.com/WhisperSystems/Signal-Android/issues/5815</url>
+			<bugID>Issue #5815</bugID>
+			<label>feature</label>
+			<description>
+		I have: searched open and closed issues for duplicates read https://github.com/WhisperSystems/Signal-Android/wiki/Submitting-useful-bug-reports Feature description It is currently not possible to still receive notification messages for a group when you have enabled the Mute notifications option in a group chat. In other words, both the notification sound and the notification messages are muted. WhatsApp gives you the option to still receive notifications for a group chat after you muted it, thus effectively only muting the notification sound. I received a complaint from a user who just converted from WhatsApp to Signal who would like this feature to also be present in Signal. Steps to reproduce open a group chat click on the options menu &gt; Mute notifications Wanted result: - ideally there would be a check box allowing you to choose if you still want to receive notification messages Screenshots This shows how WhatsApp implemented this feature Device info Device: Nexus 5 Android version: 6.0.1 Signal version: 3.20.4 😕 1
+	</description>
+		</report>
+		<report Number="158">
+			<summary>labling the unlabled buttons in Signal for Android</summary>
+			<url>https://github.com/WhisperSystems/Signal-Android/issues/5908</url>
+			<bugID>Issue #5908</bugID>
+			<label>feature</label>
+			<description>
+		Hi. I am Pradip Sikdar, a visually challenged android intermediate user. I have started using Signal Private Messanger for Android recently and most of the part, I am quite happy with it. As you know, we use screen reader technology to use our android or IOS devices. So, if there is a menu or button which is not properly tagged or labled, the screen reader doesn't recognize it. For example, let's say there is a play button. Visually there is a sign or graphics which represents that, it is a play button. But if the button is not properly tagged or labled as &quot;Play&quot; button, our screen reader only says &quot;Button Unlabled&quot;. So, we cannot recognize what the button is. So, I am here by requesting to the developer of this nice application, to lable all the buttons of this application. For example, when I am clicking on the &quot;toggle attachment&quot; button, I am getting some additional buttons which are not labled. So, I cannot recognize them. Thanks in advance from all the blind community. Pradip 👍 4
+	</description>
+		</report>
+		<report Number="159">
+			<summary>Widget contact shortcut</summary>
+			<url>https://github.com/WhisperSystems/Signal-Android/issues/5929</url>
+			<bugID>Issue #5929</bugID>
+			<label>feature</label>
+			<description>
+		I'm a big user of having a folder right under my finder with widget icons of every contact I use the most. To me this is very important to use Signal over regular phone / SMS to contact people with in a rush. 👍 1
+	</description>
+		</report>
+		<report Number="160">
+			<summary>Block numbers outside my contact list</summary>
+			<url>https://github.com/WhisperSystems/Signal-Android/issues/5963</url>
+			<bugID>Issue #5963</bugID>
+			<label>feature</label>
+			<description>
+		Add an option to allow completely blocking messages from contacts not in my contact list. This is very useful for children, to disable the possibility of them being approached by strangers.
+	</description>
+		</report>
+		<report Number="161">
+			<summary>Add Iran to censored countries list</summary>
+			<url>https://github.com/WhisperSystems/Signal-Android/issues/5992</url>
+			<bugID>Issue #5992</bugID>
+			<label>feature</label>
+			<description>
+		Here is the log that I can't connect to textsecure-service.whispersystems.org https://gist.github.com/anonymous/fea6d946aea279e0a748ef4094d575af Thank you so much.
+	</description>
+		</report>
+		<report Number="162">
+			<summary>Remove Contact Pic Preceding Messages From Within Individual Conversations</summary>
+			<url>https://github.com/WhisperSystems/Signal-Android/issues/6008</url>
+			<bugID>Issue #6008</bugID>
+			<label>feature</label>
+			<description>
+		I have: searched open and closed issues for duplicates read https://github.com/WhisperSystems/Signal-Android/wiki/Submitting-useful-bug-reports Feature Request Could it be possible to remove the contact pic preceding every message (chat bubble) in a conversation in order to reduce the clutter and also make things consistent with the iOS and Desktop versions? Detailed Description While the presence of contact pics before messages is helpful in group conversations (but still overwhelming when multiple messages are sent by the same person in succession as mentioned in #964), they are extremely redundant and make the screen more busy in one-to-one conversations. The colour of the chat bubbles is already an excellent method of distinguishing between messages. While doing something along the lines of other messaging apps (QKSMS, Hangouts, Facebook Messenger or Google Messenger) is what #964 sought by requesting that successive messages from the same contact be bundled, with the contact pic appearing only once for one message bundle, I am suggesting going the WhatsApp route and doing away with contact pics entirely, at least in individual conversation where they add very little, especially in excess. Doing so would have the added benefit of making the Android app consistent with the iOS and Desktop apps where the contact pic doesn't appear within conversations. The desktop app instead displays the contact pic in the action bar which could be one alternate location for displaying the contact pic. Also, hopefully there should be no database issues in implementing this change like was mentioned in that other issue and that might expedite its implementation as it would be a purely UI move? Screenshots Here are the iOS and desktop versions respectively: Here is how WhatsApp handles things presently: The contact pic is relegated to the action bar and messages bubbles only carry the name of the contact. Of course, even the name isn't present in case of individual conversations but I couldn't get a screenshot of that on the Play Store. 👍 3
+	</description>
+		</report>
+		<report Number="163">
+			<summary>Unread notification badges do not work on Huawei EMUI</summary>
+			<url>https://github.com/WhisperSystems/Signal-Android/issues/6069</url>
+			<bugID>Issue #6069</bugID>
+			<label>feature</label>
+			<description>
+		I have: searched open and closed issues for duplicates read https://github.com/WhisperSystems/Signal-Android/wiki/Submitting-useful-bug-reports Bug description I've installed Signal on a Honor 8 (made by Huawei) with EMUI 4.1 (Android 6.0). I've noticed that Signal receives notifications on new messages and they are also listed in the notification area, but the unread notifications badge on the app icon on the home screen is not shown. In Signal support articles there is mentioned, that badge icons are supported for some launchers, see https://support.whispersystems.org/hc/en-us/articles/215766077-How-can-I-see-my-unread-badge-count-What-launcher-should-I-use- So far I could not find out if this is a Signal or EMUI problem, but Threema and Conversations show the notification badges. Device info Device: Honor 8 Android version: 6.0 Signal version: 3.26.2
+	</description>
+		</report>
+		<report Number="164">
+			<summary>Update libphonenumber to &gt;=8.2.0 (Cannot send SMS to my mobile provider)</summary>
+			<url>https://github.com/WhisperSystems/Signal-Android/issues/6077</url>
+			<bugID>Issue #6077</bugID>
+			<label>feature</label>
+			<description>
+		I have: searched open and closed issues for duplicates read https://github.com/WhisperSystems/Signal-Android/wiki/Submitting-useful-bug-reports Bug description My friend made me aware of this as I'm never checking my account status via SMS, but it doesn't work for me neither. To check our account status, we have to send an SMS message to 13977, but Signal fails to deliver it. I tried sending it through the native Oneplus SMS app and it goes through just fine, with an immediate response. I can send an SMS to other people, though, so it has something to do with that number. (Signal adds +385 to it for Croatia, maybe that's it?) Steps to reproduce send an SMS to my provider through Signal Actual result: it doesn't go through, &quot;Failed to send&quot;, &quot;Some issues need your attention.&quot; Expected result: Message should go through and I should get a response. Device info Device: OnePlus3T Android version: 7.0 Signal version: 3.27.1 Link to debug log https://gist.github.com/anonymous/f656572561ea3a91d0f4bbdeb98e587b
+	</description>
+		</report>
+		<report Number="165">
+			<summary>Listen to voice messages through earpiece instead of loudspeaker</summary>
+			<url>https://github.com/WhisperSystems/Signal-Android/issues/6195</url>
+			<bugID>Issue #6195</bugID>
+			<label>feature</label>
+			<description>
+		I have: searched open and closed issues for duplicates read https://github.com/WhisperSystems/Signal-Android/wiki/Submitting-useful-bug-reports Bug description When listening to a vocal message, putting the phone near your ear doesn't make anything at all, while I am expecting the proximity sensor to turn off the screen and send the sound to the earpiece instead of the loudspeaker. Steps to reproduce listen to a vocal message darken the proximity sensor nothing happens Actual result: nothing happens Expected result: the sound should be sent to the earpiece while the screen should be turned off Device info Device: Honor Model 6X (BLN-L21) Android version: 6.0 Signal version: 3.28.4 👍 6
+	</description>
+		</report>
+		<report Number="166">
+			<summary>Feature Request: Emoji only messages should show bigger</summary>
+			<url>https://github.com/WhisperSystems/Signal-Android/issues/6269</url>
+			<bugID>Issue #6269</bugID>
+			<label>feature</label>
+			<description>
+		I have: searched open and closed issues for duplicates read https://github.com/WhisperSystems/Signal-Android/wiki/Submitting-useful-bug-reports Feature description Messages only consisting of emojis should be shown bigger than messages consisting of text only or mixed messages. Apparently Whatsapp has four sizes for emoji messages. With the number of Emojis size decreases: 1 emoji message 2 Emojis message 3 Emojis message 4 or more Emojis or mixed messages Screenshots Source: http://www.androidpolice.com/wp-content/uploads/2016/09/nexus2cee_whatsapp-big-emoji-after-2-217x386.png 👍 2
+	</description>
+		</report>
+		<report Number="167">
+			<summary>Feature request: Disable heads up notifications</summary>
+			<url>https://github.com/WhisperSystems/Signal-Android/issues/6315</url>
+			<bugID>Issue #6315</bugID>
+			<label>feature</label>
+			<description>
+		I have: searched open and closed issues for duplicates read https://github.com/WhisperSystems/Signal-Android/wiki/Submitting-useful-bug-reports As is now it is impossible to disable heads-up notifications, to me, and many others, this isn't all that great as they are pretty obnoxious and they block out other parts of the screen when doing anything else than signal, ofcourse this is my opinion so an option to disable/enable them would be great. 👍 3
+	</description>
+		</report>
+		<report Number="168">
+			<summary>Unable to Copy Just the Link from a Message</summary>
+			<url>https://github.com/WhisperSystems/Signal-Android/issues/6343</url>
+			<bugID>Issue #6343</bugID>
+			<label>feature</label>
+			<description>
+		I have: searched open and closed issues for duplicates read https://github.com/WhisperSystems/Signal-Android/wiki/Submitting-useful-bug-reports Bug description I can copy an entire message and open any URL links in a message, but am unable to copy just the link from a message. Steps to reproduce Compose and send a message that contains an https URL link. Actual result: I can click the link to visit it in a browser, or touch and hold the message to open the menu option to copy the entire message, but there doesn't appear to be a way in either the message details or the conversation view to just copy the link without opening it or copying the entire message. Expected result: Expecting a way to copy just a link, ideally a touch and hold context menu option to copy the link from a message. Device info Device: Samsung Galaxy Android version: 6.0.1 Signal version: 3.30.4 👍 3
+	</description>
+		</report>
+		<report Number="169">
+			<summary>Enabling Video changes bottom mic to top mic. Disabling does not change it back</summary>
+			<url>https://github.com/WhisperSystems/Signal-Android/issues/6345</url>
+			<bugID>Issue #6345</bugID>
+			<label>feature</label>
+			<description>
+		I have: searched open and closed issues for duplicates read https://github.com/WhisperSystems/Signal-Android/wiki/Submitting-useful-bug-reports Bug description Enabling Video Call seems to use the mic on top of the phone instead of the bottom (might be intended). However if Video Call is disabled it should go back. Steps to reproduce Start Signal Call Tap against the top and bottom mic hole on your phone. On the other phone, you should only hear the tapping from the bottom hole. Enable Video Repeat 2. But now top mic is active. Bottom mic is disabled. Disable Video Repeat 2. Top mic is still active. Bottom mic is disabled. Actual result: Mic does not change back. Expected result: If the switching is intended behavior it should switch back to where it came from. Be consistent ;) Screenshots Device info Device: Galaxy S5 Android version: see log Signal version: see log Link to debug log https://gist.github.com/anonymous/57fcc910aaf64b9be8cfc7e0676cde9f
+	</description>
+		</report>
+		<report Number="170">
+			<summary>Feature Request: Add more conversation color options</summary>
+			<url>https://github.com/WhisperSystems/Signal-Android/issues/6443</url>
+			<bugID>Issue #6443</bugID>
+			<label>feature</label>
+			<description>
+		This one is simple. Currently we have 15 different conversation colors. This seems somewhat limited for a modern app. Anybody familiar with Textra's extensive color picker knows what I'm talking about. 30 or more colors would be nice. A good way to determine a maximum number of colors is if they start becoming too indistinct from one another. This is especially useful as Signal gains more users and our contact lists grow. 👍 3 🎉 5
+	</description>
+		</report>
+		<report Number="171">
+			<summary>Adaptive Icons</summary>
+			<url>https://github.com/WhisperSystems/Signal-Android/issues/6511</url>
+			<bugID>Issue #6511</bugID>
+			<label>feature</label>
+			<description>
+		Hello, What do you think about using the new Adaptive Icons feature of Android O? It would be really nice to see them implemented in Signal! Can I help 😉? Thank you very much, 👍 1
+	</description>
+		</report>
+	</reports>

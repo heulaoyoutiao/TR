@@ -1,0 +1,399 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<reports>
+		<report Number="0">
+			<summary>Remove ActionBarSherlock</summary>
+			<url>https://github.com/Automattic/simplenote-android/issues/2</url>
+			<bugID>Issue #2</bugID>
+			<label>None yet</label>
+			<description>
+		Remove ActionBarSherlock and convert to regular activities/fragments.
+	</description>
+		</report>
+		<report Number="1">
+			<summary>Rotating while in note editor goes back to post list.</summary>
+			<url>https://github.com/Automattic/simplenote-android/issues/12</url>
+			<bugID>Issue #12</bugID>
+			<label>None yet</label>
+			<description>
+		The activity restarts when you rotate.
+	</description>
+		</report>
+		<report Number="2">
+			<summary>Tapping a note with search open</summary>
+			<url>https://github.com/Automattic/simplenote-android/issues/13</url>
+			<bugID>Issue #13</bugID>
+			<label>None yet</label>
+			<description>
+		The note opens but the search view doesn't go away.
+	</description>
+		</report>
+		<report Number="3">
+			<summary>App Icon has a Highlight when not enabled as up</summary>
+			<url>https://github.com/Automattic/simplenote-android/issues/14</url>
+			<bugID>Issue #14</bugID>
+			<label>None yet</label>
+			<description>
+		App icon in navigation bar has a touch highlight.
+	</description>
+		</report>
+		<report Number="4">
+			<summary>Remove unnecessary settings</summary>
+			<url>https://github.com/Automattic/simplenote-android/issues/26</url>
+			<bugID>Issue #26</bugID>
+			<label>None yet</label>
+			<description>
+		Detect Links Font Size Show Dates
+	</description>
+		</report>
+		<report Number="5">
+			<summary>Scrolling in edit note view has no intertia</summary>
+			<url>https://github.com/Automattic/simplenote-android/issues/32</url>
+			<bugID>Issue #32</bugID>
+			<label>None yet</label>
+			<description>
+		If you scroll a note in the editor, it feels sticky because it has no inertia.
+	</description>
+		</report>
+		<report Number="6">
+			<summary>Fix overlay/overdraw rendering</summary>
+			<url>https://github.com/Automattic/simplenote-android/issues/65</url>
+			<bugID>Issue #65</bugID>
+			<label>None yet</label>
+			<description>
+		I enabled the overlay setting in the developer options and see some red coloring, we are probably setting backgrounds more than we need to.
+	</description>
+		</report>
+		<report Number="7">
+			<summary>No default note in app after creating new account</summary>
+			<url>https://github.com/Automattic/simplenote-android/issues/66</url>
+			<bugID>Issue #66</bugID>
+			<label>None yet</label>
+			<description>
+		I expected the Welcome note to be there after I created an account, but alas there wasn't one there.
+	</description>
+		</report>
+		<report Number="8">
+			<summary>Send a provider string via Simperium for proper account creation</summary>
+			<url>https://github.com/Automattic/simplenote-android/issues/75</url>
+			<bugID>Issue #75</bugID>
+			<label>None yet</label>
+			<description>
+		@fredrocious added some backend code that will allow Simplenote users to be properly created via Simperium, but it needs some tweaks. simperium-android will need to send a bit of extra data in the account creation POST: key &quot;provider&quot; with object &quot;simplenote.com&quot;. Fred tells me this is a bit of a hack, but I tried to do it in a general way for iOS here: Simperium/simperium-ios@7126d65 And then simplenote-osx sets the provider string. You can test this by using the Simplenote web app to sign in to any account you create from Android. If it works, this works.
+	</description>
+		</report>
+		<report Number="9">
+			<summary>Make accounts optional</summary>
+			<url>https://github.com/Automattic/simplenote-android/issues/76</url>
+			<bugID>Issue #76</bugID>
+			<label>None yet</label>
+			<description>
+		...but somehow encourage people to sign up if they want syncing...perhaps tough to do well.
+	</description>
+		</report>
+		<report Number="10">
+			<summary>Tapping &quot;Next&quot; in tag field should create the tag and start another one, not change focus to the note editor</summary>
+			<url>https://github.com/Automattic/simplenote-android/issues/102</url>
+			<bugID>Issue #102</bugID>
+			<label>None yet</label>
+			<description>
+		No description provided.
+	</description>
+		</report>
+		<report Number="11">
+			<summary>Search icon while searching is fuzzy and should match the search button's image</summary>
+			<url>https://github.com/Automattic/simplenote-android/issues/103</url>
+			<bugID>Issue #103</bugID>
+			<label>None yet</label>
+			<description>
+		No description provided.
+	</description>
+		</report>
+		<report Number="12">
+			<summary>Hide the blue &quot;Sign up&quot; bar when searching for users not logged in</summary>
+			<url>https://github.com/Automattic/simplenote-android/issues/106</url>
+			<bugID>Issue #106</bugID>
+			<label>None yet</label>
+			<description>
+		It can take up too much of the screen with the keyboard visible
+	</description>
+		</report>
+		<report Number="13">
+			<summary>Change menu action &quot;Delete&quot; to &quot;Move to Trash&quot; in the note editor.</summary>
+			<url>https://github.com/Automattic/simplenote-android/issues/107</url>
+			<bugID>Issue #107</bugID>
+			<label>None yet</label>
+			<description>
+		The Mac app has this, so I made the iOS app match. @isaackeyet also made a comment about it on iOS, and I agreed.
+	</description>
+		</report>
+		<report Number="14">
+			<summary>Empty trash icon should be disabled when trash is empty</summary>
+			<url>https://github.com/Automattic/simplenote-android/issues/110</url>
+			<bugID>Issue #110</bugID>
+			<label>None yet</label>
+			<description>
+		When I view the trash, the empty trash icon in the ActionBar is enabled even if there's nothing in the trash (and tapping it asks whether I'm sure I want to empty the trash, even though it's already empty).
+	</description>
+		</report>
+		<report Number="15">
+			<summary>ActionBar incorrectly says there are items in trash</summary>
+			<url>https://github.com/Automattic/simplenote-android/issues/111</url>
+			<bugID>Issue #111</bugID>
+			<label>None yet</label>
+			<description>
+		After emptying the trash and tapping the ActionBar menu, the menu indicated there were two items in the trash even though I just emptied it.
+	</description>
+		</report>
+		<report Number="16">
+			<summary>Remove note/tag/trash counts from navigation drop down</summary>
+			<url>https://github.com/Automattic/simplenote-android/issues/113</url>
+			<bugID>Issue #113</bugID>
+			<label>None yet</label>
+			<description>
+		Title has it
+	</description>
+		</report>
+		<report Number="17">
+			<summary>Tapping note shows empty screen</summary>
+			<url>https://github.com/Automattic/simplenote-android/issues/122</url>
+			<bugID>Issue #122</bugID>
+			<label>None yet</label>
+			<description>
+		I just upgraded to the RC, and I'm finding that every note I tap takes me to any empty screen. These two screenshots show one example: I tap on the item by the arrow, and the note detail shows nothing.
+	</description>
+		</report>
+		<report Number="18">
+			<summary>Add light version of trash icon in dark theme</summary>
+			<url>https://github.com/Automattic/simplenote-android/issues/134</url>
+			<bugID>Issue #134</bugID>
+			<label>None yet</label>
+			<description>
+		See icon in action bar.
+	</description>
+		</report>
+		<report Number="19">
+			<summary>Check higlighter offset out of bounds</summary>
+			<url>https://github.com/Automattic/simplenote-android/issues/156</url>
+			<bugID>Issue #156</bugID>
+			<label>None yet</label>
+			<description>
+		Offsets provided by SQLite are at char indices. We attempt to calucalte this difference when providing spannable start/end indices but are running into cases where the string is shorter than the indices we have. Protect against accessing out of bound indices.
+	</description>
+		</report>
+		<report Number="20">
+			<summary>Upgrade simperium-android 0.4.2</summary>
+			<url>https://github.com/Automattic/simplenote-android/issues/158</url>
+			<bugID>Issue #158</bugID>
+			<label>None yet</label>
+			<description>
+		Includes bug fixes for the two biggest crashes in 1.1.1
+	</description>
+		</report>
+		<report Number="21">
+			<summary>High data usage report</summary>
+			<url>https://github.com/Automattic/simplenote-android/issues/168</url>
+			<bugID>Issue #168</bugID>
+			<label>None yet</label>
+			<description>
+		https://cloudup.com/cJlScO5qHqv
+	</description>
+		</report>
+		<report Number="22">
+			<summary>Channel syncing with Executor race condition</summary>
+			<url>https://github.com/Automattic/simplenote-android/issues/171</url>
+			<bugID>Issue #171</bugID>
+			<label>None yet</label>
+			<description>
+		Seeing problems with changes that are received and should be acknowledged changes not being identified as acknowledged. The biggest change to syncing was moving from a dedicated thread to an ExecutorService to process the change queue.
+	</description>
+		</report>
+		<report Number="23">
+			<summary>Show version number in settings</summary>
+			<url>https://github.com/Automattic/simplenote-android/issues/193</url>
+			<bugID>Issue #193</bugID>
+			<label>None yet</label>
+			<description>
+		No description provided.
+	</description>
+		</report>
+		<report Number="24">
+			<summary>Note should sync after applying local three way merge</summary>
+			<url>https://github.com/Automattic/simplenote-android/issues/198</url>
+			<bugID>Issue #198</bugID>
+			<label>None yet</label>
+			<description>
+		When a note has local changes and applies a remote change from another client, it should save/sync the resulting merged modifications.
+	</description>
+		</report>
+		<report Number="25">
+			<summary>Mobile Web Interface History Slider</summary>
+			<url>https://github.com/Automattic/simplenote-android/issues/292</url>
+			<bugID>Issue #292</bugID>
+			<label>None yet</label>
+			<description>
+		A user using the android app is unable to restore a previous version of their note. As it is not a feature yet in the android app they tried to do it from their mobile browser, Firefox, but you aren't able to move the slider, the whole page tries to scroll instead. I tried this on my device using Google Chrome and had the same result. Are we able to add a mobile friendly way to restore a previous version of the note through the web interface? Thanks.
+	</description>
+		</report>
+		<report Number="26">
+			<summary>Update Translations</summary>
+			<url>https://github.com/Automattic/simplenote-android/issues/297</url>
+			<bugID>Issue #297</bugID>
+			<label>None yet</label>
+			<description>
+		Looks like there's some more translations added in GlotPress.
+	</description>
+		</report>
+		<report Number="27">
+			<summary>Design update</summary>
+			<url>https://github.com/Automattic/simplenote-android/issues/342</url>
+			<bugID>Issue #342</bugID>
+			<label>None yet</label>
+			<description>
+		In addition to the work we’ve been doing for the Linux/Windows app releases, we will also update the existing apps to match. With the new Electron app, there will be new icons, new colors, and a few IA changes. Changes Loosely listed by priority: Replace Source Sans Pro with Roboto. Replace all of the current icons. New ones can be found here: https://cloudup.com/cUq0qcP5fBK Tweak measurements of the list view so that they follow Material guidelines (see mockup) Drawer: Remove header image, tweak measurements so that they follow Material drawer guidelines. Editor: New Info sheet (see mockup). Editor: New Share sheet (see mockup). Editor: Replace action bar actions with: Back, History, Share, Trash, and Info (see mockup). About: Add an About view, found in Settings (see mockup) Here are the mockups: https://cloudup.com/cetXeIiFlx4 Share sheet I'm not sure what all is possible as far as altering the native share sheets. We'll need to discuss options. Here is a prototype of what I was thinking for the UX of publishing a note: https://href.li/?https://marvelapp.com/47382f6 Mockups are not totally complete, but I will update. Please ignore the color and fonts in the mockups, because they are not correct. Let me know if you have any questions, or if you need any design resources. TODO for me: Update icon folder to include png icons. Update mockups to be complete Separate Issues? Move tags to bottom of note in editor
+	</description>
+		</report>
+		<report Number="28">
+			<summary>Remove Facebook Tracking</summary>
+			<url>https://github.com/Automattic/simplenote-android/issues/364</url>
+			<bugID>Issue #364</bugID>
+			<label>None yet</label>
+			<description>
+		No longer needed.
+	</description>
+		</report>
+		<report Number="29">
+			<summary>Update library to Passcode Lock v1.3.0</summary>
+			<url>https://github.com/Automattic/simplenote-android/issues/368</url>
+			<bugID>Issue #368</bugID>
+			<label>None yet</label>
+			<description>
+		Update to the latest release of the Passcode Lock library (i.e. v1.3.0). What's New Change minimum SDK to 14 (Ice Cream Sandwich) Bug Fixes Add screen shake to incorrect PIN for Manage Additionally, the current version is v1.0.0 which contains a security vulnerability and unlock bug which was patched in v1.2.0.
+	</description>
+		</report>
+		<report Number="30">
+			<summary>Font Size Setting Does Not Affect Markdown Preview</summary>
+			<url>https://github.com/Automattic/simplenote-android/issues/377</url>
+			<bugID>Issue #377</bugID>
+			<label>None yet</label>
+			<description>
+		Expected The font size setting in the app affects text within the All Notes list, the Trash list, the Edit tab, and the Preview tab. Observed The font size setting in the app affects text within the All Notes list, the Trash list, and the Edit tab. Reproduced Open a note with Markdown enabled. Note text size in Edit tab. Note text size in Preview tab. Go to Settings. Tap Font size option. Choose different option than what is selected. Note text size in All Notes list. Open same note as in Step 1. Note text size in Edit tab. Note text size in Preview tab. Tested LG G4 (LG-H815) on Android 6.0.1 with Simplenote 1.5.1 👍 1
+	</description>
+		</report>
+		<report Number="31">
+			<summary>Material Design on pre-Lollipop devices</summary>
+			<url>https://github.com/Automattic/simplenote-android/issues/391</url>
+			<bugID>Issue #391</bugID>
+			<label>None yet</label>
+			<description>
+		There are few user interface elements such as switches which aren't in Material Design style when running application on pre-Lollipop devices. Switches in note info bottom sheet Tag renaming dialog Tags input field Switches in settings Dialogs in settings Settings section headers Question I can try and create pull request(s) solving these issues but I have a question whether I should make these changes in one pull request or few separate focused on specific UI elements? Images
+	</description>
+		</report>
+		<report Number="32">
+			<summary>Update Library to Passcode Lock v1.4.0</summary>
+			<url>https://github.com/Automattic/simplenote-android/issues/397</url>
+			<bugID>Issue #397</bugID>
+			<label>None yet</label>
+			<description>
+		Update to the latest release of the Passcode Lock library (i.e. v1.4.0). What's New Use support preference fragment for pre-Lollipop devices
+	</description>
+		</report>
+		<report Number="33">
+			<summary>Update Library to Passcode Lock v1.5.0</summary>
+			<url>https://github.com/Automattic/simplenote-android/issues/399</url>
+			<bugID>Issue #399</bugID>
+			<label>None yet</label>
+			<description>
+		Update to the latest release of the Passcode Lock library (i.e. v1.5.0). What's New Add enable/disable for fingerprint unlock Bug Fixes Fix PIN input screen on pre-Lollipop devices
+	</description>
+		</report>
+		<report Number="34">
+			<summary>Update Library to Passcode Lock v1.5.1</summary>
+			<url>https://github.com/Automattic/simplenote-android/issues/407</url>
+			<bugID>Issue #407</bugID>
+			<label>None yet</label>
+			<description>
+		Update to the latest release of the Passcode Lock library (i.e. v1.5.1). Bug Fixes Fix PIN input screen bypass
+	</description>
+		</report>
+		<report Number="35">
+			<summary>Design / authentication error with PIN usage in Simplenote Android application</summary>
+			<url>https://github.com/Automattic/simplenote-android/issues/409</url>
+			<bugID>Issue #409</bugID>
+			<label>None yet</label>
+			<description>
+		Hi team I noticed a design and authentication error (a wrong credential request) in the use of the Simplenote Android application lock PIN POC 1 access the android app of Simplenote &gt; enable lock PIN 2 in the same 'settings' area click 'Exit' You are prompted for a new login. Right 3 minimize the application 4 access the application again The access PIN is requested even after the user exits the account. That seems wrong to me. When the user exits the PIN should be automatically deactivated. In this scenario even leaving the account the user has to enter the PIN. If you have forgotten this credential you will be forced to remove and reinstall the application. This causes some inconvenience in relation to the use of the app. Please check it.
+	</description>
+		</report>
+		<report Number="36">
+			<summary>Setting to allow markdown format by default for new notes</summary>
+			<url>https://github.com/Automattic/simplenote-android/issues/412</url>
+			<bugID>Issue #412</bugID>
+			<label>None yet</label>
+			<description>
+		Would be great to be able to have a setting that defaulted all new notes to markdown rather than having to switch the note to markdown every time.
+	</description>
+		</report>
+		<report Number="37">
+			<summary>Switch Trash Icon for Empty and Restore Actions</summary>
+			<url>https://github.com/Automattic/simplenote-android/issues/422</url>
+			<bugID>Issue #422</bugID>
+			<label>None yet</label>
+			<description>
+		Expected The restore icon is used for restoring notes and the trash icon is used for emptying the trash. Observed The trash icon is used for restoring notes and the restore icon is used for emptying the trash. Note Renaming the ic_empty_trash_24dp icon to ic_trash_restore_24dp might avoid confusion also. Reproduced Open navigation drawer. Tap All Notes item. Tap any note in All Notes list. Tap trash icon in action bar. Open navigation drawer. Tap Trash item. Long-press restore icon. Notice &quot;Empty trash&quot; message. Tap trashed note in Trash list. Long-press trash icon. Notice &quot;Restore note&quot; message. Tap trash icon. Tested Google Pixel on Android 7.1.1 with Simplenote 1.5.5
+	</description>
+		</report>
+		<report Number="38">
+			<summary>Settings page cut off in Android Page using Simplenote in a browser.</summary>
+			<url>https://github.com/Automattic/simplenote-android/issues/435</url>
+			<bugID>Issue #435</bugID>
+			<label>None yet</label>
+			<description>
+		Steps: Open Browser on Android phone Go to simplenote.com Login to simplenote Click email at top-right Click 'Account Settings' See that part of the settings is cut off This is probably due to the CSS found here: #accountsettings { margin: 0 auto; float: none; width: 420px; } The width doesn't accommodate for the browser. I have tested this on several Android phones and had the same result. I understand most people will use the app but I noticed this testing on the browser for on Android phones for once. Here's an image of what it looks like: https://cloudup.com/i_6hUtDE1rr
+	</description>
+		</report>
+		<report Number="39">
+			<summary>Any option to show md files in preview mode first</summary>
+			<url>https://github.com/Automattic/simplenote-android/issues/446</url>
+			<bugID>Issue #446</bugID>
+			<label>None yet</label>
+			<description>
+		I found out that note always open first in Edit mode. As most of the times I just wanna check notes and not write on them, I was wondering if a new option to &quot;Show md notes in Preview first&quot; could be added. Many thanks!
+	</description>
+		</report>
+		<report Number="40">
+			<summary>Line Spacing Changes When Editing Note</summary>
+			<url>https://github.com/Automattic/simplenote-android/issues/450</url>
+			<bugID>Issue #450</bugID>
+			<label>None yet</label>
+			<description>
+		On the latest Android version (7.1.2) with the latest Simplenote app, it's okay when I open a note without altering it. But as soon as I change anything (add something, delete something), the spacing around that particular line contracts, so that it's uneven across the note, and so that the edited lines are harder to read and edit. The more edits I make, the more scrambled the note becomes. Screenshot: 3258766-t
+	</description>
+		</report>
+		<report Number="41">
+			<summary>update wear API</summary>
+			<url>https://github.com/Automattic/simplenote-android/issues/460</url>
+			<bugID>Issue #460</bugID>
+			<label>None yet</label>
+			<description>
+		com.google.android.gms.wearable.BIND_LISTENER has been deprecated for all versions of Android. We need to use intents and Google Play Services APIs. See link.
+	</description>
+		</report>
+		<report Number="42">
+			<summary>Duplicate Tags</summary>
+			<url>https://github.com/Automattic/simplenote-android/issues/474</url>
+			<bugID>Issue #474</bugID>
+			<label>None yet</label>
+			<description>
+		When applying tags to notes on simplenote-android, existing tags end up duplicated in the tags list. Interestingly, they are still the same tag - clicking on either of the tags in the tags list narrows the notes list to the same set of notes. In fact, clicking on one of the tags in the tags list on Linux highlights both tag names in blue. This happens whether I type in the tag name fully, or I use the autocomplete in the app.
+	</description>
+		</report>
+		<report Number="43">
+			<summary>Markdown rendering changed?</summary>
+			<url>https://github.com/Automattic/simplenote-android/issues/483</url>
+			<bugID>Issue #483</bugID>
+			<label>None yet</label>
+			<description>
+		I'm using the following note: https://daringfireball.net/projects/markdown/syntax.text as reference for Markdown syntax and I noticed in the last released(I'm on the beta channel) that some stuff like inline HTML are no longer rendered properly. Screenshot below for reference.
+	</description>
+		</report>
+	</reports>

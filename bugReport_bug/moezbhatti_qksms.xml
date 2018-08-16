@@ -1,0 +1,1937 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<reports>
+		<report Number="0">
+			<summary>Contacts/Dialler creating empty threads</summary>
+			<url>https://github.com/moezbhatti/qksms/issues/32</url>
+			<bugID>Issue #32</bugID>
+			<label>Bug</label>
+			<description>
+		When browsing either the contacts app or the dialler app on lollipop, in my case both apps are Google's apps, tapping on a contact you have never sent a SMS to before seems to create an empty thread in Qksms. This is a pain as if you tap on a landline number, it is always certain to create an empty thread. This can lead to having multiple empty threads at the top of the app to scroll through unless deleting them everytime. Screenshot below:
+	</description>
+		</report>
+		<report Number="1">
+			<summary>Pictures only sends when Wi-Fi is disabled.</summary>
+			<url>https://github.com/moezbhatti/qksms/issues/49</url>
+			<bugID>Issue #49</bugID>
+			<label>Bug</label>
+			<description>
+		Description Pictures only sends when Wi-Fi is disabled. Steps Send a picture with Wi-Fi enabled. Expected The picture will send with Wi-Fi enabled, or disabled. Reality Picture doesn't send with Wi-Fi enabled.
+	</description>
+		</report>
+		<report Number="2">
+			<summary>Forwarding a message with picture + text only forwards text</summary>
+			<url>https://github.com/moezbhatti/qksms/issues/68</url>
+			<bugID>Issue #68</bugID>
+			<label>Bug</label>
+			<description>
+		No description provided.
+	</description>
+		</report>
+		<report Number="3">
+			<summary>When receiving a group message, notification takes you to conversation with sender</summary>
+			<url>https://github.com/moezbhatti/qksms/issues/73</url>
+			<bugID>Issue #73</bugID>
+			<label>Bug</label>
+			<description>
+		No description provided.
+	</description>
+		</report>
+		<report Number="4">
+			<summary>Sending messages via the camera doesn't work</summary>
+			<url>https://github.com/moezbhatti/qksms/issues/75</url>
+			<bugID>Issue #75</bugID>
+			<label>Bug</label>
+			<description>
+		Hey Shane- Thanks for the reply, I appreciate it. So here's what I've figured out: -I can send pictures, as long as I used the camera app first to take the picture, by selecting the picture from my gallery through your app. -If I try to take a picture through through your app, that's when I have the issue. It will take the picture but never send. -I've tried with WiFi on and off for both scenarios and, at least for me, the WiFi status doesn't matter. So in the end, I can now use MMS. I just have to take my picture first using my camera app, then send it. I am able to receive pictures without any issues though. Thank You, ---
+	</description>
+		</report>
+		<report Number="5">
+			<summary>QK Reply window occasionally pops up for wrong user</summary>
+			<url>https://github.com/moezbhatti/qksms/issues/87</url>
+			<bugID>Issue #87</bugID>
+			<label>Bug</label>
+			<description>
+		Version: 1.10.4 on Nexus 6 and Nexus 5 Not fully reproduceable but occasionally the QK Reply window will display the incorrect sender name along with an empty message after receiving an SMS.
+	</description>
+		</report>
+		<report Number="6">
+			<summary>Significant lag/stutter when opening a conversation</summary>
+			<url>https://github.com/moezbhatti/qksms/issues/89</url>
+			<bugID>Issue #89</bugID>
+			<label>Bug</label>
+			<description>
+		Title says it all really. Whenever I open a conversation in QKSMS there is a large stutter in the animation as the conversation slides in. It's not the fault of my phone as it is the 4GB RAM variant of the Zenfone 2
+	</description>
+		</report>
+		<report Number="7">
+			<summary>Incorrect photo thumbnail in pre-existing MMS</summary>
+			<url>https://github.com/moezbhatti/qksms/issues/92</url>
+			<bugID>Issue #92</bugID>
+			<label>Bug</label>
+			<description>
+		All thumbnails of photos received by MMS prior to installing QKSMS are the same one (seems to be corresponding to the first thumbnail displayed after installing the app). When tapping the thumbnail the correct photo is opened though. This issue does NOT concern MMS received after installing QKSMS, those show the correct thumbnail.
+	</description>
+		</report>
+		<report Number="8">
+			<summary>Message counter isn't accurate</summary>
+			<url>https://github.com/moezbhatti/qksms/issues/94</url>
+			<bugID>Issue #94</bugID>
+			<label>Bug</label>
+			<description>
+		https://www.reddit.com/r/Android/comments/3h7kqr/dev_qksms_is_now_completely_free_and_open_source/cu53myr?context=3 👍 1
+	</description>
+		</report>
+		<report Number="9">
+			<summary>Title bar bug</summary>
+			<url>https://github.com/moezbhatti/qksms/issues/103</url>
+			<bugID>Issue #103</bugID>
+			<label>Bug</label>
+			<description>
+		DESCRIPTION The title bar which reads &quot;conversations&quot; changes to the name of the most recent conversation after reopening the app. STEPS Open app in conversations view. Open a conversation Click the back button to return to the conversations view. Click home to close the app. Reopen the app by tapping on its icon, which will return ou to the conversations view. EXPECTED The title bar continues to say conversations. OBSERVATIONS The title bar is replaced with the name of the conversation you opened. I have screenshots if necessary.
+	</description>
+		</report>
+		<report Number="10">
+			<summary>Avatars in conversation list don't refresh when display option is changed</summary>
+			<url>https://github.com/moezbhatti/qksms/issues/106</url>
+			<bugID>Issue #106</bugID>
+			<label>Bug</label>
+			<description>
+		When changing the value of the setting &quot;Appearance-&gt;Hide conversation avatars&quot; and returning to the conversation list, the conversations immediately visible on-screen will not reflect the new value of the setting. Only after scrolling the currently-displayed conversations off-screen and then scrolling back will the avatar display setting in the conversation list be properly reflected.
+	</description>
+		</report>
+		<report Number="11">
+			<summary>Group messages are &quot;grouped&quot; even across different senders</summary>
+			<url>https://github.com/moezbhatti/qksms/issues/116</url>
+			<bugID>Issue #116</bugID>
+			<label>Bug</label>
+			<description>
+		If two people in a group chat send me a message within a few mins, they'll be grouped together and only one avatar will show up, even though they're from separate senders
+	</description>
+		</report>
+		<report Number="12">
+			<summary>Conversation message counts not automatically displayed when option ticked.</summary>
+			<url>https://github.com/moezbhatti/qksms/issues/157</url>
+			<bugID>Issue #157</bugID>
+			<label>Bug</label>
+			<description>
+		Pretty similar issue compared to #106 If I go to &quot;Settings -&gt; Appearance -&gt; Message Count&quot; and go back to my conversation list, the conversations that were already being displayed on the screen before aren't updated with message counts until I scroll them off-screen and manually invoke a redraw by scrolling back up.
+	</description>
+		</report>
+		<report Number="13">
+			<summary>QK-Reply window should take more space by default</summary>
+			<url>https://github.com/moezbhatti/qksms/issues/166</url>
+			<bugID>Issue #166</bugID>
+			<label>Bug</label>
+			<description>
+		DESCRIPTION The QK-Reply window is very small. I know I can expand it through the button, but it should show more lines by default STEPS Get a SMS with ~100 or more characters (Open it through notfication -&gt; reply) QK-Reply window only shows the last 3 lines although there's much more free space on screen EXPECTED The windows should take more space in screen so I don't need to scroll for every second line. SCREENSHOTS
+	</description>
+		</report>
+		<report Number="14">
+			<summary>Message tapping/holding not working</summary>
+			<url>https://github.com/moezbhatti/qksms/issues/171</url>
+			<bugID>Issue #171</bugID>
+			<label>Bug</label>
+			<description>
+		I've noticed that in messages containing phone numbers (or any numbers that the app thinks are phone numbers) I can't tap to get info, or hold for copying, forwarding etc. In other messages it works fine. Don't mind that the language on screenshots isn't English. :)
+	</description>
+		</report>
+		<report Number="15">
+			<summary>QKSMS is not opened from Contacts error is &quot;No app was found to handle this action&quot;</summary>
+			<url>https://github.com/moezbhatti/qksms/issues/183</url>
+			<bugID>Issue #183</bugID>
+			<label>Bug</label>
+			<description>
+		DESCRIPTION Using Cyanogenmod 12.1 ( build 2015-08-22 ) QKSMS 2.0.1 from F-Droid STEPS Use QKSMS as default SMS app Open Contacts ( com.android.contacts ) Select a contact Scroll down to a message Tap on the message EXPECTED QKSMS app should open to that person and message OBSERVATIONS If the Cyanogenmod SMS app ( com.android.mms ) is NOT disabled it will be opened, although it can't be used since QKSMS is selected as default SMS app. If the Cyanogenmod SMS app ( com.android.mms ) IS disabled a toast appears saying &quot;No app was found to handle this action&quot;
+	</description>
+		</report>
+		<report Number="16">
+			<summary>Wrong notification sound played when I received multiple messages</summary>
+			<url>https://github.com/moezbhatti/qksms/issues/186</url>
+			<bugID>Issue #186</bugID>
+			<label>Bug</label>
+			<description>
+		Nexus 6, Android 5.1.1, QKSMS 2.0.1 I have a system-wide notification sound set for SMS messages, let's call it sound A. Then I have a specific notification sound set in QKSMS for one specific contact, let's call it sound B and that contact person B. I received an SMS message from one of my contacts, sound A played. All good yet. I did not read the message, it was still in my notification shade (and thus on the lockscreen notifications list too) and I received another message, this time from person B, so sound B should have played. But sound A played.﻿
+	</description>
+		</report>
+		<report Number="17">
+			<summary>Fails to send message</summary>
+			<url>https://github.com/moezbhatti/qksms/issues/190</url>
+			<bugID>Issue #190</bugID>
+			<label>Bug</label>
+			<description>
+		My message : 32 times the word 'test' All the option by default, just check &quot;delivery confirmations&quot; Results: Fails to send the message instantaneously after trying to send it. On QKSMS 2.0.1 I have Android 4.2.2 Thanks in advance
+	</description>
+		</report>
+		<report Number="18">
+			<summary>Landscape interface is unusable</summary>
+			<url>https://github.com/moezbhatti/qksms/issues/191</url>
+			<bugID>Issue #191</bugID>
+			<label>Bug</label>
+			<description>
+		Tried using landscape mode in 4.1.2 and 4.4.4. Message text appears to share the same area as the punctuation bar. Typed message is visible until you hit space bar then the message is no longer visible because it is replaced by the punctuation bar or word suggestion. Message can then only be viewed if you remove the keyboard and view the full screen interface.
+	</description>
+		</report>
+		<report Number="19">
+			<summary>After deleting multiple message threads, receiving a new message shows the wrong contact in the app view. Messages then sent to multiple recipients.</summary>
+			<url>https://github.com/moezbhatti/qksms/issues/214</url>
+			<bugID>Issue #214</bugID>
+			<label>Bug</label>
+			<description>
+		After deleting multiple threads on an LG G5, on current Android build. A new text will come in. In the app view it says the wrong contact, when clicking on the message it then shows the proper contact who sent the message. Replies are sent to both recipients until the thread is deleted, or application is force stopped. This happens after reinstallation, clearing cache, any time you receive a message shortly after deleting multiple threads. Steps to reproduce: Have multiple SMS threads in inbox Delete all but 1 Thread (Optional) Receive a new message from a new recipient Reply to the non-deleted thread Expected Behavior: Message will be sent to displayed recipient. Current Behavior: Message is sent to the recipient of one of the deleted threads, not the displayed recipient, and a new messaging thread to the unintended recipient will be created. Appears to send message to the recipient of the most current, deleted thread. Workaround: Force Closing the application This has occurred on multiple phones and across updates to Android, the LG G3, G4, and a Nexus 5.
+	</description>
+		</report>
+		<report Number="20">
+			<summary>MMS picture messages don't render if visible when conversation is opened unless first scrolled off screen.</summary>
+			<url>https://github.com/moezbhatti/qksms/issues/248</url>
+			<bugID>Issue #248</bugID>
+			<label>Bug</label>
+			<description>
+		Certain issues prevent me from getting screenshots, but: If you have a picture message that's recent enough that it shows up within the first screen of a conversation so it's visible without scrolling, it doesn't render unless scrolled off-screen and then scrolled back onto the screen. While invisible, timestamps and such just act as if there's a bubble there when there isn't.
+	</description>
+		</report>
+		<report Number="21">
+			<summary>MMS message not copyable</summary>
+			<url>https://github.com/moezbhatti/qksms/issues/259</url>
+			<bugID>Issue #259</bugID>
+			<label>Bug</label>
+			<description>
+		After sending a text message through MMS (due to too many characters for SMS and the split option being off), I'm unable to copy it through the context menu. I'm able to copy a regular SMS message however.
+	</description>
+		</report>
+		<report Number="22">
+			<summary>SMS Delayed Sending doesn't go above 5 seconds</summary>
+			<url>https://github.com/moezbhatti/qksms/issues/264</url>
+			<bugID>Issue #264</bugID>
+			<label>Bug</label>
+			<description>
+		No matter what delay timing, except below 5 seconds, works. Numbers 30 to 5 do not increase the time a message gets delayed before sending.
+	</description>
+		</report>
+		<report Number="23">
+			<summary>Sharing a photo from Facebook is broken</summary>
+			<url>https://github.com/moezbhatti/qksms/issues/269</url>
+			<bugID>Issue #269</bugID>
+			<label>Bug</label>
+			<description>
+		If you open a photo on Facebook and click the &quot;Share External&quot; button, then the QK Compose dialog will come up and it won't load the photo. This might happen with other apps as well
+	</description>
+		</report>
+		<report Number="24">
+			<summary>Don't scroll to bottom when deleting a message</summary>
+			<url>https://github.com/moezbhatti/qksms/issues/272</url>
+			<bugID>Issue #272</bugID>
+			<label>Bug</label>
+			<description>
+		...or at least make this behavior configurable. Steps to reproduce: User scrolled up to read some past messages in a long conversation. User deletes a message. Expected behavior: Messages newer than the deleted one (below it) are moved up. This is how the stock 5.1 Messaging app works. Actual behavior: Message list scrolls down to the newest message.
+	</description>
+		</report>
+		<report Number="25">
+			<summary>GIFs are not being properly sent in MMS.</summary>
+			<url>https://github.com/moezbhatti/qksms/issues/274</url>
+			<bugID>Issue #274</bugID>
+			<label>Bug</label>
+			<description>
+		When i try to send an animated gif it will only send the first still frame of the gif, not the whole thing; The file size of the image is also reduced. However, when i tested the same gif on another sms app (Textra), it sent perfectly and was animated on the receiving side (as well as on senders side). Thanks for your time.
+	</description>
+		</report>
+		<report Number="26">
+			<summary>Setting ringtone &quot;none&quot; causes app to crash</summary>
+			<url>https://github.com/moezbhatti/qksms/issues/278</url>
+			<bugID>Issue #278</bugID>
+			<label>Bug</label>
+			<description>
+		I wasn't sure where to submit a bug, but I noticed if you set a user's alert tone to &quot;none&quot; using the stock notification picker. The app crashes. Nexus 5, Android 6.0
+	</description>
+		</report>
+		<report Number="27">
+			<summary>Quick reply window shows up when unlocking screen to an already open conversation (bug?)</summary>
+			<url>https://github.com/moezbhatti/qksms/issues/293</url>
+			<bugID>Issue #293</bugID>
+			<label>Bug</label>
+			<description>
+		Scenario: receive a message, enter app to view message, after which I lock my screen with the app still up, a new message comes in from the same sender, I unlock my screen and the quick reply window is open for that new message while displaying overtop of the same conversation open below the quick reply window. I'm not sure if this is a bug, but it's not ideal for use. It delays access to the actual conversation. Perhaps add some test to see whether qksms is up/active when unlocking screen to determine whether to open quick reply window?
+	</description>
+		</report>
+		<report Number="28">
+			<summary>Can't attach picture to mms from Google &quot;Pictures&quot; app.</summary>
+			<url>https://github.com/moezbhatti/qksms/issues/298</url>
+			<bugID>Issue #298</bugID>
+			<label>Bug</label>
+			<description>
+		Phone - One Plus One X Oxygen OS 2.1.4 DESCRIPTION Can't attach picture to mms from Google &quot;Pictures&quot; app. STEPS Open Google Pictures App, Open Picture, Choose share the picture, Select &quot;Qksms&quot;, Qksms opens but there is information that app cant get access to picture EXPECTED Share the content from pictures using mms OBSERVATIONS Everything works fine when you add the same picture tapping &quot;+&quot; sign in qksms app in any conversation.
+	</description>
+		</report>
+		<report Number="29">
+			<summary>Picture in mms conversation is missing after leaving the conversation and coming back</summary>
+			<url>https://github.com/moezbhatti/qksms/issues/299</url>
+			<bugID>Issue #299</bugID>
+			<label>Bug</label>
+			<description>
+		Phone - One Plus One X Oxygen OS 2.1.4 DESCRIPTION Picture in mms conversation is missing after leaving the conversation and coming back STEPS Open conversation in QKsms app, Exchange some messages without picture attachment, Send message with picture attached, Go back to other conversations using arrow in left top corner of the app, Open previously left conversation, Picture is missing, all other messages are left intact, EXPECTED Remember the picture attached in mms in conversation view OBSERVATIONS When you will scroll the conversation down, to hide the messages which should have the pictures and then scroll up, pictures will be visible again.
+	</description>
+		</report>
+		<report Number="30">
+			<summary>Incorrect unread message indicator</summary>
+			<url>https://github.com/moezbhatti/qksms/issues/311</url>
+			<bugID>Issue #311</bugID>
+			<label>Bug</label>
+			<description>
+		I can't reproduce this consistently, but sometimes, even when I've read all my messages, a little (1) digit will remain on the app icon in launcher and home screen shortcut.
+	</description>
+		</report>
+		<report Number="31">
+			<summary>Black screen delay on open message</summary>
+			<url>https://github.com/moezbhatti/qksms/issues/312</url>
+			<bugID>Issue #312</bugID>
+			<label>Bug</label>
+			<description>
+		On a fast device. Steps: have QKSMS start get a message the quickreply appears (why? It should switch to that conversation but maybe this is another issue, qklabs#293 ?) press MarkAsRead What should happen: Quickreply window is closed, QKSMS show a/the conversation What actually happens: Quickreply window is closed, QKSMS becomes a black screen for 2 seconds, and then shows a/the conversation Is anyone else seeing this?
+	</description>
+		</report>
+		<report Number="32">
+			<summary>Scrolling resets on successful send</summary>
+			<url>https://github.com/moezbhatti/qksms/issues/332</url>
+			<bugID>Issue #332</bugID>
+			<label>Bug</label>
+			<description>
+		Write a message, send it, scroll up to review something, when the message sends, scroll is reset to the bottom again. The widget for send status should be kept the same and just the content of it replaced, or some such similar difference from the current code.
+	</description>
+		</report>
+		<report Number="33">
+			<summary>Reply and Mark as Read icons on Android Wear</summary>
+			<url>https://github.com/moezbhatti/qksms/issues/334</url>
+			<bugID>Issue #334</bugID>
+			<label>Bug</label>
+			<description>
+		There isn't an specific icon on Android Wear for any of the functions, it's just a plain color circle (in my case) or square. I think that there should be a symbol of something related to mark-as-read (a check mark) and reply (an arrow). I'm attaching some screenshots to show the problem.
+	</description>
+		</report>
+		<report Number="34">
+			<summary>First letter of file name for MMS not saved</summary>
+			<url>https://github.com/moezbhatti/qksms/issues/349</url>
+			<bugID>Issue #349</bugID>
+			<label>Bug</label>
+			<description>
+		Something I've noticed is that saving a picture from MMS chops off the first letter of the file name every time. Odd. But it's happening. Android L 5.1.1. creen Shot 2016-01-03 at 3.50.58 PM.png is one of many that have had this issue. From different senders, android and iphone senders.
+	</description>
+		</report>
+		<report Number="35">
+			<summary>Gfx weirdness in &quot;go back&quot; animation</summary>
+			<url>https://github.com/moezbhatti/qksms/issues/350</url>
+			<bugID>Issue #350</bugID>
+			<label>Bug</label>
+			<description>
+		When going back to the message list view from any view (message content view, main settings) by pressing soft back key, on the left side there appears a weird graphical glitch during the animation. It looks like something is drawn incorrectly in the animation. Some sort of brief vertical bar/line flash (not great description). I think this appeared after the latest updated (Jan 7: v2.5.1). Unfortunately I don't have another device so I can't take a video and direct screen recorders do not show the glitch properly. Motorola Moto G 3rd Gen Lollipop 5.1.1 QKSMS 2.5.1
+	</description>
+		</report>
+		<report Number="36">
+			<summary>Changes in conversation settings have global effect</summary>
+			<url>https://github.com/moezbhatti/qksms/issues/368</url>
+			<bugID>Issue #368</bugID>
+			<label>Bug</label>
+			<description>
+		DESCRIPTION Conversation settings have effect on all conversations not just one specific conversation STEPS Open up a conversation and enter the conversaton settings through the menu. Make a change to a setting of your liking. For example: change what should be displayed in a notification Open up a different conversation and also view this particular conversations' settings The change done in the previous conversation is replicated here as well EXPECTED The settings of the second conversation should not have changed. OBSERVATIONS Conversation settings affect all conversations and work on a global scale.
+	</description>
+		</report>
+		<report Number="37">
+			<summary>[BUG] Scrolling up and down when sending a message consisting of multiple SMS</summary>
+			<url>https://github.com/moezbhatti/qksms/issues/371</url>
+			<bugID>Issue #371</bugID>
+			<label>Bug</label>
+			<description>
+		When I write a SMS with more than 160 characters, it gets divided into multiple SMS as it should. But when I press the send button, the app scrolls up and down until all SMS are sent. Difficult to describe... If you've got questions, please ask. Thanks in advance!
+	</description>
+		</report>
+		<report Number="38">
+			<summary>[Bug] SMS Rendering</summary>
+			<url>https://github.com/moezbhatti/qksms/issues/416</url>
+			<bugID>Issue #416</bugID>
+			<label>Bug</label>
+			<description>
+		QKSMS makes this randomly But the rendering should be (stock sms app) I do not know why it did that, and it seems to appear completely randomly
+	</description>
+		</report>
+		<report Number="39">
+			<summary>Preference switches glitching</summary>
+			<url>https://github.com/moezbhatti/qksms/issues/426</url>
+			<bugID>Issue #426</bugID>
+			<label>Bug</label>
+			<description>
+		I guess it's this bug: https://code.google.com/p/android/issues/detail?id=26194 Props to @M66B for tracking the issue for his projects. I did a quick implementation of this for Neamar/KISS#413 Here (I guess) it's in QKSwitch but maybe it needs a proper dev that can implement this with android.support.v7.widget.SwitchCompat instead of android.preference.SwitchPreference the above projects use.
+	</description>
+		</report>
+		<report Number="40">
+			<summary>Proximity sensor triggers call contact on flip case cover</summary>
+			<url>https://github.com/moezbhatti/qksms/issues/432</url>
+			<bugID>Issue #432</bugID>
+			<label>Bug</label>
+			<description>
+		Using a flip case type cover, closing the flap will call the contact even if device is horizontal on table.
+	</description>
+		</report>
+		<report Number="41">
+			<summary>rotating to landscape orientation closes opened conversation</summary>
+			<url>https://github.com/moezbhatti/qksms/issues/443</url>
+			<bugID>Issue #443</bugID>
+			<label>Bug</label>
+			<description>
+		DESCRIPTION QKSMS 2.5.4 Opened conversation closed after switching orientation STEPS in portrait orientation open conversation, type text and do not send rotate to landscape -- conversation text disappears (old messages and typed message) and message receiver disappears too (img) (notification says: draft was saved) rotate back to portrait returns back typed message, but no conversation are opened anymore. EXPECTED same conversation with same typed text in it OBSERVATIONS empty conversation without text in it from here
+	</description>
+		</report>
+		<report Number="42">
+			<summary>Wrong not GSM 7bit messages size indicator</summary>
+			<url>https://github.com/moezbhatti/qksms/issues/446</url>
+			<bugID>Issue #446</bugID>
+			<label>Bug</label>
+			<description>
+		DESCRIPTION Typing message length indicator doesn't know about codepage inside SMS: wikipedia says about three variants: 7bit (160 chars per message), 8bit (?) and UCS-2 (70 chars per message -- my option) STEPS Turn character counter on Type long enough message with national symbols from UCS-2 EXPECTED the counter should show the number of remaining characters in the message depending on the encoding OBSERVATIONS counter shows number of characters as they encoded by 7bit charset example:
+	</description>
+		</report>
+		<report Number="43">
+			<summary>&quot;Strip Unicode&quot; function does not strip non-ASCII chars</summary>
+			<url>https://github.com/moezbhatti/qksms/issues/450</url>
+			<bugID>Issue #450</bugID>
+			<label>Bug</label>
+			<description>
+		DESCRIPTION Device: Lenovo A2010-a ROM: Stock (Possibly others, CyanogenMod not tested - not complete), Android Lollipop 5.1 Input language: Czech (cs-CZ) Tested keyboards: Google Keyboard, Sony Xperia (manually installed through TWRP) Logcat / ADB: Not available, ROM is stock, without root. STEPS Go into Settings - General Turn Strip Unicode on Return back, write a message or any other text EXPECTED All non-ASCII characters (ě, š, č, ř, ž, ý, á, í, é, ň, ó, ú, ů also with their upper-case counterparts, using only alphanumerical characters) should not appear. OBSERVATIONS All invalid characters (mentioned above) appear and therefore shortening maximum length of the message.
+	</description>
+		</report>
+		<report Number="44">
+			<summary>MMS Behavior Option</summary>
+			<url>https://github.com/moezbhatti/qksms/issues/453</url>
+			<bugID>Issue #453</bugID>
+			<label>Bug</label>
+			<description>
+		DESCRIPTION I'm having issues sending/receiving MMS messages while connected to a VPN. I used to think this was Wifi issue but after more troubleshooting it turns out it's the VPN. STEPS Connect to VPN (such as OpenVPN) Try to send/receive MMS EXPECTED The message should be received/sent without issue. OBSERVATIONS I think I may have found the solution to this problem. I started trying many different texting apps while troubleshooting my MMS issue and ended up finding a setting in Textra called &quot;MMS Behavior&quot;. By default it's set to &quot;Legacy&quot; and under that it says &quot;Try 'System' if legacy MMS isn't work (for example with Project Fi, VPNs, WiFi MMS, etc).&quot; So I then set it to &quot;System&quot; and it appears to have fixed the problem. I have seen this option in other apps such as YAATA SMS and ChompSMS. Is this something that could be added? I'm not sure how difficult something like this would be to add because I'm not a programmer. It seems like maybe it's just a switch saying use the system settings on the phone instead of the app settings. Hopefully it's something simple and easy that can be added to this app! For the time being I am just using Textra because I don't want to miss out on messages but I prefer QKSMS over any of the messaging apps I've tried! Even with all the different customizations on the other apps I still want to come back to this one :) 👍 2
+	</description>
+		</report>
+		<report Number="45">
+			<summary>Quick Reply crashes.</summary>
+			<url>https://github.com/moezbhatti/qksms/issues/454</url>
+			<bugID>Issue #454</bugID>
+			<label>Bug</label>
+			<description>
+		DESCRIPTION The app crashes if the quick reply window is drawn over the app itself, apparently only if it's reached from the lock screen. STEPS Open QK. Lock the screen with the power button, or allow it to lock itself. Receive a text message. Turn on the screen and hit 'Reply' on the notification. 5a. Type a reply and hit send. OR 5b. Dismiss the quick reply window. EXPECTED The reply window should simply close. If a message has been typed when the window is dismissed then it should be saved to draft. If a message had been SENT then it should in fact be sent, after which the quick reply window should simply close. OBSERVATIONS The screen will go dark and revert to the conversations menu, and if attempting to send a message then said message is not sent, nor is it saved as a draft. It simply disappears.
+	</description>
+		</report>
+		<report Number="46">
+			<summary>Launch icon unread count indicator not actual value</summary>
+			<url>https://github.com/moezbhatti/qksms/issues/463</url>
+			<bugID>Issue #463</bugID>
+			<label>Bug</label>
+			<description>
+		DESCRIPTION Launch icon unread count indicator not actual value. STEPS Receive some sms Delete some sms/all sms Check launch icon indicator EXPECTED Launch icon indicator shows unread messages count. OBSERVATIONS Launch icon indicator shows not actual unread messages count.
+	</description>
+		</report>
+		<report Number="47">
+			<summary>Can't see input field when composing a new message in landscape mode</summary>
+			<url>https://github.com/moezbhatti/qksms/issues/464</url>
+			<bugID>Issue #464</bugID>
+			<label>Bug</label>
+			<description>
+		This does however work if you're inside a conversation
+	</description>
+		</report>
+		<report Number="48">
+			<summary>broken html links in sms body</summary>
+			<url>https://github.com/moezbhatti/qksms/issues/465</url>
+			<bugID>Issue #465</bugID>
+			<label>Bug</label>
+			<description>
+		DESCRIPTION When sms body contains web link and this link contains phone number, then contact name for this number gets inserted into the link, effectively breaking it. STEPS Receive a sms containing web link with a phone number from contacts somewhere in it. try to go to the link. EXPECTED Leave web links intact OBSERVATIONS web links do not work
+	</description>
+		</report>
+		<report Number="49">
+			<summary>Compose Window takes over after rotate from a conversation</summary>
+			<url>https://github.com/moezbhatti/qksms/issues/469</url>
+			<bugID>Issue #469</bugID>
+			<label>Bug</label>
+			<description>
+		DESCRIPTION Compose Window takes over after rotate from a conversation STEPS Open any conversation Rotate(Of course auto rotation should be enabled) your phone. After first rotate you will see window is blank rotate again and you are now on the compose screen/window. EXPECTED Expected behavior is you should stay on the opened conversation even after multiple rotation..
+	</description>
+		</report>
+		<report Number="50">
+			<summary>Auto close QK Reply when App is open in foreground</summary>
+			<url>https://github.com/moezbhatti/qksms/issues/471</url>
+			<bugID>Issue #471</bugID>
+			<label>Bug</label>
+			<description>
+		Device: LG V10 T-Mobile Android Version: 5.1.1 Software version: H90110c App version: 2.5.5 If QKSMS is open in the foreground when the phone is unlocked after reciving a text, the QK Reply window is overlaid on top of the app itself. Also when the reply overlay is closed, via taping outside the overlay, the app studders. 👍 1
+	</description>
+		</report>
+		<report Number="51">
+			<summary>Crash when opening the message report dialog</summary>
+			<url>https://github.com/moezbhatti/qksms/issues/472</url>
+			<bugID>Issue #472</bugID>
+			<label>Bug</label>
+			<description>
+		DESCRIPTION I'm just testing QKSMS; I have used the stock SMS app until now. Whenever I want to see the report of a message which has not been sent with QKSMS (rather with the stock app of Android 5.1.1), QKSMS crashes. The reason might be that the stock app did not store all the time stamps (only time sent, but not time delivered). However, since all the information in the message report is also contained in the dialog &quot;message details&quot;, it is not a big issue and the dialog &quot;message report&quot; could be just removed. STEPS open message thread and navigate to an older message, which has not been sent with QKSMS. long-press the time stamp to open the context menu choose &quot;view report&quot; (Bericht ansehen in German) EXPECTED A dialogue window opens showing the message report dialog with the receiver's number, receiving status, delivery time. OBSERVATIONS The app crashes and is getting closed.
+	</description>
+		</report>
+		<report Number="52">
+			<summary>Nb of unread messages doesn't disapear</summary>
+			<url>https://github.com/moezbhatti/qksms/issues/476</url>
+			<bugID>Issue #476</bugID>
+			<label>Bug</label>
+			<description>
+		Despite the fact that I read all the messages, the little bubble on the app icone doesn't disapear. And the number seems to change when I open certain conversation. I think it's happening when I mark a message as read from the popup Window (the check button on the Quick view). Hope my explanation will help.
+	</description>
+		</report>
+		<report Number="53">
+			<summary>ClassCastException on &quot;Delete conversations&quot; from within the conversation</summary>
+			<url>https://github.com/moezbhatti/qksms/issues/482</url>
+			<bugID>Issue #482</bugID>
+			<label>Bug</label>
+			<description>
+		DESCRIPTION As described in the title. Check the logcat. QKSMS 2.6.0 Moto X Android 5.1 Xposed framework with some modules, including XPrivacy STEPS Open a conversation Tap menu/overflow (three vertical dots) Tap &quot;Delete conversations&quot; EXPECTED Confirmation dialog. OBSERVATIONS &quot;Unfortunately, QKSMS has stopped&quot;
+	</description>
+		</report>
+		<report Number="54">
+			<summary>Issue Determining &quot;current conversation&quot; instead of &quot;last conversation selected&quot;</summary>
+			<url>https://github.com/moezbhatti/qksms/issues/487</url>
+			<bugID>Issue #487</bugID>
+			<label>Bug</label>
+			<description>
+		When I get a message from someone and click it in the notification or quick reply widget, it doesn't actually link to that conversation in the main app window, but rather the most recent conversation that I had open in the main window. STEPS Jerry and I are having a conversation in main window Leave app for home screen Receive SMS from Bob Click Notification/QuickReply EXPECTED I am brought to my conversation with Bob OBSERVATIONS I am brought to my conversation with Jerry
+	</description>
+		</report>
+		<report Number="55">
+			<summary>Some contact names don't appear...</summary>
+			<url>https://github.com/moezbhatti/qksms/issues/495</url>
+			<bugID>Issue #495</bugID>
+			<label>Bug</label>
+			<description>
+		DESCRIPTION Hi, I've just installed the App, and have the following problem: some contact names do not appear in my sms list, I just see their phone number. Do you know why? 👍 1
+	</description>
+		</report>
+		<report Number="56">
+			<summary>Font changing broken in version 2.6</summary>
+			<url>https://github.com/moezbhatti/qksms/issues/499</url>
+			<bugID>Issue #499</bugID>
+			<label>Bug</label>
+			<description>
+		No description provided.
+	</description>
+		</report>
+		<report Number="57">
+			<summary>Video playback/slideshow broken</summary>
+			<url>https://github.com/moezbhatti/qksms/issues/500</url>
+			<bugID>Issue #500</bugID>
+			<label>Bug</label>
+			<description>
+		Whenever I click on a picture or on a video this shows up. It doesn't let me view a slideshow of the pictures, or view the video. I'm on the latest Qksms release, Nexus 6 Android 6.0.1 Custom ROM.
+	</description>
+		</report>
+		<report Number="58">
+			<summary>MMS/Group messages not producing notifications</summary>
+			<url>https://github.com/moezbhatti/qksms/issues/510</url>
+			<bugID>Issue #510</bugID>
+			<label>Bug</label>
+			<description>
+		DESCRIPTION When a MMS or group message is received, QKSMS does not produce any notification - no sound, popup, icon, anything. The only way you can tell if a new message was received is if the app is opened, and a thread has the new message dot on it. Normal SMS messages are notifying as expected. STEPS Receive MMS or group message Wonder what your friend is talking about when they ask why you didn't respond to their message EXPECTED To receive a notification exactly like receiving SMS's. OBSERVATIONS Absolutely nothing observable occurs when an MMS or group message is received. However, if one opens the QKSMS app, it does show as new in there.
+	</description>
+		</report>
+		<report Number="59">
+			<summary>Entered text gets deleted when resending a failed message.</summary>
+			<url>https://github.com/moezbhatti/qksms/issues/513</url>
+			<bugID>Issue #513</bugID>
+			<label>Bug</label>
+			<description>
+		Send a message. Start typing next message in and previous message fails to send due to poor reception. Hit re-send on the previous message and currently typed message gets erased.
+	</description>
+		</report>
+		<report Number="60">
+			<summary>Formatting issue with short text, screenshots included.</summary>
+			<url>https://github.com/moezbhatti/qksms/issues/519</url>
+			<bugID>Issue #519</bugID>
+			<label>Bug</label>
+			<description>
+		Nexus 6, 5.1.1, stock, no funky fonts or anything. QKSMS v2.6.1 DESCRIPTION Short text on multiple lines is formatted to a single or double columns. See attached screenshots. STEPS Attached are pictures of me sending the text: &quot;Test Lol&quot; Without quotes, obviously, and sent as one text with the linebreak. EXPECTED Should look like: &quot;Test Lol&quot; OBSERVATIONS Should not look like: &quot;T e s t L o l&quot;
+	</description>
+		</report>
+		<report Number="61">
+			<summary>QK reply popup does not appear after last update</summary>
+			<url>https://github.com/moezbhatti/qksms/issues/528</url>
+			<bugID>Issue #528</bugID>
+			<label>Bug</label>
+			<description>
+		DESCRIPTION QK reply popup is not appear when I click on the button &quot;REPONDRE&quot; (I am french) on the notification This issue appeared after last update. STEPS receive an SMS (or mark a conversation unread) expand the notification click on &quot;REPONDRE&quot; (reply) nothing append EXPECTED After step 3, the QK reply popup should be displayed OBSERVATIONS This feature worked before update. I use a Galaxy S7 (European version with Exynos SOC), with stock Marshmallow firmware. I tried to wipe app data and cache. The button &quot;LU&quot; (mark as read) in the notification is working. Apart from this detail, the application is really great ! Thanks for that !
+	</description>
+		</report>
+		<report Number="62">
+			<summary>Cannot answer a call with an SMS if QKSMS is the default app</summary>
+			<url>https://github.com/moezbhatti/qksms/issues/534</url>
+			<bugID>Issue #534</bugID>
+			<label>Bug</label>
+			<description>
+		DESCRIPTION Most recent android dialer offers the capability of rejecting an incoming call using predefined text messages (something like: I'm busy, I'll call you back). When using QKSMS, we lose this feature. STEPS Set QKSMS as default app on a Phone A From a phone B, call A Reject the incoming call on A with a message using the dialer feature EXPECTED Phone B receives a message OBSERVATIONS Phone B does NOT receive the message Checked against Samsung default messaging app, Google Messenger and hangouts, Textra, etc. and all worked. Tested both on Samsung and Nexus devices.
+	</description>
+		</report>
+		<report Number="63">
+			<summary>Transitions are not disabled in QKSMS even if they are in Android</summary>
+			<url>https://github.com/moezbhatti/qksms/issues/536</url>
+			<bugID>Issue #536</bugID>
+			<label>Bug</label>
+			<description>
+		DESCRIPTION There are transitions in QKSMS that cannot be disabled if Animation off is set in Android's Developer options. These settings effectively disable all the transitions in apps and system, except for certain particular transitions in some games. But QKSMS is an ordinary semi-lightweight Modern Look app, so it should have its transitions implemented with standard Android API functions. This bug reports concentrates on the fact that the transition is non-standard, so this is not a duplicate of #497 (nor #529) - but it would probably solve them both. STEPS Go to the conversation Return to inbox EXPECTED Inbox is displayed as fast as possible. OBSERVATIONS Weird, slow transition appears which unnecessarily delays the display of expected screen while also producing a few bugs. Inbox is displayed, but not as fast as possible.
+	</description>
+		</report>
+		<report Number="64">
+			<summary>Error while looking at pass messages and receiving sms</summary>
+			<url>https://github.com/moezbhatti/qksms/issues/538</url>
+			<bugID>Issue #538</bugID>
+			<label>Bug</label>
+			<description>
+		DESCRIPTION If you are scrolling through past messages received through one conversation and receive a message for another conversation, the initial conversation you're scrolling through (history of messages) will scroll (very fast) to the very end of that conversation. STEPS Conversation 1 and Coversation 2 (C1 and C2) Have at least two conversations going. Scroll up to look through past message history in C1. When C2 receives a message while looking through C1 history, C1 will scroll all the way to the bottom of message history (it did not receive a message) EXPECTED C1 and C2 receive messages, but one does not adversely affect the other. OBSERVATIONS When C2 receives a message while looking through C1 history, C1 will scroll all the way to the bottom of message history (it did not receive a message)
+	</description>
+		</report>
+		<report Number="65">
+			<summary>Wrong number of new messages displayed</summary>
+			<url>https://github.com/moezbhatti/qksms/issues/539</url>
+			<bugID>Issue #539</bugID>
+			<label>Bug</label>
+			<description>
+		Dear If you do the following steps you will receive notification from qksms and wrong number of unread message will be displayed STEPS Open qksms Select a few conversation Click on send You will receive some qksms notifications and qksms will display one more unread message which does not exist. If you redo the same, one unread messages will be added but it doesn't exist.
+	</description>
+		</report>
+		<report Number="66">
+			<summary>QKSMS not entering landscape layout</summary>
+			<url>https://github.com/moezbhatti/qksms/issues/549</url>
+			<bugID>Issue #549</bugID>
+			<label>Bug</label>
+			<description>
+		DESCRIPTION Following resolution of the bug affecting loss of conversation when switching to landscape, the QKSMS app is now reluctant to enter landscape at all. Billic's final comment within issue 443 is the same issue. STEPS Open QKSMS in portrait Put phone in landscape layout EXPECTED QKSMS should switch to landscape. OBSERVATIONS If the phone starts in landscape mode (i.e., open a browser and switch to landscape) and QKSMS is then launched or switched to, it will then toggle between layouts without losing the conversation. Tested on a Moto G running Android 5.1 and Samsung SM-G900v running Android 5.0 with QKSMS 2.6.3.
+	</description>
+		</report>
+		<report Number="67">
+			<summary>No notification when app is open and screen is locked</summary>
+			<url>https://github.com/moezbhatti/qksms/issues/560</url>
+			<bugID>Issue #560</bugID>
+			<label>Bug</label>
+			<description>
+		DESCRIPTION This scenario only happens when the screen is locked, and QK SMS is open in the background. When a new SMS arrives, the notification sound is made - however the notification does not appear on the lock screen. This only happens if QK SMS is open in the background. EXPECTED Notification should appear, even if app is open in the background.
+	</description>
+		</report>
+		<report Number="68">
+			<summary>Force close Problem In Sub Settings page</summary>
+			<url>https://github.com/moezbhatti/qksms/issues/561</url>
+			<bugID>Issue #561</bugID>
+			<label>Bug</label>
+			<description>
+		DESCRIPTION Force close after rotation when you are in sub settings page STEPS Go to any sub setting page(ex: general settings) Rotate the app fro land scape or vice versa then hit back button. The app should force close Device: Android nexus 6P QKSMS version: 2.7.0/Play store version EXPECTED There should be no force close when going to previous page OBSERVATIONS This is only happening if you are in the sub setting page.
+	</description>
+		</report>
+		<report Number="69">
+			<summary>Crash When Adding QKSMS Widget</summary>
+			<url>https://github.com/moezbhatti/qksms/issues/562</url>
+			<bugID>Issue #562</bugID>
+			<label>Bug</label>
+			<description>
+		DESCRIPTION App crash when trying to add QKSMS Widget on android API 15. STEPS Go to Home Screen&gt; Menu &gt; Widgets Find QKSMS Widget and Drag to Home Screen Resize to the smallest size EXPECTED Widget will not crash OBSERVATIONS Crash only occurs on android API 15. I looked at the code com.moez.QKSMS.ui.Widget.WidgetProvider at method private static int isSmallWidget(AppWidgetManager appWidgetManager, int appWidgetId) on line 91 Bundle options = appWidgetManager.getAppWidgetOptions(appWidgetId); causes the crash. Instead check if SDK version is equals to 16 or above.         int size = 0;
+        if (Build.VERSION.SDK_INT &gt;= Build.VERSION_CODES.JELLY_BEAN) {
+            Bundle options = appWidgetManager.getAppWidgetOptions(appWidgetId);
+            size = options.getInt(AppWidgetManager.OPTION_APPWIDGET_MIN_WIDTH);
+        } else {
+            AppWidgetProviderInfo appWidgetInfo = appWidgetManager.getAppWidgetInfo(appWidgetId);
+            size = appWidgetInfo.minWidth;
+        }
+	</description>
+		</report>
+		<report Number="70">
+			<summary>Settings switch default state</summary>
+			<url>https://github.com/moezbhatti/qksms/issues/576</url>
+			<bugID>Issue #576</bugID>
+			<label>Bug</label>
+			<description>
+		Some of the switches in the settings are switched to the right yet not highlighted. When I touch one switch, the other switches in that section go to the left as they should be. 👍 2
+	</description>
+		</report>
+		<report Number="71">
+			<summary>Pasted text should not retain formatting</summary>
+			<url>https://github.com/moezbhatti/qksms/issues/579</url>
+			<bugID>Issue #579</bugID>
+			<label>Bug</label>
+			<description>
+		When I copy formatted text, such as from a webpage, and page, and paste into the text box in a conversation, the formatting (hyperlinks, font size, etc.) is retained. Then it is lost when the message is sent, as expected. Formatting should be stripped when text is pasted.
+	</description>
+		</report>
+		<report Number="72">
+			<summary>Incoming message resets scroll position</summary>
+			<url>https://github.com/moezbhatti/qksms/issues/581</url>
+			<bugID>Issue #581</bugID>
+			<label>Bug</label>
+			<description>
+		DESCRIPTION Receiving a message to a conversation while not at the newest position auto scrolls down to the new message. This causes one to lose their place when reading and for large conversations and/or active ones, it can make it impossible to read STEPS Be at a position in a conversation where the latest message is not visible Receive a new SMS/MMS to that conversation EXPECTED Position is preserved, conversation/notification indicates unread message until scrolled down to new message or conversation is re-entered from the conversation list. OBSERVATIONS Conversation automatically scrolls to the position of the message just received and position at the time of receipt is lost.
+	</description>
+		</report>
+		<report Number="73">
+			<summary>MMS Pics group Conversations</summary>
+			<url>https://github.com/moezbhatti/qksms/issues/582</url>
+			<bugID>Issue #582</bugID>
+			<label>Bug</label>
+			<description>
+		DESCRIPTION When going through group conversations. I see the picture, but when I click on it, is a different picture. Give us an option to resync the database .... STEPS Steps to reproduce the issue. EXPECTED Describe the expected behaviour. OBSERVATIONS Describe what happens instead of the expected behaviour.
+	</description>
+		</report>
+		<report Number="74">
+			<summary>No notification for MMS</summary>
+			<url>https://github.com/moezbhatti/qksms/issues/583</url>
+			<bugID>Issue #583</bugID>
+			<label>Bug</label>
+			<description>
+		DESCRIPTION No longer receiving notifications when I get a picture message STEPS Send Picture from other phone to my phone Expect to hear notification, No notification is received Open QKSMS, message is there and marked as new EXPECTED Expect to receive notification for new mms OBSERVATIONS No notification is received but new message is seen when opening app -Note: Normal sms messages come in just fine ** Sorry if I did this wrong, first time poster
+	</description>
+		</report>
+		<report Number="75">
+			<summary>QKSMS crashes upon entering from notification and switching to landscape</summary>
+			<url>https://github.com/moezbhatti/qksms/issues/584</url>
+			<bugID>Issue #584</bugID>
+			<label>Bug</label>
+			<description>
+		DESCRIPTION When going from lock-screened portrait mode to landscape, the QKSMS app crashes. STEPS Close QKSMS Lock screen Send text to phone While in portrait mode, double-tap text notification on lock screen Enter password Once QKSMS opens to new message, rotate phone to landscape, possibly tap screen to prompt switch to landscape Observe crash EXPECTED Should rotate to landscape without crashing
+	</description>
+		</report>
+		<report Number="76">
+			<summary>Crash when backPress from SettingsActivity after Orientation changed</summary>
+			<url>https://github.com/moezbhatti/qksms/issues/585</url>
+			<bugID>Issue #585</bugID>
+			<label>Bug</label>
+			<description>
+		DESCRIPTION QKSMS crashes when pressing Back button from Settings Activity after Orientation change. This bug happens both in version on Google Play and built from Github. It only happens when rotating screen in Category (Appearance, General, Notifications, MMS, QK Reply, etc. ) of Settings. STEPS Start QKSMS Go to Settings by clicking on the OptionMenu -&gt; Settings Click on one Category in the list When you are in the Category (for example, General), rotate the screen After screen rotation, it will return to main Settings screen automatically (which is also not good) Click on Back button EXPECTED Return to the Conversations Activity which contains the conversation list. OBSERVATIONS Crashes. Logcat from Android Studio FATAL EXCEPTION: main
+Process: com.moez.QKSMS, PID: 22003
+java.lang.IllegalStateException: Fragment already added: SettingsFragment{1d41d5f0 #0 id=0x7f0e0085 SettingsFragment}
+at android.app.FragmentManagerImpl.addFragment(FragmentManager.java:1153)
+at android.app.BackStackRecord.popFromBackStack(BackStackRecord.java:1547)
+	</description>
+		</report>
+		<report Number="77">
+			<summary>Receiving a message in any conversation scroll to bottom current conversation</summary>
+			<url>https://github.com/moezbhatti/qksms/issues/587</url>
+			<bugID>Issue #587</bugID>
+			<label>Bug</label>
+			<description>
+		DESCRIPTION When a conversation is shown, receiving a message in another conversation force current conversation to scroll to bottom. STEPS Open a long conversation Scroll to the top of the conversation Receive a SMS from another number EXPECTED No impact on the current conversation OBSERVATIONS The current conversation is scroll to bottom INVESTIGATION The problem appears to be an android limitation, which notify all cursors when the SMS/MMS database has change, regardless which conversation is concerned.
+	</description>
+		</report>
+		<report Number="78">
+			<summary>Some changes in Settings does not apply immediately</summary>
+			<url>https://github.com/moezbhatti/qksms/issues/602</url>
+			<bugID>Issue #602</bugID>
+			<label>Bug</label>
+			<description>
+		DESCRIPTION Some changes in Settings does not apply immediately, for example : Split SMS, Strip unicode, Vibrate on message delivery, etc. STEPS Go to Settings -&gt; General Toggle for example Split SMS Go to one conversation Send a long SMS Spliting SMS does not behave as its status in Settings EXPECTED The change in Settings be taken into account immediately OBSERVATIONS The change in Settings is not taken into account immediately, while it is taken into account after completely closing and restarting the App .
+	</description>
+		</report>
+		<report Number="79">
+			<summary>Sometimes Split SMS have duplication</summary>
+			<url>https://github.com/moezbhatti/qksms/issues/607</url>
+			<bugID>Issue #607</bugID>
+			<label>Bug</label>
+			<description>
+		DESCRIPTION For example, the long SMS has been split into 4 short SMS, there are two 2/4 received on the side of recipient). Quite frequent. STEPS Install QKSMS 2.7.1 Activate option &quot;Split SMS&quot; in Settings Send a long SMS to the recipient EXPECTED No duplication of split SMS. OBSERVATIONS There is duplication.
+	</description>
+		</report>
+		<report Number="80">
+			<summary>Sometimes Split SMS have delay</summary>
+			<url>https://github.com/moezbhatti/qksms/issues/608</url>
+			<bugID>Issue #608</bugID>
+			<label>Bug</label>
+			<description>
+		DESCRIPTION For example, the long SMS has been split into 4 short SMS. The 1/4 and 2/4 have been received on the side of recipient, but 3/4 and 4/4 will wait several second to be received. Or sometimes 3/4 and 4/4 are even not received, until that the conversation continues (sender or recipient sends some new SMS), the old non-received SMS will be received. Quite frequent. STEPS Install QKSMS 2.7.1 Activate option &quot;Split SMS&quot; in Settings Send a long SMS to the recipient EXPECTED No delay OBSERVATIONS There is delay
+	</description>
+		</report>
+		<report Number="81">
+			<summary>Notification pops up when in conversation with Quick Reply disabled</summary>
+			<url>https://github.com/moezbhatti/qksms/issues/611</url>
+			<bugID>Issue #611</bugID>
+			<label>Bug</label>
+			<description>
+		DESCRIPTION When Quick Reply is disabled in Settings, when you are in a conversation, when receiving SMS, notification pops up. STEPS Deactivate Quick Reply Enter to one existent conversation From another device, send a SMS to this test device EXPECTED Whether Quick Reply is set to FALSE or not, notification should never pop up when in a conversation. OBSERVATIONS Described above
+	</description>
+		</report>
+		<report Number="82">
+			<summary>Favorite contacts</summary>
+			<url>https://github.com/moezbhatti/qksms/issues/612</url>
+			<bugID>Issue #612</bugID>
+			<label>Bug</label>
+			<description>
+		DESCRIPTION Impossible to disable favorite contacts on Samsung Galaxy A5 2016 Impossible to enable favorite contacts on Samsung Galaxy S5 NEO Android 6.0.1 / QKSMS 2.7.1 STEPS Go to settings Go to general settings Switch favorite contacts Go to the main screen Click &quot;+&quot; to compose EXPECTED It should be possible to popup or not the list of favorite contacts. OBSERVATIONS No change in the composition screen after switch favorite contacts option.
+	</description>
+		</report>
+		<report Number="83">
+			<summary>Handle markdown and URL</summary>
+			<url>https://github.com/moezbhatti/qksms/issues/614</url>
+			<bugID>Issue #614</bugID>
+			<label>Bug</label>
+			<description>
+		DESCRIPTION With the markdown syntax activated the underscore contained in urls will be deleted because of markdown. So the URL will be incorrect and the user will get a 404 error. STEPS Activate markdown syntax ; Send yourself an URL like this http://www.dailymotion.com/video/x3guigq_funny-animals-keyboard-cat-96-tears_animals ; Click on the URL ; Get a 404 error because the URL was reformated and is not good anymore. EXPECTED The URL should not be reformated. OBSERVATIONS The underscore in the URL are used as markdown marks so they are removed from the url. PATCH I will be treated as a clown but a simple patch consists to inactivate markdown for the message if it contains an URL. Here is a quick and dirty patch : https://framabin.org/?7db6d7ef7dc80b19#XhSyE7pM1a4fm7sfVOmjOZU3wqQ8bYuLbhSVUjEZuVA= DISCUSSIONS I think that it is important to discuss this problem because it is not as simple as it seems. My solution is clearly not good, but it is pretty hard to handle correctly URL because what is exactly an URL ? In QKSMS it seems that \w{\w|\d}*.\w+ is an URL, but how are we supposed to handle an URL like this : http://wayback.archive.org/web/\*/http://google.com (remove the backslash before the asterisk) or the one I gave in example above. I know that using hyphens in URL should be preferred over using underscore. So I do not think that it is possible to handle ALL the URL but we can clearly find a better solution than mine.
+	</description>
+		</report>
+		<report Number="84">
+			<summary>Reply pop-up doesn't support landscape layout</summary>
+			<url>https://github.com/moezbhatti/qksms/issues/615</url>
+			<bugID>Issue #615</bugID>
+			<label>Bug</label>
+			<description>
+		DESCRIPTION When replying in pop-up window when in landscape mode, it will rotate back to portrait. See image below. STEPS Open any app that is in landscape mode by default Wait for a message (or message yourself) Reply through pop-up window while in app EXPECTED Can reply through pop-up window without rotating back to portrait mode. As I remember it works fine before 2.7 update. OBSERVATIONS Default view (Landscape mode): when replying:
+	</description>
+		</report>
+		<report Number="85">
+			<summary>Conversation still has &quot;Draft&quot; mark when no Draft at all</summary>
+			<url>https://github.com/moezbhatti/qksms/issues/616</url>
+			<bugID>Issue #616</bugID>
+			<label>Bug</label>
+			<description>
+		DESCRIPTION This happens only when after user is asked to set QKSMS as Default SMS App. Version of QKSMS 2.7.1 STEPS Start QKSMS for the first time or previously already set other App (for example the Standard SMS App) as Default SMS App Enter into a conversation or Press Compose Button (the Floating Action Button) Type some text Press Send button When it asks to set as Default SMS App, accept Press Send button SMS is well sent Go back to Conversation List Activity EXPECTED The conversation that we just manipulate should not have &quot;Draft&quot; mark. OBSERVATIONS The conversation that we just manipulate has &quot;Draft&quot; mark. Although there is no Draft at all.
+	</description>
+		</report>
+		<report Number="86">
+			<summary>An NullPointerException with content://mms-sms/conversations/ on Samsung Device</summary>
+			<url>https://github.com/moezbhatti/qksms/issues/618</url>
+			<bugID>Issue #618</bugID>
+			<label>Bug</label>
+			<description>
+		DESCRIPTION No crash (so this issue is not that urgent). But an Exception (NullPointerException) comes out when I some manipulation of QKSMS 2.7.1 on Samsung S6. When I do the fix of issue #611 STEPS Send some SMS from another device to your device conncted to Android Studio or ADB In the logcat you can see the exception EXPECTED No exception. OBSERVATIONS Exception : java.lang.NullPointerException: Attempt to invoke virtual method 'boolean java.lang.String.equals(java.lang.Object)' on a null object reference Due to context.getContentResolver().query(MMS_SMS_CONTENT_PROVIDER, new String[]{SmsHelper.COLUMN_MMS}, &quot;_id=&quot; + id, null, null); public static final Uri MMS_SMS_CONTENT_PROVIDER = Uri.parse(&quot;content://mms-sms/conversations/&quot;); in com.moez.QKSMS.data/Message.java Related discussion http://stackoverflow.com/questions/12926141/content-mms-sms-conversations-return-nullpointerexception-at-android-ics-sams http://stackoverflow.com/questions/13553046/sgs-3-bug-related-to-sms-conversations-list
+	</description>
+		</report>
+		<report Number="87">
+			<summary>Can not attach MMS from Compse</summary>
+			<url>https://github.com/moezbhatti/qksms/issues/619</url>
+			<bugID>Issue #619</bugID>
+			<label>Bug</label>
+			<description>
+		DESCRIPTION Can not attach MMS (Photo, etc) from Compose. (With QKSMS 2.7.1) By the way, attaching MMS in one conversation does not have problem. STEPS Launch QKSMS Press Compose (The Floating Action Button) ComposeActivity appears Try to attach MMS, photo for example MMS disappears, can not be attached EXPECTED MMS can be attached fro Compose, exactly the same when in a conversaton. OBSERVATIONS Can not attach MMS (Photo, etc) from Compose.
+	</description>
+		</report>
+		<report Number="88">
+			<summary>SMS with Enter button to separate lines has problem</summary>
+			<url>https://github.com/moezbhatti/qksms/issues/620</url>
+			<bugID>Issue #620</bugID>
+			<label>Bug</label>
+			<description>
+		DESCRIPTION Typing an SMS with Enter button to separate lines has big problem. Letters disappear or are badly organized. (with QKSMS 2.7.1) STEPS Launch QKSMS Go to one conversation or use Compose Write an SMS, use Enter button to separate the sentence into several parts Send the SMS SMS sent and received are all badly organized, or even disappear when there is only one letter each line. EXPECTED SMS with Enter button to separate lines has no problem. OBSERVATIONS Hello
+World
+ becomes H
+ell
+o
+W
+or
+ld
+ and H
+E
+L
+L
+O
+ becomes empty, no content in the SMS sent and received!
+	</description>
+		</report>
+		<report Number="89">
+			<summary>Unable to enter sms body with Anysoftkeyboard in landscape</summary>
+			<url>https://github.com/moezbhatti/qksms/issues/632</url>
+			<bugID>Issue #632</bugID>
+			<label>Bug</label>
+			<description>
+		DESCRIPTION Unable to enter sms body with Anysoftkeyboard in landscape STEPS Install Anysoftkeyboard and enable it Launch qksms, enter an existing conversation Enter landscape tap the field for the new message. The field is small, about one line small type something. A list of suggestions will appear. The new message field will become even smaller and the message content can't be visible
+	</description>
+		</report>
+		<report Number="90">
+			<summary>Enter button option shows up in other apps at times</summary>
+			<url>https://github.com/moezbhatti/qksms/issues/633</url>
+			<bugID>Issue #633</bugID>
+			<label>Bug</label>
+			<description>
+		DESCRIPTION The choice made for the usual enter button (default is smily face) will sometimes show up in another apps' keyboard. Has happened for me in Google Search bar and Facebook Messenger. STEPS Open keyboard in QKSMS Open keyboard in another app EXPECTED Other apps should have their usual enter button (e.g. Facebook Messenger has a new line button there) OBSERVATIONS Smily face/other option shows up instead of Facebook's new line (or Google's search button). Screenshot
+	</description>
+		</report>
+		<report Number="91">
+			<summary>Starred contacts does not revert after switching this option off</summary>
+			<url>https://github.com/moezbhatti/qksms/issues/636</url>
+			<bugID>Issue #636</bugID>
+			<label>Bug</label>
+			<description>
+		DESCRIPTION Moto 4 Android 6.0.1 I set ( in general settings) Starred contacts to show. This is useful as a type of work-around to make it easier to send group SMS. However I then saw that after adding say 8 or 9 in the compose screen - I regularly send an SMS to a group of 10 - the compose screen send to section became too cluttered. When I went back and switched off Starred Contacts the setting restored itself to on ( albeit with the arrow pointing left beside the &quot;STARRED CONTACTS&quot; text in the compose screen - the actual contacts not showing but the &quot;STARRED CONTACTS&quot; text remaining). A further visit to the general settings screen showed the option slider to have restored itself to the right i.e. on. This persisted after a restart and an uninstall and reinstall STEPS Switch general settings to show starred contacts Note that the compose screen now shows starred contacts ( 4 across) Switch starred contacts off in the general settings screen &quot;STARRED CONTACTS&quot; remains in the compose screen General setting slider has gone back to to the right EXPECTED All reference to starred contacts should disappear from the compose screen OBSERVATIONS I note that in settings &quot;QK Compose&quot; the text says &quot;QK Compose, starred contacts. Entering into the settings screen only &quot;QK Compose enabled&quot; setting is present with the slider set to the left
+	</description>
+		</report>
+		<report Number="92">
+			<summary>Old Pictures Show Up</summary>
+			<url>https://github.com/moezbhatti/qksms/issues/637</url>
+			<bugID>Issue #637</bugID>
+			<label>Bug</label>
+			<description>
+		DESCRIPTION Sometimes in quick reply old pictures (or long texts with emojis) replace the last text sent by the phone owner. STEPS Receive text Enter quick reply EXPECTED Your old texts are all shown. OBSERVATIONS The last text sent by the phone owner is sometimes replaced by the first picture sent to that contact. Less often it's a very long text with emojis.
+	</description>
+		</report>
+		<report Number="93">
+			<summary>2.7.3 update issues</summary>
+			<url>https://github.com/moezbhatti/qksms/issues/638</url>
+			<bugID>Issue #638</bugID>
+			<label>Bug</label>
+			<description>
+		Just upgraded from 2.5.4 and want to say thanks for all of your work, especially: fixed rotation support fixed scrolling to the bottom all the time timestamps for messages are now configurable Cheers! :-) However: When you press the back button from a conversation to the message list, it flickers to the background briefly before showing what it should. Kinda annoying and a regression IMO. My contacts which have names STILL show just the number in some certain cases. This is old but I was hoping it'd be fixed by now. These from five minutes playing around. Will add anything new that I find tomorrow. Too late to send SMSes now.
+	</description>
+		</report>
+		<report Number="94">
+			<summary>Notification cannot clear if QKSMS is not default app</summary>
+			<url>https://github.com/moezbhatti/qksms/issues/645</url>
+			<bugID>Issue #645</bugID>
+			<label>Bug</label>
+			<description>
+		DESCRIPTION sms notification cannot be clear when qksms is not default app. STEPS Set qksms as default app. Wait for new sms notification or mark any conversation as unread. Change default messaging app to any messaging app. Swipe notification to clear. Still reappear. EXPECTED Sms notification should be clear when swipe.
+	</description>
+		</report>
+		<report Number="95">
+			<summary>Android instant run build is emitting tons of weird errors</summary>
+			<url>https://github.com/moezbhatti/qksms/issues/658</url>
+			<bugID>Issue #658</bugID>
+			<label>Bug</label>
+			<description>
+		DESCRIPTION I'm not able to build QKSMS using Instant Run. STEPS Fresh clone of QKSMS on the qksms-3.0 branch (commit fbffb37435abfca9a4218f3bc382e3ff744d300a) Build &gt; Clean Run (with Instant Run on) Android studio version: Android Studio 2.2
+Build #AI-145.3276617, built on September 15, 2016
+JRE: 1.8.0_76-release-b03 x86_64
+JVM: OpenJDK 64-Bit Server VM by JetBrains s.r.o
+ Gradle version 2.2.0 EXPECTED The app builds without fail. OBSERVATIONS I'm getting a lot of &quot;errors&quot; that look like this: warning: Ignoring InnerClasses attribute for an anonymous inner class
+(freemarker.cache.FileTemplateLoader$2) that doesn't come with an
+associated EnclosingMethod attribute. This class was probably produced by a
+compiler that did not target the modern .class file format. The recommended
+solution is to recompile the class from source, using an up-to-date compiler
+and without specifying any &quot;-target&quot; type options. The consequence of ignoring
+this warning is that reflective operations on this class will incorrectly
+indicate that it is *not* an inner class.
+ (They appear as errors in Android Studio.) These are all the errors I'm getting. I think it's printing an error for every class in the freemarker.* package.
+	</description>
+		</report>
+		<report Number="96">
+			<summary>SMS apparently not sent, but received by the recipient</summary>
+			<url>https://github.com/moezbhatti/qksms/issues/670</url>
+			<bugID>Issue #670</bugID>
+			<label>Bug</label>
+			<description>
+		Hi, No idea how to reproduce it exactly. I sent a SMS, it said it didn't succeed (network issue), it sent it again automatically. The recipient received both SMS, and it still not appear as sent on QKSMS.
+	</description>
+		</report>
+		<report Number="97">
+			<summary>Unread count does not appear in Nova Launcher/TeslaUnread on Samsung</summary>
+			<url>https://github.com/moezbhatti/qksms/issues/671</url>
+			<bugID>Issue #671</bugID>
+			<label>Bug</label>
+			<description>
+		I am using Nova Launcher Prime 4.3.1 and TeslaUnread 5.0.6 on a Samsung Galaxy J7 running Android 6.0.1. I installed QKSMS and set it as the default messaging app, and configured TeslaUnread to display unread message thread counts for it. I am able to receive messages without problems, but the unread thread count never appears on the QKSMS app icon. When I revert to using the Samsung messages app, the unread thread count on its icon works without a problem.
+	</description>
+		</report>
+		<report Number="98">
+			<summary>Strip Unicode Table is not complete and all correct</summary>
+			<url>https://github.com/moezbhatti/qksms/issues/682</url>
+			<bugID>Issue #682</bugID>
+			<label>Bug</label>
+			<description>
+		DESCRIPTION Some characters in the Table of StripUnicode (in StripAccents.java) is not correct, and it lacks of a lot of UniCode Accent Characters. STEPS Go to Settings Turn on Strip Unicode Send a message with Unicode Accent Character EXPECTED The function StripUnicode strips almost all the Unicode Accent Character.
+	</description>
+		</report>
+		<report Number="99">
+			<summary>build is failing according to the readme</summary>
+			<url>https://github.com/moezbhatti/qksms/issues/741</url>
+			<bugID>Issue #741</bugID>
+			<label>Bug</label>
+			<description>
+		DESCRIPTION https://github.com/moezbhatti/qksms#qksms STEPS see https://github.com/moezbhatti/qksms#qksms EXPECTED tests are not failing OBSERVATIONS tests are failing
+	</description>
+		</report>
+		<report Number="100">
+			<summary>Is QKSMS following continuous integration?</summary>
+			<url>https://github.com/moezbhatti/qksms/issues/750</url>
+			<bugID>Issue #750</bugID>
+			<label>Bug</label>
+			<description>
+		No description provided.
+	</description>
+		</report>
+		<report Number="101">
+			<summary>Feature rq: Activity stack limit</summary>
+			<url>https://github.com/moezbhatti/qksms/issues/753</url>
+			<bugID>Issue #753</bugID>
+			<label>Bug</label>
+			<description>
+		Hi, I love using qksms and have had it as my default SMS client for several months now. However, I noticed that overtime when using it it has become very unresponsive and can sometimes take a long time to switch to the task. Often times this coincides with hitting the back button returning me to the same conversation multiple times as well as other conversations which I might have closed out of or moved away from earlier. I don't know if this is intended Behavior, but there doesn't seem to be a limit to how large the activity stack can be. Regardless of whether or not this is a bug, it seems like a workaround solution can happen if the app has some kind of hard limit to the amount of activities it can generate on that stack. Preferably, I'd like to be able to have the back button always return me to the conversation list if I'm in a conversation thread. Thanks for reading!
+	</description>
+		</report>
+		<report Number="102">
+			<summary>Mms not sending on Verizon s6</summary>
+			<url>https://github.com/moezbhatti/qksms/issues/755</url>
+			<bugID>Issue #755</bugID>
+			<label>Bug</label>
+			<description>
+		DESCRIPTION Used automatic and manual apn setting but mms still not going through STEPS Open a conversation Press + Add picture Send EXPECTED Picture sends OBSERVATIONS Pictures do not send
+	</description>
+		</report>
+		<report Number="103">
+			<summary>Icon colour change bug</summary>
+			<url>https://github.com/moezbhatti/qksms/issues/770</url>
+			<bugID>Issue #770</bugID>
+			<label>Bug</label>
+			<description>
+		Changing the icon colour kills QKSMS stone dead and deletes the icon from the launcher. Takes around a second or so for QKSMS to realize it's dead. QKSMS is truly removed from the launcher, there's no active spot with an invisible icon, just a dead space. QKSMS cannot be added back to the launcher unless the icon colour is reset to the default (white) colour first. This occurs using the Nova launcher with QKSMS in the dock. I also tried it with QKSMS on the home page but not in the dock. The first time I tried it outside the dock I got a pop-up telling me it had died and did I want to restart it, but when I tried to restart it nothing happened. The other times I've tried it with QKSMS outside the dock I didn't get that pop-up. Note that I've only tried it outside the dock four times (and got the pop-up once) and tried it in the dock many times and not seen the pop-up. Note that I'm using Jina as my drawer and use it to add QKSMS to the home screen. This may be why nothing seems to happen when I try to add non-white QKSMS to home screen, but is more likely down to Nova itself rejecting the attempt, resulting in Jina failing to confirm that QKSMS has been added to home screen (because it hasn't). May be related to #395 and/or #141. Or not. :) This is on Android 7.1.1. QKSMS 2.7.3 (I signed up for beta last night but playstore hasn't caught up yet). Nova 5.3. Jina 3.0.7ga881
+	</description>
+		</report>
+		<report Number="104">
+			<summary>Defining a set of Quick Responses issue</summary>
+			<url>https://github.com/moezbhatti/qksms/issues/773</url>
+			<bugID>Issue #773</bugID>
+			<label>Bug</label>
+			<description>
+		DESCRIPTION When defining a set of Quick Responses, each time, a new EMPTY value is set for 1st. All the others values entered are shifted down. STEPS Go to defining set of Quick Responses screen Try to enter a value for the first box Save and return First box is empty, all the other are shifted down with one position. EXPECTED All item can be saved, no matter the position. OBSERVATIONS Maybe introducing a Reorder functionality if user wants to swap positions. QKSMS version: 2.7.3 DEVICE version: HTC M7 with Android 5.0.2 and Huawei P9 lite (2017) with Android 7.0
+	</description>
+		</report>
+		<report Number="105">
+			<summary>Freezing during opening on Galaxy S8</summary>
+			<url>https://github.com/moezbhatti/qksms/issues/785</url>
+			<bugID>Issue #785</bugID>
+			<label>Bug</label>
+			<description>
+		DESCRIPTION Sometimes when opening the message app only the keyboard is shown (keyboard at the bottom and nothing above it, just home screen with icons) and after 2-3 seconds the main app window loads above the keyboard. STEPS Dont know how to reproduce. It happens from time to time.
+	</description>
+		</report>
+		<report Number="106">
+			<summary>Widget shows messages in what appears to be on random order</summary>
+			<url>https://github.com/moezbhatti/qksms/issues/798</url>
+			<bugID>Issue #798</bugID>
+			<label>Bug</label>
+			<description>
+		No description provided.
+	</description>
+		</report>
+		<report Number="107">
+			<summary>Unable to select a ringtone</summary>
+			<url>https://github.com/moezbhatti/qksms/issues/805</url>
+			<bugID>Issue #805</bugID>
+			<label>Bug</label>
+			<description>
+		Issue Unable to select a ringtone. Clicking on it does nothing. Steps to reproduce Open the app (QKSMS &gt; 3.0) Go the the settings (slide to the right, settings) Click on ringtone Expected behavior After clicking on ringtone, a system menu should appear to select a ringtone.
+	</description>
+		</report>
+		<report Number="108">
+			<summary>Old (v2) launcher shortcut doesn't work with v3</summary>
+			<url>https://github.com/moezbhatti/qksms/issues/808</url>
+			<bugID>Issue #808</bugID>
+			<label>Bug</label>
+			<description>
+		After updating to v3.0.0-Preview-03, old shortcut does nothing (ADW Launcher). Root cause: Different intent/component data v2: com.moez.QKSMS/.ui.MainActivity-Default v3: com.moez.QKSMS/.presentation.main.MainActivity Workaround: Obviously, delete old shortcut and create a new one.
+	</description>
+		</report>
+		<report Number="109">
+			<summary>Incoming message from new number doesn't display conversation properly</summary>
+			<url>https://github.com/moezbhatti/qksms/issues/811</url>
+			<bugID>Issue #811</bugID>
+			<label>Bug</label>
+			<description>
+		If a message is received from a new address, the conversation isn't loaded correctly, making it impossible to send messages to
+	</description>
+		</report>
+		<report Number="110">
+			<summary>Crash when deleting conversation</summary>
+			<url>https://github.com/moezbhatti/qksms/issues/829</url>
+			<bugID>Issue #829</bugID>
+			<label>Bug</label>
+			<description>
+		Hi I have a Moto X Play (lux) and the app is crashing whenever I delete a conversation. Reopening the app does not show the conversation, though. Log: Could not set socket write timeout:
+01-10 21:04:13.082  4148  9485 W Conscrypt:    java.lang.reflect.Method.invoke(Native Method)
+01-10 21:04:13.082  4148  9485 W Conscrypt:    com.google.android.gms.org.conscrypt.Platform.setSocketWriteTimeout(:com.google.android.gms@11951438:13)
+01-10 21:04:13.110  1773  4268 W InputMethodManagerService: Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@f0fbccd attribute=null, token = android.os.BinderProxy@8fba93b
+01-10 21:04:13.143  4148  9485 W Conscrypt: Could not set socket write timeout:
+01-10 21:04:13.143  4148  9485 W Conscrypt:    java.lang.reflect.Method.invoke(Native Method)
+01-10 21:04:13.143  4148  9485 W Conscrypt:    com.google.android.gms.org.conscrypt.Platform.setSocketWriteTimeout(:com.google.android.gms@11951438:13)
+01-10 21:04:13.432 23373 23415 D OpenGLRenderer: endAllActiveAnimators on 0x91dbd200 (MenuPopupWindow$MenuDropDownListView) with handle 0x969112f0
+01-10 21:04:13.886  3948 27170 W Conscrypt: Could not set socket write timeout:
+01-10 21:04:13.886  3948 27170 W Conscrypt:    java.lang.reflect.Method.invoke(Native Method)
+01-10 21:04:13.886  3948 27170 W Conscrypt:    com.google.android.gms.org.conscrypt.Platform.setSocketWriteTimeout(:com.google.android.gms@11951438:13)
+01-10 21:04:13.933  3948 27170 W Conscrypt: Could not set socket write timeout:
+01-10 21:04:13.933  3948 27170 W Conscrypt:    java.lang.reflect.Method.invoke(Native Method)
+01-10 21:04:13.933  3948 27170 W Conscrypt:    com.google.android.gms.org.conscrypt.Platform.setSocketWriteTimeout(:com.google.android.gms@11951438:13)
+01-10 21:04:14.063  1773  2561 D MotoSensors: ALS 16
+01-10 21:04:14.269 23373 23373 E REALM_JNI: Row -1824795472 is no longer attached!
+01-10 21:04:14.269 23373 23373 E REALM_JNI: jni: ThrowingException 8, Object is no longer valid to operate on. Was it deleted by another thread?, .
+01-10 21:04:14.269 23373 23373 E REALM_JNI: Exception has been thrown: Object is no longer valid to operate on. Was it deleted by another thread?
+01-10 21:04:14.270 23373 23373 W System.err: io.reactivex.exceptions.OnErrorNotImplementedException: Object is no longer valid to operate on. Was it deleted by another thread?
+01-10 21:04:14.275 23373 23373 W System.err: 	at io.reactivex.internal.functions.Functions$OnErrorMissingConsumer.accept(Functions.java:704)
+01-10 21:04:14.276 23373 23373 W System.err: 	at io.reactivex.internal.functions.Functions$OnErrorMissingConsumer.accept(Functions.java:701)
+01-10 21:04:14.276 23373 23373 W System.err: 	at io.reactivex.internal.observers.LambdaObserver.onError(LambdaObserver.java:77)
+01-10 21:04:14.276 23373 23373 W System.err: 	at io.reactivex.observers.SerializedObserver.onError(SerializedObserver.java:155)
+01-10 21:04:14.276 23373 23373 W System.err: 	at io.reactivex.internal.operators.observable.ObservableWithLatestFrom$WithLatestFromObserver.onNext(ObservableWithLatestFrom.java:79)
+01-10 21:04:14.276 23373 23373 W System.err: 	at io.reactivex.internal.operators.observable.ObservableCombineLatest$LatestCoordinator.drain(ObservableCombineLatest.java:209)
+01-10 21:04:14.276 23373 23373 W System.err: 	at io.reactivex.internal.operators.observable.ObservableCombineLatest$LatestCoordinator.innerNext(ObservableCombineLatest.java:238)
+01-10 21:04:14.276 23373 23373 W System.err: 	at io.reactivex.internal.operators.observable.ObservableCombineLatest$CombinerObserver.onNext(ObservableCombineLatest.java:307)
+01-10 21:04:14.276 23373 23373 W System.err: 	at io.reactivex.internal.operators.observable.ObservableSwitchMap$SwitchMapObserver.drain(ObservableSwitchMap.java:276)
+01-10 21:04:14.276 23373 23373 W System.err: 	at io.reactivex.internal.operators.observable.ObservableSwitchMap$SwitchMapInnerObserver.onNext(ObservableSwitchMap.java:328)
+01-10 21:04:14.276 23373 23373 W System.err: 	at io.reactivex.internal.operators.observable.ObservableFromPublisher$PublisherSubscriber.onNext(ObservableFromPublisher.java:56)
+01-10 21:04:14.276 23373 23373 W System.err: 	at io.reactivex.internal.operators.flowable.FlowableCreate$LatestAsyncEmitter.drain(FlowableCreate.java:683)
+01-10 21:04:14.276 23373 23373 W System.err: 	at io.reactivex.internal.operators.flowable.FlowableCreate$LatestAsyncEmitter.onNext(FlowableCreate.java:609)
+01-10 21:04:14.276 23373 23373 W System.err: 	at io.realm.rx.RealmObservableFactory$6$1.onChange(RealmObservableFactory.java:161)
+01-10 21:04:14.276 23373 23373 W System.err: 	at io.realm.rx.RealmObservableFactory$6$1.onChange(RealmObservableFactory.java:157)
+01-10 21:04:14.276 23373 23373 W System.err: 	at io.realm.internal.ObservableCollection$RealmChangeListenerWrapper.onChange(ObservableCollection.java:40)
+01-10 21:04:14.276 23373 23373 W System.err: 	at io.realm.internal.ObservableCollection$CollectionObserverPair.onChange(ObservableCollection.java:21)
+01-10 21:04:14.276 23373 23373 W System.err: 	at io.realm.internal.ObservableCollection$Callback.onCalled(ObservableCollection.java:65)
+01-10 21:04:14.276 23373 23373 W System.err: 	at io.realm.internal.ObservableCollection$Callback.onCalled(ObservableCollection.java:55)
+01-10 21:04:14.276 23373 23373 W System.err: 	at io.realm.internal.ObserverPairList.foreach(ObserverPairList.java:109)
+01-10 21:04:14.276 23373 23373 W System.err: 	at io.realm.internal.OsResults.notifyChangeListeners(OsResults.java:442)
+01-10 21:04:14.276 23373 23373 W System.err: 	at android.os.MessageQueue.nativePollOnce(Native Method)
+01-10 21:04:14.276 23373 23373 W System.err: 	at android.os.MessageQueue.next(MessageQueue.java:323)
+01-10 21:04:14.276 23373 23373 W System.err: 	at android.os.Looper.loop(Looper.java:136)
+01-10 21:04:14.276 23373 23373 W System.err: 	at android.app.ActivityThread.main(ActivityThread.java:6186)
+01-10 21:04:14.276 23373 23373 W System.err: 	at java.lang.reflect.Method.invoke(Native Method)
+01-10 21:04:14.276 23373 23373 W System.err: 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:889)
+01-10 21:04:14.276 23373 23373 W System.err: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:779)
+01-10 21:04:14.277 23373 23373 W System.err: Caused by: java.lang.IllegalStateException: Object is no longer valid to operate on. Was it deleted by another thread?
+01-10 21:04:14.277 23373 23373 W System.err: 	at io.realm.internal.UncheckedRow.nativeGetLong(Native Method)
+01-10 21:04:14.277 23373 23373 W System.err: 	at io.realm.internal.UncheckedRow.getLong(UncheckedRow.java:132)
+01-10 21:04:14.277 23373 23373 W System.err: 	at io.realm.ConversationRealmProxy.realmGet$id(ConversationRealmProxy.java:106)
+01-10 21:04:14.277 23373 23373 W System.err: 	at data.model.Conversation.getId(Conversation.kt:27)
+01-10 21:04:14.277 23373 23373 W System.err: 	at presentation.feature.compose.ComposeViewModel$bindView$$inlined$withLatestFrom$4.apply(Observables.kt:192)
+01-10 21:04:14.277 23373 23373 W System.err: 	at io.reactivex.internal.operators.observable.ObservableWithLatestFrom$WithLatestFromObserver.onNext(ObservableWithLatestFrom.java:75)
+01-10 21:04:14.277 23373 23373 W System.err: 	... 23 more
+01-10 21:04:14.295  2924  2924 D wpa_supplicant: wlan0: Control interface command 'SIGNAL_POLL'
+01-10 21:04:14.345 23373 23400 W System  : ClassLoader referenced unknown path: /system/framework/tcmclient.jar
+01-10 21:04:14.536 23373 23373 E AndroidRuntime: FATAL EXCEPTION: main
+01-10 21:04:14.536 23373 23373 E AndroidRuntime: Process: com.moez.QKSMS, PID: 23373
+01-10 21:04:14.536 23373 23373 E AndroidRuntime: io.reactivex.exceptions.OnErrorNotImplementedException: Object is no longer valid to operate on. Was it deleted by another thread?
+01-10 21:04:14.536 23373 23373 E AndroidRuntime: 	at io.reactivex.internal.functions.Functions$OnErrorMissingConsumer.accept(Functions.java:704)
+01-10 21:04:14.536 23373 23373 E AndroidRuntime: 	at io.reactivex.internal.functions.Functions$OnErrorMissingConsumer.accept(Functions.java:701)
+01-10 21:04:14.536 23373 23373 E AndroidRuntime: 	at io.reactivex.internal.observers.LambdaObserver.onError(LambdaObserver.java:77)
+01-10 21:04:14.536 23373 23373 E AndroidRuntime: 	at io.reactivex.observers.SerializedObserver.onError(SerializedObserver.java:155)
+01-10 21:04:14.536 23373 23373 E AndroidRuntime: 	at io.reactivex.internal.operators.observable.ObservableWithLatestFrom$WithLatestFromObserver.onNext(ObservableWithLatestFrom.java:79)
+01-10 21:04:14.536 23373 23373 E AndroidRuntime: 	at io.reactivex.internal.operators.observable.ObservableCombineLatest$LatestCoordinator.drain(ObservableCombineLatest.java:209)
+01-10 21:04:14.536 23373 23373 E AndroidRuntime: 	at io.reactivex.internal.operators.observable.ObservableCombineLatest$LatestCoordinator.innerNext(ObservableCombineLatest.java:238)
+01-10 21:04:14.536 23373 23373 E AndroidRuntime: 	at io.reactivex.internal.operators.observable.ObservableCombineLatest$CombinerObserver.onNext(ObservableCombineLatest.java:307)
+01-10 21:04:14.536 23373 23373 E AndroidRuntime: 	at io.reactivex.internal.operators.observable.ObservableSwitchMap$SwitchMapObserver.drain(ObservableSwitchMap.java:276)
+01-10 21:04:14.536 23373 23373 E AndroidRuntime: 	at io.reactivex.internal.operators.observable.ObservableSwitchMap$SwitchMapInnerObserver.onNext(ObservableSwitchMap.java:328)
+01-10 21:04:14.536 23373 23373 E AndroidRuntime: 	at io.reactivex.internal.operators.observable.ObservableFromPublisher$PublisherSubscriber.onNext(ObservableFromPublisher.java:56)
+01-10 21:04:14.536 23373 23373 E AndroidRuntime: 	at io.reactivex.internal.operators.flowable.FlowableCreate$LatestAsyncEmitter.drain(FlowableCreate.java:683)
+01-10 21:04:14.536 23373 23373 E AndroidRuntime: 	at io.reactivex.internal.operators.flowable.FlowableCreate$LatestAsyncEmitter.onNext(FlowableCreate.java:609)
+01-10 21:04:14.536 23373 23373 E AndroidRuntime: 	at io.realm.rx.RealmObservableFactory$6$1.onChange(RealmObservableFactory.java:161)
+01-10 21:04:14.536 23373 23373 E AndroidRuntime: 	at io.realm.rx.RealmObservableFactory$6$1.onChange(RealmObservableFactory.java:157)
+01-10 21:04:14.536 23373 23373 E AndroidRuntime: 	at io.realm.internal.ObservableCollection$RealmChangeListenerWrapper.onChange(ObservableCollection.java:40)
+01-10 21:04:14.536 23373 23373 E AndroidRuntime: 	at io.realm.internal.ObservableCollection$CollectionObserverPair.onChange(ObservableCollection.java:21)
+01-10 21:04:14.536 23373 23373 E AndroidRuntime: 	at io.realm.internal.ObservableCollection$Callback.onCalled(ObservableCollection.java:65)
+01-10 21:04:14.536 23373 23373 E AndroidRuntime: 	at io.realm.internal.ObservableCollection$Callback.onCalled(ObservableCollection.java:55)
+01-10 21:04:14.536 23373 23373 E AndroidRuntime: 	at io.realm.internal.ObserverPairList.foreach(ObserverPairList.java:109)
+01-10 21:04:14.536 23373 23373 E AndroidRuntime: 	at io.realm.internal.OsResults.notifyChangeListeners(OsResults.java:442)
+01-10 21:04:14.536 23373 23373 E AndroidRuntime: 	at android.os.MessageQueue.nativePollOnce(Native Method)
+01-10 21:04:14.536 23373 23373 E AndroidRuntime: 	at android.os.MessageQueue.next(MessageQueue.java:323)
+01-10 21:04:14.536 23373 23373 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:136)
+01-10 21:04:14.536 23373 23373 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:6186)
+01-10 21:04:14.536 23373 23373 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+01-10 21:04:14.536 23373 23373 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:889)
+01-10 21:04:14.536 23373 23373 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:779)
+01-10 21:04:14.536 23373 23373 E AndroidRuntime: Caused by: java.lang.IllegalStateException: Object is no longer valid to operate on. Was it deleted by another thread?
+01-10 21:04:14.536 23373 23373 E AndroidRuntime: 	at io.realm.internal.UncheckedRow.nativeGetLong(Native Method)
+01-10 21:04:14.536 23373 23373 E AndroidRuntime: 	at io.realm.internal.UncheckedRow.getLong(UncheckedRow.java:132)
+01-10 21:04:14.536 23373 23373 E AndroidRuntime: 	at io.realm.ConversationRealmProxy.realmGet$id(ConversationRealmProxy.java:106)
+01-10 21:04:14.536 23373 23373 E AndroidRuntime: 	at data.model.Conversation.getId(Conversation.kt:27)
+01-10 21:04:14.536 23373 23373 E AndroidRuntime: 	at presentation.feature.compose.ComposeViewModel$bindView$$inlined$withLatestFrom$4.apply(Observables.kt:192)
+01-10 21:04:14.536 23373 23373 E AndroidRuntime: 	at io.reactivex.internal.operators.observable.ObservableWithLatestFrom$WithLatestFromObserver.onNext(ObservableWithLatestFrom.java:75)
+01-10 21:04:14.536 23373 23373 E AndroidRuntime: 	... 23 more
+01-10 21:04:14.543  1773  4276 W ActivityManager:   Force finishing activity com.moez.QKSMS/presentation.feature.compose.ComposeActivity
+	</description>
+		</report>
+		<report Number="111">
+			<summary>Crash when selecting contact who does not have a conversation yet</summary>
+			<url>https://github.com/moezbhatti/qksms/issues/830</url>
+			<bugID>Issue #830</bugID>
+			<label>Bug</label>
+			<description>
+		No description provided.
+	</description>
+		</report>
+		<report Number="112">
+			<summary>Contacts aren't shown on first launch</summary>
+			<url>https://github.com/moezbhatti/qksms/issues/839</url>
+			<bugID>Issue #839</bugID>
+			<label>Bug</label>
+			<description>
+		No description provided.
+	</description>
+		</report>
+		<report Number="113">
+			<summary>F-Droid build is failing</summary>
+			<url>https://github.com/moezbhatti/qksms/issues/841</url>
+			<bugID>Issue #841</bugID>
+			<label>Bug</label>
+			<description>
+		No description provided. 👍 1
+	</description>
+		</report>
+		<report Number="114">
+			<summary>Adding images as attachments should clear previosuly attached images</summary>
+			<url>https://github.com/moezbhatti/qksms/issues/851</url>
+			<bugID>Issue #851</bugID>
+			<label>Bug</label>
+			<description>
+		Description: When sending images in a text, images previously sent are automatically selected. Steps to reproduce (using latest release): Open a conversation Add an image via the box in the lower-left corner Send the image Send any other text (image or plain text) The previously attached image will also be sent. This applies for as long as you are in the conversation. Once you leave the conversation (press back, exit the app) the image is no longer attached. 👍 1
+	</description>
+		</report>
+		<report Number="115">
+			<summary>Duplicate contacts appear in compose screen</summary>
+			<url>https://github.com/moezbhatti/qksms/issues/854</url>
+			<bugID>Issue #854</bugID>
+			<label>Bug</label>
+			<description>
+		No description provided.
+	</description>
+		</report>
+		<report Number="116">
+			<summary>Recipient contacts aren't updated after sync</summary>
+			<url>https://github.com/moezbhatti/qksms/issues/855</url>
+			<bugID>Issue #855</bugID>
+			<label>Bug</label>
+			<description>
+		No description provided.
+	</description>
+		</report>
+		<report Number="117">
+			<summary>Deleting conversation from within thread causes force close</summary>
+			<url>https://github.com/moezbhatti/qksms/issues/857</url>
+			<bugID>Issue #857</bugID>
+			<label>Bug</label>
+			<description>
+		From within the conversation, clicking menu and delete causes the app to force close. The thread does get removed though.
+	</description>
+		</report>
+		<report Number="118">
+			<summary>Can't share photos from other apps</summary>
+			<url>https://github.com/moezbhatti/qksms/issues/862</url>
+			<bugID>Issue #862</bugID>
+			<label>Bug</label>
+			<description>
+		No description provided.
+	</description>
+		</report>
+		<report Number="119">
+			<summary>&quot;Notifications&quot; didn't show anything initially (3.0.0 Preview 8)</summary>
+			<url>https://github.com/moezbhatti/qksms/issues/865</url>
+			<bugID>Issue #865</bugID>
+			<label>Bug</label>
+			<description>
+		When clicking &quot;Notifications&quot; in the settings for the first and second time, nothing happened. I then did other things within QKSMS and some other things in the stock Android settings and then I clicked &quot;Notifications&quot; in QKSMS a third time and then it suddenly worked, showing the stock Android &quot;Notifications&quot; screen for QKSMS. QKSMS 3.0.0 Preview 8 on Android 8.0.0 beta with January 2018 security patch level on Nokia phone
+	</description>
+		</report>
+		<report Number="120">
+			<summary>Can't see action in delete convo modal.</summary>
+			<url>https://github.com/moezbhatti/qksms/issues/875</url>
+			<bugID>Issue #875</bugID>
+			<label>Bug</label>
+			<description>
+		I looked for a bug report with the same issue but couldn't find one so I apologize if this is a duplicate. I noticed that if you long press on a conversation a modal pops up but I think the text is white on the white background. If I press in the bottom right corner of the modal, it will delete the conversation so the action is available, you just can't read what's in the modal. Let me know if you need further clarification.
+	</description>
+		</report>
+		<report Number="121">
+			<summary>Force Close when opening app</summary>
+			<url>https://github.com/moezbhatti/qksms/issues/878</url>
+			<bugID>Issue #878</bugID>
+			<label>Bug</label>
+			<description>
+		Galaxy Note 4, Android 6.0.1 Upon first launch of the app, it will load and attempt to update the database, but it never does. I've left it for like 20 minutes. So I close the app, attempt to re-open, and get an instant force close/crash. I've tried clearing cache/data, and reinstalling the app, giving the app full permissions before first launch, but it still force closes. logcat_and_device_info.zip
+	</description>
+		</report>
+		<report Number="122">
+			<summary>Missing names/numbers from automated senders</summary>
+			<url>https://github.com/moezbhatti/qksms/issues/879</url>
+			<bugID>Issue #879</bugID>
+			<label>Bug</label>
+			<description>
+		https://i.imgur.com/H0Seoyw.png https://www.reddit.com/r/androidapps/comments/7w5tly/dev_qksms_30_beta_now_available_open_source_sms/dtz2y11/
+	</description>
+		</report>
+		<report Number="123">
+			<summary>Automatically sending failed texts; a problem which should be fixed</summary>
+			<url>https://github.com/moezbhatti/qksms/issues/882</url>
+			<bugID>Issue #882</bugID>
+			<label>Bug</label>
+			<description>
+		Hi This is just a suggestion. I downloaded QKSMS, and after I set it as my default messaging app, it automatically sent out a bunch of failed texts from conversations I had backed up. I saw some old conversation threads move up to the top. Some of them were from a few years ago, and ones which I did not want sent out (like to a couple of exes, which I didnt even realize I still had). Already dealing with the fallout from this. I don't know how common this problem is, but there should maybe be a default setting to not send out unsent or failed texts without clicking on retry. Thanks for considering any suggestions
+	</description>
+		</report>
+		<report Number="124">
+			<summary>Crash when trying to sync MMS with no parts</summary>
+			<url>https://github.com/moezbhatti/qksms/issues/887</url>
+			<bugID>Issue #887</bugID>
+			<label>Bug</label>
+			<description>
+		https://app.bugsnag.com/qk-labs/qksms/errors/5a72e8665d1f730018a02a5d?filters[error.status][0]=open
+	</description>
+		</report>
+		<report Number="125">
+			<summary>Compose box covers last message if multiple lines are typed</summary>
+			<url>https://github.com/moezbhatti/qksms/issues/890</url>
+			<bugID>Issue #890</bugID>
+			<label>Bug</label>
+			<description>
+		The messages should move up if the compose box gets bigger
+	</description>
+		</report>
+		<report Number="126">
+			<summary>Can't hide delivery status for recently delivered messages</summary>
+			<url>https://github.com/moezbhatti/qksms/issues/893</url>
+			<bugID>Issue #893</bugID>
+			<label>Bug</label>
+			<description>
+		No description provided.
+	</description>
+		</report>
+		<report Number="127">
+			<summary>Timestamp incorrect on conversation list after restore</summary>
+			<url>https://github.com/moezbhatti/qksms/issues/897</url>
+			<bugID>Issue #897</bugID>
+			<label>Bug</label>
+			<description>
+		I ran a backup of messages through Titanium Backup, then restored. In the main screen showing a list of conversations, each conversations had a timestamp of the restoration time, rather than the time of the last message in the conversation, which is the typical behavior in QKSMS. The native Android Messaging app correctly shows the time of the last message as the time of the conversation after restoring. Both native TB backup/restore and xml backup/restore produced this issue.
+	</description>
+		</report>
+		<report Number="128">
+			<summary>Memory Leak in ComposeActivity</summary>
+			<url>https://github.com/moezbhatti/qksms/issues/898</url>
+			<bugID>Issue #898</bugID>
+			<label>Bug</label>
+			<description>
+		I am using version 2.7.3 on both my real device with Android 7.1.1 and on my Android Virtual Devices. When I change the orientation, i.e. rotating my device, multiple times I notice multiple instances of ComposeActivity in the heap memory and a growth of the heap memory usage. I noticed that it occasionally leads to an OutOfMemory error. If you cannot reproduce the failure, I could attach you the memory dump.
+	</description>
+		</report>
+		<report Number="129">
+			<summary>Contact Names Don't Refresh</summary>
+			<url>https://github.com/moezbhatti/qksms/issues/902</url>
+			<bugID>Issue #902</bugID>
+			<label>Bug</label>
+			<description>
+		Bug Description After adding a contact or changing their name it does not refresh/update in QKSMS, even after a force stop. This means that if someone texts you for the first time and you add them to your contacts, you are stuck seeing their phone number instead of their name. Behavior is the same for both SMS and MMS messages. Device Details Device: ONEPLUS A3000 Operating System: OxygenOS 5.0.1 (Android 8.0.0 Oreo) QKSMS Version: 3.0 Beta 2 Oneplus Contacts Version 2.1.0.171211210621.bc6c399
+	</description>
+		</report>
+		<report Number="130">
+			<summary>Country code hidden for phone numbers inside messages</summary>
+			<url>https://github.com/moezbhatti/qksms/issues/905</url>
+			<bugID>Issue #905</bugID>
+			<label>Bug</label>
+			<description>
+		When a phone number is present inside a sent message, QKSMS looks up any existing contacts for that number. If found, the contact name is shown, but it seems the country code is also removed. e.g. It seems that this change is only done on display, the original number is being sent. However, changing how an outgoing message is sent is actually confusing. If it would just add the contact name, that would probably be ok, but now it actually changes the number. It seems that this happens also for foreign numbers, not just for the local country code (I'm in +31, the example above removes +41). This happens both on incoming and outgoing messages.
+	</description>
+		</report>
+		<report Number="131">
+			<summary>Lots of crashing or failure when image is attached</summary>
+			<url>https://github.com/moezbhatti/qksms/issues/907</url>
+			<bugID>Issue #907</bugID>
+			<label>Bug</label>
+			<description>
+		When I try to use Samsung smart capture for a screenshot and try to share it directly to qksms it either fails to put the image into qksms or it crashes the app. If I further attempted to attsch the image without having reopened the app it took multiple tries to get it to attach and then the app crashed after it was sent. 👍 1
+	</description>
+		</report>
+		<report Number="132">
+			<summary>Can't receive messages on Samsung devices running 7.0</summary>
+			<url>https://github.com/moezbhatti/qksms/issues/909</url>
+			<bugID>Issue #909</bugID>
+			<label>Bug</label>
+			<description>
+		No description provided.
+	</description>
+		</report>
+		<report Number="133">
+			<summary>Messages won't sync on certain Huawei and HTC devices</summary>
+			<url>https://github.com/moezbhatti/qksms/issues/910</url>
+			<bugID>Issue #910</bugID>
+			<label>Bug</label>
+			<description>
+		Known list of devices with repro: Huawei P10 Lite | 7.0 HTC U11 | 8.0 cc @krux3r
+	</description>
+		</report>
+		<report Number="134">
+			<summary>MMS size limit should apply to total attachment size, not invidual</summary>
+			<url>https://github.com/moezbhatti/qksms/issues/911</url>
+			<bugID>Issue #911</bugID>
+			<label>Bug</label>
+			<description>
+		No description provided.
+	</description>
+		</report>
+		<report Number="135">
+			<summary>Images shouldn't be compressed at all when unlimited size option is selected</summary>
+			<url>https://github.com/moezbhatti/qksms/issues/912</url>
+			<bugID>Issue #912</bugID>
+			<label>Bug</label>
+			<description>
+		Currently the images are always compressed at least once
+	</description>
+		</report>
+		<report Number="136">
+			<summary>Photos are sent sideways</summary>
+			<url>https://github.com/moezbhatti/qksms/issues/915</url>
+			<bugID>Issue #915</bugID>
+			<label>Bug</label>
+			<description>
+		Reported via Google Play Beta feedback - affected user has a Note 8 running Android 7.1
+	</description>
+		</report>
+		<report Number="137">
+			<summary>Potential crash when opening app for first time while offline</summary>
+			<url>https://github.com/moezbhatti/qksms/issues/918</url>
+			<bugID>Issue #918</bugID>
+			<label>Bug</label>
+			<description>
+		https://stackoverflow.com/questions/47005310/crash-when-using-custom-font-for-toolbar https://app.bugsnag.com/qk-labs/qksms/errors/5a7bddb86426b10018073b56?filters[error.status][0]=open
+	</description>
+		</report>
+		<report Number="138">
+			<summary>Marking conversation unarchived won't always work</summary>
+			<url>https://github.com/moezbhatti/qksms/issues/920</url>
+			<bugID>Issue #920</bugID>
+			<label>Bug</label>
+			<description>
+		If it's done too quickly (within a couple seconds) then it may fail on some devices This is because the realm that's used to mark it unarchived isn't in sync with the one that archived it, and it's looking for a message that's archived
+	</description>
+		</report>
+		<report Number="139">
+			<summary>App crashes when app icon in tapped</summary>
+			<url>https://github.com/moezbhatti/qksms/issues/921</url>
+			<bugID>Issue #921</bugID>
+			<label>Bug</label>
+			<description>
+		App crashes when app icon is tapped both in menu icon and home screen. Incoming message are being displayed on notification bar and when that notification are tapped they lead to app as expected but while tapping the app in menu or home screen for composing new message app crashes. Steps to reproduce the issue - Tap the app icon in either main menu or home screen Expected: Open app with threaded view Version: 2.7.3
+	</description>
+		</report>
+		<report Number="140">
+			<summary>Contact info not displayed on first launch</summary>
+			<url>https://github.com/moezbhatti/qksms/issues/926</url>
+			<bugID>Issue #926</bugID>
+			<label>Bug</label>
+			<description>
+		In ConversationsAdapter.kt, the areContentsTheSame only compares the message id and read status. It doesn't compare any of the contact info, meaning that if a contact sync occurs in the background, it won't update it on the screen until you scroll away and come back
+	</description>
+		</report>
+		<report Number="141">
+			<summary>Notification icon is broken in Beta 5</summary>
+			<url>https://github.com/moezbhatti/qksms/issues/928</url>
+			<bugID>Issue #928</bugID>
+			<label>Bug</label>
+			<description>
+		It just shows up as a circle
+	</description>
+		</report>
+		<report Number="142">
+			<summary>Avatar doesn't respect conversation theme</summary>
+			<url>https://github.com/moezbhatti/qksms/issues/933</url>
+			<bugID>Issue #933</bugID>
+			<label>Bug</label>
+			<description>
+		No description provided.
+	</description>
+		</report>
+		<report Number="143">
+			<summary>QKSMS3 beta 6 crashes on MMS (and no MMS is being received)</summary>
+			<url>https://github.com/moezbhatti/qksms/issues/934</url>
+			<bugID>Issue #934</bugID>
+			<label>Bug</label>
+			<description>
+		(Hey moezbhatti, long time no chat!) I'm running on Android 7.0 on an LG G5. Upon attempting to send an MMS message, QKSMS3 crashes. I've also noticed that I haven't received any MMS messages until I restore QKSMS 2.7.3 (or other sms app), and see the messages. They do not show up new, as they are in the message database. Here's an adb logcat of QKSMS from start, creating a new message, attaching an image, and (attempting) sending a message. https://gist.github.com/MyNameIsCosmo/4f2e515a372b456bce8d6f5cd2d66c85 EDIT: This happens on beta 5, 4, and 3 as I've tested.
+	</description>
+		</report>
+		<report Number="144">
+			<summary>Outgoing messages should remove conversation from archive</summary>
+			<url>https://github.com/moezbhatti/qksms/issues/935</url>
+			<bugID>Issue #935</bugID>
+			<label>Bug</label>
+			<description>
+		No description provided.
+	</description>
+		</report>
+		<report Number="145">
+			<summary>Keyboard not dismissed automatically</summary>
+			<url>https://github.com/moezbhatti/qksms/issues/937</url>
+			<bugID>Issue #937</bugID>
+			<label>Bug</label>
+			<description>
+		DESCRIPTION When you input data into the edit text field and then you decide to go back to parent view, you click on back arrow inside the toolbar (top right corner). However, the child to parent redirection animation is faster then the hide keyboard animation, therefore you have this behavior: As you can see even when the parent view is already displayed the keyboard is still visible for less than a second. STEPS TO REPRODUCE Open conversation view Tap search icon Tap the edit text field (if keyboard is not visible) Click the back arrow to go back to the previous view NOTE I have also observed this behavior in other views that have child-parent redirection, so i think it would be nice to deal with this issue to have better animation and user experience. I have an idea how to fix this, so i would also like to claim this issue. Will provide you with a pull request soon.
+	</description>
+		</report>
+		<report Number="146">
+			<summary>Contact name in group conversation doesn't display phone numbers</summary>
+			<url>https://github.com/moezbhatti/qksms/issues/941</url>
+			<bugID>Issue #941</bugID>
+			<label>Bug</label>
+			<description>
+		
+	</description>
+		</report>
+		<report Number="147">
+			<summary>Some text breaks when copied</summary>
+			<url>https://github.com/moezbhatti/qksms/issues/948</url>
+			<bugID>Issue #948</bugID>
+			<label>Bug</label>
+			<description>
+		If I do not make it back in time for lunch, please practice pipetting. I will also send you a list of problems for the dilution formula. Do not stress if you do not get it, as I have had to delay the study guide in order to figure out normality. 
+
+The formula is as follows:
+C1 • V1 = C2 • V2
+
+Where:
+C1 stands for the molar concentration of the first solution
+V1 stands for the volume, in the unit liters, of the first solution
+C2 is the concentration of the diluted solution 
+V2 stands for the volume of the diluted solution
+
+ This fails to copy in qksms V3 B7 but copies without a problem in the default Messenger.
+	</description>
+		</report>
+		<report Number="148">
+			<summary>Texting numbers that are not in contact</summary>
+			<url>https://github.com/moezbhatti/qksms/issues/950</url>
+			<bugID>Issue #950</bugID>
+			<label>Bug</label>
+			<description>
+		Issues start when I try to send a new message. The search bar won't allow me to and number, just letters. Hit new message button in app Try to add number to search bar at top of page.
+	</description>
+		</report>
+		<report Number="149">
+			<summary>Color avatar in conversationlist doesnt match theme color of that contact</summary>
+			<url>https://github.com/moezbhatti/qksms/issues/954</url>
+			<bugID>Issue #954</bugID>
+			<label>Bug</label>
+			<description>
+		See title
+	</description>
+		</report>
+		<report Number="150">
+			<summary>In dark modus the navigation bar is still 'white'</summary>
+			<url>https://github.com/moezbhatti/qksms/issues/955</url>
+			<bugID>Issue #955</bugID>
+			<label>Bug</label>
+			<description>
+		With navigation bar I mean the bottom bar where you go 'back - home - recent apps'. 👍 1
+	</description>
+		</report>
+		<report Number="151">
+			<summary>Title bar doesn't change color according to the theme in the overview screen (recents apps)</summary>
+			<url>https://github.com/moezbhatti/qksms/issues/957</url>
+			<bugID>Issue #957</bugID>
+			<label>Bug</label>
+			<description>
+		For example, I have dark mode enable and the title bar is white.
+	</description>
+		</report>
+		<report Number="152">
+			<summary>Beta: clicking a link or phone number in SMS crashes the app</summary>
+			<url>https://github.com/moezbhatti/qksms/issues/958</url>
+			<bugID>Issue #958</bugID>
+			<label>Bug</label>
+			<description>
+		clicking a link or phone number in SMS crashes the app Recieve an SMS with a link or phone number 2. Tap the SMS
+	</description>
+		</report>
+		<report Number="153">
+			<summary>Crash when creating new conversation</summary>
+			<url>https://github.com/moezbhatti/qksms/issues/960</url>
+			<bugID>Issue #960</bugID>
+			<label>Bug</label>
+			<description>
+		https://app.bugsnag.com/qk-labs/qksms/errors/5ac1da0248a3eb00193843c4?filters[error.status][0]=new
+	</description>
+		</report>
+		<report Number="154">
+			<summary>Empty conversations are displayed in conversation list</summary>
+			<url>https://github.com/moezbhatti/qksms/issues/961</url>
+			<bugID>Issue #961</bugID>
+			<label>Bug</label>
+			<description>
+		bad!
+	</description>
+		</report>
+		<report Number="155">
+			<summary>Sticky Notification Text</summary>
+			<url>https://github.com/moezbhatti/qksms/issues/966</url>
+			<bugID>Issue #966</bugID>
+			<label>Bug</label>
+			<description>
+		Using the latest QKSMS3 Beta 8. I received a message, read it, and any message afterwards would display as the &quot;first&quot; message in my notifications. This did not happen I'm beta 7. I won't be by a computer for the next day or so, so I cannot debug the issue fully. EX: Received message: &quot;First Message&quot; Notification: &quot;First Message&quot; Respond to message Receive another message: &quot;Second Message&quot; Notification: &quot;First Message&quot; It may also be worth noting that notifications are displayed even though qksms is open in the same chat the message was received.
+	</description>
+		</report>
+		<report Number="156">
+			<summary>Issue with Automatic Night Mode</summary>
+			<url>https://github.com/moezbhatti/qksms/issues/968</url>
+			<bugID>Issue #968</bugID>
+			<label>Bug</label>
+			<description>
+		Automatic night mode is not always turning on, I sometimes have to go in, switch it to always on and switch it back to auto to get it to take. 👍 1
+	</description>
+		</report>
+		<report Number="157">
+			<summary>Can't set app to night mode</summary>
+			<url>https://github.com/moezbhatti/qksms/issues/969</url>
+			<bugID>Issue #969</bugID>
+			<label>Bug</label>
+			<description>
+		In certain cases, trying to change to night mode just won't work
+	</description>
+		</report>
+		<report Number="158">
+			<summary>Swipe to Archive issue</summary>
+			<url>https://github.com/moezbhatti/qksms/issues/970</url>
+			<bugID>Issue #970</bugID>
+			<label>Bug</label>
+			<description>
+		When swiping to archive an old conversation it jumps up to the top so you have to scroll back down again 👍 1
+	</description>
+		</report>
+		<report Number="159">
+			<summary>Conversations all say the same date after Sync</summary>
+			<url>https://github.com/moezbhatti/qksms/issues/971</url>
+			<bugID>Issue #971</bugID>
+			<label>Bug</label>
+			<description>
+		When the conversations are synced with Android the conversations all say the day they synced until you open and close the conversation
+	</description>
+		</report>
+		<report Number="160">
+			<summary>Not able to attach pictures</summary>
+			<url>https://github.com/moezbhatti/qksms/issues/972</url>
+			<bugID>Issue #972</bugID>
+			<label>Bug</label>
+			<description>
+		When I go to attach a photo, it gives no photos to attach. This was working before beta 8 Has all permissions enabled No option to pick photos from Google Drive, Photos app
+	</description>
+		</report>
+		<report Number="161">
+			<summary>Back button is broken in gallery view</summary>
+			<url>https://github.com/moezbhatti/qksms/issues/981</url>
+			<bugID>Issue #981</bugID>
+			<label>Bug</label>
+			<description>
+		No description provided.
+	</description>
+		</report>
+		<report Number="162">
+			<summary>Should I Answer? integration should just drop messages</summary>
+			<url>https://github.com/moezbhatti/qksms/issues/989</url>
+			<bugID>Issue #989</bugID>
+			<label>Bug</label>
+			<description>
+		Right now the app will try to block the conversation, which results in a lot of unintuitive behavior When the address is marked as acceptable in SIA, then the messages will still not come through in QKSMS Already existing conversations won't respect SIA
+	</description>
+		</report>
+		<report Number="163">
+			<summary>MMS preview doesn't clip to outline</summary>
+			<url>https://github.com/moezbhatti/qksms/issues/991</url>
+			<bugID>Issue #991</bugID>
+			<label>Bug</label>
+			<description>
+		
+	</description>
+		</report>
+		<report Number="164">
+			<summary>Cannot delete images/mms in conversation thread</summary>
+			<url>https://github.com/moezbhatti/qksms/issues/994</url>
+			<bugID>Issue #994</bugID>
+			<label>Bug</label>
+			<description>
+		I can touch and hold messages to have options to delete them, but there is no clear way for me to delete received or sent mms messages. If an mms gets stuck sending, I don't have the option to delete it, it's just... There
+	</description>
+		</report>
+		<report Number="165">
+			<summary>Auto scroll to top in conversation list doesn't work</summary>
+			<url>https://github.com/moezbhatti/qksms/issues/997</url>
+			<bugID>Issue #997</bugID>
+			<label>Bug</label>
+			<description>
+		No description provided.
+	</description>
+		</report>
+		<report Number="166">
+			<summary>[BUG] Search display</summary>
+			<url>https://github.com/moezbhatti/qksms/issues/999</url>
+			<bugID>Issue #999</bugID>
+			<label>Bug</label>
+			<description>
+		Device: OnePlus 2 A2001 Version: 7.1.2 QKSMS: 3.0.3. Search inbox... -&gt; Type 'Joe Bloggs' = Returns a result Use the backspace key on the Android keyboard to delete the name 'Joe Bloggs' then returns all received messages. Search inbox... -&gt; Type 'Joe Bloggs' = Returns a result Press the X button (to the right) to delete name does not return any received messages. Inconsistent and should display the same when using both of the above methods. 👍 1
+	</description>
+		</report>
+		<report Number="167">
+			<summary>Lag while typing in compose box</summary>
+			<url>https://github.com/moezbhatti/qksms/issues/1002</url>
+			<bugID>Issue #1002</bugID>
+			<label>Bug</label>
+			<description>
+		Currently, the draft is saved every time a letter is entered into the keyboard. There has to be a better way to do this.
+	</description>
+		</report>
+		<report Number="168">
+			<summary>Messages are not marked as read even after reading them</summary>
+			<url>https://github.com/moezbhatti/qksms/issues/1003</url>
+			<bugID>Issue #1003</bugID>
+			<label>Bug</label>
+			<description>
+		This is using version 3.03 though the same problems exist with the version at the play store. Messages are not being marked as read. I get notifications, then go to the page and read the message but they are still not marked as read. I use another app called professional reminder. If I send a text to myself, and read it in qksms it still shows Quick Stop (C:0 S:1 M:0) Stop all current reminders C,S,M mean phone Calls, Sms, and Mms. I have the reminder set for every 20 minutes so it is beeping every 20 minutes which is very annoying. I don't know if this is relevant but I have QK reply turned off since I don't like it.
+	</description>
+		</report>
+		<report Number="169">
+			<summary>Blocked conversations not migrated from 2.7.3</summary>
+			<url>https://github.com/moezbhatti/qksms/issues/1005</url>
+			<bugID>Issue #1005</bugID>
+			<label>Bug</label>
+			<description>
+		No description provided.
+	</description>
+		</report>
+		<report Number="170">
+			<summary>Word not in translate-file</summary>
+			<url>https://github.com/moezbhatti/qksms/issues/1006</url>
+			<bugID>Issue #1006</bugID>
+			<label>Bug</label>
+			<description>
+		In the conversationlist, the word 'You' is not available to translate on crowdin.
+	</description>
+		</report>
+		<report Number="171">
+			<summary>Messages show up under compose bar in QkReply</summary>
+			<url>https://github.com/moezbhatti/qksms/issues/1011</url>
+			<bugID>Issue #1011</bugID>
+			<label>Bug</label>
+			<description>
+		
+	</description>
+		</report>
+		<report Number="172">
+			<summary>BUG! All is white.</summary>
+			<url>https://github.com/moezbhatti/qksms/issues/1021</url>
+			<bugID>Issue #1021</bugID>
+			<label>Bug</label>
+			<description>
+		Using the black theme. After the yesterday update all the icons and backgrounds are white with white text on them. Can't use the app. Themes are also white. All internal icons are white disks except for the FAB. Want to reinstall but there is no database backup.
+	</description>
+		</report>
+		<report Number="173">
+			<summary>Can't update to QKSMS+ if installed from f-droid without Google Account</summary>
+			<url>https://github.com/moezbhatti/qksms/issues/1025</url>
+			<bugID>Issue #1025</bugID>
+			<label>Bug</label>
+			<description>
+		I've installed QKSMS 3.0.4 from F-Droid but I haven't any Google Account, so I can't update to QKSMS+ 👍 2
+	</description>
+		</report>
+		<report Number="174">
+			<summary>Impossible to delete characters when composing new sms</summary>
+			<url>https://github.com/moezbhatti/qksms/issues/1028</url>
+			<bugID>Issue #1028</bugID>
+			<label>Bug</label>
+			<description>
+		Qksms 3.0.5 from F-droid. Tested on 2 models (Samsung Galaxy S6 Android 7.0 and bq Aquaris M5 Android 7.1.2). Click on &quot;+&quot; button to create a new conversation start typing characters in the search field at the top of the screen try to delete these characters with the &quot;back&quot; button of the virtual keyboard --&gt; nothing happens, the cursor is stuck in its place Confirmed with both ASK keyboard (any language) and Samsung keyboard. Did not exist on qksms 2.7.3
+	</description>
+		</report>
+		<report Number="175">
+			<summary>Don't show heads up notification when QK Reply is enabled</summary>
+			<url>https://github.com/moezbhatti/qksms/issues/1046</url>
+			<bugID>Issue #1046</bugID>
+			<label>Bug</label>
+			<description>
+		No description provided.
+	</description>
+		</report>
+		<report Number="176">
+			<summary>Transparent &quot;gap&quot; between compose box and send button in QK Reply window</summary>
+			<url>https://github.com/moezbhatti/qksms/issues/1053</url>
+			<bugID>Issue #1053</bugID>
+			<label>Bug</label>
+			<description>
+		This seems to be a result of the latest fix to the compose box covering the message. As you can see on the pictures, there is a transparent &quot;gap&quot; with some opacity between the right part of the compose box and the send button. 👍 1
+	</description>
+		</report>
+		<report Number="177">
+			<summary>QK Reply crashes on certain devices</summary>
+			<url>https://github.com/moezbhatti/qksms/issues/1054</url>
+			<bugID>Issue #1054</bugID>
+			<label>Bug</label>
+			<description>
+		This is because of the line notification.setCustomHeadsUpContentView(RemoteViews(Parcel.obtain()))
+	</description>
+		</report>
+		<report Number="178">
+			<summary>Strected conversation box</summary>
+			<url>https://github.com/moezbhatti/qksms/issues/1061</url>
+			<bugID>Issue #1061</bugID>
+			<label>Bug</label>
+			<description>
+		Happens every so often when I send a message. It either happens to the message I sent or the one before that 👍 1
+	</description>
+		</report>
+		<report Number="179">
+			<summary>Conversation not updated when message is sent from other app</summary>
+			<url>https://github.com/moezbhatti/qksms/issues/1070</url>
+			<bugID>Issue #1070</bugID>
+			<label>Bug</label>
+			<description>
+		Just need to add a call to MessageRepository.updateConversation() in the SyncMessage interactor
+	</description>
+		</report>
+		<report Number="180">
+			<summary>Glitchy behaviour when viewing images</summary>
+			<url>https://github.com/moezbhatti/qksms/issues/1075</url>
+			<bugID>Issue #1075</bugID>
+			<label>Bug</label>
+			<description>
+		The image height isn't calculated for the first few frames, and then it is, so the view snaps around various heights
+	</description>
+		</report>
+		<report Number="181">
+			<summary>Messages try syncing forever if setup screen is skipped on first launch</summary>
+			<url>https://github.com/moezbhatti/qksms/issues/1077</url>
+			<bugID>Issue #1077</bugID>
+			<label>Bug</label>
+			<description>
+		No description provided.
+	</description>
+		</report>
+		<report Number="182">
+			<summary>Send button not working when trying to create new conversation</summary>
+			<url>https://github.com/moezbhatti/qksms/issues/1079</url>
+			<bugID>Issue #1079</bugID>
+			<label>Bug</label>
+			<description>
+		Device info from users who reported this via email Sensa LTE (HWH715BL-Q) on Android 6.0 Huawei Honor 8 on Android 7.0 HTC Desire 530 on Android 6.0 HTC 10 on Android 8.0 Huawei P9+ on Android v. 6.0 HTC One M9 on SDK 24 Huawei Honor 7X on SDK 24 Motorola G4 Play on SDK 25 HUAWEI Mate 9 on SDK 26 HUAWEI Mate 10 Lite on SDK 24 Huawei P20 Pro on SDK 27
+	</description>
+		</report>
+		<report Number="183">
+			<summary>Notification sound not working with QK Reply enabled</summary>
+			<url>https://github.com/moezbhatti/qksms/issues/1098</url>
+			<bugID>Issue #1098</bugID>
+			<label>Bug</label>
+			<description>
+		No description provided.
+	</description>
+		</report>
+		<report Number="184">
+			<summary>Message history sometimes doesn't appear on first launch</summary>
+			<url>https://github.com/moezbhatti/qksms/issues/1107</url>
+			<bugID>Issue #1107</bugID>
+			<label>Bug</label>
+			<description>
+		No description provided.
+	</description>
+		</report>
+		<report Number="185">
+			<summary>Double tapping space bar adds a period after the space, instead of before</summary>
+			<url>https://github.com/moezbhatti/qksms/issues/1117</url>
+			<bugID>Issue #1117</bugID>
+			<label>Bug</label>
+			<description>
+		No description provided.
+	</description>
+		</report>
+		<report Number="186">
+			<summary>Notification Setting not saved when Sound set to none</summary>
+			<url>https://github.com/moezbhatti/qksms/issues/1124</url>
+			<bugID>Issue #1124</bugID>
+			<label>Bug</label>
+			<description>
+		DESCRIPTION Whenever I try to set notification sound to none, it's not taken into account. Previous settings is kept. STEPS Settings (General) -&gt; Notifications Tap &quot;Sound&quot;, then select &quot;None&quot;, press &quot;OK&quot; Back on the notifications settings screen, Sound is still the one from before. EXPECTED Sound should be set to none.
+	</description>
+		</report>
+		<report Number="187">
+			<summary>Archive state reset when not default SMS app</summary>
+			<url>https://github.com/moezbhatti/qksms/issues/1133</url>
+			<bugID>Issue #1133</bugID>
+			<label>Bug</label>
+			<description>
+		DESCRIPTION Archived messages return to the inbox if QKSMS is not the default application. STEPS Install QKSMS. Launch application, skip making QKSMS the default SMS application. Wait until database is optimized (I had to restart the application a few times for it to complete). Archive some conversations. Exit (via back button) and reopen the application, skip the prompt making QKSMS the default again. Alternate steps where QKSMS is already used as the default: Archive some conversations, if not already. Install / set another application as the default for SMS and exit. Reopen QKSMS, skip making it the default application. EXPECTED Previously archived conversations should remain archived, but instead they are all visible in the inbox list and the archived list remains empty. Tested on current latest F-Droid build, 3.1.1. Not ready to make it my daily driver for SMS just yet, but glad to hear it's back in development!
+	</description>
+		</report>
+		<report Number="188">
+			<summary>Selection state not visible in black theme</summary>
+			<url>https://github.com/moezbhatti/qksms/issues/1136</url>
+			<bugID>Issue #1136</bugID>
+			<label>Bug</label>
+			<description>
+		No description provided.
+	</description>
+		</report>
+		<report Number="189">
+			<summary>App crashing when system is set to 24 hour time</summary>
+			<url>https://github.com/moezbhatti/qksms/issues/1143</url>
+			<bugID>Issue #1143</bugID>
+			<label>Bug</label>
+			<description>
+		The default timestamps for the auto night mode settings use 12 hour time, so the date parser crashes when it tries to parse them
+	</description>
+		</report>
+		<report Number="190">
+			<summary>Crash at enabling/disabling night mode.</summary>
+			<url>https://github.com/moezbhatti/qksms/issues/1150</url>
+			<bugID>Issue #1150</bugID>
+			<label>Bug</label>
+			<description>
+		DESCRIPTION Enabling/Disabling to night mode qksms crash and restart with the change. I found that changing the default language to &quot;English&quot; just solve this problem on my device, but using another Language like &quot;Spanish&quot; or &quot;Korean&quot; the crash get triggered. I tried with another device and the crash did not happend ( With default language &quot;Spanish&quot; ) Samsung galaxy s4 GT-I9515L, 5.0.1 . My Device: Alcatel Fierce 4 5056N , Android 6.0.1 Marshmallow STEPS Go to settings. Enable/Disable night mode. Accept the error message. Open qksms again. EXPECTED Should change the theme to night mode and let the user keep using the app. OBSERVATIONS The app crash at enabling/disabling the night mode, but successfully change the colours. Spanish Korean English (Works properly) This is my first issue report on github so if the issue is not detailed enough or i skip something, sorry!
+	</description>
+		</report>
+		<report Number="191">
+			<summary>Settings - Notifications crashes app</summary>
+			<url>https://github.com/moezbhatti/qksms/issues/1151</url>
+			<bugID>Issue #1151</bugID>
+			<label>Bug</label>
+			<description>
+		Clicking Settings then Notifications crashes QKSMS. It says &quot;Unfortunately QKSMS has stopped.&quot;. This is with version 3.2.0 from the Android Play Store.
+	</description>
+		</report>
+		<report Number="192">
+			<summary>Typing contacts in new message screen</summary>
+			<url>https://github.com/moezbhatti/qksms/issues/1155</url>
+			<bugID>Issue #1155</bugID>
+			<label>Bug</label>
+			<description>
+		DESCRIPTION When I select a contact after I type in the name or part of the name, the search bar keeps the text I typed. For example, If I type Joh and select the contact John, it gives me the contact John and the partial name I typed, Joh. STEPS Click plus button to create new message thread Type the first few letters of a contact Select the contact EXPECTED The bar should only contain the contact box, not the text you type. 👍 1
+	</description>
+		</report>
+		<report Number="193">
+			<summary>Add contact doesn't work</summary>
+			<url>https://github.com/moezbhatti/qksms/issues/1166</url>
+			<bugID>Issue #1166</bugID>
+			<label>Bug</label>
+			<description>
+		When you try to add a contact, you get a dialog that says Add &quot;null&quot; to contacts?
+	</description>
+		</report>
+		<report Number="194">
+			<summary>Creating new conversation and the app crashes</summary>
+			<url>https://github.com/moezbhatti/qksms/issues/1167</url>
+			<bugID>Issue #1167</bugID>
+			<label>Bug</label>
+			<description>
+		OnePlus 5t. When pressing the '+' button, the app crashes 👍 1
+	</description>
+		</report>
+		<report Number="195">
+			<summary>Notification reply action doesn't work for group chats</summary>
+			<url>https://github.com/moezbhatti/qksms/issues/1172</url>
+			<bugID>Issue #1172</bugID>
+			<label>Bug</label>
+			<description>
+		Looks like it only uses a single address from the conversation to send the message to
+	</description>
+		</report>
+		<report Number="196">
+			<summary>Crash on startup</summary>
+			<url>https://github.com/moezbhatti/qksms/issues/1173</url>
+			<bugID>Issue #1173</bugID>
+			<label>Bug</label>
+			<description>
+		DESCRIPTION QKSMS crashes on startup. First reported by Daniel Reardon on Google Communities, here, confirmed by at least one other. Around that time other Google Communities posters were reporting issues with posts not being seen by all users, which is why there may have been no response. STEPS 1 Fire up QKSMS EXPECTED QKSMS starts and works normally. OBSERVATIONS A blank window opens, then vanishes. A system message appears &quot;Unfortunately, QKSMS has stopped.&quot; I've used the &quot;Send feedback&quot; option on the system message twice. I have no idea if it goes to the developer or Google or is silently discarded, but there are no signs it is being dealt with. Android 7.1.2, QKSMS 3,2,2 (from App info, not from the app itself, because the app doesn't start).
+	</description>
+		</report>
+		<report Number="197">
+			<summary>Navigation bar icons invisible with the light theme</summary>
+			<url>https://github.com/moezbhatti/qksms/issues/1176</url>
+			<bugID>Issue #1176</bugID>
+			<label>Bug</label>
+			<description>
+		DESCRIPTION When using the light theme, the navigation bar icons on my Huawei Nova 2i (Mate 10 Lite) running 8.0 Oreo become invisible. I've switched back to the default EMUI Explorer theme and uninstalled Navbar Apps, thinking one of them was the cause of the bug. Still the same thing. No problem with the dark mode, however. I'm using the latest v3.3.0, but I also noticed this on v3.2.2. STEPS Open QKSMS Disable dark mode (if it's on) EXPECTED The nav bar icons should be visible at all times. OBSERVATIONS The nav bar icons are invisible and the nav bar itself is black.
+	</description>
+		</report>
+		<report Number="198">
+			<summary>ShortcutBadger number do not update after sync message</summary>
+			<url>https://github.com/moezbhatti/qksms/issues/1202</url>
+			<bugID>Issue #1202</bugID>
+			<label>Bug</label>
+			<description>
+		DESCRIPTION ShortcutBadger number do not update after sync message STEPS receive a new message, and there will be a badge number '1' on the QKSMS app icon mark this message as &quot;READ&quot; using another messageing app rather than QKSMS return to QKSMS, select 'sync message' EXPECTED After sync , the message should be shown as read, and the badge number should be updated with message list. OBSERVATIONS the message is automatically marked as read, but there is still a badge number '1' on QKSMS icon. ###Auto-sync feature I used AOSP Messaging app in the past, it will automatically sync messages in background once it is launched. I wonder if you'd like to add this feature to QKSMS. 👍 1
+	</description>
+		</report>
+	</reports>

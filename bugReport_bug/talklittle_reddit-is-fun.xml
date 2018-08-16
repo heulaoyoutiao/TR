@@ -1,0 +1,822 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<reports>
+		<report Number="0">
+			<summary>reply error after rotation</summary>
+			<url>https://github.com/talklittle/reddit-is-fun/issues/11</url>
+			<bugID>Issue #11</bugID>
+			<label>bug</label>
+			<description>
+		How to recreate: -start up a reply -rotate screen after entering reply -attempt to submit Upon submitting, I get a Toast error and then when I try to cancel the reply, the program force closes.
+	</description>
+		</report>
+		<report Number="1">
+			<summary>Force closes using cyanogen and apps2sd</summary>
+			<url>https://github.com/talklittle/reddit-is-fun/issues/13</url>
+			<bugID>Issue #13</bugID>
+			<label>bug</label>
+			<description>
+		A number of users have been reporting force closes when using CyanogenMod and apps2sd, usually when returning to the Activity from another activity (viewing a link in browser then returning) Unfortunately I don't use cyanogen or apps2sd and can't reproduce the bug. Would anyone mind checking this out please? :) I wonder if running TaskKiller to free up some memory would help? EDIT: Ok, I'm going to try switchrom.sh (http://forum.xda-developers.com/showpost.php?p=4209412) and debug it myself... EDIT2: Got cyanogen installed, with its automatic apps2sd stuff. I have now indeed encountered force closes that I didn't encounter with stock rom. They mostly happen when rotating the screen. Happened again when rotating screen with login dialog onscreen. Also I get a weird bug where it doesn't load the threads list correctly the first time, and I have to refresh to get anything to show up.
+	</description>
+		</report>
+		<report Number="2">
+			<summary>Browser CPU usage</summary>
+			<url>https://github.com/talklittle/reddit-is-fun/issues/14</url>
+			<bugID>Issue #14</bugID>
+			<label>bug</label>
+			<description>
+		&quot;&quot;&quot;Hello I've been using your app on my htc magic for a while and have recently upgraded to android 1.6. Since then I have been having problems with increased battery consumption which according to my the battery use monitor is caused by the browser app. The strange thing is that it can occur even when the browser isn't active. I have investigated the problem and discovered that it is connected to 'Reddit is fun'. I can reproduce it by first starting the browser app, starting RIF, opening a link in RIF which opens in a new browser window, then closing the link with the Back key. This causes the browser app running in the background to use a steady 10 - 15% of the CPU which really sucks the juice out of my battery. It only occurs when the browser is already running in the background prior to opening the link in RIF. I am running the custom donut rom from Amon-RA and this could well be the source of the bug. If you should have a chance to try it out on another donut build, I would be most grateful to hear the result.&quot;&quot;&quot;
+	</description>
+		</report>
+		<report Number="3">
+			<summary>Remember which page of results</summary>
+			<url>https://github.com/talklittle/reddit-is-fun/issues/16</url>
+			<bugID>Issue #16</bugID>
+			<label>bug</label>
+			<description>
+		Hi, Love the app, but it needs some caching or something. Returning from a link or comments reloads the first page of results instead of the page I was on. Also rotating the screen reloads the first page when I was viewing one further in. Keep up the good work!
+	</description>
+		</report>
+		<report Number="4">
+			<summary>Light theme broken on Droid</summary>
+			<url>https://github.com/talklittle/reddit-is-fun/issues/17</url>
+			<bugID>Issue #17</bugID>
+			<label>bug</label>
+			<description>
+		Apparently people have issues with light theme on Verizon Droid phone. I think that means android version 2.0. So, need to check compatibility with different screen sizes.
+	</description>
+		</report>
+		<report Number="5">
+			<summary>Broken markdown lists. Comments cut off.</summary>
+			<url>https://github.com/talklittle/reddit-is-fun/issues/21</url>
+			<bugID>Issue #21</bugID>
+			<label>bug</label>
+			<description>
+		Hello, I really enjoy this application, but I noticed an error with the way some posts are rendered. Check out this post: http://reddit.com/r/WeAreTheMusicMakers/comments/a7wmz/heres_a_picture_of_me_in_my_studio_anyone_else/ When viewed from within 'reddit is fun', many posts with links are truncated in strange places -- notably, one by user locutor and one by user robhutten. I've only just now noticed this phenomenon, but I can recall many other instances where people had links in their posts and referred to something like &quot;the third link&quot;, which only confused me. Any thoughts? Thanks for writing this app, by the way -- it's a real lifesaver. The m.reddit.com site was my previous way to check reddit on the go.
+	</description>
+		</report>
+		<report Number="6">
+			<summary>&quot;show more comments&quot; broken in 0.8.0</summary>
+			<url>https://github.com/talklittle/reddit-is-fun/issues/22</url>
+			<bugID>Issue #22</bugID>
+			<label>bug</label>
+			<description>
+		Oops I broke show more comments. Need to implement multi-file cache for CommentsListActivity since you can have a stack of them. idea: name them comments00.dat, comments01.dat, etc. and when you load a CommentsListActivity it always loads the highest one. then pressing Back button deletes the highest one. problem: how do you drop out of the entire stack quickly? using application launcher works? problem: user enters reddit is fun from a different entrypoint. need to clear entire cache then. what happens to activity stack then?
+	</description>
+		</report>
+		<report Number="7">
+			<summary>Incorrect progress bar for threads</summary>
+			<url>https://github.com/talklittle/reddit-is-fun/issues/23</url>
+			<bugID>Issue #23</bugID>
+			<label>bug</label>
+			<description>
+		I have Reddit set to show 100 entries on the home page instead of 25. Your app correctly downloads all 100 entries, but the progress meter only goes to 25. It would be ideal if it would show the right progress.
+	</description>
+		</report>
+		<report Number="8">
+			<summary>Clicking the OP when there is selftext</summary>
+			<url>https://github.com/talklittle/reddit-is-fun/issues/24</url>
+			<bugID>Issue #24</bugID>
+			<label>bug</label>
+			<description>
+		Clicking OP doesn't bring up menu when there is selftext. This is caused by broken Android WebView behavior. Maybe I should use ugly TextView, and have it look better when markdown is eventually better implemented?
+	</description>
+		</report>
+		<report Number="9">
+			<summary>crashes on cyanogen 4.2.9.1</summary>
+			<url>https://github.com/talklittle/reddit-is-fun/issues/27</url>
+			<bugID>Issue #27</bugID>
+			<label>bug</label>
+			<description>
+		I have an issue with the app. Whenever I visit a link then press the back button from the browser, I end up on my home screen. I used Taskiller to verify that the process is no longer running after I open the browser, but before I hit the back button. This started happening a week or two ago. I'm not sure if it happened after an upgrade of the app. I'm running Cyanogenmod 4.2.9.1 I have very few other processes running, and 28MB of RAM free before running Reddit is Fun. I have a G1. I did some more testing. After a reboot the app worked fine. But then the problem came back again later in the day. I'm running Reddit is Fun (RIF), and then I open Taskiller from the persistent notification. I only ran Taskiller, and via the notification, because I wanted to launch another processes without having to go back to the home screen, or click anything in RIF. Just so I could see what happened in this case. RIF is crashing as soon as another activity begins. Apparently from an &quot;Activity pause timeout&quot;. I took a look at the Android log and this is what I found. 01-07 14:15:56.590 W/ActivityManager( 141): startActivity called from non-Activity context; forcing Intent.FLAG_ACTIVITY_NEW_TASK for: Intent { cmp=com.tni.TasKiller/.TasKiller } 01-07 14:15:57.140 W/ActivityManager( 141): Activity pause timeout for HistoryRecord{43d26f20 com.andrewshu.android.reddit/.RedditIsFun} 01-07 14:15:57.400 W/Resources( 2097): Converting to string: TypedValue{t=0x12/d=0x0 a=2 r=0x7f060004} 01-07 14:15:57.630 D/dalvikvm( 2097): GC freed 8826 objects / 489992 bytes in 153ms 01-07 14:15:57.740 I/ActivityManager( 141): Process com.andrewshu.android.reddit (pid 2188) has died. 01-07 14:15:57.740 I/ActivityManager( 141): Low Memory: No more background processes. 01-07 14:15:57.740 I/WindowManager( 141): WIN DEATH: Window{43c2dd80 com.andrewshu.android.reddit/com.andrewshu.android.reddit.RedditIsFun paused=false} 01-07 14:15:58.340 W/InputManagerService( 141): Got RemoteException sending setActive(false) notification to pid 2188 uid 10053 01-07 14:15:58.420 I/ActivityManager( 141): Displayed activity com.tni.TasKiller/.TasKiller: 1281 ms (total 1281 ms)
+	</description>
+		</report>
+		<report Number="10">
+			<summary>Reddit mail prompt</summary>
+			<url>https://github.com/talklittle/reddit-is-fun/issues/30</url>
+			<bugID>Issue #30</bugID>
+			<label>bug</label>
+			<description>
+		There's a problem with redditmail where it prompts me to read &quot;new&quot; mail that I've already read.
+	</description>
+		</report>
+		<report Number="11">
+			<summary>Incorrectly loading cached comments</summary>
+			<url>https://github.com/talklittle/reddit-is-fun/issues/32</url>
+			<bugID>Issue #32</bugID>
+			<label>bug</label>
+			<description>
+		Sometimes I'll be browsing in reddit, I'll click on a link, go to comments, and comments from my previous session will load. I'm trying to recreate it, I believe it has to do with sleeping the phone while reading comments. Hardware: Motorola Droid I downloaded the source code, fixing bugs are a great way of exploring the code repository :)
+	</description>
+		</report>
+		<report Number="12">
+			<summary>load the last viewed subreddit's comment page in position x instead of the current subreddit's</summary>
+			<url>https://github.com/talklittle/reddit-is-fun/issues/34</url>
+			<bugID>Issue #34</bugID>
+			<label>bug</label>
+			<description>
+		&quot;This happens the first time I load a comments page after switching subreddits, forcing me to go back and reload the page manually; simply refreshing doesn't seem to help.&quot;
+	</description>
+		</report>
+		<report Number="13">
+			<summary>Password input capped at 20 chars</summary>
+			<url>https://github.com/talklittle/reddit-is-fun/issues/37</url>
+			<bugID>Issue #37</bugID>
+			<label>bug</label>
+			<description>
+		http://www.reddit.com/r/Android/comments/bmxxr/a_few_reddit_is_fun_thoughts/
+	</description>
+		</report>
+		<report Number="14">
+			<summary>Messages are not marked as read if &quot;mark messages as read when I open my inbox&quot; is off in reddit account</summary>
+			<url>https://github.com/talklittle/reddit-is-fun/issues/40</url>
+			<bugID>Issue #40</bugID>
+			<label>bug</label>
+			<description>
+		It's handy not having all messages suddenly marked as read on the desktop, that way you know what you have and have not reviewed yet. If the setting is not selected then reddit is fun will not mark messages that you check as read, resulting in multiple notifications for the same message until you mark them as read in a browser.
+	</description>
+		</report>
+		<report Number="15">
+			<summary>Crash on Inbox reply, rotate. NullPointerException</summary>
+			<url>https://github.com/talklittle/reddit-is-fun/issues/43</url>
+			<bugID>Issue #43</bugID>
+			<label>bug</label>
+			<description>
+		When I go to the Inbox, go to reply to a private message, and turn my Nexus One on its side, it Force Closes.
+	</description>
+		</report>
+		<report Number="16">
+			<summary>API CHANGE: &quot;invalid subreddit&quot;</summary>
+			<url>https://github.com/talklittle/reddit-is-fun/issues/44</url>
+			<bugID>Issue #44</bugID>
+			<label>bug</label>
+			<description>
+		getting &quot;invalid subreddit&quot; for some subreddits like /r/gaming and /r/funny, excluding frontpage and bestof. I am pretty sure it's an API change with maybe the JSON object under &quot;oembed&quot; key. Along with this there does seem to be some new cool info for threads which can be incorporated in the future.
+	</description>
+		</report>
+		<report Number="17">
+			<summary>If the custom &quot;subreddit&quot; string has a space in it, app crashes.</summary>
+			<url>https://github.com/talklittle/reddit-is-fun/issues/45</url>
+			<bugID>Issue #45</bugID>
+			<label>bug</label>
+			<description>
+		If you go into a subreddit, for example &quot;android&quot; if you type &quot;an droid&quot;, the app crashes completely. App should gracefully warn the user, or better would be to simply strip the whitespace.
+	</description>
+		</report>
+		<report Number="18">
+			<summary>Screen Rotation breaks the list-item-click dialogs</summary>
+			<url>https://github.com/talklittle/reddit-is-fun/issues/46</url>
+			<bugID>Issue #46</bugID>
+			<label>bug</label>
+			<description>
+		because mVoteTargetThingInfo loses its reference...
+	</description>
+		</report>
+		<report Number="19">
+			<summary>Broken PickSubredditActivity scraper?</summary>
+			<url>https://github.com/talklittle/reddit-is-fun/issues/48</url>
+			<bugID>Issue #48</bugID>
+			<label>bug</label>
+			<description>
+		I think the scraper is broken and isn't always loading people's subreddits correctly Warrants a double check
+	</description>
+		</report>
+		<report Number="20">
+			<summary>Previous button doesn't appear on last page of a subreddit</summary>
+			<url>https://github.com/talklittle/reddit-is-fun/issues/49</url>
+			<bugID>Issue #49</bugID>
+			<label>bug</label>
+			<description>
+		The first check in ThreadsListAdapter.getView() will be true and skip the button setup if the thread count is 25 or less. Can be reproduced by going to the /r/blog subreddit.
+	</description>
+		</report>
+		<report Number="21">
+			<summary>Droid: the background image for the selected thumbnail is a Volume Control image</summary>
+			<url>https://github.com/talklittle/reddit-is-fun/issues/50</url>
+			<bugID>Issue #50</bugID>
+			<label>bug</label>
+			<description>
+		wtf? haha
+	</description>
+		</report>
+		<report Number="22">
+			<summary>Droid: thumbnails are tiny</summary>
+			<url>https://github.com/talklittle/reddit-is-fun/issues/51</url>
+			<bugID>Issue #51</bugID>
+			<label>bug</label>
+			<description>
+		No description provided.
+	</description>
+		</report>
+		<report Number="23">
+			<summary>Paid version does not log in to reddit correctly</summary>
+			<url>https://github.com/talklittle/reddit-is-fun/issues/52</url>
+			<bugID>Issue #52</bugID>
+			<label>bug</label>
+			<description>
+		When attempting to log in using the paid version, the &quot;Logging in...&quot; notification pops up and the application hangs there indefinitely. This has happened every time I have tried to log in using the paid version. Logging in still appears to work with the free version.
+	</description>
+		</report>
+		<report Number="24">
+			<summary>HTC Tattoo force close on startup</summary>
+			<url>https://github.com/talklittle/reddit-is-fun/issues/55</url>
+			<bugID>Issue #55</bugID>
+			<label>bug</label>
+			<description>
+		(low dpi screen) I think FC because I left out some of the drawables for low dpi screen. The thumbnail stuff, and list_selector_background stuff. Need to fix/test on emulator when I get the chance.
+	</description>
+		</report>
+		<report Number="25">
+			<summary>Sometimes hangs when loading new subreddit</summary>
+			<url>https://github.com/talklittle/reddit-is-fun/issues/56</url>
+			<bugID>Issue #56</bugID>
+			<label>bug</label>
+			<description>
+		Some sort of caching problem? Or deadlock (which eventually expires after like a minute) or something to do with the HttpClient? No idea. Cause could be any one of those or something else.
+	</description>
+		</report>
+		<report Number="26">
+			<summary>Context not used in comment jump</summary>
+			<url>https://github.com/talklittle/reddit-is-fun/issues/57</url>
+			<bugID>Issue #57</bugID>
+			<label>bug</label>
+			<description>
+		When following e.g. a bestof link, the context is used to retrieve the comments, but not to jump to the correct comment. remember to check indentation. sometimes context defaults to something like 3 but there are not 3 ancestors so it should really jump min(numAncestors, context)
+	</description>
+		</report>
+		<report Number="27">
+			<summary>Force Close on Android 1.5 going to Comments</summary>
+			<url>https://github.com/talklittle/reddit-is-fun/issues/59</url>
+			<bugID>Issue #59</bugID>
+			<label>bug</label>
+			<description>
+		Some users say only for comments over 200? I think it's Sense UI problem. Unfortunately I can't test this on the emulator...
+	</description>
+		</report>
+		<report Number="28">
+			<summary>Force Close sometimes from Inbox &quot;go to comment&quot;</summary>
+			<url>https://github.com/talklittle/reddit-is-fun/issues/60</url>
+			<bugID>Issue #60</bugID>
+			<label>bug</label>
+			<description>
+		probably an issue with the mJumpToCommentContext in CommentsListActivity
+	</description>
+		</report>
+		<report Number="29">
+			<summary>Default starting reddit</summary>
+			<url>https://github.com/talklittle/reddit-is-fun/issues/62</url>
+			<bugID>Issue #62</bugID>
+			<label>bug</label>
+			<description>
+		option doesn't work
+	</description>
+		</report>
+		<report Number="30">
+			<summary>Link/comments buttons unreadable after switching to landscape.</summary>
+			<url>https://github.com/talklittle/reddit-is-fun/issues/64</url>
+			<bugID>Issue #64</bugID>
+			<label>bug</label>
+			<description>
+		Sometimes when you switch your phone to landscape mode then tap an item, the link and comments buttons show up about half their normal size and the words 'link' and 'comments' are unreadable. It appears to happen on items with very long headlines that fill up the majority of the screen. My phone is an HTC Incredible.
+	</description>
+		</report>
+		<report Number="31">
+			<summary>Commenting annoyance: previous text remains</summary>
+			<url>https://github.com/talklittle/reddit-is-fun/issues/65</url>
+			<bugID>Issue #65</bugID>
+			<label>bug</label>
+			<description>
+		Commenting on a post. When commenting again on the same post, the comment dialog shows the posted text from the original comment remains
+	</description>
+		</report>
+		<report Number="32">
+			<summary>Crash on rotate after replying</summary>
+			<url>https://github.com/talklittle/reddit-is-fun/issues/66</url>
+			<bugID>Issue #66</bugID>
+			<label>bug</label>
+			<description>
+		&quot;i'm on a Motorola Droid, Bugless Beast 0.3 (aosp froyo build) the app crashes when i post a comment and then close the screen (switching the orientation back to portrait) while the &quot;sending reply&quot; dialog box is on the screen. it's consistent behavior. hope this helps!&quot;
+	</description>
+		</report>
+		<report Number="33">
+			<summary>Youtube doesn't work in in-app browser</summary>
+			<url>https://github.com/talklittle/reddit-is-fun/issues/71</url>
+			<bugID>Issue #71</bugID>
+			<label>bug</label>
+			<description>
+		possible solutions: check for youtube links in Common.launchBrowser; use external browser for those. (also need to add exceptions for other sites?) enable plugins in BrowserActivity. will probably make browser slower though. just get rid of BrowserActivity
+	</description>
+		</report>
+		<report Number="34">
+			<summary>bugs in thumbnail display</summary>
+			<url>https://github.com/talklittle/reddit-is-fun/issues/73</url>
+			<bugID>Issue #73</bugID>
+			<label>bug</label>
+			<description>
+		I've noticed a couple of bugs in the thumbnail display: Articles will sometimes show the thumbnail from a different article after scrolling around the list, clicking into articles, and coming back to the list view. It is quite easy to reproduce by just scrolling up and down the article list and watching the thumbnail change A lot of thumbnails don't load. They just show the loading icon for a long time. This happens even with no scrolling on a fast WiFi connection. I have observed this behaviour since thumbnails were first added. Nexus One running stock Android 2.2 (though this happened on 2.1 as well). current version 0.9.5
+	</description>
+		</report>
+		<report Number="35">
+			<summary>Changing orientation while viewing subreddit causes return to default subreddit</summary>
+			<url>https://github.com/talklittle/reddit-is-fun/issues/74</url>
+			<bugID>Issue #74</bugID>
+			<label>bug</label>
+			<description>
+		Steps to reproduce: From vertical orientation: Menu, Pick Subreddit Choose &quot;Android&quot; (or any other, or type a subreddit name) Change to horizontal orientation Menu, Refresh (or Sort By--anything that normally causes a reload) Will be returned to default subreddit. Changing orientation seems to cause reddit-is-fun to forget the current subreddit, so any reload will now return the default subreddit.
+	</description>
+		</report>
+		<report Number="36">
+			<summary>in-app browser should be zoomed out by default</summary>
+			<url>https://github.com/talklittle/reddit-is-fun/issues/76</url>
+			<bugID>Issue #76</bugID>
+			<label>bug</label>
+			<description>
+		No description provided.
+	</description>
+		</report>
+		<report Number="37">
+			<summary>Subreddit name on front page missing in Landscape orientation; persists when rotated to Portrait</summary>
+			<url>https://github.com/talklittle/reddit-is-fun/issues/78</url>
+			<bugID>Issue #78</bugID>
+			<label>bug</label>
+			<description>
+		Subreddit name on front page missing in Landscape orientation; persists when rotated to Portrait To reproduce: Hold device in Portrait orientation. Fire up RIF and load reddit front page. Rotate device to Landscape orientation. Subreddit names formerly placed next to &quot;NNN comments&quot; are now missing. Rotate back to Portrait; names still missing. Do a refresh and subreddit names are back. Using reddit is fun 0.9.6b on Android 2.1 on an HTC Hero.
+	</description>
+		</report>
+		<report Number="38">
+			<summary>Bulleted lists broken</summary>
+			<url>https://github.com/talklittle/reddit-is-fun/issues/79</url>
+			<bugID>Issue #79</bugID>
+			<label>bug</label>
+			<description>
+		Bulleted list display is broken. Have a look at the text that is part of this submission: http://www.reddit.com/r/IAmA/comments/czt5z/i_am_asian_american_raised_by_helicopter_parents/ The improper display holds true in comments as well.
+	</description>
+		</report>
+		<report Number="39">
+			<summary>EVO thread_click_dialog layout issue</summary>
+			<url>https://github.com/talklittle/reddit-is-fun/issues/85</url>
+			<bugID>Issue #85</bugID>
+			<label>bug</label>
+			<description>
+		I found a bug. On my EVO running stock 2.2 if I am in landscape orientation and go to a link the box for replying and link will pop up. But the buttons will be cut off. When I turn the device so it will orient in a portrait style, the title of the link turns to &quot;blah blah blah&quot; and the author is talk little. The reply and link buttons do not then work.
+	</description>
+		</report>
+		<report Number="40">
+			<summary>Retrieving threads fails continually (usually 3G) (Vodafone?)</summary>
+			<url>https://github.com/talklittle/reddit-is-fun/issues/90</url>
+			<bugID>Issue #90</bugID>
+			<label>bug</label>
+			<description>
+		Sometimes for no apparent reason, retrieving threads just keeps failing. May have different causes. Seems to happen very often for users of Vodafone 3G, who report it working fine on wifi. Reinstalling the app sometimes fixes it temporarily but then it reverts to broken behavior.
+	</description>
+		</report>
+		<report Number="41">
+			<summary>Logout bug</summary>
+			<url>https://github.com/talklittle/reddit-is-fun/issues/91</url>
+			<bugID>Issue #91</bugID>
+			<label>bug</label>
+			<description>
+		&quot;My reddit is fun app won't log me out completely when I tap log out. I can surf to a post or links then when I back, back into reddit i am logged back in. I can also surf to the next 25 posts then when the new page loads, I'm logged back in. The reason why this is important to me is I only log in to vote or comment them when I'm done I log out. I have found that when I want to view the main reddit front page after surfing the app will reload as my logged in main page losing my place. So I don't stay logged since that happens too often I'm on a Sprint HTC hero.&quot;
+	</description>
+		</report>
+		<report Number="42">
+			<summary>Allow user to cancel the &quot;please wait&quot; dialogs</summary>
+			<url>https://github.com/talklittle/reddit-is-fun/issues/93</url>
+			<bugID>Issue #93</bugID>
+			<label>bug</label>
+			<description>
+		Allow user to cancel out of it. If it's a posting action, then maybe proactively Delete the post/comment that would have occurred, just in case. Oops but it's difficult to delete it because you don't have the id until the server responds.
+	</description>
+		</report>
+		<report Number="43">
+			<summary>Need persistence objects for all screens</summary>
+			<url>https://github.com/talklittle/reddit-is-fun/issues/99</url>
+			<bugID>Issue #99</bugID>
+			<label>bug</label>
+			<description>
+		e.g., on Submit link page, if you lock screen then reopen, you lose all text in the page because savedInstanceState didn't preserve it.
+	</description>
+		</report>
+		<report Number="44">
+			<summary>Suddenly unable to pick subreddit.</summary>
+			<url>https://github.com/talklittle/reddit-is-fun/issues/100</url>
+			<bugID>Issue #100</bugID>
+			<label>bug</label>
+			<description>
+		I can go to comments of items on the start reddit and follow links, etc. If I go to the comments of an item, I can pick go to subreddit and it will take me to the subreddit no problem. If, however, I hit Menu -&gt; Pick Subreddit -&gt; type or select a subreddit, it takes me back to the previous screen. Tried uninstall and reinstall of the Reddit is Fun app to no avail. Done using a Sprint CDMA Hero running Fresh ROM 2.4.
+	</description>
+		</report>
+		<report Number="45">
+			<summary>Clicking links with dark theme [feature request]</summary>
+			<url>https://github.com/talklittle/reddit-is-fun/issues/106</url>
+			<bugID>Issue #106</bugID>
+			<label>bug</label>
+			<description>
+		When I click a link (IE an imgur link), the loading screen his white, when blinds me during dark mode when browsing at night.
+	</description>
+		</report>
+		<report Number="46">
+			<summary>Stuck on Sending dialog</summary>
+			<url>https://github.com/talklittle/reddit-is-fun/issues/107</url>
+			<bugID>Issue #107</bugID>
+			<label>bug</label>
+			<description>
+		Steps to reproduce: •Typed response to comment •Hit send •Slid down notification bar •Clicked on a new text message I had gotten •all of this was done before the message had finished sending Results: Forever frozen at the &quot;sending reply...&quot; pop-up.
+	</description>
+		</report>
+		<report Number="47">
+			<summary>Editing multiple comments in thread</summary>
+			<url>https://github.com/talklittle/reddit-is-fun/issues/109</url>
+			<bugID>Issue #109</bugID>
+			<label>bug</label>
+			<description>
+		After editing a comment, subsequent attempts to edit a comment in the same thread fail, because they bring up the edit box with the first comment in it.
+	</description>
+		</report>
+		<report Number="48">
+			<summary>Moderator mail</summary>
+			<url>https://github.com/talklittle/reddit-is-fun/issues/110</url>
+			<bugID>Issue #110</bugID>
+			<label>bug</label>
+			<description>
+		Want a way to get moderator mail
+	</description>
+		</report>
+		<report Number="49">
+			<summary>Subreddit list not refreshed at login</summary>
+			<url>https://github.com/talklittle/reddit-is-fun/issues/111</url>
+			<bugID>Issue #111</bugID>
+			<label>bug</label>
+			<description>
+		I believe the cache is not cleared when you log in, so it uses the stock list instead of pulling the personalized list, unless you manually clear the app cache.
+	</description>
+		</report>
+		<report Number="50">
+			<summary>Voting broken: only vote on one thing</summary>
+			<url>https://github.com/talklittle/reddit-is-fun/issues/118</url>
+			<bugID>Issue #118</bugID>
+			<label>bug</label>
+			<description>
+		voting on multiple things appears to cancel previous votes on other items (threads) not sure about comments, need to check that too
+	</description>
+		</report>
+		<report Number="51">
+			<summary>Go to comment broken</summary>
+			<url>https://github.com/talklittle/reddit-is-fun/issues/122</url>
+			<bugID>Issue #122</bugID>
+			<label>bug</label>
+			<description>
+		Finally figured out why. It's because of the load-on-demand feature for the comments. When jumping to comment, the list item sizes are reported as 0 or something very small. Only after loading the comment do they report the correct size. I can think of two solutions right now: load comments one at a time in order, not in getView(). jumpToComment() piggybacks, or at least waits until the desired comment has been loaded by that thread, before jumping to it. jumpToComment() fires repeatedly every 100-200ms until scrolling stops. Disadvantages are different load speed on different devices, and possibly user trying to scroll simultaneously.
+	</description>
+		</report>
+		<report Number="52">
+			<summary>[bug]No subreddits since 1.1.1</summary>
+			<url>https://github.com/talklittle/reddit-is-fun/issues/124</url>
+			<bugID>Issue #124</bugID>
+			<label>bug</label>
+			<description>
+		Ever since a few updates ago, I can't select subreddits. I choose a subreddit, but it goes right back to the page I was on and acts like I did nothing. It was working fine before, and I have changed nothing on my phone before or after that update.
+	</description>
+		</report>
+		<report Number="53">
+			<summary>Refresh profile goes to own</summary>
+			<url>https://github.com/talklittle/reddit-is-fun/issues/125</url>
+			<bugID>Issue #125</bugID>
+			<label>bug</label>
+			<description>
+		I am experiencing an issue where I go to someone elses profile, then hit refresh, it loads up my profile instead. I am on Droid, running CM 6.1.2 which is AOSP 2.2.1.
+	</description>
+		</report>
+		<report Number="54">
+			<summary>Exit without error when selecting a post's link</summary>
+			<url>https://github.com/talklittle/reddit-is-fun/issues/126</url>
+			<bugID>Issue #126</bugID>
+			<label>bug</label>
+			<description>
+		Clicking to view a posts link will just exit the activity with no action. The app does not force close or produce any errors. I'm available to assist in any debugging work needed to resolve this. Dell Streak, Android 2.2 OTA image.
+	</description>
+		</report>
+		<report Number="55">
+			<summary>Jump to comment firing too often</summary>
+			<url>https://github.com/talklittle/reddit-is-fun/issues/127</url>
+			<bugID>Issue #127</bugID>
+			<label>bug</label>
+			<description>
+		Seems like the listener is not being removed fast enough, so will sometimes jump around when you try to scroll. Maybe instead of the onKeyDown and onTouch, need the CommentsListView overriding onScrollListener()?
+	</description>
+		</report>
+		<report Number="56">
+			<summary>Tries and fails to intercept .compact links</summary>
+			<url>https://github.com/talklittle/reddit-is-fun/issues/128</url>
+			<bugID>Issue #128</bugID>
+			<label>bug</label>
+			<description>
+		Probably should not even try. I do not want to intercept the mobile site's traffic.
+	</description>
+		</report>
+		<report Number="57">
+			<summary>CommentsListActivity very slow some times</summary>
+			<url>https://github.com/talklittle/reddit-is-fun/issues/129</url>
+			<bugID>Issue #129</bugID>
+			<label>bug</label>
+			<description>
+		CommentsListActivity takes thousands of milliseconds to display comments sometimes. Doing traces with DDMS hints that the download, parsing and the post-processing is happening serially which could be hurting responsiveness. We should find a way to parse the comment JSON as it arrives. (This may have object reuse benefits as well. Jackson ObjectMapper seems to create a pretty substantial amount of object churn as it parses the input.) logcat sez: 01-03 19:32:39.429: DEBUG/CommentsListActivity.DownloadCommentsTask(29488): Content length: 22863 01-03 19:32:40.425: DEBUG/CommentsListActivity.DownloadCommentsTask(29488): Successfully got OP listing[0]: modhash null 01-03 19:32:41.488: DEBUG/Markdown(29488): linkText=And helped raise hundreds of thousands of dollars for DonorsChoose.org url=http://www.reddit.com/r/blog/comments/ddc0w/update_in_less_than_eight_hours_the_colbertrally/ title=null 01-03 19:32:42.128: DEBUG/CommentsListActivity.DownloadCommentsTask(29488): parseCommentsJSON completed
+	</description>
+		</report>
+		<report Number="58">
+			<summary>Top Text in self.posts is not displayed</summary>
+			<url>https://github.com/talklittle/reddit-is-fun/issues/130</url>
+			<bugID>Issue #130</bugID>
+			<label>bug</label>
+			<description>
+		Instead of the top comment of the OP, a red 'nsfw' followed by '0 cmnts' is displayed, the rest of the thread is fine. Didn't have this issue with the previous version.
+	</description>
+		</report>
+		<report Number="59">
+			<summary>Profile &quot;Go to thread&quot; Force Close</summary>
+			<url>https://github.com/talklittle/reddit-is-fun/issues/132</url>
+			<bugID>Issue #132</bugID>
+			<label>bug</label>
+			<description>
+		When going to my profile and long pressing a post of mine and pressing &quot;Go to thread&quot; I am getting a force close. I would send a report but I only have the option to force close.
+	</description>
+		</report>
+		<report Number="60">
+			<summary>Theme swap bug</summary>
+			<url>https://github.com/talklittle/reddit-is-fun/issues/144</url>
+			<bugID>Issue #144</bugID>
+			<label>bug</label>
+			<description>
+		(when changing to dark theme) Text changes, but background remains white. UPDATE: Works when closing app and launching a fresh instance.
+	</description>
+		</report>
+		<report Number="61">
+			<summary>Broken self posts</summary>
+			<url>https://github.com/talklittle/reddit-is-fun/issues/156</url>
+			<bugID>Issue #156</bugID>
+			<label>bug</label>
+			<description>
+		looks like the URL format of self posts has changed, so clicking them will give comment loading error.
+	</description>
+		</report>
+		<report Number="62">
+			<summary>Minor Inbox theme bug</summary>
+			<url>https://github.com/talklittle/reddit-is-fun/issues/161</url>
+			<bugID>Issue #161</bugID>
+			<label>bug</label>
+			<description>
+		&quot;I found a small bug when changing the theme. If I go to my inbox, click on a message to take me to that thread, then change the theme and hit the back button all the text of my messages in my inbox are the same color as the background. If I refresh from within the inbox it won't correct it but if I hit back again, so now I'm at the front page, and go into my inbox it will refresh and the text is the opposite color of the background. Not a big deal. I just wanted to let you know.&quot;
+	</description>
+		</report>
+		<report Number="63">
+			<summary>Comment display is incredibly slow in 1.2.0/1.2.0a/1.2.0b</summary>
+			<url>https://github.com/talklittle/reddit-is-fun/issues/164</url>
+			<bugID>Issue #164</bugID>
+			<label>bug</label>
+			<description>
+		Since the 1.2.0 update, a bug fix has caused a comment loading regression. It is possible to watch the comments physically flow down the screen as if in slow motion, and the page loading icon continues to circle for up to several minutes. 1.1.4 definitely did not have this problem. This is on an Android Eris running Gingerbread 2.3.5 after a reboot and Dalvik cache reset, though after reading a few app reviews, this is probably a problem in the app for all phones.
+	</description>
+		</report>
+		<report Number="64">
+			<summary>Dialog rotation bug</summary>
+			<url>https://github.com/talklittle/reddit-is-fun/issues/166</url>
+			<bugID>Issue #166</bugID>
+			<label>bug</label>
+			<description>
+		&quot;I just noticed a bug in the latest version in the market (1.2.0a) and wanted to let you know. If you're in a comment thread and click a comment to either up/down vote or reply, and switch orientations from landscape to portrait (or portrait-landscape-portrait), the post information changes to: &quot;Title blahblah Submitted very recently by talklittle to android&quot; I'm currently unable to get to a computer, but I can submit a more formal bug report tonight if it would help you out. This behavior is repeatable on my HTC Inspire 4G, running a modified version of Cyanogenmod 7.1.&quot;
+	</description>
+		</report>
+		<report Number="65">
+			<summary>Comment refresh screws up load order</summary>
+			<url>https://github.com/talklittle/reddit-is-fun/issues/169</url>
+			<bugID>Issue #169</bugID>
+			<label>bug</label>
+			<description>
+		&quot;I also wanted to add in that I've noticed that when I leave a page's comments and go back to it (or just refresh), that the top comments disappear and I am shown a new set of comments at the top. Also the comment numbers seem to change each time the page is refreshed. I'm using a Samsung Intercept with stock 2.2. &quot;
+	</description>
+		</report>
+		<report Number="66">
+			<summary>Crashes after replying</summary>
+			<url>https://github.com/talklittle/reddit-is-fun/issues/171</url>
+			<bugID>Issue #171</bugID>
+			<label>bug</label>
+			<description>
+		No description provided.
+	</description>
+		</report>
+		<report Number="67">
+			<summary>Password autocomplete</summary>
+			<url>https://github.com/talklittle/reddit-is-fun/issues/188</url>
+			<bugID>Issue #188</bugID>
+			<label>bug</label>
+			<description>
+		&quot;I noticed that when logging in as I type my password it appears in autocorrect above the asterisks in plain text. I am running it on Droid Incredible.&quot;
+	</description>
+		</report>
+		<report Number="68">
+			<summary>Sort by Top-Today broken</summary>
+			<url>https://github.com/talklittle/reddit-is-fun/issues/190</url>
+			<bugID>Issue #190</bugID>
+			<label>bug</label>
+			<description>
+		Looks like they removed &quot;today&quot; from the selectable time frames for Top http://www.reddit.com/top/ So, should remove from the app as well.
+	</description>
+		</report>
+		<report Number="69">
+			<summary>Comments and Thumbnails AsyncTask rendering issue</summary>
+			<url>https://github.com/talklittle/reddit-is-fun/issues/197</url>
+			<bugID>Issue #197</bugID>
+			<label>bug</label>
+			<description>
+		Seems that it's possible to sometimes trigger an off-by-some rendering issue, where the ProcessCommentSubTask is rendering a comment at index X, but due to the load more comments, it should actually be X-1+something. dunno, need to look into it more. One effect I saw is that a real comment got overwritten by a newly loaded comment, and the newly loaded comment was duplicated. But doesn't always happen. Race condition?
+	</description>
+		</report>
+		<report Number="70">
+			<summary>Gray overlay caused by no cacheColorHint</summary>
+			<url>https://github.com/talklittle/reddit-is-fun/issues/199</url>
+			<bugID>Issue #199</bugID>
+			<label>bug</label>
+			<description>
+		&quot;Any chance you could turn off the gray overlay when scrolling on the light theme? It makes things really hard to read and doesn't go away when you lift your finger sometimes.&quot; &quot;Motorola photon and Android 2.3.4. It's odd, it only sows up on the light theme and its like there is a gray overlay when scrolling that sometimes doesn't disappear. I know that's kind of ambiguous sounding, so let me know if screenshots or something would help. &quot;
+	</description>
+		</report>
+		<report Number="71">
+			<summary>don't use /r/reddit.com as the default subreddit</summary>
+			<url>https://github.com/talklittle/reddit-is-fun/issues/201</url>
+			<bugID>Issue #201</bugID>
+			<label>bug</label>
+			<description>
+		/r/reddit.com was removed, so it shouldn't be the default for submitting links.
+	</description>
+		</report>
+		<report Number="72">
+			<summary>Broken ThreadClickDialog layout on Galaxy Nexus</summary>
+			<url>https://github.com/talklittle/reddit-is-fun/issues/206</url>
+			<bugID>Issue #206</bugID>
+			<label>bug</label>
+			<description>
+		Galaxy nexus- the down vote arrow and the 'link' button are on top of one another in the UI that pops up when tapping a post. Not having the problem on my OG Droid.
+	</description>
+		</report>
+		<report Number="73">
+			<summary>Bulleted lists contain newlines</summary>
+			<url>https://github.com/talklittle/reddit-is-fun/issues/208</url>
+			<bugID>Issue #208</bugID>
+			<label>bug</label>
+			<description>
+		In #79 I converted bullets to be asterisks instead of trying to use graphical bullets. Recently I'm seeing asterisks on their own line with newlines in between.
+	</description>
+		</report>
+		<report Number="74">
+			<summary>Notifications break when shut device down</summary>
+			<url>https://github.com/talklittle/reddit-is-fun/issues/214</url>
+			<bugID>Issue #214</bugID>
+			<label>bug</label>
+			<description>
+		No description provided.
+	</description>
+		</report>
+		<report Number="75">
+			<summary>Icons are incorrect when going from browser back to reddit app</summary>
+			<url>https://github.com/talklittle/reddit-is-fun/issues/215</url>
+			<bugID>Issue #215</bugID>
+			<label>bug</label>
+			<description>
+		This happens to me often when I go to the browser after following a link in the app. When I hit back and come to the reddit app again, all the small icons are the wrong ones. Sometimes this can be fixed by scrolling and is always fixed by reloading the subreddit. Not a huge issue, just would be nice to see it fixed in future at some point. Thanks again for making such a great android reddit app!
+	</description>
+		</report>
+		<report Number="76">
+			<summary>Twitter.com broken in in-app browser</summary>
+			<url>https://github.com/talklittle/reddit-is-fun/issues/216</url>
+			<bugID>Issue #216</bugID>
+			<label>bug</label>
+			<description>
+		No description provided.
+	</description>
+		</report>
+		<report Number="77">
+			<summary>white text on light color dialogs</summary>
+			<url>https://github.com/talklittle/reddit-is-fun/issues/220</url>
+			<bugID>Issue #220</bugID>
+			<label>bug</label>
+			<description>
+		http://imgur.com/DKF9j reported by one user &quot;Running miui au.&quot; I had been assuming Dialogs had dark backgrounds by default. apparently not always true.
+	</description>
+		</report>
+		<report Number="78">
+			<summary>Slow scrolling</summary>
+			<url>https://github.com/talklittle/reddit-is-fun/issues/222</url>
+			<bugID>Issue #222</bugID>
+			<label>bug</label>
+			<description>
+		Hi there, it seems the last update has some kind of regression. With version 1.2.1.3 rif had suddenly a lot smoother scrolling. Many users confirmed this. Sadly with the latest update (version 1.2.1.5) it went in the wrong direction again. Scrolling is laggy and slow now, no matter what settings i use. It is definitely a problem with the latest version because changing back to an old version fixes the issue. Thx
+	</description>
+		</report>
+		<report Number="79">
+			<summary>Better handling of links to subreddits</summary>
+			<url>https://github.com/talklittle/reddit-is-fun/issues/224</url>
+			<bugID>Issue #224</bugID>
+			<label>bug</label>
+			<description>
+		On the main website a subreddit name such as /r/test is turned into a link to www.reddit.com/r/test. Reddit is Fun seems to pick up that these are links, and displays them accordingly, but doesn't actually link to the subreddit in question. (They do not show up in the list of links when you long press on a comment)
+	</description>
+		</report>
+		<report Number="80">
+			<summary>youtu.be links</summary>
+			<url>https://github.com/talklittle/reddit-is-fun/issues/228</url>
+			<bugID>Issue #228</bugID>
+			<label>bug</label>
+			<description>
+		Broken out from #224: A small side note, shortened youtube links with the format youtu.be (such as www.youtu.be/watch?v=cSliO89x7UU) are not passed on to the Android youtube app and instead load in the browser. This is a small annoyance, but making them be handled by the youtube app would be both more consistent and cause less frustration with watching a youtube video.
+	</description>
+		</report>
+		<report Number="81">
+			<summary>gifs broken?</summary>
+			<url>https://github.com/talklittle/reddit-is-fun/issues/229</url>
+			<bugID>Issue #229</bugID>
+			<label>bug</label>
+			<description>
+		&quot;Hey, ever since the newest update, gifs stopped working on my epic 4g touch (sprints galaxy s2). I don't know if this is an s2 things or a bigger problem. Just wanted to give you a heads up. Thanks!&quot;
+	</description>
+		</report>
+		<report Number="82">
+			<summary>Loading screen remains after errors</summary>
+			<url>https://github.com/talklittle/reddit-is-fun/issues/230</url>
+			<bugID>Issue #230</bugID>
+			<label>bug</label>
+			<description>
+		Loading screen should go away and be replaced with an error message. Right now it just stays there
+	</description>
+		</report>
+		<report Number="83">
+			<summary>Fix CookieSyncManager</summary>
+			<url>https://github.com/talklittle/reddit-is-fun/issues/242</url>
+			<bugID>Issue #242</bugID>
+			<label>bug</label>
+			<description>
+		It doesn't work at all
+	</description>
+		</report>
+		<report Number="84">
+			<summary>changing theme color to dark under settings</summary>
+			<url>https://github.com/talklittle/reddit-is-fun/issues/244</url>
+			<bugID>Issue #244</bugID>
+			<label>bug</label>
+			<description>
+		When changing theme from Light --&gt; Dark under settings and then pressing back and hitting &quot;yes, restart&quot; on the modal dialog brings you back to the home page, but does not apply settings changes. This also does not work vice versa. However, hitting the settings button and going directly to &quot;use dark theme&quot; (not going all the way into settings) will work. version: lite 2.0 device: galaxy nexus (4.0.2) carrier: verizon
+	</description>
+		</report>
+		<report Number="85">
+			<summary>hitting next does not bring up the next page</summary>
+			<url>https://github.com/talklittle/reddit-is-fun/issues/245</url>
+			<bugID>Issue #245</bugID>
+			<label>bug</label>
+			<description>
+		When hitting the &quot;next&quot; button at the bottom of the page, it will show a loading animation with &quot;page 2&quot;, but does not actually load that page. It will bring a user back to the top of the first page. version: lite 2.0 device: galaxy nexus (4.0.2) carrier: verizon
+	</description>
+		</report>
+		<report Number="86">
+			<summary>pressing &quot;back&quot; does not respect page scroll location of previous page</summary>
+			<url>https://github.com/talklittle/reddit-is-fun/issues/246</url>
+			<bugID>Issue #246</bugID>
+			<label>bug</label>
+			<description>
+		Click on a post link. Then press back, in previous versions (pre 2.0) the app would take the user back to where they were before (relative scroll location), but now it reloads the entire page and brings the user back to the top of that page. Not sure if this will bring users back to page 1, since I can't navigate beyond page 1 at the moment. Not sure if this should be marked as a feature or a bug, depending on how it's been implemented. version: lite 2.0 device: galaxy nexus (4.0.2) carrier: verizon
+	</description>
+		</report>
+		<report Number="87">
+			<summary>App doesn't handle invalid session errors</summary>
+			<url>https://github.com/talklittle/reddit-is-fun/issues/251</url>
+			<bugID>Issue #251</bugID>
+			<label>bug</label>
+			<description>
+		It took me a week to remember that I used the &quot;log out of all other sessions&quot; feature on reddit to invalidate any other sessions (this also occurs when changing the password) and that explained why I could no longer vote, comment, submit, or view my inbox using Reddit is Fun. However, Reddit is Fun never notified me that I was logged out, only said that this action cannot be completed at this time. Reddit is Fun should detect the invalid user error (I'm not sure what exact error it is right now) and prompt the user to log in, or at least notify the user that their session is no longer valid.
+	</description>
+		</report>
+		<report Number="88">
+			<summary>Images blink and vanish</summary>
+			<url>https://github.com/talklittle/reddit-is-fun/issues/253</url>
+			<bugID>Issue #253</bugID>
+			<label>bug</label>
+			<description>
+		When I click on a direct link to an image, the image is shown for a split second and then disappears. If I double click twice (zoom in, zoom out), I can see the image again. If I close the running tasks and open RIF, it works for a little while. I have One S, which never goes under 100 mb ram. The same issue applies to BaconReader. If I open links in the external browser, they load fine.
+	</description>
+		</report>
+		<report Number="89">
+			<summary>cant subscribe to subreddit</summary>
+			<url>https://github.com/talklittle/reddit-is-fun/issues/256</url>
+			<bugID>Issue #256</bugID>
+			<label>bug</label>
+			<description>
+		I tried to subscribe to r/Europe but was unable. If I search for Europe, I can navigate to it. It never populates into the list where I can hit the toggle button however. Another place I looked was in the context menu when on the actual subreddit.
+	</description>
+		</report>
+		<report Number="90">
+			<summary>Widgets change subreddit</summary>
+			<url>https://github.com/talklittle/reddit-is-fun/issues/261</url>
+			<bugID>Issue #261</bugID>
+			<label>bug</label>
+			<description>
+		I'm using version 2.4.5 on a Samsung Galaxy 2S. I have 4 widgets on one of my homescreens, each for a different subreddit. After a while they start changing to point to the same subreddit. I'm not sure, but it seems like they point to the one that's been updated most recently.
+	</description>
+		</report>
+	</reports>

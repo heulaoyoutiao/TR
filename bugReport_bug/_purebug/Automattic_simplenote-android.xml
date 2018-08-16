@@ -1,0 +1,1545 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<reports>
+		<report Number="0">
+			<summary>Pin/Unpin not working properly</summary>
+			<url>https://github.com/Automattic/simplenote-android/issues/1</url>
+			<bugID>Issue #1</bugID>
+			<label>bug</label>
+			<description>
+		No description provided.
+	</description>
+		</report>
+		<report Number="1">
+			<summary>Stickied notes don't stay at the top of the list</summary>
+			<url>https://github.com/Automattic/simplenote-android/issues/4</url>
+			<bugID>Issue #4</bugID>
+			<label>bug</label>
+			<description>
+		No description provided.
+	</description>
+		</report>
+		<report Number="2">
+			<summary>Tags don't clear properly with backspace press</summary>
+			<url>https://github.com/Automattic/simplenote-android/issues/5</url>
+			<bugID>Issue #5</bugID>
+			<label>bug</label>
+			<description>
+		When deleting a tag on my gs4 it makes me press backspace a bunch before it deletes. Can't repro in the simulator.
+	</description>
+		</report>
+		<report Number="3">
+			<summary>Can't scroll large notes</summary>
+			<url>https://github.com/Automattic/simplenote-android/issues/6</url>
+			<bugID>Issue #6</bugID>
+			<label>bug</label>
+			<description>
+		If you have a large note, you cant scroll up or down to view it.
+	</description>
+		</report>
+		<report Number="4">
+			<summary>When you edit a tag name, the cursor needs to be placed after the text, not the beginning</summary>
+			<url>https://github.com/Automattic/simplenote-android/issues/18</url>
+			<bugID>Issue #18</bugID>
+			<label>bug</label>
+			<description>
+		No description provided.
+	</description>
+		</report>
+		<report Number="5">
+			<summary>List sorting is incorrect after creating a new note</summary>
+			<url>https://github.com/Automattic/simplenote-android/issues/30</url>
+			<bugID>Issue #30</bugID>
+			<label>bug</label>
+			<description>
+		Create a new note Press back button. Observe that the new note is not at the top of the list.
+	</description>
+		</report>
+		<report Number="6">
+			<summary>Note List View loading and scrolling is laggy</summary>
+			<url>https://github.com/Automattic/simplenote-android/issues/34</url>
+			<bugID>Issue #34</bugID>
+			<label>bug</label>
+			<description>
+		ListView loading shouldn't be blocking the UI thread. The culprit is most likely Simperium/simperium-android#3.
+	</description>
+		</report>
+		<report Number="7">
+			<summary>Premium in App Purchase</summary>
+			<url>https://github.com/Automattic/simplenote-android/issues/35</url>
+			<bugID>Issue #35</bugID>
+			<label>bug</label>
+			<description>
+		The in-app purchase for Simplenote premium isn't completed, it appears to have some test data in it still.
+	</description>
+		</report>
+		<report Number="8">
+			<summary>when signing in, the &quot;shield&quot; icon if you receive an alert should not be white on a white background</summary>
+			<url>https://github.com/Automattic/simplenote-android/issues/36</url>
+			<bugID>Issue #36</bugID>
+			<label>bug</label>
+			<description>
+		No description provided.
+	</description>
+		</report>
+		<report Number="9">
+			<summary>Create a new account should be the default option on 1st launch</summary>
+			<url>https://github.com/Automattic/simplenote-android/issues/39</url>
+			<bugID>Issue #39</bugID>
+			<label>bug</label>
+			<description>
+		No description provided.
+	</description>
+		</report>
+		<report Number="10">
+			<summary>Changing orientation returns you to All Notes.</summary>
+			<url>https://github.com/Automattic/simplenote-android/issues/47</url>
+			<bugID>Issue #47</bugID>
+			<label>bug</label>
+			<description>
+		Steps to reproduce: Select a tag from the drop down to view its notes. Rotate to a different orientation. Outcome: The UI reverts to All Tags and shows the first tag in that list in the detail if orientation is landscape.
+	</description>
+		</report>
+		<report Number="11">
+			<summary>Tapping Add Note &gt; Back will spam blank notes.</summary>
+			<url>https://github.com/Automattic/simplenote-android/issues/48</url>
+			<bugID>Issue #48</bugID>
+			<label>bug</label>
+			<description>
+		To reproduce: Tap the new note button. Tap the back button without making any edits. Go to step 1. Outcome: You can spam blank notes. Maybe just delete them if blank and unedited instead?
+	</description>
+		</report>
+		<report Number="12">
+			<summary>Editing a tag moves it to the bottom of the list.</summary>
+			<url>https://github.com/Automattic/simplenote-android/issues/50</url>
+			<bugID>Issue #50</bugID>
+			<label>bug</label>
+			<description>
+		To reproduce: Go to the edit tags screen. Tap a tag and save a change. Outcome: The tag is now at the bottom of the list. Seems like it would be better to edit in place.
+	</description>
+		</report>
+		<report Number="13">
+			<summary>Tag can be added multiple times to individual note.</summary>
+			<url>https://github.com/Automattic/simplenote-android/issues/51</url>
+			<bugID>Issue #51</bugID>
+			<label>bug</label>
+			<description>
+		This feels like a bug but maybe its by design? To reproduce: Add a new note. Add a tag. Add the same tag again. Repeat if desired. Save note. Outcome: The same tag appears on the note multiple times. However it appears in the tag's list of notes only once. I think I'd expect dup tags to not appear in the edit field at all.
+	</description>
+		</report>
+		<report Number="14">
+			<summary>Screen flashes when changing orientation.</summary>
+			<url>https://github.com/Automattic/simplenote-android/issues/52</url>
+			<bugID>Issue #52</bugID>
+			<label>bug</label>
+			<description>
+		Maybe related to #47. Just rotate the device. When the layout changes there is a startling transition to black and then to the new layout. Observed on a Nexus 7.
+	</description>
+		</report>
+		<report Number="15">
+			<summary>Tag field's keyboard has a 'Next' button that does nothing.</summary>
+			<url>https://github.com/Automattic/simplenote-android/issues/53</url>
+			<bugID>Issue #53</bugID>
+			<label>bug</label>
+			<description>
+		To reproduce: Add new note. Tap into the tag field. Tap the 'Next' button on the keyboard. Outcome: Nothing happens. I'd expect the cursor to move to the next text field.
+	</description>
+		</report>
+		<report Number="16">
+			<summary>Sign in progress alert could have a better title.</summary>
+			<url>https://github.com/Automattic/simplenote-android/issues/54</url>
+			<bugID>Issue #54</bugID>
+			<label>bug</label>
+			<description>
+		When I sign into the app, a dialog is shown titled &quot;Account Setup&quot;. This seemed a little confusing since I've already set up an account and I'm just signing into the app. Could the dialog say &quot;Signing in&quot; or something similar instead?
+	</description>
+		</report>
+		<report Number="17">
+			<summary>Easy to unintentionally created incorrect tags.</summary>
+			<url>https://github.com/Automattic/simplenote-android/issues/55</url>
+			<bugID>Issue #55</bugID>
+			<label>bug</label>
+			<description>
+		Not 100% sure this is a bug per se, but this was a recurring event so I wanted to raise awareness. When typing on the Nexus 7, I noticed that the tags I was typing would be &quot;interrupted' and instead of a single tag, I'd end up with two or more tags that were word-parts of what I was trying to type. For instance: if I was adding a tag named &quot;debugging&quot;, I might end up with &quot;de&quot; &quot;ugg&quot; &quot;ng&quot;. It was hard to say if a tag was being created due to hesitation in typing or something else but its not a very good experience and seemed to happen frequently.
+	</description>
+		</report>
+		<report Number="18">
+			<summary>Detail view lingers when changing tags.</summary>
+			<url>https://github.com/Automattic/simplenote-android/issues/56</url>
+			<bugID>Issue #56</bugID>
+			<label>bug</label>
+			<description>
+		To reproduce: On a tablet, hold in landscape orientation to view the notes list and detail view. Use the dropdown to switch tags, choose one that has no notes assigned. Outcome: The list view shows the message that there are not notes, but the detail view is still showing the note from the previously selected tag.
+	</description>
+		</report>
+		<report Number="19">
+			<summary>Inertial scrolling doesn't work when viewing / editing a single note.</summary>
+			<url>https://github.com/Automattic/simplenote-android/issues/58</url>
+			<bugID>Issue #58</bugID>
+			<label>bug</label>
+			<description>
+		The note only tracks to the finger when scrolling and doesn't have any inertia.
+	</description>
+		</report>
+		<report Number="20">
+			<summary>Securely store Simperium credentials in app</summary>
+			<url>https://github.com/Automattic/simplenote-android/issues/59</url>
+			<bugID>Issue #59</bugID>
+			<label>bug</label>
+			<description>
+		Currently the credentials are in the res folder which is stored in plain text and can be read by anyone who unzips the apk.
+	</description>
+		</report>
+		<report Number="21">
+			<summary>Long delay when launching app</summary>
+			<url>https://github.com/Automattic/simplenote-android/issues/60</url>
+			<bugID>Issue #60</bugID>
+			<label>bug</label>
+			<description>
+		I'm seeing a delay of 2-4 seconds or so between the app launching and the ListView of notes populating. Also noticed a lot going on in the log at that time.
+	</description>
+		</report>
+		<report Number="22">
+			<summary>Multiple tag selection in the &quot;Edit Tags&quot; view does not highlight selected tags or delete the selected tags</summary>
+			<url>https://github.com/Automattic/simplenote-android/issues/61</url>
+			<bugID>Issue #61</bugID>
+			<label>bug</label>
+			<description>
+		No description provided.
+	</description>
+		</report>
+		<report Number="23">
+			<summary>Some notes in the trash show the option to &quot;Delete Note&quot; rather than &quot;Restore Note&quot;</summary>
+			<url>https://github.com/Automattic/simplenote-android/issues/62</url>
+			<bugID>Issue #62</bugID>
+			<label>bug</label>
+			<description>
+		I couldn't find a pattern. A note either showed one option or the other and would only show that option. A single note did switch between the two.
+	</description>
+		</report>
+		<report Number="24">
+			<summary>Note selection jumps when changing notes in landscape</summary>
+			<url>https://github.com/Automattic/simplenote-android/issues/67</url>
+			<bugID>Issue #67</bugID>
+			<label>bug</label>
+			<description>
+		Use a table in landscape Add a tag, then switch to another note. Observe that selection changes back to the first note.
+	</description>
+		</report>
+		<report Number="25">
+			<summary>Deleting Tag crashes</summary>
+			<url>https://github.com/Automattic/simplenote-android/issues/69</url>
+			<bugID>Issue #69</bugID>
+			<label>bug</label>
+			<description>
+		Open Tag list. Tap trash icon. Confirm delete. Crash.
+	</description>
+		</report>
+		<report Number="26">
+			<summary>Tag counts are incorrect for tags</summary>
+			<url>https://github.com/Automattic/simplenote-android/issues/70</url>
+			<bugID>Issue #70</bugID>
+			<label>bug</label>
+			<description>
+		Add a tag to the note and the tag count doesn't update correctly. Happens with both a new note and an existing note.
+	</description>
+		</report>
+		<report Number="27">
+			<summary>Searching should apply to selected tag or trash</summary>
+			<url>https://github.com/Automattic/simplenote-android/issues/72</url>
+			<bugID>Issue #72</bugID>
+			<label>bug</label>
+			<description>
+		When searching for a note it should respect the applied tag and only show matches for that tag.
+	</description>
+		</report>
+		<report Number="28">
+			<summary>Placeholder not shown for app in landscape after signing in</summary>
+			<url>https://github.com/Automattic/simplenote-android/issues/78</url>
+			<bugID>Issue #78</bugID>
+			<label>bug</label>
+			<description>
+		On a tablet, after you sign in when in landscape you see an empty note detail view. The placeholder should be shown instead.
+	</description>
+		</report>
+		<report Number="29">
+			<summary>UI Pause when returning to notes list from changed note</summary>
+			<url>https://github.com/Automattic/simplenote-android/issues/79</url>
+			<bugID>Issue #79</bugID>
+			<label>bug</label>
+			<description>
+		On a phone, tap on a note. Change something in the note. Press the back button Observe that there is a visible lag before you are taken back to the notes list.
+	</description>
+		</report>
+		<report Number="30">
+			<summary>Deleting currently selected tags returns to empty &quot;All Notes&quot; list</summary>
+			<url>https://github.com/Automattic/simplenote-android/issues/80</url>
+			<bugID>Issue #80</bugID>
+			<label>bug</label>
+			<description>
+		Select a tag Select Edit Tag Delete tag selected in step 1 Go back The spinner shows &quot;All Tags&quot; as the selection but the list is empty.
+	</description>
+		</report>
+		<report Number="31">
+			<summary>Reduce network and battery usage</summary>
+			<url>https://github.com/Automattic/simplenote-android/issues/82</url>
+			<bugID>Issue #82</bugID>
+			<label>bug</label>
+			<description>
+		Simplenote is using more battery than seems reasonable when compared with the amount of use the app is getting. My assumption is that once Simplenote is launched it will keep the socket connected (and therefore the WiFi and cell radios fully powered) even when the app is not displayed on screen. Ideally Simplenote should be able to tell Simperium to stop all buckets when the main activity is paused. Simperium should then complete any pending changes for each bucket and then close the websocket.
+	</description>
+		</report>
+		<report Number="32">
+			<summary>Smarter tag recounting</summary>
+			<url>https://github.com/Automattic/simplenote-android/issues/83</url>
+			<bugID>Issue #83</bugID>
+			<label>bug</label>
+			<description>
+		Instead of recounting all of the tags every time, we should keep track of the tag deltas for a note and recount only the changed/added tags.
+	</description>
+		</report>
+		<report Number="33">
+			<summary>Reindexing causes ANR message on older device</summary>
+			<url>https://github.com/Automattic/simplenote-android/issues/84</url>
+			<bugID>Issue #84</bugID>
+			<label>bug</label>
+			<description>
+		On my nexus 7 the application will hang after launch after the reindex kicks in. Seems it can't keep up.
+	</description>
+		</report>
+		<report Number="34">
+			<summary>Emptying trash takes ages on Nexus 7</summary>
+			<url>https://github.com/Automattic/simplenote-android/issues/85</url>
+			<bugID>Issue #85</bugID>
+			<label>bug</label>
+			<description>
+		Delete some notes! Empty the trash. Notes are very slowly removed from the trash. The lag is even noticeable on the GS4.
+	</description>
+		</report>
+		<report Number="35">
+			<summary>Content preview still shows the title</summary>
+			<url>https://github.com/Automattic/simplenote-android/issues/87</url>
+			<bugID>Issue #87</bugID>
+			<label>bug</label>
+			<description>
+		In the notes list I see the title twice. It should show the content preview without the title on the second line.
+	</description>
+		</report>
+		<report Number="36">
+			<summary>Tag autocomplete is slow when a user has many tags</summary>
+			<url>https://github.com/Automattic/simplenote-android/issues/88</url>
+			<bugID>Issue #88</bugID>
+			<label>bug</label>
+			<description>
+		If a user has 100's of tags, loading the autocomplete list in the tag editor pauses the UI for multiple seconds. It needs to use a CursorAdapter and probably avoid BucketCursor.getObject.
+	</description>
+		</report>
+		<report Number="37">
+			<summary>Searching causes UI pauses when the user has a large amount of notes.</summary>
+			<url>https://github.com/Automattic/simplenote-android/issues/89</url>
+			<bugID>Issue #89</bugID>
+			<label>bug</label>
+			<description>
+		No description provided.
+	</description>
+		</report>
+		<report Number="38">
+			<summary>Don't show list placeholder until after notes have been queried</summary>
+			<url>https://github.com/Automattic/simplenote-android/issues/90</url>
+			<bugID>Issue #90</bugID>
+			<label>bug</label>
+			<description>
+		The 'no notes here' placeholder shows for a split second when you relaunch the app (I think the backgrounded cursor caused this). We should not show that message until we know for sure that there are no notes.
+	</description>
+		</report>
+		<report Number="39">
+			<summary>Note disappears locally but is shown in other apps</summary>
+			<url>https://github.com/Automattic/simplenote-android/issues/92</url>
+			<bugID>Issue #92</bugID>
+			<label>bug</label>
+			<description>
+		Unconfirmed: Sign in to the app. Change your password in the web app. Return to the app and create a note. Go to settings and sign out and then in again. Observe that the note is not in the app but is synced to the web app. Fixing #91 could fix this issue?
+	</description>
+		</report>
+		<report Number="40">
+			<summary>Dismiss the keyboard after signing in</summary>
+			<url>https://github.com/Automattic/simplenote-android/issues/93</url>
+			<bugID>Issue #93</bugID>
+			<label>bug</label>
+			<description>
+		The keyboard lingers after signing in/up.
+	</description>
+		</report>
+		<report Number="41">
+			<summary>Add forgot username/password link to login form</summary>
+			<url>https://github.com/Automattic/simplenote-android/issues/94</url>
+			<bugID>Issue #94</bugID>
+			<label>bug</label>
+			<description>
+		We should probably add a link to https://simple-note.appspot.com/forgot/ from the login view.
+	</description>
+		</report>
+		<report Number="42">
+			<summary>Remove note title on editor</summary>
+			<url>https://github.com/Automattic/simplenote-android/issues/95</url>
+			<bugID>Issue #95</bugID>
+			<label>bug</label>
+			<description>
+		And add the share button back?
+	</description>
+		</report>
+		<report Number="43">
+			<summary>Delay load of keyboard in editor view</summary>
+			<url>https://github.com/Automattic/simplenote-android/issues/96</url>
+			<bugID>Issue #96</bugID>
+			<label>bug</label>
+			<description>
+		So the animation runs more smoothly...
+	</description>
+		</report>
+		<report Number="44">
+			<summary>Move the pin icon in the list view to left side</summary>
+			<url>https://github.com/Automattic/simplenote-android/issues/98</url>
+			<bugID>Issue #98</bugID>
+			<label>bug</label>
+			<description>
+		Match up with iOS/OS X
+	</description>
+		</report>
+		<report Number="45">
+			<summary>Some hanging on app resume?</summary>
+			<url>https://github.com/Automattic/simplenote-android/issues/100</url>
+			<bugID>Issue #100</bugID>
+			<label>bug</label>
+			<description>
+		Kind of a strange one, but if I leave the app open and then lock the screen, then on again I can see a visible lag in the lock screen animation. No other apps do this so it makes me think that simplenote is doing too much work when it resumes.
+	</description>
+		</report>
+		<report Number="46">
+			<summary>Title text can overlap with body text in the note editor</summary>
+			<url>https://github.com/Automattic/simplenote-android/issues/101</url>
+			<bugID>Issue #101</bugID>
+			<label>bug</label>
+			<description>
+		To reproduce: tap into a note tap in the tags field, start typing a tag tap &quot;Next&quot; on the keyboard focus changes to the editing field, start typing the title will go onto a 2nd line, but the body will not move. picture (I can't figure out how to take screenshots…): http://cl.ly/image/0D3x3T472S24
+	</description>
+		</report>
+		<report Number="47">
+			<summary>Tablet: Detail view doesn't update when changing tags</summary>
+			<url>https://github.com/Automattic/simplenote-android/issues/108</url>
+			<bugID>Issue #108</bugID>
+			<label>bug</label>
+			<description>
+		If you change to from all notes to something else like a tag or trash, the detail view won't update. I think this is because we are threading the list refresh now.
+	</description>
+		</report>
+		<report Number="48">
+			<summary>No notes shown for a while when starting app on slow connection.</summary>
+			<url>https://github.com/Automattic/simplenote-android/issues/109</url>
+			<bugID>Issue #109</bugID>
+			<label>bug</label>
+			<description>
+		I've been in Montana with EDGE connection only, and when I start the app it doesn't show the notes from the db straight away. It takes a few seconds and then it shows up. If I put the phone in airplane mode it will load the list instantly.
+	</description>
+		</report>
+		<report Number="49">
+			<summary>NPE in RemoteChange</summary>
+			<url>https://github.com/Automattic/simplenote-android/issues/112</url>
+			<bugID>Issue #112</bugID>
+			<label>bug</label>
+			<description>
+		java.lang.NullPointerException
+    at com.simperium.client.RemoteChange.isRemoveOperation(RemoteChange.java:128)
+    at com.simperium.client.Bucket.applyRemoteChange(Bucket.java:663)
+    at com.simperium.client.Channel$5.onRemote(Channel.java:167)
+    at com.simperium.client.Channel$ChangeProcessor.processRemoteChanges(Channel.java:949)
+    at com.simperium.client.Channel$ChangeProcessor.run(Channel.java:886)
+    at java.lang.Thread.run(Thread.java:856)
+	</description>
+		</report>
+		<report Number="50">
+			<summary>Tap highlight color is incorrect in TagsListActivity</summary>
+			<url>https://github.com/Automattic/simplenote-android/issues/114</url>
+			<bugID>Issue #114</bugID>
+			<label>bug</label>
+			<description>
+		Title has it.
+	</description>
+		</report>
+		<report Number="51">
+			<summary>Tag displays incorrect count after editing</summary>
+			<url>https://github.com/Automattic/simplenote-android/issues/115</url>
+			<bugID>Issue #115</bugID>
+			<label>bug</label>
+			<description>
+		Go to edit your tags Select a tag that has a count Edit the tag's name Observe that the count disappears for the edited tag
+	</description>
+		</report>
+		<report Number="52">
+			<summary>The note title can be clipped in the list view</summary>
+			<url>https://github.com/Automattic/simplenote-android/issues/116</url>
+			<bugID>Issue #116</bugID>
+			<label>bug</label>
+			<description>
+		Example in the screenshot on row 3: http://cl.ly/image/3K0U1Z242D3M
+	</description>
+		</report>
+		<report Number="53">
+			<summary>Search results disappear when going back to notes list</summary>
+			<url>https://github.com/Automattic/simplenote-android/issues/117</url>
+			<bugID>Issue #117</bugID>
+			<label>bug</label>
+			<description>
+		From beta user feedback: Search for something Tap a note in the search results. Go back to the list Observe that you are back at 'All Notes'. It should preserve your search.
+	</description>
+		</report>
+		<report Number="54">
+			<summary>Note created offline doesn't sync</summary>
+			<url>https://github.com/Automattic/simplenote-android/issues/118</url>
+			<bugID>Issue #118</bugID>
+			<label>bug</label>
+			<description>
+		Not sure if this is Simplenote or a Simperium bug? Create a note while in airplane mode Leave the app Enable data connection Return to app, notice that the note never syncs with the server. You can make a change to it, then it will sync up.
+	</description>
+		</report>
+		<report Number="55">
+			<summary>Update trash icon when remote change occurs</summary>
+			<url>https://github.com/Automattic/simplenote-android/issues/120</url>
+			<bugID>Issue #120</bugID>
+			<label>bug</label>
+			<description>
+		If you view the trash (while empty) on one device and then send a note to trash on another device, then the empty trash button doesn't reactivate on the first device when the note appears.
+	</description>
+		</report>
+		<report Number="56">
+			<summary>Signing out should clear tag filter</summary>
+			<url>https://github.com/Automattic/simplenote-android/issues/125</url>
+			<bugID>Issue #125</bugID>
+			<label>bug</label>
+			<description>
+		Select a tag from the menu Sign out Go back to list, it's still being filtered by previously selected tag that no longer exists.
+	</description>
+		</report>
+		<report Number="57">
+			<summary>NPE in NoteEditorActivity.onOptionsItemSelected</summary>
+			<url>https://github.com/Automattic/simplenote-android/issues/126</url>
+			<bugID>Issue #126</bugID>
+			<label>bug</label>
+			<description>
+		Looks like deletedNote is null in NoteEditorActivity.onOptionsItemSelected. java.lang.NullPointerException
+at com.automattic.simplenote.NoteEditorActivity.onOptionsItemSelected(NoteEditorActivity.java:101)
+at android.app.Activity.onMenuItemSelected(Activity.java:2566)
+at com.android.internal.policy.impl.PhoneWindow.onMenuItemSelected(PhoneWindow.java:986)
+at com.android.internal.view.menu.MenuBuilder.dispatchMenuItemSelected(MenuBuilder.java:735)
+at com.android.internal.view.menu.MenuItemImpl.invoke(MenuItemImpl.java:152)
+at com.android.internal.view.menu.MenuBuilder.performItemAction(MenuBuilder.java:874)
+at com.android.internal.view.menu.MenuPopupHelper.onItemClick(MenuPopupHelper.java:156)
+at android.widget.AdapterView.performItemClick(AdapterView.java:298)
+at android.widget.AbsListView.performItemClick(AbsListView.java:1100)
+at android.widget.AbsListView$PerformClick.run(AbsListView.java:2788)
+at android.widget.AbsListView$1.run(AbsListView.java:3463)
+at android.os.Handler.handleCallback(Handler.java:730)
+at android.os.Handler.dispatchMessage(Handler.java:92)
+at android.os.Looper.loop(Looper.java:137)
+at android.app.ActivityThread.main(ActivityThread.java:5103)
+at java.lang.reflect.Method.invokeNative(Native Method)
+at java.lang.reflect.Method.invoke(Method.java:525)
+at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:737)
+at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:553)
+at dalvik.system.NativeStart.main(Native Method)
+	</description>
+		</report>
+		<report Number="58">
+			<summary>NPE in NoteEditorFragment:onTagsChanged</summary>
+			<url>https://github.com/Automattic/simplenote-android/issues/127</url>
+			<bugID>Issue #127</bugID>
+			<label>bug</label>
+			<description>
+		From Google Analytics crash reports. NullPointerException (@NoteEditorFragment:onTagsChanged:282) {main}
+	</description>
+		</report>
+		<report Number="59">
+			<summary>Search is broken on landscape tablets</summary>
+			<url>https://github.com/Automattic/simplenote-android/issues/128</url>
+			<bugID>Issue #128</bugID>
+			<label>bug</label>
+			<description>
+		When you perform a search on a tablet, then tap on a note it doesn't load the note in the detail view.
+	</description>
+		</report>
+		<report Number="60">
+			<summary>App overwrites remote changes</summary>
+			<url>https://github.com/Automattic/simplenote-android/issues/129</url>
+			<bugID>Issue #129</bugID>
+			<label>bug</label>
+			<description>
+		User report, confirmed with web app: Open a note on the android app, make some changes then press the home button. Open the note in the web app, make some changes. Open the android app, notice the note doesn't sync and when you press back the changes from the web app are removed.
+	</description>
+		</report>
+		<report Number="61">
+			<summary>NPE in NoteEditorFragment</summary>
+			<url>https://github.com/Automattic/simplenote-android/issues/131</url>
+			<bugID>Issue #131</bugID>
+			<label>bug</label>
+			<description>
+		This may or may not have been fixed in 1.0.2, but placing it here for tracking: java.lang.RuntimeException: Unable to start activity ComponentInfo{com.automattic.simplenote/com.automattic.simplenote.NotesActivity}: java.lang.NullPointerException at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2097) at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2122) at android.app.ActivityThread.access$600(ActivityThread.java:140) at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1228) at android.os.Handler.dispatchMessage(Handler.java:99) at android.os.Looper.loop(Looper.java:137) at android.app.ActivityThread.main(ActivityThread.java:4895) at java.lang.reflect.Method.invokeNative(Native Method) at java.lang.reflect.Method.invoke(Method.java:511) at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:994) at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:761) at dalvik.system.NativeStart.main(Native Method) Caused by: java.lang.NullPointerException at com.automattic.simplenote.NoteEditorFragment.setNote(NoteEditorFragment.java:192) at com.automattic.simplenote.NotesActivity.onNoteSelected(NotesActivity.java:595) at com.automattic.simplenote.NotesActivity.onCreate(NotesActivity.java:182) at android.app.Activity.performCreate(Activity.java:5163) at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1094) at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2061) ... 11 more
+	</description>
+		</report>
+		<report Number="62">
+			<summary>Crash on LG Devices</summary>
+			<url>https://github.com/Automattic/simplenote-android/issues/132</url>
+			<bugID>Issue #132</bugID>
+			<label>bug</label>
+			<description>
+		Hopefully removing HTML from the strings fixed this in 1.0.2: java.lang.IllegalArgumentException: Invalid payload item type at android.util.EventLog.writeEvent(Native Method) at android.app.Activity.onMenuItemSelected(Activity.java:2716) at com.android.internal.widget.ActionBarView$3.onClick(ActionBarView.java:172) at android.view.View.performClick(View.java:4095) at android.view.View$PerformClick.run(View.java:17078) at android.os.Handler.handleCallback(Handler.java:615) at android.os.Handler.dispatchMessage(Handler.java:92) at android.os.Looper.loop(Looper.java:137) at android.app.ActivityThread.main(ActivityThread.java:4872) at java.lang.reflect.Method.invokeNative(Native Method) at java.lang.reflect.Method.invoke(Method.java:511) at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:790) at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:557) at dalvik.system.NativeStart.main(Native Method)
+	</description>
+		</report>
+		<report Number="63">
+			<summary>NPE in Activity Create</summary>
+			<url>https://github.com/Automattic/simplenote-android/issues/133</url>
+			<bugID>Issue #133</bugID>
+			<label>bug</label>
+			<description>
+		Strange one: java.lang.RuntimeException: Unable to start activity ComponentInfo{com.automattic.simplenote/com.automattic.simplenote.NotesActivity}: java.lang.NullPointerException
+at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2110)
+at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2135)
+at android.app.ActivityThread.access$700(ActivityThread.java:140)
+at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1237)
+at android.os.Handler.dispatchMessage(Handler.java:99)
+at android.os.Looper.loop(Looper.java:137)
+at android.app.ActivityThread.main(ActivityThread.java:4921)
+at java.lang.reflect.Method.invokeNative(Native Method)
+at java.lang.reflect.Method.invoke(Method.java:511)
+at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:1038)
+at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:805)
+at dalvik.system.NativeStart.main(Native Method)
+Caused by: java.lang.NullPointerException
+at com.automattic.simplenote.b.a(Unknown Source)
+at com.automattic.simplenote.NotesActivity.a(Unknown Source)
+at com.automattic.simplenote.NotesActivity.onCreate(Unknown Source)
+at android.app.Activity.performCreate(Activity.java:5188)
+at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1094)
+at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2074)
+... 11 more
+	</description>
+		</report>
+		<report Number="64">
+			<summary>Crash in landscape tablet</summary>
+			<url>https://github.com/Automattic/simplenote-android/issues/135</url>
+			<bugID>Issue #135</bugID>
+			<label>bug</label>
+			<description>
+		Opening a note in landscape on a table instantly crashes, I think because ARG_MATCH_OFFSETS is not set.
+	</description>
+		</report>
+		<report Number="65">
+			<summary>Can't unpin a note</summary>
+			<url>https://github.com/Automattic/simplenote-android/issues/136</url>
+			<bugID>Issue #136</bugID>
+			<label>bug</label>
+			<description>
+		Running develop, I can pin a note but unpinning it doesn't work.
+	</description>
+		</report>
+		<report Number="66">
+			<summary>Need dark theme version of placeholder</summary>
+			<url>https://github.com/Automattic/simplenote-android/issues/141</url>
+			<bugID>Issue #141</bugID>
+			<label>bug</label>
+			<description>
+		https://cloudup.com/ctGDniKr0qj
+	</description>
+		</report>
+		<report Number="67">
+			<summary>Crash on 4.0.3 device</summary>
+			<url>https://github.com/Automattic/simplenote-android/issues/142</url>
+			<bugID>Issue #142</bugID>
+			<label>bug</label>
+			<description>
+		Got this crash on an LG I borrowed from a pal: 11-06 20:56:21.740  21994-21994/com.automattic.simplenote E/AndroidRuntime﹕ FATAL EXCEPTION: main
+    java.lang.IllegalStateException: Couldn't read row 0, col -1 from CursorWindow.  Make sure the Cursor is initialized correctly before accessing data from it.
+            at android.database.CursorWindow.nativeGetString(Native Method)
+            at android.database.CursorWindow.getString(CursorWindow.java:442)
+            at android.database.AbstractWindowedCursor.getString(AbstractWindowedCursor.java:51)
+            at android.database.CursorWrapper.getString(CursorWrapper.java:114)
+            at android.database.CursorWrapper.getString(CursorWrapper.java:114)
+            at com.automattic.simplenote.NoteListFragment$NotesCursorAdapter.getView(NoteListFragment.java:543)
+            at android.widget.AbsListView.obtainView(AbsListView.java:2448)
+            at android.widget.ListView.makeAndAddView(ListView.java:1772)
+            at android.widget.ListView.fillSpecific(ListView.java:1318)
+            at android.widget.ListView.layoutChildren(ListView.java:1603)
+            at android.widget.AbsListView.onLayout(AbsListView.java:2299)
+            at android.view.View.layout(View.java:11375)
+            at android.view.ViewGroup.layout(ViewGroup.java:4224)
+            at android.widget.FrameLayout.onLayout(FrameLayout.java:431)
+            at android.view.View.layout(View.java:11375)
+            at android.view.ViewGroup.layout(ViewGroup.java:4224)
+            at android.widget.LinearLayout.setChildFrame(LinearLayout.java:1658)
+            at android.widget.LinearLayout.layoutVertical(LinearLayout.java:1516)
+            at android.widget.LinearLayout.onLayout(LinearLayout.java:1429)
+            at android.view.View.layout(View.java:11375)
+            at android.view.ViewGroup.layout(ViewGroup.java:4224)
+            at android.widget.LinearLayout.setChildFrame(LinearLayout.java:1658)
+            at android.widget.LinearLayout.layoutHorizontal(LinearLayout.java:1647)
+            at android.widget.LinearLayout.onLayout(LinearLayout.java:1431)
+            at android.view.View.layout(View.java:11375)
+            at android.view.ViewGroup.layout(ViewGroup.java:4224)
+            at android.widget.LinearLayout.setChildFrame(LinearLayout.java:1658)
+            at android.widget.LinearLayout.layoutHorizontal(LinearLayout.java:1647)
+            at android.widget.LinearLayout.onLayout(LinearLayout.java:1431)
+            at android.view.View.layout(View.java:11375)
+            at android.view.ViewGroup.layout(ViewGroup.java:4224)
+            at android.widget.FrameLayout.onLayout(FrameLayout.java:431)
+            at android.view.View.layout(View.java:11375)
+            at android.view.ViewGroup.layout(ViewGroup.java:4224)
+            at android.widget.LinearLayout.setChildFrame(LinearLayout.java:1658)
+            at android.widget.LinearLayout.layoutVertical(LinearLayout.java:1516)
+            at android.widget.LinearLayout.onLayout(LinearLayout.java:1429)
+            at android.view.View.layout(View.java:11375)
+            at android.view.ViewGroup.layout(ViewGroup.java:4224)
+            at android.support.v4.widget.DrawerLayout.onLayout(DrawerLayout.java:678)
+            at android.view.View.layout(View.java:11375)
+            at android.view.ViewGroup.layout(ViewGroup.java:4224)
+            at android.widget.FrameLayout.onLayout(FrameLayout.java:431)
+            at android.view.View.layout(View.java:11375)
+            at android.view.ViewGroup.layout(ViewGroup.java:4224)
+            at android.widget.LinearLayout.setChildFrame(LinearLayout.java:1658)
+            at android.widget.LinearLayout.layoutVertical(LinearLayout.java:1516)
+            at android.widget.LinearLayout.onLayout(LinearLayout.java:1429)
+            at android.view.View.layout(View.java:11375)
+            at android.view.ViewGroup.layout(ViewGroup.java:4224)
+            at android.widget.FrameLayout.onLayout(FrameLayout.java:431)
+            at android.view.View.layout(View.java:11375)
+            at android.view.ViewGroup.layout(ViewGroup.java:4224)
+            at android.view.ViewRootImpl.performTraversals(ViewRootImpl.java:1511)
+            at android.view.ViewRootImpl.handleMessage(ViewRootImpl.java:2464)
+            at android.os.Handler.dispatchMessage(Handler.java:99)
+            at android.os.Looper.loop(Looper.java:137)
+            at android.app.ActivityThread.main(ActivityThread.java:4516)
+            at java.lang.reflect.Method.invokeNative(Native Method)
+            at java.lang.reflect.Method.invoke(Method.java:511)
+            at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:791)
+            at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:558)
+            at dalvik.system.NativeStart.main(Native Method)
+	</description>
+		</report>
+		<report Number="68">
+			<summary>Tablet in landscape gets stuck in multiple choice mode</summary>
+			<url>https://github.com/Automattic/simplenote-android/issues/144</url>
+			<bugID>Issue #144</bugID>
+			<label>bug</label>
+			<description>
+		On a landscape tablet, long press to select mutliple notes. If you choose 'Done' to close the action mode, the next row you tap will bring up the action mode again.
+	</description>
+		</report>
+		<report Number="69">
+			<summary>Unexpected merge can remove note content</summary>
+			<url>https://github.com/Automattic/simplenote-android/issues/147</url>
+			<bugID>Issue #147</bugID>
+			<label>bug</label>
+			<description>
+		Turn on airplane mode. Edit an existing note by adding a new line at the end, and a few lines of content. Go to the web app and also add some content at the end of the note with more lines than what you added in the Android app. Turn off airplane mode. Now the notes are displaying different content depending on the platform. In the web app I see that it did its best to merge the content. In the Android app it appears to take whatever was in the web app and not merge in the changes that it had locally. If I make any change in the Android app it will remove all of the merged changes in the web app.
+	</description>
+		</report>
+		<report Number="70">
+			<summary>Crash when sharing to a tablet in landscape orientation</summary>
+			<url>https://github.com/Automattic/simplenote-android/issues/148</url>
+			<bugID>Issue #148</bugID>
+			<label>bug</label>
+			<description>
+		12-31 10:05:04.990    3165-3165/com.automattic.simplenote E/AndroidRuntime﹕ FATAL EXCEPTION: main
+    Process: com.automattic.simplenote, PID: 3165
+    java.lang.RuntimeException: Unable to start activity ComponentInfo{com.automattic.simplenote/com.automattic.simplenote.NotesActivity}: java.lang.NullPointerException
+            at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2195)
+            at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2245)
+            at android.app.ActivityThread.access$800(ActivityThread.java:135)
+            at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1196)
+            at android.os.Handler.dispatchMessage(Handler.java:102)
+            at android.os.Looper.loop(Looper.java:136)
+            at android.app.ActivityThread.main(ActivityThread.java:5017)
+            at java.lang.reflect.Method.invokeNative(Native Method)
+            at java.lang.reflect.Method.invoke(Method.java:515)
+            at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
+            at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
+            at dalvik.system.NativeStart.main(Native Method)
+     Caused by: java.lang.NullPointerException
+            at com.automattic.simplenote.NoteEditorFragment.setNote(NoteEditorFragment.java:225)
+            at com.automattic.simplenote.NotesActivity.onNoteSelected(NotesActivity.java:652)
+            at com.automattic.simplenote.NotesActivity.onCreate(NotesActivity.java:198)
+            at android.app.Activity.performCreate(Activity.java:5231)
+            at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1087)
+            at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2159)
+            at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2245)
+            at android.app.ActivityThread.access$800(ActivityThread.java:135)
+            at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1196)
+            at android.os.Handler.dispatchMessage(Handler.java:102)
+            at android.os.Looper.loop(Looper.java:136)
+            at android.app.ActivityThread.main(ActivityThread.java:5017)
+            at java.lang.reflect.Method.invokeNative(Native Method)
+            at java.lang.reflect.Method.invoke(Method.java:515)
+            at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:779)
+            at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:595)
+            at dalvik.system.NativeStart.main(Native Method)
+	</description>
+		</report>
+		<report Number="71">
+			<summary>Creating tags with special chars won't show in drawer list.</summary>
+			<url>https://github.com/Automattic/simplenote-android/issues/152</url>
+			<bugID>Issue #152</bugID>
+			<label>bug</label>
+			<description>
+		Start a new note. Enter 'Ötest' as a new tag. Return to the notes list and open the navigation drawer. Observe that the new tag is not in the list, but it is still there in the note editor.
+	</description>
+		</report>
+		<report Number="72">
+			<summary>Crash when searching on older samsung devices</summary>
+			<url>https://github.com/Automattic/simplenote-android/issues/154</url>
+			<bugID>Issue #154</bugID>
+			<label>bug</label>
+			<description>
+		Devices: Galaxy S3, Galaxy S3 Mini, Galaxy Note II, etc: java.lang.NullPointerException
+at android.text.Layout.isRtlCharAt(Layout.java:722)
+at android.widget.TextView.checkForRelayout(TextView.java:6576)
+at android.widget.TextView.setText(TextView.java:3727)
+at android.widget.TextView.setText(TextView.java:3585)
+at android.widget.TextView.setText(TextView.java:3560)
+at com.automattic.simplenote.NoteListFragment$NotesCursorAdapter.getView(Unknown Source)
+at android.widget.AbsListView.obtainView(AbsListView.java:2449)
+at android.widget.ListView.makeAndAddView(ListView.java:1775)
+at android.widget.ListView.fillSpecific(ListView.java:1324)
+at android.widget.ListView.layoutChildren(ListView.java:1606)
+at android.widget.AbsListView.onLayout(AbsListView.java:2300)
+at android.view.View.layout(View.java:13856)
+at android.view.ViewGroup.layout(ViewGroup.java:4424)
+at android.widget.FrameLayout.onLayout(FrameLayout.java:448)
+at android.view.View.layout(View.java:13856)
+at android.view.ViewGroup.layout(ViewGroup.java:4424)
+at android.widget.LinearLayout.setChildFrame(LinearLayout.java:1655)
+at android.widget.LinearLayout.layoutVertical(LinearLayout.java:1513)
+at android.widget.LinearLayout.onLayout(LinearLayout.java:1426)
+at android.view.View.layout(View.java:13856)
+at android.view.ViewGroup.layout(ViewGroup.java:4424)
+at android.widget.LinearLayout.setChildFrame(LinearLayout.java:1655)
+at android.widget.LinearLayout.layoutHorizontal(LinearLayout.java:1644)
+at android.widget.LinearLayout.onLayout(LinearLayout.java:1428)
+at android.view.View.layout(View.java:13856)
+at android.view.ViewGroup.layout(ViewGroup.java:4424)
+at android.widget.LinearLayout.setChildFrame(LinearLayout.java:1655)
+at android.widget.LinearLayout.layoutHorizontal(LinearLayout.java:1644)
+at android.widget.LinearLayout.onLayout(LinearLayout.java:1428)
+at android.view.View.layout(View.java:13856)
+at android.view.ViewGroup.layout(ViewGroup.java:4424)
+at android.widget.FrameLayout.onLayout(FrameLayout.java:448)
+at android.view.View.layout(View.java:13856)
+at android.view.ViewGroup.layout(ViewGroup.java:4424)
+at android.widget.LinearLayout.setChildFrame(LinearLayout.java:1655)
+at android.widget.LinearLayout.layoutVertical(LinearLayout.java:1513)
+at android.widget.LinearLayout.onLayout(LinearLayout.java:1426)
+at android.view.View.layout(View.java:13856)
+at android.view.ViewGroup.layout(ViewGroup.java:4424)
+at android.support.v4.widget.DrawerLayout.onLayout(Unknown Source)
+at android.view.View.layout(View.java:13856)
+at android.view.ViewGroup.layout(ViewGroup.java:4424)
+at android.widget.FrameLayout.onLayout(FrameLayout.java:448)
+at android.view.View.layout(View.java:13856)
+at android.view.ViewGroup.layout(ViewGroup.java:4424)
+at android.widget.LinearLayout.setChildFrame(LinearLayout.java:1655)
+at android.widget.LinearLayout.layoutVertical(LinearLayout.java:1513)
+at android.widget.LinearLayout.onLayout(LinearLayout.java:1426)
+at android.view.View.layout(View.java:13856)
+at android.view.ViewGroup.layout(ViewGroup.java:4424)
+at android.widget.FrameLayout.onLayout(FrameLayout.java:448)
+at android.view.View.layout(View.java:13856)
+at android.view.ViewGroup.layout(ViewGroup.java:4424)
+at android.view.ViewRootImpl.performLayout(ViewRootImpl.java:1992)
+at android.view.ViewRootImpl.performTraversals(ViewRootImpl.java:1813)
+at android.view.ViewRootImpl.doTraversal(ViewRootImpl.java:1113)
+at android.view.ViewRootImpl$TraversalRunnable.run(ViewRootImpl.java:4481)
+at android.view.Choreographer$CallbackRecord.run(Choreographer.java:725)
+at android.view.Choreographer.doCallbacks(Choreographer.java:555)
+at android.view.Choreographer.doFrame(Choreographer.java:525)
+at android.view.Choreographer$FrameDisplayEventReceiver.run(Choreographer.java:711)
+at android.os.Handler.handleCallback(Handler.java:615)
+at android.os.Handler.dispatchMessage(Handler.java:92)
+at android.os.Looper.loop(Looper.java:137)
+at android.app.ActivityThread.main(ActivityThread.java:4856)
+at java.lang.reflect.Method.invokeNative(Native Method)
+at java.lang.reflect.Method.invoke(Method.java:511)
+at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:1007)
+at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:774)
+at dalvik.system.NativeStart.main(Native Method)
+	</description>
+		</report>
+		<report Number="73">
+			<summary>MatchOffsetHighlighter gives invalid indices</summary>
+			<url>https://github.com/Automattic/simplenote-android/issues/162</url>
+			<bugID>Issue #162</bugID>
+			<label>bug</label>
+			<description>
+		java.lang.IndexOutOfBoundsException: setSpan (-448 ... -452) has end before start
+at android.text.SpannableStringBuilder.checkRange(SpannableStringBuilder.java:1009)
+at android.text.SpannableStringBuilder.setSpan(SpannableStringBuilder.java:592)
+at android.text.SpannableStringBuilder.setSpan(SpannableStringBuilder.java:588)
+at com.automattic.simplenote.utils.MatchOffsetHighlighter$DefaultMatcher.onMatch(Unknown Source)
+at com.automattic.simplenote.utils.MatchOffsetHighlighter$1$1.run(Unknown Source)
+at android.os.Handler.handleCallback(Handler.java:725)
+at android.os.Handler.dispatchMessage(Handler.java:92)
+at android.os.Looper.loop(Looper.java:153)
+at android.app.ActivityThread.main(ActivityThread.java:5299)
+at java.lang.reflect.Method.invokeNative(Native Method)
+at java.lang.reflect.Method.invoke(Method.java:511)
+at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:833)
+at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:600)
+at dalvik.system.NativeStart.main(Native Method)
+	</description>
+		</report>
+		<report Number="74">
+			<summary>trashNoteTask cursor index out of bounds</summary>
+			<url>https://github.com/Automattic/simplenote-android/issues/163</url>
+			<bugID>Issue #163</bugID>
+			<label>bug</label>
+			<description>
+		java.lang.RuntimeException: An error occured while executing doInBackground()
+at android.os.AsyncTask$3.done(AsyncTask.java:299)
+at java.util.concurrent.FutureTask.finishCompletion(FutureTask.java:352)
+at java.util.concurrent.FutureTask.setException(FutureTask.java:219)
+at java.util.concurrent.FutureTask.run(FutureTask.java:239)
+at android.os.AsyncTask$SerialExecutor$1.run(AsyncTask.java:230)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1080)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:573)
+at java.lang.Thread.run(Thread.java:841)
+Caused by: android.database.CursorIndexOutOfBoundsException: Index 1 requested, with a size of 1
+at android.database.AbstractCursor.checkPosition(AbstractCursor.java:424)
+at android.database.AbstractWindowedCursor.checkPosition(AbstractWindowedCursor.java:136)
+at android.database.AbstractWindowedCursor.getString(AbstractWindowedCursor.java:50)
+at android.database.CursorWrapper.getString(CursorWrapper.java:114)
+at com.simperium.android.PersistentStore$ObjectCursor.getSimperiumKey(Unknown Source)
+at com.simperium.client.Bucket$BucketCursor.getSimperiumKey(Unknown Source)
+at com.simperium.client.Bucket$BucketCursor.getObject(Unknown Source)
+at com.automattic.simplenote.NoteListFragment$NotesCursorAdapter.changeCursor(Unknown Source)
+                                                                 getItem
+at com.automattic.simplenote.NoteListFragment$trashNotesTask.doInBackground(Unknown Source)
+                                                             onPostExecute
+at com.automattic.simplenote.NoteListFragment$trashNotesTask.doInBackground(Unknown Source)
+at android.os.AsyncTask$2.call(AsyncTask.java:287)
+at java.util.concurrent.FutureTask.run(FutureTask.java:234)
+... 4 more
+	</description>
+		</report>
+		<report Number="75">
+			<summary>Note content loss on landscape tablet</summary>
+			<url>https://github.com/Automattic/simplenote-android/issues/165</url>
+			<bugID>Issue #165</bugID>
+			<label>bug</label>
+			<description>
+		I was able to reproduce this after reading a user comment. This is a nexus 7 in landscape: Create a new note. Quicky add some content. Press the home button. Kill the app. Return to the app, and the new note will be there, but will be empty.
+	</description>
+		</report>
+		<report Number="76">
+			<summary>Note duplication</summary>
+			<url>https://github.com/Automattic/simplenote-android/issues/166</url>
+			<bugID>Issue #166</bugID>
+			<label>bug</label>
+			<description>
+		Unconfirmed user report: Created a note Saved the note Went to the note to add a tag Added a tag and removed it quickly Went back to main screen to see that this note was duplicated many times
+	</description>
+		</report>
+		<report Number="77">
+			<summary>Respect markdown setting</summary>
+			<url>https://github.com/Automattic/simplenote-android/issues/173</url>
+			<bugID>Issue #173</bugID>
+			<label>bug</label>
+			<description>
+		While Simplenote on Android ignores anything about markdown, the web app allows users to mark notes as &quot;Markdown formatted&quot; which in turn: Shows a &quot;Preview&quot; option in the web editor Renders a published note through a markdown to HTML renderer. The Android app should not modify this property for a note. The problem as steps: Open web editor (https://simple-note.appspot.com) Click on the info icon for the note Check &quot;Markdown formatted&quot; in the the modal overlay Open the Android app Edit the note from step 3 in the android app Return to the web app to see that the note is no longer marked as &quot;Markdown formatted&quot; What should happen? The note should still be &quot;Markdown formatted&quot; even though it was edited from the android app.
+	</description>
+		</report>
+		<report Number="78">
+			<summary>App attempts to continuously connect to Simperium even without internet connection</summary>
+			<url>https://github.com/Automattic/simplenote-android/issues/176</url>
+			<bugID>Issue #176</bugID>
+			<label>bug</label>
+			<description>
+		Switch to airplane mode Launch app Will see failed attempts to connect to Simperium every second (Note: was attempting to connect to Simperium even though not logged in) 03-26 15:26:33.309    8330-8514/com.automattic.simplenote E/Simperium.Websocket﹕ Error: java.net.UnknownHostException: Unable to resolve host &quot;api.simperium.com&quot;: No address associated with hostname
+03-26 15:26:33.309    8330-8514/com.automattic.simplenote D/Simperium﹕ Retrying in 3032
+03-26 15:26:36.340    8330-8516/com.automattic.simplenote D/Simperium.Websocket﹕ Connecting to wss://api.simperium.com/sock/1/interval-partitions-693/websocket
+03-26 15:26:36.348    8330-8517/com.automattic.simplenote E/Simperium.Websocket﹕ Error: java.net.UnknownHostException: Unable to resolve host &quot;api.simperium.com&quot;: No address associated with hostname
+03-26 15:26:36.348    8330-8517/com.automattic.simplenote D/Simperium﹕ Retrying in 3033
+	</description>
+		</report>
+		<report Number="79">
+			<summary>Don't show &quot;Empty Trash&quot; icon when no items in Trash</summary>
+			<url>https://github.com/Automattic/simplenote-android/issues/179</url>
+			<bugID>Issue #179</bugID>
+			<label>bug</label>
+			<description>
+		No point in showing it, even if it's disabled. The disabled state doesn't look very disabled anyway.
+	</description>
+		</report>
+		<report Number="80">
+			<summary>Remember active list when returning to Notes List</summary>
+			<url>https://github.com/Automattic/simplenote-android/issues/180</url>
+			<bugID>Issue #180</bugID>
+			<label>bug</label>
+			<description>
+		Switch to Trash (or a tag) from the Drawer Go to Settings from the ActionBar Back Button Return to &quot;All Notes&quot; View Same thing happens if you switch to an alternate list, go home (or another app), and then return to Simplenote.
+	</description>
+		</report>
+		<report Number="81">
+			<summary>Editing Lag on Large Notes</summary>
+			<url>https://github.com/Automattic/simplenote-android/issues/189</url>
+			<bugID>Issue #189</bugID>
+			<label>bug</label>
+			<description>
+		Add a really large note via webapp (I used 100 paragraphs from http://www.lipsum.com) Open note in Android app Start typing a sentence; initials letters are fast but get progressively slower (in some cases, a second or more to produce a single letter) and keyboard starts to lag as well the faster you type.
+	</description>
+		</report>
+		<report Number="82">
+			<summary>IndexOutOfBoundsException when setting span</summary>
+			<url>https://github.com/Automattic/simplenote-android/issues/199</url>
+			<bugID>Issue #199</bugID>
+			<label>bug</label>
+			<description>
+		This is like #162 but occurs in the NoteListFragment when searching. java.lang.IndexOutOfBoundsException: setSpan (365 ... 359) has end before start
+at android.text.SpannableStringBuilder.checkRange(SpannableStringBuilder.java:1009)
+at android.text.SpannableStringBuilder.setSpan(SpannableStringBuilder.java:592)
+at android.text.SpannableStringBuilder.setSpan(SpannableStringBuilder.java:588)
+at android.widget.SpellChecker$SpellParser.setRangeSpan(SpellChecker.java:536)
+at android.widget.SpellChecker$SpellParser.parse(SpellChecker.java:736)
+at android.widget.SpellChecker$1.run(SpellChecker.java:444)
+at android.os.Handler.handleCallback(Handler.java:733)
+at android.os.Handler.dispatchMessage(Handler.java:95)
+at android.os.Looper.loop(Looper.java:136)
+at android.app.ActivityThread.main(ActivityThread.java:5102)
+at java.lang.reflect.Method.invokeNative(Native Method)
+at java.lang.reflect.Method.invoke(Method.java:515)
+at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:785)
+at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:601)
+at dalvik.system.NativeStart.main(Native Method)
+	</description>
+		</report>
+		<report Number="83">
+			<summary>Editor activity is stopped when launching app again</summary>
+			<url>https://github.com/Automattic/simplenote-android/issues/202</url>
+			<bugID>Issue #202</bugID>
+			<label>bug</label>
+			<description>
+		I think using singleTask is causing an issue: Start app Edit a note Press home button Launch app from launcher or home screen Instead of being back at the note editor, you're at the list view.
+	</description>
+		</report>
+		<report Number="84">
+			<summary>Retrieving outdated note from Simperium</summary>
+			<url>https://github.com/Automattic/simplenote-android/issues/203</url>
+			<bugID>Issue #203</bugID>
+			<label>bug</label>
+			<description>
+		Problem with Simperium's cache not getting updated? User report: The trouble is that changes to the note are not reflected on the screen. For example I make a change to the note and step back into the note list. I can see in the summary that the changes are there. But when I step back into the note the changes are missing. I thought it was a network issue and the charges were not getting saved. However that is not the case. I logged into the desktop app and I could see those changes. This is happening time and again and is very frustrating.
+	</description>
+		</report>
+		<report Number="85">
+			<summary>Saving an unchanged note will cause it to not Sync</summary>
+			<url>https://github.com/Automattic/simplenote-android/issues/204</url>
+			<bugID>Issue #204</bugID>
+			<label>bug</label>
+			<description>
+		Might be a Simperium issue, but I noticed that if you call Note.save() after loading a note, it gets stuck and won't sync with Simperium unless you restart.
+	</description>
+		</report>
+		<report Number="86">
+			<summary>Note content duplication</summary>
+			<url>https://github.com/Automattic/simplenote-android/issues/208</url>
+			<bugID>Issue #208</bugID>
+			<label>bug</label>
+			<description>
+		There's been a few reports of notes repeating content. From a user: From my experience it seems to happen at random...
+I can't say for sure, but I seem to recall that a lot of the times I open
+up the app on my phone to quickly add / paste something to a note and then
+close it and put the phone to sleep, only to find out a few hours later
+that it's mangled when I look at it on my desktop. The curious thing,
+though, is that it looks fine when I open it on my phone again. Last time
+this happened, I moved the note to the trash, then restored it (all of this
+from the app on my phone), and when it synced the note was back to normal
+on all clients.
+	</description>
+		</report>
+		<report Number="87">
+			<summary>Blank notes list after signing out/in with different account</summary>
+			<url>https://github.com/Automattic/simplenote-android/issues/210</url>
+			<bugID>Issue #210</bugID>
+			<label>bug</label>
+			<description>
+		Observed on Develop: Sign in to an account, notes load. Sign out of the account and sign in with a different account. Observe that the notes list is blank.
+	</description>
+		</report>
+		<report Number="88">
+			<summary>Empty trash task should use thread pool executor</summary>
+			<url>https://github.com/Automattic/simplenote-android/issues/213</url>
+			<bugID>Issue #213</bugID>
+			<label>bug</label>
+			<description>
+		emptyTrashTask should use the thread pool so it is run parallel.
+	</description>
+		</report>
+		<report Number="89">
+			<summary>IllegalStateException when bulk deleting notes</summary>
+			<url>https://github.com/Automattic/simplenote-android/issues/215</url>
+			<bugID>Issue #215</bugID>
+			<label>bug</label>
+			<description>
+		java.lang.RuntimeException: An error occured while executing doInBackground()
+            at android.os.AsyncTask$3.done(AsyncTask.java:300)
+            at java.util.concurrent.FutureTask.finishCompletion(FutureTask.java:355)
+            at java.util.concurrent.FutureTask.setException(FutureTask.java:222)
+            at java.util.concurrent.FutureTask.run(FutureTask.java:242)
+            at android.os.AsyncTask$SerialExecutor$1.run(AsyncTask.java:231)
+            at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1112)
+            at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:587)
+            at java.lang.Thread.run(Thread.java:841)
+     Caused by: java.lang.IllegalStateException: Couldn't read row 0, col 0 from CursorWindow.  Make sure the Cursor is initialized correctly before accessing data from it.
+            at android.database.CursorWindow.nativeGetLong(Native Method)
+            at android.database.CursorWindow.getLong(CursorWindow.java:511)
+            at android.database.AbstractWindowedCursor.getLong(AbstractWindowedCursor.java:75)
+            at android.database.AbstractCursor.moveToPosition(AbstractCursor.java:220)
+            at android.database.CursorWrapper.moveToPosition(CursorWrapper.java:162)
+            at android.database.CursorWrapper.moveToPosition(CursorWrapper.java:162)
+            at com.automattic.simplenote.NoteListFragment$NotesCursorAdapter.getItem(NoteListFragment.java:508)
+            at com.automattic.simplenote.NoteListFragment$trashNotesTask.doInBackground(NoteListFragment.java:714)
+            at com.automattic.simplenote.NoteListFragment$trashNotesTask.doInBackground(NoteListFragment.java:705)
+            at android.os.AsyncTask$2.call(AsyncTask.java:288)
+            at java.util.concurrent.FutureTask.run(FutureTask.java:237)
+            at android.os.AsyncTask$SerialExecutor$1.run(AsyncTask.java:231)
+            at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1112)
+            at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:587)
+            at java.lang.Thread.run(Thread.java:841)
+	</description>
+		</report>
+		<report Number="90">
+			<summary>Search not working, Android 4.0?</summary>
+			<url>https://github.com/Automattic/simplenote-android/issues/229</url>
+			<bugID>Issue #229</bugID>
+			<label>bug</label>
+			<description>
+		A user complained about search not working any longer in the app, running android 4.0. He claimed it worked on earlier versions of the app. I sent him the 1.1.3 apk and it fixed his issue, so something we changed since then broke search on his device.
+	</description>
+		</report>
+		<report Number="91">
+			<summary>No line break in very large note causes lag</summary>
+			<url>https://github.com/Automattic/simplenote-android/issues/230</url>
+			<bugID>Issue #230</bugID>
+			<label>bug</label>
+			<description>
+		Randomly found this. generate a large note with thousands of characters in it, but no line breaks Go to the notes list. Observe the lag as you scroll the note in and out of view. My money is on the code that creates the title causes the lag as it hunts for a line break.
+	</description>
+		</report>
+		<report Number="92">
+			<summary>Automatic numbered list not incrementing value</summary>
+			<url>https://github.com/Automattic/simplenote-android/issues/240</url>
+			<bugID>Issue #240</bugID>
+			<label>bug</label>
+			<description>
+		Was just testing out list assist for the blog post, and noticed that numbered lists aren't increasing. They look like: `1. Testing Uh oh` @mjangda
+	</description>
+		</report>
+		<report Number="93">
+			<summary>Crash when renaming tag</summary>
+			<url>https://github.com/Automattic/simplenote-android/issues/244</url>
+			<bugID>Issue #244</bugID>
+			<label>bug</label>
+			<description>
+		Introduced in 1.2.0: java.lang.ClassCastException: com.automattic.simplenote.widgets.SourceSansTextView cannot be cast to android.widget.EditText
+at com.automattic.simplenote.TagsListActivity.onItemClick(Unknown Source)
+at android.widget.AdapterView.performItemClick(AdapterView.java:308)
+at android.widget.AbsListView.performItemClick(AbsListView.java:1476)
+at android.widget.AbsListView$PerformClick.run(AbsListView.java:3497)
+at android.widget.AbsListView.onTouchUp(AbsListView.java:4829)
+at android.widget.AbsListView.onTouchEvent(AbsListView.java:4587)
+at android.view.View.dispatchTouchEvent(View.java:8112)
+at android.view.ViewGroup.dispatchTransformedTouchEvent(ViewGroup.java:2414)
+at android.view.ViewGroup.dispatchTouchEvent(ViewGroup.java:2138)
+at android.view.ViewGroup.dispatchTransformedTouchEvent(ViewGroup.java:2420)
+at android.view.ViewGroup.dispatchTouchEvent(ViewGroup.java:2153)
+at android.view.ViewGroup.dispatchTransformedTouchEvent(ViewGroup.java:2420)
+at android.view.ViewGroup.dispatchTouchEvent(ViewGroup.java:2153)
+at android.view.ViewGroup.dispatchTransformedTouchEvent(ViewGroup.java:2420)
+at android.view.ViewGroup.dispatchTouchEvent(ViewGroup.java:2153)
+at android.view.ViewGroup.dispatchTransformedTouchEvent(ViewGroup.java:2420)
+at android.view.ViewGroup.dispatchTouchEvent(ViewGroup.java:2153)
+at android.view.ViewGroup.dispatchTransformedTouchEvent(ViewGroup.java:2420)
+at android.view.ViewGroup.dispatchTouchEvent(ViewGroup.java:2153)
+at com.android.internal.policy.impl.PhoneWindow$DecorView.superDispatchTouchEvent(PhoneWindow.java:2252)
+at com.android.internal.policy.impl.PhoneWindow.superDispatchTouchEvent(PhoneWindow.java:1587)
+at android.app.Activity.dispatchTouchEvent(Activity.java:2507)
+at com.android.internal.policy.impl.PhoneWindow$DecorView.dispatchTouchEvent(PhoneWindow.java:2200)
+at com.android.internal.policy.impl.MultiPhoneWindow$MultiPhoneDecorView.dispatchTouchEvent(MultiPhoneWindow.java:512)
+at android.view.View.dispatchPointerEvent(View.java:8320)
+at android.view.ViewRootImpl$ViewPostImeInputStage.processPointerEvent(ViewRootImpl.java:4558)
+at android.view.ViewRootImpl$ViewPostImeInputStage.onProcess(ViewRootImpl.java:4430)
+at android.view.ViewRootImpl$InputStage.deliver(ViewRootImpl.java:3988)
+at android.view.ViewRootImpl$InputStage.onDeliverToNext(ViewRootImpl.java:4042)
+at android.view.ViewRootImpl$InputStage.forward(ViewRootImpl.java:4011)
+at android.view.ViewRootImpl$AsyncInputStage.forward(ViewRootImpl.java:4122)
+at android.view.ViewRootImpl$InputStage.apply(ViewRootImpl.java:4019)
+at android.view.ViewRootImpl$AsyncInputStage.apply(ViewRootImpl.java:4179)
+at android.view.ViewRootImpl$InputStage.deliver(ViewRootImpl.java:3988)
+at android.view.ViewRootImpl$InputStage.onDeliverToNext(ViewRootImpl.java:4042)
+at android.view.ViewRootImpl$InputStage.forward(ViewRootImpl.java:4011)
+at android.view.ViewRootImpl$InputStage.apply(ViewRootImpl.java:4019)
+at android.view.ViewRootImpl$InputStage.deliver(ViewRootImpl.java:3988)
+at android.view.ViewRootImpl.deliverInputEvent(ViewRootImpl.java:6333)
+at android.view.ViewRootImpl.doProcessInputEvents(ViewRootImpl.java:6249)
+at android.view.ViewRootImpl.enqueueInputEvent(ViewRootImpl.java:6220)
+at android.view.ViewRootImpl.enqueueInputEvent(ViewRootImpl.java:6185)
+at android.view.ViewRootImpl$WindowInputEventReceiver.onInputEvent(ViewRootImpl.java:6413)
+at android.view.InputEventReceiver.dispatchInputEvent(InputEventReceiver.java:185)
+at android.os.MessageQueue.nativePollOnce(Native Method)
+at android.os.MessageQueue.next(MessageQueue.java:138)
+at android.os.Looper.loop(Looper.java:123)
+at android.app.ActivityThread.main(ActivityThread.java:5335)
+at java.lang.reflect.Method.invokeNative(Native Method)
+at java.lang.reflect.Method.invoke(Method.java:515)
+at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:1265)
+at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1081)
+at dalvik.system.NativeStart.main(Native Method)
+	</description>
+		</report>
+		<report Number="94">
+			<summary>Crashy McCrashy on Android 5.0</summary>
+			<url>https://github.com/Automattic/simplenote-android/issues/247</url>
+			<bugID>Issue #247</bugID>
+			<label>bug</label>
+			<description>
+		10-29 14:58:56.467    1457-1481/com.automattic.simplenote.debug E/AndroidRuntime﹕ FATAL EXCEPTION: GAThread
+    Process: com.automattic.simplenote.debug, PID: 1457
+    java.lang.IllegalArgumentException: Service Intent must be explicit: Intent { act=com.google.android.gms.analytics.service.START (has extras) }
+            at android.app.ContextImpl.validateServiceIntent(ContextImpl.java:1674)
+            at android.app.ContextImpl.bindServiceCommon(ContextImpl.java:1773)
+            at android.app.ContextImpl.bindService(ContextImpl.java:1751)
+            at android.content.ContextWrapper.bindService(ContextWrapper.java:538)
+            at com.google.analytics.tracking.android.AnalyticsGmsCoreClient.connect(AnalyticsGmsCoreClient.java:82)
+            at com.google.analytics.tracking.android.GAServiceProxy.connectToService(GAServiceProxy.java:279)
+            at com.google.analytics.tracking.android.GAServiceProxy.createService(GAServiceProxy.java:163)
+            at com.google.analytics.tracking.android.GAThread.init(GAThread.java:95)
+            at com.google.analytics.tracking.android.GAThread.run(GAThread.java:493)
+	</description>
+		</report>
+		<report Number="95">
+			<summary>Multi-panel interface not shown on extra large tablets</summary>
+			<url>https://github.com/Automattic/simplenote-android/issues/254</url>
+			<bugID>Issue #254</bugID>
+			<label>bug</label>
+			<description>
+		DisplayUtils should check for both large and xlarge to set up the multi pane interface.
+	</description>
+		</report>
+		<report Number="96">
+			<summary>Add Samsung 4.2 crash workaround and shadow fix</summary>
+			<url>https://github.com/Automattic/simplenote-android/issues/257</url>
+			<bugID>Issue #257</bugID>
+			<label>bug</label>
+			<description>
+		Recent WPAndroid issues will also affect Simplenote: wordpress-mobile/WordPress-Android#2151 wordpress-mobile/WordPress-Android#2148
+	</description>
+		</report>
+		<report Number="97">
+			<summary>NPE in NoteListFragment</summary>
+			<url>https://github.com/Automattic/simplenote-android/issues/260</url>
+			<bugID>Issue #260</bugID>
+			<label>bug</label>
+			<description>
+		java.lang.RuntimeException: An error occured while executing doInBackground()
+at android.os.AsyncTask$3.done(AsyncTask.java:300)
+at java.util.concurrent.FutureTask.finishCompletion(FutureTask.java:355)
+at java.util.concurrent.FutureTask.setException(FutureTask.java:222)
+at java.util.concurrent.FutureTask.run(FutureTask.java:242)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1112)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:587)
+at java.lang.Thread.run(Thread.java:818)
+Caused by: java.lang.NullPointerException: Attempt to invoke virtual method 'com.automattic.simplenote.utils.TagsAdapter$TagMenuItem com.automattic.simplenote.NotesActivity.getSelectedTag()' on a null object reference
+at com.automattic.simplenote.NoteListFragment.queryNotes(NoteListFragment.java:457)
+at com.automattic.simplenote.NoteListFragment$refreshListTask.doInBackground(NoteListFragment.java:708)
+at com.automattic.simplenote.NoteListFragment$refreshListTask.doInBackground(NoteListFragment.java:702)
+at android.os.AsyncTask$2.call(AsyncTask.java:288)
+at java.util.concurrent.FutureTask.run(FutureTask.java:237)
+... 3 more
+	</description>
+		</report>
+		<report Number="98">
+			<summary>'Edit tags' button hard to tap</summary>
+			<url>https://github.com/Automattic/simplenote-android/issues/261</url>
+			<bugID>Issue #261</bugID>
+			<label>bug</label>
+			<description>
+		Touch target is too small on the 'Edit tags' button.
+	</description>
+		</report>
+		<report Number="99">
+			<summary>Google Analytics Crash Reports Stopped Working</summary>
+			<url>https://github.com/Automattic/simplenote-android/issues/262</url>
+			<bugID>Issue #262</bugID>
+			<label>bug</label>
+			<description>
+		Since we updated the google analytics module, it stopped reporting crashes.
+	</description>
+		</report>
+		<report Number="100">
+			<summary>NPE when doing shared element transition</summary>
+			<url>https://github.com/Automattic/simplenote-android/issues/264</url>
+			<bugID>Issue #264</bugID>
+			<label>bug</label>
+			<description>
+		Might be best to not do the fancy element transition if it's going to crash :( java.lang.NullPointerException: Attempt to invoke virtual method 'int android.view.ViewGroup.getScrollX()' on a null object reference
+at android.app.ActivityTransitionCoordinator.setSharedElementState(ActivityTransitionCoordinator.java:435)
+at android.app.ActivityTransitionCoordinator.setSharedElementState(ActivityTransitionCoordinator.java:473)
+at android.app.EnterTransitionCoordinator.startSharedElementTransition(EnterTransitionCoordinator.java:332)
+at android.app.EnterTransitionCoordinator.access$200(EnterTransitionCoordinator.java:42)
+at android.app.EnterTransitionCoordinator$5$1.run(EnterTransitionCoordinator.java:389)
+at android.app.ActivityTransitionCoordinator.startTransition(ActivityTransitionCoordinator.java:698)
+at android.app.EnterTransitionCoordinator$5.onPreDraw(EnterTransitionCoordinator.java:386)
+at android.view.ViewTreeObserver.dispatchOnPreDraw(ViewTreeObserver.java:847)
+at android.view.ViewRootImpl.performTraversals(ViewRootImpl.java:1956)
+at android.view.ViewRootImpl.doTraversal(ViewRootImpl.java:1054)
+at android.view.ViewRootImpl$TraversalRunnable.run(ViewRootImpl.java:5779)
+at android.view.Choreographer$CallbackRecord.run(Choreographer.java:767)
+at android.view.Choreographer.doCallbacks(Choreographer.java:580)
+at android.view.Choreographer.doFrame(Choreographer.java:550)
+at android.view.Choreographer$FrameDisplayEventReceiver.run(Choreographer.java:753)
+at android.os.Handler.handleCallback(Handler.java:739)
+at android.os.Handler.dispatchMessage(Handler.java:95)
+at android.os.Looper.loop(Looper.java:135)
+at android.app.ActivityThread.main(ActivityThread.java:5221)
+at java.lang.reflect.Method.invoke(Native Method)
+at java.lang.reflect.Method.invoke(Method.java:372)
+at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:899)
+at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:694)
+	</description>
+		</report>
+		<report Number="101">
+			<summary>ClassCastException in NoteEditorFragment</summary>
+			<url>https://github.com/Automattic/simplenote-android/issues/268</url>
+			<bugID>Issue #268</bugID>
+			<label>bug</label>
+			<description>
+		java.lang.ClassCastException: com.automattic.simplenote.NotesActivity cannot be cast to com.automattic.simplenote.NoteEditorActivity
+at com.automattic.simplenote.NoteEditorFragment.onSelectionChanged(NoteEditorFragment.java:887)
+at com.automattic.simplenote.widgets.SimplenoteEditText.onSelectionChanged(SimplenoteEditText.java:45)
+at android.widget.TextView.spanChange(TextView.java:7340)
+at android.widget.TextView$ChangeWatcher.onSpanChanged(TextView.java:8901)
+at android.text.SpannableStringBuilder.sendSpanChanged(SpannableStringBuilder.java:999)
+at android.text.SpannableStringBuilder.setSpan(SpannableStringBuilder.java:658)
+at android.text.SpannableStringBuilder.setSpan(SpannableStringBuilder.java:588)
+at android.text.Selection.setSelection(Selection.java:78)
+at android.text.Selection.setSelection(Selection.java:87)
+at android.widget.Editor.onFocusChanged(Editor.java:873)
+at android.widget.TextView.onFocusChanged(TextView.java:7449)
+at android.view.View.handleFocusGainInternal(View.java:4380)
+at android.view.View.requestFocusNoSearch(View.java:6668)
+at android.view.View.requestFocus(View.java:6647)
+at android.view.View.requestFocus(View.java:6614)
+at android.view.View.requestFocus(View.java:6593)
+at android.widget.Editor.startSelectionActionMode(Editor.java:1497)
+at android.widget.Editor.performLongClick(Editor.java:839)
+at android.widget.TextView.performLongClick(TextView.java:8066)
+at android.view.View$CheckForLongPress.run(View.java:17351)
+at android.os.Handler.handleCallback(Handler.java:725)
+at android.os.Handler.dispatchMessage(Handler.java:92)
+at android.os.Looper.loop(Looper.java:137)
+at android.app.ActivityThread.main(ActivityThread.java:5042)
+at java.lang.reflect.Method.invokeNative(Native Method)
+at java.lang.reflect.Method.invoke(Method.java:511)
+at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:793)
+at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:560)
+at dalvik.system.NativeStart.main(Native Method)
+	</description>
+		</report>
+		<report Number="102">
+			<summary>Search results not showing in editor</summary>
+			<url>https://github.com/Automattic/simplenote-android/issues/271</url>
+			<bugID>Issue #271</bugID>
+			<label>bug</label>
+			<description>
+		Since 1.3, search results aren't showing in the post editor.
+	</description>
+		</report>
+		<report Number="103">
+			<summary>Duplicate menu items showing on landscape tablet</summary>
+			<url>https://github.com/Automattic/simplenote-android/issues/272</url>
+			<bugID>Issue #272</bugID>
+			<label>bug</label>
+			<description>
+		Share and trash are duplicated on landscape tablets.
+	</description>
+		</report>
+		<report Number="104">
+			<summary>PIN lock can be skipped by sharing a note</summary>
+			<url>https://github.com/Automattic/simplenote-android/issues/281</url>
+			<bugID>Issue #281</bugID>
+			<label>bug</label>
+			<description>
+		If you share content to simplenote, you don't get prompted for the PIN lock if it is enabled.
+	</description>
+		</report>
+		<report Number="105">
+			<summary>PIN unlock screen tiny in landscape</summary>
+			<url>https://github.com/Automattic/simplenote-android/issues/289</url>
+			<bugID>Issue #289</bugID>
+			<label>bug</label>
+			<description>
+		The PIN unlock screen doesn't fill up the whole screen when the tablet is in landscape. It works in Portrait. A user on Twitter reported this and I have confirmed: https://twitter.com/frumble/status/602243768482459648/photo/1
+	</description>
+		</report>
+		<report Number="106">
+			<summary>Creating notes without an account can result in losing notes</summary>
+			<url>https://github.com/Automattic/simplenote-android/issues/291</url>
+			<bugID>Issue #291</bugID>
+			<label>bug</label>
+			<description>
+		When you first open the Android app after downloading it there's an option at the bottom of the screen to &quot;just try the app&quot;. This will let users create notes without signing into, or creating, an account. If they later create a new account in the app the notes are copied into it. However if they sign into an existing account, the notes that were created offline will appear on the device but they never appear in the same account when signing in through a web browser. If the user then signs out of their account on the device and signs back in again, all those &quot;local notes&quot; are lost. I think it might be better to remove the option to create notes without an account, or at the very least, provide a warning that signing into an account will result in notes being lost. I hope this makes sense! Ticket: https://simplenote.desk.com/agent/case/62933
+	</description>
+		</report>
+		<report Number="107">
+			<summary>Two Panel Tablet Layout is Broken</summary>
+			<url>https://github.com/Automattic/simplenote-android/issues/305</url>
+			<bugID>Issue #305</bugID>
+			<label>bug</label>
+			<description>
+		The two panel table layout isn't rendering correctly in develop.
+	</description>
+		</report>
+		<report Number="108">
+			<summary>CAB is wrong color in Dark Theme</summary>
+			<url>https://github.com/Automattic/simplenote-android/issues/307</url>
+			<bugID>Issue #307</bugID>
+			<label>bug</label>
+			<description>
+		The CAB has a white background color, it should be dark grey.
+	</description>
+		</report>
+		<report Number="109">
+			<summary>FAB covers up editor text on landscape tablet</summary>
+			<url>https://github.com/Automattic/simplenote-android/issues/308</url>
+			<bugID>Issue #308</bugID>
+			<label>bug</label>
+			<description>
+		If you are on a landscape tablet, the FAB covers up the text in the note editor. The FAB should be shown over the notes list.
+	</description>
+		</report>
+		<report Number="110">
+			<summary>Lighten font colour dark theme to match Settings</summary>
+			<url>https://github.com/Automattic/simplenote-android/issues/327</url>
+			<bugID>Issue #327</bugID>
+			<label>bug</label>
+			<description>
+		The font colour in the dark theme is hard to read and different to the font used on the Settings screen. Can it be changed to match Settings? https://twitter.com/kirmizizebercet/status/672728214758887424
+	</description>
+		</report>
+		<report Number="111">
+			<summary>History: Cursor jumps to beginning of note</summary>
+			<url>https://github.com/Automattic/simplenote-android/issues/333</url>
+			<bugID>Issue #333</bugID>
+			<label>bug</label>
+			<description>
+		If you're browsing a note's history, the cursor will jump to the first line. It should try to keep the current position if possible.
+	</description>
+		</report>
+		<report Number="112">
+			<summary>Version loading gets stuck</summary>
+			<url>https://github.com/Automattic/simplenote-android/issues/337</url>
+			<bugID>Issue #337</bugID>
+			<label>bug</label>
+			<description>
+		If you try to view the history for a note before all the notes have finished downloading, it will show the loading indicator endlessly.
+	</description>
+		</report>
+		<report Number="113">
+			<summary>Google Now can bypass passcode</summary>
+			<url>https://github.com/Automattic/simplenote-android/issues/338</url>
+			<bugID>Issue #338</bugID>
+			<label>bug</label>
+			<description>
+		Steps: Install Google now and enable voice detection Set up a pin lock on Simplenote Launch Simplenote but don't type in the pin code Say &quot;Ok Google&quot; then &quot;Simplenote&quot; All the notes appear without having to type in the pin code Reported here: https://simplenotep2.wordpress.com/2016/01/19/activating-simplenote-through-google-now-skips-the-pin-lock/
+	</description>
+		</report>
+		<report Number="114">
+			<summary>High battery usage</summary>
+			<url>https://github.com/Automattic/simplenote-android/issues/347</url>
+			<bugID>Issue #347</bugID>
+			<label>bug</label>
+			<description>
+		I've had a few reports of this. They say the battery drains really quickly when the app is running in the background. When they force quit the app it's fine. This user is Android Marshmallow on Nexus 6P
+	</description>
+		</report>
+		<report Number="115">
+			<summary>1.5: Can't Empty Trash</summary>
+			<url>https://github.com/Automattic/simplenote-android/issues/353</url>
+			<bugID>Issue #353</bugID>
+			<label>bug</label>
+			<description>
+		Select the trash Observe that the 'empty trash' button is no longer there.
+	</description>
+		</report>
+		<report Number="116">
+			<summary>Garbled Characters in Markdown (UTF-8)</summary>
+			<url>https://github.com/Automattic/simplenote-android/issues/405</url>
+			<bugID>Issue #405</bugID>
+			<label>bug</label>
+			<description>
+		Originally reported at Automattic/simplenote-electron#444 Steps to reproduce update to mobile ver 1.5.2 create note, write some text in russian enable markdown in note change to preview mode What I expected Text in russian What happened instead Text in not russsian :) OS version android 6.0.1 Screenshot / Video
+	</description>
+		</report>
+		<report Number="117">
+			<summary>Navigation Drawer Shows Incorrect Selection on Nougat</summary>
+			<url>https://github.com/Automattic/simplenote-android/issues/421</url>
+			<bugID>Issue #421</bugID>
+			<label>bug</label>
+			<description>
+		Expected The navigation drawer shows a light blue background with blue icon and text for the selected item for all API levels. Observed The navigation drawer can have different highlighted and selected items for Nougat. See the screenshots below for example. In the All Notes (Trash) screenshot, the All Notes item is selected while the Trash item's icon and text remains highlighted. In the Trash (All Notes) screenshot, the Trash item is selected while the All Notes item's icon and text remains highlighted. Reproduced Open navigation drawer. Tap All Notes item. Tap any note from All Notes list. Tap back arrow in action bar. Open navigation drawer. Notice All Notes is highlighted and selected. Tap Trash item. Open navigation drawer. Notice All Notes is highlighted and Trash is selected. Close navigation drawer. Tap any note from Trash list. Tap back arrow in action bar. Open navigation drawer. Notice Trash is highlighted and selected. Tap All Notes item. Open navigation drawer. Notice All Notes is selected and Trash is highlighted. Tested Google Pixel on Android 7.1.1 with Simplenote 1.5.5 👍 1
+	</description>
+		</report>
+		<report Number="118">
+			<summary>Infinite failed PIN lock attempts</summary>
+			<url>https://github.com/Automattic/simplenote-android/issues/427</url>
+			<bugID>Issue #427</bugID>
+			<label>bug</label>
+			<description>
+		Not sure if this is intended but failing to enter the correct PIN lock code allows you to keep trying an infinite (tested up to 34 on my end) number of times Steps to reproduce: Launch Simplenote. Activate the PIN lock feature under Settings &gt; Turn PIN lock On. Add a 4 digit passcode, for instance 1234. Close the app and relaunch. Enter a wrong passcode. Keep entering the wrong passcode. What would I expect? As you get stuck in the unlock screen and there's no message for the user on how to workaround that or access to their notes, I'd suggest a message after 3 failed attempts on the lines of &quot;Have you lost access to Simplenote? You can regain access by re-installing the app and logging into your account.&quot; As reinstalling the app would request your email and password in order to log in, that should be alright and at the same time there's an effective way to get out of the loop of not being able to access to your account and not getting a message on how to solve that.
+	</description>
+		</report>
+		<report Number="119">
+			<summary>Case sensitive seach for Cyrillic characters</summary>
+			<url>https://github.com/Automattic/simplenote-android/issues/438</url>
+			<bugID>Issue #438</bugID>
+			<label>bug</label>
+			<description>
+		Reported at 3107673-t , seems that Cyrillic characters (for example, Russian) are case sensitive in the search field. If you're looking for the notes with a certain word, only those notes with the exact same case match will show up. Steps to reproduce: 1 - Switch your input keyboard to Russian. 2 - Create two notes with the same string but different casing, for example: Я люблю гречку and Я Люблю гречку 3 - Search for one of the strings, foe example люблю . Only one note shows up instead of both. In English works, and also other versions, the problem seems to be just in Android.
+	</description>
+		</report>
+		<report Number="120">
+			<summary>Crash loading markdown in NoteEditorFragment</summary>
+			<url>https://github.com/Automattic/simplenote-android/issues/444</url>
+			<bugID>Issue #444</bugID>
+			<label>bug</label>
+			<description>
+		Fatal Exception: java.lang.NullPointerException: Attempt to invoke virtual method 'void android.webkit.WebView.loadDataWithBaseURL(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)' on a null object reference
+       at com.automattic.simplenote.NoteEditorFragment.loadMarkdownData(Unknown Source)
+       at com.automattic.simplenote.NoteEditorFragment.access$2400(Unknown Source)
+       at com.automattic.simplenote.NoteEditorFragment$saveNoteTask.onPostExecute(Unknown Source)
+       at com.automattic.simplenote.NoteEditorFragment$saveNoteTask.onPostExecute(Unknown Source)
+       at android.os.AsyncTask.finish(AsyncTask.java:651)
+       at android.os.AsyncTask.access$500(AsyncTask.java:180)
+       at android.os.AsyncTask$InternalHandler.handleMessage(AsyncTask.java:668)
+       at android.os.Handler.dispatchMessage(Handler.java:102)
+       at android.os.Looper.loop(Looper.java:148)
+       at android.app.ActivityThread.main(ActivityThread.java:5417)
+       at java.lang.reflect.Method.invoke(Method.java)
+       at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:726)
+       at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:616)
+	</description>
+		</report>
+		<report Number="121">
+			<summary>Trash Action Shows Disabled Icon for Enabled State</summary>
+			<url>https://github.com/Automattic/simplenote-android/issues/469</url>
+			<bugID>Issue #469</bugID>
+			<label>bug</label>
+			<description>
+		Observed The trash icon in the navigation drawer and the toolbar show a disabled state when the action is actually enabled. Expected The trash icon in the navigation drawer and the toolbar show a disabled state when the action is disabled and an enabled state when the action is enabled. Reproduced Go to Trash. Empty trash if trashed notes exist. Notice disabled Trash icon and disabled action. Go to All Notes. Open any note. Notice disabled Trash icon and enabled action. See the screenshots below for illustration. Tested Google Pixel on Android 7.1.1 with Simplenote 1.5.6
+	</description>
+		</report>
+	</reports>
